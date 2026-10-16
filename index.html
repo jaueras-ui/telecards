@@ -518,16 +518,11 @@
       return 'Avulso';
     }
 
-    function formatarCaminhoImagem(caminho, operator) {
-      if (!caminho || caminho.includes('placeholder.com')) return '';
-      if (caminho.startsWith('data:image')) return caminho;
+    function formatarCaminhoImagem(caminho, operator, ref) {
+      if (caminho && caminho.startsWith('data:image')) return caminho;
 
-      let limpo = caminho.trim().replace(/\\/g, '/');
+      let limpo = (caminho || '').trim().replace(/\\/g, '/');
       if (limpo.startsWith('http://') || limpo.startsWith('https://')) return limpo;
-
-      let partes = limpo.split('/');
-      let nomeArq = partes[partes.length - 1];
-      if (!nomeArq) return '';
 
       const op = (operator || '').toLowerCase()
         .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -548,7 +543,18 @@
       else if (op.includes('telerj')) opPasta = 'telerj';
       else if (op.includes('sercomtel')) opPasta = 'sercomtel';
 
+      // REGRA UNIVERSAL: Se o caminho estiver em branco, gera automaticamente usando a operadora e a referência
+      if (!limpo || limpo.includes('placeholder.com')) {
+        if (ref) {
+          return `fotos/${opPasta}/${ref}.jpg`;
+        }
+        return '';
+      }
+
       if (limpo.startsWith('fotos/')) return limpo;
+      let partes = limpo.split('/');
+      let nomeArq = partes[partes.length - 1];
+      if (!nomeArq) return '';
       return `fotos/${opPasta}/${nomeArq}`;
     }
 
@@ -576,7 +582,7 @@
               ref: ref,
               operator: op,
               price: price,
-              image: formatarCaminhoImagem(item.image || item.foto || item.caminho || '', op),
+              image: formatarCaminhoImagem(item.image || item.foto || item.caminho || '', op, ref),
               type: classifyCardType(title)
             });
           }
@@ -618,10 +624,10 @@
     externalCards.forEach(card => {
       if (localEdits[card.id]) {
         card.operator = localEdits[card.id].operator || card.operator;
-        card.image = formatarCaminhoImagem(localEdits[card.id].image || card.image, card.operator);
         card.price = localEdits[card.id].price !== undefined ? localEdits[card.id].price : card.price;
         card.title = localEdits[card.id].title || card.title;
         card.ref = localEdits[card.id].ref !== undefined ? localEdits[card.id].ref : (card.ref || card.id);
+        card.image = formatarCaminhoImagem(localEdits[card.id].image || card.image, card.operator, card.ref);
         card.type = classifyCardType(card.title);
       }
     });
@@ -629,8 +635,8 @@
     let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
     customCards = customCards.filter(c => !hiddenCards.includes(c.id));
     customCards.forEach(c => {
-      c.image = formatarCaminhoImagem(c.image, c.operator);
       c.ref = c.ref || c.id;
+      c.image = formatarCaminhoImagem(c.image, c.operator, c.ref);
       c.price = (!isNaN(parseFloat(c.price)) && parseFloat(c.price) > 0) ? parseFloat(c.price) : 2.00;
       c.type = classifyCardType(c.title);
     });
@@ -1235,7 +1241,7 @@
       const price = parseFloat(document.getElementById('f-price').value) || 2.00;
       let image = document.getElementById('f-image').value;
       if (!image.startsWith('data:image')) {
-        image = formatarCaminhoImagem(image, operator);
+        image = formatarCaminhoImagem(image, operator, ref);
       }
       const type = classifyCardType(title);
 
