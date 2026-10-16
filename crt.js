@@ -5,7 +5,7 @@ window.crtData = [
     "ref": "001-CRT-CAP-C",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/001-CRT-CAP-C.jpg"
   },
   {
     "id": "crt-002-bel-av3",
@@ -13,7 +13,7 @@ window.crtData = [
     "ref": "002-CRT-BEL-AV3",
     "operator": "CRT",
     "price": 4.00,
-    "image": ""
+    "image": "fotos/crt/002-CRT-BEL-AV3.jpg"
   },
   {
     "id": "crt-002-bel-av6",
@@ -21,7 +21,7 @@ window.crtData = [
     "ref": "002-CRT-BEL-AV6",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/002-CRT-BEL-AV6.jpg"
   },
   {
     "id": "crt-002-bel-av7",
@@ -29,7 +29,7 @@ window.crtData = [
     "ref": "002-CRT-BEL-AV7",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/002-CRT-BEL-AV7.jpg"
   },
   {
     "id": "crt-002-bel-av2",
@@ -37,7 +37,7 @@ window.crtData = [
     "ref": "002-CRT-BEL-AV2",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/002-CRT-BEL-AV2.jpg"
   },
   {
     "id": "crt-002-bel-av8",
@@ -45,7 +45,7 @@ window.crtData = [
     "ref": "002-CRT-BEL-AV8",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/002-CRT-BEL-AV8.jpg"
   },
   {
     "id": "crt-002-bel-av10",
@@ -53,7 +53,7 @@ window.crtData = [
     "ref": "002-CRT-BEL-AV10",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/002-CRT-BEL-AV10.jpg"
   },
   {
     "id": "crt-003-prop-casa",
@@ -61,7 +61,7 @@ window.crtData = [
     "ref": "003-CRT-PROP-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/003-CRT-PROP-AV1.jpg"
   },
   {
     "id": "crt-003-prop-bombeiro",
@@ -69,7 +69,7 @@ window.crtData = [
     "ref": "003-CRT-PROP-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/003-CRT-PROP-AV1.jpg"
   },
   {
     "id": "crt-005-cid-av1",
@@ -77,7 +77,7 @@ window.crtData = [
     "ref": "005-CRT-CID-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/005-CRT-CID-AV1.jpg"
   },
   {
     "id": "crt-006-pre-av10",
@@ -85,7 +85,7 @@ window.crtData = [
     "ref": "006-CRT-PRE-AV10",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/006-CRT-PRE-AV10.jpg"
   },
   {
     "id": "crt-006-pre-av7",
@@ -93,7 +93,7 @@ window.crtData = [
     "ref": "006-CRT-PRE-AV7",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/006-CRT-PRE-AV7.jpg"
   },
   {
     "id": "crt-007-tor-av5",
@@ -101,7 +101,7 @@ window.crtData = [
     "ref": "007-CRT-TOR-AV5",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/007-CRT-TOR-AV5.jpg"
   },
   {
     "id": "crt-008-tec-av4",
@@ -109,7 +109,7 @@ window.crtData = [
     "ref": "008-CRT-TEC-AV4",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/008-CRT-TEC-AV4.jpg"
   },
   {
     "id": "crt-008-tec-av5",
@@ -117,7 +117,7 @@ window.crtData = [
     "ref": "008-CRT-TEC-AV5",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/008-CRT-TEC-AV5.jpg"
   },
   {
     "id": "crt-009-caes-av2",
@@ -125,7 +125,7 @@ window.crtData = [
     "ref": "009-CRT-CAES-AV2",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/009-CRT-CAES-AV2.jpg"
   },
   {
     "id": "crt-010-sle-av1",
@@ -133,7 +133,7 @@ window.crtData = [
     "ref": "010-CRT-SLE-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/010-CRT-SLE-AV1.jpg"
   },
   {
     "id": "crt-011-avi-av1",
@@ -141,7 +141,7 @@ window.crtData = [
     "ref": "011-CRT-AVI-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/011-CRT-AVI-AV1.jpg"
   },
   {
     "id": "crt-012-prop-fico",
@@ -149,7 +149,7 @@ window.crtData = [
     "ref": "012-CRT-PROP-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/012-CRT-PROP-AV1.jpg"
   },
   {
     "id": "crt-012-prop-dores",
@@ -157,7 +157,7 @@ window.crtData = [
     "ref": "012-CRT-PROP-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/012-CRT-PROP-AV1.jpg"
   },
   {
     "id": "crt-013-est-av3",
@@ -165,7 +165,7 @@ window.crtData = [
     "ref": "013-CRT-EST-AV3",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/013-CRT-EST-AV3.jpg"
   },
   {
     "id": "crt-014-cid-av4",
@@ -173,7 +173,7 @@ window.crtData = [
     "ref": "014-CRT-CID-AV4",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/014-CRT-CID-AV4.jpg"
   },
   {
     "id": "crt-015-tel-c",
@@ -181,7 +181,7 @@ window.crtData = [
     "ref": "015-CRT-TEL-C",
     "operator": "CRT",
     "price": 4.00,
-    "image": ""
+    "image": "fotos/crt/015-CRT-TEL-C.jpg"
   },
   {
     "id": "crt-015-tel-av1",
@@ -189,7 +189,7 @@ window.crtData = [
     "ref": "015-CRT-TEL-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/015-CRT-TEL-AV1.jpg"
   },
   {
     "id": "crt-016-car-av3",
@@ -197,7 +197,7 @@ window.crtData = [
     "ref": "016-CRT-CAR-AV3",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/016-CRT-CAR-AV3.jpg"
   },
   {
     "id": "crt-016-car-av1",
@@ -205,7 +205,7 @@ window.crtData = [
     "ref": "016-CRT-CAR-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/016-CRT-CAR-AV1.jpg"
   },
   {
     "id": "crt-017-500-av1",
@@ -213,7 +213,7 @@ window.crtData = [
     "ref": "017-CRT-500-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/017-CRT-500-AV1.jpg"
   },
   {
     "id": "crt-018-crt-c",
@@ -221,7 +221,7 @@ window.crtData = [
     "ref": "018-CRT-CRT-C",
     "operator": "CRT",
     "price": 4.00,
-    "image": ""
+    "image": "fotos/crt/018-CRT-CRT-C.jpg"
   },
   {
     "id": "crt-019-nam-av1",
@@ -229,6 +229,6 @@ window.crtData = [
     "ref": "019-CRT-NAM-AV1",
     "operator": "CRT",
     "price": 1.00,
-    "image": ""
+    "image": "fotos/crt/019-CRT-NAM-AV1.jpg"
   }
 ];
