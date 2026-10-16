@@ -126,5 +126,13 @@ window.cbtcData = [
     "operator": "CBTC",
     "price": 1.00,
     "image": ""
+  },
+  {
+    "id": "cbtc-008-ami-12",
+    "title": "CBTC - Série Amigos - card nº 12",
+    "ref": "008-CBTC-AMI-INC",
+    "operator": "CBTC",
+    "price": 1.00,
+    "image": ""
   }
 ];
