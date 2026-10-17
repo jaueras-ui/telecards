@@ -5,7 +5,7 @@ window.oiData = [
     "ref": "001-OI-AZUL-C",
     "operator": "Oi",
     "price": 6,
-    "image": "fotos/oi/001-OI-AZUL-C.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-07-06-520_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-azul-av1-saldo",
@@ -13,7 +13,7 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/001-OI-AZUL-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-07-20-074_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-azul-av1-serrote",
@@ -21,7 +21,7 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/001-OI-AZUL-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-07-46-740_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-azul-av1-alicate",
@@ -29,7 +29,7 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/001-OI-AZUL-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-07-34-877_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-azul-av1-algema",
@@ -37,7 +37,7 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/001-OI-AZUL-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-08-06-496_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-verde-c",
@@ -45,7 +45,7 @@ window.oiData = [
     "ref": "002-OI-VERDE-C",
     "operator": "Oi",
     "price": 5,
-    "image": "fotos/oi/002-OI-VERDE-C.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-14-29-118_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-verde-av1-capa",
@@ -53,7 +53,7 @@ window.oiData = [
     "ref": "002-OI-VERDE-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/002-OI-VERDE-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-14-41-684_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-verde-av1-mulher",
@@ -61,7 +61,7 @@ window.oiData = [
     "ref": "002-OI-VERDE-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/002-OI-VERDE-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-14-57-863_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-laranja-c",
@@ -69,7 +69,7 @@ window.oiData = [
     "ref": "003-OI-LAR-C",
     "operator": "Oi",
     "price": 6,
-    "image": "fotos/oi/003-OI-LAR-C.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-19-59-429_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-laranja-av1-capa",
@@ -77,7 +77,7 @@ window.oiData = [
     "ref": "003-OI-LAR-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/003-OI-LAR-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-20-11-031_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-laranja-av1-valor",
@@ -85,7 +85,7 @@ window.oiData = [
     "ref": "003-OI-LAR-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/003-OI-LAR-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-20-52-591_com.intsig.camscanner-edit.jpg"
   },
   {
     "id": "oi-laranja-av1-familia",
@@ -93,6 +93,6 @@ window.oiData = [
     "ref": "003-OI-LAR-AV01",
     "operator": "Oi",
     "price": 1,
-    "image": "fotos/oi/003-OI-LAR-AV01.jpg"
+    "image": "fotos/oi/Screenshot_2026-09-20-21-20-24-441_com.intsig.camscanner-edit.jpg"
   }
 ];
