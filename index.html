@@ -308,9 +308,15 @@
         <button onclick="toggleCartModal(false)" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
       </div>
 
-      <div class="flex-grow overflow-y-auto space-y-3 pr-1" id="cart-items-list" style="max-height: 50vh;"></div>
+      <div class="flex-grow overflow-y-auto space-y-3 pr-1" id="cart-items-list" style="max-height: 45vh;"></div>
 
       <div class="pt-3 border-t border-brand-border flex-shrink-0 space-y-3">
+        <!-- Aviso Visual sobre Reserva de Disponibilidade -->
+        <div class="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-[11px] text-amber-300 leading-snug flex items-start gap-2">
+          <i class="fa-solid fa-circle-info text-amber-400 text-xs mt-0.5 flex-shrink-0"></i>
+          <span><strong>Aviso de Reserva:</strong> Ao enviar o pedido, a disponibilidade dos cartões selecionados será confirmada diretamente com o colecionador pelo WhatsApp.</span>
+        </div>
+
         <div class="flex justify-between items-center font-bold">
           <span class="text-slate-400 text-xs uppercase tracking-wider">Total Estimado:</span>
           <span id="cart-total-price" class="text-brand-accent text-lg font-black">R$ 0,00</span>
@@ -325,7 +331,7 @@
     </div>
   </div>
 
-  <!-- Modal Exportar / Baixar JS (OTIMIZADO) -->
+  <!-- Modal Exportar / Baixar JS -->
   <div id="export-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-md w-full space-y-4 border border-brand-border shadow-2xl text-xs max-h-[85vh] flex flex-col">
       <div class="flex justify-between items-center border-b border-brand-border pb-3 flex-shrink-0">
@@ -339,10 +345,8 @@
         Escolha abaixo qual(is) operadora(s) ativa(s) você deseja gerar e baixar os arquivos atualizados com suas edições e correções:
       </p>
 
-      <!-- Área de seleção de operadoras com barra de rolagem e altura ajustada -->
       <div class="space-y-2 py-2 overflow-y-auto flex-grow pr-1 max-h-[50vh]" id="export-checkboxes-container"></div>
 
-      <!-- Rodapé do modal fixo na parte inferior -->
       <div class="flex justify-end gap-2 pt-3 border-t border-brand-border flex-shrink-0">
         <button type="button" onclick="closeExportModal()" class="px-4 py-2.5 bg-brand-dark text-slate-300 font-bold rounded-xl hover:bg-brand-border transition-all">Cancelar</button>
         <button type="button" onclick="downloadSelectedJS()" class="px-5 py-2.5 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-500 transition-all shadow-lg shadow-indigo-600/30">Baixar Selecionados</button>
@@ -350,7 +354,7 @@
     </div>
   </div>
 
-  <!-- Modal Vinculador Rápido com Conversão Direta (Base64 Visual) -->
+  <!-- Modal Vinculador Rápido -->
   <div id="linker-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-5xl w-full space-y-4 border border-brand-border shadow-2xl max-h-[90vh] flex flex-col">
       <div class="flex justify-between items-center border-b border-brand-border pb-3 flex-shrink-0">
@@ -937,7 +941,7 @@
       const cartItems = cards.filter(c => cart.includes(c.id));
       if (cartItems.length === 0) return;
       let total = 0;
-      let text = "Olá! Tenho interesse nos seguintes cartões do acervo TeleCards:\n\n";
+      let text = "Olá! Gostaria de verificar a disponibilidade e consultar os seguintes cartões do acervo TeleCards:\n\n";
       
       cartItems.forEach(c => {
         total += parseFloat(c.price || 0);
@@ -945,7 +949,7 @@
         text += `• ${c.title}${refText} (${c.operator}) - R$ ${parseFloat(c.price || 0).toFixed(2)}\n`;
       });
       
-      text += `\n*Total:* R$ ${total.toFixed(2)}`;
+      text += `\n*Total Estimado:* R$ ${total.toFixed(2)}\n\n_Aguardando confirmação de disponibilidade._`;
       window.open(`https://api.whatsapp.com/send?phone=5519991203110&text=${encodeURIComponent(text)}`, '_blank');
     }
 
