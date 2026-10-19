@@ -1195,7 +1195,6 @@
       const op = document.getElementById('linker-operator').value;
       const imageData = featuredImg.dataUrl;
 
-      // 1. Salva a edição localmente
       localEdits[cardId] = { 
         ...(localEdits[cardId] || {}), 
         image: imageData, 
@@ -1203,7 +1202,6 @@
       };
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
-      // 2. Atualiza o objeto do cartão no array principal em memória
       const card = cards.find(c => c.id === cardId);
       if (card) {
         card.image = imageData;
@@ -1211,10 +1209,8 @@
         card.type = classifyCardType(card.title);
       }
 
-      // 3. Recarrega a lista de cartões da operadora para refletir o selo "Com Foto" imediatamente
       loadOperatorCardsForQueue();
 
-      // 4. Avança automaticamente para a próxima foto da fila
       if (queueFiles.length > 0) {
         currentImageIndex = (currentImageIndex + 1) % queueFiles.length;
         updateFeaturedImage();
@@ -1279,7 +1275,7 @@
           }
         }
         
-        const cardObj = cards.find(c => c.id === cardId);
+        const cardObj = cards.find(c => c.id === id);
         if (cardObj) {
           cardObj.title = title;
           cardObj.ref = ref;
