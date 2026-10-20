@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TeleCards - Painel de Controle e Acervo</title>
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -23,16 +24,20 @@
   </script>
 
   <style>
-    body {
-      background-color: #0a0a0f;
-      color: #f1f5f9;
-      font-family: 'Inter', sans-serif;
-    }
-    .card-stack-1 { transform: rotate(-6deg) translateY(10px); }
-    .card-stack-2 { transform: rotate(4deg) translate(15px, -10px); }
+    body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-serif; }
+    
+    /* Scrollbar personalizada para as operadoras flutuantes */
+    .custom-scroll::-webkit-scrollbar { height: 6px; width: 6px; }
+    .custom-scroll::-webkit-scrollbar-track { background: #0a0a0f; }
+    .custom-scroll::-webkit-scrollbar-thumb { background: #2a2a3c; border-radius: 3px; }
+    .custom-scroll::-webkit-scrollbar-thumb:hover { background: #ff0055; }
+
+    /* Efeito de cartas sobrepostas */
+    .card-stack-1 { transform: rotate(-6deg) translateY(10px); transition: all 0.5s ease; }
+    .card-stack-2 { transform: rotate(4deg) translate(15px, -10px); transition: all 0.5s ease; }
   </style>
 
-  <!-- Sub-arquivos JS das Operadoras -->
+  <!-- Inclusão das Operadoras -->
   <script src="brasiltelecom.js" onerror="console.log('brasiltelecom.js não encontrado')"></script>
   <script src="telefonica.js" onerror="console.log('telefonica.js não encontrado')"></script>
   <script src="telebras.js" onerror="console.log('telebras.js não encontrado')"></script>
@@ -51,29 +56,29 @@
 </head>
 <body class="min-h-screen flex flex-col">
 
-  <!-- Header -->
+  <!-- Header Superior -->
   <header class="sticky top-0 z-40 bg-brand-dark/90 backdrop-blur-md border-b border-brand-border">
     <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between shadow-sm">
       
-      <!-- Logo com Foto -->
       <div class="flex items-center gap-3.5">
         <div class="relative flex-shrink-0">
           <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-accent shadow-lg shadow-brand-accent/30 bg-brand-card flex items-center justify-center">
             <img src="minha_foto.png" alt="Minha Foto" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='minha_foto.jpg';">
           </div>
-          <span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-emerald-500 border-2 border-brand-dark rounded-full" title="Online"></span>
+          <span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-emerald-500 border-2 border-brand-dark rounded-full"></span>
         </div>
         <div class="flex flex-col flex-shrink-0">
           <span class="text-2xl font-black tracking-tight text-white leading-none">Tele<span class="text-brand-accent">Cards</span></span>
         </div>
       </div>
       
-      <!-- Botões de Ação no Topo -->
       <div class="flex items-center gap-3">
+        <!-- Botão Meu Álbum -->
         <button id="btn-album" class="bg-brand-accent/20 hover:bg-brand-accent/30 text-brand-accent border border-brand-accent/40 px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-2">
           <i class="fa-solid fa-book-bookmark"></i> Meu Álbum <span id="count-album" class="bg-brand-accent text-white px-2 py-0.5 rounded-full text-[10px]">0</span>
         </button>
 
+        <!-- Seletor de Modos -->
         <div class="bg-brand-card p-1 rounded-xl border border-brand-border flex gap-1">
           <button id="btn-visitor" onclick="setViewMode('visitor')" class="px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow">
             <i class="fa-regular fa-eye mr-1.5"></i>Modo Visitante
@@ -82,20 +87,15 @@
             <i class="fa-solid fa-user-gear mr-1.5"></i>Modo Bastidores
           </button>
         </div>
-
-        <button id="btn-vinculador" class="bg-emerald-500 hover:bg-emerald-600 text-black font-extrabold px-4 py-2 rounded-xl text-xs transition shadow-lg shadow-emerald-500/20 flex items-center gap-2">
-          <i class="fa-solid fa-link"></i> Vinculador Rápido
-        </button>
       </div>
 
     </div>
   </header>
 
-  <!-- Section Hero (Cartões Empilhados 3D com Logo Paz.e.Bem) -->
+  <!-- Hero Banner com Cartões Dinâmicos -->
   <section class="relative py-12 border-b border-brand-border overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       
-      <!-- Texto do Hero -->
       <div class="space-y-6">
         <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-accent/10 border border-brand-accent/30 rounded-full text-brand-accent font-bold text-xs tracking-wide uppercase">
           COLECIONE HISTÓRIAS &gt; MEMÓRIAS
@@ -116,7 +116,7 @@
         </div>
       </div>
 
-      <!-- Cartões Sobrepostos Paz.e.Bem (Leiaute idêntico à imagem) -->
+      <!-- Cartões Sobrepostos Dinâmicos -->
       <div class="relative flex justify-center items-center py-8">
         <div class="relative w-80 h-52 sm:w-96 sm:h-60">
           
@@ -124,33 +124,34 @@
           <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-zinc-900 to-stone-900 rounded-2xl p-5 shadow-2xl card-stack-1 border border-white/10 flex flex-col justify-between">
             <div class="flex justify-between items-start">
               <span class="font-black text-white text-lg tracking-wider">TELECARTOFILIA</span>
-              <span class="text-[10px] bg-white/10 px-2 py-0.5 rounded text-white font-mono">ACESSO RESTRITO</span>
+              <span id="back-badge" class="text-[10px] bg-white/10 px-2 py-0.5 rounded text-white font-mono">ACESSO RESTRITO</span>
             </div>
-            <div class="text-slate-400 font-mono text-xs">COLEÇÃO COMPLETA</div>
+            <div class="text-slate-400 font-mono text-xs" id="back-sub">COLEÇÃO COMPLETA</div>
           </div>
 
-          <!-- Cartão da Frente (Paz.e.Bem) -->
-          <div class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-900 rounded-2xl p-5 shadow-2xl card-stack-2 border border-white/20 flex flex-col justify-between">
+          <!-- Cartão da Frente (Muda com o Modo e Alterna Fotos) -->
+          <div id="front-card" class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-900 rounded-2xl p-5 shadow-2xl card-stack-2 border border-white/20 flex flex-col justify-between">
             <div class="flex justify-between items-start">
               <span class="font-black text-white text-xl tracking-wider">TELECARTOFILIA</span>
-              <span class="text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-bold">ACERVO ATIVO</span>
+              <span id="front-badge" class="text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-bold">ACERVO ATIVO</span>
             </div>
             
-            <div class="flex items-center justify-center gap-3 my-auto">
-              <div class="w-10 h-10 rounded-full overflow-hidden border border-white/30">
-                <img src="logo.jpg" alt="Logo" class="w-full h-full object-cover">
+            <!-- Lado do Logo e Foto (Alternam via JS) -->
+            <div id="avatar-container" class="flex items-center justify-center gap-3 my-auto">
+              <div id="img-left-wrapper" class="w-10 h-10 rounded-full overflow-hidden border border-white/30">
+                <img id="img-left" src="logo.jpg" alt="Logo" class="w-full h-full object-cover">
               </div>
               <span class="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-300 to-pink-300">
                 ◇ Paz.e.Bem ◇
               </span>
-              <div class="w-10 h-10 rounded-full overflow-hidden border border-white/30">
-                <img src="minha_foto.jpg" alt="Foto" class="w-full h-full object-cover">
+              <div id="img-right-wrapper" class="w-10 h-10 rounded-full overflow-hidden border border-white/30">
+                <img id="img-right" src="minha_foto.jpg" alt="Foto" class="w-full h-full object-cover">
               </div>
             </div>
 
             <div class="flex justify-between items-end">
-              <span class="text-xs font-semibold bg-white/20 px-2 py-1 rounded text-white">COLEÇÃO COMPLETA</span>
-              <span class="text-2xl font-black text-yellow-300" id="total-items-badge">750 itens</span>
+              <span id="front-label" class="text-xs font-semibold bg-white/20 px-2 py-1 rounded text-white">COLEÇÃO COMPLETA</span>
+              <span class="text-2xl font-black text-yellow-300" id="total-items-badge">860 itens</span>
             </div>
           </div>
 
@@ -160,46 +161,96 @@
     </div>
   </section>
 
-  <!-- Conteúdo do Catálogo -->
+  <!-- Conteúdo Principal -->
   <main id="catalogo" class="max-w-7xl mx-auto px-4 py-10 flex-grow w-full">
     
-    <!-- Filtros por Operadora -->
+    <!-- Painel de Bastidores (Com Vinculador e Exportador JS) -->
+    <div id="admin-panel" class="hidden mb-8 p-6 bg-brand-card rounded-2xl border border-brand-cyan/40 flex flex-col gap-4 shadow-xl">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-brand-border pb-4">
+        <div class="flex items-center gap-3">
+          <span class="w-3 h-3 bg-brand-cyan rounded-full animate-pulse flex-shrink-0"></span>
+          <span class="text-sm font-bold text-brand-cyan uppercase tracking-wider">Modo Bastidores (Edição & Gerenciamento)</span>
+        </div>
+        <div class="flex flex-wrap gap-2 w-full sm:w-auto">
+          <!-- SUB-ITEM: Vinculador Rápido nos Bastidores -->
+          <button id="btn-vinculador" onclick="alert('Vinculador Rápido Ativado!')" class="bg-emerald-500 hover:bg-emerald-600 text-black font-extrabold px-4 py-2.5 rounded-xl text-xs transition shadow-lg shadow-emerald-500/20 flex items-center gap-2">
+            <i class="fa-solid fa-link"></i> Vinculador Rápido
+          </button>
+          <!-- SUB-ITEM: Baixar JS com Seletores -->
+          <button onclick="openExportModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-4 py-2.5 rounded-xl text-xs transition flex items-center gap-2">
+            <i class="fa-solid fa-file-code"></i> Exportar Dados JS
+          </button>
+          <!-- SUB-ITEM: Cadastrar -->
+          <button onclick="openModal()" class="bg-brand-accent hover:bg-rose-600 text-white font-bold px-4 py-2.5 rounded-xl text-xs transition flex items-center gap-2">
+            <i class="fa-solid fa-plus"></i> Novo Cartão
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filtro por Operadora (Scroll Horizontal Fluido) -->
     <div class="mb-8 border-b border-brand-border pb-6">
       <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">FILTRAR POR OPERADORA</h3>
-      <div id="operator-filters" class="flex items-center gap-2 overflow-x-auto pb-2">
+      <div id="operator-filters" class="flex items-center gap-2 overflow-x-auto custom-scroll pb-3">
         <!-- Gerado via script -->
       </div>
     </div>
 
-    <!-- Filtros por Tipo -->
-    <div class="mb-8 flex items-center gap-2">
-      <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-2">FILTRAR POR TIPO:</h3>
-      <div id="type-filters" class="flex gap-2">
-        <button onclick="filterType('Todos')" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-accent text-white">Todos</button>
-        <button onclick="filterType('Séries Completas')" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-card text-slate-400 border border-brand-border hover:text-white">Séries Completas</button>
-        <button onclick="filterType('Lotes')" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-card text-slate-400 border border-brand-border hover:text-white">Lotes</button>
-        <button onclick="filterType('Avulsos')" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-card text-slate-400 border border-brand-border hover:text-white">Avulsos</button>
-      </div>
-    </div>
-
-    <!-- Grid dos Cartões -->
+    <!-- Grid do Catálogo -->
     <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
   </main>
+
+  <!-- Modal Exportador de JS com Caixas Selecionáveis -->
+  <div id="export-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
+    <div class="bg-brand-card p-6 rounded-3xl max-w-2xl w-full space-y-4 border border-brand-border shadow-2xl">
+      <div class="flex justify-between items-center border-b border-brand-border pb-3">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-download text-brand-cyan"></i> Exportar / Baixar Dados em Arquivo JS
+        </h3>
+        <button onclick="closeExportModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+
+      <div>
+        <label class="block text-xs font-bold text-slate-400 uppercase mb-2">Selecione as Operadoras para Incluir:</label>
+        <div id="export-checkboxes" class="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-4 max-h-32 overflow-y-auto custom-scroll p-2 bg-brand-dark rounded-xl border border-brand-border">
+          <!-- Injetado via JS -->
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-xs font-bold text-slate-400 uppercase mb-2">Código JS Gerado:</label>
+        <textarea id="export-code" class="w-full h-40 p-3 bg-brand-dark border border-brand-border rounded-xl text-emerald-400 font-mono text-xs custom-scroll outline-none" readonly></textarea>
+      </div>
+
+      <div class="flex justify-end gap-2 pt-2">
+        <button onclick="closeExportModal()" class="px-4 py-2 bg-brand-dark text-slate-300 font-bold rounded-xl hover:bg-brand-border transition text-xs">Fechar</button>
+        <button onclick="downloadJSFile()" class="px-5 py-2 bg-emerald-500 text-black font-extrabold rounded-xl hover:bg-emerald-400 transition text-xs flex items-center gap-2">
+          <i class="fa-solid fa-file-arrow-down"></i> Baixar Arquivo .JS
+        </button>
+      </div>
+    </div>
+  </div>
 
   <footer class="border-t border-brand-border py-6 text-center text-xs text-slate-500">
     #Paz.e.Bem - TeleCards Acervo & Coleção
   </footer>
 
-  <!-- Script de Controlo e Dados -->
+  <!-- Scripts de Lógica Integrada -->
   <script>
     const DEFAULT_OPS = ["Todos", "Telefônica", "Telebrás", "Brasil Telecom", "CRT", "Oi", "Telemar", "Ceterp", "CBTC", "Telepar", "Telesc", "Telemig", "Telegoiás", "Telerj", "Sercomtel"];
     let selectedOp = 'Todos';
-    let selectedType = 'Todos';
+    let currentMode = 'visitor';
 
     window.onload = function() {
       renderFilters();
       renderCatalog();
     };
+
+    function filterOp(op) {
+      selectedOp = op;
+      renderFilters();
+      renderCatalog();
+    }
 
     function renderFilters() {
       const container = document.getElementById('operator-filters');
@@ -209,17 +260,6 @@
           ${op}
         </button>
       `).join('');
-    }
-
-    function filterOp(op) {
-      selectedOp = op;
-      renderFilters();
-      renderCatalog();
-    }
-
-    function filterType(t) {
-      selectedType = t;
-      renderCatalog();
     }
 
     function getAllCards() {
@@ -251,10 +291,7 @@
       if (!grid) return;
       
       const cards = getAllCards();
-      const filtered = cards.filter(c => {
-        const matchOp = selectedOp === 'Todos' || (c.operator || '').toLowerCase() === selectedOp.toLowerCase();
-        return matchOp;
-      });
+      const filtered = cards.filter(c => selectedOp === 'Todos' || (c.operator || '').toLowerCase() === selectedOp.toLowerCase());
 
       if (filtered.length === 0) {
         grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-500 font-semibold">Nenhum cartão encontrado.</div>`;
@@ -262,33 +299,130 @@
       }
 
       grid.innerHTML = filtered.map(c => `
-        <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden hover:border-brand-accent/50 transition-all group flex flex-col justify-between">
+        <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden hover:border-brand-accent/50 transition-all group flex flex-col justify-between relative">
+          
           <div class="relative h-48 bg-brand-dark/50 p-4 flex items-center justify-center overflow-hidden">
             <img src="${c.image || 'logo.jpg'}" alt="${c.title}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300">
             <span class="absolute top-3 right-3 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-lg text-[10px] font-bold text-white border border-white/10">${c.operator || 'Acervo'}</span>
           </div>
+
           <div class="p-4 space-y-2">
             <h4 class="font-bold text-sm text-white line-clamp-2">${c.title}</h4>
             <div class="flex justify-between items-center pt-2 border-t border-brand-border/50">
               <span class="text-xs text-slate-400 font-mono">${c.ref || '#000'}</span>
               <span class="text-sm font-black text-brand-accent">R$ ${(c.price || 0).toFixed(2)}</span>
             </div>
+
+            ${currentMode === 'admin' ? `
+              <!-- AÇÕES DOS BASTIDORES: Aperto de mão + Editar + Excluir -->
+              <div class="flex items-center justify-end gap-1.5 pt-3 mt-2 border-t border-brand-border/80">
+                <button onclick="tradeCard('${c.id}')" title="Transação / Negociação" class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500 hover:text-black transition flex items-center justify-center text-xs">
+                  <i class="fa-solid fa-handshake"></i>
+                </button>
+                <button onclick="editCard('${c.id}')" title="Editar Cartão" class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 border border-amber-500/30 hover:bg-amber-500 hover:text-black transition flex items-center justify-center text-xs">
+                  <i class="fa-solid fa-pencil"></i>
+                </button>
+                <button onclick="deleteCard('${c.id}')" title="Excluir Cartão" class="w-8 h-8 rounded-lg bg-rose-500/20 text-rose-400 border border-rose-500/30 hover:bg-rose-500 hover:text-white transition flex items-center justify-center text-xs">
+                  <i class="fa-solid fa-trash-can"></i>
+                </button>
+              </div>
+            ` : ''}
           </div>
+
         </div>
       `).join('');
     }
 
+    /* Alternância do Cartão de Visita e Troca de Lados da Logo/Foto */
     function setViewMode(mode) {
+      currentMode = mode;
+      const isAdmin = mode === 'admin';
+
       const btnVisitor = document.getElementById('btn-visitor');
       const btnAdmin = document.getElementById('btn-admin');
-      if (mode === 'admin') {
+      const adminPanel = document.getElementById('admin-panel');
+      const frontCard = document.getElementById('front-card');
+      const frontBadge = document.getElementById('front-badge');
+      const frontLabel = document.getElementById('front-label');
+      const imgLeft = document.getElementById('img-left');
+      const imgRight = document.getElementById('img-right');
+
+      if (adminPanel) adminPanel.classList.toggle('hidden', !isAdmin);
+
+      if (isAdmin) {
         btnAdmin.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";
         btnVisitor.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";
+        
+        // Estilo e Textos do Cartão da Frente nos Bastidores
+        frontCard.className = "absolute inset-0 bg-gradient-to-br from-amber-900 via-rose-900 to-purple-950 rounded-2xl p-5 shadow-2xl card-stack-2 border border-amber-500/30 flex flex-col justify-between";
+        frontBadge.innerText = "EDIÇÃO ATIVA";
+        frontBadge.className = "text-xs bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2.5 py-0.5 rounded-full font-bold";
+        frontLabel.innerText = "MODO GESTOR";
+
+        // ALTERNA LADOS: Foto na esquerda, Logo na direita
+        imgLeft.src = "minha_foto.jpg";
+        imgRight.src = "logo.jpg";
       } else {
         btnVisitor.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";
         btnAdmin.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";
+        
+        // Estilo e Textos do Cartão da Frente no Visitante
+        frontCard.className = "absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-900 rounded-2xl p-5 shadow-2xl card-stack-2 border border-white/20 flex flex-col justify-between";
+        frontBadge.innerText = "ACERVO ATIVO";
+        frontBadge.className = "text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-bold";
+        frontLabel.innerText = "COLEÇÃO COMPLETA";
+
+        // ALTERNA LADOS: Logo na esquerda, Foto na direita
+        imgLeft.src = "logo.jpg";
+        imgRight.src = "minha_foto.jpg";
       }
+
+      renderCatalog();
     }
+
+    /* Modal e Exportador JS com Checkboxes */
+    function openExportModal() {
+      const container = document.getElementById('export-checkboxes');
+      const ops = DEFAULT_OPS.filter(o => o !== 'Todos');
+      container.innerHTML = ops.map(op => `
+        <label class="flex items-center gap-2 text-xs text-slate-300 cursor-pointer">
+          <input type="checkbox" value="${op}" checked onchange="updateExportCode()" class="accent-pink-500 rounded">
+          ${op}
+        </label>
+      `).join('');
+
+      document.getElementById('export-modal').classList.remove('hidden');
+      document.getElementById('export-modal').classList.add('flex');
+      updateExportCode();
+    }
+
+    function closeExportModal() {
+      document.getElementById('export-modal').classList.add('hidden');
+      document.getElementById('export-modal').classList.remove('flex');
+    }
+
+    function updateExportCode() {
+      const checked = Array.from(document.querySelectorAll('#export-checkboxes input:checked')).map(cb => cb.value);
+      const cards = getAllCards().filter(c => checked.includes(c.operator));
+      
+      const code = `// TeleCards - Exportação de Dados
+window.exportedTeleCardsData = ${JSON.stringify(cards, null, 2)};`;
+      
+      document.getElementById('export-code').value = code;
+    }
+
+    function downloadJSFile() {
+      const text = document.getElementById('export-code').value;
+      const blob = new Blob([text], { type: 'text/javascript' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'telecards-export.js';
+      a.click();
+    }
+
+    function tradeCard(id) { alert('Abrir painel de negociação/troca do cartão: ' + id); }
+    function editCard(id) { alert('Editar cartão: ' + id); }
+    function deleteCard(id) { if(confirm('Tem certeza de que deseja remover este cartão?')) alert('Removido!'); }
   </script>
 </body>
 </html>
