@@ -28,10 +28,10 @@
     body.admin-mode .card-stack-visitor { transform: rotate(8deg) translate(15px, 10px) scale(0.95); opacity: 0.35; z-index: 1; pointer-events: none; filter: blur(1px); }
     body.admin-mode .card-stack-admin { transform: rotate(-2deg) translate(5px, -15px) scale(1.03); z-index: 10; opacity: 1; filter: drop-shadow(0 20px 30px rgba(0, 242, 254, 0.25)); pointer-events: auto; }
 
-    /* Estilo do Cartão Visitante Verde no tamanho idêntico padrão */
+    /* Estilo do Cartão Visitante Verde com Frisos e Tamanho Padrão */
     .visitor-card-green {
       background: linear-gradient(135deg, #022c22 0%, #064e3b 40%, #047857 75%, #0f766e 100%) !important;
-      border: 2px solid #fbbf24 !important; /* Bordas e frisos dourados */
+      border: 2px solid #fbbf24 !important;
       box-shadow: 0 20px 35px rgba(4, 120, 87, 0.35) !important;
       box-sizing: border-box !important;
     }
@@ -39,7 +39,7 @@
     .visitor-card-inner-frame {
       position: absolute;
       inset: 3px;
-      border: 1.5px solid rgba(255, 255, 255, 0.7); /* Friso interno branco */
+      border: 1.5px solid rgba(255, 255, 255, 0.7);
       border-radius: 0.85rem;
       pointer-events: none;
       z-index: 2;
@@ -57,6 +57,11 @@
       object-position: center;
     }
 
+    /* Correção de Interatividade em Camadas */
+    .card-logo-center, .card-brand-vertical {
+      pointer-events: none !important;
+    }
+
     .card-logo-center {
       position: absolute;
       bottom: 6px;
@@ -68,8 +73,7 @@
       border: 1.5px solid rgba(255, 255, 255, 0.3);
       background-color: rgba(10, 10, 15, 0.85);
       backdrop-filter: blur(6px);
-      z-index: 15;
-      pointer-events: none;
+      z-index: 5;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -96,8 +100,7 @@
       backdrop-filter: blur(6px);
       -webkit-backdrop-filter: blur(6px);
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-      z-index: 20;
-      pointer-events: none;
+      z-index: 5;
       font-size: 9px;
       font-weight: 800;
       color: rgba(255, 255, 255, 0.85);
@@ -222,12 +225,10 @@
             </div>
           </div>
           
-          <!-- Cartão Visitante (Mesmas Dimensões Exatas, Tom Verde, Frisos Branco e Dourado) -->
+          <!-- Cartão Visitante -->
           <div class="absolute inset-0 rounded-2xl p-5 card-stack-visitor visitor-card-green flex flex-col justify-between overflow-hidden">
-            <!-- Friso interno em linha branca fina -->
             <div class="visitor-card-inner-frame"></div>
 
-            <!-- Bolhas e iluminação de fundo -->
             <div style="position: absolute; top: -30px; left: -20px; width: 140px; height: 140px; background: rgba(52, 211, 153, 0.25); border-radius: 50%; filter: blur(25px); pointer-events: none;"></div>
             <div style="position: absolute; bottom: -40px; right: -20px; width: 160px; height: 160px; background: rgba(16, 185, 129, 0.2); border-radius: 50%; filter: blur(30px); pointer-events: none;"></div>
             <div style="position: absolute; top: 40%; left: 30%; width: 100px; height: 100px; background: rgba(167, 243, 208, 0.15); border-radius: 50%; filter: blur(20px); pointer-events: none;"></div>
@@ -869,7 +870,7 @@
             <div class="overflow-hidden rounded-xl bg-brand-dark h-44 border border-brand-border flex items-center justify-center catalog-card-image cursor-pointer group relative">
               ${hasPhoto 
                 ? `<img src="${c.image}" data-operator="${c.operator}" class="main-card-img group-hover:scale-105 transition-all duration-300" onclick="openZoomModal('${c.image}', '${c.title.replace(/'/g, "\\'")}')" onerror="window.handleImageError(this, '${c.id}');">`
-                : `<div class="flex flex-col items-center justify-center text-amber-500/60 space-y-1.5">
+                : `<div class="flex flex-col items-center justify-center text-amber-500/60 space-y-1.5 pointer-events-none">
                      <i class="fa-solid fa-image text-3xl"></i>
                      <span class="text-[10px] font-bold uppercase tracking-wider">Casinha Sem Foto</span>
                    </div>`
