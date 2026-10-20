@@ -660,10 +660,14 @@
       const count = cards.filter(c => !c.image || c.image.trim() === '' || c.imageHasError).length;
       const badge = document.getElementById('missing-photo-count');
       if (badge) badge.innerText = count;
+      
       const btnSemFoto = document.getElementById('btn-type-SemFoto');
       if (btnSemFoto) {
-        if (count > 0) btnSemFoto.classList.remove('hidden');
-        else btnSemFoto.classList.add('hidden');
+        if (count > 0 && isAdminMode) {
+          btnSemFoto.classList.remove('hidden');
+        } else {
+          btnSemFoto.classList.add('hidden');
+        }
       }
     }
 
@@ -678,6 +682,8 @@
       document.getElementById('admin-panel').classList.toggle('hidden', !isAdminMode);
       document.getElementById('cart-btn').style.display = isAdminMode ? 'none' : 'flex';
       
+      updateMissingPhotoCount();
+
       const btnV = document.getElementById('btn-visitor');
       const btnA = document.getElementById('btn-admin');
 
