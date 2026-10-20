@@ -678,12 +678,16 @@
 
     function setViewMode(mode) {
       isAdminMode = mode === 'admin';
+      
+      // Se estivesse filtrando por 'SemFoto' e mudar para Visitante, reseta o filtro de tipo
+      if (!isAdminMode && selectedType === 'SemFoto') {
+        selectedType = 'Todos';
+      }
+
       document.body.classList.toggle('admin-mode', isAdminMode);
       document.getElementById('admin-panel').classList.toggle('hidden', !isAdminMode);
       document.getElementById('cart-btn').style.display = isAdminMode ? 'none' : 'flex';
       
-      updateMissingPhotoCount();
-
       const btnV = document.getElementById('btn-visitor');
       const btnA = document.getElementById('btn-admin');
 
@@ -694,6 +698,8 @@
         btnV.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";
         btnA.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";
       }
+      
+      filterType(selectedType);
       renderCatalog();
     }
 
@@ -734,14 +740,21 @@
       ['Todos', 'Completa', 'Lote', 'Avulso', 'SemFoto'].forEach(t => {
         const btn = document.getElementById(`btn-type-${t}`);
         if(btn) {
-          if (t === type) {
-            btn.className = (t === 'SemFoto')
-              ? 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-amber-600 text-white shadow'
-              : 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-accent text-white shadow';
+          if (t === 'SemFoto') {
+            const count = cards.filter(c => !c.image || c.image.trim() === '' || c.imageHasError).length;
+            if (count > 0 && isAdminMode) {
+              btn.className = (t === type)
+                ? 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-amber-600 text-white shadow'
+                : 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-amber-600/20 text-amber-300 border border-amber-500/40 hover:bg-amber-600 hover:text-white';
+            } else {
+              btn.className = 'hidden';
+            }
           } else {
-            btn.className = (t === 'SemFoto')
-              ? 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-amber-600/20 text-amber-300 border border-amber-500/40 hover:bg-amber-600 hover:text-white'
-              : 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-card text-slate-400 border border-brand-border hover:text-white';
+            if (t === type) {
+              btn.className = 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-accent text-white shadow';
+            } else {
+              btn.className = 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-card text-slate-400 border border-brand-border hover:text-white';
+            }
           }
         }
       });
