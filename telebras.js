@@ -561,7 +561,7 @@ window.telebrasData = [
   },
   {
     "id": "tb-008-nac-av08",
-    "title": "Telebrás - Série Museu Nacional/UFRJ - card nº 8 - Carruagem Serpentina",
+    "title": "Telebrás - Série Museu Nacional/UFRJ - card nº 8 - Carruagem - Serpentina",
     "ref": "008-TB-NAC-AV08",
     "operator": "Telebrás",
     "price": 1.00,
@@ -746,7 +746,7 @@ window.telebrasData = [
   {
     "id": "tb-010-par-av08",
     "title": "Telebrás - Série Parques Nacionais - card nº 8 - Parque do Pico da Neblina - AM",
-    "ref": "fotos/telebras/010-TB-PAR-AV08.jpg",
+    "ref": "010-TB-PAR-AV08",
     "operator": "Telebrás",
     "price": 1.00,
     "image": "fotos/telebras/010-TB-PAR-AV08.jpg"
@@ -946,10 +946,10 @@ window.telebrasData = [
   {
     "id": "tb-016-bh-av1",
     "title": "Telebrás - Série GBH - card nº (1) - BH 100 anos",
-    "ref": "016-TB-BH-AV(I)",
+    "ref": "016-TB-BH-AV(1)",
     "operator": "Telebrás",
     "price": 1.00,
-    "image": "fotos/telebras/016-TB-BH-AV(I).jpg"
+    "image": "fotos/telebras/016-TB-BH-AV(1).jpg"
   },
   {
     "id": "tb-016-bh-av01",
@@ -1521,7 +1521,7 @@ window.telebrasData = [
   },
   {
     "id": "tb-030-cer-av01",
-    "title": "Telebrás - Série Flores do Cerrado - card nº 1 - Cigana Calliandra sp",
+    "title": "Telebrás - Série Flores do Cerrado - card nº 1 - Cigana - Calliandra sp",
     "ref": "030-TB-CER-AV01",
     "operator": "Telebrás",
     "price": 1.00,
@@ -1569,7 +1569,7 @@ window.telebrasData = [
   },
   {
     "id": "tb-034-tel-inc",
-    "title": "Telebrás - Série Telefone - card nº 01, 02, 03, 04",
+    "title": "Telebrás - Série Telefone - card nº 4 01,02,03,04",
     "ref": "034-TB-TEL-INC",
     "operator": "Telebrás",
     "price": 3.00,
@@ -1608,4 +1608,243 @@ window.telebrasData = [
     "image": "fotos/telebras/040-TB-BRAS-AV05.jpg"
   },
   {
-    "id": "tb-041-ase-av
+    "id": "tb-041-ase-av01",
+    "title": "Telebrás - Série Corrida F1 - card nº 1 - Vitória no GP Brasil - 91",
+    "ref": "041-TB-ASE-AV01",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-ASE-AV01.jpg"
+  },
+  {
+    "id": "tb-041-ase-av03",
+    "title": "Telebrás - Série Corrida F1 - card nº 3 - 1986 - Vitória em Detroit",
+    "ref": "041-TB-ASE-AV03",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-ASE-AV03.jpg"
+  },
+  {
+    "id": "tb-041-ase-av04",
+    "title": "Telebrás - Série Corrida F1 - card nº 4 - 1987 - Vitória nos EUA",
+    "ref": "041-TB-ASE-AV04",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-ASE-AV04.jpg"
+  },
+  {
+    "id": "tb-041-ase-av07",
+    "title": "Telebrás - Série Corrida F1 - card nº 7 - 1994 - Corrida em San Marino",
+    "ref": "041-TB-ASE-AV07",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-ASE-AV07.jpg"
+  },
+  {
+    "id": "tb-041-ase-av10",
+    "title": "Telebrás - Série Corrida F1 - card nº 10 - 1991 - GP Hungria",
+    "ref": "041-TB-ASE-AV10",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-ASE-AV10.jpg"
+  },
+  {
+    "id": "tb-041-ase-av12",
+    "title": "Telebrás - Série Corrida F1 - card nº 12 - 1989 - GP Ímola",
+    "ref": "041-TB-ASE-AV12",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-ASE-AV12.jpg"
+  },
+  {
+    "id": "tb-041-gpr-av01",
+    "title": "Telebrás - Série Corrida F1 - card nº 1 - 26º GP do Brasil",
+    "ref": "041-TB-GPR-AV01",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-GPR-AV01.jpg"
+  },
+  {
+    "id": "tb-041-gpr-av02",
+    "title": "Telebrás - Série Corrida F1 - card nº 2 - 1991 - França",
+    "ref": "041-TB-GPR-AV02",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-GPR-AV02.jpg"
+  },
+  {
+    "id": "tb-041-gpr-av03",
+    "title": "Telebrás - Série Corrida F1 - card nº 3 - 2º GP Brasil - Indy 97",
+    "ref": "041-TB-GPR-AV03",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/041-TB-GPR-AV03.jpg"
+  },
+  {
+    "id": "tb-042-prop-av01",
+    "title": "Telebrás - Série Propaganda - card nº 1 - Festa da Uva",
+    "ref": "042-TB-PROP-AV01",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV01.jpg"
+  },
+  {
+    "id": "tb-042-prop-av02",
+    "title": "Telebrás - Série Propaganda - card nº 2 - Mídia em Cartão",
+    "ref": "042-TB-PROP-AV02",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV02.jpg"
+  },
+  {
+    "id": "tb-042-prop-av03",
+    "title": "Telebrás - Série Propaganda - card nº 3 - Lei Áurea",
+    "ref": "042-TB-PROP-AV03",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV03.jpg"
+  },
+  {
+    "id": "tb-042-prop-av04",
+    "title": "Telebrás - Série Propaganda - card nº 4 - Prog Criança Prioridade",
+    "ref": "042-TB-PROP-AV04",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV04.jpg"
+  },
+  {
+    "id": "tb-042-prop-av05",
+    "title": "Telebrás - Série Propaganda - card nº 5 - Turma da Mônica",
+    "ref": "042-TB-PROP-AV05",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV05.jpg"
+  },
+  {
+    "id": "tb-042-prop-av06",
+    "title": "Telebrás - Série Propaganda - card nº 6 - Rio 2004 - Candidata",
+    "ref": "042-TB-PROP-AV06",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV06.jpg"
+  },
+  {
+    "id": "tb-042-prop-av07",
+    "title": "Telebrás - Série Propaganda - card nº 7 - 100 anos do Cinema",
+    "ref": "042-TB-PROP-AV07",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV07.jpg"
+  },
+  {
+    "id": "tb-042-prop-av08",
+    "title": "Telebrás - Série Propaganda - card nº 8 - Abolição no CE",
+    "ref": "042-TB-PROP-AV08",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV08.jpg"
+  },
+  {
+    "id": "tb-042-prop-av09",
+    "title": "Telebrás - Série Propaganda - card nº 9 - 150 anos de Carlos Gomes",
+    "ref": "042-TB-PROP-AV09",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV09.jpg"
+  },
+  {
+    "id": "tb-042-prop-av10",
+    "title": "Telebrás - Série Propaganda - card nº 10 - 100 anos do Tratado Brasil e Japão",
+    "ref": "042-TB-PROP-AV10",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV10.jpg"
+  },
+  {
+    "id": "tb-042-prop-av11",
+    "title": "Telebrás - Série Propaganda - card nº 11 - Chapéus do Bumba-meu-boi",
+    "ref": "042-TB-PROP-AV11",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV11.jpg"
+  },
+  {
+    "id": "tb-042-prop-av12",
+    "title": "Telebrás - Série Propaganda - card nº 12 - Festa em Caruaru",
+    "ref": "042-TB-PROP-AV12",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV12.jpg"
+  },
+  {
+    "id": "tb-042-prop-av13",
+    "title": "Telebrás - Série Propaganda - card nº 13 - Vista de BH",
+    "ref": "042-TB-PROP-AV13",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV13.jpg"
+  },
+  {
+    "id": "tb-042-prop-av14",
+    "title": "Telebrás - Série Propaganda - card nº 14 - Inverno em Campos do Jordão",
+    "ref": "042-TB-PROP-AV14",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV14.jpg"
+  },
+  {
+    "id": "tb-042-prop-av15",
+    "title": "Telebrás - Série Propaganda - card nº 15 - Natal em Gramado",
+    "ref": "042-TB-PROP-AV15",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV15.jpg"
+  },
+  {
+    "id": "tb-042-prop-av16",
+    "title": "Telebrás - Série Propaganda - card nº 16 - 100 anos de Petrolina",
+    "ref": "042-TB-PROP-AV16",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV16.jpg"
+  },
+  {
+    "id": "tb-042-prop-av17",
+    "title": "Telebrás - Série Propaganda - card nº 17 - Cine Teatro + brinde",
+    "ref": "042-TB-PROP-AV17",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV17.jpg"
+  },
+  {
+    "id": "tb-042-prop-av18",
+    "title": "Telebrás - Série Propaganda - card nº 18 - Fontex - vermelho",
+    "ref": "042-TB-PROP-AV18",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV18.jpg"
+  },
+  {
+    "id": "tb-042-prop-av19",
+    "title": "Telebrás - Série Propaganda - card nº 19 - Festas Juninas 1998",
+    "ref": "042-TB-PROP-AV19",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV19.jpg"
+  },
+  {
+    "id": "tb-042-prop-av20",
+    "title": "Telebrás - Série Propaganda - card nº 20 - Carnaval Olinda 1996",
+    "ref": "042-TB-PROP-AV20",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/042-TB-PROP-AV20.jpg"
+  },
+  {
+    "id": "tb-043-simp-av01",
+    "title": "Telebrás - Série Simpósio Brasil-Sul - card nº Todos! - Cartão preto",
+    "ref": "043-TB-SIMP-AV01",
+    "operator": "Telebrás",
+    "price": 1.00,
+    "image": "fotos/telebras/043-TB-SIMP-AV01.jpg"
+  }
+];
