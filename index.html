@@ -1,428 +1,960 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="dark">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TeleCards - Painel de Controle e Acervo</title>
+  <title>TeleCards - Jaueras</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
   
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: { dark: '#0a0a0f', card: '#13131a', accent: '#ff0055', cyan: '#00f2fe', border: '#2a2a3c' },
-            vinculador: { DEFAULT: '#10b981', hover: '#059669' }
-          }
-        }
-      }
-    }
-  </script>
-
   <style>
-    body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-serif; }
-    
-    /* Scrollbar personalizada para as operadoras flutuantes */
-    .custom-scroll::-webkit-scrollbar { height: 6px; width: 6px; }
-    .custom-scroll::-webkit-scrollbar-track { background: #0a0a0f; }
-    .custom-scroll::-webkit-scrollbar-thumb { background: #2a2a3c; border-radius: 3px; }
-    .custom-scroll::-webkit-scrollbar-thumb:hover { background: #ff0055; }
+    :root {
+      --bg-dark: #0b0c10;
+      --bg-card: #13151b;
+      --bg-card-hover: #1a1d26;
+      --border-color: #232734;
+      --text-main: #f0f2f8;
+      --text-muted: #8c95a8;
+      --accent-pink: #ff2a6d;
+      --accent-purple: #8a2be2;
+      --gold-bg-start: #8a6218;
+      --gold-bg-end: #3d2a06;
+      --gold-accent: #e5b352;
+      --gold-text: #fce8b3;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+    }
 
-    /* Efeito de cartas sobrepostas */
-    .card-stack-1 { transform: rotate(-6deg) translateY(10px); transition: all 0.5s ease; }
-    .card-stack-2 { transform: rotate(4deg) translate(15px, -10px); transition: all 0.5s ease; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      padding-bottom: 60px;
+    }
+
+    /* HEADER / NAVBAR */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid var(--border-color);
+      background-color: rgba(11, 12, 16, 0.9);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* Logo Paz.e.Bem - Florzinha SVG */
+    .paz-bem-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 12px rgba(255, 117, 140, 0.4);
+      flex-shrink: 0;
+    }
+
+    .brand-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .brand-name span {
+      color: var(--accent-pink);
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-pill {
+      background: #171a23;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-pill:hover {
+      border-color: #3b4256;
+      color: var(--text-main);
+    }
+
+    .btn-pill.active {
+      background: #ffffff;
+      color: #000000;
+      border-color: #ffffff;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 52px;
+      line-height: 1.1;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .hero-title .highlight {
+      background: linear-gradient(90deg, #ff2a6d, #ff70a6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc {
+      color: var(--text-muted);
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+      max-width: 500px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+    }
+
+    .btn-primary {
+      background: var(--accent-pink);
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(255, 42, 109, 0.35);
+    }
+
+    .btn-secondary {
+      background: #171a23;
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    /* CARTÕES DE APRESENTAÇÃO HERO (Fixos à direita) */
+    .hero-cards-wrapper {
+      position: relative;
+      width: 100%;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .business-card {
+      position: absolute;
+      width: 380px;
+      height: 220px;
+      border-radius: 16px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      user-select: none;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    /* Cartão 1: Visitante (Roxo/Magenta) */
+    .business-card.card-visitor {
+      background: linear-gradient(135deg, #4a154b 0%, #611f69 40%, #2e0854 100%);
+      z-index: 2;
+    }
+
+    /* Cartão 2: Bastidores (Dourado Queimado Lindo e Suave) */
+    .business-card.card-backstage {
+      background: linear-gradient(135deg, var(--gold-bg-start) 0%, #573e0f 50%, var(--gold-bg-end) 100%);
+      border-color: rgba(229, 179, 82, 0.3);
+      z-index: 1;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    body.mode-bastidores .business-card.card-visitor {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    body.mode-bastidores .business-card.card-backstage {
+      opacity: 1;
+      pointer-events: auto;
+      z-index: 2;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #ffffff;
+    }
+
+    .card-badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .card-visitor .card-badge {
+      background: rgba(255, 255, 255, 0.15);
+      color: #72f2eb;
+    }
+
+    .card-backstage .card-badge {
+      background: rgba(229, 179, 82, 0.2);
+      color: var(--gold-accent);
+      border: 1px solid rgba(229, 179, 82, 0.4);
+    }
+
+    .card-center {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .card-author-name {
+      font-weight: 700;
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    .card-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .card-subtag {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+    }
+
+    .card-count {
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .card-visitor .card-count {
+      color: #ffd166;
+    }
+
+    .card-backstage .card-count {
+      color: var(--gold-text);
+    }
+
+    /* PAINEL BASTIDORES & CONTADOR DE FALTAS */
+    .bastidores-bar {
+      max-width: 1280px;
+      margin: 0 auto 30px auto;
+      padding: 0 20px;
+      display: none;
+    }
+
+    body.mode-bastidores .bastidores-bar {
+      display: block;
+    }
+
+    .bastidores-panel {
+      background: rgba(229, 179, 82, 0.05);
+      border: 1px solid rgba(229, 179, 82, 0.2);
+      border-radius: var(--radius-md);
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .bastidores-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      color: var(--gold-accent);
+      font-size: 14px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background-color: var(--gold-accent);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--gold-accent);
+    }
+
+    .bastidores-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .btn-missing-counter {
+      background: #1e170a;
+      border: 1px solid var(--gold-accent);
+      color: var(--gold-text);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .missing-badge {
+      background: var(--accent-pink);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+    }
+
+    /* BARRAS DE OPERADORAS (SEM BARRA DE ROLAGEM) */
+    .filter-section {
+      max-width: 1280px;
+      margin: 0 auto 30px auto;
+      padding: 0 20px;
+    }
+
+    .filter-label {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .operators-grid {
+      display: flex;
+      flex-wrap: wrap; /* Garanter que caibam todas no campo de visão */
+      gap: 8px;
+    }
+
+    .op-btn {
+      background: #141721;
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .op-btn:hover {
+      border-color: #3b4256;
+      background: #1c202e;
+    }
+
+    .op-btn.active {
+      background: var(--accent-pink);
+      color: white;
+      border-color: var(--accent-pink);
+    }
+
+    /* GRID DE CASINHAS (CARDS) */
+    .catalog-section {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    /* A CASINHA / CARD */
+    .card-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .card-item:hover {
+      transform: translateY(-4px);
+      border-color: #2e3547;
+    }
+
+    /* BOTOES DE EDIÇÃO NO TOPO (Item 3) */
+    .card-top-controls {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 10;
+      display: none;
+      gap: 6px;
+    }
+
+    body.mode-bastidores .card-top-controls {
+      display: flex;
+    }
+
+    .ctrl-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(11, 12, 16, 0.85);
+      color: white;
+      backdrop-filter: blur(4px);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+
+    .ctrl-btn:hover {
+      background: var(--accent-pink);
+    }
+
+    /* ÁREA DA IMAGEM DA CASINHA (Item 4) */
+    .card-image-area {
+      position: relative;
+      width: 100%;
+      height: 190px;
+      background: #0f1117;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .card-image-area img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Logo Paz.e.Bem Grande (quando não tem foto) */
+    .placeholder-logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .placeholder-logo-container .paz-bem-icon {
+      width: 64px;
+      height: 64px;
+    }
+
+    .placeholder-text {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+    }
+
+    /* Barra Inferior Centralizada com Logo (Quando tem foto real) */
+    .card-image-footer-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 36px;
+      background: rgba(11, 12, 16, 0.75);
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-image-footer-bar .paz-bem-icon {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* Nome "jaueras" na lateral direita subindo (com o 'j' em baixo) */
+    .jaueras-vertical-text {
+      position: absolute;
+      right: 8px;
+      bottom: 12px;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg); /* Faz o 'j' começar embaixo e subir */
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: rgba(255, 255, 255, 0.7);
+      text-transform: lowercase;
+      pointer-events: none;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    }
+
+    /* DETALHES DA CASINHA */
+    .card-details {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex-grow: 1;
+    }
+
+    .card-item-title {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4;
+      color: var(--text-main);
+    }
+
+    .card-item-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .card-code {
+      font-family: monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .card-price {
+      font-weight: 800;
+      font-size: 15px;
+      color: var(--accent-pink);
+    }
+
+    .card-price.missing {
+      color: #ff9f43;
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    /* OPERADORA TAG NO CARD */
+    .card-op-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(11, 12, 16, 0.8);
+      backdrop-filter: blur(4px);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #ffffff;
+      z-index: 2;
+    }
+
+    /* SVG DA FLORZINHA PAZ.E.BEM */
+    .flower-svg {
+      width: 60%;
+      height: 60%;
+      fill: #ffffff;
+    }
   </style>
-
-  <!-- Inclusão das Operadoras -->
-  <script src="brasiltelecom.js" onerror="console.log('brasiltelecom.js não encontrado')"></script>
-  <script src="telefonica.js" onerror="console.log('telefonica.js não encontrado')"></script>
-  <script src="telebras.js" onerror="console.log('telebras.js não encontrado')"></script>
-  <script src="embratel.js" onerror="console.log('embratel.js não encontrado')"></script>
-  <script src="crt.js" onerror="console.log('crt.js não encontrado')"></script>
-  <script src="oi.js" onerror="console.log('oi.js não encontrado')"></script>
-  <script src="telemar.js" onerror="console.log('telemar.js não encontrado')"></script>
-  <script src="ceterp.js" onerror="console.log('ceterp.js não encontrado')"></script>
-  <script src="cbtc.js" onerror="console.log('cbtc.js não encontrado')"></script>
-  <script src="telepar.js" onerror="console.log('telepar.js não encontrado')"></script>
-  <script src="telesc.js" onerror="console.log('telesc.js não encontrado')"></script>
-  <script src="telemig.js" onerror="console.log('telemig.js não encontrado')"></script>
-  <script src="telegoias.js" onerror="console.log('telegoias.js não encontrado')"></script>
-  <script src="telerj.js" onerror="console.log('telerj.js não encontrado')"></script>
-  <script src="sercomtel.js" onerror="console.log('sercomtel.js não encontrado')"></script>
 </head>
-<body class="min-h-screen flex flex-col">
+<body>
 
-  <!-- Header Superior -->
-  <header class="sticky top-0 z-40 bg-brand-dark/90 backdrop-blur-md border-b border-brand-border">
-    <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between shadow-sm">
-      
-      <div class="flex items-center gap-3.5">
-        <div class="relative flex-shrink-0">
-          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-accent shadow-lg shadow-brand-accent/30 bg-brand-card flex items-center justify-center">
-            <img src="minha_foto.png" alt="Minha Foto" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='minha_foto.jpg';">
-          </div>
-          <span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-emerald-500 border-2 border-brand-dark rounded-full"></span>
-        </div>
-        <div class="flex flex-col flex-shrink-0">
-          <span class="text-2xl font-black tracking-tight text-white leading-none">Tele<span class="text-brand-accent">Cards</span></span>
-        </div>
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <div class="brand">
+      <div class="paz-bem-icon">
+        <svg class="flower-svg" viewBox="0 0 24 24">
+          <path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C15.84,9 14.5,8.12 13.58,7.56C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/>
+        </svg>
       </div>
-      
-      <div class="flex items-center gap-3">
-        <!-- Botão Meu Álbum -->
-        <button id="btn-album" class="bg-brand-accent/20 hover:bg-brand-accent/30 text-brand-accent border border-brand-accent/40 px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-2">
-          <i class="fa-solid fa-book-bookmark"></i> Meu Álbum <span id="count-album" class="bg-brand-accent text-white px-2 py-0.5 rounded-full text-[10px]">0</span>
-        </button>
+      <div class="brand-name">Tele<span>Cards</span></div>
+    </div>
 
-        <!-- Seletor de Modos -->
-        <div class="bg-brand-card p-1 rounded-xl border border-brand-border flex gap-1">
-          <button id="btn-visitor" onclick="setViewMode('visitor')" class="px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow">
-            <i class="fa-regular fa-eye mr-1.5"></i>Modo Visitante
-          </button>
-          <button id="btn-admin" onclick="setViewMode('admin')" class="px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white">
-            <i class="fa-solid fa-user-gear mr-1.5"></i>Modo Bastidores
-          </button>
-        </div>
-      </div>
-
+    <div class="header-controls">
+      <button class="btn-pill active" id="btnModeVisitor" onclick="setMode('visitor')">
+        👁️ Modo Visitante
+      </button>
+      <button class="btn-pill" id="btnModeBackstage" onclick="setMode('bastidores')">
+        👤 Modo Bastidores
+      </button>
     </div>
   </header>
 
-  <!-- Hero Banner com Cartões Dinâmicos -->
-  <section class="relative py-12 border-b border-brand-border overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div>
+      <h1 class="hero-title">Cartões que guardam <span class="highlight">memórias.</span></h1>
+      <p class="hero-desc">
+        Séries completas de artes, cartões avulsos, orelhões históricos e a magia retrô da telecartofilia em um único acervo.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-primary">Explorar Catalógo ↓</button>
+        <button class="btn-secondary" onclick="setMode('bastidores')">⚙️ Acessar Bastidores</button>
+      </div>
+    </div>
+
+    <!-- CARTÕES DE APRESENTAÇÃO HERO (Fixos à direita) -->
+    <div class="hero-cards-wrapper">
       
-      <div class="space-y-6">
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-accent/10 border border-brand-accent/30 rounded-full text-brand-accent font-bold text-xs tracking-wide uppercase">
-          COLECIONE HISTÓRIAS &gt; MEMÓRIAS
+      <!-- Cartão Visitante (Roxo/Magenta) -->
+      <div class="business-card card-visitor">
+        <div class="card-top">
+          <div class="card-title">TELECARTOFILIA</div>
+          <div class="card-badge">ACERVO ATIVO</div>
         </div>
-        <h1 class="text-4xl sm:text-6xl font-black text-white leading-tight">
-          Cartões que guardam <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent via-pink-500 to-yellow-400">memórias.</span>
-        </h1>
-        <p class="text-slate-400 text-base leading-relaxed max-w-lg">
-          Séries completas de artes, cartões avulsos, orelhões históricos e a magia retrô da telecartofilia em um único acervo.
-        </p>
-        <div class="flex flex-wrap gap-4 pt-2">
-          <a href="#catalogo" class="px-6 py-3.5 bg-brand-accent hover:bg-rose-600 text-white font-bold rounded-2xl shadow-lg shadow-brand-accent/30 transition-all flex items-center gap-2 text-sm">
-            Explorar Catálogo <i class="fa-solid fa-arrow-down"></i>
-          </a>
-          <button onclick="setViewMode('admin')" class="px-6 py-3.5 bg-brand-card hover:bg-brand-border text-white border border-brand-border font-bold rounded-2xl transition-all flex items-center gap-2 text-sm">
-            <i class="fa-solid fa-sliders text-brand-cyan"></i> Acessar Bastidores
-          </button>
+        <div class="card-center">
+          <div class="paz-bem-icon" style="width:30px; height:30px;">
+            <svg class="flower-svg" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C15.84,9 14.5,8.12 13.58,7.56C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/></svg>
+          </div>
+          <div class="card-author-name">◇ Paz.e.Bem ◇</div>
+        </div>
+        <div class="card-bottom">
+          <div class="card-subtag">COLEÇÃO COMPLETA</div>
+          <div class="card-count" id="visitorCount">860 itens</div>
         </div>
       </div>
 
-      <!-- Cartões Sobrepostos Dinâmicos -->
-      <div class="relative flex justify-center items-center py-8">
-        <div class="relative w-80 h-52 sm:w-96 sm:h-60">
-          
-          <!-- Cartão de Trás -->
-          <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-zinc-900 to-stone-900 rounded-2xl p-5 shadow-2xl card-stack-1 border border-white/10 flex flex-col justify-between">
-            <div class="flex justify-between items-start">
-              <span class="font-black text-white text-lg tracking-wider">TELECARTOFILIA</span>
-              <span id="back-badge" class="text-[10px] bg-white/10 px-2 py-0.5 rounded text-white font-mono">ACESSO RESTRITO</span>
-            </div>
-            <div class="text-slate-400 font-mono text-xs" id="back-sub">COLEÇÃO COMPLETA</div>
+      <!-- Cartão Bastidores (Dourado Queimado Lindo e Suave) -->
+      <div class="business-card card-backstage">
+        <div class="card-top">
+          <div class="card-title">TELECARTOFILIA</div>
+          <div class="card-badge">EDIÇÃO ATIVA</div>
+        </div>
+        <div class="card-center">
+          <div class="paz-bem-icon" style="width:30px; height:30px; background: linear-gradient(135deg, #e5b352 0%, #b8860b 100%);">
+            <svg class="flower-svg" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C15.84,9 14.5,8.12 13.58,7.56C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/></svg>
           </div>
-
-          <!-- Cartão da Frente (Muda com o Modo e Alterna Fotos) -->
-          <div id="front-card" class="absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-900 rounded-2xl p-5 shadow-2xl card-stack-2 border border-white/20 flex flex-col justify-between">
-            <div class="flex justify-between items-start">
-              <span class="font-black text-white text-xl tracking-wider">TELECARTOFILIA</span>
-              <span id="front-badge" class="text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-bold">ACERVO ATIVO</span>
-            </div>
-            
-            <!-- Lado do Logo e Foto (Alternam via JS) -->
-            <div id="avatar-container" class="flex items-center justify-center gap-3 my-auto">
-              <div id="img-left-wrapper" class="w-10 h-10 rounded-full overflow-hidden border border-white/30">
-                <img id="img-left" src="logo.jpg" alt="Logo" class="w-full h-full object-cover">
-              </div>
-              <span class="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-300 to-pink-300">
-                ◇ Paz.e.Bem ◇
-              </span>
-              <div id="img-right-wrapper" class="w-10 h-10 rounded-full overflow-hidden border border-white/30">
-                <img id="img-right" src="minha_foto.jpg" alt="Foto" class="w-full h-full object-cover">
-              </div>
-            </div>
-
-            <div class="flex justify-between items-end">
-              <span id="front-label" class="text-xs font-semibold bg-white/20 px-2 py-1 rounded text-white">COLEÇÃO COMPLETA</span>
-              <span class="text-2xl font-black text-yellow-300" id="total-items-badge">860 itens</span>
-            </div>
-          </div>
-
+          <div class="card-author-name" style="color: var(--gold-text);">◇ Paz.e.Bem ◇</div>
+        </div>
+        <div class="card-bottom">
+          <div class="card-subtag" style="border: 1px solid rgba(229,179,82,0.3); color: var(--gold-accent);">MODO GESTOR</div>
+          <div class="card-count" id="backstageCount">860 itens</div>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- Conteúdo Principal -->
-  <main id="catalogo" class="max-w-7xl mx-auto px-4 py-10 flex-grow w-full">
-    
-    <!-- Painel de Bastidores (Com Vinculador e Exportador JS) -->
-    <div id="admin-panel" class="hidden mb-8 p-6 bg-brand-card rounded-2xl border border-brand-cyan/40 flex flex-col gap-4 shadow-xl">
-      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-brand-border pb-4">
-        <div class="flex items-center gap-3">
-          <span class="w-3 h-3 bg-brand-cyan rounded-full animate-pulse flex-shrink-0"></span>
-          <span class="text-sm font-bold text-brand-cyan uppercase tracking-wider">Modo Bastidores (Edição & Gerenciamento)</span>
-        </div>
-        <div class="flex flex-wrap gap-2 w-full sm:w-auto">
-          <!-- SUB-ITEM: Vinculador Rápido nos Bastidores -->
-          <button id="btn-vinculador" onclick="alert('Vinculador Rápido Ativado!')" class="bg-emerald-500 hover:bg-emerald-600 text-black font-extrabold px-4 py-2.5 rounded-xl text-xs transition shadow-lg shadow-emerald-500/20 flex items-center gap-2">
-            <i class="fa-solid fa-link"></i> Vinculador Rápido
-          </button>
-          <!-- SUB-ITEM: Baixar JS com Seletores -->
-          <button onclick="openExportModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-4 py-2.5 rounded-xl text-xs transition flex items-center gap-2">
-            <i class="fa-solid fa-file-code"></i> Exportar Dados JS
-          </button>
-          <!-- SUB-ITEM: Cadastrar -->
-          <button onclick="openModal()" class="bg-brand-accent hover:bg-rose-600 text-white font-bold px-4 py-2.5 rounded-xl text-xs transition flex items-center gap-2">
-            <i class="fa-solid fa-plus"></i> Novo Cartão
-          </button>
-        </div>
+  <!-- PAINEL EXCLUSIVO BASTIDORES & CONTADOR DE FALTAS -->
+  <div class="bastidores-bar">
+    <div class="bastidores-panel">
+      <div class="bastidores-info">
+        <div class="status-dot"></div>
+        MODO BASTIDORES (EDIÇÃO & GERENCIAMENTO)
       </div>
-    </div>
-
-    <!-- Filtro por Operadora (Scroll Horizontal Fluido) -->
-    <div class="mb-8 border-b border-brand-border pb-6">
-      <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">FILTRAR POR OPERADORA</h3>
-      <div id="operator-filters" class="flex items-center gap-2 overflow-x-auto custom-scroll pb-3">
-        <!-- Gerado via script -->
-      </div>
-    </div>
-
-    <!-- Grid do Catálogo -->
-    <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
-  </main>
-
-  <!-- Modal Exportador de JS com Caixas Selecionáveis -->
-  <div id="export-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
-    <div class="bg-brand-card p-6 rounded-3xl max-w-2xl w-full space-y-4 border border-brand-border shadow-2xl">
-      <div class="flex justify-between items-center border-b border-brand-border pb-3">
-        <h3 class="text-base font-bold text-white flex items-center gap-2">
-          <i class="fa-solid fa-download text-brand-cyan"></i> Exportar / Baixar Dados em Arquivo JS
-        </h3>
-        <button onclick="closeExportModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
-      </div>
-
-      <div>
-        <label class="block text-xs font-bold text-slate-400 uppercase mb-2">Selecione as Operadoras para Incluir:</label>
-        <div id="export-checkboxes" class="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-4 max-h-32 overflow-y-auto custom-scroll p-2 bg-brand-dark rounded-xl border border-brand-border">
-          <!-- Injetado via JS -->
-        </div>
-      </div>
-
-      <div>
-        <label class="block text-xs font-bold text-slate-400 uppercase mb-2">Código JS Gerado:</label>
-        <textarea id="export-code" class="w-full h-40 p-3 bg-brand-dark border border-brand-border rounded-xl text-emerald-400 font-mono text-xs custom-scroll outline-none" readonly></textarea>
-      </div>
-
-      <div class="flex justify-end gap-2 pt-2">
-        <button onclick="closeExportModal()" class="px-4 py-2 bg-brand-dark text-slate-300 font-bold rounded-xl hover:bg-brand-border transition text-xs">Fechar</button>
-        <button onclick="downloadJSFile()" class="px-5 py-2 bg-emerald-500 text-black font-extrabold rounded-xl hover:bg-emerald-400 transition text-xs flex items-center gap-2">
-          <i class="fa-solid fa-file-arrow-down"></i> Baixar Arquivo .JS
+      <div class="bastidores-actions">
+        <!-- Contador de Casinhas com Falta (Item 2) -->
+        <button class="btn-missing-counter" onclick="toggleMissingFilter()">
+          ⚠️ Casinhas c/ Faltas:
+          <span class="missing-badge" id="missingCounter">0</span>
         </button>
+        <button class="btn-pill" style="background:#171a23; color:#fff;" onclick="addNewCard()">+ Novo Cartão</button>
       </div>
     </div>
   </div>
 
-  <footer class="border-t border-brand-border py-6 text-center text-xs text-slate-500">
-    #Paz.e.Bem - TeleCards Acervo & Coleção
-  </footer>
+  <!-- FILTROS POR OPERADORA (Visíveis sem rolar) -->
+  <section class="filter-section">
+    <div class="filter-label">FILTRAR POR OPERADORA</div>
+    <div class="operators-grid" id="operatorsContainer">
+      <!-- Injetado via JS -->
+    </div>
+  </section>
 
-  <!-- Scripts de Lógica Integrada -->
+  <!-- CATALOGO DE CASINHAS -->
+  <section class="catalog-section">
+    <div class="cards-grid" id="cardsGrid">
+      <!-- Casinhas injetadas via JavaScript -->
+    </div>
+  </section>
+
   <script>
-    const DEFAULT_OPS = ["Todos", "Telefônica", "Telebrás", "Brasil Telecom", "CRT", "Oi", "Telemar", "Ceterp", "CBTC", "Telepar", "Telesc", "Telemig", "Telegoiás", "Telerj", "Sercomtel"];
-    let selectedOp = 'Todos';
-    let currentMode = 'visitor';
+    // DADOS DAS CASINHAS
+    let cardsData = [
+      {
+        id: "001-TB-MON-C",
+        operator: "Telebrás",
+        title: "Telebrás - Série Obras de Monet (COMPLETA: 2 cards)",
+        price: 3.00,
+        hasRealPhoto: true,
+        imageUrl: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "001-TB-MON-AV01",
+        operator: "Telebrás",
+        title: "Telebrás - Série Obras de Monet - card nº 1 - Os Agapantos",
+        price: 1.00,
+        hasRealPhoto: true,
+        imageUrl: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "002-TB-COL-C",
+        operator: "Telebrás",
+        title: "Telebrás - Série Colecionadores (COMPLETA: 3 cards)",
+        price: 4.00,
+        hasRealPhoto: false, // Sem foto real -> mostra Logo Paz.e.Bem grande
+        imageUrl: ""
+      },
+      {
+        id: "002-TB-COL-AV01",
+        operator: "Telebrás",
+        title: "Telebrás - Série Colecionadores - card nº 1 - '1º Encontro'",
+        price: null, // Falta de Valor
+        hasRealPhoto: true,
+        imageUrl: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "003-TL-SP-01",
+        operator: "Telefônica",
+        title: "Telefônica - Série Cidades Paulistas - São Paulo 450 Anos",
+        price: 2.50,
+        hasRealPhoto: false, // Sem foto real
+        imageUrl: ""
+      },
+      {
+        id: "004-BT-PR-01",
+        operator: "Brasil Telecom",
+        title: "Brasil Telecom - Natureza do Sul - Foz do Iguaçu",
+        price: 5.00,
+        hasRealPhoto: true,
+        imageUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
+      }
+    ];
 
-    window.onload = function() {
-      renderFilters();
-      renderCatalog();
-    };
+    const operators = [
+      "Todos", "Telefônica", "Telebrás", "Brasil Telecom", "CRT", 
+      "Oi", "Telemar", "Ceterp", "CBTC", "Telepar", "Telesc", 
+      "Telemig", "Telegoiás", "Telerj", "Sercomtel"
+    ];
 
-    function filterOp(op) {
-      selectedOp = op;
-      renderFilters();
-      renderCatalog();
+    let currentOperator = "Todos";
+    let filterOnlyMissing = false;
+
+    // INICIALIZAÇÃO
+    window.addEventListener('DOMContentLoaded', () => {
+      renderOperators();
+      renderCards();
+      updateMissingCounter();
+    });
+
+    // TROCA DE MODO (VISITANTE / BASTIDORES)
+    function setMode(mode) {
+      if (mode === 'bastidores') {
+        document.body.classList.add('mode-bastidores');
+        document.getElementById('btnModeBackstage').classList.add('active');
+        document.getElementById('btnModeVisitor').classList.remove('active');
+      } else {
+        document.body.classList.remove('mode-bastidores');
+        document.getElementById('btnModeVisitor').classList.add('active');
+        document.getElementById('btnModeBackstage').classList.remove('active');
+      }
     }
 
-    function renderFilters() {
-      const container = document.getElementById('operator-filters');
-      if (!container) return;
-      container.innerHTML = DEFAULT_OPS.map(op => `
-        <button onclick="filterOp('${op}')" class="px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${selectedOp === op ? 'bg-brand-accent text-white shadow-lg shadow-brand-accent/30' : 'bg-brand-card text-slate-400 hover:text-white border border-brand-border'}">
+    // RENDERIZAR OPERADORAS
+    function renderOperators() {
+      const container = document.getElementById('operatorsContainer');
+      container.innerHTML = operators.map(op => `
+        <button class="op-btn ${op === currentOperator ? 'active' : ''}" onclick="selectOperator('${op}')">
           ${op}
         </button>
       `).join('');
     }
 
-    function getAllCards() {
-      let all = [];
-      if (typeof telefonicaData !== 'undefined') all.push(...telefonicaData);
-      if (typeof telebrasData !== 'undefined') all.push(...telebrasData);
-      if (typeof embratelData !== 'undefined') all.push(...embratelData);
-      if (typeof brasiltelecomData !== 'undefined') all.push(...brasiltelecomData);
-      if (typeof crtData !== 'undefined') all.push(...crtData);
-      if (typeof oiData !== 'undefined') all.push(...oiData);
-      if (typeof telemarData !== 'undefined') all.push(...telemarData);
-      if (typeof ceterpData !== 'undefined') all.push(...ceterpData);
-      if (typeof cbtcData !== 'undefined') all.push(...cbtcData);
-      if (typeof teleparData !== 'undefined') all.push(...teleparData);
-      if (typeof telescData !== 'undefined') all.push(...telescData);
-      if (typeof telemigData !== 'undefined') all.push(...telemigData);
-      if (typeof telegoiasData !== 'undefined') all.push(...telegoiasData);
-      if (typeof telerjData !== 'undefined') all.push(...telerjData);
-      if (typeof sercomtelData !== 'undefined') all.push(...sercomtelData);
-      
-      const badge = document.getElementById('total-items-badge');
-      if (badge) badge.innerText = `${all.length} itens`;
-
-      return all;
+    function selectOperator(op) {
+      currentOperator = op;
+      filterOnlyMissing = false;
+      renderOperators();
+      renderCards();
     }
 
-    function renderCatalog() {
-      const grid = document.getElementById('catalog-grid');
-      if (!grid) return;
+    // TGL FILTRO DE CASINHAS COM FALTAS
+    function toggleMissingFilter() {
+      filterOnlyMissing = !filterOnlyMissing;
+      renderCards();
+    }
+
+    // ATUALIZA CONTADOR DE FALTAS
+    function updateMissingCounter() {
+      const missingItems = cardsData.filter(c => !c.hasRealPhoto || c.price === null || c.price === 0);
+      document.getElementById('missingCounter').textContent = missingItems.length;
+    }
+
+    // RENDERIZAR CASINHAS (CARDS)
+    function renderCards() {
+      const grid = document.getElementById('cardsGrid');
       
-      const cards = getAllCards();
-      const filtered = cards.filter(c => selectedOp === 'Todos' || (c.operator || '').toLowerCase() === selectedOp.toLowerCase());
+      let filtered = cardsData.filter(c => {
+        const matchesOp = (currentOperator === "Todos" || c.operator === currentOperator);
+        const hasMissing = (!c.hasRealPhoto || c.price === null || c.price === 0);
+        return filterOnlyMissing ? (matchesOp && hasMissing) : matchesOp;
+      });
 
-      if (filtered.length === 0) {
-        grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-500 font-semibold">Nenhum cartão encontrado.</div>`;
-        return;
-      }
+      grid.innerHTML = filtered.map(card => {
+        const isMissingPrice = card.price === null || card.price === undefined;
+        
+        return `
+          <div class="card-item">
+            <div class="card-op-tag">${card.operator}</div>
 
-      grid.innerHTML = filtered.map(c => `
-        <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden hover:border-brand-accent/50 transition-all group flex flex-col justify-between relative">
-          
-          <div class="relative h-48 bg-brand-dark/50 p-4 flex items-center justify-center overflow-hidden">
-            <img src="${c.image || 'logo.jpg'}" alt="${c.title}" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300">
-            <span class="absolute top-3 right-3 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-lg text-[10px] font-bold text-white border border-white/10">${c.operator || 'Acervo'}</span>
-          </div>
-
-          <div class="p-4 space-y-2">
-            <h4 class="font-bold text-sm text-white line-clamp-2">${c.title}</h4>
-            <div class="flex justify-between items-center pt-2 border-t border-brand-border/50">
-              <span class="text-xs text-slate-400 font-mono">${c.ref || '#000'}</span>
-              <span class="text-sm font-black text-brand-accent">R$ ${(c.price || 0).toFixed(2)}</span>
+            <!-- BOTOES DE EDICAO NO TOPO (Item 3) -->
+            <div class="card-top-controls">
+              <button class="ctrl-btn" title="Editar Casinha" onclick="editCard('${card.id}')">✏️</button>
+              <button class="ctrl-btn" title="Vincular Foto" onclick="linkPhoto('${card.id}')">🔗</button>
+              <button class="ctrl-btn" title="Excluir" onclick="deleteCard('${card.id}')">🗑️</button>
             </div>
 
-            ${currentMode === 'admin' ? `
-              <!-- AÇÕES DOS BASTIDORES: Aperto de mão + Editar + Excluir -->
-              <div class="flex items-center justify-end gap-1.5 pt-3 mt-2 border-t border-brand-border/80">
-                <button onclick="tradeCard('${c.id}')" title="Transação / Negociação" class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500 hover:text-black transition flex items-center justify-center text-xs">
-                  <i class="fa-solid fa-handshake"></i>
-                </button>
-                <button onclick="editCard('${c.id}')" title="Editar Cartão" class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 border border-amber-500/30 hover:bg-amber-500 hover:text-black transition flex items-center justify-center text-xs">
-                  <i class="fa-solid fa-pencil"></i>
-                </button>
-                <button onclick="deleteCard('${c.id}')" title="Excluir Cartão" class="w-8 h-8 rounded-lg bg-rose-500/20 text-rose-400 border border-rose-500/30 hover:bg-rose-500 hover:text-white transition flex items-center justify-center text-xs">
-                  <i class="fa-solid fa-trash-can"></i>
-                </button>
+            <!-- ÁREA DA IMAGEM (Item 4) -->
+            <div class="card-image-area">
+              ${card.hasRealPhoto && card.imageUrl ? `
+                <img src="${card.imageUrl}" alt="${card.title}">
+                
+                <!-- Barra inferior centralizada com a logo Paz.e.Bem -->
+                <div class="card-image-footer-bar">
+                  <div class="paz-bem-icon">
+                    <svg class="flower-svg" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C15.84,9 14.5,8.12 13.58,7.56C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/></svg>
+                  </div>
+                </div>
+
+                <!-- Nome 'jaueras' subindo na lateral direita -->
+                <div class="jaueras-vertical-text">jaueras</div>
+              ` : `
+                <!-- Sem foto real: Logo Paz.e.Bem grande em destaque -->
+                <div class="placeholder-logo-container">
+                  <div class="paz-bem-icon">
+                    <svg class="flower-svg" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/></svg>
+                  </div>
+                  <div class="placeholder-text">IMAGEM PENDENTE</div>
+                </div>
+              `}
+            </div>
+
+            <!-- DETALHES -->
+            <div class="card-details">
+              <div class="card-item-title">${card.title}</div>
+              <div class="card-item-footer">
+                <div class="card-code">${card.id}</div>
+                <div class="card-price ${isMissingPrice ? 'missing' : ''}">
+                  ${isMissingPrice ? '⚠️ S/ Valor' : `R$ ${card.price.toFixed(2)}`}
+                </div>
               </div>
-            ` : ''}
+            </div>
           </div>
-
-        </div>
-      `).join('');
+        `;
+      }).join('');
     }
 
-    /* Alternância do Cartão de Visita e Troca de Lados da Logo/Foto */
-    function setViewMode(mode) {
-      currentMode = mode;
-      const isAdmin = mode === 'admin';
+    // AÇÕES DE BASTIDORES
+    function editCard(id) {
+      alert(`Editar casinha: ${id}`);
+    }
 
-      const btnVisitor = document.getElementById('btn-visitor');
-      const btnAdmin = document.getElementById('btn-admin');
-      const adminPanel = document.getElementById('admin-panel');
-      const frontCard = document.getElementById('front-card');
-      const frontBadge = document.getElementById('front-badge');
-      const frontLabel = document.getElementById('front-label');
-      const imgLeft = document.getElementById('img-left');
-      const imgRight = document.getElementById('img-right');
-
-      if (adminPanel) adminPanel.classList.toggle('hidden', !isAdmin);
-
-      if (isAdmin) {
-        btnAdmin.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";
-        btnVisitor.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";
-        
-        // Estilo e Textos do Cartão da Frente nos Bastidores
-        frontCard.className = "absolute inset-0 bg-gradient-to-br from-amber-900 via-rose-900 to-purple-950 rounded-2xl p-5 shadow-2xl card-stack-2 border border-amber-500/30 flex flex-col justify-between";
-        frontBadge.innerText = "EDIÇÃO ATIVA";
-        frontBadge.className = "text-xs bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2.5 py-0.5 rounded-full font-bold";
-        frontLabel.innerText = "MODO GESTOR";
-
-        // ALTERNA LADOS: Foto na esquerda, Logo na direita
-        imgLeft.src = "minha_foto.jpg";
-        imgRight.src = "logo.jpg";
-      } else {
-        btnVisitor.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";
-        btnAdmin.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";
-        
-        // Estilo e Textos do Cartão da Frente no Visitante
-        frontCard.className = "absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-900 rounded-2xl p-5 shadow-2xl card-stack-2 border border-white/20 flex flex-col justify-between";
-        frontBadge.innerText = "ACERVO ATIVO";
-        frontBadge.className = "text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-bold";
-        frontLabel.innerText = "COLEÇÃO COMPLETA";
-
-        // ALTERNA LADOS: Logo na esquerda, Foto na direita
-        imgLeft.src = "logo.jpg";
-        imgRight.src = "minha_foto.jpg";
+    function linkPhoto(id) {
+      const url = prompt("Cole o link/URL da imagem real para esta casinha:");
+      if (url) {
+        const item = cardsData.find(c => c.id === id);
+        if (item) {
+          item.imageUrl = url;
+          item.hasRealPhoto = true;
+          renderCards();
+          updateMissingCounter();
+        }
       }
-
-      renderCatalog();
     }
 
-    /* Modal e Exportador JS com Checkboxes */
-    function openExportModal() {
-      const container = document.getElementById('export-checkboxes');
-      const ops = DEFAULT_OPS.filter(o => o !== 'Todos');
-      container.innerHTML = ops.map(op => `
-        <label class="flex items-center gap-2 text-xs text-slate-300 cursor-pointer">
-          <input type="checkbox" value="${op}" checked onchange="updateExportCode()" class="accent-pink-500 rounded">
-          ${op}
-        </label>
-      `).join('');
-
-      document.getElementById('export-modal').classList.remove('hidden');
-      document.getElementById('export-modal').classList.add('flex');
-      updateExportCode();
+    function deleteCard(id) {
+      if (confirm(`Deseja remover a casinha ${id}?`)) {
+        cardsData = cardsData.filter(c => c.id !== id);
+        renderCards();
+        updateMissingCounter();
+      }
     }
 
-    function closeExportModal() {
-      document.getElementById('export-modal').classList.add('hidden');
-      document.getElementById('export-modal').classList.remove('flex');
+    function addNewCard() {
+      const title = prompt("Título da nova casinha:");
+      if (title) {
+        cardsData.push({
+          id: `00${cardsData.length + 1}-NOVO`,
+          operator: currentOperator === "Todos" ? "Telebrás" : currentOperator,
+          title: title,
+          price: 0,
+          hasRealPhoto: false,
+          imageUrl: ""
+        });
+        renderCards();
+        updateMissingCounter();
+      }
     }
-
-    function updateExportCode() {
-      const checked = Array.from(document.querySelectorAll('#export-checkboxes input:checked')).map(cb => cb.value);
-      const cards = getAllCards().filter(c => checked.includes(c.operator));
-      
-      const code = `// TeleCards - Exportação de Dados
-window.exportedTeleCardsData = ${JSON.stringify(cards, null, 2)};`;
-      
-      document.getElementById('export-code').value = code;
-    }
-
-    function downloadJSFile() {
-      const text = document.getElementById('export-code').value;
-      const blob = new Blob([text], { type: 'text/javascript' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'telecards-export.js';
-      a.click();
-    }
-
-    function tradeCard(id) { alert('Abrir painel de negociação/troca do cartão: ' + id); }
-    function editCard(id) { alert('Editar cartão: ' + id); }
-    function deleteCard(id) { if(confirm('Tem certeza de que deseja remover este cartão?')) alert('Removido!'); }
   </script>
 </body>
 </html>
