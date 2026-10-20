@@ -546,7 +546,6 @@
       return 'Avulso';
     }
 
-    /* Formatação e Normalização de Pastas de Imagem */
     function formatarCaminhoImagem(caminho, operator, ref) {
       if (caminho && caminho.startsWith('data:image')) return caminho;
 
@@ -622,7 +621,7 @@
     try { parseExternal(window.crtData, "CRT"); } catch(e){}
     try { parseExternal(window.oiData, "Oi"); } catch(e){}
     try { parseExternal(window.telemarData, "Telemar"); } catch(e){}
-    try { parseExternal(window.ceterpData, "Ceterp"); } catch(e){}
+    try { parseExternal(window.ceterpData || window.ceterp_Data || window.CeterpData, "Ceterp"); } catch(e){}
     try { parseExternal(window.cbtcData, "CBTC"); } catch(e){}
     try { parseExternal(window.teleparData, "Telepar"); } catch(e){}
     try { parseExternal(window.telescData, "Telesc"); } catch(e){}
@@ -1211,6 +1210,7 @@
       }).join('');
     }
 
+    /* Atualização direta no estado em memória local */
     function bindCurrentImageToCard(cardId) {
       if (queueFiles.length === 0) {
         alert('Escolha primeiro as imagens da pasta no botão "Escolher Imagens".');
