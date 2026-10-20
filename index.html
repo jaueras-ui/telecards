@@ -59,7 +59,15 @@
         </div>
       </div>
       <div class="flex items-center gap-3">
-        <!-- Botão Vinculador com nova cor verde -->
+        <button id="btn-meu-album" class="hidden bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-xl text-sm font-medium transition flex items-center gap-2 shadow-lg shadow-pink-600/20">
+          <i class="fa-solid fa-book-bookmark"></i> Meu Álbum <span id="count-album" class="bg-white/20 px-2 py-0.5 rounded-full text-xs">0</span>
+        </button>
+        <button id="btn-visitante" class="bg-brand-card hover:bg-brand-border text-slate-200 border border-brand-border px-4 py-2 rounded-xl text-sm font-medium transition flex items-center gap-2">
+          <i class="fa-solid fa-eye"></i> Modo Visitante
+        </button>
+        <button id="btn-bastidores" class="bg-brand-card hover:bg-brand-border text-slate-200 border border-brand-border px-4 py-2 rounded-xl text-sm font-medium transition flex items-center gap-2">
+          <i class="fa-solid fa-lock"></i> Modo Bastidores
+        </button>
         <button id="btn-vinculador" class="bg-vinculador hover:bg-vinculador-hover text-white px-4 py-2 rounded-xl text-sm font-medium transition shadow-lg shadow-emerald-500/20 flex items-center gap-2">
           <i class="fa-solid fa-link"></i> Vinculador Rápido
         </button>
@@ -69,15 +77,48 @@
 
   <!-- Conteúdo Principal -->
   <main class="max-w-7xl mx-auto px-4 py-8 flex-1 w-full">
+    <!-- Hero Banner -->
     <section class="text-center py-12 mb-8 bg-gradient-to-b from-purple-900/10 to-transparent rounded-3xl border border-brand-border p-8">
       <h2 class="text-4xl font-extrabold tracking-tight text-white mb-4">Preservando <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400">memórias.</span></h2>
       <p class="text-slate-400 max-w-2xl mx-auto text-base">Séries completas de artes, cartões avulsos, orelhões históricos e a magia retrô da telecartofilia em um único acervo.</p>
+      <div class="mt-6 flex justify-center gap-4">
+        <button id="btn-explorar" class="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-xl font-medium transition shadow-lg shadow-pink-600/20 flex items-center gap-2">
+          Explorar Catálogo <i class="fa-solid fa-arrow-down text-xs"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Filtros de Operadora -->
+    <section class="mb-6">
+      <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">Filtrar por Operadora</h3>
+      <div id="filter-operators" class="flex flex-wrap gap-2">
+        <!-- Gerado via script -->
+      </div>
+    </section>
+
+    <!-- Filtros de Tipo -->
+    <section class="mb-8">
+      <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">Filtrar por Tipo</h3>
+      <div id="filter-types" class="flex flex-wrap gap-2">
+        <!-- Gerado via script -->
+      </div>
+    </section>
+
+    <!-- Grelha de Cartões -->
+    <section>
+      <div id="cards-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Os cartões do catálogo entram aqui dinamicamente -->
+      </div>
     </section>
   </main>
 
+  <!-- Rodapé -->
   <footer class="border-t border-brand-border py-6 text-center text-xs text-slate-500">
     #Paz.e.Bem - TeleCards Acervo & Coleção
   </footer>
 
+  <!-- Scripts de Lógica da Aplicação -->
+  <script src="app.js" onerror="console.log('app.js não encontrado')"></script>
+  <script src="script.js" onerror="console.log('script.js não encontrado')"></script>
 </body>
 </html>
