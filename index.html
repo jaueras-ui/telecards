@@ -494,8 +494,13 @@
         </div>
 
         <div>
-          <label class="block text-slate-400 mb-1 font-semibold">Caminho da Imagem</label>
+          <label class="block text-slate-400 mb-1 font-semibold">Caminho da Imagem ou URL</label>
           <input type="text" id="f-image" placeholder="Ex: fotos/ctbc/foto01.jpg" class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none">
+        </div>
+
+        <div>
+          <label class="block text-slate-400 mb-1 font-semibold">Ou Carregar Imagem Direta</label>
+          <input type="file" id="f-file-upload" accept="image/*" class="w-full p-2 bg-brand-dark border border-brand-border rounded-xl text-slate-300 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-xs file:font-semibold file:bg-emerald-600 file:text-white hover:file:bg-emerald-500 cursor-pointer">
         </div>
 
         <div class="flex justify-end gap-2 pt-3">
@@ -657,17 +662,12 @@
 
     let localEdits = JSON.parse(localStorage.getItem('tc_card_edits')) || {};
 
-    // Recupera automaticamente edições antigas gravadas com id alternativo ou operadora CBTC
     externalCards.forEach(card => {
       let edit = localEdits[card.id];
-      
-      // Se não encontrou pelo id direto, procura substituindo ctbc por cbtc
       if (!edit && card.id.includes('ctbc')) {
-        let altId = card.id.replace('ctbc', 'cbtc');
-        edit = localEdits[altId];
+        edit = localEdits[card.id.replace('ctbc', 'cbtc')];
       } else if (!edit && card.id.includes('cbtc')) {
-        let altId = card.id.replace('cbtc', 'ctbc');
-        edit = localEdits[altId];
+        edit = localEdits[card.id.replace('cbtc', 'ctbc')];
       }
 
       if (edit) {
@@ -1168,6 +1168,10 @@
         return;
       }
 
+      if (currentImageIndex >= queueFiles.length) {
+        currentImageIndex = queueFiles.length - 1;
+      }
+
       const img = queueFiles[currentImageIndex];
       previewContainer.innerHTML = `<img src="${img.dataUrl}" class="w-full h-full object-contain">`;
       nameEl.innerText = img.name;
@@ -1244,7 +1248,6 @@
       const op = document.getElementById('linker-operator').value;
       const imageData = featuredImg.dataUrl;
 
-      // 1. Gravar no localStorage com id atual e com id alternativo (evita perdas)
       localEdits[cardId] = { ...(localEdits[cardId] || {}), image: imageData, operator: op };
       if (cardId.includes('ctbc')) {
         localEdits[cardId.replace('ctbc', 'cbtc')] = { image: imageData, operator: op };
@@ -1253,7 +1256,6 @@
       }
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
-      // 2. Atualizar o objeto do cartão em memória
       const card = cards.find(c => c.id === cardId);
       if (card) {
         card.image = imageData;
@@ -1261,13 +1263,11 @@
         card.operator = op;
       }
 
-      // 3. Remover a foto vinculada da lista da esquerda
       queueFiles.splice(currentImageIndex, 1);
       if (currentImageIndex >= queueFiles.length && queueFiles.length > 0) {
         currentImageIndex = queueFiles.length - 1;
       }
 
-      // 4. Atualizar os visuais
       updateFeaturedImage();
       loadOperatorCardsForQueue();
       renderCatalog();
@@ -1281,6 +1281,7 @@
       document.getElementById('f-ref').value = '';
       document.getElementById('f-price').value = '2.00';
       document.getElementById('f-image').value = '';
+      document.getElementById('f-file-upload').value = '';
       document.getElementById('admin-modal').classList.remove('hidden');
       document.getElementById('admin-modal').classList.add('flex');
     }
@@ -1296,6 +1297,7 @@
       document.getElementById('f-operator').value = card.operator || 'CTBC';
       document.getElementById('f-price').value = card.price || 2.00;
       document.getElementById('f-image').value = card.image.startsWith('data:image') ? '' : card.image;
+      document.getElementById('f-file-upload').value = '';
       document.getElementById('admin-modal').classList.remove('hidden');
       document.getElementById('admin-modal').classList.add('flex');
     }
@@ -1312,48 +1314,65 @@
       const ref = document.getElementById('f-ref').value;
       const operator = document.getElementById('f-operator').value;
       const price = parseFloat(document.getElementById('f-price').value) || 2.00;
-      let image = document.getElementById('f-image').value;
-      if (!image.startsWith('data:image')) {
-        image = formatarCaminhoImagem(image, operator, ref);
-      }
+      const fileInput = document.getElementById('f-file-upload');
+      let imageInput = document.getElementById('f-image').value;
       const type = classifyCardType(title);
 
-      if (id) {
-        if (externalCards.some(c => c.id === id)) {
-          localEdits[id] = { title, ref, operator, price, image };
-          localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
-        } else {
-          let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
-          let idx = customCards.findIndex(c => c.id === id);
-          if (idx !== -1) {
-            customCards[idx] = { id, title, ref, operator, price, image, type };
-            localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
-          }
+      const processSave = (finalImage) => {
+        let image = finalImage;
+        if (!image.startsWith('data:image') && image.trim() !== '') {
+          image = formatarCaminhoImagem(image, operator, ref);
         }
-        
-        const cardObj = cards.find(c => c.id === id);
-        if (cardObj) {
-          cardObj.title = title;
-          cardObj.ref = ref;
-          cardObj.operator = operator;
-          cardObj.price = price;
-          cardObj.image = image;
-          cardObj.imageHasError = false;
-          cardObj.type = type;
-        }
-      } else {
-        const newId = 'custom-' + Date.now();
-        const newCard = { id: newId, title, ref, operator, price, image, imageHasError: false, type };
-        let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
-        customCards.push(newCard);
-        localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
-        cards.unshift(newCard);
-      }
 
-      closeModal();
-      renderCatalog();
-      renderFilters();
-      renderSoldList();
+        if (id) {
+          if (externalCards.some(c => c.id === id)) {
+            localEdits[id] = { ...(localEdits[id] || {}), title, ref, operator, price, image };
+            localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
+          } else {
+            let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
+            let idx = customCards.findIndex(c => c.id === id);
+            if (idx !== -1) {
+              customCards[idx] = { id, title, ref, operator, price, image, type };
+              localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
+            }
+          }
+          
+          const cardObj = cards.find(c => c.id === id);
+          if (cardObj) {
+            cardObj.title = title;
+            cardObj.ref = ref;
+            cardObj.operator = operator;
+            cardObj.price = price;
+            if (image) cardObj.image = image;
+            cardObj.imageHasError = false;
+            cardObj.type = type;
+          }
+        } else {
+          const newId = 'custom-' + Date.now();
+          const newCard = { id: newId, title, ref, operator, price, image, imageHasError: false, type };
+          let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
+          customCards.push(newCard);
+          localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
+          cards.unshift(newCard);
+        }
+
+        closeModal();
+        renderCatalog();
+        renderFilters();
+        renderSoldList();
+      };
+
+      if (fileInput.files && fileInput.files[0]) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          processSave(e.target.result);
+        };
+        reader.readAsDataURL(fileInput.files[0]);
+      } else {
+        const existingCard = cards.find(c => c.id === id);
+        const fallbackImage = existingCard ? existingCard.image : imageInput;
+        processSave(imageInput.trim() !== '' ? imageInput : fallbackImage);
+      }
     }
 
     function deleteCard(id) {
