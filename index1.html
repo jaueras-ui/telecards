@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeleCards - Jaueras</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-dark: #0b0c10;
+      --bg-card: #13151b;
+      --bg-card-hover: #1a1d26;
+      --border-color: #232734;
+      --text-main: #f0f2f8;
+      --text-muted: #8c95a8;
+      --accent-pink: #ff2a6d;
+      --accent-purple: #8a2be2;
+      --gold-bg-start: #8a6218;
+      --gold-bg-end: #3d2a06;
+      --gold-accent: #e5b352;
+      --gold-text: #fce8b3;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      padding-bottom: 60px;
+    }
+
+    /* HEADER / NAVBAR */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid var(--border-color);
+      background-color: rgba(11, 12, 16, 0.9);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* Logo Paz.e.Bem - Florzinha SVG */
+    .paz-bem-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 12px rgba(255, 117, 140, 0.4);
+      flex-shrink: 0;
+    }
+
+    .brand-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .brand-name span {
+      color: var(--accent-pink);
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-pill {
+      background: #171a23;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-pill:hover {
+      border-color: #3b4256;
+      color: var(--text-main);
+    }
+
+    .btn-pill.active {
+      background: #ffffff;
+      color: #000000;
+      border-color: #ffffff;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 52px;
+      line-height: 1.1;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .hero-title .highlight {
+      background: linear-gradient(90deg, #ff2a6d, #ff70a6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc {
+      color: var(--text-muted);
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+      max-width: 500px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+    }
+
+    .btn-primary {
+      background: var(--accent-pink);
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(255, 42, 109, 0.35);
+    }
+
+    .btn-secondary {
+      background: #171a23;
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    /* CARTÕES DE APRESENTAÇÃO HERO (Fixos à direita) */
+    .hero-cards-wrapper {
+      position: relative;
+      width: 100%;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .business-card {
+      position: absolute;
+      width: 380px;
+      height: 220px;
+      border-radius: 16px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      user-select: none;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    /* Cartão 1: Visitante (Roxo/Magenta) */
+    .business-card.card-visitor {
+      background: linear-gradient(135deg, #4a154b 0%, #611f69 40%, #2e0854 100%);
+      z-index: 2;
+    }
+
+    /* Cartão 2: Bastidores (Dourado Queimado Lindo e Suave) */
+    .business-card.card-backstage {
+      background: linear-gradient(135deg, var(--gold-bg-start) 0%, #573e0f 50%, var(--gold-bg-end) 100%);
+      border-color: rgba(229, 179, 82, 0.3);
+      z-index: 1;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    body.mode-bastidores .business-card.card-visitor {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    body.mode-bastidores .business-card.card-backstage {
+      opacity: 1;
+      pointer-events: auto;
+      z-index: 2;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #ffffff;
+    }
+
+    .card-badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .card-visitor .card-badge {
+      background: rgba(255, 255, 255, 0.15);
+      color: #72f2eb;
+    }
+
+    .card-backstage .card-badge {
+      background: rgba(229, 179, 82, 0.2);
+      color: var(--gold-accent);
+      border: 1px solid rgba(229, 179, 82, 0.4);
+    }
+
+    .card-center {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .card-author-name {
+      font-weight: 700;
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    .card-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .card-subtag {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+    }
+
+    .card-count {
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .card-visitor .card-count {
+      color: #ffd166;
+    }
+
+    .card-backstage .card-count {
+      color: var(--gold-text);
+    }
+
+    /* PAINEL BASTIDORES & CONTADOR DE FALTAS */
+    .bastidores-bar {
+      max-width: 1280px;
+      margin: 0 auto 30px auto;
+      padding: 0 20px;
+      display: none;
+    }
+
+    body.mode-bastidores .bastidores-bar {
+      display: block;
+    }
+
+    .bastidores-panel {
+      background: rgba(229, 179, 82, 0.05);
+      border: 1px solid rgba(229, 179, 82, 0.2);
+      border-radius: var(--radius-md);
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .bastidores-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      color: var(--gold-accent);
+      font-size: 14px;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background-color: var(--gold-accent);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--gold-accent);
+    }
+
+    .bastidores-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .btn-missing-counter {
+      background: #1e170a;
+      border: 1px solid var(--gold-accent);
+      color: var(--gold-text);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .missing-badge {
+      background: var(--accent-pink);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+    }
+
+    /* BARRAS DE OPERADORAS (SEM BARRA DE ROLAGEM) */
+    .filter-section {
+      max-width: 1280px;
+      margin: 0 auto 30px auto;
+      padding: 0 20px;
+    }
+
+    .filter-label {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .operators-grid {
+      display: flex;
+      flex-wrap: wrap; /* Garanter que caibam todas no campo de visão */
+      gap: 8px;
+    }
+
+    .op-btn {
+      background: #141721;
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .op-btn:hover {
+      border-color: #3b4256;
+      background: #1c202e;
+    }
+
+    .op-btn.active {
+      background: var(--accent-pink);
+      color: white;
+      border-color: var(--accent-pink);
+    }
+
+    /* GRID DE CASINHAS (CARDS) */
+    .catalog-section {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    /* A CASINHA / CARD */
+    .card-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .card-item:hover {
+      transform: translateY(-4px);
+      border-color: #2e3547;
+    }
+
+    /* BOTOES DE EDIÇÃO NO TOPO (Item 3) */
+    .card-top-controls {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 10;
+      display: none;
+      gap: 6px;
+    }
+
+    body.mode-bastidores .card-top-controls {
+      display: flex;
+    }
+
+    .ctrl-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(11, 12, 16, 0.85);
+      color: white;
+      backdrop-filter: blur(4px);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+
+    .ctrl-btn:hover {
+      background: var(--accent-pink);
+    }
+
+    /* ÁREA DA IMAGEM DA CASINHA (Item 4) */
+    .card-image-area {
+      position: relative;
+      width: 100%;
+      height: 190px;
+      background: #0f1117;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .card-image-area img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Logo Paz.e.Bem Grande (quando não tem foto) */
+    .placeholder-logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .placeholder-logo-container .paz-bem-icon {
+      width: 64px;
+      height: 64px;
+    }
+
+    .placeholder-text {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+    }
+
+    /* Barra Inferior Centralizada com Logo (Quando tem foto real) */
+    .card-image-footer-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 36px;
+      background: rgba(11, 12, 16, 0.75);
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-image-footer-bar .paz-bem-icon {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* Nome "jaueras" na lateral direita subindo (com o 'j' em baixo) */
+    .jaueras-vertical-text {
+      position: absolute;
+      right: 8px;
+      bottom: 12px;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg); /* Faz o 'j' começar embaixo e subir */
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: rgba(255, 255, 255, 0.7);
+      text-transform: lowercase;
+      pointer-events: none;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    }
+
+    /* DETALHES DA CASINHA */
+    .card-details {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex-grow: 1;
+    }
+
+    .card-item-title {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4;
+      color: var(--text-main);
+    }
+
+    .card-item-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .card-code {
+      font-family: monospace;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .card-price {
+      font-weight: 800;
+      font-size: 15px;
+      color: var(--accent-pink);
+    }
+
+    .card-price.missing {
+      color: #ff9f43;
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    /* OPERADORA TAG NO CARD */
+    .card-op-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(11, 12, 16, 0.8);
+      backdrop-filter: blur(4px);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #ffffff;
+      z-index: 2;
+    }
+
+    /* SVG DA FLORZINHA PAZ.E.BEM */
+    .flower-svg {
+      width: 60%;
+      height: 60%;
+      fill: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <div class="brand">
+      <div class="paz-bem-icon">
+        <svg class="flower-svg" viewBox="0 0 24 24">
+          <path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C15.84,9 14.5,8.12 13.58,7.56C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/>
+        </svg>
+      </div>
+      <div class="brand-name">Tele<span>Cards</span></div>
+    </div>
+
+    <div class="header-controls">
+      <button class="btn-pill active" id="btnModeVisitor" onclick="setMode('visitor')">
+        👁️ Modo Visitante
+      </button>
+      <button class="btn-pill" id="btnModeBackstage" onclick="setMode('bastidores')">
+        👤 Modo Bastidores
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div>
+      <h1 class="hero-title">Cartões que guardam <span class="highlight">memórias.</span></h1>
+      <p class="hero-desc">
+        Séries completas de artes, cartões avulsos, orelhões históricos e a magia retrô da telecartofilia em um único acervo.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-primary">Explorar Catalógo ↓</button>
+        <button class="btn-secondary" onclick="setMode('bastidores')">⚙️ Acessar Bastidores</button>
+      </div>
+    </div>
+
+    <!-- CARTÕES DE APRESENTAÇÃO HERO (Fixos à direita) -->
+    <div class="hero-cards-wrapper">
+      
+      <!-- Cartão Visitante (Roxo/Magenta) -->
+      <div class="business-card card-visitor">
+        <div class="card-top">
+          <div class="card-title">TELECARTOFILIA</div>
+          <div class="card-badge">ACERVO ATIVO</div>
+        </div>
+        <div class="card-center">
+          <div class="paz-bem-icon" style="width:30px; height:30px;">
+            <svg class="flower-svg" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C15.84,9 14.5,8.12 13.58,7.56C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/></svg>
+          </div>
+          <div class="card-author-name">◇ Paz.e.Bem ◇</div>
+        </div>
+        <div class="card-bottom">
+          <div class="card-subtag">COLEÇÃO COMPLETA</div>
+          <div class="card-count" id="visitorCount">860 itens</div>
+        </div>
+      </div>
+
+      <!-- Cartão Bastidores (Dourado Queimado Lindo e Suave) -->
+      <div class="business-card card-backstage">
+        <div class="card-top">
+          <div class="card-title">TELECARTOFILIA</div>
+          <div class="card-badge">EDIÇÃO ATIVA</div>
+        </div>
+        <div class="card-center">
+          <div class="paz-bem-icon" style="width:30px; height:30px; background: linear-gradient(135deg, #e5b352 0%, #b8860b 100%);">
+            <svg class="flower-svg" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C15.84,9 14.5,8.12 13.58,7.56C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/></svg>
+          </div>
+          <div class="card-author-name" style="color: var(--gold-text);">◇ Paz.e.Bem ◇</div>
+        </div>
+        <div class="card-bottom">
+          <div class="card-subtag" style="border: 1px solid rgba(229,179,82,0.3); color: var(--gold-accent);">MODO GESTOR</div>
+          <div class="card-count" id="backstageCount">860 itens</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PAINEL EXCLUSIVO BASTIDORES & CONTADOR DE FALTAS -->
+  <div class="bastidores-bar">
+    <div class="bastidores-panel">
+      <div class="bastidores-info">
+        <div class="status-dot"></div>
+        MODO BASTIDORES (EDIÇÃO & GERENCIAMENTO)
+      </div>
+      <div class="bastidores-actions">
+        <!-- Contador de Casinhas com Falta (Item 2) -->
+        <button class="btn-missing-counter" onclick="toggleMissingFilter()">
+          ⚠️ Casinhas c/ Faltas:
+          <span class="missing-badge" id="missingCounter">0</span>
+        </button>
+        <button class="btn-pill" style="background:#171a23; color:#fff;" onclick="addNewCard()">+ Novo Cartão</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FILTROS POR OPERADORA (Visíveis sem rolar) -->
+  <section class="filter-section">
+    <div class="filter-label">FILTRAR POR OPERADORA</div>
+    <div class="operators-grid" id="operatorsContainer">
+      <!-- Injetado via JS -->
+    </div>
+  </section>
+
+  <!-- CATALOGO DE CASINHAS -->
+  <section class="catalog-section">
+    <div class="cards-grid" id="cardsGrid">
+      <!-- Casinhas injetadas via JavaScript -->
+    </div>
+  </section>
+
+  <script>
+    // DADOS DAS CASINHAS
+    let cardsData = [
+      {
+        id: "001-TB-MON-C",
+        operator: "Telebrás",
+        title: "Telebrás - Série Obras de Monet (COMPLETA: 2 cards)",
+        price: 3.00,
+        hasRealPhoto: true,
+        imageUrl: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "001-TB-MON-AV01",
+        operator: "Telebrás",
+        title: "Telebrás - Série Obras de Monet - card nº 1 - Os Agapantos",
+        price: 1.00,
+        hasRealPhoto: true,
+        imageUrl: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "002-TB-COL-C",
+        operator: "Telebrás",
+        title: "Telebrás - Série Colecionadores (COMPLETA: 3 cards)",
+        price: 4.00,
+        hasRealPhoto: false, // Sem foto real -> mostra Logo Paz.e.Bem grande
+        imageUrl: ""
+      },
+      {
+        id: "002-TB-COL-AV01",
+        operator: "Telebrás",
+        title: "Telebrás - Série Colecionadores - card nº 1 - '1º Encontro'",
+        price: null, // Falta de Valor
+        hasRealPhoto: true,
+        imageUrl: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        id: "003-TL-SP-01",
+        operator: "Telefônica",
+        title: "Telefônica - Série Cidades Paulistas - São Paulo 450 Anos",
+        price: 2.50,
+        hasRealPhoto: false, // Sem foto real
+        imageUrl: ""
+      },
+      {
+        id: "004-BT-PR-01",
+        operator: "Brasil Telecom",
+        title: "Brasil Telecom - Natureza do Sul - Foz do Iguaçu",
+        price: 5.00,
+        hasRealPhoto: true,
+        imageUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
+      }
+    ];
+
+    const operators = [
+      "Todos", "Telefônica", "Telebrás", "Brasil Telecom", "CRT", 
+      "Oi", "Telemar", "Ceterp", "CBTC", "Telepar", "Telesc", 
+      "Telemig", "Telegoiás", "Telerj", "Sercomtel"
+    ];
+
+    let currentOperator = "Todos";
+    let filterOnlyMissing = false;
+
+    // INICIALIZAÇÃO
+    window.addEventListener('DOMContentLoaded', () => {
+      renderOperators();
+      renderCards();
+      updateMissingCounter();
+    });
+
+    // TROCA DE MODO (VISITANTE / BASTIDORES)
+    function setMode(mode) {
+      if (mode === 'bastidores') {
+        document.body.classList.add('mode-bastidores');
+        document.getElementById('btnModeBackstage').classList.add('active');
+        document.getElementById('btnModeVisitor').classList.remove('active');
+      } else {
+        document.body.classList.remove('mode-bastidores');
+        document.getElementById('btnModeVisitor').classList.add('active');
+        document.getElementById('btnModeBackstage').classList.remove('active');
+      }
+    }
+
+    // RENDERIZAR OPERADORAS
+    function renderOperators() {
+      const container = document.getElementById('operatorsContainer');
+      container.innerHTML = operators.map(op => `
+        <button class="op-btn ${op === currentOperator ? 'active' : ''}" onclick="selectOperator('${op}')">
+          ${op}
+        </button>
+      `).join('');
+    }
+
+    function selectOperator(op) {
+      currentOperator = op;
+      filterOnlyMissing = false;
+      renderOperators();
+      renderCards();
+    }
+
+    // TGL FILTRO DE CASINHAS COM FALTAS
+    function toggleMissingFilter() {
+      filterOnlyMissing = !filterOnlyMissing;
+      renderCards();
+    }
+
+    // ATUALIZA CONTADOR DE FALTAS
+    function updateMissingCounter() {
+      const missingItems = cardsData.filter(c => !c.hasRealPhoto || c.price === null || c.price === 0);
+      document.getElementById('missingCounter').textContent = missingItems.length;
+    }
+
+    // RENDERIZAR CASINHAS (CARDS)
+    function renderCards() {
+      const grid = document.getElementById('cardsGrid');
+      
+      let filtered = cardsData.filter(c => {
+        const matchesOp = (currentOperator === "Todos" || c.operator === currentOperator);
+        const hasMissing = (!c.hasRealPhoto || c.price === null || c.price === 0);
+        return filterOnlyMissing ? (matchesOp && hasMissing) : matchesOp;
+      });
+
+      grid.innerHTML = filtered.map(card => {
+        const isMissingPrice = card.price === null || card.price === undefined;
+        
+        return `
+          <div class="card-item">
+            <div class="card-op-tag">${card.operator}</div>
+
+            <!-- BOTOES DE EDICAO NO TOPO (Item 3) -->
+            <div class="card-top-controls">
+              <button class="ctrl-btn" title="Editar Casinha" onclick="editCard('${card.id}')">✏️</button>
+              <button class="ctrl-btn" title="Vincular Foto" onclick="linkPhoto('${card.id}')">🔗</button>
+              <button class="ctrl-btn" title="Excluir" onclick="deleteCard('${card.id}')">🗑️</button>
+            </div>
+
+            <!-- ÁREA DA IMAGEM (Item 4) -->
+            <div class="card-image-area">
+              ${card.hasRealPhoto && card.imageUrl ? `
+                <img src="${card.imageUrl}" alt="${card.title}">
+                
+                <!-- Barra inferior centralizada com a logo Paz.e.Bem -->
+                <div class="card-image-footer-bar">
+                  <div class="paz-bem-icon">
+                    <svg class="flower-svg" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C15.84,9 14.5,8.12 13.58,7.56C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/></svg>
+                  </div>
+                </div>
+
+                <!-- Nome 'jaueras' subindo na lateral direita -->
+                <div class="jaueras-vertical-text">jaueras</div>
+              ` : `
+                <!-- Sem foto real: Logo Paz.e.Bem grande em destaque -->
+                <div class="placeholder-logo-container">
+                  <div class="paz-bem-icon">
+                    <svg class="flower-svg" viewBox="0 0 24 24"><path d="M12,2A3,3 0 0,0 9,5C9,6.08 9.58,7.03 10.42,7.56C9.5,8.12 8.16,9 7,9A3,3 0 0,0 4,12A3,3 0 0,0 7,15C8.16,15 9.5,15.88 10.42,16.44C9.58,16.97 9,17.92 9,19A3,3 0 0,0 12,22A3,3 0 0,0 15,19C15,17.92 14.42,16.97 13.58,16.44C14.5,15.88 15.84,15 17,15A3,3 0 0,0 20,12A3,3 0 0,0 17,9C14.42,7.03 15,6.08 15,5A3,3 0 0,0 12,2Z"/></svg>
+                  </div>
+                  <div class="placeholder-text">IMAGEM PENDENTE</div>
+                </div>
+              `}
+            </div>
+
+            <!-- DETALHES -->
+            <div class="card-details">
+              <div class="card-item-title">${card.title}</div>
+              <div class="card-item-footer">
+                <div class="card-code">${card.id}</div>
+                <div class="card-price ${isMissingPrice ? 'missing' : ''}">
+                  ${isMissingPrice ? '⚠️ S/ Valor' : `R$ ${card.price.toFixed(2)}`}
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // AÇÕES DE BASTIDORES
+    function editCard(id) {
+      alert(`Editar casinha: ${id}`);
+    }
+
+    function linkPhoto(id) {
+      const url = prompt("Cole o link/URL da imagem real para esta casinha:");
+      if (url) {
+        const item = cardsData.find(c => c.id === id);
+        if (item) {
+          item.imageUrl = url;
+          item.hasRealPhoto = true;
+          renderCards();
+          updateMissingCounter();
+        }
+      }
+    }
+
+    function deleteCard(id) {
+      if (confirm(`Deseja remover a casinha ${id}?`)) {
+        cardsData = cardsData.filter(c => c.id !== id);
+        renderCards();
+        updateMissingCounter();
+      }
+    }
+
+    function addNewCard() {
+      const title = prompt("Título da nova casinha:");
+      if (title) {
+        cardsData.push({
+          id: `00${cardsData.length + 1}-NOVO`,
+          operator: currentOperator === "Todos" ? "Telebrás" : currentOperator,
+          title: title,
+          price: 0,
+          hasRealPhoto: false,
+          imageUrl: ""
+        });
+        renderCards();
+        updateMissingCounter();
+      }
+    }
+  </script>
+</body>
+</html>
