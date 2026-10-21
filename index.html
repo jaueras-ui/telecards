@@ -517,7 +517,11 @@
     }
 
     function matchOperator(op1, op2) {
-      return normalizeText(op1) === normalizeText(op2);
+      const n1 = normalizeText(op1);
+      const n2 = normalizeText(op2);
+      if (n1 === n2) return true;
+      if ((n1 === 'cbtc' || n1 === 'ctbc') && (n2 === 'cbtc' || n2 === 'ctbc')) return true;
+      return false;
     }
 
     function handleAvatarError(img) {
@@ -570,7 +574,7 @@
       else if (op.includes('crt')) opPasta = 'crt';
       else if (op.includes('oi')) opPasta = 'oi';
       else if (op.includes('ceterp')) opPasta = 'ceterp';
-      else if (op.includes('ctbc')) opPasta = 'ctbc';
+      else if (op.includes('ctbc') || op.includes('cbtc')) opPasta = 'ctbc';
       else if (op.includes('telepar')) opPasta = 'telepar';
       else if (op.includes('telesc')) opPasta = 'telesc';
       else if (op.includes('telemig')) opPasta = 'telemig';
@@ -652,13 +656,26 @@
     cart = [...new Set(cart)];
 
     let localEdits = JSON.parse(localStorage.getItem('tc_card_edits')) || {};
+
+    // Recupera automaticamente edições antigas gravadas com id alternativo ou operadora CBTC
     externalCards.forEach(card => {
-      if (localEdits[card.id]) {
-        card.operator = localEdits[card.id].operator || card.operator;
-        card.price = localEdits[card.id].price !== undefined ? localEdits[card.id].price : card.price;
-        card.title = localEdits[card.id].title || card.title;
-        card.ref = localEdits[card.id].ref !== undefined ? localEdits[card.id].ref : (card.ref || card.id);
-        card.image = formatarCaminhoImagem(localEdits[card.id].image || card.image, card.operator, card.ref);
+      let edit = localEdits[card.id];
+      
+      // Se não encontrou pelo id direto, procura substituindo ctbc por cbtc
+      if (!edit && card.id.includes('ctbc')) {
+        let altId = card.id.replace('ctbc', 'cbtc');
+        edit = localEdits[altId];
+      } else if (!edit && card.id.includes('cbtc')) {
+        let altId = card.id.replace('cbtc', 'ctbc');
+        edit = localEdits[altId];
+      }
+
+      if (edit) {
+        card.operator = edit.operator || card.operator;
+        card.price = edit.price !== undefined ? edit.price : card.price;
+        card.title = edit.title || card.title;
+        card.ref = edit.ref !== undefined ? edit.ref : (card.ref || card.id);
+        card.image = formatarCaminhoImagem(edit.image || card.image, card.operator, card.ref);
         card.type = classifyCardType(card.title);
       }
     });
@@ -1145,7 +1162,7 @@
       const counterEl = document.getElementById('current-image-counter');
 
       if (queueFiles.length === 0) {
-        previewContainer.innerHTML = `<span class="text-slate-500 text-center px-4 italic">Todas as fotos foram vinculadas!</span>`;
+        previewContainer.innerHTML = `<span class="text-slate-500 text-center px-4 italic">Todas as fotos da fila foram vinculadas!</span>`;
         nameEl.innerText = "";
         counterEl.innerText = "Foto 0 de 0";
         return;
@@ -1227,15 +1244,16 @@
       const op = document.getElementById('linker-operator').value;
       const imageData = featuredImg.dataUrl;
 
-      // 1. Gravar a edição no localStorage com chave normalizada
-      localEdits[cardId] = { 
-        ...(localEdits[cardId] || {}), 
-        image: imageData, 
-        operator: op 
-      };
+      // 1. Gravar no localStorage com id atual e com id alternativo (evita perdas)
+      localEdits[cardId] = { ...(localEdits[cardId] || {}), image: imageData, operator: op };
+      if (cardId.includes('ctbc')) {
+        localEdits[cardId.replace('ctbc', 'cbtc')] = { image: imageData, operator: op };
+      } else if (cardId.includes('cbtc')) {
+        localEdits[cardId.replace('cbtc', 'ctbc')] = { image: imageData, operator: op };
+      }
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
-      // 2. Atualizar objeto em memória
+      // 2. Atualizar o objeto do cartão em memória
       const card = cards.find(c => c.id === cardId);
       if (card) {
         card.image = imageData;
@@ -1243,13 +1261,13 @@
         card.operator = op;
       }
 
-      // 3. Remover a foto vinculada da fila da esquerda e avançar para a próxima
+      // 3. Remover a foto vinculada da lista da esquerda
       queueFiles.splice(currentImageIndex, 1);
       if (currentImageIndex >= queueFiles.length && queueFiles.length > 0) {
         currentImageIndex = queueFiles.length - 1;
       }
 
-      // 4. Atualizar a interface do vinculador e do catálogo
+      // 4. Atualizar os visuais
       updateFeaturedImage();
       loadOperatorCardsForQueue();
       renderCatalog();
