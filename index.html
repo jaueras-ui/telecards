@@ -512,6 +512,14 @@
     let queueFiles = []; 
     let currentImageIndex = 0; 
 
+    function normalizeText(text) {
+      return (text || '').toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+    }
+
+    function matchOperator(op1, op2) {
+      return normalizeText(op1) === normalizeText(op2);
+    }
+
     function handleAvatarError(img) {
       if (!img.dataset.step) {
         img.dataset.step = "1";
@@ -540,8 +548,8 @@
     }
 
     function classifyCardType(title) {
-      const t = (title || "").toLowerCase();
-      if (t.includes('completa') || t.includes('série -') || t.includes('card nº todos!')) return 'Completa';
+      const t = normalizeText(title);
+      if (t.includes('completa') || t.includes('serie -') || t.includes('card n todos!')) return 'Completa';
       if (t.includes('lote') || t.includes('cards') || t.includes('incompl')) return 'Lote';
       return 'Avulso';
     }
@@ -552,8 +560,7 @@
       let limpo = (caminho || '').trim().replace(/\\/g, '/');
       if (limpo.startsWith('http://') || limpo.startsWith('https://')) return limpo;
 
-      const op = (operator || '').toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const op = normalizeText(operator);
 
       let opPasta = 'telefonica';
       if (op.includes('brasil telecom')) opPasta = 'brasil_telecom';
@@ -732,7 +739,7 @@
     function renderFilters() {
       const container = document.getElementById('operator-filters');
       const wrapper = document.getElementById('operator-container');
-      const availableOps = DEFAULT_OPS.filter(op => cards.some(c => c.operator === op));
+      const availableOps = DEFAULT_OPS.filter(op => cards.some(c => matchOperator(c.operator, op)));
       
       if (cards.length === 0 || availableOps.length === 0) {
         wrapper.classList.add('hidden');
@@ -743,7 +750,7 @@
       const ops = ["Todos", ...availableOps];
       
       container.innerHTML = ops.map(op => {
-        const isActive = selectedOp === op;
+        const isActive = matchOperator(selectedOp, op);
         const btnClass = isActive 
           ? 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-accent text-white shadow-md shadow-brand-accent/25' 
           : 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-card text-slate-400 border border-brand-border hover:text-white';
@@ -809,7 +816,7 @@
     function renderCatalog() {
       const grid = document.getElementById('catalog-grid');
       const items = cards.filter(c => {
-        const matchOp = (selectedOp === 'Todos' || c.operator === selectedOp);
+        const matchOp = (selectedOp === 'Todos' || matchOperator(c.operator, selectedOp));
         let matchType = (selectedType === 'Todos' || c.type === selectedType);
         if (selectedType === 'SemFoto') {
           matchType = (!c.image || c.image.trim() === '' || c.imageHasError);
@@ -1035,12 +1042,12 @@
 
     function openExportModal() {
       const container = document.getElementById('export-checkboxes-container');
-      const activeOps = DEFAULT_OPS.filter(op => cards.some(c => c.operator === op));
+      const activeOps = DEFAULT_OPS.filter(op => cards.some(c => matchOperator(c.operator, op)));
 
       container.innerHTML = activeOps.map(op => {
-        const fileKey = op.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, '');
+        const fileKey = normalizeText(op).replace(/\s+/g, '');
         const fileName = fileKey + '.js';
-        const isChecked = (op === 'Ceterp') ? 'checked' : '';
+        const isChecked = matchOperator(op, 'Ceterp') ? 'checked' : '';
 
         return `
           <label class="flex items-center gap-3 p-3 bg-brand-dark rounded-xl border border-brand-border cursor-pointer hover:border-indigo-500/50 transition-all">
@@ -1064,11 +1071,11 @@
       
       checkboxes.forEach(chk => {
         const opName = chk.value;
-        const fileKey = opName.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, '');
+        const fileKey = normalizeText(opName).replace(/\s+/g, '');
         const filename = fileKey + '.js';
         const varName = fileKey + 'Data';
 
-        const filteredCards = cards.filter(c => c.operator.toLowerCase() === opName.toLowerCase());
+        const filteredCards = cards.filter(c => matchOperator(c.operator, opName));
         
         const exportData = filteredCards.map(c => ({
           id: c.id,
@@ -1164,16 +1171,16 @@
 
     function loadOperatorCardsForQueue() {
       const op = document.getElementById('linker-operator').value;
-      const searchQuery = document.getElementById('card-search-input').value.toLowerCase().trim();
+      const searchQuery = normalizeText(document.getElementById('card-search-input').value);
       const container = document.getElementById('queue-cards-list');
       const countEl = document.getElementById('pending-cards-count');
 
-      let opCards = cards.filter(c => c.operator === op);
+      let opCards = cards.filter(c => matchOperator(c.operator, op));
 
       if (searchQuery) {
         opCards = opCards.filter(c => 
-          (c.title && c.title.toLowerCase().includes(searchQuery)) || 
-          (c.ref && c.ref.toLowerCase().includes(searchQuery))
+          (c.title && normalizeText(c.title).includes(searchQuery)) || 
+          (c.ref && normalizeText(c.ref).includes(searchQuery))
         );
       }
 
@@ -1210,7 +1217,7 @@
       }).join('');
     }
 
-    /* Atualização direta no estado em memória local */
+    /* Associação direta por ID e forçamento de re-renderização */
     function bindCurrentImageToCard(cardId) {
       if (queueFiles.length === 0) {
         alert('Escolha primeiro as imagens da pasta no botão "Escolher Imagens".');
@@ -1221,6 +1228,7 @@
       const op = document.getElementById('linker-operator').value;
       const imageData = featuredImg.dataUrl;
 
+      // 1. Guardar a edição no localStorage com chave normalizada
       localEdits[cardId] = { 
         ...(localEdits[cardId] || {}), 
         image: imageData, 
@@ -1228,12 +1236,15 @@
       };
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
+      // 2. Atualizar objeto em memória
       const card = cards.find(c => c.id === cardId);
       if (card) {
         card.image = imageData;
         card.imageHasError = false;
+        card.operator = op;
       }
 
+      // 3. Atualizar elementos visuais
       loadOperatorCardsForQueue();
       renderCatalog();
     }
