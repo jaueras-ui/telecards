@@ -16,11 +16,11 @@ window.ceterpData = [
     "image": "fotos/ceterp/001-RP-PROP-AV02.jpg"
   },
   {
-    "id": "ceterp-001-rp-prop-av03",
+    "id": "ceterp-001-rp-rpr-c",
     "title": "CETERP - Série Ribeirão Preto - Completa",
-    "ref": "001-RP-PROP-AV03",
+    "ref": "001-RP-RPR-C",
     "operator": "Ceterp",
     "price": 4,
-    "image": "fotos/ceterp/001-RP-PROP-AV03.jpg"
+    "image": "fotos/ceterp/001-RP-RPR-C.jpg"
   }
 ];
