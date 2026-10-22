@@ -1,4 +1,4 @@
-[
+window.crtData = [
   {
     "id": "001-CRT-CRT-AV01",
     "title": "Cartões-CRT - CRT - card nº 1 - Capa",
