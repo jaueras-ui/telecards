@@ -1053,7 +1053,7 @@
       if (select) select.innerHTML = optionsHtml;
       if (linkerSelect) {
         linkerSelect.innerHTML = optionsHtml;
-        linkerSelect.value = "CTBC";
+        linkerSelect.value = "CRT";
       }
     }
 
@@ -1064,7 +1064,7 @@
       container.innerHTML = activeOps.map(op => {
         const fileKey = normalizeText(op).replace(/\s+/g, '');
         const fileName = fileKey + '.js';
-        const isChecked = matchOperator(op, 'CTBC') ? 'checked' : '';
+        const isChecked = matchOperator(op, 'CRT') ? 'checked' : '';
 
         return `
           <label class="flex items-center gap-3 p-3 bg-brand-dark rounded-xl border border-brand-border cursor-pointer hover:border-indigo-500/50 transition-all">
@@ -1212,9 +1212,8 @@
         return;
       }
 
-      container.innerHTML = opCards.map(c => {
+      container.innerHTML = opCards.map((c, index) => {
         const hasPhoto = c.image && c.image.trim() !== '' && !c.imageHasError;
-        const safeId = c.id.replace(/'/g, "\\'");
         
         return `
           <div class="bg-brand-dark p-3.5 rounded-2xl border border-brand-border hover:border-brand-cyan/50 transition-all flex items-center justify-between gap-4">
@@ -1232,12 +1231,17 @@
               </div>
             </div>
             
-            <button type="button" onclick="bindCurrentImageToCard('${safeId}')" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs transition-all flex items-center gap-1.5 flex-shrink-0 shadow-md cursor-pointer">
+            <button type="button" data-card-id="${c.id}" onclick="bindCurrentImageToCardByRef(this)" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs transition-all flex items-center gap-1.5 flex-shrink-0 shadow-md cursor-pointer">
               <i class="fa-solid fa-link"></i> ${hasPhoto ? 'Trocar Foto' : 'Vincular Foto'}
             </button>
           </div>
         `;
       }).join('');
+    }
+
+    function bindCurrentImageToCardByRef(btnElement) {
+      const cardId = btnElement.getAttribute('data-card-id');
+      bindCurrentImageToCard(cardId);
     }
 
     function bindCurrentImageToCard(cardId) {
@@ -1250,21 +1254,23 @@
       const op = document.getElementById('linker-operator').value;
       const imageData = featuredImg.dataUrl;
 
+      // Guarda no LocalStorage
       localEdits[cardId] = { ...(localEdits[cardId] || {}), image: imageData, operator: op };
-      if (cardId.includes('ctbc')) {
-        localEdits[cardId.replace('ctbc', 'cbtc')] = { image: imageData, operator: op };
-      } else if (cardId.includes('cbtc')) {
-        localEdits[cardId.replace('cbtc', 'ctbc')] = { image: imageData, operator: op };
-      }
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
-      const card = cards.find(c => c.id === cardId);
+      // Atualização direta do objeto no array cards (usando correspondência flexível se o id estrito falhar)
+      let card = cards.find(c => c.id === cardId);
+      if (!card) {
+        card = cards.find(c => normalizeText(c.id) === normalizeText(cardId));
+      }
+
       if (card) {
         card.image = imageData;
         card.imageHasError = false;
         card.operator = op;
       }
 
+      // Remove a foto da fila e avança para a próxima
       queueFiles.splice(currentImageIndex, 1);
       if (currentImageIndex >= queueFiles.length && queueFiles.length > 0) {
         currentImageIndex = queueFiles.length - 1;
@@ -1296,7 +1302,7 @@
       document.getElementById('f-id').value = card.id;
       document.getElementById('f-title').value = card.title;
       document.getElementById('f-ref').value = card.ref || '';
-      document.getElementById('f-operator').value = card.operator || 'CTBC';
+      document.getElementById('f-operator').value = card.operator || 'CRT';
       document.getElementById('f-price').value = card.price || 2.00;
       document.getElementById('f-image').value = card.image.startsWith('data:image') ? '' : card.image;
       document.getElementById('f-file-upload').value = '';
