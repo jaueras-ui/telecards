@@ -117,7 +117,7 @@
   <script src="oi.js" onerror="console.log('oi.js não encontrado')"></script>
   <script src="telemar.js" onerror="console.log('telemar.js não encontrado')"></script>
   <script src="ceterp.js" onerror="console.log('ceterp.js não encontrado')"></script>
-  <script src="cbtc.js" onerror="console.log('cbtc.js não encontrado')"></script>
+  <script src="ctbc.js" onerror="console.log('ctbc.js não encontrado')"></script>
   <script src="telepar.js" onerror="console.log('telepar.js não encontrado')"></script>
   <script src="telesc.js" onerror="console.log('telesc.js não encontrado')"></script>
   <script src="telemig.js" onerror="console.log('telemig.js não encontrado')"></script>
@@ -446,7 +446,7 @@
       </div>
 
       <div class="flex justify-between items-center pt-3 border-t border-brand-border flex-shrink-0">
-        <span class="text-xs text-slate-400">Dica: A foto exibida na esquerda será alocada instantaneamente na casinha que você clicar.</span>
+        <span class="text-xs text-slate-400">Dica: A foto vinculada sairá da fila automaticamente e exibirá a próxima disponível.</span>
         <button type="button" onclick="closeLinkerModal()" class="px-6 py-2.5 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-500 transition-all shadow-lg shadow-emerald-600/20">Concluir e Salvar Vínculos</button>
       </div>
     </div>
@@ -495,7 +495,7 @@
 
         <div>
           <label class="block text-slate-400 mb-1 font-semibold">Caminho da Imagem</label>
-          <input type="text" id="f-image" placeholder="Ex: fotos/telebras/foto01.jpg" class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none">
+          <input type="text" id="f-image" placeholder="Ex: fotos/ctbc/foto01.jpg" class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none">
         </div>
 
         <div class="flex justify-end gap-2 pt-3">
@@ -507,10 +507,22 @@
   </div>
 
   <script>
-    const DEFAULT_OPS = ["Telefônica", "Telebrás", "Brasil Telecom", "Embratel", "CRT", "Oi", "Telemar", "Ceterp", "CBTC", "Telepar", "Telesc", "Telemig", "Telegoias", "Telerj", "Sercomtel", "Claro", "TIM", "Outras"];
+    const DEFAULT_OPS = ["Telefônica", "Telebrás", "Brasil Telecom", "Embratel", "CRT", "Oi", "Telemar", "Ceterp", "CTBC", "Telepar", "Telesc", "Telemig", "Telegoias", "Telerj", "Sercomtel", "Claro", "TIM", "Outras"];
     let externalCards = [];
     let queueFiles = []; 
     let currentImageIndex = 0; 
+
+    function normalizeText(text) {
+      return (text || '').toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+    }
+
+    function matchOperator(op1, op2) {
+      const n1 = normalizeText(op1);
+      const n2 = normalizeText(op2);
+      if (n1 === n2) return true;
+      if ((n1 === 'cbtc' || n1 === 'ctbc') && (n2 === 'cbtc' || n2 === 'ctbc')) return true;
+      return false;
+    }
 
     function handleAvatarError(img) {
       if (!img.dataset.step) {
@@ -540,8 +552,8 @@
     }
 
     function classifyCardType(title) {
-      const t = (title || "").toLowerCase();
-      if (t.includes('completa') || t.includes('série -') || t.includes('card nº todos!')) return 'Completa';
+      const t = normalizeText(title);
+      if (t.includes('completa') || t.includes('serie -') || t.includes('card n todos!')) return 'Completa';
       if (t.includes('lote') || t.includes('cards') || t.includes('incompl')) return 'Lote';
       return 'Avulso';
     }
@@ -552,8 +564,7 @@
       let limpo = (caminho || '').trim().replace(/\\/g, '/');
       if (limpo.startsWith('http://') || limpo.startsWith('https://')) return limpo;
 
-      const op = (operator || '').toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const op = normalizeText(operator);
 
       let opPasta = 'telefonica';
       if (op.includes('brasil telecom')) opPasta = 'brasil_telecom';
@@ -563,7 +574,7 @@
       else if (op.includes('crt')) opPasta = 'crt';
       else if (op.includes('oi')) opPasta = 'oi';
       else if (op.includes('ceterp')) opPasta = 'ceterp';
-      else if (op.includes('cbtc')) opPasta = 'cbtc';
+      else if (op.includes('ctbc') || op.includes('cbtc')) opPasta = 'ctbc';
       else if (op.includes('telepar')) opPasta = 'telepar';
       else if (op.includes('telesc')) opPasta = 'telesc';
       else if (op.includes('telemig')) opPasta = 'telemig';
@@ -622,7 +633,7 @@
     try { parseExternal(window.oiData, "Oi"); } catch(e){}
     try { parseExternal(window.telemarData, "Telemar"); } catch(e){}
     try { parseExternal(window.ceterpData, "Ceterp"); } catch(e){}
-    try { parseExternal(window.cbtcData, "CBTC"); } catch(e){}
+    try { parseExternal(window.ctbcData || window.cbtcData, "CTBC"); } catch(e){}
     try { parseExternal(window.teleparData, "Telepar"); } catch(e){}
     try { parseExternal(window.telescData, "Telesc"); } catch(e){}
     try { parseExternal(window.telemigData, "Telemig"); } catch(e){}
@@ -645,13 +656,26 @@
     cart = [...new Set(cart)];
 
     let localEdits = JSON.parse(localStorage.getItem('tc_card_edits')) || {};
+
+    // Recupera automaticamente edições antigas gravadas com id alternativo ou operadora CBTC
     externalCards.forEach(card => {
-      if (localEdits[card.id]) {
-        card.operator = localEdits[card.id].operator || card.operator;
-        card.price = localEdits[card.id].price !== undefined ? localEdits[card.id].price : card.price;
-        card.title = localEdits[card.id].title || card.title;
-        card.ref = localEdits[card.id].ref !== undefined ? localEdits[card.id].ref : (card.ref || card.id);
-        card.image = formatarCaminhoImagem(localEdits[card.id].image || card.image, card.operator, card.ref);
+      let edit = localEdits[card.id];
+      
+      // Se não encontrou pelo id direto, procura substituindo ctbc por cbtc
+      if (!edit && card.id.includes('ctbc')) {
+        let altId = card.id.replace('ctbc', 'cbtc');
+        edit = localEdits[altId];
+      } else if (!edit && card.id.includes('cbtc')) {
+        let altId = card.id.replace('cbtc', 'ctbc');
+        edit = localEdits[altId];
+      }
+
+      if (edit) {
+        card.operator = edit.operator || card.operator;
+        card.price = edit.price !== undefined ? edit.price : card.price;
+        card.title = edit.title || card.title;
+        card.ref = edit.ref !== undefined ? edit.ref : (card.ref || card.id);
+        card.image = formatarCaminhoImagem(edit.image || card.image, card.operator, card.ref);
         card.type = classifyCardType(card.title);
       }
     });
@@ -732,7 +756,7 @@
     function renderFilters() {
       const container = document.getElementById('operator-filters');
       const wrapper = document.getElementById('operator-container');
-      const availableOps = DEFAULT_OPS.filter(op => cards.some(c => c.operator === op));
+      const availableOps = DEFAULT_OPS.filter(op => cards.some(c => matchOperator(c.operator, op)));
       
       if (cards.length === 0 || availableOps.length === 0) {
         wrapper.classList.add('hidden');
@@ -743,7 +767,7 @@
       const ops = ["Todos", ...availableOps];
       
       container.innerHTML = ops.map(op => {
-        const isActive = selectedOp === op;
+        const isActive = matchOperator(selectedOp, op);
         const btnClass = isActive 
           ? 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-accent text-white shadow-md shadow-brand-accent/25' 
           : 'px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-card text-slate-400 border border-brand-border hover:text-white';
@@ -809,7 +833,7 @@
     function renderCatalog() {
       const grid = document.getElementById('catalog-grid');
       const items = cards.filter(c => {
-        const matchOp = (selectedOp === 'Todos' || c.operator === selectedOp);
+        const matchOp = (selectedOp === 'Todos' || matchOperator(c.operator, selectedOp));
         let matchType = (selectedType === 'Todos' || c.type === selectedType);
         if (selectedType === 'SemFoto') {
           matchType = (!c.image || c.image.trim() === '' || c.imageHasError);
@@ -1029,18 +1053,18 @@
       if (select) select.innerHTML = optionsHtml;
       if (linkerSelect) {
         linkerSelect.innerHTML = optionsHtml;
-        linkerSelect.value = "Telebrás";
+        linkerSelect.value = "CTBC";
       }
     }
 
     function openExportModal() {
       const container = document.getElementById('export-checkboxes-container');
-      const activeOps = DEFAULT_OPS.filter(op => cards.some(c => c.operator === op));
+      const activeOps = DEFAULT_OPS.filter(op => cards.some(c => matchOperator(c.operator, op)));
 
       container.innerHTML = activeOps.map(op => {
-        const fileKey = op.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, '');
+        const fileKey = normalizeText(op).replace(/\s+/g, '');
         const fileName = fileKey + '.js';
-        const isChecked = (op === 'Telebrás') ? 'checked' : '';
+        const isChecked = matchOperator(op, 'CTBC') ? 'checked' : '';
 
         return `
           <label class="flex items-center gap-3 p-3 bg-brand-dark rounded-xl border border-brand-border cursor-pointer hover:border-indigo-500/50 transition-all">
@@ -1064,11 +1088,11 @@
       
       checkboxes.forEach(chk => {
         const opName = chk.value;
-        const fileKey = opName.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, '');
+        const fileKey = normalizeText(opName).replace(/\s+/g, '');
         const filename = fileKey + '.js';
         const varName = fileKey + 'Data';
 
-        const filteredCards = cards.filter(c => c.operator.toLowerCase() === opName.toLowerCase());
+        const filteredCards = cards.filter(c => matchOperator(c.operator, opName));
         
         const exportData = filteredCards.map(c => ({
           id: c.id,
@@ -1138,7 +1162,7 @@
       const counterEl = document.getElementById('current-image-counter');
 
       if (queueFiles.length === 0) {
-        previewContainer.innerHTML = `<span class="text-slate-500 text-center px-4 italic">Nenhuma foto escolhida.</span>`;
+        previewContainer.innerHTML = `<span class="text-slate-500 text-center px-4 italic">Todas as fotos da fila foram vinculadas!</span>`;
         nameEl.innerText = "";
         counterEl.innerText = "Foto 0 de 0";
         return;
@@ -1164,16 +1188,16 @@
 
     function loadOperatorCardsForQueue() {
       const op = document.getElementById('linker-operator').value;
-      const searchQuery = document.getElementById('card-search-input').value.toLowerCase().trim();
+      const searchQuery = normalizeText(document.getElementById('card-search-input').value);
       const container = document.getElementById('queue-cards-list');
       const countEl = document.getElementById('pending-cards-count');
 
-      let opCards = cards.filter(c => c.operator === op);
+      let opCards = cards.filter(c => matchOperator(c.operator, op));
 
       if (searchQuery) {
         opCards = opCards.filter(c => 
-          (c.title && c.title.toLowerCase().includes(searchQuery)) || 
-          (c.ref && c.ref.toLowerCase().includes(searchQuery))
+          (c.title && normalizeText(c.title).includes(searchQuery)) || 
+          (c.ref && normalizeText(c.ref).includes(searchQuery))
         );
       }
 
@@ -1210,7 +1234,6 @@
       }).join('');
     }
 
-    /* Correção na vinculação direta */
     function bindCurrentImageToCard(cardId) {
       if (queueFiles.length === 0) {
         alert('Escolha primeiro as imagens da pasta no botão "Escolher Imagens".');
@@ -1221,20 +1244,31 @@
       const op = document.getElementById('linker-operator').value;
       const imageData = featuredImg.dataUrl;
 
-      // Gravação forçada em memória local e no vetor
-      localEdits[cardId] = { 
-        ...(localEdits[cardId] || {}), 
-        image: imageData, 
-        operator: op 
-      };
+      // 1. Gravar no localStorage com id atual e com id alternativo (evita perdas)
+      localEdits[cardId] = { ...(localEdits[cardId] || {}), image: imageData, operator: op };
+      if (cardId.includes('ctbc')) {
+        localEdits[cardId.replace('ctbc', 'cbtc')] = { image: imageData, operator: op };
+      } else if (cardId.includes('cbtc')) {
+        localEdits[cardId.replace('cbtc', 'ctbc')] = { image: imageData, operator: op };
+      }
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
+      // 2. Atualizar o objeto do cartão em memória
       const card = cards.find(c => c.id === cardId);
       if (card) {
         card.image = imageData;
         card.imageHasError = false;
+        card.operator = op;
       }
 
+      // 3. Remover a foto vinculada da lista da esquerda
+      queueFiles.splice(currentImageIndex, 1);
+      if (currentImageIndex >= queueFiles.length && queueFiles.length > 0) {
+        currentImageIndex = queueFiles.length - 1;
+      }
+
+      // 4. Atualizar os visuais
+      updateFeaturedImage();
       loadOperatorCardsForQueue();
       renderCatalog();
     }
@@ -1259,7 +1293,7 @@
       document.getElementById('f-id').value = card.id;
       document.getElementById('f-title').value = card.title;
       document.getElementById('f-ref').value = card.ref || '';
-      document.getElementById('f-operator').value = card.operator || 'Telebrás';
+      document.getElementById('f-operator').value = card.operator || 'CTBC';
       document.getElementById('f-price').value = card.price || 2.00;
       document.getElementById('f-image').value = card.image.startsWith('data:image') ? '' : card.image;
       document.getElementById('admin-modal').classList.remove('hidden');
