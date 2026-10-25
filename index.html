@@ -526,6 +526,8 @@
       const n2 = normalizeText(op2);
       if (n1 === n2) return true;
       if ((n1 === 'cbtc' || n1 === 'ctbc') && (n2 === 'cbtc' || n2 === 'ctbc')) return true;
+      // Normalização robusta para Telefônica / Telefonica
+      if (n1.includes('telefon') && n2.includes('telefon')) return true;
       return false;
     }
 
@@ -1053,7 +1055,7 @@
       if (select) select.innerHTML = optionsHtml;
       if (linkerSelect) {
         linkerSelect.innerHTML = optionsHtml;
-        linkerSelect.value = "CRT";
+        linkerSelect.value = "Telefônica";
       }
     }
 
@@ -1064,7 +1066,7 @@
       container.innerHTML = activeOps.map(op => {
         const fileKey = normalizeText(op).replace(/\s+/g, '');
         const fileName = fileKey + '.js';
-        const isChecked = matchOperator(op, 'CRT') ? 'checked' : '';
+        const isChecked = matchOperator(op, 'Telefônica') ? 'checked' : '';
 
         return `
           <label class="flex items-center gap-3 p-3 bg-brand-dark rounded-xl border border-brand-border cursor-pointer hover:border-indigo-500/50 transition-all">
@@ -1258,7 +1260,6 @@
       localEdits[cardId] = { ...(localEdits[cardId] || {}), image: imageData, operator: op };
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
-      // Atualização direta do objeto no array cards (usando correspondência flexível se o id estrito falhar)
       let card = cards.find(c => c.id === cardId);
       if (!card) {
         card = cards.find(c => normalizeText(c.id) === normalizeText(cardId));
@@ -1270,7 +1271,6 @@
         card.operator = op;
       }
 
-      // Remove a foto da fila e avança para a próxima
       queueFiles.splice(currentImageIndex, 1);
       if (currentImageIndex >= queueFiles.length && queueFiles.length > 0) {
         currentImageIndex = queueFiles.length - 1;
@@ -1302,7 +1302,7 @@
       document.getElementById('f-id').value = card.id;
       document.getElementById('f-title').value = card.title;
       document.getElementById('f-ref').value = card.ref || '';
-      document.getElementById('f-operator').value = card.operator || 'CRT';
+      document.getElementById('f-operator').value = card.operator || 'Telefônica';
       document.getElementById('f-price').value = card.price || 2.00;
       document.getElementById('f-image').value = card.image.startsWith('data:image') ? '' : card.image;
       document.getElementById('f-file-upload').value = '';
