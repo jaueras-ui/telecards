@@ -20,18 +20,15 @@
     }
   </script>
   <style>
-    /* Estilos Gerais e Reset */
     * { box-sizing: border-box; }
     body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-serif; margin: 0; min-height: 100vh; display: flex; flex-direction: column; }
     
-    /* Animações e Transições dos Cards da Hero */
     .card-stack-visitor { transform: rotate(4deg) translate(15px, -10px); z-index: 5; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
     .card-stack-admin { transform: rotate(-6deg) translateY(10px); z-index: 2; opacity: 0.85; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
     
     body.admin-mode .card-stack-visitor { transform: rotate(8deg) translate(15px, 10px) scale(0.95); opacity: 0.35; z-index: 1; pointer-events: none; filter: blur(1px); }
     body.admin-mode .card-stack-admin { transform: rotate(-2deg) translate(5px, -15px) scale(1.03); z-index: 10; opacity: 1; filter: drop-shadow(0 20px 30px rgba(0, 242, 254, 0.25)); pointer-events: auto; }
 
-    /* Cartão Visitante Verde */
     .visitor-card-green {
       background: linear-gradient(135deg, #022c22 0%, #064e3b 40%, #047857 75%, #0f766e 100%) !important;
       border: 2px solid #fbbf24 !important;
@@ -47,7 +44,6 @@
       z-index: 2;
     }
 
-    /* Moldura das Imagens dos Cartões no Catálogo */
     .catalog-card-image {
       position: relative;
       background-color: #0a0a0f;
@@ -62,7 +58,6 @@
       object-position: center;
     }
 
-    /* Logo Centralizada Inferior e Carimbo Jaueras */
     .card-logo-center, .card-brand-vertical {
       pointer-events: none !important;
     }
@@ -597,7 +592,7 @@
 
       if (!limpo || limpo.includes('placeholder.com')) {
         if (ref && !ref.includes('Screenshot')) {
-          return `fotos/${opPasta}/${ref}.jpg`;
+          return `fotos/${opPasta}/${ref}.JPG`;
         }
         return '';
       }
@@ -607,7 +602,7 @@
       let nomeArq = partes[partes.length - 1];
       if (!nomeArq) {
         if (ref && !ref.includes('Screenshot')) {
-          return `fotos/${opPasta}/${ref}.jpg`;
+          return `fotos/${opPasta}/${ref}.JPG`;
         }
         return '';
       }
@@ -629,7 +624,30 @@
           
           let rawPrice = parseFloat(item.price);
           const price = (!isNaN(rawPrice) && rawPrice > 0) ? rawPrice : 2.00;
-          const ref = item.ref || item.code || item.serie || cardId;
+          
+          const ref = item.ref || item.code || item.serie || '';
+          let imgBruta = item.image || item.foto || item.caminho || '';
+
+          if ((!imgBruta || imgBruta.includes('placeholder.com')) && ref) {
+            const opNorm = normalizeText(op);
+            let opPasta = 'telefonica';
+            if (opNorm.includes('brasil telecom')) opPasta = 'brasil_telecom';
+            else if (opNorm.includes('telebras')) opPasta = 'telebras';
+            else if (opNorm.includes('telemar')) opPasta = 'telemar';
+            else if (opNorm.includes('embratel')) opPasta = 'embratel';
+            else if (opNorm.includes('crt')) opPasta = 'crt';
+            else if (opNorm.includes('oi')) opPasta = 'oi';
+            else if (opNorm.includes('ceterp')) opPasta = 'ceterp';
+            else if (opNorm.includes('ctbc') || opNorm.includes('cbtc')) opPasta = 'ctbc';
+            else if (opNorm.includes('telepar')) opPasta = 'telepar';
+            else if (opNorm.includes('telesc')) opPasta = 'telesc';
+            else if (opNorm.includes('telemig')) opPasta = 'telemig';
+            else if (opNorm.includes('telegoias')) opPasta = 'telegoias';
+            else if (opNorm.includes('telerj')) opPasta = 'telerj';
+            else if (opNorm.includes('sercomtel')) opPasta = 'sercomtel';
+            
+            imgBruta = `fotos/${opPasta}/${ref}.JPG`;
+          }
           
           if (!externalCards.some(c => c.id === cardId)) {
             externalCards.push({
@@ -638,7 +656,7 @@
               ref: ref,
               operator: op,
               price: price,
-              image: formatarCaminhoImagem(item.image || item.foto || item.caminho || '', op, ref),
+              image: formatarCaminhoImagem(imgBruta, op, ref),
               type: classifyCardType(title)
             });
           }
