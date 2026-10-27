@@ -526,7 +526,6 @@
       const n2 = normalizeText(op2);
       if (n1 === n2) return true;
       if ((n1 === 'cbtc' || n1 === 'ctbc') && (n2 === 'cbtc' || n2 === 'ctbc')) return true;
-      // Normalização robusta para Telefônica / Telefonica
       if (n1.includes('telefon') && n2.includes('telefon')) return true;
       return false;
     }
@@ -590,13 +589,21 @@
       else if (op.includes('sercomtel')) opPasta = 'sercomtel';
 
       if (!limpo || limpo.includes('placeholder.com')) {
+        if (ref && !ref.includes('Screenshot')) {
+          return `fotos/${opPasta}/${ref}.jpg`;
+        }
         return '';
       }
 
       if (limpo.startsWith('fotos/')) return limpo;
       let partes = limpo.split('/');
       let nomeArq = partes[partes.length - 1];
-      if (!nomeArq) return '';
+      if (!nomeArq) {
+        if (ref && !ref.includes('Screenshot')) {
+          return `fotos/${opPasta}/${ref}.jpg`;
+        }
+        return '';
+      }
       return `fotos/${opPasta}/${nomeArq}`;
     }
 
@@ -825,6 +832,16 @@
     window.handleImageError = function(imgEl, cardId) {
       const card = cards.find(c => c.id === cardId);
       if (card) {
+        // Tenta alternar entre .jpg e .JPG automaticamente se falhar
+        if (imgEl.src.endsWith('.jpg') && !imgEl.dataset.triedUpper) {
+          imgEl.dataset.triedUpper = "true";
+          imgEl.src = imgEl.src.replace('.jpg', '.JPG');
+          return;
+        } else if (imgEl.src.endsWith('.JPG') && !imgEl.dataset.triedLower) {
+          imgEl.dataset.triedLower = "true";
+          imgEl.src = imgEl.src.replace('.JPG', '.jpg');
+          return;
+        }
         card.imageHasError = true;
       }
       imgEl.onerror = null;
@@ -1256,142 +1273,8 @@
       const op = document.getElementById('linker-operator').value;
       const imageData = featuredImg.dataUrl;
 
-      // Guarda no LocalStorage
       localEdits[cardId] = { ...(localEdits[cardId] || {}), image: imageData, operator: op };
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
       let card = cards.find(c => c.id === cardId);
-      if (!card) {
-        card = cards.find(c => normalizeText(c.id) === normalizeText(cardId));
-      }
-
-      if (card) {
-        card.image = imageData;
-        card.imageHasError = false;
-        card.operator = op;
-      }
-
-      queueFiles.splice(currentImageIndex, 1);
-      if (currentImageIndex >= queueFiles.length && queueFiles.length > 0) {
-        currentImageIndex = queueFiles.length - 1;
-      }
-
-      updateFeaturedImage();
-      loadOperatorCardsForQueue();
-      renderCatalog();
-    }
-
-    function openModal() {
-      populateOperatorSelect();
-      document.getElementById('modal-title').innerHTML = `<i class="fa-solid fa-circle-plus text-brand-accent"></i> Adicionar Novo Cartão`;
-      document.getElementById('f-id').value = '';
-      document.getElementById('f-title').value = '';
-      document.getElementById('f-ref').value = '';
-      document.getElementById('f-price').value = '2.00';
-      document.getElementById('f-image').value = '';
-      document.getElementById('f-file-upload').value = '';
-      document.getElementById('admin-modal').classList.remove('hidden');
-      document.getElementById('admin-modal').classList.add('flex');
-    }
-
-    function openEditModal(id) {
-      const card = cards.find(c => c.id === id);
-      if (!card) return;
-      populateOperatorSelect();
-      document.getElementById('modal-title').innerHTML = `<i class="fa-solid fa-pen-to-square text-brand-cyan"></i> Editar Cartão`;
-      document.getElementById('f-id').value = card.id;
-      document.getElementById('f-title').value = card.title;
-      document.getElementById('f-ref').value = card.ref || '';
-      document.getElementById('f-operator').value = card.operator || 'Telefônica';
-      document.getElementById('f-price').value = card.price || 2.00;
-      document.getElementById('f-image').value = card.image.startsWith('data:image') ? '' : card.image;
-      document.getElementById('f-file-upload').value = '';
-      document.getElementById('admin-modal').classList.remove('hidden');
-      document.getElementById('admin-modal').classList.add('flex');
-    }
-
-    function closeModal() {
-      document.getElementById('admin-modal').classList.add('hidden');
-      document.getElementById('admin-modal').classList.remove('flex');
-    }
-
-    function saveCard(event) {
-      event.preventDefault();
-      const id = document.getElementById('f-id').value;
-      const title = document.getElementById('f-title').value;
-      const ref = document.getElementById('f-ref').value;
-      const operator = document.getElementById('f-operator').value;
-      const price = parseFloat(document.getElementById('f-price').value) || 2.00;
-      const fileInput = document.getElementById('f-file-upload');
-      let imageInput = document.getElementById('f-image').value;
-      const type = classifyCardType(title);
-
-      const processSave = (finalImage) => {
-        let image = finalImage;
-        if (!image.startsWith('data:image') && image.trim() !== '') {
-          image = formatarCaminhoImagem(image, operator, ref);
-        }
-
-        if (id) {
-          if (externalCards.some(c => c.id === id)) {
-            localEdits[id] = { ...(localEdits[id] || {}), title, ref, operator, price, image };
-            localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
-          } else {
-            let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
-            let idx = customCards.findIndex(c => c.id === id);
-            if (idx !== -1) {
-              customCards[idx] = { id, title, ref, operator, price, image, type };
-              localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
-            }
-          }
-          
-          const cardObj = cards.find(c => c.id === id);
-          if (cardObj) {
-            cardObj.title = title;
-            cardObj.ref = ref;
-            cardObj.operator = operator;
-            cardObj.price = price;
-            if (image) cardObj.image = image;
-            cardObj.imageHasError = false;
-            cardObj.type = type;
-          }
-        } else {
-          const newId = 'custom-' + Date.now();
-          const newCard = { id: newId, title, ref, operator, price, image, imageHasError: false, type };
-          let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
-          customCards.push(newCard);
-          localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
-          cards.unshift(newCard);
-        }
-
-        closeModal();
-        renderCatalog();
-        renderFilters();
-        renderSoldList();
-      };
-
-      if (fileInput.files && fileInput.files[0]) {
-        const reader = new FileReader();
-        reader.onload = function(e) {
-          processSave(e.target.result);
-        };
-        reader.readAsDataURL(fileInput.files[0]);
-      } else {
-        const existingCard = cards.find(c => c.id === id);
-        const fallbackImage = existingCard ? existingCard.image : imageInput;
-        processSave(imageInput.trim() !== '' ? imageInput : fallbackImage);
-      }
-    }
-
-    function deleteCard(id) {
-      if (!confirm('Deseja realmente remover este cartão do catálogo?')) return;
-      hiddenCards.push(id);
-      localStorage.setItem('tc_hidden_cards', JSON.stringify(hiddenCards));
-      cards = cards.filter(c => c.id !== id);
-      renderCatalog();
-      renderFilters();
-      renderSoldList();
-    }
-  </script>
-</body>
-</html>
+      if (!card)
