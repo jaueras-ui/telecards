@@ -20,19 +20,22 @@
     }
   </script>
   <style>
-    body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-serif; }
+    /* Estilos Gerais e Reset */
+    * { box-sizing: border-box; }
+    body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-serif; margin: 0; min-height: 100vh; display: flex; flex-direction: column; }
     
+    /* Animações e Transições dos Cards da Hero */
     .card-stack-visitor { transform: rotate(4deg) translate(15px, -10px); z-index: 5; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
     .card-stack-admin { transform: rotate(-6deg) translateY(10px); z-index: 2; opacity: 0.85; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
     
     body.admin-mode .card-stack-visitor { transform: rotate(8deg) translate(15px, 10px) scale(0.95); opacity: 0.35; z-index: 1; pointer-events: none; filter: blur(1px); }
     body.admin-mode .card-stack-admin { transform: rotate(-2deg) translate(5px, -15px) scale(1.03); z-index: 10; opacity: 1; filter: drop-shadow(0 20px 30px rgba(0, 242, 254, 0.25)); pointer-events: auto; }
 
+    /* Cartão Visitante Verde */
     .visitor-card-green {
       background: linear-gradient(135deg, #022c22 0%, #064e3b 40%, #047857 75%, #0f766e 100%) !important;
       border: 2px solid #fbbf24 !important;
       box-shadow: 0 20px 35px rgba(4, 120, 87, 0.35) !important;
-      box-sizing: border-box !important;
     }
 
     .visitor-card-inner-frame {
@@ -44,9 +47,12 @@
       z-index: 2;
     }
 
+    /* Moldura das Imagens dos Cartões no Catálogo */
     .catalog-card-image {
       position: relative;
       background-color: #0a0a0f;
+      overflow: hidden;
+      border-radius: 0.75rem;
     }
 
     .catalog-card-image img.main-card-img {
@@ -56,6 +62,7 @@
       object-position: center;
     }
 
+    /* Logo Centralizada Inferior e Carimbo Jaueras */
     .card-logo-center, .card-brand-vertical {
       pointer-events: none !important;
     }
@@ -108,7 +115,7 @@
     }
   </style>
   
-  <!-- Sub-arquivos JS -->
+  <!-- Sub-arquivos JS protegidos contra erros -->
   <script src="brasiltelecom.js" onerror="console.log('brasiltelecom.js não encontrado')"></script>
   <script src="telefonica.js" onerror="console.log('telefonica.js não encontrado')"></script>
   <script src="telebras.js" onerror="console.log('telebras.js não encontrado')"></script>
@@ -832,7 +839,6 @@
     window.handleImageError = function(imgEl, cardId) {
       const card = cards.find(c => c.id === cardId);
       if (card) {
-        // Tenta alternar entre .jpg e .JPG automaticamente se falhar
         if (imgEl.src.endsWith('.jpg') && !imgEl.dataset.triedUpper) {
           imgEl.dataset.triedUpper = "true";
           imgEl.src = imgEl.src.replace('.jpg', '.JPG');
@@ -1277,4 +1283,137 @@
       localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
 
       let card = cards.find(c => c.id === cardId);
-      if (!card)
+      if (!card) {
+        card = cards.find(c => normalizeText(c.id) === normalizeText(cardId));
+      }
+
+      if (card) {
+        card.image = imageData;
+        card.imageHasError = false;
+        card.operator = op;
+      }
+
+      queueFiles.splice(currentImageIndex, 1);
+      if (currentImageIndex >= queueFiles.length && queueFiles.length > 0) {
+        currentImageIndex = queueFiles.length - 1;
+      }
+
+      updateFeaturedImage();
+      loadOperatorCardsForQueue();
+      renderCatalog();
+    }
+
+    function openModal() {
+      populateOperatorSelect();
+      document.getElementById('modal-title').innerHTML = `<i class="fa-solid fa-circle-plus text-brand-accent"></i> Adicionar Novo Cartão`;
+      document.getElementById('f-id').value = '';
+      document.getElementById('f-title').value = '';
+      document.getElementById('f-ref').value = '';
+      document.getElementById('f-price').value = '2.00';
+      document.getElementById('f-image').value = '';
+      document.getElementById('f-file-upload').value = '';
+      document.getElementById('admin-modal').classList.remove('hidden');
+      document.getElementById('admin-modal').classList.add('flex');
+    }
+
+    function openEditModal(id) {
+      const card = cards.find(c => c.id === id);
+      if (!card) return;
+      populateOperatorSelect();
+      document.getElementById('modal-title').innerHTML = `<i class="fa-solid fa-pen-to-square text-brand-cyan"></i> Editar Cartão`;
+      document.getElementById('f-id').value = card.id;
+      document.getElementById('f-title').value = card.title;
+      document.getElementById('f-ref').value = card.ref || '';
+      document.getElementById('f-operator').value = card.operator || 'Telefônica';
+      document.getElementById('f-price').value = card.price || 2.00;
+      document.getElementById('f-image').value = card.image.startsWith('data:image') ? '' : card.image;
+      document.getElementById('f-file-upload').value = '';
+      document.getElementById('admin-modal').classList.remove('hidden');
+      document.getElementById('admin-modal').classList.add('flex');
+    }
+
+    function closeModal() {
+      document.getElementById('admin-modal').classList.add('hidden');
+      document.getElementById('admin-modal').classList.remove('flex');
+    }
+
+    function saveCard(event) {
+      event.preventDefault();
+      const id = document.getElementById('f-id').value;
+      const title = document.getElementById('f-title').value;
+      const ref = document.getElementById('f-ref').value;
+      const operator = document.getElementById('f-operator').value;
+      const price = parseFloat(document.getElementById('f-price').value) || 2.00;
+      const fileInput = document.getElementById('f-file-upload');
+      let imageInput = document.getElementById('f-image').value;
+      const type = classifyCardType(title);
+
+      const processSave = (finalImage) => {
+        let image = finalImage;
+        if (!image.startsWith('data:image') && image.trim() !== '') {
+          image = formatarCaminhoImagem(image, operator, ref);
+        }
+
+        if (id) {
+          if (externalCards.some(c => c.id === id)) {
+            localEdits[id] = { ...(localEdits[id] || {}), title, ref, operator, price, image };
+            localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
+          } else {
+            let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
+            let idx = customCards.findIndex(c => c.id === id);
+            if (idx !== -1) {
+              customCards[idx] = { id, title, ref, operator, price, image, type };
+              localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
+            }
+          }
+          
+          const cardObj = cards.find(c => c.id === id);
+          if (cardObj) {
+            cardObj.title = title;
+            cardObj.ref = ref;
+            cardObj.operator = operator;
+            cardObj.price = price;
+            if (image) cardObj.image = image;
+            cardObj.imageHasError = false;
+            cardObj.type = type;
+          }
+        } else {
+          const newId = 'custom-' + Date.now();
+          const newCard = { id: newId, title, ref, operator, price, image, imageHasError: false, type };
+          let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
+          customCards.push(newCard);
+          localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
+          cards.unshift(newCard);
+        }
+
+        closeModal();
+        renderCatalog();
+        renderFilters();
+        renderSoldList();
+      };
+
+      if (fileInput.files && fileInput.files[0]) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          processSave(e.target.result);
+        };
+        reader.readAsDataURL(fileInput.files[0]);
+      } else {
+        const existingCard = cards.find(c => c.id === id);
+        const fallbackImage = existingCard ? existingCard.image : imageInput;
+        processSave(imageInput.trim() !== '' ? imageInput : fallbackImage);
+      }
+    }
+
+    function deleteCard(id) {
+      if (!confirm('Deseja realmente remover este cartão do catálogo?')) return;
+      hiddenCards.push(id);
+      localStorage.setItem('tc_hidden_cards', JSON.stringify(hiddenCards));
+      cards = cards.filter(c => c.id !== id);
+      renderCatalog();
+      renderFilters();
+      renderSoldList();
+    }
+  </script>
+</body>
+</html>
