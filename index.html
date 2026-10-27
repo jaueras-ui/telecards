@@ -110,22 +110,22 @@
     }
   </style>
   
-  <!-- Sub-arquivos JS protegidos contra erros -->
-  <script src="brasiltelecom.js" onerror="console.log('brasiltelecom.js não encontrado')"></script>
-  <script src="telefonica.js" onerror="console.log('telefonica.js não encontrado')"></script>
-  <script src="telebras.js" onerror="console.log('telebras.js não encontrado')"></script>
-  <script src="embratel.js" onerror="console.log('embratel.js não encontrado')"></script>
-  <script src="crt.js" onerror="console.log('crt.js não encontrado')"></script>
-  <script src="oi.js" onerror="console.log('oi.js não encontrado')"></script>
-  <script src="telemar.js" onerror="console.log('telemar.js não encontrado')"></script>
-  <script src="ceterp.js" onerror="console.log('ceterp.js não encontrado')"></script>
-  <script src="ctbc.js" onerror="console.log('ctbc.js não encontrado')"></script>
-  <script src="telepar.js" onerror="console.log('telepar.js não encontrado')"></script>
-  <script src="telesc.js" onerror="console.log('telesc.js não encontrado')"></script>
-  <script src="telemig.js" onerror="console.log('telemig.js não encontrado')"></script>
-  <script src="telegoias.js" onerror="console.log('telegoias.js não encontrado')"></script>
-  <script src="telerj.js" onerror="console.log('telerj.js não encontrado')"></script>
-  <script src="sercomtel.js" onerror="console.log('sercomtel.js não encontrado')"></script>
+  <!-- Sub-arquivos JS carregados com segurança (se não existirem, são ignorados) -->
+  <script src="brasiltelecom.js" onerror="console.log('brasiltelecom.js opcional')"></script>
+  <script src="telefonica.js" onerror="console.log('telefonica.js opcional')"></script>
+  <script src="telebras.js" onerror="console.log('telebras.js opcional')"></script>
+  <script src="embratel.js" onerror="console.log('embratel.js opcional')"></script>
+  <script src="crt.js" onerror="console.log('crt.js opcional')"></script>
+  <script src="oi.js" onerror="console.log('oi.js opcional')"></script>
+  <script src="telemar.js" onerror="console.log('telemar.js opcional')"></script>
+  <script src="ceterp.js" onerror="console.log('ceterp.js opcional')"></script>
+  <script src="ctbc.js" onerror="console.log('ctbc.js opcional')"></script>
+  <script src="telepar.js" onerror="console.log('telepar.js opcional')"></script>
+  <script src="telesc.js" onerror="console.log('telesc.js opcional')"></script>
+  <script src="telemig.js" onerror="console.log('telemig.js opcional')"></script>
+  <script src="telegoias.js" onerror="console.log('telegoias.js opcional')"></script>
+  <script src="telerj.js" onerror="console.log('telerj.js opcional')"></script>
+  <script src="sercomtel.js" onerror="console.log('sercomtel.js opcional')"></script>
 </head>
 <body class="min-h-screen flex flex-col">
 
@@ -1335,3 +1335,103 @@
     }
 
     function openEditModal(id) {
+      const card = cards.find(c => c.id === id);
+      if (!card) return;
+      populateOperatorSelect();
+      document.getElementById('modal-title').innerHTML = `<i class="fa-solid fa-pen-to-square text-brand-cyan"></i> Editar Cartão`;
+      document.getElementById('f-id').value = card.id;
+      document.getElementById('f-title').value = card.title;
+      document.getElementById('f-ref').value = card.ref || '';
+      document.getElementById('f-operator').value = card.operator || 'Telefônica';
+      document.getElementById('f-price').value = card.price || 2.00;
+      document.getElementById('f-image').value = card.image.startsWith('data:image') ? '' : card.image;
+      document.getElementById('f-file-upload').value = '';
+      document.getElementById('admin-modal').classList.remove('hidden');
+      document.getElementById('admin-modal').classList.add('flex');
+    }
+
+    function closeModal() {
+      document.getElementById('admin-modal').classList.add('hidden');
+      document.getElementById('admin-modal').classList.remove('flex');
+    }
+
+    function saveCard(event) {
+      event.preventDefault();
+      const id = document.getElementById('f-id').value;
+      const title = document.getElementById('f-title').value;
+      const ref = document.getElementById('f-ref').value;
+      const operator = document.getElementById('f-operator').value;
+      const price = parseFloat(document.getElementById('f-price').value) || 2.00;
+      const fileInput = document.getElementById('f-file-upload');
+      let imageInput = document.getElementById('f-image').value;
+      const type = classifyCardType(title);
+
+      const processSave = (finalImage) => {
+        let image = finalImage;
+        if (!image.startsWith('data:image') && image.trim() !== '') {
+          image = formatarCaminhoImagem(image, operator, ref);
+        }
+
+        if (id) {
+          if (externalCards.some(c => c.id === id)) {
+            localEdits[id] = { ...(localEdits[id] || {}), title, ref, operator, price, image };
+            localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
+          } else {
+            let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
+            let idx = customCards.findIndex(c => c.id === id);
+            if (idx !== -1) {
+              customCards[idx] = { id, title, ref, operator, price, image, type };
+              localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
+            }
+          }
+          
+          const cardObj = cards.find(c => c.id === id);
+          if (cardObj) {
+            cardObj.title = title;
+            cardObj.ref = ref;
+            cardObj.operator = operator;
+            cardObj.price = price;
+            if (image) cardObj.image = image;
+            cardObj.imageHasError = false;
+            cardObj.type = type;
+          }
+        } else {
+          const newId = 'custom-' + Date.now();
+          const newCard = { id: newId, title, ref, operator, price, image, imageHasError: false, type };
+          let customCards = JSON.parse(localStorage.getItem('tc_custom_items')) || [];
+          customCards.push(newCard);
+          localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
+          cards.unshift(newCard);
+        }
+
+        closeModal();
+        renderCatalog();
+        renderFilters();
+        renderSoldList();
+      };
+
+      if (fileInput.files && fileInput.files[0]) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          processSave(e.target.result);
+        };
+        reader.readAsDataURL(fileInput.files[0]);
+      } else {
+        const existingCard = cards.find(c => c.id === id);
+        const fallbackImage = existingCard ? existingCard.image : imageInput;
+        processSave(imageInput.trim() !== '' ? imageInput : fallbackImage);
+      }
+    }
+
+    function deleteCard(id) {
+      if (!confirm('Deseja realmente remover este cartão do catálogo?')) return;
+      hiddenCards.push(id);
+      localStorage.setItem('tc_hidden_cards', JSON.stringify(hiddenCards));
+      cards = cards.filter(c => c.id !== id);
+      renderCatalog();
+      renderFilters();
+      renderSoldList();
+    }
+  </script>
+</body>
+</html>
