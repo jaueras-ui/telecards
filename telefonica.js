@@ -261,7 +261,7 @@ const telefonicaData = [
   { "id": "tel-130-av1", "title": "Telefónica - Série 130 - card nº 1", "ref": "tel-130-av1", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/130-TEL-SER-AV01.jpg" },
   { "id": "tel-130-av2", "title": "Telefónica - Série 130 - card nº 2", "ref": "tel-130-av2", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/130-TEL-SER-AV02.jpg" },
   { "id": "tel-131-av1", "title": "Telefónica - Série 131 - card nº 1", "ref": "tel-131-av1", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/131-TEL-SER-AV01.jpg" },
-  { "id": "tel-131-av2", "title": "Telefónica - Série 131 - card nº 2", "ref": "tel-131-av2", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/131-TEL-SER-AV02.jpg" },
+  { "id": "tel-131-av2", "title": "Telefónica - Série 131 - card nº 2", "ref": "tel-131-av2", "operator": "Telefónica", "price": 1,---
   { "id": "tel-132-av1", "title": "Telefónica - Série 132 - card nº 1", "ref": "tel-132-av1", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/132-TEL-SER-AV01.jpg" },
   { "id": "tel-132-av2", "title": "Telefónica - Série 132 - card nº 2", "ref": "tel-132-av2", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/132-TEL-SER-AV02.jpg" },
   { "id": "tel-133-av1", "title": "Telefónica - Série 133 - card nº 1", "ref": "tel-133-av1", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/133-TEL-SER-AV01.jpg" },
@@ -281,3 +281,8 @@ const telefonicaData = [
   { "id": "tel-140-av1", "title": "Telefónica - Série 140 - card nº 1", "ref": "tel-140-av1", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/140-TEL-SER-AV01.jpg" },
   { "id": "tel-140-av2", "title": "Telefónica - Série 140 - card nº 2", "ref": "tel-140-av2", "operator": "Telefónica", "price": 1, "image": "fotos/telefonica/140-TEL-SER-AV02.jpg" }
 ];
+
+// Linha de exposição global para integração segura com o script principal do TeleCards
+if (typeof window !== 'undefined') {
+  window.telefonicaData = telefonicaData;
+}
