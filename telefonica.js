@@ -834,9 +834,9 @@ window.telefonicaData = [
 
 {"id": "104-TEL-PAI-AV02", "title": "Cartões (104-TEL-PAI-AV02) Telefónica-Série Países das Américas (40 cards): INCOMPL.: 1 card", "ref": "104-TEL-PAI-AV02", "operator": "Telefónica", "price": 1, "image": "104-TEL-PAI-AV02.jpg"},
 
-{"id": "105-TEL-REM-AV02/03/", "title": "Cartões (105-TEL-REM-AV02/03/) Telefónica-Série Remédios (4 cards): INCOMPL.: 1 card", "ref": "105-TEL-REM-AV02/03/", "operator": "Telefónica", "price": 1, "image": "105-TEL-REM-AV02/03/.jpg"},
+{"id": "105-TEL-REM-AV0203", "title": "Cartões (105-TEL-REM-AV0203) Telefónica-Série Remédios (4 cards): INCOMPL.: 1 card", "ref": "105-TEL-REM-AV0203", "operator": "Telefónica", "price": 1, "image": "105-TEL-REM-AV0203.jpg"},
 
-{"id": "105-TEL-REM-AV"02/04/", "title": "Cartões (105-TEL-REM-AV"02/04/) Telefónica-Série Remédios (4 cards): INCOMPL.: 1 card", "ref": "105-TEL-REM-AV"02/04/", "operator": "Telefónica", "price": 1, "image": "105-TEL-REM-AV"02/04/.jpg"},
+{"id": "105-TEL-REM-AV0204", "title": "Cartões (105-TEL-REM-AV0204) Telefónica-Série Remédios (4 cards): INCOMPL.: 1 card", "ref": "105-TEL-REM-AV0204", "operator": "Telefónica", "price": 1, "image": "105-TEL-REM-AV0204.jpg"},
 
 {"id": "106-TEL-VER-AV04", "title": "Cartões (106-TEL-VER-AV04) Telefónica-Série Verticais (4 cards): INCOMPL.: 1 card", "ref": "106-TEL-VER-AV04", "operator": "Telefónica", "price": 1, "image": "106-TEL-VER-AV04.jpg"},
 
