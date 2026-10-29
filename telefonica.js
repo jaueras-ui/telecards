@@ -450,10 +450,6 @@ window.telefonicaData = [
 
 {"id": "071-TEL-ANI-AV25", "title": "Cartões (071-TEL-ANI-AV25) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV25", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV25.jpg"},
 
-{"id": "071-TEL-ANI-AV19", "title": "Cartões (071-TEL-ANI-AV19) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV19", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV19.jpg"},
-
-{"id": "071-TEL-ANI-AV21", "title": "Cartões (071-TEL-ANI-AV21) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV21", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV21.jpg"},
-
 {"id": "072-TEL-SER-AV01", "title": "Cartões (072-TEL-SER-AV01) Telefónica-Série Serviços Telefónica  (4 cards): INCOMPL.: 1 card", "ref": "072-TEL-SER-AV01", "operator": "Telefónica", "price": 1, "image": "072-TEL-SER-AV01.jpg"},
 
 {"id": "072-TEL-SER-AV02", "title": "Cartões (072-TEL-SER-AV02) Telefónica-Série Serviços Telefónica  (4 cards): INCOMPL.: 1 card", "ref": "072-TEL-SER-AV02", "operator": "Telefónica", "price": 1, "image": "072-TEL-SER-AV02.jpg"},
