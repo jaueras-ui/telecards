@@ -1,2978 +1,996 @@
 window.telefonicaData = [
-  {
-    "id": "tel-001-av3",
-    "title": "Telefónica - Cidades Hist. MG - card nº 3 - Mariana",
-    "ref": "tel-001-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-001-av3.jpg"
-  },
-  {
-    "id": "tel-001-av4",
-    "title": "Telefónica - Cidades Hist. MG - card nº 4 - S.Tomé das Letras",
-    "ref": "tel-001-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-001-av4.jpg"
-  },
-  {
-    "id": "tel-001-av5",
-    "title": "Telefónica - Cidades Hist. MG - card nº 5 - Tiradentes",
-    "ref": "tel-001-av5",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-001-av5.jpg"
-  },
-  {
-    "id": "tel-001-av6",
-    "title": "Telefónica - Cidades Hist. MG - card nº 6 - Congonhas do Campo",
-    "ref": "tel-001-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-001-av6.jpg"
-  },
-  {
-    "id": "tel-001-av7",
-    "title": "Telefônica - Cidades Hist. MG - card nº 7 - Diamantina",
-    "ref": "tel-001-av7",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-001-av7.jpg"
-  },
-  {
-    "id": "tel-001-av9",
-    "title": "Telefónica - Cidades Hist. MG - card nº 9 - S.João Del Rei",
-    "ref": "tel-001-av9",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-001-av9.jpg"
-  },
-  {
-    "id": "tel-001-av10",
-    "title": "Telefónica - Cidades Hist. MG - card nº 10 - S.Tomé das Letras",
-    "ref": "tel-001-av10",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-001-av10.jpg"
-  },
-  {
-    "id": "tel-002-c",
-    "title": "Série - Telefónica - Aves do Brasil (Completa)",
-    "ref": "tel-002-c",
-    "operator": "Telefónica",
-    "price": 4,
-    "image": "tel-002-c.jpg"
-  },
-  {
-    "id": "tel-003-av",
-    "title": "Telefónica - Ano Novo 2001 - card nº 37653",
-    "ref": "tel-003-av",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-003-av.jpg"
-  },
-  {
-    "id": "tel-004-c",
-    "title": "Série - Telefónica - Alimentos - Frutas (Completa)",
-    "ref": "tel-004-c",
-    "operator": "Telefónica",
-    "price": 6,
-    "image": "tel-004-c.jpg"
-  },
-  {
-    "id": "tel-004-av1",
-    "title": "Telefónica - Alimentos - Frutas - card nº 1",
-    "ref": "tel-004-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-004-av1.jpg"
-  },
-  {
-    "id": "tel-005-av2",
-    "title": "Telefónica - Transportes - card nº 2 - Cosmos, 2000",
-    "ref": "tel-005-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-005-av2.jpg"
-  },
-  {
-    "id": "tel-005-av3",
-    "title": "Telefónica - Transportes - card nº 3 - Escolar, 1999",
-    "ref": "tel-005-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-005-av3.jpg"
-  },
-  {
-    "id": "tel-005-av6",
-    "title": "Telefônica - Transportes - card nº 6 - Contêiner, 2001",
-    "ref": "tel-005-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-005-av6.jpg"
-  },
-  {
-    "id": "tel-005-av8",
-    "title": "Telefônica - Transportes - card nº 8 - Urbano, 1998",
-    "ref": "tel-005-av8",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-005-av8.jpg"
-  },
-  {
-    "id": "tel-005-av9",
-    "title": "Telefónica - Transportes - card nº 9 - Abandono, 1979",
-    "ref": "tel-005-av9",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-005-av9.jpg"
-  },
-  {
-    "id": "tel-006-c",
-    "title": "Série - Telefónica - Folclore (Completa)",
-    "ref": "tel-006-c",
-    "operator": "Telefónica",
-    "price": 6,
-    "image": "tel-006-c.jpg"
-  },
-  {
-    "id": "tel-006-inc",
-    "title": "Telefónica - Folclore - card nº 1,2,3,4",
-    "ref": "tel-006-inc",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-006-inc.jpg"
-  },
-  {
-    "id": "tel-007-inc",
-    "title": "Telefónica - Respeito aos Idosos - card nº 1,2,3,4,6",
-    "ref": "tel-007-inc",
-    "operator": "Telefónica",
-    "price": 4,
-    "image": "tel-007-inc.jpg"
-  },
-  {
-    "id": "tel-008-av3",
-    "title": "Telefónica - Igrejas - card nº 3 - Basílica de S.Pedro dos Clérigos",
-    "ref": "tel-008-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-008-av3.jpg"
-  },
-  {
-    "id": "tel-008-av4",
-    "title": "Telefónica - Igrejas - card nº 4 - Igreja de N.Sra da Conceição",
-    "ref": "tel-008-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-008-av4.jpg"
-  },
-  {
-    "id": "tel-008-av9",
-    "title": "Telefónica - Igrejas - card nº 9 - Igreja do Bom Jesus de Matosinhos",
-    "ref": "tel-008-av9",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-008-av9.jpg"
-  },
-  {
-    "id": "tel-009-av1",
-    "title": "Telefónica - Igreja - card nº 7 - Igreja de N.Sra do Ó",
-    "ref": "tel-009-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-009-av1.jpg"
-  },
-  {
-    "id": "tel-009-av2",
-    "title": "Telefónica - Eventos - card nº 4",
-    "ref": "tel-009-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-009-av2.jpg"
-  },
-  {
-    "id": "tel-010-av1",
-    "title": "Telefónica - Dias Comemorativos - card nº 1 - Dia do Pintor",
-    "ref": "tel-010-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-010-av1.jpg"
-  },
-  {
-    "id": "tel-010-inc2",
-    "title": "Telefónica - Dias Comemorativos - card nº 2 - Dia do Músico",
-    "ref": "tel-010-inc2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-010-inc2.jpg"
-  },
-  {
-    "id": "tel-010-inc3",
-    "title": "Telefónica - Dias Comemorativos - card nº 3 - Dia dos Namorados",
-    "ref": "tel-010-inc3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-010-inc3.jpg"
-  },
-  {
-    "id": "tel-011-c",
-    "title": "Série - Telefónica - Lendas do Brasil (Completa)",
-    "ref": "tel-011-c",
-    "operator": "Telefónica",
-    "price": 9,
-    "image": "tel-011-c.jpg"
-  },
-  {
-    "id": "tel-011-av1",
-    "title": "Telefónica - Lendas do Brasil - card nº 1 - Negrinho do Pastoreio",
-    "ref": "tel-011-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-011-av1.jpg"
-  },
-  {
-    "id": "tel-011-av2",
-    "title": "Telefónica - Lendas do Brasil - card nº 2 - Boitatá",
-    "ref": "tel-011-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-011-av2.jpg"
-  },
-  {
-    "id": "tel-012-av4",
-    "title": "Telefónica - Grandes Aventuras - card nº 1",
-    "ref": "tel-012-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-012-av4.jpg"
-  },
-  {
-    "id": "tel-013-inc",
-    "title": "Telefónica - Use o 15 - card nº 38808",
-    "ref": "tel-013-inc",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-013-inc.jpg"
-  },
-  {
-    "id": "tel-014-av1",
-    "title": "Telefónica - Alimentos - card nº 1 - Pimenta e pimentão",
-    "ref": "tel-014-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-014-av1.jpg"
-  },
-  {
-    "id": "tel-014-av2",
-    "title": "Telefónica - Alimentos - card nº 2 - Tomate",
-    "ref": "tel-014-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-014-av2.jpg"
-  },
-  {
-    "id": "tel-015-av1",
-    "title": "Telefónica - Amarelinhas - card nº 1",
-    "ref": "tel-015-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-015-av1.jpg"
-  },
-  {
-    "id": "tel-015-av4",
-    "title": "Telefónica - Amarelinhas - card nº 4",
-    "ref": "tel-015-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-015-av4.jpg"
-  },
-  {
-    "id": "tel-015-av7",
-    "title": "Telefónica - Amarelinhas - card nº 7",
-    "ref": "tel-015-av7",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-015-av7.jpg"
-  },
-  {
-    "id": "tel-015-av8",
-    "title": "Telefónica - Amarelinhas - card nº 8",
-    "ref": "tel-015-av8",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-015-av8.jpg"
-  },
-  {
-    "id": "tel-015-av9",
-    "title": "Telefónica - Amarelinhas - card nº 9",
-    "ref": "tel-015-av9",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-015-av9.jpg"
-  },
-  {
-    "id": "tel-016-inc",
-    "title": "Telefónica - Velhas Águias - card nº 1,2,3,4,5",
-    "ref": "tel-016-inc",
-    "operator": "Telefónica",
-    "price": 4,
-    "image": "tel-016-inc.jpg"
-  },
-  {
-    "id": "tel-017-c",
-    "title": "Série - Telefónica - Colecionador (Completa)",
-    "ref": "tel-017-c",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-017-c.jpg"
-  },
-  {
-    "id": "tel-018-c",
-    "title": "Série - Telefónica - Dia das Mães (Completa)",
-    "ref": "tel-018-c",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-018-c.jpg"
-  },
-  {
-    "id": "tel-018-av2",
-    "title": "Telefónica - Dia das Mães - card nº 2 - Madonna",
-    "ref": "tel-018-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-018-av2.jpg"
-  },
-  {
-    "id": "tel-019-inc",
-    "title": "Telefónica - Dia das Mães 2001 - card nº 1,4,5,6,7,9,10",
-    "ref": "tel-019-inc",
-    "operator": "Telefónica",
-    "price": 6,
-    "image": "tel-019-inc.jpg"
-  },
-  {
-    "id": "tel-019-av6",
-    "title": "Telefónica - Dia das Mães 2001 - card nº 6",
-    "ref": "tel-019-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-019-av6.jpg"
-  },
-  {
-    "id": "tel-020-av28",
-    "title": "Telefónica - História do Mundo - card nº 28",
-    "ref": "tel-020-av28",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-020-av28.jpg"
-  },
-  {
-    "id": "tel-021-av2",
-    "title": "Telefónica - Paz Mundial - card nº 2",
-    "ref": "tel-021-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-021-av2.jpg"
-  },
-  {
-    "id": "tel-022-av1",
-    "title": "Telefónica - Nossa Língua - card nº 1",
-    "ref": "tel-022-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-022-av1.jpg"
-  },
-  {
-    "id": "tel-023-av2",
-    "title": "Telefónica - Barreto - card nº 2",
-    "ref": "tel-023-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-023-av2.jpg"
-  },
-  {
-    "id": "tel-024-inc",
-    "title": "Telefónica - Brasil 500 anos - card nº 1,2,3,4,5",
-    "ref": "tel-024-inc",
-    "operator": "Telefónica",
-    "price": 4,
-    "image": "tel-024-inc.jpg"
-  },
-  {
-    "id": "tel-024-av1",
-    "title": "Telefónica - Brasil 500 anos - card nº 1 - O extrativismo mineral",
-    "ref": "tel-024-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-024-av1.jpg"
-  },
-  {
-    "id": "tel-024-av2",
-    "title": "Telefónica - Brasil 500 anos - card nº 2 - Predominância do café",
-    "ref": "tel-024-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-024-av2.jpg"
-  },
-  {
-    "id": "tel-025-av6",
-    "title": "Telefónica - Osmar Santos - card nº 6",
-    "ref": "tel-025-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-025-av6.jpg"
-  },
-  {
-    "id": "tel-026-c",
-    "title": "Série - Telefónica - Paisagens Rurais (Completa)",
-    "ref": "tel-026-c",
-    "operator": "Telefónica",
-    "price": 7,
-    "image": "tel-026-c.jpg"
-  },
-  {
-    "id": "tel-026-av1",
-    "title": "Telefónica - Paisagens Rurais - card nº 1 - Paisagem campestre",
-    "ref": "tel-026-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-026-av1.jpg"
-  },
-  {
-    "id": "tel-026-av6",
-    "title": "Telefónica - Paisagens Rurais - card nº 6 - Rebanho de ovelhas",
-    "ref": "tel-026-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-026-av6.jpg"
-  },
-  {
-    "id": "tel-027-c",
-    "title": "Série - Telefónica - Vida (Completa)",
-    "ref": "tel-027-c",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-027-c.jpg"
-  },
-  {
-    "id": "tel-027-inc",
-    "title": "Telefónica - Vida - card nº 1",
-    "ref": "tel-027-inc",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-027-inc.jpg"
-  },
-  {
-    "id": "tel-028-av1",
-    "title": "Telefónica - Sistema Solar - card nº 1 - Mercúrio",
-    "ref": "tel-028-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-028-av1.jpg"
-  },
-  {
-    "id": "tel-028-av2",
-    "title": "Telefónica - Sistema Solar - card nº 2 - Plutão",
-    "ref": "tel-028-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-028-av2.jpg"
-  },
-  {
-    "id": "tel-028-av3",
-    "title": "Telefónica - Sistema Solar - card nº 3 - Sistema Solar",
-    "ref": "tel-028-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-028-av3.jpg"
-  },
-  {
-    "id": "tel-029-inc",
-    "title": "Telefónica - Futebol Px Mundial - card nº 5,6",
-    "ref": "tel-029-inc",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-029-inc.jpg"
-  },
-  {
-    "id": "tel-030-av1",
-    "title": "Telefónica - Volta às Aulas - card nº 1",
-    "ref": "tel-030-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-030-av1.jpg"
-  },
-  {
-    "id": "tel-031-av2",
-    "title": "Telefónica - Concurso Desenhos - card nº 2",
-    "ref": "tel-031-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-031-av2.jpg"
-  },
-  {
-    "id": "tel-032-inc",
-    "title": "Telefónica - Dia do Amigo - card nº 38018",
-    "ref": "tel-032-inc",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-032-inc.jpg"
-  },
-  {
-    "id": "tel-032-av2",
-    "title": "Telefónica - Dia do Amigo - card nº 2",
-    "ref": "tel-032-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-032-av2.jpg"
-  },
-  {
-    "id": "tel-033-av6",
-    "title": "Telefónica - Ano Novo 2004 - card nº 6",
-    "ref": "tel-033-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-033-av6.jpg"
-  },
-  {
-    "id": "tel-034-av1",
-    "title": "Telefónica - Esportes Radicais - card nº 1 - Surf",
-    "ref": "tel-034-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-034-av1.jpg"
-  },
-  {
-    "id": "tel-034-av4",
-    "title": "Telefónica - Esportes Radicais - card nº 4 - Rapel",
-    "ref": "tel-034-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-034-av4.jpg"
-  },
-  {
-    "id": "tel-035-c",
-    "title": "Série - Telefónica - Flores do Cerrado (Completa)",
-    "ref": "tel-035-c",
-    "operator": "Telefónica",
-    "price": 6,
-    "image": "tel-035-c.jpg"
-  },
-  {
-    "id": "tel-035-av1",
-    "title": "Telefónica - Flores do Cerrado - card nº 1",
-    "ref": "tel-035-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-035-av1.jpg"
-  },
-  {
-    "id": "tel-036-av1",
-    "title": "Telefónica - Peixes Ornamentais - card nº 1",
-    "ref": "tel-036-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-036-av1.jpg"
-  },
-  {
-    "id": "tel-036-av2",
-    "title": "Telefónica - Peixes Ornamentais - card nº 2",
-    "ref": "tel-036-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-036-av2.jpg"
-  },
-  {
-    "id": "tel-036-av3",
-    "title": "Telefónica - Peixes Ornamentais - card nº 3",
-    "ref": "tel-036-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-036-av3.jpg"
-  },
-  {
-    "id": "tel-036-av4",
-    "title": "Telefónica - Peixes Ornamentais - card nº 4",
-    "ref": "tel-036-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-036-av4.jpg"
-  },
-  {
-    "id": "tel-036-av5",
-    "title": "Telefónica - Peixes Ornamentais - card nº 5",
-    "ref": "tel-036-av5",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-036-av5.jpg"
-  },
-  {
-    "id": "tel-036-av6",
-    "title": "Telefónica - Peixes Ornamentais - card nº 6",
-    "ref": "tel-036-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-036-av6.jpg"
-  },
-  {
-    "id": "tel-036-av7",
-    "title": "Telefónica - Peixes Ornamentais - card nº 7",
-    "ref": "tel-036-av7",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-036-av7.jpg"
-  },
-  {
-    "id": "tel-036-av8",
-    "title": "Telefónica - Peixes Ornamentais - card nº 8",
-    "ref": "tel-036-av8",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-036-av8.jpg"
-  },
-  {
-    "id": "tel-037-inc",
-    "title": "Telefónica - Cidades Paulistas - Lote/Incompleta",
-    "ref": "tel-037-inc",
-    "operator": "Telefónica",
-    "price": 6,
-    "image": "tel-037-inc.jpg"
-  },
-  {
-    "id": "tel-037-av1",
-    "title": "Telefónica - Cidades Paulistas - card nº 1 - Campinas",
-    "ref": "tel-037-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av1.jpg"
-  },
-  {
-    "id": "tel-037-av2",
-    "title": "Telefónica - Cidades Paulistas - card nº 2 - São Carlos",
-    "ref": "tel-037-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av2.jpg"
-  },
-  {
-    "id": "tel-037-av3",
-    "title": "Telefónica - Cidades Paulistas - card nº 3 - Franca",
-    "ref": "tel-037-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av3.jpg"
-  },
-  {
-    "id": "tel-037-av4",
-    "title": "Telefónica - Cidades Paulistas - card nº 4 - Guarulhos",
-    "ref": "tel-037-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av4.jpg"
-  },
-  {
-    "id": "tel-037-av5",
-    "title": "Telefónica - Cidades Paulistas - card nº 5 - Praia Grande",
-    "ref": "tel-037-av5",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av5.jpg"
-  },
-  {
-    "id": "tel-037-av6",
-    "title": "Telefónica - Cidades Paulistas - card nº 6 - Cubatão",
-    "ref": "tel-037-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av6.jpg"
-  },
-  {
-    "id": "tel-037-av7",
-    "title": "Telefónica - Cidades Paulistas - card nº 7 - São José do Rio Preto",
-    "ref": "tel-037-av7",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av7.jpg"
-  },
-  {
-    "id": "tel-037-av8",
-    "title": "Telefónica - Cidades Paulistas - card nº 8 - Taubaté",
-    "ref": "tel-037-av8",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av8.jpg"
-  },
-  {
-    "id": "tel-037-av9",
-    "title": "Telefónica - Cidades Paulistas - card nº 9 - Marília",
-    "ref": "tel-037-av9",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-037-av9.jpg"
-  },
-  {
-    "id": "tel-038-inc",
-    "title": "Telefónica - Consciência Negra - card nº 2,4",
-    "ref": "tel-038-inc",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-038-inc.jpg"
-  },
-  {
-    "id": "tel-039-av1",
-    "title": "Telefónica - Promessas Ano Novo - card nº 1",
-    "ref": "tel-039-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-039-av1.jpg"
-  },
-  {
-    "id": "tel-040-c",
-    "title": "Série - Telefónica - Cidades Brasileiras (Completa)",
-    "ref": "tel-040-c",
-    "operator": "Telefónica",
-    "price": 11,
-    "image": "tel-040-c.jpg"
-  },
-  {
-    "id": "tel-040-av4",
-    "title": "Telefónica - Cidades Brasileiras - card nº 4 - Basílica - DF",
-    "ref": "tel-040-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-040-av4.jpg"
-  },
-  {
-    "id": "tel-040-av5",
-    "title": "Telefónica - Cidades Brasileiras - card nº 5 - Ilha do Mel - PR",
-    "ref": "tel-040-av5",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-040-av5.jpg"
-  },
-  {
-    "id": "tel-040-av6",
-    "title": "Telefónica - Cidades Brasileiras - card nº 6 - Lençóis - BA",
-    "ref": "tel-040-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-040-av6.jpg"
-  },
-  {
-    "id": "tel-040-av7",
-    "title": "Telefónica - Cidades Brasileiras - card nº 7 - Morro de S.Paulo - BA",
-    "ref": "tel-040-av7",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-040-av7.jpg"
-  },
-  {
-    "id": "tel-040-av8",
-    "title": "Telefónica - Cidades Brasileiras - card nº 8 - Visconde de Mauá - RJ",
-    "ref": "tel-040-av8",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-040-av8.jpg"
-  },
-  {
-    "id": "tel-041-av1",
-    "title": "Telefónica - Educar sem Violência - card nº 1",
-    "ref": "tel-041-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-041-av1.jpg"
-  },
-  {
-    "id": "tel-042-av2",
-    "title": "Telefónica - Drinks de Inverno - card nº 2 - Céu azul",
-    "ref": "tel-042-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-042-av2.jpg"
-  },
-  {
-    "id": "tel-042-av4",
-    "title": "Telefónica - Drinks de Inverno - card nº 4 - Chocolate petrópolis",
-    "ref": "tel-042-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-042-av4.jpg"
-  },
-  {
-    "id": "tel-042-av8",
-    "title": "Telefónica - Drinks de Inverno - card nº 8 - Poeta",
-    "ref": "tel-042-av8",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-042-av8.jpg"
-  },
-  {
-    "id": "tel-043-av1",
-    "title": "Telefónica - Arte Colonial RJ/MG - card nº 1 - Igreja de Santa Rita",
-    "ref": "tel-043-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-043-av1.jpg"
-  },
-  {
-    "id": "tel-043-av2",
-    "title": "Telefónica - Arte Colonial RJ/MG - card nº 2 - Igreja N. Sra da Conceição",
-    "ref": "tel-043-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-043-av2.jpg"
-  },
-  {
-    "id": "tel-043-av3",
-    "title": "Telefónica - Arte Colonial RJ/MG - card nº 3 - Casa de Sítio em Lassance",
-    "ref": "tel-043-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-043-av3.jpg"
-  },
-  {
-    "id": "tel-043-av4",
-    "title": "Telefónica - Arte Colonial RJ/MG - card nº 4 - Casario em Tiradentes",
-    "ref": "tel-043-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-043-av4.jpg"
-  },
-  {
-    "id": "tel-043-av6",
-    "title": "Telefónica - Arte Colonial RJ/MG - card nº 6 - Rua da Câmara",
-    "ref": "tel-043-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-043-av6.jpg"
-  },
-  {
-    "id": "tel-043-av7",
-    "title": "Telefónica - Arte Colonial RJ/MG - card nº 7 - Portão Primavera",
-    "ref": "tel-043-av7",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-043-av7.jpg"
-  },
-  {
-    "id": "tel-044-av1",
-    "title": "Telefónica - Dia da Bandeira - card nº 1",
-    "ref": "tel-044-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-044-av1.jpg"
-  },
-  {
-    "id": "tel-045-av2",
-    "title": "Telefónica - Dia da Bandeira - card nº 2",
-    "ref": "tel-045-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-045-av2.jpg"
-  },
-  {
-    "id": "tel-046-c",
-    "title": "Série - Telefónica - Pássaros Exóticos (Completa)",
-    "ref": "tel-046-c",
-    "operator": "Telefónica",
-    "price": 9,
-    "image": "tel-046-c.jpg"
-  },
-  {
-    "id": "tel-046-av1",
-    "title": "Telefónica - Pássaros Exóticos - card nº 1 - Corrupião",
-    "ref": "tel-046-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-046-av1.jpg"
-  },
-  {
-    "id": "tel-046-av2",
-    "title": "Telefónica - Pássaros Exóticos - card nº 2 - Flamingo Rosa",
-    "ref": "tel-046-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-046-av2.jpg"
-  },
-  {
-    "id": "tel-047-inc",
-    "title": "Telefónica - Dicas de Saúde - card nº 1 a 10 (Incompleta)",
-    "ref": "tel-047-inc",
-    "operator": "Telefónica",
-    "price": 8,
-    "image": "tel-047-inc.jpg"
-  },
-  {
-    "id": "tel-047-av2",
-    "title": "Telefónica - Dicas de Saúde - card nº 2 - Coma alimentos saudáveis",
-    "ref": "tel-047-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-047-av2.jpg"
-  },
-  {
-    "id": "tel-047-av7",
-    "title": "Telefónica - Dicas de Saúde - card nº 7 - Cantar no banho",
-    "ref": "tel-047-av7",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-047-av7.jpg"
-  },
-  {
-    "id": "tel-047-av9",
-    "title": "Telefónica - Dicas de Saúde - card nº 9 - Caminhar",
-    "ref": "tel-047-av9",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-047-av9.jpg"
-  },
-  {
-    "id": "tel-048-inc",
-    "title": "Telefónica - Refrescos de Verão - card nº 2,4,7,10",
-    "ref": "tel-048-inc",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-048-inc.jpg"
-  },
-  {
-    "id": "tel-049-inc",
-    "title": "Telefónica - Volta às Aulas 2002 - card nº 1,4,5,6",
-    "ref": "tel-049-inc",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-049-inc.jpg"
-  },
-  {
-    "id": "tel-049-av05",
-    "title": "Telefónica - Volta às Aulas 2002 - card nº 5+brinde",
-    "ref": "tel-049-av05",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-049-av05.jpg"
-  },
-  {
-    "id": "tel-050-c",
-    "title": "Série - Telefónica - Folhagens (Completa)",
-    "ref": "tel-050-c",
-    "operator": "Telefónica",
-    "price": 6,
-    "image": "tel-050-c.jpg"
-  },
-  {
-    "id": "tel-050-av1",
-    "title": "Telefónica - Folhagens - card nº 1 - Fittonia",
-    "ref": "tel-050-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-050-av1.jpg"
-  },
-  {
-    "id": "tel-051-av2",
-    "title": "Telefónica - Cidade Urbana - card nº 2 - Cidade Moderna I",
-    "ref": "tel-051-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-051-av2.jpg"
-  },
-  {
-    "id": "tel-051-av4",
-    "title": "Telefónica - Cidade Urbana - card nº 4 - Cidade Antiga",
-    "ref": "tel-051-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-051-av4.jpg"
-  },
-  {
-    "id": "tel-052-av2",
-    "title": "Telefónica - Comunidade Solidária - card nº 2",
-    "ref": "tel-052-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-052-av2.jpg"
-  },
-  {
-    "id": "tel-052-av3",
-    "title": "Telefónica - Comunidade Solidária - card nº 3",
-    "ref": "tel-052-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-052-av3.jpg"
-  },
-  {
-    "id": "tel-052-av4",
-    "title": "Telefónica - Comunidade Solidária - card nº 4",
-    "ref": "tel-052-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-052-av4.jpg"
-  },
-  {
-    "id": "tel-052-av5",
-    "title": "Telefónica - Comunidade Solidária - card nº 5",
-    "ref": "tel-052-av5",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-052-av5.jpg"
-  },
-  {
-    "id": "tel-053-av2",
-    "title": "Telefónica - Dia Mães-Milagre - card nº 2 - Terra",
-    "ref": "tel-053-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-053-av2.jpg"
-  },
-  {
-    "id": "tel-053-av3",
-    "title": "Telefónica - Dia Mães-Milagre - card nº 3 - Água",
-    "ref": "tel-053-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-053-av3.jpg"
-  },
-  {
-    "id": "tel-053-av4",
-    "title": "Telefónica - Dia Mães-Milagre - card nº 4 - Ar",
-    "ref": "tel-053-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-053-av4.jpg"
-  },
-  {
-    "id": "tel-054-av1",
-    "title": "Telefónica - Mãe Terra - card nº 1 - Luz",
-    "ref": "tel-054-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-054-av1.jpg"
-  },
-  {
-    "id": "tel-054-av4",
-    "title": "Telefónica - Mãe Terra - card nº 4 - Água",
-    "ref": "tel-054-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-054-av4.jpg"
-  },
-  {
-    "id": "tel-055-av2",
-    "title": "Telefónica - 89 FM - card nº 2",
-    "ref": "tel-055-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-055-av2.jpg"
-  },
-  {
-    "id": "tel-056-inc",
-    "title": "Telefónica - Turma da Mônica - card nº 37653",
-    "ref": "tel-056-inc",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-056-inc.jpg"
-  },
-  {
-    "id": "tel-057-av2",
-    "title": "Telefónica - Festa Junina 2001 - card nº 2",
-    "ref": "tel-057-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-057-av2.jpg"
-  },
-  {
-    "id": "tel-057-av3",
-    "title": "Telefónica - Festa Junina 2001 - card nº 3",
-    "ref": "tel-057-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-057-av3.jpg"
-  },
-  {
-    "id": "tel-057-av4",
-    "title": "Telefónica - Festa Junina 2001 - card nº 4",
-    "ref": "tel-057-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-057-av4.jpg"
-  },
-  {
-    "id": "tel-058-av23",
-    "title": "Telefónica - Esportes Olímpicos - card nº 23",
-    "ref": "tel-058-av23",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-058-av23.jpg"
-  },
-  {
-    "id": "tel-059-av2",
-    "title": "Telefónica - Natal 2002 - card nº 2+brinde",
-    "ref": "tel-059-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-059-av2.jpg"
-  },
-  {
-    "id": "tel-060-av2",
-    "title": "Telefónica - Comidas Típicas - card nº 2",
-    "ref": "tel-060-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-060-av2.jpg"
-  },
-  {
-    "id": "tel-061-av1",
-    "title": "Telefónica - Dia das Crianças - card nº 1",
-    "ref": "tel-061-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-061-av1.jpg"
-  },
-  {
-    "id": "tel-061-av3",
-    "title": "Telefónica - Dia das Crianças - card nº 3",
-    "ref": "tel-061-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-061-av3.jpg"
-  },
-  {
-    "id": "tel-061-av4",
-    "title": "Telefónica - Dia das Crianças - card nº 4",
-    "ref": "tel-061-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-061-av4.jpg"
-  },
-  {
-    "id": "tel-062-inc",
-    "title": "Telefónica - Verão 2001 - card nº 2,3,4,5",
-    "ref": "tel-062-inc",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-062-inc.jpg"
-  },
-  {
-    "id": "tel-063-av1",
-    "title": "Telefónica - Carnaval 2002 - card nº 1",
-    "ref": "tel-063-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-063-av1.jpg"
-  },
-  {
-    "id": "tel-064-c",
-    "title": "Série - Telefónica - Datas Comemorativas (Completa)",
-    "ref": "tel-064-c",
-    "operator": "Telefónica",
-    "price": 11,
-    "image": "tel-064-c.jpg"
-  },
-  {
-    "id": "tel-064-av1",
-    "title": "Telefónica - Datas Comemorativas - card nº 1",
-    "ref": "tel-064-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-064-av1.jpg"
-  },
-  {
-    "id": "tel-065-inc",
-    "title": "Telefónica - Vitalidade - card nº 38384",
-    "ref": "tel-065-inc",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-065-inc.jpg"
-  },
-  {
-    "id": "tel-066-av1",
-    "title": "Telefónica - Voluntários do Brasil - card nº 1 - Capa",
-    "ref": "tel-066-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-066-av1.jpg"
-  },
-  {
-    "id": "tel-066-av2",
-    "title": "Telefónica - Voluntários do Brasil - card nº 2",
-    "ref": "tel-066-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-066-av2.jpg"
-  },
-  {
-    "id": "tel-066-av3",
-    "title": "Telefónica - Voluntários do Brasil - card nº 3",
-    "ref": "tel-066-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-066-av3.jpg"
-  },
-  {
-    "id": "tel-066-av4",
-    "title": "Telefónica - Voluntários do Brasil - card nº 4",
-    "ref": "tel-066-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-066-av4.jpg"
-  },
-  {
-    "id": "tel-066-av5",
-    "title": "Telefónica - Voluntários do Brasil - card nº 5",
-    "ref": "tel-066-av5",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-066-av5.jpg"
-  },
-  {
-    "id": "tel-067-av1",
-    "title": "Telefónica - Praças e Parques - card nº 1 - Praça da Sé",
-    "ref": "tel-067-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-067-av1.jpg"
-  },
-  {
-    "id": "tel-067-av2",
-    "title": "Telefónica - Praças e Parques - card nº 2",
-    "ref": "tel-067-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-067-av2.jpg"
-  },
-  {
-    "id": "tel-067-av3",
-    "title": "Telefónica - Praças e Parques - card nº 3",
-    "ref": "tel-067-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-067-av3.jpg"
-  },
-  {
-    "id": "tel-067-av4",
-    "title": "Telefónica - Praças e Parques - card nº 4",
-    "ref": "tel-067-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-067-av4.jpg"
-  },
-  {
-    "id": "tel-068-av5",
-    "title": "Telefónica - Praças e Parques - card nº 5",
-    "ref": "tel-068-av5",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-068-av5.jpg"
-  },
-  {
-    "id": "tel-069-av1",
-    "title": "Telefónica - Cavalos - card nº 1 - Árabe",
-    "ref": "tel-069-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-069-av1.jpg"
-  },
-  {
-    "id": "tel-069-av2",
-    "title": "Telefónica - Cavalos - card nº 2 - Mangalarga",
-    "ref": "tel-069-av2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-069-av2.jpg"
-  },
-  {
-    "id": "tel-069-av3",
-    "title": "Telefónica - Cavalos - card nº 3 - Paulista",
-    "ref": "tel-069-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-069-av3.jpg"
-  },
-  {
-    "id": "tel-069-av4",
-    "title": "Telefónica - Cavalos - card nº 4 - Andaluz",
-    "ref": "tel-069-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-069-av4.jpg"
-  },
-  {
-    "id": "tel-070-c",
-    "title": "Série - Telefónica - Terra (Completa)",
-    "ref": "tel-070-c",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-070-c.jpg"
-  },
-  {
-    "id": "tel-071-inc1",
-    "title": "Telefónica - Animais Silvestres - card nº faltam 7,8,18",
-    "ref": "tel-071-inc1",
-    "operator": "Telefónica",
-    "price": 22,
-    "image": "tel-071-inc1.jpg"
-  },
-  {
-    "id": "tel-071-inc2",
-    "title": "Telefónica - Animais Silvestres - card nº 13,19,21,22,23,25",
-    "ref": "tel-071-inc2",
-    "operator": "Telefónica",
-    "price": 5,
-    "image": "tel-071-inc2.jpg"
-  },
-  {
-    "id": "tel-071-inc3",
-    "title": "Telefónica - Animais Silvestres - card nº 5,8,16,21,22",
-    "ref": "tel-071-inc3",
-    "operator": "Telefónica",
-    "price": 4,
-    "image": "tel-071-inc3.jpg"
-  },
-  {
-    "id": "tel-072-inc",
-    "title": "Telefónica - Serviços Telefónica - card nº 37653",
-    "ref": "tel-072-inc",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-072-inc.jpg"
-  },
-  {
-    "id": "tel-073-av1",
-    "title": "Telefónica - Animais Selvagens - card nº 1",
-    "ref": "tel-073-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-073-av1.jpg"
-  },
-  {
-    "id": "tel-074-av1",
-    "title": "Telefónica - Dia Vovó - card nº 1 - Doce favorito",
-    "ref": "tel-074-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-074-av1.jpg"
-  },
-  {
-    "id": "tel-074-av3",
-    "title": "Telefónica - Dia Vovó - card nº 3 - Ver TV",
-    "ref": "tel-074-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-074-av3.jpg"
-  },
-  {
-    "id": "tel-075-c",
-    "title": "Série - Telefónica - SARP-DEC 90 (Completa)",
-    "ref": "tel-075-c",
-    "operator": "Telefónica",
-    "price": 11,
-    "image": "tel-075-c.jpg"
-  },
-  {
-    "id": "tel-075-inc",
-    "title": "Telefónica - SARP-DEC 80 - card nº 0,1,2,3,4,5,7,8,9",
-    "ref": "tel-075-inc",
-    "operator": "Telefónica",
-    "price": 8,
-    "image": "tel-075-inc.jpg"
-  },
-  {
-    "id": "tel-075-capa",
-    "title": "Telefónica - SARP-CAPA",
-    "ref": "tel-075-capa",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-075-capa.jpg"
-  },
-  {
-    "id": "tel-075-1975",
-    "title": "Telefónica - SARP-1975",
-    "ref": "tel-075-1975",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-075-1975.jpg"
-  },
-  {
-    "id": "tel-075-1978",
-    "title": "Telefónica - SARP-1978",
-    "ref": "tel-075-1978",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-075-1978.jpg"
-  },
-  {
-    "id": "tel-075-1979",
-    "title": "Telefónica - SARP-1979",
-    "ref": "tel-075-1979",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-075-1979.jpg"
-  },
-  {
-    "id": "tel-075-1982",
-    "title": "Telefónica - SARP-1982",
-    "ref": "tel-075-1982",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-075-1982.jpg"
-  },
-  {
-    "id": "tel-075-1994",
-    "title": "Telefónica - SARP-1994",
-    "ref": "tel-075-1994",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-075-1994.jpg"
-  },
-  {
-    "id": "tel-075-1999",
-    "title": "Telefónica - SARP-1999",
-    "ref": "tel-075-1999",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-075-1999.jpg"
-  },
-  {
-    "id": "tel-075-2000",
-    "title": "Telefónica - SARP-2000",
-    "ref": "tel-075-2000",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-075-2000.jpg"
-  },
-  {
-    "id": "tel-076-av1",
-    "title": "Telefónica - Dia do Telefone - card nº 1 - Magneto",
-    "ref": "tel-076-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-076-av1.jpg"
-  },
-  {
-    "id": "tel-076-av3",
-    "title": "Telefónica - Dia do Telefone - card nº 3 - Grahan Bell",
-    "ref": "tel-076-av3",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-076-av3.jpg"
-  },
-  {
-    "id": "tel-076-av4",
-    "title": "Telefónica - Dia do Telefone - card nº 4 - Telefone 1888",
-    "ref": "tel-076-av4",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-076-av4.jpg"
-  },
-  {
-    "id": "tel-076-av5",
-    "title": "Telefónica - Dia do Telefone - card nº 5 - Pé de Ferro",
-    "ref": "tel-076-av5",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-076-av5.jpg"
-  },
-  {
-    "id": "tel-076-av6",
-    "title": "Telefónica - Dia do Telefone - card nº 6 - Berliner",
-    "ref": "tel-076-av6",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-076-av6.jpg"
-  },
-  {
-    "id": "tel-076-av8",
-    "title": "Telefónica - Dia do Telefone - card nº 8 - Castiçal",
-    "ref": "tel-076-av8",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-076-av8.jpg"
-  },
-  {
-    "id": "tel-076-av9",
-    "title": "Telefónica - Dia do Telefone - card nº 9 - Capelinha",
-    "ref": "tel-076-av9",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-076-av9.jpg"
-  },
-  {
-    "id": "tel-077-c",
-    "title": "Série - Telefónica - Comemorações (Completa)",
-    "ref": "tel-077-c",
-    "operator": "Telefónica",
-    "price": 12,
-    "image": "tel-077-c.jpg"
-  },
-  {
-    "id": "tel-077-av1",
-    "title": "Telefónica - Comemorações - card nº 1 - Brasil 500 anos",
-    "ref": "tel-077-av1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-077-av1.jpg"
-  },
-  {
-    "id": "tel-078-marles",
-    "title": "Telefónica - ART-MARLES - card nº 1",
-    "ref": "tel-078-marles",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-marles.jpg"
-  },
-  {
-    "id": "tel-078-mparra",
-    "title": "Telefónica - ART-M.PARRA - card nº 1",
-    "ref": "tel-078-mparra",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-mparra.jpg"
-  },
-  {
-    "id": "tel-078-iraci",
-    "title": "Telefónica - ART-IRACI - card nº 1",
-    "ref": "tel-078-iraci",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-iraci.jpg"
-  },
-  {
-    "id": "tel-078-lucas",
-    "title": "Telefónica - ART-LUCAS - card nº 1",
-    "ref": "tel-078-lucas",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-lucas.jpg"
-  },
-  {
-    "id": "tel-078-sarro12",
-    "title": "Telefónica - ART-SARRO - card nº 12",
-    "ref": "tel-078-sarro12",
-    "operator": "Telefónica",
-    "price": 11,
-    "image": "tel-078-sarro12.jpg"
-  },
-  {
-    "id": "tel-078-sarro2",
-    "title": "Telefónica - ART-SARRO - card nº 2",
-    "ref": "tel-078-sarro2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-sarro2.jpg"
-  },
-  {
-    "id": "tel-078-bycouto4",
-    "title": "Telefónica - ART-B.Y COUTO - card nº 4",
-    "ref": "tel-078-bycouto4",
-    "operator": "Telefónica",
-    "price": 3,
-    "image": "tel-078-bycouto4.jpg"
-  },
-  {
-    "id": "tel-078-bycouto1",
-    "title": "Telefónica - ART-B.Y COUTO - card nº 1",
-    "ref": "tel-078-bycouto1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-bycouto1.jpg"
-  },
-  {
-    "id": "tel-078-achilles6",
-    "title": "Telefónica - ART-ACHILLES - card nº 6",
-    "ref": "tel-078-achilles6",
-    "operator": "Telefónica",
-    "price": 5,
-    "image": "tel-078-achilles6.jpg"
-  },
-  {
-    "id": "tel-078-achilles2",
-    "title": "Telefónica - ART-ACHILLES - card nº 2",
-    "ref": "tel-078-achilles2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-achilles2.jpg"
-  },
-  {
-    "id": "tel-078-ferracioli5",
-    "title": "Telefónica - ART-FERRACIOLI - card nº 5",
-    "ref": "tel-078-ferracioli5",
-    "operator": "Telefónica",
-    "price": 4,
-    "image": "tel-078-ferracioli5.jpg"
-  },
-  {
-    "id": "tel-078-ferracioli1",
-    "title": "Telefónica - ART-FERRACIOLI - card nº 1",
-    "ref": "tel-078-ferracioli1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-ferracioli1.jpg"
-  },
-  {
-    "id": "tel-078-ferracioli2",
-    "title": "Telefónica - ART-FERRACIOLI - card nº 2",
-    "ref": "tel-078-ferracioli2",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-ferracioli2.jpg"
-  },
-  {
-    "id": "tel-078-vergamini2",
-    "title": "Telefónica - ART-VERGAMINI - card nº 2",
-    "ref": "tel-078-vergamini2",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-078-vergamini2.jpg"
-  },
-  {
-    "id": "tel-078-rosa2",
-    "title": "Telefónica - ART-ROSA - card nº 2",
-    "ref": "tel-078-rosa2",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-078-rosa2.jpg"
-  },
-  {
-    "id": "tel-078-destesteves5",
-    "title": "Telefónica - ART-D.ESTEVES - card nº 5",
-    "ref": "tel-078-destesteves5",
-    "operator": "Telefónica",
-    "price": 4,
-    "image": "tel-078-destesteves5.jpg"
-  },
-  {
-    "id": "tel-078-dollinda1",
-    "title": "Telefónica - ART-D.OLLINDA - card nº 1",
-    "ref": "tel-078-dollinda1",
-    "operator": "Telefónica",
-    "price": 1,
-    "image": "tel-078-dollinda1.jpg"
-  },
-  {
-    "id": "tel-078-chiaz2",
-    "title": "Telefónica - ART-CHIAZ - card nº 2",
-    "ref": "tel-078-chiaz2",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-078-chiaz2.jpg"
-  },
-  {
-    "id": "tel-078-tpasso2",
-    "title": "Telefónica - ART-T.PASSO - card nº 2",
-    "ref": "tel-078-tpasso2",
-    "operator": "Telefónica",
-    "price": 2,
-    "image": "tel-078-tpasso2.jpg"
-  },
-  {
-    id: "tel-078-astein1",
-    title: "Telefónica - ART-A.STEIN - card nº 1",
-    ref: "tel-078-astein1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-astein1.jpg"
-  },
-  {
-    id: "tel-078-tbentati1",
-    title: "Telefónica - ART-T.BENTATI - card nº 1",
-    ref: "tel-078-tbentati1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-tbentati1.jpg"
-  },
-  {
-    id: "tel-078-vweingrill5",
-    title: "Telefónica - ART-V.WEINGRILL - card nº 5",
-    ref: "tel-078-vweingrill5",
-    operator: "Telefónica",
-    price: 4,
-    image: "tel-078-vweingrill5.jpg"
-  },
-  {
-    id: "tel-078-vweingrill3",
-    title: "Telefónica - ART-V.WEINGRILL - card nº 3",
-    ref: "tel-078-vweingrill3",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-078-vweingrill3.jpg"
-  },
-  {
-    id: "tel-078-bdias5",
-    title: "Telefónica - ART-B.DIAS - card nº 5",
-    ref: "tel-078-bdias5",
-    operator: "Telefónica",
-    price: 5,
-    image: "tel-078-bdias5.jpg"
-  },
-  {
-    id: "tel-078-bdias2",
-    title: "Telefónica - ART-B.DIAS - card nº 2",
-    ref: "tel-078-bdias2",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-078-bdias2.jpg"
-  },
-  {
-    id: "tel-078-mariom1",
-    title: "Telefónica - ART-MARIO M (110 cards) - card nº 1",
-    ref: "tel-078-mariom1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-mariom1.jpg"
-  },
-  {
-    id: "tel-078-aurea5",
-    title: "Telefónica - ART-AUREA - card nº 5",
-    ref: "tel-078-aurea5",
-    operator: "Telefónica",
-    price: 5,
-    image: "tel-078-aurea5.jpg"
-  },
-  {
-    id: "tel-078-aurea1",
-    title: "Telefónica - ART-AUREA - card nº 1",
-    ref: "tel-078-aurea1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-aurea1.jpg"
-  },
-  {
-    id: "tel-078-stella2",
-    title: "Telefónica - ART-STELLA - card nº 2",
-    ref: "tel-078-stella2",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-078-stella2.jpg"
-  },
-  {
-    id: "tel-078-stella1",
-    title: "Telefónica - ART-STELLA - card nº 1",
-    ref: "tel-078-stella1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-stella1.jpg"
-  },
-  {
-    id: "tel-078-telsas2",
-    title: "Telefónica - ART-T.ELSAS - card nº 2",
-    ref: "tel-078-telsas2",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-078-telsas2.jpg"
-  },
-  {
-    id: "tel-078-yujia2",
-    title: "Telefónica - ART-YUJI A. - card nº 2",
-    ref: "tel-078-yujia2",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-078-yujia2.jpg"
-  },
-  {
-    id: "tel-078-yujia1",
-    title: "Telefónica - ART-YUJI A. - card nº 1",
-    ref: "tel-078-yujia1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-yujia1.jpg"
-  },
-  {
-    id: "tel-078-raoul1",
-    title: "Telefónica - ART-RAOUL - card nº 1",
-    ref: "tel-078-raoul1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-raoul1.jpg"
-  },
-  {
-    id: "tel-078-mbrito2",
-    title: "Telefónica - ART-M.BRITO - card nº 2",
-    ref: "tel-078-mbrito2",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-078-mbrito2.jpg"
-  },
-  {
-    id: "tel-078-mbrito1",
-    title: "Telefónica - ART-M.BRITO - card nº 1",
-    ref: "tel-078-mbrito1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-mbrito1.jpg"
-  },
-  {
-    id: "tel-078-nerival1",
-    title: "Telefónica - ART-NERIVAL - card nº 1",
-    ref: "tel-078-nerival1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-nerival1.jpg"
-  },
-  {
-    id: "tel-078-dvitor1",
-    title: "Telefónica - ART-D.VITOR - card nº 1",
-    ref: "tel-078-dvitor1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-dvitor1.jpg"
-  },
-  {
-    id: "tel-078-jnegreiros3",
-    title: "Telefónica - ART-J.NEGREIROS - card nº 3",
-    ref: "tel-078-jnegreiros3",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-078-jnegreiros3.jpg"
-  },
-  {
-    id: "tel-078-mricardo2",
-    title: "Telefónica - ART-M.RICARDO - card nº 2",
-    ref: "tel-078-mricardo2",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-078-mricardo2.jpg"
-  },
-  {
-    id: "tel-078-belinha1",
-    title: "Telefónica - ART-BELINHA - card nº 1 - Arte Viva",
-    ref: "tel-078-belinha1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-belinha1.jpg"
-  },
-  {
-    id: "tel-078-belinha2",
-    title: "Telefónica - ART-BELINHA - card nº 2 - Paisagem Taipe",
-    ref: "tel-078-belinha2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-belinha2.jpg"
-  },
-  {
-    id: "tel-078-hideaki1",
-    title: "Telefónica - ART-HIDEAKI - card nº 1",
-    ref: "tel-078-hideaki1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-078-hideaki1.jpg"
-  },
-  {
-    id: "tel-080-c",
-    title: "Série - Telefónica - Telefone Público (Completa)",
-    ref: "tel-080-c",
-    operator: "Telefónica",
-    price: 13,
-    image: "tel-080-c.jpg"
-  },
-  {
-    id: "tel-080-av1",
-    title: "Telefónica - Telefone Público - card nº 1 - Dia dos Namorados",
-    ref: "tel-080-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-080-av1.jpg"
-  },
-  {
-    id: "tel-080-av2",
-    title: "Telefónica - Telefone Público - card nº 2 - Amigos do Peito",
-    ref: "tel-080-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-080-av2.jpg"
-  },
-  {
-    id: "tel-080-av3",
-    title: "Telefónica - Telefone Público - card nº 3 - Dia das Mães",
-    ref: "tel-080-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-080-av3.jpg"
-  },
-  {
-    id: "tel-081-av10",
-    title: "Telefónica - Esportes Náuticos - card nº 10 - Ski aquático",
-    ref: "tel-081-av10",
-    operator: "Telefónica",
-    price: 5,
-    image: "tel-081-av10.jpg"
-  },
-  {
-    id: "tel-081-av9",
-    title: "Telefónica - Esportes Náuticos - card nº 9 - Mergulho",
-    ref: "tel-081-av9",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-081-av9.jpg"
-  },
-  {
-    id: "tel-081-av8",
-    title: "Telefónica - Esportes Náuticos - card nº 8 - Calmaria",
-    ref: "tel-081-av8",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-081-av8.jpg"
-  },
-  {
-    id: "tel-081-av6",
-    title: "Telefónica - Esportes Náuticos - card nº 6 - Equipe",
-    ref: "tel-081-av6",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-081-av6.jpg"
-  },
-  {
-    id: "tel-081-av5",
-    title: "Telefónica - Esportes Náuticos - card nº 5 - Sem limites",
-    ref: "tel-081-av5",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-081-av5.jpg"
-  },
-  {
-    id: "tel-081-av2",
-    title: "Telefónica - Esportes Náuticos - card nº 2 - Adrenalina",
-    ref: "tel-081-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-081-av2.jpg"
-  },
-  {
-    id: "tel-082-av5",
-    title: "Telefónica - Homenagem a São Paulo - card nº 5",
-    ref: "tel-082-av5",
-    operator: "Telefónica",
-    price: 4,
-    image: "tel-082-av5.jpg"
-  },
-  {
-    id: "tel-082-inc3",
-    title: "Telefónica - Homenagem a São Paulo - card nº 3",
-    ref: "tel-082-inc3",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-082-inc3.jpg"
-  },
-  {
-    id: "tel-082-inc2",
-    title: "Telefónica - Homenagem a São Paulo - card nº 2",
-    ref: "tel-082-inc2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-082-inc2.jpg"
-  },
-  {
-    id: "tel-083-inc",
-    title: "Telefónica - Páscoa 2003 - card nº 1,2,3,6",
-    ref: "tel-083-inc",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-083-inc.jpg"
-  },
-  {
-    id: "tel-084-c",
-    title: "Série - Telefónica - Cachoeiras (Completa)",
-    ref: "tel-084-c",
-    operator: "Telefónica",
-    price: 14,
-    image: "tel-084-c.jpg"
-  },
-  {
-    id: "tel-084-av1",
-    title: "Telefónica - Cachoeiras - card nº 1 - Anjos e Arcanjos",
-    ref: "tel-084-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av1.jpg"
-  },
-  {
-    id: "tel-084-av2",
-    title: "Telefónica - Cachoeiras - card nº 2 - Pedras",
-    ref: "tel-084-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av2.jpg"
-  },
-  {
-    id: "tel-084-av3",
-    title: "Telefónica - Cachoeiras - card nº 3 - Rio do Peixe",
-    ref: "tel-084-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av3.jpg"
-  },
-  {
-    id: "tel-084-av4",
-    title: "Telefónica - Cachoeiras - card nº 4 - Bananal",
-    ref: "tel-084-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av4.jpg"
-  },
-  {
-    id: "tel-084-av5",
-    title: "Telefónica - Cachoeiras - card nº 5 - Batuque",
-    ref: "tel-084-av5",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av5.jpg"
-  },
-  {
-    id: "tel-084-av6",
-    title: "Telefónica - Cachoeiras - card nº 6 - Mimoso II",
-    ref: "tel-084-av6",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av6.jpg"
-  },
-  {
-    id: "tel-084-av7",
-    title: "Telefónica - Cachoeiras - card nº 7 - Assombrada",
-    ref: "tel-084-av7",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av7.jpg"
-  },
-  {
-    id: "tel-084-av8",
-    title: "Telefónica - Cachoeiras - card nº 8 - Garcia I",
-    ref: "tel-084-av8",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av8.jpg"
-  },
-  {
-    id: "tel-084-av9",
-    title: "Telefónica - Cachoeiras - card nº 9 - Garcia II",
-    ref: "tel-084-av9",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-084-av9.jpg"
-  },
-  {
-    id: "tel-085-c",
-    title: "Série - Telefónica - 1º Socorros (Completa)",
-    ref: "tel-085-c",
-    operator: "Telefónica",
-    price: 5,
-    image: "tel-085-c.jpg"
-  },
-  {
-    id: "tel-085-inc",
-    title: "Telefónica - 1º Socorros - card nº 1,3",
-    ref: "tel-085-inc",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-085-inc.jpg"
-  },
-  {
-    id: "tel-086-av1",
-    title: "Telefónica - Nestlé 1-10 - card nº 1",
-    ref: "tel-086-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av1.jpg"
-  },
-  {
-    id: "tel-086-av2",
-    title: "Telefónica - Nestlé 1-10 - card nº 2",
-    ref: "tel-086-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av2.jpg"
-  },
-  {
-    id: "tel-086-av5",
-    title: "Telefónica - Nestlé 1-10 - card nº 5",
-    ref: "tel-086-av5",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av5.jpg"
-  },
-  {
-    id: "tel-086-av7",
-    title: "Telefónica - Nestlé 1-10 - card nº 7",
-    ref: "tel-086-av7",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av7.jpg"
-  },
-  {
-    id: "tel-086-av9",
-    title: "Telefónica - Nestlé 1-10 - card nº 9",
-    ref: "tel-086-av9",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av9.jpg"
-  },
-  {
-    id: "tel-086-av13",
-    title: "Telefónica - Nestlé 11-20 - card nº 13",
-    ref: "tel-086-av13",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av13.jpg"
-  },
-  {
-    id: "tel-086-av14",
-    title: "Telefónica - Nestlé 11-20 - card nº 14",
-    ref: "tel-086-av14",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av14.jpg"
-  },
-  {
-    id: "tel-086-av15",
-    title: "Telefónica - Nestlé 11-20 - card nº 15",
-    ref: "tel-086-av15",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av15.jpg"
-  },
-  {
-    id: "tel-086-av16",
-    title: "Telefónica - Nestlé 11-20 - card nº 16",
-    ref: "tel-086-av16",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av16.jpg"
-  },
-  {
-    id: "tel-086-av17",
-    title: "Telefónica - Nestlé 11-20 - card nº 17",
-    ref: "tel-086-av17",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av17.jpg"
-  },
-  {
-    id: "tel-086-av18",
-    title: "Telefónica - Nestlé 11-20 - card nº 18",
-    ref: "tel-086-av18",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av18.jpg"
-  },
-  {
-    id: "tel-086-av20",
-    title: "Telefónica - Nestlé 11-20 - card nº 20",
-    ref: "tel-086-av20",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-086-av20.jpg"
-  },
-  {
-    id: "tel-087-inc",
-    title: "Telefónica - Ribeirinhos em Naif - card nº 2,3,4,5,6,7,8",
-    ref: "tel-087-inc",
-    operator: "Telefónica",
-    price: 6,
-    image: "tel-087-inc.jpg"
-  },
-  {
-    id: "tel-088-c",
-    title: "Série - Telefónica - Primavera (Completa)",
-    ref: "tel-088-c",
-    operator: "Telefónica",
-    price: 11,
-    image: "tel-088-c.jpg"
-  },
-  {
-    id: "tel-088-av1",
-    title: "Telefónica - Primavera - card nº 1",
-    ref: "tel-088-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-088-av1.jpg"
-  },
-  {
-    id: "tel-088-av3",
-    title: "Telefónica - Primavera - card nº 3",
-    ref: "tel-088-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-088-av3.jpg"
-  },
-  {
-    id: "tel-088-av5",
-    title: "Telefónica - Primavera - card nº 5",
-    ref: "tel-088-av5",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-088-av5.jpg"
-  },
-  {
-    id: "tel-088-av6",
-    title: "Telefónica - Primavera - card nº 6",
-    ref: "tel-088-av6",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-088-av6.jpg"
-  },
-  {
-    id: "tel-088-av7",
-    title: "Telefónica - Primavera - card nº 7",
-    ref: "tel-088-av7",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-088-av7.jpg"
-  },
-  {
-    id: "tel-088-av10",
-    title: "Telefónica - Primavera - card nº 10",
-    ref: "tel-088-av10",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-088-av10.jpg"
-  },
-  {
-    id: "tel-089-c",
-    title: "Série - Telefónica - EcoKids (Completa)",
-    ref: "tel-089-c",
-    operator: "Telefónica",
-    price: 6,
-    image: "tel-089-c.jpg"
-  },
-  {
-    id: "tel-089-av3",
-    title: "Telefónica - EcoKids - card nº 3 - Esporte, Cultura e Lazer",
-    ref: "tel-089-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-089-av3.jpg"
-  },
-  {
-    id: "tel-089-av4",
-    title: "Telefónica - EcoKids - card nº 4 - Esporte, Cultura e Lazer",
-    ref: "tel-089-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-089-av4.jpg"
-  },
-  {
-    id: "tel-090-inc",
-    title: "Telefónica - Dia das Mães - card nº 1,2,3,4,5",
-    ref: "tel-090-inc",
-    operator: "Telefónica",
-    price: 4,
-    image: "tel-090-inc.jpg"
-  },
-  {
-    id: "tel-091-av3",
-    title: "Telefónica - 1º Maio - card nº 3 - Posto de serviço",
-    ref: "tel-091-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-091-av3.jpg"
-  },
-  {
-    id: "tel-091-av5",
-    title: "Telefónica - 1º Maio - card nº 5 - Instalação de cabos",
-    ref: "tel-091-av5",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-091-av5.jpg"
-  },
-  {
-    id: "tel-091-av4",
-    title: "Telefónica - 1º Maio - card nº 4 - Linha interurbana",
-    ref: "tel-091-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-091-av4.jpg"
-  },
-  {
-    id: "tel-091-av7",
-    title: "Telefónica - 1º Maio - card nº 7 - CEOS",
-    ref: "tel-091-av7",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-091-av7.jpg"
-  },
-  {
-    id: "tel-092-inc",
-    title: "Telefónica - Praias Paulista - card nº 2",
-    ref: "tel-092-inc",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-092-inc.jpg"
-  },
-  {
-    id: "tel-093-inc",
-    title: "Telefónica - Dia do Síndico - card nº 1,2,3,4",
-    ref: "tel-093-inc",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-093-inc.jpg"
-  },
-  {
-    id: "tel-094-inc",
-    title: "Telefónica - Dia dos Namorados - card nº 40422",
-    ref: "tel-094-inc",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-094-inc.jpg"
-  },
-  {
-    id: "tel-095-inc",
-    title: "Telefónica - Vestibular - card nº 2,3,4,5",
-    ref: "tel-095-inc",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-095-inc.jpg"
-  },
-  {
-    id: "tel-096-inc",
-    title: "Telefónica - Álcool - card nº 1,3",
-    ref: "tel-096-inc",
-    operator: "Telefónica",
-    price: 2,
-    image: "tel-096-inc.jpg"
-  },
-  {
-    id: "tel-097-inc",
-    title: "Telefónica - Páscoa 2004 - card nº 1,2,5,6",
-    ref: "tel-097-inc",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-097-inc.jpg"
-  },
-  {
-    id: "tel-098-inc",
-    title: "Telefónica - Aves de Rapina - card nº 4",
-    ref: "tel-098-inc",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-098-inc.jpg"
-  },
-  {
-    id: "tel-099-c",
-    title: "Série - Telefónica - Dia do Repórter 2002 (Completa)",
-    ref: "tel-099-c",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-099-c.jpg"
-  },
-  {
-    id: "tel-100-inc",
-    title: "Telefónica - Fórmula 1 2001 - card nº 2",
-    ref: "tel-100-inc",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-100-inc.jpg"
-  },
-  {
-    id: "tel-101-inc",
-    title: "Telefónica - Artes Plásticas - card nº 40271",
-    ref: "tel-101-inc",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-101-inc.jpg"
-  },
-  {
-    id: "tel-101-av04",
-    title: "Telefónica - Artes Plásticas - card nº 4",
-    ref: "tel-101-av04",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-101-av04.jpg"
-  },
-  {
-    id: "tel-102-av1",
-    title: "Telefónica - Rede Saci - card nº 1 - Apoio",
-    ref: "tel-102-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-102-av1.jpg"
-  },
-  {
-    id: "tel-102-av2",
-    title: "Telefónica - Rede Saci - card nº 2 - Solidariedade",
-    ref: "tel-102-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-102-av2.jpg"
-  },
-  {
-    id: "tel-102-av3",
-    title: "Telefónica - Rede Saci - card nº 3 - Informação",
-    ref: "tel-102-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-102-av3.jpg"
-  },
-  {
-    id: "tel-103-inc4",
-    title: "Telefónica - Empreendimentos - card nº 4",
-    ref: "tel-103-inc4",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-103-inc4.jpg"
-  },
-  {
-    id: "tel-103-inc2",
-    title: "Telefónica - Empreendimentos - card nº 2",
-    ref: "tel-103-inc2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-103-inc2.jpg"
-  },
-  {
-    id: "tel-104-av39",
-    title: "Telefónica - Países das Américas - card nº 39 - América Central",
-    ref: "tel-104-av39",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-104-av39.jpg"
-  },
-  {
-    id: "tel-104-av6",
-    title: "Telefónica - Países das Américas - card nº 6 - Paraguai",
-    ref: "tel-104-av6",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-104-av6.jpg"
-  },
-  {
-    id: "tel-104-av14",
-    title: "Telefónica - Países das Américas - card nº 14 - Panamá",
-    ref: "tel-104-av14",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-104-av14.jpg"
-  },
-  {
-    id: "tel-104-av16",
-    title: "Telefónica - Países das Américas - card nº 16 - Nicarágua",
-    ref: "tel-104-av16",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-104-av16.jpg"
-  },
-  {
-    id: "tel-104-av5",
-    title: "Telefónica - Países das Américas - card nº 5 - Bolívia",
-    ref: "tel-104-av5",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-104-av5.jpg"
-  },
-  {
-    id: "tel-104-av2",
-    title: "Telefónica - Países das Américas - card nº 2 - Chile",
-    ref: "tel-104-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-104-av2.jpg"
-  },
-  {
-    id: "tel-105-c",
-    title: "Série - Telefónica - Remédios (Completa)",
-    ref: "tel-105-c",
-    operator: "Telefónica",
-    price: 5,
-    image: "tel-105-c.jpg"
-  },
-  {
-    id: "tel-106-c",
-    title: "Série - Telefónica - Verticais (Completa)",
-    ref: "tel-106-c",
-    operator: "Telefónica",
-    price: 5,
-    image: "tel-106-c.jpg"
-  },
-  {
-    id: "tel-107-av10",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 10 - Rodrigo",
-    ref: "tel-107-av10",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av10.jpg"
-  },
-  {
-    id: "tel-107-av9",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 9 - Joaquim",
-    ref: "tel-107-av9",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av9.jpg"
-  },
-  {
-    id: "tel-107-av8",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 8 - Sílvia",
-    ref: "tel-107-av8",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av8.jpg"
-  },
-  {
-    id: "tel-107-av7",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 7 - Ana Rita",
-    ref: "tel-107-av7",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av7.jpg"
-  },
-  {
-    id: "tel-107-av5",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 5 - Maria Luiza",
-    ref: "tel-107-av5",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av5.jpg"
-  },
-  {
-    id: "tel-107-av4",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 4 - Lilia",
-    ref: "tel-107-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av4.jpg"
-  },
-  {
-    id: "tel-107-av3",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 3 - Bruno",
-    ref: "tel-107-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av3.jpg"
-  },
-  {
-    id: "tel-107-av2",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 2 - Cássia",
-    ref: "tel-107-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av2.jpg"
-  },
-  {
-    id: "tel-107-av1",
-    title: "Telefónica - Crianças Projeto Carmim - card nº 1 - Viviane",
-    ref: "tel-107-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-107-av1.jpg"
-  },
-  {
-    id: "tel-108-freddy",
-    title: "Telefónica - Capa - Freddy x Jason",
-    ref: "tel-108-freddy",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-freddy.jpg"
-  },
-  {
-    id: "tel-108-comadres",
-    title: "Telefónica - Capa - As alegres comadres",
-    ref: "tel-108-comadres",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-comadres.jpg"
-  },
-  {
-    id: "tel-108-reencarnacao",
-    title: "Telefónica - Capa - Reencarnação",
-    ref: "tel-108-reencarnacao",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-reencarnacao.jpg"
-  },
-  {
-    id: "tel-108-looney",
-    title: "Telefónica - Capa - Looney Tunes",
-    ref: "tel-108-looney",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-looney.jpg"
-  },
-  {
-    id: "tel-108-debi",
-    title: "Telefónica - Capa - Debi e Loide",
-    ref: "tel-108-debi",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-debi.jpg"
-  },
-  {
-    id: "tel-108-risco1",
-    title: "Telefónica - Capa - Profissão de Risco (I)",
-    ref: "tel-108-risco1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-risco1.jpg"
-  },
-  {
-    id: "tel-108-duende",
-    title: "Telefónica - Capa - Um Duende em NY",
-    ref: "tel-108-duende",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-duende.jpg"
-  },
-  {
-    id: "tel-108-leis",
-    title: "Telefónica - Capa - Leis da Atração",
-    ref: "tel-108-leis",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-leis.jpg"
-  },
-  {
-    id: "tel-108-enviado",
-    title: "Telefónica - Capa - O Enviado",
-    ref: "tel-108-enviado",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-enviado.jpg"
-  },
-  {
-    id: "tel-108-ripley",
-    title: "Telefónica - Capa - O Retorno do Talentoso Ripley",
-    ref: "tel-108-ripley",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-ripley.jpg"
-  },
-  {
-    id: "tel-108-vingador",
-    title: "Telefónica - Capa - O Vingador",
-    ref: "tel-108-vingador",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-vingador.jpg"
-  },
-  {
-    id: "tel-108-ricos",
-    title: "Telefónica - Capa - Ricos, Bonitos e Infiéis",
-    ref: "tel-108-ricos",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-ricos.jpg"
-  },
-  {
-    id: "tel-108-risco2",
-    title: "Telefónica - Capa - Profissão de Risco (II)",
-    ref: "tel-108-risco2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-risco2.jpg"
-  },
-  {
-    id: "tel-108-anel1",
-    title: "Telefónica - Capa - A sociedade do anel (I)",
-    ref: "tel-108-anel1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-anel1.jpg"
-  },
-  {
-    id: "tel-108-anel2",
-    title: "Telefónica - Capa - A sociedade do anel (II)",
-    ref: "tel-108-anel2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-anel2.jpg"
-  },
-  {
-    id: "tel-108-anel4",
-    title: "Telefónica - A Sociedade do Anel - card nº 4",
-    ref: "tel-108-anel4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-anel4.jpg"
-  },
-  {
-    id: "tel-108-gandalf",
-    title: "Telefónica - A Sociedade do Anel - Gandalf",
-    ref: "tel-108-gandalf",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-gandalf.jpg"
-  },
-  {
-    id: "tel-108-aragorn",
-    title: "Telefónica - A Sociedade do Anel - Aragorn",
-    ref: "tel-108-aragorn",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-aragorn.jpg"
-  },
-  {
-    id: "tel-108-arwen",
-    title: "Telefónica - A Sociedade do Anel - Arwen",
-    ref: "tel-108-arwen",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-arwen.jpg"
-  },
-  {
-    id: "tel-108-boromir",
-    title: "Telefónica - A Sociedade do Anel - Boromir",
-    ref: "tel-108-boromir",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-boromir.jpg"
-  },
-  {
-    id: "tel-108-sam",
-    title: "Telefónica - O Senhor dos Anéis - card nº 8 - Sam",
-    ref: "tel-108-sam",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-sam.jpg"
-  },
-  {
-    id: "tel-108-batman",
-    title: "Telefónica - Capa - Batman",
-    ref: "tel-108-batman",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-batman.jpg"
-  },
-  {
-    id: "tel-108-batman8",
-    title: "Telefónica - Batman Begins - card nº 8",
-    ref: "tel-108-batman8",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-batman8.jpg"
-  },
-  {
-    id: "tel-108-batman3",
-    title: "Telefónica - Batman Begins - card nº 3",
-    ref: "tel-108-batman3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-batman3.jpg"
-  },
-  {
-    id: "tel-108-batman2",
-    title: "Telefónica - Batman Begins - card nº 2",
-    ref: "tel-108-batman2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-108-batman2.jpg"
-  },
-  {
-    id: "tel-109-av2",
-    title: "Telefónica - Curiosidades dos Mundiais - card nº 2",
-    ref: "tel-109-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-109-av2.jpg"
-  },
-  {
-    id: "tel-109-av3",
-    title: "Telefónica - Curiosidades dos Mundiais - card nº 3",
-    ref: "tel-109-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-109-av3.jpg"
-  },
-  {
-    id: "tel-109-av4",
-    title: "Telefónica - Curiosidades dos Mundiais - card nº 4",
-    ref: "tel-109-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-109-av4.jpg"
-  },
-  {
-    id: "tel-110-av4",
-    title: "Telefónica - História Olimpíadas - card nº 4",
-    ref: "tel-110-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-110-av4.jpg"
-  },
-  {
-    id: "tel-111-av8",
-    title: "Telefónica - O Senhor dos Anéis - card nº 8 - Sam (A Sociedade)",
-    ref: "tel-111-av8",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-111-av8.jpg"
-  },
-  {
-    id: "tel-112-av4",
-    title: "Telefónica - O Senhor dos Anéis - card nº 4 - Capa: A trilogia",
-    ref: "tel-112-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-112-av4.jpg"
-  },
-  {
-    id: "tel-113-av1",
-    title: "Telefónica - Alien x Predador - card nº 1",
-    ref: "tel-113-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-113-av1.jpg"
-  },
-  {
-    id: "tel-114-av4",
-    title: "Telefónica - Dia do Vestibulando - card nº 4",
-    ref: "tel-114-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-114-av4.jpg"
-  },
-  {
-    id: "tel-115-av1",
-    title: "Telefónica - Animais Polares - card nº 1 - Leão marinho",
-    ref: "tel-115-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-115-av1.jpg"
-  },
-  {
-    id: "tel-116-av3",
-    title: "Telefónica - Natal 2000 - card nº 3 - Prenúncio",
-    ref: "tel-116-av3",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-116-av3.jpg"
-  },
-  {
-    id: "tel-117-av7",
-    title: "Telefónica - Solzinho Radical - card nº 7 - Skate",
-    ref: "tel-117-av7",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-117-av7.jpg"
-  },
-  {
-    id: "tel-118-av4",
-    title: "Telefónica - Dia Internacional do Circo - card nº 4",
-    ref: "tel-118-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-118-av4.jpg"
-  },
-  {
-    id: "tel-119-av4",
-    title: "Telefónica - Halloween - card nº 4 - Dia das Bruxas",
-    ref: "tel-119-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-119-av4.jpg"
-  },
-  {
-    id: "tel-120-av8",
-    title: "Telefónica - Radiografias de SP - card nº 8 - Praça da Sé",
-    ref: "tel-120-av8",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-120-av8.jpg"
-  },
-  {
-    id: "tel-121-av1",
-    title: "Telefónica - Criança Esperança - card nº 1",
-    ref: "tel-121-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-121-av1.jpg"
-  },
-  {
-    id: "tel-122-av1",
-    title: "Telefónica - Fundação Telefónica - card nº 1 - ECA",
-    ref: "tel-122-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-122-av1.jpg"
-  },
-  {
-    id: "tel-123-c",
-    title: "Série - Telefónica - Detecta (Completa)",
-    ref: "tel-123-c",
-    operator: "Telefónica",
-    price: 3,
-    image: "tel-123-c.jpg"
-  },
-  {
-    id: "tel-124-c",
-    title: "Série - Telefónica - Envelopes (Completa)",
-    ref: "tel-124-c",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-124-c.jpg"
-  },
-  {
-    id: "tel-125-av2",
-    title: "Telefónica - Dia dos Pais - card nº 2 - Cartão verde",
-    ref: "tel-125-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-125-av2.jpg"
-  },
-  {
-    id: "tel-125-av4",
-    title: "Telefónica - Dia dos Pais - card nº 4 - Cartão amarelo",
-    ref: "tel-125-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-125-av4.jpg"
-  },
-  {
-    id: "tel-126-av2",
-    title: "Telefónica - Orelhão Amigo - card nº 2 - Cadeirante",
-    ref: "tel-126-av2",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-126-av2.jpg"
-  },
-  {
-    id: "tel-126-av6",
-    title: "Telefónica - Orelhão Amigo - card nº 6 - Garotinha",
-    ref: "tel-126-av6",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-126-av6.jpg"
-  },
-  {
-    id: "tel-127-av1",
-    title: "Telefónica - Telefónica Open Air - card nº 1",
-    ref: "tel-127-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-127-av1.jpg"
-  },
-  {
-    id: "tel-128-av1",
-    title: "Telefónica - Mídia em Cartão - card nº 1",
-    ref: "tel-128-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-128-av1.jpg"
-  },
-  {
-    id: "tel-129-av4",
-    title: "Telefónica - L.E. Família - card nº 4",
-    ref: "tel-129-av4",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-129-av4.jpg"
-  },
-  {
-    id: "tel-130-av6",
-    title: "Telefónica - Telefónica 15 - card nº 6 - Brasília x Londres",
-    ref: "tel-130-av6",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-130-av6.jpg"
-  },
-  {
-    id: "tel-131-c",
-    title: "Série - Telefónica - Guia Mais (Completa)",
-    ref: "tel-131-c",
-    operator: "Telefónica",
-    price: 4,
-    image: "tel-131-c.jpg"
-  },
-  {
-    id: "tel-131-av1",
-    title: "Telefónica - Guia Mais - card nº 1",
-    ref: "tel-131-av1",
-    operator: "Telefónica",
-    price: 1,
-    image: "tel-131-av1.jpg"
-  }
+
+{"id": "001-TEL-CMG-AV03", "title": "Cartões (001-TEL-CMG-AV03) Telefónica-Série Cidades Hist. MG (10 cards): INCOMPL.: 1 card", "ref": "001-TEL-CMG-AV03", "operator": "Telefónica", "price": 1, "image": "001-TEL-CMG-AV03.jpg"},
+
+{"id": "001-TEL-CMG-AV04", "title": "Cartões (001-TEL-CMG-AV04) Telefónica-Série Cidades Hist. MG (10 cards): INCOMPL.: 1 card", "ref": "001-TEL-CMG-AV04", "operator": "Telefónica", "price": 1, "image": "001-TEL-CMG-AV04.jpg"},
+
+{"id": "001-TEL-CMG-AV05", "title": "Cartões (001-TEL-CMG-AV05) Telefónica-Série Cidades Hist. MG (10 cards): INCOMPL.: 1 card", "ref": "001-TEL-CMG-AV05", "operator": "Telefónica", "price": 1, "image": "001-TEL-CMG-AV05.jpg"},
+
+{"id": "001-TEL-CMG-AV06", "title": "Cartões (001-TEL-CMG-AV06) Telefónica-Série Cidades Hist. MG (10 cards): INCOMPL.: 1 card", "ref": "001-TEL-CMG-AV06", "operator": "Telefónica", "price": 1, "image": "001-TEL-CMG-AV06.jpg"},
+
+{"id": "001-TEL-CMG-AV07", "title": "Cartões (001-TEL-CMG-AV07) Telefónica-Série Cidades Hist. MG (10 cards): INCOMPL.: 1 card", "ref": "001-TEL-CMG-AV07", "operator": "Telefónica", "price": 1, "image": "001-TEL-CMG-AV07.jpg"},
+
+{"id": "001-TEL-CMG-AV09", "title": "Cartões (001-TEL-CMG-AV09) Telefónica-Série Cidades Hist. MG (10 cards): INCOMPL.: 1 card", "ref": "001-TEL-CMG-AV09", "operator": "Telefónica", "price": 1, "image": "001-TEL-CMG-AV09.jpg"},
+
+{"id": "001-TEL-CMG-AV10", "title": "Cartões (001-TEL-CMG-AV10) Telefónica-Série Cidades Hist. MG (10 cards): INCOMPL.: 1 card", "ref": "001-TEL-CMG-AV10", "operator": "Telefónica", "price": 1, "image": "001-TEL-CMG-AV10.jpg"},
+
+{"id": "002-TEL-AVE-C", "title": "Cartões (002-TEL-AVE-C) Telefónica-Série Aves do Brasil (7 cards): COMPLETA: 7 card", "ref": "002-TEL-AVE-C", "operator": "Telefónica", "price": 8, "image": "002-TEL-AVE-C.jpg"},
+
+{"id": "003-TEL-ANV-AV01", "title": "Cartões (003-TEL-ANV-AV01) Telefónica-Série Ano Novo 2001 (4 cards): INCOMPL.: 1 card", "ref": "003-TEL-ANV-AV01", "operator": "Telefónica", "price": 1, "image": "003-TEL-ANV-AV01.jpg"},
+
+{"id": "003-TEL-ANV-AV02", "title": "Cartões (003-TEL-ANV-AV02) Telefónica-Série Ano Novo 2001 (4 cards): INCOMPL.: 1 card", "ref": "003-TEL-ANV-AV02", "operator": "Telefónica", "price": 1, "image": "003-TEL-ANV-AV02.jpg"},
+
+{"id": "003-TEL-ANV-AV03", "title": "Cartões (003-TEL-ANV-AV03) Telefónica-Série Ano Novo 2001 (4 cards): INCOMPL.: 1 card", "ref": "003-TEL-ANV-AV03", "operator": "Telefónica", "price": 1, "image": "003-TEL-ANV-AV03.jpg"},
+
+{"id": "004-TEL-FRU-C", "title": "Cartões (004-TEL-FRU-C) Telefónica-Série Alimentos - Frutas (5 cards): COMPLETA: 5 card", "ref": "004-TEL-FRU-C", "operator": "Telefónica", "price": 6, "image": "004-TEL-FRU-C.jpg"},
+
+{"id": "004-TEL-FRU-AV01", "title": "Cartões (004-TEL-FRU-AV01) Telefónica-Série Alimentos - Frutas (5 cards): INCOMPL.: 1 card", "ref": "004-TEL-FRU-AV01", "operator": "Telefónica", "price": 1, "image": "004-TEL-FRU-AV01.jpg"},
+
+{"id": "005-TEL-TRA-AV02", "title": "Cartões (005-TEL-TRA-AV02) Telefónica-Série Transportes (10 cards): INCOMPL.: 1 card", "ref": "005-TEL-TRA-AV02", "operator": "Telefónica", "price": 1, "image": "005-TEL-TRA-AV02.jpg"},
+
+{"id": "005-TEL-TRA-AV03", "title": "Cartões (005-TEL-TRA-AV03) Telefónica-Série Transportes (10 cards): INCOMPL.: 1 card", "ref": "005-TEL-TRA-AV03", "operator": "Telefónica", "price": 1, "image": "005-TEL-TRA-AV03.jpg"},
+
+{"id": "005-TEL-TRA-AV06", "title": "Cartões (005-TEL-TRA-AV06) Telefónica-Série Transportes (10 cards): INCOMPL.: 1 card", "ref": "005-TEL-TRA-AV06", "operator": "Telefónica", "price": 1, "image": "005-TEL-TRA-AV06.jpg"},
+
+{"id": "005-TEL-TRA-AV08", "title": "Cartões (005-TEL-TRA-AV08) Telefónica-Série Transportes (10 cards): INCOMPL.: 1 card", "ref": "005-TEL-TRA-AV08", "operator": "Telefónica", "price": 1, "image": "005-TEL-TRA-AV08.jpg"},
+
+{"id": "005-TEL-TRA-AV09", "title": "Cartões (005-TEL-TRA-AV09) Telefónica-Série Transportes (10 cards): INCOMPL.: 1 card", "ref": "005-TEL-TRA-AV09", "operator": "Telefónica", "price": 1, "image": "005-TEL-TRA-AV09.jpg"},
+
+{"id": "006-TEL-FOL-C", "title": "Cartões (006-TEL-FOL-C) Telefónica-Série Folclore (5 cards): COMPLETA: 5 card", "ref": "006-TEL-FOL-C", "operator": "Telefónica", "price": 6, "image": "006-TEL-FOL-C.jpg"},
+
+{"id": "006-TEL-FOL-AV01", "title": "Cartões (006-TEL-FOL-AV01) Telefónica-Série Folclore (5 cards): INCOMPL.: 1 card", "ref": "006-TEL-FOL-AV01", "operator": "Telefónica", "price": 1, "image": "006-TEL-FOL-AV01.jpg"},
+
+{"id": "006-TEL-FOL-AV02", "title": "Cartões (006-TEL-FOL-AV02) Telefónica-Série Folclore (5 cards): INCOMPL.: 1 card", "ref": "006-TEL-FOL-AV02", "operator": "Telefónica", "price": 1, "image": "006-TEL-FOL-AV02.jpg"},
+
+{"id": "006-TEL-FOL-AV03", "title": "Cartões (006-TEL-FOL-AV03) Telefónica-Série Folclore (5 cards): INCOMPL.: 1 card", "ref": "006-TEL-FOL-AV03", "operator": "Telefónica", "price": 1, "image": "006-TEL-FOL-AV03.jpg"},
+
+{"id": "006-TEL-FOL-AV04", "title": "Cartões (006-TEL-FOL-AV04) Telefónica-Série Folclore (5 cards): INCOMPL.: 1 card", "ref": "006-TEL-FOL-AV04", "operator": "Telefónica", "price": 1, "image": "006-TEL-FOL-AV04.jpg"},
+
+{"id": "007-TEL-IDO-AV01", "title": "Cartões (007-TEL-IDO-AV01) Telefónica-Série Respeito aos Idosos (6 cards): INCOMPL.: 1 card", "ref": "007-TEL-IDO-AV01", "operator": "Telefónica", "price": 1, "image": "007-TEL-IDO-AV01.jpg"},
+
+{"id": "007-TEL-IDO-AV02", "title": "Cartões (007-TEL-IDO-AV02) Telefónica-Série Respeito aos Idosos (6 cards): INCOMPL.: 1 card", "ref": "007-TEL-IDO-AV02", "operator": "Telefónica", "price": 1, "image": "007-TEL-IDO-AV02.jpg"},
+
+{"id": "007-TEL-IDO-AV03", "title": "Cartões (007-TEL-IDO-AV03) Telefónica-Série Respeito aos Idosos (6 cards): INCOMPL.: 1 card", "ref": "007-TEL-IDO-AV03", "operator": "Telefónica", "price": 1, "image": "007-TEL-IDO-AV03.jpg"},
+
+{"id": "007-TEL-IDO-AV04", "title": "Cartões (007-TEL-IDO-AV04) Telefónica-Série Respeito aos Idosos (6 cards): INCOMPL.: 1 card", "ref": "007-TEL-IDO-AV04", "operator": "Telefónica", "price": 1, "image": "007-TEL-IDO-AV04.jpg"},
+
+{"id": "007-TEL-IDO-AV06", "title": "Cartões (007-TEL-IDO-AV06) Telefónica-Série Respeito aos Idosos (6 cards): INCOMPL.: 1 card", "ref": "007-TEL-IDO-AV06", "operator": "Telefónica", "price": 1, "image": "007-TEL-IDO-AV06.jpg"},
+
+{"id": "008-TEL-IGR-AV03", "title": "Cartões (008-TEL-IGR-AV03) Telefónica-Série Igrejas (10 cards): INCOMPL.: 1 card", "ref": "008-TEL-IGR-AV03", "operator": "Telefónica", "price": 1, "image": "008-TEL-IGR-AV03.jpg"},
+
+{"id": "008-TEL-IGR-AV04", "title": "Cartões (008-TEL-IGR-AV04) Telefónica-Série Igrejas (10 cards): INCOMPL.: 1 card", "ref": "008-TEL-IGR-AV04", "operator": "Telefónica", "price": 1, "image": "008-TEL-IGR-AV04.jpg"},
+
+{"id": "009-TEL-EVE-AV07", "title": "Cartões (009-TEL-EVE-AV07) Telefónica-Série Eventos (5 cards): INCOMPL.: 1 card", "ref": "009-TEL-EVE-AV07", "operator": "Telefónica", "price": 1, "image": "009-TEL-EVE-AV07.jpg"},
+
+{"id": "008-TEL-IGR-AV09", "title": "Cartões (008-TEL-IGR-AV09) Telefónica-Série Igrejas (10 cards): INCOMPL.: 1 card", "ref": "008-TEL-IGR-AV09", "operator": "Telefónica", "price": 1, "image": "008-TEL-IGR-AV09.jpg"},
+
+{"id": "009-TEL-EVE-AV04", "title": "Cartões (009-TEL-EVE-AV04) Telefónica-Série Eventos (5 cards): INCOMPL.: 1 card", "ref": "009-TEL-EVE-AV04", "operator": "Telefónica", "price": 1, "image": "009-TEL-EVE-AV04.jpg"},
+
+{"id": "010-TEL-DIA-AV01", "title": "Cartões (010-TEL-DIA-AV01) Telefónica-Série Dias Comemorativos (3 cards): INCOMPL.: 1 card", "ref": "010-TEL-DIA-AV01", "operator": "Telefónica", "price": 1, "image": "010-TEL-DIA-AV01.jpg"},
+
+{"id": "010-TEL-DIA-AV02", "title": "Cartões (010-TEL-DIA-AV02) Telefónica-Série Dias Comemorativos (3 cards): INCOMPL.: 1 card", "ref": "010-TEL-DIA-AV02", "operator": "Telefónica", "price": 1, "image": "010-TEL-DIA-AV02.jpg"},
+
+{"id": "010-TEL-DIA-AV03", "title": "Cartões (010-TEL-DIA-AV03) Telefónica-Série Dias Comemorativos (3 cards): INCOMPL.: 1 card", "ref": "010-TEL-DIA-AV03", "operator": "Telefónica", "price": 1, "image": "010-TEL-DIA-AV03.jpg"},
+
+{"id": "011-TEL-LEN-C", "title": "Cartões (011-TEL-LEN-C) Telefónica-Série Lendas do Brasil (8 cards): COMPLETA: 8 card", "ref": "011-TEL-LEN-C", "operator": "Telefónica", "price": 9, "image": "011-TEL-LEN-C.jpg"},
+
+{"id": "011-TEL-LEN-AV01", "title": "Cartões (011-TEL-LEN-AV01) Telefónica-Série Lendas do Brasil (8 cards): INCOMPL.: 1 card", "ref": "011-TEL-LEN-AV01", "operator": "Telefónica", "price": 1, "image": "011-TEL-LEN-AV01.jpg"},
+
+{"id": "011-TEL-LEN-AV04", "title": "Cartões (011-TEL-LEN-AV04) Telefónica-Série Lendas do Brasil (8 cards): INCOMPL.: 1 card", "ref": "011-TEL-LEN-AV04", "operator": "Telefónica", "price": 1, "image": "011-TEL-LEN-AV04.jpg"},
+
+{"id": "012-TEL-GAV-AV01", "title": "Cartões (012-TEL-GAV-AV01) Telefónica-Série Grandes Aventuras (6 cards): INCOMPL.: 1 card", "ref": "012-TEL-GAV-AV01", "operator": "Telefónica", "price": 1, "image": "012-TEL-GAV-AV01.jpg"},
+
+{"id": "013-TEL-U15-AV01", "title": "Cartões (013-TEL-U15-AV01) Telefónica-Série Use o 15 (6 cards): INCOMPL.: 1 card", "ref": "013-TEL-U15-AV01", "operator": "Telefónica", "price": 1, "image": "013-TEL-U15-AV01.jpg"},
+
+{"id": "013-TEL-U15-AV04", "title": "Cartões (013-TEL-U15-AV04) Telefónica-Série Use o 15 (6 cards): INCOMPL.: 1 card", "ref": "013-TEL-U15-AV04", "operator": "Telefónica", "price": 1, "image": "013-TEL-U15-AV04.jpg"},
+
+{"id": "013-TEL-U15-AV06", "title": "Cartões (013-TEL-U15-AV06) Telefónica-Série Use o 15 (6 cards): INCOMPL.: 1 card", "ref": "013-TEL-U15-AV06", "operator": "Telefónica", "price": 1, "image": "013-TEL-U15-AV06.jpg"},
+
+{"id": "014-TEL-ALI-AV01", "title": "Cartões (014-TEL-ALI-AV01) Telefónica-Série Alimentos (10 cards): INCOMPL.: 1 card", "ref": "014-TEL-ALI-AV01", "operator": "Telefónica", "price": 1, "image": "014-TEL-ALI-AV01.jpg"},
+
+{"id": "014-TEL-ALI-AV02", "title": "Cartões (014-TEL-ALI-AV02) Telefónica-Série Alimentos (10 cards): INCOMPL.: 1 card", "ref": "014-TEL-ALI-AV02", "operator": "Telefónica", "price": 1, "image": "014-TEL-ALI-AV02.jpg"},
+
+{"id": "015-TEL-AMA-AV01", "title": "Cartões (015-TEL-AMA-AV01) Telefónica-Série Amarelinhas (11 cards): INCOMPL.: 1 card", "ref": "015-TEL-AMA-AV01", "operator": "Telefónica", "price": 1, "image": "015-TEL-AMA-AV01.jpg"},
+
+{"id": "015-TEL-AMA-AV04", "title": "Cartões (015-TEL-AMA-AV04) Telefónica-Série Amarelinhas (11 cards): INCOMPL.: 1 card", "ref": "015-TEL-AMA-AV04", "operator": "Telefónica", "price": 1, "image": "015-TEL-AMA-AV04.jpg"},
+
+{"id": "015-TEL-AMA-AV07", "title": "Cartões (015-TEL-AMA-AV07) Telefónica-Série Amarelinhas (11 cards): INCOMPL.: 1 card", "ref": "015-TEL-AMA-AV07", "operator": "Telefónica", "price": 1, "image": "015-TEL-AMA-AV07.jpg"},
+
+{"id": "015-TEL-AMA-AV08", "title": "Cartões (015-TEL-AMA-AV08) Telefónica-Série Amarelinhas (11 cards): INCOMPL.: 1 card", "ref": "015-TEL-AMA-AV08", "operator": "Telefónica", "price": 1, "image": "015-TEL-AMA-AV08.jpg"},
+
+{"id": "015-TEL-AMA-AV09", "title": "Cartões (015-TEL-AMA-AV09) Telefónica-Série Amarelinhas (11 cards): INCOMPL.: 1 card", "ref": "015-TEL-AMA-AV09", "operator": "Telefónica", "price": 1, "image": "015-TEL-AMA-AV09.jpg"},
+
+{"id": "016-TEL-VAG-INC", "title": "Cartões (016-TEL-VAG-INC) Telefónica-Série Velhas Águias (10 cards): INCOMPL.: 5 card", "ref": "016-TEL-VAG-INC", "operator": "Telefónica", "price": 4, "image": "016-TEL-VAG-INC.jpg"},
+
+{"id": "017-TEL-COL-C", "title": "Cartões (017-TEL-COL-C) Telefónica-Série Colecionador (1 cards): COMPLETA: 1 card", "ref": "017-TEL-COL-C", "operator": "Telefónica", "price": 1, "image": "017-TEL-COL-C.jpg"},
+
+{"id": "018-TEL-DMA-C", "title": "Cartões (018-TEL-DMA-C) Telefónica-Série Dia das Mães  (2 cards): COMPLETA: 2 card", "ref": "018-TEL-DMA-C", "operator": "Telefónica", "price": 3, "image": "018-TEL-DMA-C.jpg"},
+
+{"id": "018-TEL-DMA-AV02", "title": "Cartões (018-TEL-DMA-AV02) Telefónica-Série Dia das Mães  (2 cards): INCOMPL.: 1 card", "ref": "018-TEL-DMA-AV02", "operator": "Telefónica", "price": 1, "image": "018-TEL-DMA-AV02.jpg"},
+
+{"id": "019-TEL-MAE-AV01", "title": "Cartões (019-TEL-MAE-AV01) Telefónica-Série Dia das Mães 2001 (10 cards): INCOMPL.: 1 card", "ref": "019-TEL-MAE-AV01", "operator": "Telefónica", "price": 1, "image": "019-TEL-MAE-AV01.jpg"},
+
+{"id": "019-TEL-MAE-AV04", "title": "Cartões (019-TEL-MAE-AV04) Telefónica-Série Dia das Mães 2001 (10 cards): INCOMPL.: 1 card", "ref": "019-TEL-MAE-AV04", "operator": "Telefónica", "price": 1, "image": "019-TEL-MAE-AV04.jpg"},
+
+{"id": "019-TEL-MAE-AV05", "title": "Cartões (019-TEL-MAE-AV05) Telefónica-Série Dia das Mães 2001 (10 cards): INCOMPL.: 1 card", "ref": "019-TEL-MAE-AV05", "operator": "Telefónica", "price": 1, "image": "019-TEL-MAE-AV05.jpg"},
+
+{"id": "019-TEL-MAE-AV06", "title": "Cartões (019-TEL-MAE-AV06) Telefónica-Série Dia das Mães 2001 (10 cards): INCOMPL.: 1 card", "ref": "019-TEL-MAE-AV06", "operator": "Telefónica", "price": 1, "image": "019-TEL-MAE-AV06.jpg"},
+
+{"id": "019-TEL-MAE-AV07", "title": "Cartões (019-TEL-MAE-AV07) Telefónica-Série Dia das Mães 2001 (10 cards): INCOMPL.: 1 card", "ref": "019-TEL-MAE-AV07", "operator": "Telefónica", "price": 1, "image": "019-TEL-MAE-AV07.jpg"},
+
+{"id": "019-TEL-MAE-AV09", "title": "Cartões (019-TEL-MAE-AV09) Telefónica-Série Dia das Mães 2001 (10 cards): INCOMPL.: 1 card", "ref": "019-TEL-MAE-AV09", "operator": "Telefónica", "price": 1, "image": "019-TEL-MAE-AV09.jpg"},
+
+{"id": "019-TEL-MAE-AV10", "title": "Cartões (019-TEL-MAE-AV10) Telefónica-Série Dia das Mães 2001 (10 cards): INCOMPL.: 1 card", "ref": "019-TEL-MAE-AV10", "operator": "Telefónica", "price": 1, "image": "019-TEL-MAE-AV10.jpg"},
+
+{"id": "020-TEL-HMU-AV28", "title": "Cartões (020-TEL-HMU-AV28) Telefónica-Série História do Mundo (54 cards): INCOMPL.: 1 card", "ref": "020-TEL-HMU-AV28", "operator": "Telefónica", "price": 1, "image": "020-TEL-HMU-AV28.jpg"},
+
+{"id": "021-TEL-PAZ-C", "title": "Cartões (021-TEL-PAZ-C) Telefónica-Série Paz Mundial (2 cards): COMPLETA: 2 card", "ref": "021-TEL-PAZ-C", "operator": "Telefónica", "price": 3, "image": "021-TEL-PAZ-C.jpg"},
+
+{"id": "021-TEL-PAZ-AV02", "title": "Cartões (021-TEL-PAZ-AV02) Telefónica-Série Paz Mundial (2 cards): INCOMPL.: 1 card", "ref": "021-TEL-PAZ-AV02", "operator": "Telefónica", "price": 1, "image": "021-TEL-PAZ-AV02.jpg"},
+
+{"id": "022-TEL-NLI-AV01", "title": "Cartões (022-TEL-NLI-AV01) Telefónica-Série Nossa Língua (6 cards): INCOMPL.: 1 card", "ref": "022-TEL-NLI-AV01", "operator": "Telefónica", "price": 1, "image": "022-TEL-NLI-AV01.jpg"},
+
+{"id": "023-TEL-BAR-AV02", "title": "Cartões (023-TEL-BAR-AV02) Telefónica-Série Barreto (4 cards): INCOMPL.: 1 card", "ref": "023-TEL-BAR-AV02", "operator": "Telefónica", "price": 1, "image": "023-TEL-BAR-AV02.jpg"},
+
+{"id": "024-TEL-BRA-C", "title": "Cartões (024-TEL-BRA-C) Telefónica-Série Brasil 500 anos (6 cards): COMPLETA: 6 card", "ref": "024-TEL-BRA-C", "operator": "Telefónica", "price": 7, "image": "024-TEL-BRA-C.jpg"},
+
+{"id": "024-TEL-BRA-AV01", "title": "Cartões (024-TEL-BRA-AV01) Telefónica-Série Brasil 500 anos (6 cards): INCOMPL.: 1 card", "ref": "024-TEL-BRA-AV01", "operator": "Telefónica", "price": 1, "image": "024-TEL-BRA-AV01.jpg"},
+
+{"id": "024-TEL-BRA-AV02", "title": "Cartões (024-TEL-BRA-AV02) Telefónica-Série Brasil 500 anos (6 cards): INCOMPL.: 1 card", "ref": "024-TEL-BRA-AV02", "operator": "Telefónica", "price": 1, "image": "024-TEL-BRA-AV02.jpg"},
+
+{"id": "024-TEL-BRA-AV03", "title": "Cartões (024-TEL-BRA-AV03) Telefónica-Série Brasil 500 anos (6 cards): INCOMPL.: 1 card", "ref": "024-TEL-BRA-AV03", "operator": "Telefónica", "price": 1, "image": "024-TEL-BRA-AV03.jpg"},
+
+{"id": "024-TEL-BRA-AV04", "title": "Cartões (024-TEL-BRA-AV04) Telefónica-Série Brasil 500 anos (6 cards): INCOMPL.: 1 card", "ref": "024-TEL-BRA-AV04", "operator": "Telefónica", "price": 1, "image": "024-TEL-BRA-AV04.jpg"},
+
+{"id": "024-TEL-BRA-AV05", "title": "Cartões (024-TEL-BRA-AV05) Telefónica-Série Brasil 500 anos (6 cards): INCOMPL.: 1 card", "ref": "024-TEL-BRA-AV05", "operator": "Telefónica", "price": 1, "image": "024-TEL-BRA-AV05.jpg"},
+
+{"id": "025-TEL-OSA-AV06", "title": "Cartões (025-TEL-OSA-AV06) Telefónica-Série Osmar Santos (10 cards): INCOMPL.: 1 card", "ref": "025-TEL-OSA-AV06", "operator": "Telefónica", "price": 1, "image": "025-TEL-OSA-AV06.jpg"},
+
+{"id": "026-TEL-PRU-C", "title": "Cartões (026-TEL-PRU-C) Telefónica-Série Paisagens Rurais  (6 cards): COMPLETA: 6 card", "ref": "026-TEL-PRU-C", "operator": "Telefónica", "price": 7, "image": "026-TEL-PRU-C.jpg"},
+
+{"id": "026-TEL-PRU-AV01", "title": "Cartões (026-TEL-PRU-AV01) Telefónica-Série Paisagens Rurais  (6 cards): INCOMPL.: 1 card", "ref": "026-TEL-PRU-AV01", "operator": "Telefónica", "price": 1, "image": "026-TEL-PRU-AV01.jpg"},
+
+{"id": "026-TEL-PRU-AV06", "title": "Cartões (026-TEL-PRU-AV06) Telefónica-Série Paisagens Rurais  (6 cards): INCOMPL.: 1 card", "ref": "026-TEL-PRU-AV06", "operator": "Telefónica", "price": 1, "image": "026-TEL-PRU-AV06.jpg"},
+
+{"id": "027-TEL-VID-C", "title": "Cartões (027-TEL-VID-C) Telefónica-Série Vida (2 cards): COMPLETA: 2 card", "ref": "027-TEL-VID-C", "operator": "Telefónica", "price": 3, "image": "027-TEL-VID-C.jpg"},
+
+{"id": "027-TEL-VID-AV01", "title": "Cartões (027-TEL-VID-AV01) Telefónica-Série Vida (2 cards): INCOMPL.: 1 card", "ref": "027-TEL-VID-AV01", "operator": "Telefónica", "price": 1, "image": "027-TEL-VID-AV01.jpg"},
+
+{"id": "028-TEL-SSO-AV01", "title": "Cartões (028-TEL-SSO-AV01) Telefónica-Série Sistema Solar (12 cards): INCOMPL.: 1 card", "ref": "028-TEL-SSO-AV01", "operator": "Telefónica", "price": 1, "image": "028-TEL-SSO-AV01.jpg"},
+
+{"id": "028-TEL-SSO-AV02", "title": "Cartões (028-TEL-SSO-AV02) Telefónica-Série Sistema Solar (12 cards): INCOMPL.: 1 card", "ref": "028-TEL-SSO-AV02", "operator": "Telefónica", "price": 1, "image": "028-TEL-SSO-AV02.jpg"},
+
+{"id": "028-TEL-SSO-AV03", "title": "Cartões (028-TEL-SSO-AV03) Telefónica-Série Sistema Solar (12 cards): INCOMPL.: 1 card", "ref": "028-TEL-SSO-AV03", "operator": "Telefónica", "price": 1, "image": "028-TEL-SSO-AV03.jpg"},
+
+{"id": "029-TEL-FUT-AV05", "title": "Cartões (029-TEL-FUT-AV05) Telefónica-Série Futebol Px Mundial (15 cards): INCOMPL.: 1 card", "ref": "029-TEL-FUT-AV05", "operator": "Telefónica", "price": 1, "image": "029-TEL-FUT-AV05.jpg"},
+
+{"id": "029-TEL-FUT-AV06", "title": "Cartões (029-TEL-FUT-AV06) Telefónica-Série Futebol Px Mundial (15 cards): INCOMPL.: 1 card", "ref": "029-TEL-FUT-AV06", "operator": "Telefónica", "price": 1, "image": "029-TEL-FUT-AV06.jpg"},
+
+{"id": "029-TEL-FUT-AV07", "title": "Cartões (029-TEL-FUT-AV07) Telefónica-Série Futebol Px Mundial (15 cards): INCOMPL.: 1 card", "ref": "029-TEL-FUT-AV07", "operator": "Telefónica", "price": 1, "image": "029-TEL-FUT-AV07.jpg"},
+
+{"id": "029-TEL-FUT-AV08", "title": "Cartões (029-TEL-FUT-AV08) Telefónica-Série Futebol Px Mundial (15 cards): INCOMPL.: 1 card", "ref": "029-TEL-FUT-AV08", "operator": "Telefónica", "price": 1, "image": "029-TEL-FUT-AV08.jpg"},
+
+{"id": "030-TEL-VAU-AV01", "title": "Cartões (030-TEL-VAU-AV01) Telefónica-Série Volta às Aulas (6 cards): INCOMPL.: 1 card", "ref": "030-TEL-VAU-AV01", "operator": "Telefónica", "price": 1, "image": "030-TEL-VAU-AV01.jpg"},
+
+{"id": "030-TEL-VAU-AV04", "title": "Cartões (030-TEL-VAU-AV04) Telefónica-Série Volta às Aulas (6 cards): INCOMPL.: 1 card", "ref": "030-TEL-VAU-AV04", "operator": "Telefónica", "price": 1, "image": "030-TEL-VAU-AV04.jpg"},
+
+{"id": "031-TEL-CDR-AV02", "title": "Cartões (031-TEL-CDR-AV02) Telefónica-Série Concurso Desenhos (6 cards): INCOMPL.: 1 card", "ref": "031-TEL-CDR-AV02", "operator": "Telefónica", "price": 1, "image": "031-TEL-CDR-AV02.jpg"},
+
+{"id": "032-TEL-AMI-AV01", "title": "Cartões (032-TEL-AMI-AV01) Telefónica-Série Dia do Amigo (6 cards): INCOMPL.: 1 card", "ref": "032-TEL-AMI-AV01", "operator": "Telefónica", "price": 1, "image": "032-TEL-AMI-AV01.jpg"},
+
+{"id": "032-TEL-AMI-AV02", "title": "Cartões (032-TEL-AMI-AV02) Telefónica-Série Dia do Amigo (6 cards): INCOMPL.: 1 card", "ref": "032-TEL-AMI-AV02", "operator": "Telefónica", "price": 1, "image": "032-TEL-AMI-AV02.jpg"},
+
+{"id": "032-TEL-AMI-AV03", "title": "Cartões (032-TEL-AMI-AV03) Telefónica-Série Dia do Amigo (6 cards): INCOMPL.: 1 card", "ref": "032-TEL-AMI-AV03", "operator": "Telefónica", "price": 1, "image": "032-TEL-AMI-AV03.jpg"},
+
+{"id": "032-TEL-AMI-AV04", "title": "Cartões (032-TEL-AMI-AV04) Telefónica-Série Dia do Amigo (6 cards): INCOMPL.: 1 card", "ref": "032-TEL-AMI-AV04", "operator": "Telefónica", "price": 1, "image": "032-TEL-AMI-AV04.jpg"},
+
+{"id": "032-TEL-AMI-AV05", "title": "Cartões (032-TEL-AMI-AV05) Telefónica-Série Dia do Amigo (6 cards): INCOMPL.: 1 card", "ref": "032-TEL-AMI-AV05", "operator": "Telefónica", "price": 1, "image": "032-TEL-AMI-AV05.jpg"},
+
+{"id": "033-TEL-ANO-AV06", "title": "Cartões (033-TEL-ANO-AV06) Telefónica-Série Ano Novo 2004 (6 cards): INCOMPL.: 1 card", "ref": "033-TEL-ANO-AV06", "operator": "Telefónica", "price": 1, "image": "033-TEL-ANO-AV06.jpg"},
+
+{"id": "034-TEL-ESP-AV01", "title": "Cartões (034-TEL-ESP-AV01) Telefónica-Série Esportes Radicais  (6 cards): INCOMPL.: 1 card", "ref": "034-TEL-ESP-AV01", "operator": "Telefónica", "price": 1, "image": "034-TEL-ESP-AV01.jpg"},
+
+{"id": "034-TEL-ESP-AV04", "title": "Cartões (034-TEL-ESP-AV04) Telefónica-Série Esportes Radicais  (6 cards): INCOMPL.: 1 card", "ref": "034-TEL-ESP-AV04", "operator": "Telefónica", "price": 1, "image": "034-TEL-ESP-AV04.jpg"},
+
+{"id": "035-TEL-FLO-AV01", "title": "Cartões (035-TEL-FLO-AV01) Telefónica-Série Flores do Cerrado (5 cards): INCOMPL.: 1 card", "ref": "035-TEL-FLO-AV01", "operator": "Telefónica", "price": 1, "image": "035-TEL-FLO-AV01.jpg"},
+
+{"id": "035-TEL-FLO-AV02", "title": "Cartões (035-TEL-FLO-AV02) Telefónica-Série Flores do Cerrado (5 cards): INCOMPL.: 1 card", "ref": "035-TEL-FLO-AV02", "operator": "Telefónica", "price": 1, "image": "035-TEL-FLO-AV02.jpg"},
+
+{"id": "035-TEL-FLO-AV03", "title": "Cartões (035-TEL-FLO-AV03) Telefónica-Série Flores do Cerrado (5 cards): INCOMPL.: 1 card", "ref": "035-TEL-FLO-AV03", "operator": "Telefónica", "price": 1, "image": "035-TEL-FLO-AV03.jpg"},
+
+{"id": "035-TEL-FLO-AV04", "title": "Cartões (035-TEL-FLO-AV04) Telefónica-Série Flores do Cerrado (5 cards): INCOMPL.: 1 card", "ref": "035-TEL-FLO-AV04", "operator": "Telefónica", "price": 1, "image": "035-TEL-FLO-AV04.jpg"},
+
+{"id": "036-TEL-PEI-AV01", "title": "Cartões (036-TEL-PEI-AV01) Telefónica-Série Peixes Ornamentais  (13 cards): INCOMPL.: 1 card", "ref": "036-TEL-PEI-AV01", "operator": "Telefónica", "price": 1, "image": "036-TEL-PEI-AV01.jpg"},
+
+{"id": "036-TEL-PEI-AV02", "title": "Cartões (036-TEL-PEI-AV02) Telefónica-Série Peixes Ornamentais  (13 cards): INCOMPL.: 1 card", "ref": "036-TEL-PEI-AV02", "operator": "Telefónica", "price": 1, "image": "036-TEL-PEI-AV02.jpg"},
+
+{"id": "036-TEL-PEI-AV03", "title": "Cartões (036-TEL-PEI-AV03) Telefónica-Série Peixes Ornamentais  (13 cards): INCOMPL.: 1 card", "ref": "036-TEL-PEI-AV03", "operator": "Telefónica", "price": 1, "image": "036-TEL-PEI-AV03.jpg"},
+
+{"id": "036-TEL-PEI-AV04", "title": "Cartões (036-TEL-PEI-AV04) Telefónica-Série Peixes Ornamentais  (13 cards): INCOMPL.: 1 card", "ref": "036-TEL-PEI-AV04", "operator": "Telefónica", "price": 1, "image": "036-TEL-PEI-AV04.jpg"},
+
+{"id": "036-TEL-PEI-AV05", "title": "Cartões (036-TEL-PEI-AV05) Telefónica-Série Peixes Ornamentais  (13 cards): INCOMPL.: 1 card", "ref": "036-TEL-PEI-AV05", "operator": "Telefónica", "price": 1, "image": "036-TEL-PEI-AV05.jpg"},
+
+{"id": "036-TEL-PEI-AV06", "title": "Cartões (036-TEL-PEI-AV06) Telefónica-Série Peixes Ornamentais  (13 cards): INCOMPL.: 1 card", "ref": "036-TEL-PEI-AV06", "operator": "Telefónica", "price": 1, "image": "036-TEL-PEI-AV06.jpg"},
+
+{"id": "036-TEL-PEI-AV07", "title": "Cartões (036-TEL-PEI-AV07) Telefónica-Série Peixes Ornamentais  (13 cards): INCOMPL.: 1 card", "ref": "036-TEL-PEI-AV07", "operator": "Telefónica", "price": 1, "image": "036-TEL-PEI-AV07.jpg"},
+
+{"id": "036-TEL-PEI-AV08", "title": "Cartões (036-TEL-PEI-AV08) Telefónica-Série Peixes Ornamentais  (13 cards): INCOMPL.: 1 card", "ref": "036-TEL-PEI-AV08", "operator": "Telefónica", "price": 1, "image": "036-TEL-PEI-AV08.jpg"},
+
+{"id": "037-TEL-CPA-INC", "title": "Cartões (037-TEL-CPA-INC) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 7 card", "ref": "037-TEL-CPA-INC", "operator": "Telefónica", "price": 6, "image": "037-TEL-CPA-INC.jpg"},
+
+{"id": "037-TEL-CPA-AV01", "title": "Cartões (037-TEL-CPA-AV01) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV01", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV01.jpg"},
+
+{"id": "037-TEL-CPA-AV02", "title": "Cartões (037-TEL-CPA-AV02) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV02", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV02.jpg"},
+
+{"id": "037-TEL-CPA-AV03", "title": "Cartões (037-TEL-CPA-AV03) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV03", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV03.jpg"},
+
+{"id": "037-TEL-CPA-AV04", "title": "Cartões (037-TEL-CPA-AV04) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV04", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV04.jpg"},
+
+{"id": "037-TEL-CPA-AV05", "title": "Cartões (037-TEL-CPA-AV05) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV05", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV05.jpg"},
+
+{"id": "037-TEL-CPA-AV06", "title": "Cartões (037-TEL-CPA-AV06) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV06", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV06.jpg"},
+
+{"id": "037-TEL-CPA-AV07", "title": "Cartões (037-TEL-CPA-AV07) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV07", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV07.jpg"},
+
+{"id": "037-TEL-CPA-AV08", "title": "Cartões (037-TEL-CPA-AV08) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV08", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV08.jpg"},
+
+{"id": "037-TEL-CPA-AV09", "title": "Cartões (037-TEL-CPA-AV09) Telefónica-Série Cidades Paulistas  (30 cards): INCOMPL.: 1 card", "ref": "037-TEL-CPA-AV09", "operator": "Telefónica", "price": 1, "image": "037-TEL-CPA-AV09.jpg"},
+
+{"id": "038-TEL-NEG-AV02", "title": "Cartões (038-TEL-NEG-AV02) Telefónica-Série Consciência  Negra (4 cards): INCOMPL.: 1 card", "ref": "038-TEL-NEG-AV02", "operator": "Telefónica", "price": 1, "image": "038-TEL-NEG-AV02.jpg"},
+
+{"id": "038-TEL-NEG-AV04", "title": "Cartões (038-TEL-NEG-AV04) Telefónica-Série Consciência  Negra (4 cards): INCOMPL.: 1 card", "ref": "038-TEL-NEG-AV04", "operator": "Telefónica", "price": 1, "image": "038-TEL-NEG-AV04.jpg"},
+
+{"id": "039-TEL-PRO-AV01", "title": "Cartões (039-TEL-PRO-AV01) Telefónica-Série Promessas Ano Novo (4 cards): INCOMPL.: 1 card", "ref": "039-TEL-PRO-AV01", "operator": "Telefónica", "price": 1, "image": "039-TEL-PRO-AV01.jpg"},
+
+{"id": "040-TEL-CID-C", "title": "Cartões (040-TEL-CID-C) Telefónica-Série Cidades Brasileiras  (10 cards): COMPLETA: 10 card", "ref": "040-TEL-CID-C", "operator": "Telefónica", "price": 11, "image": "040-TEL-CID-C.jpg"},
+
+{"id": "040-TEL-CID-AV01", "title": "Cartões (040-TEL-CID-AV01) Telefónica-Série Cidades Brasileiras  (10 cards): INCOMPL.: 1 card", "ref": "040-TEL-CID-AV01", "operator": "Telefónica", "price": 1, "image": "040-TEL-CID-AV01.jpg"},
+
+{"id": "040-TEL-CID-AV04", "title": "Cartões (040-TEL-CID-AV04) Telefónica-Série Cidades Brasileiras  (10 cards): INCOMPL.: 1 card", "ref": "040-TEL-CID-AV04", "operator": "Telefónica", "price": 1, "image": "040-TEL-CID-AV04.jpg"},
+
+{"id": "040-TEL-CID-AV05", "title": "Cartões (040-TEL-CID-AV05) Telefónica-Série Cidades Brasileiras  (10 cards): INCOMPL.: 1 card", "ref": "040-TEL-CID-AV05", "operator": "Telefónica", "price": 1, "image": "040-TEL-CID-AV05.jpg"},
+
+{"id": "040-TEL-CID-AV06", "title": "Cartões (040-TEL-CID-AV06) Telefónica-Série Cidades Brasileiras  (10 cards): INCOMPL.: 1 card", "ref": "040-TEL-CID-AV06", "operator": "Telefónica", "price": 1, "image": "040-TEL-CID-AV06.jpg"},
+
+{"id": "040-TEL-CID-AV07", "title": "Cartões (040-TEL-CID-AV07) Telefónica-Série Cidades Brasileiras  (10 cards): INCOMPL.: 1 card", "ref": "040-TEL-CID-AV07", "operator": "Telefónica", "price": 1, "image": "040-TEL-CID-AV07.jpg"},
+
+{"id": "040-TEL-CID-AV08", "title": "Cartões (040-TEL-CID-AV08) Telefónica-Série Cidades Brasileiras  (10 cards): INCOMPL.: 1 card", "ref": "040-TEL-CID-AV08", "operator": "Telefónica", "price": 1, "image": "040-TEL-CID-AV08.jpg"},
+
+{"id": "041-TEL-ESV-AV01", "title": "Cartões (041-TEL-ESV-AV01) Telefónica-Série Educar sem Violência  (6 cards): INCOMPL.: 1 card", "ref": "041-TEL-ESV-AV01", "operator": "Telefónica", "price": 1, "image": "041-TEL-ESV-AV01.jpg"},
+
+{"id": "042-TEL-DRI-AV02", "title": "Cartões (042-TEL-DRI-AV02) Telefónica-Série Drinks de Inverno (10 cards): INCOMPL.: 1 card", "ref": "042-TEL-DRI-AV02", "operator": "Telefónica", "price": 1, "image": "042-TEL-DRI-AV02.jpg"},
+
+{"id": "042-TEL-DRI-AV04", "title": "Cartões (042-TEL-DRI-AV04) Telefónica-Série Drinks de Inverno (10 cards): INCOMPL.: 1 card", "ref": "042-TEL-DRI-AV04", "operator": "Telefónica", "price": 1, "image": "042-TEL-DRI-AV04.jpg"},
+
+{"id": "042-TEL-DRI-AV08", "title": "Cartões (042-TEL-DRI-AV08) Telefónica-Série Drinks de Inverno (10 cards): INCOMPL.: 1 card", "ref": "042-TEL-DRI-AV08", "operator": "Telefónica", "price": 1, "image": "042-TEL-DRI-AV08.jpg"},
+
+{"id": "043-TEL-COL-AV01", "title": "Cartões (043-TEL-COL-AV01) Telefónica-Série Arte Colonial RJ/MG (10 cards): INCOMPL.: 1 card", "ref": "043-TEL-COL-AV01", "operator": "Telefónica", "price": 1, "image": "043-TEL-COL-AV01.jpg"},
+
+{"id": "043-TEL-COL-AV02", "title": "Cartões (043-TEL-COL-AV02) Telefónica-Série Arte Colonial RJ/MG (10 cards): INCOMPL.: 1 card", "ref": "043-TEL-COL-AV02", "operator": "Telefónica", "price": 1, "image": "043-TEL-COL-AV02.jpg"},
+
+{"id": "043-TEL-COL-AV03", "title": "Cartões (043-TEL-COL-AV03) Telefónica-Série Arte Colonial RJ/MG (10 cards): INCOMPL.: 1 card", "ref": "043-TEL-COL-AV03", "operator": "Telefónica", "price": 1, "image": "043-TEL-COL-AV03.jpg"},
+
+{"id": "043-TEL-COL-AV04", "title": "Cartões (043-TEL-COL-AV04) Telefónica-Série Arte Colonial RJ/MG (10 cards): INCOMPL.: 1 card", "ref": "043-TEL-COL-AV04", "operator": "Telefónica", "price": 1, "image": "043-TEL-COL-AV04.jpg"},
+
+{"id": "043-TEL-COL-AV06", "title": "Cartões (043-TEL-COL-AV06) Telefónica-Série Arte Colonial RJ/MG (10 cards): INCOMPL.: 1 card", "ref": "043-TEL-COL-AV06", "operator": "Telefónica", "price": 1, "image": "043-TEL-COL-AV06.jpg"},
+
+{"id": "043-TEL-COL-AV07", "title": "Cartões (043-TEL-COL-AV07) Telefónica-Série Arte Colonial RJ/MG (10 cards): INCOMPL.: 1 card", "ref": "043-TEL-COL-AV07", "operator": "Telefónica", "price": 1, "image": "043-TEL-COL-AV07.jpg"},
+
+{"id": "044-TEL-DBA-AV01", "title": "Cartões (044-TEL-DBA-AV01) Telefónica-Série Dia da Bandeira  (4 cards): INCOMPL.: 1 card", "ref": "044-TEL-DBA-AV01", "operator": "Telefónica", "price": 1, "image": "044-TEL-DBA-AV01.jpg"},
+
+{"id": "045-TEL-BAN-AV02", "title": "Cartões (045-TEL-BAN-AV02) Telefónica-Série Dia da Bandeira  (4 cards): INCOMPL.: 1 card", "ref": "045-TEL-BAN-AV02", "operator": "Telefónica", "price": 1, "image": "045-TEL-BAN-AV02.jpg"},
+
+{"id": "046-TEL-PAS-C", "title": "Cartões (046-TEL-PAS-C) Telefónica-Série Pássaros Exóticos  (8 cards): COMPLETA: 8 card", "ref": "046-TEL-PAS-C", "operator": "Telefónica", "price": 9, "image": "046-TEL-PAS-C.jpg"},
+
+{"id": "046-TEL-PAS-AV01", "title": "Cartões (046-TEL-PAS-AV01) Telefónica-Série Pássaros Exóticos  (8 cards): INCOMPL.: 1 card", "ref": "046-TEL-PAS-AV01", "operator": "Telefónica", "price": 1, "image": "046-TEL-PAS-AV01.jpg"},
+
+{"id": "046-TEL-PAS-AV02", "title": "Cartões (046-TEL-PAS-AV02) Telefónica-Série Pássaros Exóticos  (8 cards): INCOMPL.: 1 card", "ref": "046-TEL-PAS-AV02", "operator": "Telefónica", "price": 1, "image": "046-TEL-PAS-AV02.jpg"},
+
+{"id": "047-TEL-DIC-INC", "title": "Cartões (047-TEL-DIC-INC) Telefónica-Série Dicas de Saúde  (10 cards): INCOMPL.: 9 card", "ref": "047-TEL-DIC-INC", "operator": "Telefónica", "price": 8, "image": "047-TEL-DIC-INC.jpg"},
+
+{"id": "047-TEL-DIC-AV02", "title": "Cartões (047-TEL-DIC-AV02) Telefónica-Série Dicas de Saúde  (10 cards): INCOMPL.: 1 card", "ref": "047-TEL-DIC-AV02", "operator": "Telefónica", "price": 1, "image": "047-TEL-DIC-AV02.jpg"},
+
+{"id": "047-TEL-DIC-AV07", "title": "Cartões (047-TEL-DIC-AV07) Telefónica-Série Dicas de Saúde  (10 cards): INCOMPL.: 1 card", "ref": "047-TEL-DIC-AV07", "operator": "Telefónica", "price": 1, "image": "047-TEL-DIC-AV07.jpg"},
+
+{"id": "047-TEL-DIC-AV09", "title": "Cartões (047-TEL-DIC-AV09) Telefónica-Série Dicas de Saúde  (10 cards): INCOMPL.: 1 card", "ref": "047-TEL-DIC-AV09", "operator": "Telefónica", "price": 1, "image": "047-TEL-DIC-AV09.jpg"},
+
+{"id": "048-TEL-REF-AV03", "title": "Cartões (048-TEL-REF-AV03) Telefónica-Série Refrescos de Verão  (10 cards): INCOMPL.: 1 card", "ref": "048-TEL-REF-AV03", "operator": "Telefónica", "price": 1, "image": "048-TEL-REF-AV03.jpg"},
+
+{"id": "048-TEL-REF-AV04", "title": "Cartões (048-TEL-REF-AV04) Telefónica-Série Refrescos de Verão  (10 cards): INCOMPL.: 1 card", "ref": "048-TEL-REF-AV04", "operator": "Telefónica", "price": 1, "image": "048-TEL-REF-AV04.jpg"},
+
+{"id": "048-TEL-REF-AV07", "title": "Cartões (048-TEL-REF-AV07) Telefónica-Série Refrescos de Verão  (10 cards): INCOMPL.: 1 card", "ref": "048-TEL-REF-AV07", "operator": "Telefónica", "price": 1, "image": "048-TEL-REF-AV07.jpg"},
+
+{"id": "048-TEL-REF-AV10", "title": "Cartões (048-TEL-REF-AV10) Telefónica-Série Refrescos de Verão  (10 cards): INCOMPL.: 1 card", "ref": "048-TEL-REF-AV10", "operator": "Telefónica", "price": 1, "image": "048-TEL-REF-AV10.jpg"},
+
+{"id": "049-TEL-VOL-AV01", "title": "Cartões (049-TEL-VOL-AV01) Telefónica-Série Volta às Aulas 2002 (6 cards): INCOMPL.: 1 card", "ref": "049-TEL-VOL-AV01", "operator": "Telefónica", "price": 1, "image": "049-TEL-VOL-AV01.jpg"},
+
+{"id": "049-TEL-VOL-AV04", "title": "Cartões (049-TEL-VOL-AV04) Telefónica-Série Volta às Aulas 2002 (6 cards): INCOMPL.: 1 card", "ref": "049-TEL-VOL-AV04", "operator": "Telefónica", "price": 1, "image": "049-TEL-VOL-AV04.jpg"},
+
+{"id": "049-TEL-VOL-AV05", "title": "Cartões (049-TEL-VOL-AV05) Telefónica-Série Volta às Aulas 2002 (6 cards): INCOMPL.: 1 card", "ref": "049-TEL-VOL-AV05", "operator": "Telefónica", "price": 1, "image": "049-TEL-VOL-AV05.jpg"},
+
+{"id": "049-TEL-VOL-AV06", "title": "Cartões (049-TEL-VOL-AV06) Telefónica-Série Volta às Aulas 2002 (6 cards): INCOMPL.: 1 card", "ref": "049-TEL-VOL-AV06", "operator": "Telefónica", "price": 1, "image": "049-TEL-VOL-AV06.jpg"},
+
+{"id": "050-TEL-FOL-C", "title": "Cartões (050-TEL-FOL-C) Telefónica-Série Folhagens (5 cards): COMPLETA: 5 card", "ref": "050-TEL-FOL-C", "operator": "Telefónica", "price": 6, "image": "050-TEL-FOL-C.jpg"},
+
+{"id": "050-TEL-FOL-AV01", "title": "Cartões (050-TEL-FOL-AV01) Telefónica-Série Folhagens (5 cards): INCOMPL.: 1 card", "ref": "050-TEL-FOL-AV01", "operator": "Telefónica", "price": 1, "image": "050-TEL-FOL-AV01.jpg"},
+
+{"id": "051-TEL-URB-AV02", "title": "Cartões (051-TEL-URB-AV02) Telefónica-Série Cidade Urbana (4 cards): INCOMPL.: 1 card", "ref": "051-TEL-URB-AV02", "operator": "Telefónica", "price": 1, "image": "051-TEL-URB-AV02.jpg"},
+
+{"id": "051-TEL-URB-AV04", "title": "Cartões (051-TEL-URB-AV04) Telefónica-Série Cidade Urbana (4 cards): INCOMPL.: 1 card", "ref": "051-TEL-URB-AV04", "operator": "Telefónica", "price": 1, "image": "051-TEL-URB-AV04.jpg"},
+
+{"id": "052-TEL-SOL-AV02", "title": "Cartões (052-TEL-SOL-AV02) Telefónica-Série Comunidade Solidária  (5 cards): INCOMPL.: 1 card", "ref": "052-TEL-SOL-AV02", "operator": "Telefónica", "price": 1, "image": "052-TEL-SOL-AV02.jpg"},
+
+{"id": "052-TEL-SOL-AV03", "title": "Cartões (052-TEL-SOL-AV03) Telefónica-Série Comunidade Solidária  (5 cards): INCOMPL.: 1 card", "ref": "052-TEL-SOL-AV03", "operator": "Telefónica", "price": 1, "image": "052-TEL-SOL-AV03.jpg"},
+
+{"id": "052-TEL-SOL-AV04", "title": "Cartões (052-TEL-SOL-AV04) Telefónica-Série Comunidade Solidária  (5 cards): INCOMPL.: 1 card", "ref": "052-TEL-SOL-AV04", "operator": "Telefónica", "price": 1, "image": "052-TEL-SOL-AV04.jpg"},
+
+{"id": "052-TEL-SOL-AV05", "title": "Cartões (052-TEL-SOL-AV05) Telefónica-Série Comunidade Solidária  (5 cards): INCOMPL.: 1 card", "ref": "052-TEL-SOL-AV05", "operator": "Telefónica", "price": 1, "image": "052-TEL-SOL-AV05.jpg"},
+
+{"id": "053-TEL-MIL-AV02", "title": "Cartões (053-TEL-MIL-AV02) Telefónica-Série Dia Mães-Milagre (4 cards): INCOMPL.: 1 card", "ref": "053-TEL-MIL-AV02", "operator": "Telefónica", "price": 1, "image": "053-TEL-MIL-AV02.jpg"},
+
+{"id": "053-TEL-MIL-AV03", "title": "Cartões (053-TEL-MIL-AV03) Telefónica-Série Dia Mães-Milagre (4 cards): INCOMPL.: 1 card", "ref": "053-TEL-MIL-AV03", "operator": "Telefónica", "price": 1, "image": "053-TEL-MIL-AV03.jpg"},
+
+{"id": "053-TEL-MIL-AV04", "title": "Cartões (053-TEL-MIL-AV04) Telefónica-Série Dia Mães-Milagre (4 cards): INCOMPL.: 1 card", "ref": "053-TEL-MIL-AV04", "operator": "Telefónica", "price": 1, "image": "053-TEL-MIL-AV04.jpg"},
+
+{"id": "054-TEL-TER-AV01", "title": "Cartões (054-TEL-TER-AV01) Telefónica-Série Mãe Terra  (6 cards): INCOMPL.: 1 card", "ref": "054-TEL-TER-AV01", "operator": "Telefónica", "price": 1, "image": "054-TEL-TER-AV01.jpg"},
+
+{"id": "054-TEL-TER-AV04", "title": "Cartões (054-TEL-TER-AV04) Telefónica-Série Mãe Terra  (6 cards): INCOMPL.: 1 card", "ref": "054-TEL-TER-AV04", "operator": "Telefónica", "price": 1, "image": "054-TEL-TER-AV04.jpg"},
+
+{"id": "055-TEL-89F-AV02", "title": "Cartões (055-TEL-89F-AV02) Telefónica-Série 89 FM (6 cards): INCOMPL.: 1 card", "ref": "055-TEL-89F-AV02", "operator": "Telefónica", "price": 1, "image": "055-TEL-89F-AV02.jpg"},
+
+{"id": "056-TEL-MON-AV01", "title": "Cartões (056-TEL-MON-AV01) Telefónica-Série Turma na Mônica  (8 cards): INCOMPL.: 1 card", "ref": "056-TEL-MON-AV01", "operator": "Telefónica", "price": 1, "image": "056-TEL-MON-AV01.jpg"},
+
+{"id": "056-TEL-MON-AV02", "title": "Cartões (056-TEL-MON-AV02) Telefónica-Série Turma na Mônica  (8 cards): INCOMPL.: 1 card", "ref": "056-TEL-MON-AV02", "operator": "Telefónica", "price": 1, "image": "056-TEL-MON-AV02.jpg"},
+
+{"id": "056-TEL-MON-AV03", "title": "Cartões (056-TEL-MON-AV03) Telefónica-Série Turma na Mônica  (8 cards): INCOMPL.: 1 card", "ref": "056-TEL-MON-AV03", "operator": "Telefónica", "price": 1, "image": "056-TEL-MON-AV03.jpg"},
+
+{"id": "057-TEL-JUN-AV02", "title": "Cartões (057-TEL-JUN-AV02) Telefónica-Série Festa Junina 2001 (4 cards): INCOMPL.: 1 card", "ref": "057-TEL-JUN-AV02", "operator": "Telefónica", "price": 1, "image": "057-TEL-JUN-AV02.jpg"},
+
+{"id": "057-TEL-JUN-AV03", "title": "Cartões (057-TEL-JUN-AV03) Telefónica-Série Festa Junina 2001 (4 cards): INCOMPL.: 1 card", "ref": "057-TEL-JUN-AV03", "operator": "Telefónica", "price": 1, "image": "057-TEL-JUN-AV03.jpg"},
+
+{"id": "057-TEL-JUN-AV04", "title": "Cartões (057-TEL-JUN-AV04) Telefónica-Série Festa Junina 2001 (4 cards): INCOMPL.: 1 card", "ref": "057-TEL-JUN-AV04", "operator": "Telefónica", "price": 1, "image": "057-TEL-JUN-AV04.jpg"},
+
+{"id": "058-TEL-EOL-AV23", "title": "Cartões (058-TEL-EOL-AV23) Telefónica-Série Esportes Olímpicos  (28 cards): INCOMPL.: 1 card", "ref": "058-TEL-EOL-AV23", "operator": "Telefónica", "price": 1, "image": "058-TEL-EOL-AV23.jpg"},
+
+{"id": "059-TEL-NAT-AV02", "title": "Cartões (059-TEL-NAT-AV02) Telefónica-Série Natal 2002 (4 cards): INCOMPL.: 1 card", "ref": "059-TEL-NAT-AV02", "operator": "Telefónica", "price": 1, "image": "059-TEL-NAT-AV02.jpg"},
+
+{"id": "060-TEL-COM-AV02", "title": "Cartões (060-TEL-COM-AV02) Telefónica-Série Comidas Típicas  (10 cards): INCOMPL.: 1 card", "ref": "060-TEL-COM-AV02", "operator": "Telefónica", "price": 1, "image": "060-TEL-COM-AV02.jpg"},
+
+{"id": "061-TEL-CRI-AV01", "title": "Cartões (061-TEL-CRI-AV01) Telefónica-Série Dia das Crianças  (4 cards): INCOMPL.: 1 card", "ref": "061-TEL-CRI-AV01", "operator": "Telefónica", "price": 1, "image": "061-TEL-CRI-AV01.jpg"},
+
+{"id": "061-TEL-CRI-AV03", "title": "Cartões (061-TEL-CRI-AV03) Telefónica-Série Dia das Crianças  (4 cards): INCOMPL.: 1 card", "ref": "061-TEL-CRI-AV03", "operator": "Telefónica", "price": 1, "image": "061-TEL-CRI-AV03.jpg"},
+
+{"id": "061-TEL-CRI-AV04", "title": "Cartões (061-TEL-CRI-AV04) Telefónica-Série Dia das Crianças  (4 cards): INCOMPL.: 1 card", "ref": "061-TEL-CRI-AV04", "operator": "Telefónica", "price": 1, "image": "061-TEL-CRI-AV04.jpg"},
+
+{"id": "062-TEL-VER-AV02", "title": "Cartões (062-TEL-VER-AV02) Telefónica-Série Verão 2001 (10 cards): INCOMPL.: 1 card", "ref": "062-TEL-VER-AV02", "operator": "Telefónica", "price": 1, "image": "062-TEL-VER-AV02.jpg"},
+
+{"id": "062-TEL-VER-AV03", "title": "Cartões (062-TEL-VER-AV03) Telefónica-Série Verão 2001 (10 cards): INCOMPL.: 1 card", "ref": "062-TEL-VER-AV03", "operator": "Telefónica", "price": 1, "image": "062-TEL-VER-AV03.jpg"},
+
+{"id": "062-TEL-VER-AV04", "title": "Cartões (062-TEL-VER-AV04) Telefónica-Série Verão 2001 (10 cards): INCOMPL.: 1 card", "ref": "062-TEL-VER-AV04", "operator": "Telefónica", "price": 1, "image": "062-TEL-VER-AV04.jpg"},
+
+{"id": "062-TEL-VER-AV05", "title": "Cartões (062-TEL-VER-AV05) Telefónica-Série Verão 2001 (10 cards): INCOMPL.: 1 card", "ref": "062-TEL-VER-AV05", "operator": "Telefónica", "price": 1, "image": "062-TEL-VER-AV05.jpg"},
+
+{"id": "063-TEL-CAR-AV01", "title": "Cartões (063-TEL-CAR-AV01) Telefónica-Série Carnaval 2002 (6 cards): INCOMPL.: 1 card", "ref": "063-TEL-CAR-AV01", "operator": "Telefónica", "price": 1, "image": "063-TEL-CAR-AV01.jpg"},
+
+{"id": "064-TEL-DAT-C", "title": "Cartões (064-TEL-DAT-C) Telefónica-Série Datas Comemorativas  (10 cards): COMPLETA: 10 card", "ref": "064-TEL-DAT-C", "operator": "Telefónica", "price": 11, "image": "064-TEL-DAT-C.jpg"},
+
+{"id": "064-TEL-DAT-AV01", "title": "Cartões (064-TEL-DAT-AV01) Telefónica-Série Datas Comemorativas  (10 cards): INCOMPL.: 1 card", "ref": "064-TEL-DAT-AV01", "operator": "Telefónica", "price": 1, "image": "064-TEL-DAT-AV01.jpg"},
+
+{"id": "065-TEL-VIT-AV01", "title": "Cartões (065-TEL-VIT-AV01) Telefónica-Série Vitalidade (6 cards): INCOMPL.: 1 card", "ref": "065-TEL-VIT-AV01", "operator": "Telefónica", "price": 1, "image": "065-TEL-VIT-AV01.jpg"},
+
+{"id": "065-TEL-VIT-AV02", "title": "Cartões (065-TEL-VIT-AV02) Telefónica-Série Vitalidade (6 cards): INCOMPL.: 1 card", "ref": "065-TEL-VIT-AV02", "operator": "Telefónica", "price": 1, "image": "065-TEL-VIT-AV02.jpg"},
+
+{"id": "065-TEL-VIT-AV05", "title": "Cartões (065-TEL-VIT-AV05) Telefónica-Série Vitalidade (6 cards): INCOMPL.: 1 card", "ref": "065-TEL-VIT-AV05", "operator": "Telefónica", "price": 1, "image": "065-TEL-VIT-AV05.jpg"},
+
+{"id": "066-TEL-VOL-AV01", "title": "Cartões (066-TEL-VOL-AV01) Telefónica-Série Voluntários do Brasil  (10 cards): INCOMPL.: 1 card", "ref": "066-TEL-VOL-AV01", "operator": "Telefónica", "price": 1, "image": "066-TEL-VOL-AV01.jpg"},
+
+{"id": "066-TEL-VOL-AV02", "title": "Cartões (066-TEL-VOL-AV02) Telefónica-Série Voluntários do Brasil  (10 cards): INCOMPL.: 1 card", "ref": "066-TEL-VOL-AV02", "operator": "Telefónica", "price": 1, "image": "066-TEL-VOL-AV02.jpg"},
+
+{"id": "066-TEL-VOL-AV03", "title": "Cartões (066-TEL-VOL-AV03) Telefónica-Série Voluntários do Brasil  (10 cards): INCOMPL.: 1 card", "ref": "066-TEL-VOL-AV03", "operator": "Telefónica", "price": 1, "image": "066-TEL-VOL-AV03.jpg"},
+
+{"id": "066-TEL-VOL-AV04", "title": "Cartões (066-TEL-VOL-AV04) Telefónica-Série Voluntários do Brasil  (10 cards): INCOMPL.: 1 card", "ref": "066-TEL-VOL-AV04", "operator": "Telefónica", "price": 1, "image": "066-TEL-VOL-AV04.jpg"},
+
+{"id": "066-TEL-VOL-AV05", "title": "Cartões (066-TEL-VOL-AV05) Telefónica-Série Voluntários do Brasil  (10 cards): INCOMPL.: 1 card", "ref": "066-TEL-VOL-AV05", "operator": "Telefónica", "price": 1, "image": "066-TEL-VOL-AV05.jpg"},
+
+{"id": "067-TEL-PRA-AV01", "title": "Cartões (067-TEL-PRA-AV01) Telefónica-Série Praças e Parques (10 cards): INCOMPL.: 1 card", "ref": "067-TEL-PRA-AV01", "operator": "Telefónica", "price": 1, "image": "067-TEL-PRA-AV01.jpg"},
+
+{"id": "067-TEL-PRA-AV02", "title": "Cartões (067-TEL-PRA-AV02) Telefónica-Série Praças e Parques (10 cards): INCOMPL.: 1 card", "ref": "067-TEL-PRA-AV02", "operator": "Telefónica", "price": 1, "image": "067-TEL-PRA-AV02.jpg"},
+
+{"id": "067-TEL-PRA-AV03", "title": "Cartões (067-TEL-PRA-AV03) Telefónica-Série Praças e Parques (10 cards): INCOMPL.: 1 card", "ref": "067-TEL-PRA-AV03", "operator": "Telefónica", "price": 1, "image": "067-TEL-PRA-AV03.jpg"},
+
+{"id": "067-TEL-PRA-AV04", "title": "Cartões (067-TEL-PRA-AV04) Telefónica-Série Praças e Parques (10 cards): INCOMPL.: 1 card", "ref": "067-TEL-PRA-AV04", "operator": "Telefónica", "price": 1, "image": "067-TEL-PRA-AV04.jpg"},
+
+{"id": "067-TEL-PRA-AV05", "title": "Cartões (067-TEL-PRA-AV05) Telefónica-Série Praças e Parques (10 cards): INCOMPL.: 1 card", "ref": "067-TEL-PRA-AV05", "operator": "Telefónica", "price": 1, "image": "067-TEL-PRA-AV05.jpg"},
+
+{"id": "068-TEL-EST-AV02", "title": "Cartões (068-TEL-EST-AV02) Telefónica-Série Estados Brasileiros (27 cards): INCOMPL.: 1 card", "ref": "068-TEL-EST-AV02", "operator": "Telefónica", "price": 1, "image": "068-TEL-EST-AV02.jpg"},
+
+{"id": "068-TEL-EST-AV03", "title": "Cartões (068-TEL-EST-AV03) Telefónica-Série Estados Brasileiros (27 cards): INCOMPL.: 1 card", "ref": "068-TEL-EST-AV03", "operator": "Telefónica", "price": 1, "image": "068-TEL-EST-AV03.jpg"},
+
+{"id": "068-TEL-EST-AV04", "title": "Cartões (068-TEL-EST-AV04) Telefónica-Série Estados Brasileiros (27 cards): INCOMPL.: 1 card", "ref": "068-TEL-EST-AV04", "operator": "Telefónica", "price": 1, "image": "068-TEL-EST-AV04.jpg"},
+
+{"id": "068-TEL-EST-AV12", "title": "Cartões (068-TEL-EST-AV12) Telefónica-Série Estados Brasileiros (27 cards): INCOMPL.: 1 card", "ref": "068-TEL-EST-AV12", "operator": "Telefónica", "price": 1, "image": "068-TEL-EST-AV12.jpg"},
+
+{"id": "068-TEL-EST-AV20", "title": "Cartões (068-TEL-EST-AV20) Telefónica-Série Estados Brasileiros (27 cards): INCOMPL.: 1 card", "ref": "068-TEL-EST-AV20", "operator": "Telefónica", "price": 1, "image": "068-TEL-EST-AV20.jpg"},
+
+{"id": "068-TEL-EST-AV25", "title": "Cartões (068-TEL-EST-AV25) Telefónica-Série Estados Brasileiros (27 cards): INCOMPL.: 1 card", "ref": "068-TEL-EST-AV25", "operator": "Telefónica", "price": 1, "image": "068-TEL-EST-AV25.jpg"},
+
+{"id": "068-TEL-EST-AV27", "title": "Cartões (068-TEL-EST-AV27) Telefónica-Série Estados Brasileiros (27 cards): INCOMPL.: 1 card", "ref": "068-TEL-EST-AV27", "operator": "Telefónica", "price": 1, "image": "068-TEL-EST-AV27.jpg"},
+
+{"id": "069-TEL-CAV-AV01", "title": "Cartões (069-TEL-CAV-AV01) Telefónica-Série Cavalos (12 cards): INCOMPL.: 1 card", "ref": "069-TEL-CAV-AV01", "operator": "Telefónica", "price": 1, "image": "069-TEL-CAV-AV01.jpg"},
+
+{"id": "069-TEL-CAV-AV02", "title": "Cartões (069-TEL-CAV-AV02) Telefónica-Série Cavalos (12 cards): INCOMPL.: 1 card", "ref": "069-TEL-CAV-AV02", "operator": "Telefónica", "price": 1, "image": "069-TEL-CAV-AV02.jpg"},
+
+{"id": "069-TEL-CAV-AV03", "title": "Cartões (069-TEL-CAV-AV03) Telefónica-Série Cavalos (12 cards): INCOMPL.: 1 card", "ref": "069-TEL-CAV-AV03", "operator": "Telefónica", "price": 1, "image": "069-TEL-CAV-AV03.jpg"},
+
+{"id": "069-TEL-CAV-AV04", "title": "Cartões (069-TEL-CAV-AV04) Telefónica-Série Cavalos (12 cards): INCOMPL.: 1 card", "ref": "069-TEL-CAV-AV04", "operator": "Telefónica", "price": 1, "image": "069-TEL-CAV-AV04.jpg"},
+
+{"id": "070-TEL-TER-C", "title": "Cartões (070-TEL-TER-C) Telefónica-Série Terra (2 cards): COMPLETA: 2 card", "ref": "070-TEL-TER-C", "operator": "Telefónica", "price": 3, "image": "070-TEL-TER-C.jpg"},
+
+{"id": "071-TEL-ANI-01a10-INC", "title": "Cartões (071-TEL-ANI-INC) Telefónica-Série Animais/Animais silvestres - 01 a 10 (26 cards): INCOMPL.: 8 card", "ref": "071-TEL-ANI-01a10-INC", "operator": "Telefónica", "price": 7, "image": "071-TEL-ANI-01a10-INC.jpg"},
+
+{"id": "071-TEL-ANI-11a20-INC", "title": "Cartões (071-TEL-ANI-INC) Telefónica-Série Animais/Animais silvestres - 11 a 20 (26 cards): INCOMPL.: 9 card", "ref": "071-TEL-ANI-11a20-INC", "operator": "Telefónica", "price": 8, "image": "071-TEL-ANI-11a20-INC.jpg"},
+
+{"id": "071-TEL-ANI-21a25-INC", "title": "Cartões (071-TEL-ANI-INC) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 5 card", "ref": "071-TEL-ANI-21a25-INC", "operator": "Telefónica", "price": 4, "image": "071-TEL-ANI-21a25-INC.jpg"},
+
+{"id": "071-TEL-ANI-AV05", "title": "Cartões (071-TEL-ANI-AV05) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV05", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV05.jpg"},
+
+{"id": "071-TEL-ANI-AV08", "title": "Cartões (071-TEL-ANI-AV08) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV08", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV08.jpg"},
+
+{"id": "071-TEL-ANI-AV13", "title": "Cartões (071-TEL-ANI-AV13) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV13", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV13.jpg"},
+
+{"id": "071-TEL-ANI-AV16", "title": "Cartões (071-TEL-ANI-AV16) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV16", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV16.jpg"},
+
+{"id": "071-TEL-ANI-AV19", "title": "Cartões (071-TEL-ANI-AV19) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV19", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV19.jpg"},
+
+{"id": "071-TEL-ANI-AV21", "title": "Cartões (071-TEL-ANI-AV21) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV21", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV21.jpg"},
+
+{"id": "071-TEL-ANI-AV22", "title": "Cartões (071-TEL-ANI-AV22) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV22", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV22.jpg"},
+
+{"id": "071-TEL-ANI-AV23", "title": "Cartões (071-TEL-ANI-AV23) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV23", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV23.jpg"},
+
+{"id": "071-TEL-ANI-AV25", "title": "Cartões (071-TEL-ANI-AV25) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV25", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV25.jpg"},
+
+{"id": "071-TEL-ANI-AV19", "title": "Cartões (071-TEL-ANI-AV19) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV19", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV19.jpg"},
+
+{"id": "071-TEL-ANI-AV21", "title": "Cartões (071-TEL-ANI-AV21) Telefónica-Série Animais/Animais silvestres (26 cards): INCOMPL.: 1 card", "ref": "071-TEL-ANI-AV21", "operator": "Telefónica", "price": 1, "image": "071-TEL-ANI-AV21.jpg"},
+
+{"id": "072-TEL-SER-AV01", "title": "Cartões (072-TEL-SER-AV01) Telefónica-Série Serviços Telefónica  (4 cards): INCOMPL.: 1 card", "ref": "072-TEL-SER-AV01", "operator": "Telefónica", "price": 1, "image": "072-TEL-SER-AV01.jpg"},
+
+{"id": "072-TEL-SER-AV02", "title": "Cartões (072-TEL-SER-AV02) Telefónica-Série Serviços Telefónica  (4 cards): INCOMPL.: 1 card", "ref": "072-TEL-SER-AV02", "operator": "Telefónica", "price": 1, "image": "072-TEL-SER-AV02.jpg"},
+
+{"id": "072-TEL-SER-AV03", "title": "Cartões (072-TEL-SER-AV03) Telefónica-Série Serviços Telefónica  (4 cards): INCOMPL.: 1 card", "ref": "072-TEL-SER-AV03", "operator": "Telefónica", "price": 1, "image": "072-TEL-SER-AV03.jpg"},
+
+{"id": "072-TEL-SER-AV04", "title": "Cartões (072-TEL-SER-AV04) Telefónica-Série Serviços Telefónica  (4 cards): INCOMPL.: 1 card", "ref": "072-TEL-SER-AV04", "operator": "Telefónica", "price": 1, "image": "072-TEL-SER-AV04.jpg"},
+
+{"id": "073-TEL-ASE-AV01", "title": "Cartões (073-TEL-ASE-AV01) Telefónica-Série Animais Selvagens  (10 cards): INCOMPL.: 1 card", "ref": "073-TEL-ASE-AV01", "operator": "Telefónica", "price": 1, "image": "073-TEL-ASE-AV01.jpg"},
+
+{"id": "073-TEL-ASE-AV01", "title": "Cartões (073-TEL-ASE-AV01) Telefónica-Série Animais Selvagens  (10 cards): INCOMPL.: 1 card", "ref": "073-TEL-ASE-AV01", "operator": "Telefónica", "price": 1, "image": "073-TEL-ASE-AV01.jpg"},
+
+{"id": "074-TEL-VOV-AV01", "title": "Cartões (074-TEL-VOV-AV01) Telefónica-Série Dia Vovó  (6 cards): INCOMPL.: 1 card", "ref": "074-TEL-VOV-AV01", "operator": "Telefónica", "price": 1, "image": "074-TEL-VOV-AV01.jpg"},
+
+{"id": "074-TEL-VOV-AV03", "title": "Cartões (074-TEL-VOV-AV03) Telefónica-Série Dia Vovó  (6 cards): INCOMPL.: 1 card", "ref": "074-TEL-VOV-AV03", "operator": "Telefónica", "price": 1, "image": "074-TEL-VOV-AV03.jpg"},
+
+{"id": "079-TEL-POR-INC", "title": "Cartões (079-TEL-POR-INC) Telefónica-Série Portais (10 cards): INCOMPL.: 3 card", "ref": "079-TEL-POR-INC", "operator": "Telefónica", "price": 2, "image": "079-TEL-POR-INC.jpg"},
+
+{"id": "079-TEL-POR-INC", "title": "Cartões (079-TEL-POR-INC) Telefónica-Série Portais (10 cards): INCOMPL.: 3 card", "ref": "079-TEL-POR-INC", "operator": "Telefónica", "price": 2, "image": "079-TEL-POR-INC.jpg"},
+
+{"id": "079-TEL-POR-INC", "title": "Cartões (079-TEL-POR-INC) Telefónica-Série Portais (10 cards): INCOMPL.: 3 card", "ref": "079-TEL-POR-INC", "operator": "Telefónica", "price": 2, "image": "079-TEL-POR-INC.jpg"},
+
+{"id": "075-TEL-SARP-C", "title": "Cartões (075-TEL-SARP-C) Telefónica-Série SARP-DEC 90 (10 cards): COMPLETA: 10 card", "ref": "075-TEL-SARP-C", "operator": "Telefónica", "price": 11, "image": "075-TEL-SARP-C.jpg"},
+
+{"id": "075-TEL-SARP-INC", "title": "Cartões (075-TEL-SARP-INC) Telefónica-Série SARP-DEC 80 (10 cards): INCOMPL.: 9 card", "ref": "075-TEL-SARP-INC", "operator": "Telefónica", "price": 8, "image": "075-TEL-SARP-INC.jpg"},
+
+{"id": "075-TEL-SARP-AV01", "title": "Cartões (075-TEL-SARP-AV01) Telefónica-Série SARP-CAPA (25 cards): INCOMPL.: 1 card", "ref": "075-TEL-SARP-AV01", "operator": "Telefónica", "price": 1, "image": "075-TEL-SARP-AV01.jpg"},
+
+{"id": "075-TEL-SARP-AV1975", "title": "Cartões (075-TEL-SARP-AV1975) Telefónica-Série SARP-1975 (25 cards): INCOMPL.: 1 card", "ref": "075-TEL-SARP-AV1975", "operator": "Telefónica", "price": 1, "image": "075-TEL-SARP-AV1975.jpg"},
+
+{"id": "075-TEL-SARP-AV1978", "title": "Cartões (075-TEL-SARP-AV1978) Telefónica-Série SARP-1978 (25 cards): INCOMPL.: 1 card", "ref": "075-TEL-SARP-AV1978", "operator": "Telefónica", "price": 1, "image": "075-TEL-SARP-AV1978.jpg"},
+
+{"id": "075-TEL-SARP-AV1979", "title": "Cartões (075-TEL-SARP-AV1979) Telefónica-Série SARP-1979 (25 cards): INCOMPL.: 1 card", "ref": "075-TEL-SARP-AV1979", "operator": "Telefónica", "price": 1, "image": "075-TEL-SARP-AV1979.jpg"},
+
+{"id": "075-TEL-SARP-AV1982", "title": "Cartões (075-TEL-SARP-AV1982) Telefónica-Série SARP-1982 (25 cards): INCOMPL.: 1 card", "ref": "075-TEL-SARP-AV1982", "operator": "Telefónica", "price": 1, "image": "075-TEL-SARP-AV1982.jpg"},
+
+{"id": "075-TEL-SARP-AV1994", "title": "Cartões (075-TEL-SARP-AV1994) Telefónica-Série SARP-1994 (25 cards): INCOMPL.: 1 card", "ref": "075-TEL-SARP-AV1994", "operator": "Telefónica", "price": 1, "image": "075-TEL-SARP-AV1994.jpg"},
+
+{"id": "075-TEL-SARP-AV1999", "title": "Cartões (075-TEL-SARP-AV1999) Telefónica-Série SARP-1999 (25 cards): INCOMPL.: 1 card", "ref": "075-TEL-SARP-AV1999", "operator": "Telefónica", "price": 1, "image": "075-TEL-SARP-AV1999.jpg"},
+
+{"id": "075-TEL-SARP-AV2000", "title": "Cartões (075-TEL-SARP-AV2000) Telefónica-Série SARP-2000 (0 cards): INCOMPL.: 1 card", "ref": "075-TEL-SARP-AV2000", "operator": "Telefónica", "price": 1, "image": "075-TEL-SARP-AV2000.jpg"},
+
+{"id": "076-TEL-TEL-AV01", "title": "Cartões (076-TEL-TEL-AV01) Telefónica-Série Dia do Telefone (10 cards): INCOMPL.: 1 card", "ref": "076-TEL-TEL-AV01", "operator": "Telefónica", "price": 1, "image": "076-TEL-TEL-AV01.jpg"},
+
+{"id": "076-TEL-TEL-AV03", "title": "Cartões (076-TEL-TEL-AV03) Telefónica-Série Dia do Telefone (10 cards): INCOMPL.: 1 card", "ref": "076-TEL-TEL-AV03", "operator": "Telefónica", "price": 1, "image": "076-TEL-TEL-AV03.jpg"},
+
+{"id": "076-TEL-TEL-AV04", "title": "Cartões (076-TEL-TEL-AV04) Telefónica-Série Dia do Telefone (10 cards): INCOMPL.: 1 card", "ref": "076-TEL-TEL-AV04", "operator": "Telefónica", "price": 1, "image": "076-TEL-TEL-AV04.jpg"},
+
+{"id": "076-TEL-TEL-AV05", "title": "Cartões (076-TEL-TEL-AV05) Telefónica-Série Dia do Telefone (10 cards): INCOMPL.: 1 card", "ref": "076-TEL-TEL-AV05", "operator": "Telefónica", "price": 1, "image": "076-TEL-TEL-AV05.jpg"},
+
+{"id": "076-TEL-TEL-AV06", "title": "Cartões (076-TEL-TEL-AV06) Telefónica-Série Dia do Telefone (10 cards): INCOMPL.: 1 card", "ref": "076-TEL-TEL-AV06", "operator": "Telefónica", "price": 1, "image": "076-TEL-TEL-AV06.jpg"},
+
+{"id": "076-TEL-TEL-AV08", "title": "Cartões (076-TEL-TEL-AV08) Telefónica-Série Dia do Telefone (10 cards): INCOMPL.: 1 card", "ref": "076-TEL-TEL-AV08", "operator": "Telefónica", "price": 1, "image": "076-TEL-TEL-AV08.jpg"},
+
+{"id": "076-TEL-TEL-AV09", "title": "Cartões (076-TEL-TEL-AV09) Telefónica-Série Dia do Telefone (10 cards): INCOMPL.: 1 card", "ref": "076-TEL-TEL-AV09", "operator": "Telefónica", "price": 1, "image": "076-TEL-TEL-AV09.jpg"},
+
+{"id": "076-TEL-TEL-AV10", "title": "Cartões (076-TEL-TEL-AV10) Telefónica-Série Dia do Telefone (10 cards): INCOMPL.: 1 card", "ref": "076-TEL-TEL-AV10", "operator": "Telefónica", "price": 1, "image": "076-TEL-TEL-AV10.jpg"},
+
+{"id": "077-TEL-COM-C", "title": "Cartões (077-TEL-COM-C) Telefónica-Série Comemorações  (12 cards): COMPLETA: 12 card", "ref": "077-TEL-COM-C", "operator": "Telefónica", "price": 13, "image": "077-TEL-COM-C.jpg"},
+
+{"id": "077-TEL-COM-AV01", "title": "Cartões (077-TEL-COM-AV01) Telefónica-Série Comemorações  (11 cards): INCOMPL.: 1 card", "ref": "077-TEL-COM-AV01", "operator": "Telefónica", "price": 1, "image": "077-TEL-COM-AV01.jpg"},
+
+{"id": "077-TEL-COM-AV02", "title": "Cartões (077-TEL-COM-AV02) Telefónica-Série Comemorações  (11 cards): INCOMPL.: 1 card", "ref": "077-TEL-COM-AV02", "operator": "Telefónica", "price": 1, "image": "077-TEL-COM-AV02.jpg"},
+
+{"id": "078-TEL-ART-AV01-MARL-01", "title": "Cartões (078-TEL-ART-AV01-MARL) Telefónica-Série ART-MARLES (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV01-MARL-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV01-MARL-01.jpg"},
+
+{"id": "078-TEL-ART-AV02-PARR-01", "title": "Cartões (078-TEL-ART-AV02-PARR) Telefónica-Série ART-M.PARRA (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV02-PARR-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV02-PARR-01.jpg"},
+
+{"id": "078-TEL-ART-AV03-IRAC-01", "title": "Cartões (078-TEL-ART-AV03-IRAC) Telefónica-Série ART-IRACI (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV03-IRAC-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV03-IRAC-01.jpg"},
+
+{"id": "078-TEL-ART-AV04-LUCA-01", "title": "Cartões (078-TEL-ART-AV04-LUCA) Telefónica-Série ART-LUCAS (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV04-LUCA-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV04-LUCA-01.jpg"},
+
+{"id": "078-TEL-ART-AV-05-SARR-12", "title": "Cartões (078-TEL-ART-AV-05-SARR) Telefónica-Série ART-SARRO (110 cards): INCOMPL.: 12 card", "ref": "078-TEL-ART-AV-05-SARR-12", "operator": "Telefónica", "price": 12, "image": "078-TEL-ART-AV-05-SARR-12.jpg"},
+
+{"id": "078-TEL-ART-AV-5.1-SARR-01", "title": "Cartões (078-TEL-ART-AV-5.1-SARR) Telefónica-Série ART-SARRO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-5.1-SARR-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-5.1-SARR-01.jpg"},
+
+{"id": "078-TEL-ART-AV-5.2-SARR-01", "title": "Cartões (078-TEL-ART-AV-5.2-SARR) Telefónica-Série ART-SARRO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-5.2-SARR-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-5.2-SARR-01.jpg"},
+
+{"id": "078-TEL-ART-AV6.1-BLAN-01", "title": "Cartões (078-TEL-ART-AV6.1-BLAN) Telefónica-Série ART-B.Y COUTO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV6.1-BLAN-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV6.1-BLAN-01.jpg"},
+
+{"id": "078-TEL-ART-AV6.2-BLAN-01", "title": "Cartões (078-TEL-ART-AV6.2-BLAN) Telefónica-Série ART-B.Y COUTO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV6.2-BLAN-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV6.2-BLAN-01.jpg"},
+
+{"id": "078-TEL-ART-AV6.3-BLAN-01", "title": "Cartões (078-TEL-ART-AV6.3-BLAN) Telefónica-Série ART-B.Y COUTO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV6.3-BLAN-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV6.3-BLAN-01.jpg"},
+
+{"id": "078-TEL-ART-AV6.4-BLAN-01", "title": "Cartões (078-TEL-ART-AV6.4-BLAN) Telefónica-Série ART-B.Y COUTO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV6.4-BLAN-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV6.4-BLAN-01.jpg"},
+
+{"id": "078-TEL-ART-AV-7-ACHIL-06", "title": "Cartões (078-TEL-ART-AV-7-ACHIL) Telefónica-Série ART-ACHILLES (110 cards): INCOMPL.: 6 card", "ref": "078-TEL-ART-AV-7-ACHIL-06", "operator": "Telefónica", "price": 5, "image": "078-TEL-ART-AV-7-ACHIL-06.jpg"},
+
+{"id": "078-TEL-ART-AV-7.1-ACHIL-01", "title": "Cartões (078-TEL-ART-AV-7.1-ACHIL) Telefónica-Série ART-ACHILLES (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-7.1-ACHIL-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-7.1-ACHIL-01.jpg"},
+
+{"id": "078-TEL-ART-AV-7.2-ACHIL-01", "title": "Cartões (078-TEL-ART-AV-7.2-ACHIL) Telefónica-Série ART-ACHILLES (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-7.2-ACHIL-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-7.2-ACHIL-01.jpg"},
+
+{"id": "078-TEL-ART-AV-08-FERR-05", "title": "Cartões (078-TEL-ART-AV-08-FERR) Telefónica-Série ART-FERRACIOLI (110 cards): INCOMPL.: 5 card", "ref": "078-TEL-ART-AV-08-FERR-05", "operator": "Telefónica", "price": 6, "image": "078-TEL-ART-AV-08-FERR-05.jpg"},
+
+{"id": "078-TEL-ART-AV-8.1-FERR-01", "title": "Cartões (078-TEL-ART-AV-8.1-FERR) Telefónica-Série ART-FERRACIOLI (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-8.1-FERR-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-8.1-FERR-01.jpg"},
+
+{"id": "078-TEL-ART-AV-8.2-FERR-01", "title": "Cartões (078-TEL-ART-AV-8.2-FERR) Telefónica-Série ART-FERRACIOLI (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-8.2-FERR-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-8.2-FERR-01.jpg"},
+
+{"id": "078-TEL-ART-AV-9.1-VERG-01", "title": "Cartões (078-TEL-ART-AV-9.1-VERG) Telefónica-Série ART-VERGAMINI (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-9.1-VERG-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-9.1-VERG-01.jpg"},
+
+{"id": "078-TEL-ART-AV-9.2-VERG-01", "title": "Cartões (078-TEL-ART-AV-9.2-VERG) Telefónica-Série ART-VERGAMINI (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-9.2-VERG-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-9.2-VERG-01.jpg"},
+
+{"id": "078-TEL-ART-AV-10.1-ROSA-01", "title": "Cartões (078-TEL-ART-AV-10.1-ROSA) Telefónica-Série ART-ROSA (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-10.1-ROSA-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-10.1-ROSA-01.jpg"},
+
+{"id": "078-TEL-ART-AV-10.2-ROSA-01", "title": "Cartões (078-TEL-ART-AV-10.2-ROSA) Telefónica-Série ART-ROSA (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-10.2-ROSA-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-10.2-ROSA-01.jpg"},
+
+{"id": "078-TEL-ART-AV-11-D.EST-05", "title": "Cartões (078-TEL-ART-AV-11-D.EST) Telefónica-Série ART-D.ESTEVES (110 cards): INCOMPL.: 5 card", "ref": "078-TEL-ART-AV-11-D.EST-05", "operator": "Telefónica", "price": 6, "image": "078-TEL-ART-AV-11-D.EST-05.jpg"},
+
+{"id": "078-TEL-ART-AV12.1-SCHIAZ-01", "title": "Cartões (078-TEL-ART-AV12.1-SCHIAZ) Telefónica-Série ART-CHIAZ (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV12.1-SCHIAZ-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV12.1-SCHIAZ-01.jpg"},
+
+{"id": "078-TEL-ART-AV12.2-SCHIAZ-01", "title": "Cartões (078-TEL-ART-AV12.2-SCHIAZ) Telefónica-Série ART-CHIAZ (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV12.2-SCHIAZ-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV12.2-SCHIAZ-01.jpg"},
+
+{"id": "078-TEL-ART-AV13.1-PASSOS-01", "title": "Cartões (078-TEL-ART-AV13.1-PASSOS) Telefónica-Série ART-T.PASSO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV13.1-PASSOS-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV13.1-PASSOS-01.jpg"},
+
+{"id": "078-TEL-ART-AV13.2-PASSOS-01", "title": "Cartões (078-TEL-ART-AV13.2-PASSOS) Telefónica-Série ART-T.PASSO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV13.2-PASSOS-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV13.2-PASSOS-01.jpg"},
+
+{"id": "078-TEL-ART-AV14-A.STE-01", "title": "Cartões (078-TEL-ART-AV14-A.STE) Telefónica-Série ART-A.STEIN (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV14-A.STE-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV14-A.STE-01.jpg"},
+
+{"id": "078-TEL-ART-AV15-T.BENATI-01", "title": "Cartões (078-TEL-ART-AV15-T.BENATI) Telefónica-Série ART-T.BENATI (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV15-T.BENATI-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV15-T.BENATI-01.jpg"},
+
+{"id": "078-TEL-ART-AV-16-WEIN-05", "title": "Cartões (078-TEL-ART-AV-16-WEIN) Telefónica-Série ART-V.WEINGRILL (110 cards): INCOMPL.: 5 card", "ref": "078-TEL-ART-AV-16-WEIN-05", "operator": "Telefónica", "price": 6, "image": "078-TEL-ART-AV-16-WEIN-05.jpg"},
+
+{"id": "078-TEL-ART-AV-16.1-WEIN-01", "title": "Cartões (078-TEL-ART-AV-16.1-WEIN) Telefónica-Série ART-V.WEINGRILL (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-16.1-WEIN-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-16.1-WEIN-01.jpg"},
+
+{"id": "078-TEL-ART-AV-16.2-WEIN-01", "title": "Cartões (078-TEL-ART-AV-16.2-WEIN) Telefónica-Série ART-V.WEINGRILL (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-16.2-WEIN-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-16.2-WEIN-01.jpg"},
+
+{"id": "078-TEL-ART-AV-16.3-WEIN-01", "title": "Cartões (078-TEL-ART-AV-16.3-WEIN) Telefónica-Série ART-V.WEINGRILL (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-16.3-WEIN-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-16.3-WEIN-01.jpg"},
+
+{"id": "078-TEL-ART-AV-17-BDIAS", "title": "Cartões (078-TEL-ART-AV-17-BDIAS) Telefónica-Série ART-B.DIAS (110 cards): INCOMPL.: 5 card", "ref": "078-TEL-ART-AV-17-BDIAS", "operator": "Telefónica", "price": 6, "image": "078-TEL-ART-AV-17-BDIAS.jpg"},
+
+{"id": "078-TEL-ART-AV-17.1-BDIAS", "title": "Cartões (078-TEL-ART-AV-17.1-BDIAS) Telefónica-Série ART-B.DIAS (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-17.1-BDIAS", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-17.1-BDIAS.jpg"},
+
+{"id": "078-TEL-ART-AV-17.2-BDIAS", "title": "Cartões (078-TEL-ART-AV-17.2-BDIAS) Telefónica-Série ART-B.DIAS (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-17.2-BDIAS", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-17.2-BDIAS.jpg"},
+
+{"id": "078-TEL-ART-AV-18-MARIO", "title": "Cartões (078-TEL-ART-AV-18-MARIO) Telefónica-Série ART-MARIO M (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-18-MARIO", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-18-MARIO.jpg"},
+
+{"id": "078-TEL-ART-AV-19-AUREA", "title": "Cartões (078-TEL-ART-AV-19-AUREA) Telefónica-Série ART-AUREA (110 cards): INCOMPL.: 5 card", "ref": "078-TEL-ART-AV-19-AUREA", "operator": "Telefónica", "price": 4, "image": "078-TEL-ART-AV-19-AUREA.jpg"},
+
+{"id": "078-TEL-ART-AV-19.1-AUREA", "title": "Cartões (078-TEL-ART-AV-19.1-AUREA) Telefónica-Série ART-AUREA (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-19.1-AUREA", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-19.1-AUREA.jpg"},
+
+{"id": "078-TEL-ART-AV-20.1-STELLA", "title": "Cartões (078-TEL-ART-AV-20.1-STELLA) Telefónica-Série ART-STELLA (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-20.1-STELLA", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-20.1-STELLA.jpg"},
+
+{"id": "078-TEL-ART-AV-20.2-STELLA", "title": "Cartões (078-TEL-ART-AV-20.2-STELLA) Telefónica-Série ART-STELLA (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-20.2-STELLA", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-20.2-STELLA.jpg"},
+
+{"id": "078-TEL-ART-AV-21.1-T.ELSAS", "title": "Cartões (078-TEL-ART-AV-21.1-T.ELSAS) Telefónica-Série ART-T.ELSAS (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-21.1-T.ELSAS", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-21.1-T.ELSAS.jpg"},
+
+{"id": "078-TEL-ART-AV-21.2-T.ELSAS", "title": "Cartões (078-TEL-ART-AV-21.2-T.ELSAS) Telefónica-Série ART-T.ELSAS (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-21.2-T.ELSAS", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-21.2-T.ELSAS.jpg"},
+
+{"id": "078-TEL-ART-AV-22.1-YUJI'", "title": "Cartões (078-TEL-ART-AV-22.1-YUJI') Telefónica-Série ART-YUJI A. (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-22.1-YUJI'", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-22.1-YUJI'.jpg"},
+
+{"id": "078-TEL-ART-AV-22.2-YUJI'", "title": "Cartões (078-TEL-ART-AV-22.2-YUJI') Telefónica-Série ART-YUJI A. (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-22.2-YUJI'", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-22.2-YUJI'.jpg"},
+
+{"id": "078-TEL-ART-AV-23-RAOUL", "title": "Cartões (078-TEL-ART-AV-23-RAOUL) Telefónica-Série ART-RAOUL (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-23-RAOUL", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-23-RAOUL.jpg"},
+
+{"id": "078-TEL-ART-AV-24.1-M.BRI", "title": "Cartões (078-TEL-ART-AV-24.1-M.BRI) Telefónica-Série ART-M.BRITO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-24.1-M.BRI", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-24.1-M.BRI.jpg"},
+
+{"id": "078-TEL-ART-AV-24.2-M.BRI", "title": "Cartões (078-TEL-ART-AV-24.2-M.BRI) Telefónica-Série ART-M.BRITO (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-24.2-M.BRI", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-24.2-M.BRI.jpg"},
+
+{"id": "078-TEL-ART-AV-25-NERIV", "title": "Cartões (078-TEL-ART-AV-25-NERIV) Telefónica-Série ART-NERIVAL (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-25-NERIV", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-25-NERIV.jpg"},
+
+{"id": "078-TEL-ART-AV-26-D.VITOR", "title": "Cartões (078-TEL-ART-AV-26-D.VITOR) Telefónica-Série ART-D.VITOR (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV-26-D.VITOR", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV-26-D.VITOR.jpg"},
+
+{"id": "078-TEL-ART-AV-27-J.NEGR", "title": "Cartões (078-TEL-ART-AV-27-J.NEGR) Telefónica-Série ART-J.NEGREIROS (110 cards): INCOMPL.: 3 card", "ref": "078-TEL-ART-AV-27-J.NEGR", "operator": "Telefónica", "price": 4, "image": "078-TEL-ART-AV-27-J.NEGR.jpg"},
+
+{"id": "078-TEL-ART-AV-28-M.RIC", "title": "Cartões (078-TEL-ART-AV-28-M.RIC) Telefónica-Série ART-M.RICARDO (110 cards): INCOMPL.: 2 card", "ref": "078-TEL-ART-AV-28-M.RIC", "operator": "Telefónica", "price": 3, "image": "078-TEL-ART-AV-28-M.RIC.jpg"},
+
+{"id": "078-TEL-ART-AV-29.1-BELIN", "title": "Cartões (078-TEL-ART-AV-29.1-BELIN) Telefónica-Série ART-BELINHA (110 cards): INCOMPL.: 2 card", "ref": "078-TEL-ART-AV-29.1-BELIN", "operator": "Telefónica", "price": 3, "image": "078-TEL-ART-AV-29.1-BELIN.jpg"},
+
+{"id": "078-TEL-ART-AV29.2-BELIN", "title": "Cartões (078-TEL-ART-AV29.2-BELIN) Telefónica-Série ART-BELINHA (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV29.2-BELIN", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV29.2-BELIN.jpg"},
+
+{"id": "078-TEL-ART-AV30-HIDEA", "title": "Cartões (078-TEL-ART-AV30-HIDEA) Telefónica-Série ART-HIDEAKI (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV30-HIDEA", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV30-HIDEA.jpg"},
+
+{"id": "078-TEL-ART-AV31-D.OLLI-01", "title": "Cartões (078-TEL-ART-AV31-D.OLLI) Telefónica-Série ART-D.OLLINDA (110 cards): INCOMPL.: 1 card", "ref": "078-TEL-ART-AV31-D.OLLI-01", "operator": "Telefónica", "price": 1, "image": "078-TEL-ART-AV31-D.OLLI-01.jpg"},
+
+{"id": "079-TEL-POR-AV03", "title": "Cartões (079-TEL-POR-AV03) Telefónica-Série Portais (10 cards): INCOMPL.: 1 card", "ref": "079-TEL-POR-AV03", "operator": "Telefónica", "price": 1, "image": "079-TEL-POR-AV03.jpg"},
+
+{"id": "079-TEL-POR-AV04", "title": "Cartões (079-TEL-POR-AV04) Telefónica-Série Portais (10 cards): INCOMPL.: 1 card", "ref": "079-TEL-POR-AV04", "operator": "Telefónica", "price": 1, "image": "079-TEL-POR-AV04.jpg"},
+
+{"id": "079-TEL-POR-AV06", "title": "Cartões (079-TEL-POR-AV06) Telefónica-Série Portais (10 cards): INCOMPL.: 1 card", "ref": "079-TEL-POR-AV06", "operator": "Telefónica", "price": 1, "image": "079-TEL-POR-AV06.jpg"},
+
+{"id": "080-TEL-TPU-C", "title": "Cartões (080-TEL-TPU-C) Telefónica-Série Telefone Público (10 cards): COMPLETA: 10 card", "ref": "080-TEL-TPU-C", "operator": "Telefónica", "price": 11, "image": "080-TEL-TPU-C.jpg"},
+
+{"id": "080-TEL-TPU-AV01", "title": "Cartões (080-TEL-TPU-AV01) Telefónica-Série Telefone Público (10 cards): INCOMPL.: 1 card", "ref": "080-TEL-TPU-AV01", "operator": "Telefónica", "price": 1, "image": "080-TEL-TPU-AV01.jpg"},
+
+{"id": "080-TEL-TPU-AV02", "title": "Cartões (080-TEL-TPU-AV02) Telefónica-Série Telefone Público (10 cards): INCOMPL.: 1 card", "ref": "080-TEL-TPU-AV02", "operator": "Telefónica", "price": 1, "image": "080-TEL-TPU-AV02.jpg"},
+
+{"id": "080-TEL-TPU-AV03", "title": "Cartões (080-TEL-TPU-AV03) Telefónica-Série Telefone Público (10 cards): INCOMPL.: 1 card", "ref": "080-TEL-TPU-AV03", "operator": "Telefónica", "price": 1, "image": "080-TEL-TPU-AV03.jpg"},
+
+{"id": "081-TEL-ENA-AV10", "title": "Cartões (081-TEL-ENA-AV10) Telefónica-Série Esportes Náuticos (10 cards): INCOMPL.: 1 card", "ref": "081-TEL-ENA-AV10", "operator": "Telefónica", "price": 1, "image": "081-TEL-ENA-AV10.jpg"},
+
+{"id": "081-TEL-ENA-AV09", "title": "Cartões (081-TEL-ENA-AV09) Telefónica-Série Esportes Náuticos (10 cards): INCOMPL.: 1 card", "ref": "081-TEL-ENA-AV09", "operator": "Telefónica", "price": 1, "image": "081-TEL-ENA-AV09.jpg"},
+
+{"id": "081-TEL-ENA-AV08", "title": "Cartões (081-TEL-ENA-AV08) Telefónica-Série Esportes Náuticos (10 cards): INCOMPL.: 1 card", "ref": "081-TEL-ENA-AV08", "operator": "Telefónica", "price": 1, "image": "081-TEL-ENA-AV08.jpg"},
+
+{"id": "081-TEL-ENA-AV06", "title": "Cartões (081-TEL-ENA-AV06) Telefónica-Série Esportes Náuticos (10 cards): INCOMPL.: 1 card", "ref": "081-TEL-ENA-AV06", "operator": "Telefónica", "price": 1, "image": "081-TEL-ENA-AV06.jpg"},
+
+{"id": "081-TEL-ENA-AV05", "title": "Cartões (081-TEL-ENA-AV05) Telefónica-Série Esportes Náuticos (10 cards): INCOMPL.: 1 card", "ref": "081-TEL-ENA-AV05", "operator": "Telefónica", "price": 1, "image": "081-TEL-ENA-AV05.jpg"},
+
+{"id": "081-TEL-ENA-AV02", "title": "Cartões (081-TEL-ENA-AV02) Telefónica-Série Esportes Náuticos (10 cards): INCOMPL.: 1 card", "ref": "081-TEL-ENA-AV02", "operator": "Telefónica", "price": 1, "image": "081-TEL-ENA-AV02.jpg"},
+
+{"id": "082-TEL-SPA-C", "title": "Cartões (082-TEL-SPA-C) Telefónica-Série Homenagem a São Paulo (5 cards): COMPLETA: 5 card", "ref": "082-TEL-SPA-C", "operator": "Telefónica", "price": 6, "image": "082-TEL-SPA-C.jpg"},
+
+{"id": "082-TEL-SPA-AV01", "title": "Cartões (082-TEL-SPA-AV01) Telefónica-Série Homenagem a São Paulo ( cards): INCOMPL.: 1 card", "ref": "082-TEL-SPA-AV01", "operator": "Telefónica", "price": 1, "image": "082-TEL-SPA-AV01.jpg"},
+
+{"id": "082-TEL-SPA-AV02", "title": "Cartões (082-TEL-SPA-AV02) Telefónica-Série Homenagem a São Paulo ( cards): INCOMPL.: 1 card", "ref": "082-TEL-SPA-AV02", "operator": "Telefónica", "price": 1, "image": "082-TEL-SPA-AV02.jpg"},
+
+{"id": "082-TEL-SPA-AV03", "title": "Cartões (082-TEL-SPA-AV03) Telefónica-Série Homenagem a São Paulo ( cards): INCOMPL.: 1 card", "ref": "082-TEL-SPA-AV03", "operator": "Telefónica", "price": 1, "image": "082-TEL-SPA-AV03.jpg"},
+
+{"id": "083-TEL-PAS-AV01", "title": "Cartões (083-TEL-PAS-AV01) Telefónica-Série Páscoa 2003 (6 cards): INCOMPL.: 1 card", "ref": "083-TEL-PAS-AV01", "operator": "Telefónica", "price": 1, "image": "083-TEL-PAS-AV01.jpg"},
+
+{"id": "083-TEL-PAS-AV02", "title": "Cartões (083-TEL-PAS-AV02) Telefónica-Série Páscoa 2003 (6 cards): INCOMPL.: 1 card", "ref": "083-TEL-PAS-AV02", "operator": "Telefónica", "price": 1, "image": "083-TEL-PAS-AV02.jpg"},
+
+{"id": "083-TEL-PAS-AV03", "title": "Cartões (083-TEL-PAS-AV03) Telefónica-Série Páscoa 2003 (6 cards): INCOMPL.: 1 card", "ref": "083-TEL-PAS-AV03", "operator": "Telefónica", "price": 1, "image": "083-TEL-PAS-AV03.jpg"},
+
+{"id": "083-TEL-PAS-AV06", "title": "Cartões (083-TEL-PAS-AV06) Telefónica-Série Páscoa 2003 (6 cards): INCOMPL.: 1 card", "ref": "083-TEL-PAS-AV06", "operator": "Telefónica", "price": 1, "image": "083-TEL-PAS-AV06.jpg"},
+
+{"id": "084-TEL-CAC-C", "title": "Cartões (084-TEL-CAC-C) Telefónica-Série Cachoeiras (13 cards): COMPLETA: 13 card", "ref": "084-TEL-CAC-C", "operator": "Telefónica", "price": 14, "image": "084-TEL-CAC-C.jpg"},
+
+{"id": "084-TEL-CAC-AV01", "title": "Cartões (084-TEL-CAC-AV01) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV01", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV01.jpg"},
+
+{"id": "084-TEL-CAC-AV02", "title": "Cartões (084-TEL-CAC-AV02) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV02", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV02.jpg"},
+
+{"id": "084-TEL-CAC-AV03", "title": "Cartões (084-TEL-CAC-AV03) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV03", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV03.jpg"},
+
+{"id": "084-TEL-CAC-AV04", "title": "Cartões (084-TEL-CAC-AV04) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV04", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV04.jpg"},
+
+{"id": "084-TEL-CAC-AV05", "title": "Cartões (084-TEL-CAC-AV05) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV05", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV05.jpg"},
+
+{"id": "084-TEL-CAC-AV06", "title": "Cartões (084-TEL-CAC-AV06) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV06", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV06.jpg"},
+
+{"id": "084-TEL-CAC-AV07", "title": "Cartões (084-TEL-CAC-AV07) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV07", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV07.jpg"},
+
+{"id": "084-TEL-CAC-AV08", "title": "Cartões (084-TEL-CAC-AV08) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV08", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV08.jpg"},
+
+{"id": "084-TEL-CAC-AV09", "title": "Cartões (084-TEL-CAC-AV09) Telefónica-Série Cachoeiras (13 cards): INCOMPL.: 1 card", "ref": "084-TEL-CAC-AV09", "operator": "Telefónica", "price": 1, "image": "084-TEL-CAC-AV09.jpg"},
+
+{"id": "085-TEL-1SO-C", "title": "Cartões (085-TEL-1SO-C) Telefónica-Série 1º Socorros (4 cards): COMPLETA: 4 card", "ref": "085-TEL-1SO-C", "operator": "Telefónica", "price": 5, "image": "085-TEL-1SO-C.jpg"},
+
+{"id": "085-TEL-1SO-AV01", "title": "Cartões (085-TEL-1SO-AV01) Telefónica-Série 1º Socorros (4 cards): INCOMPL.: 1 card", "ref": "085-TEL-1SO-AV01", "operator": "Telefónica", "price": 1, "image": "085-TEL-1SO-AV01.jpg"},
+
+{"id": "085-TEL-1SO-AV03", "title": "Cartões (085-TEL-1SO-AV03) Telefónica-Série 1º Socorros (4 cards): INCOMPL.: 1 card", "ref": "085-TEL-1SO-AV03", "operator": "Telefónica", "price": 1, "image": "085-TEL-1SO-AV03.jpg"},
+
+{"id": "086-TEL-NES-AV01", "title": "Cartões (086-TEL-NES-AV01) Telefónica-Série Nestlé 1-10 (10 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV01", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV01.jpg"},
+
+{"id": "086-TEL-NES-AV02", "title": "Cartões (086-TEL-NES-AV02) Telefónica-Série Nestlé 1-10 (10 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV02", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV02.jpg"},
+
+{"id": "086-TEL-NES-AV05", "title": "Cartões (086-TEL-NES-AV05) Telefónica-Série Nestlé 1-10 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV05", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV05.jpg"},
+
+{"id": "086-TEL-NES-AV07", "title": "Cartões (086-TEL-NES-AV07) Telefónica-Série Nestlé 1-10 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV07", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV07.jpg"},
+
+{"id": "086-TEL-NES-AV09", "title": "Cartões (086-TEL-NES-AV09) Telefónica-Série Nestlé 1-10 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV09", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV09.jpg"},
+
+{"id": "086-TEL-NES-AV13", "title": "Cartões (086-TEL-NES-AV13) Telefónica-Série Nestlé 11-20 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV13", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV13.jpg"},
+
+{"id": "086-TEL-NES-AV14", "title": "Cartões (086-TEL-NES-AV14) Telefónica-Série Nestlé 11-20 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV14", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV14.jpg"},
+
+{"id": "086-TEL-NES-AV15", "title": "Cartões (086-TEL-NES-AV15) Telefónica-Série Nestlé 11-20 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV15", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV15.jpg"},
+
+{"id": "086-TEL-NES-AV16", "title": "Cartões (086-TEL-NES-AV16) Telefónica-Série Nestlé 11-20 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV16", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV16.jpg"},
+
+{"id": "086-TEL-NES-AV17", "title": "Cartões (086-TEL-NES-AV17) Telefónica-Série Nestlé 11-20 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV17", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV17.jpg"},
+
+{"id": "086-TEL-NES-AV18", "title": "Cartões (086-TEL-NES-AV18) Telefónica-Série Nestlé 11-20 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV18", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV18.jpg"},
+
+{"id": "086-TEL-NES-AV20", "title": "Cartões (086-TEL-NES-AV20) Telefónica-Série Nestlé 11-20 (20 cards): INCOMPL.: 1 card", "ref": "086-TEL-NES-AV20", "operator": "Telefónica", "price": 1, "image": "086-TEL-NES-AV20.jpg"},
+
+{"id": "087-TEL-RIB-INC", "title": "Cartões (087-TEL-RIB-INC) Telefónica-Série Ribeirinhos em Naif (8 cards): INCOMPL.: 7 card", "ref": "087-TEL-RIB-INC", "operator": "Telefónica", "price": 6, "image": "087-TEL-RIB-INC.jpg"},
+
+{"id": "088-TEL-PRI-C", "title": "Cartões (088-TEL-PRI-C) Telefónica-Série Primavera (10 cards): COMPLETA: 10 card", "ref": "088-TEL-PRI-C", "operator": "Telefónica", "price": 11, "image": "088-TEL-PRI-C.jpg"},
+
+{"id": "088-TEL-PRI-AV01", "title": "Cartões (088-TEL-PRI-AV01) Telefónica-Série Primavera (10 cards): INCOMPL.: 1 card", "ref": "088-TEL-PRI-AV01", "operator": "Telefónica", "price": 1, "image": "088-TEL-PRI-AV01.jpg"},
+
+{"id": "088-TEL-PRI-AV03", "title": "Cartões (088-TEL-PRI-AV03) Telefónica-Série Primavera (10 cards): INCOMPL.: 1 card", "ref": "088-TEL-PRI-AV03", "operator": "Telefónica", "price": 1, "image": "088-TEL-PRI-AV03.jpg"},
+
+{"id": "088-TEL-PRI-AV05", "title": "Cartões (088-TEL-PRI-AV05) Telefónica-Série Primavera (10 cards): INCOMPL.: 1 card", "ref": "088-TEL-PRI-AV05", "operator": "Telefónica", "price": 1, "image": "088-TEL-PRI-AV05.jpg"},
+
+{"id": "088-TEL-PRI-AV06", "title": "Cartões (088-TEL-PRI-AV06) Telefónica-Série Primavera (10 cards): INCOMPL.: 1 card", "ref": "088-TEL-PRI-AV06", "operator": "Telefónica", "price": 1, "image": "088-TEL-PRI-AV06.jpg"},
+
+{"id": "088-TEL-PRI-AV07", "title": "Cartões (088-TEL-PRI-AV07) Telefónica-Série Primavera (10 cards): INCOMPL.: 1 card", "ref": "088-TEL-PRI-AV07", "operator": "Telefónica", "price": 1, "image": "088-TEL-PRI-AV07.jpg"},
+
+{"id": "088-TEL-PRI-AV10", "title": "Cartões (088-TEL-PRI-AV10) Telefónica-Série Primavera (10 cards): INCOMPL.: 1 card", "ref": "088-TEL-PRI-AV10", "operator": "Telefónica", "price": 1, "image": "088-TEL-PRI-AV10.jpg"},
+
+{"id": "089-TEL-ECO-C", "title": "Cartões (089-TEL-ECO-C) Telefónica-Série EcoKids (5 cards): COMPLETA: 5 card", "ref": "089-TEL-ECO-C", "operator": "Telefónica", "price": 6, "image": "089-TEL-ECO-C.jpg"},
+
+{"id": "089-TEL-ECO-AV03", "title": "Cartões (089-TEL-ECO-AV03) Telefónica-Série EcoKids (5 cards): INCOMPL.: 1 card", "ref": "089-TEL-ECO-AV03", "operator": "Telefónica", "price": 1, "image": "089-TEL-ECO-AV03.jpg"},
+
+{"id": "089-TEL-ECO-AV04", "title": "Cartões (089-TEL-ECO-AV04) Telefónica-Série EcoKids (5 cards): INCOMPL.: 1 card", "ref": "089-TEL-ECO-AV04", "operator": "Telefónica", "price": 1, "image": "089-TEL-ECO-AV04.jpg"},
+
+{"id": "090-TEL-MAE-INC", "title": "Cartões (090-TEL-MAE-INC) Telefónica-Série Dia das Mães (6 cards): INCOMPL.: 5 card", "ref": "090-TEL-MAE-INC", "operator": "Telefónica", "price": 5, "image": "090-TEL-MAE-INC.jpg"},
+
+{"id": "091-TEL-1MA-AV03", "title": "Cartões (091-TEL-1MA-AV03) Telefónica-Série 1º Maio (7 cards): INCOMPL.: 1 card", "ref": "091-TEL-1MA-AV03", "operator": "Telefónica", "price": 1, "image": "091-TEL-1MA-AV03.jpg"},
+
+{"id": "091-TEL-1MA-AV05", "title": "Cartões (091-TEL-1MA-AV05) Telefónica-Série 1º Maio (7 cards): INCOMPL.: 1 card", "ref": "091-TEL-1MA-AV05", "operator": "Telefónica", "price": 1, "image": "091-TEL-1MA-AV05.jpg"},
+
+{"id": "091-TEL-1MA-AV04", "title": "Cartões (091-TEL-1MA-AV04) Telefónica-Série 1º Maio (7 cards): INCOMPL.: 1 card", "ref": "091-TEL-1MA-AV04", "operator": "Telefónica", "price": 1, "image": "091-TEL-1MA-AV04.jpg"},
+
+{"id": "091-TEL-1MA-AV07", "title": "Cartões (091-TEL-1MA-AV07) Telefónica-Série 1º Maio (7 cards): INCOMPL.: 1 card", "ref": "091-TEL-1MA-AV07", "operator": "Telefónica", "price": 1, "image": "091-TEL-1MA-AV07.jpg"},
+
+{"id": "092-TEL-PRA-AV01", "title": "Cartões (092-TEL-PRA-AV01) Telefónica-Série Praias Paulista (15 cards): INCOMPL.: 1 card", "ref": "092-TEL-PRA-AV01", "operator": "Telefónica", "price": 1, "image": "092-TEL-PRA-AV01.jpg"},
+
+{"id": "092-TEL-PRA-AV02", "title": "Cartões (092-TEL-PRA-AV02) Telefónica-Série Praias Paulista (15 cards): INCOMPL.: 1 card", "ref": "092-TEL-PRA-AV02", "operator": "Telefónica", "price": 1, "image": "092-TEL-PRA-AV02.jpg"},
+
+{"id": "093-TEL-SIN-AV01", "title": "Cartões (093-TEL-SIN-AV01) Telefónica-Série Dia do Síndico (6 cards): INCOMPL.: 1 card", "ref": "093-TEL-SIN-AV01", "operator": "Telefónica", "price": 1, "image": "093-TEL-SIN-AV01.jpg"},
+
+{"id": "093-TEL-SIN-AV02", "title": "Cartões (093-TEL-SIN-AV02) Telefónica-Série Dia do Síndico (6 cards): INCOMPL.: 1 card", "ref": "093-TEL-SIN-AV02", "operator": "Telefónica", "price": 1, "image": "093-TEL-SIN-AV02.jpg"},
+
+{"id": "093-TEL-SIN-AV03", "title": "Cartões (093-TEL-SIN-AV03) Telefónica-Série Dia do Síndico (6 cards): INCOMPL.: 1 card", "ref": "093-TEL-SIN-AV03", "operator": "Telefónica", "price": 1, "image": "093-TEL-SIN-AV03.jpg"},
+
+{"id": "093-TEL-SIN-AV04", "title": "Cartões (093-TEL-SIN-AV04) Telefónica-Série Dia do Síndico (6 cards): INCOMPL.: 1 card", "ref": "093-TEL-SIN-AV04", "operator": "Telefónica", "price": 1, "image": "093-TEL-SIN-AV04.jpg"},
+
+{"id": "094-TEL-NAM-AV01", "title": "Cartões (094-TEL-NAM-AV01) Telefónica-Série Dia dos Namorados (10 cards): INCOMPL.: 1 card", "ref": "094-TEL-NAM-AV01", "operator": "Telefónica", "price": 1, "image": "094-TEL-NAM-AV01.jpg"},
+
+{"id": "094-TEL-NAM-AV09", "title": "Cartões (094-TEL-NAM-AV09) Telefónica-Série Dia dos Namorados (10 cards): INCOMPL.: 1 card", "ref": "094-TEL-NAM-AV09", "operator": "Telefónica", "price": 1, "image": "094-TEL-NAM-AV09.jpg"},
+
+{"id": "094-TEL-NAM-AV10", "title": "Cartões (094-TEL-NAM-AV10) Telefónica-Série Dia dos Namorados (10 cards): INCOMPL.: 1 card", "ref": "094-TEL-NAM-AV10", "operator": "Telefónica", "price": 1, "image": "094-TEL-NAM-AV10.jpg"},
+
+{"id": "095-TEL-VES-AV02", "title": "Cartões (095-TEL-VES-AV02) Telefónica-Série Vestibular (6 cards): INCOMPL.: 1 card", "ref": "095-TEL-VES-AV02", "operator": "Telefónica", "price": 1, "image": "095-TEL-VES-AV02.jpg"},
+
+{"id": "095-TEL-VES-AV03", "title": "Cartões (095-TEL-VES-AV03) Telefónica-Série Vestibular (6 cards): INCOMPL.: 1 card", "ref": "095-TEL-VES-AV03", "operator": "Telefónica", "price": 1, "image": "095-TEL-VES-AV03.jpg"},
+
+{"id": "095-TEL-VES-AV04", "title": "Cartões (095-TEL-VES-AV04) Telefónica-Série Vestibular (6 cards): INCOMPL.: 1 card", "ref": "095-TEL-VES-AV04", "operator": "Telefónica", "price": 1, "image": "095-TEL-VES-AV04.jpg"},
+
+{"id": "095-TEL-VES-AV05", "title": "Cartões (095-TEL-VES-AV05) Telefónica-Série Vestibular (6 cards): INCOMPL.: 1 card", "ref": "095-TEL-VES-AV05", "operator": "Telefónica", "price": 1, "image": "095-TEL-VES-AV05.jpg"},
+
+{"id": "096-TEL-ALC-AV01", "title": "Cartões (096-TEL-ALC-AV01) Telefónica-Série Álcool (4 cards): INCOMPL.: 1 card", "ref": "096-TEL-ALC-AV01", "operator": "Telefónica", "price": 1, "image": "096-TEL-ALC-AV01.jpg"},
+
+{"id": "096-TEL-ALC-AV03", "title": "Cartões (096-TEL-ALC-AV03) Telefónica-Série Álcool (4 cards): INCOMPL.: 1 card", "ref": "096-TEL-ALC-AV03", "operator": "Telefónica", "price": 1, "image": "096-TEL-ALC-AV03.jpg"},
+
+{"id": "097-TEL-P04-AV01", "title": "Cartões (097-TEL-P04-AV01) Telefónica-Série Páscoa 2004 (6 cards): INCOMPL.: 1 card", "ref": "097-TEL-P04-AV01", "operator": "Telefónica", "price": 1, "image": "097-TEL-P04-AV01.jpg"},
+
+{"id": "097-TEL-P04-AV02", "title": "Cartões (097-TEL-P04-AV02) Telefónica-Série Páscoa 2004 (6 cards): INCOMPL.: 1 card", "ref": "097-TEL-P04-AV02", "operator": "Telefónica", "price": 1, "image": "097-TEL-P04-AV02.jpg"},
+
+{"id": "097-TEL-P04-AV05", "title": "Cartões (097-TEL-P04-AV05) Telefónica-Série Páscoa 2004 (6 cards): INCOMPL.: 1 card", "ref": "097-TEL-P04-AV05", "operator": "Telefónica", "price": 1, "image": "097-TEL-P04-AV05.jpg"},
+
+{"id": "097-TEL-P04-AV06", "title": "Cartões (097-TEL-P04-AV06) Telefónica-Série Páscoa 2004 (6 cards): INCOMPL.: 1 card", "ref": "097-TEL-P04-AV06", "operator": "Telefónica", "price": 1, "image": "097-TEL-P04-AV06.jpg"},
+
+{"id": "098-TEL-RAP-AV01", "title": "Cartões (098-TEL-RAP-AV01) Telefónica-Série Aves de Rapina (8 cards): INCOMPL.: 1 card", "ref": "098-TEL-RAP-AV01", "operator": "Telefónica", "price": 1, "image": "098-TEL-RAP-AV01.jpg"},
+
+{"id": "098-TEL-RAP-AV02", "title": "Cartões (098-TEL-RAP-AV02) Telefónica-Série Aves de Rapina (8 cards): INCOMPL.: 1 card", "ref": "098-TEL-RAP-AV02", "operator": "Telefónica", "price": 1, "image": "098-TEL-RAP-AV02.jpg"},
+
+{"id": "098-TEL-RAP-AV03", "title": "Cartões (098-TEL-RAP-AV03) Telefónica-Série Aves de Rapina (8 cards): INCOMPL.: 1 card", "ref": "098-TEL-RAP-AV03", "operator": "Telefónica", "price": 1, "image": "098-TEL-RAP-AV03.jpg"},
+
+{"id": "098-TEL-RAP-AV04", "title": "Cartões (098-TEL-RAP-AV04) Telefónica-Série Aves de Rapina (8 cards): INCOMPL.: 1 card", "ref": "098-TEL-RAP-AV04", "operator": "Telefónica", "price": 1, "image": "098-TEL-RAP-AV04.jpg"},
+
+{"id": "099-TEL-REP-C", "title": "Cartões (099-TEL-REP-C) Telefónica-Série Dia do Repórter 2002 (2 cards): COMPLETA: 2 card", "ref": "099-TEL-REP-C", "operator": "Telefónica", "price": 3, "image": "099-TEL-REP-C.jpg"},
+
+{"id": "100-TEL-F1-AV02", "title": "Cartões (100-TEL-F1-AV02) Telefónica-Série Fórmula 1 2001 (10 cards): INCOMPL.: 1 card", "ref": "100-TEL-F1-AV02", "operator": "Telefónica", "price": 1, "image": "100-TEL-F1-AV02.jpg"},
+
+{"id": "101-TEL-APL-AV03", "title": "Cartões (101-TEL-APL-AV03) Telefónica-Série Artes Plásticas (10 cards): INCOMPL.: 1 card", "ref": "101-TEL-APL-AV03", "operator": "Telefónica", "price": 1, "image": "101-TEL-APL-AV03.jpg"},
+
+{"id": "101-TEL-APL-AV04", "title": "Cartões (101-TEL-APL-AV04) Telefónica-Série Artes Plásticas (10 cards): INCOMPL.: 1 card", "ref": "101-TEL-APL-AV04", "operator": "Telefónica", "price": 1, "image": "101-TEL-APL-AV04.jpg"},
+
+{"id": "101-TEL-APL-AV10", "title": "Cartões (101-TEL-APL-AV10) Telefónica-Série Artes Plásticas (10 cards): INCOMPL.: 1 card", "ref": "101-TEL-APL-AV10", "operator": "Telefónica", "price": 1, "image": "101-TEL-APL-AV10.jpg"},
+
+{"id": "102-TEL-SAC-AV01", "title": "Cartões (102-TEL-SAC-AV01) Telefónica-Série Rede Saci (4 cards): INCOMPL.: 1 card", "ref": "102-TEL-SAC-AV01", "operator": "Telefónica", "price": 1, "image": "102-TEL-SAC-AV01.jpg"},
+
+{"id": "102-TEL-SAC-AV02", "title": "Cartões (102-TEL-SAC-AV02) Telefónica-Série Rede Saci (4 cards): INCOMPL.: 1 card", "ref": "102-TEL-SAC-AV02", "operator": "Telefónica", "price": 1, "image": "102-TEL-SAC-AV02.jpg"},
+
+{"id": "102-TEL-SAC-AV03", "title": "Cartões (102-TEL-SAC-AV03) Telefónica-Série Rede Saci (4 cards): INCOMPL.: 1 card", "ref": "102-TEL-SAC-AV03", "operator": "Telefónica", "price": 1, "image": "102-TEL-SAC-AV03.jpg"},
+
+{"id": "103-TEL-EMP-AV01", "title": "Cartões (103-TEL-EMP-AV01) Telefónica-Série Empreendimentos (6 cards): INCOMPL.: 1 card", "ref": "103-TEL-EMP-AV01", "operator": "Telefónica", "price": 1, "image": "103-TEL-EMP-AV01.jpg"},
+
+{"id": "103-TEL-EMP-AV02", "title": "Cartões (103-TEL-EMP-AV02) Telefónica-Série Empreendimentos (6 cards): INCOMPL.: 1 card", "ref": "103-TEL-EMP-AV02", "operator": "Telefónica", "price": 1, "image": "103-TEL-EMP-AV02.jpg"},
+
+{"id": "103-TEL-EMP-AV03", "title": "Cartões (103-TEL-EMP-AV03) Telefónica-Série Empreendimentos (6 cards): INCOMPL.: 1 card", "ref": "103-TEL-EMP-AV03", "operator": "Telefónica", "price": 1, "image": "103-TEL-EMP-AV03.jpg"},
+
+{"id": "103-TEL-EMP-AV04", "title": "Cartões (103-TEL-EMP-AV04) Telefónica-Série Empreendimentos (6 cards): INCOMPL.: 1 card", "ref": "103-TEL-EMP-AV04", "operator": "Telefónica", "price": 1, "image": "103-TEL-EMP-AV04.jpg"},
+
+{"id": "104-TEL-PAI-AV39", "title": "Cartões (104-TEL-PAI-AV39) Telefónica-Série Países das Américas (40 cards): INCOMPL.: 1 card", "ref": "104-TEL-PAI-AV39", "operator": "Telefónica", "price": 1, "image": "104-TEL-PAI-AV39.jpg"},
+
+{"id": "104-TEL-PAI-AV06", "title": "Cartões (104-TEL-PAI-AV06) Telefónica-Série Países das Américas (40 cards): INCOMPL.: 1 card", "ref": "104-TEL-PAI-AV06", "operator": "Telefónica", "price": 1, "image": "104-TEL-PAI-AV06.jpg"},
+
+{"id": "104-TEL-PAI-AV14", "title": "Cartões (104-TEL-PAI-AV14) Telefónica-Série Países das Américas (40 cards): INCOMPL.: 1 card", "ref": "104-TEL-PAI-AV14", "operator": "Telefónica", "price": 1, "image": "104-TEL-PAI-AV14.jpg"},
+
+{"id": "104-TEL-PAI-AV16", "title": "Cartões (104-TEL-PAI-AV16) Telefónica-Série Países das Américas (40 cards): INCOMPL.: 1 card", "ref": "104-TEL-PAI-AV16", "operator": "Telefónica", "price": 1, "image": "104-TEL-PAI-AV16.jpg"},
+
+{"id": "104-TEL-PAI-AV05", "title": "Cartões (104-TEL-PAI-AV05) Telefónica-Série Países das Américas (40 cards): INCOMPL.: 1 card", "ref": "104-TEL-PAI-AV05", "operator": "Telefónica", "price": 1, "image": "104-TEL-PAI-AV05.jpg"},
+
+{"id": "104-TEL-PAI-AV02", "title": "Cartões (104-TEL-PAI-AV02) Telefónica-Série Países das Américas (40 cards): INCOMPL.: 1 card", "ref": "104-TEL-PAI-AV02", "operator": "Telefónica", "price": 1, "image": "104-TEL-PAI-AV02.jpg"},
+
+{"id": "105-TEL-REM-AV02/03/", "title": "Cartões (105-TEL-REM-AV02/03/) Telefónica-Série Remédios (4 cards): INCOMPL.: 1 card", "ref": "105-TEL-REM-AV02/03/", "operator": "Telefónica", "price": 1, "image": "105-TEL-REM-AV02/03/.jpg"},
+
+{"id": "105-TEL-REM-AV"02/04/", "title": "Cartões (105-TEL-REM-AV"02/04/) Telefónica-Série Remédios (4 cards): INCOMPL.: 1 card", "ref": "105-TEL-REM-AV"02/04/", "operator": "Telefónica", "price": 1, "image": "105-TEL-REM-AV"02/04/.jpg"},
+
+{"id": "106-TEL-VER-AV04", "title": "Cartões (106-TEL-VER-AV04) Telefónica-Série Verticais (4 cards): INCOMPL.: 1 card", "ref": "106-TEL-VER-AV04", "operator": "Telefónica", "price": 1, "image": "106-TEL-VER-AV04.jpg"},
+
+{"id": "107-TEL-PRO-AV10", "title": "Cartões (107-TEL-PRO-AV10) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV10", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV10.jpg"},
+
+{"id": "107-TEL-PRO-AV09", "title": "Cartões (107-TEL-PRO-AV09) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV09", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV09.jpg"},
+
+{"id": "107-TEL-PRO-AV08", "title": "Cartões (107-TEL-PRO-AV08) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV08", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV08.jpg"},
+
+{"id": "107-TEL-PRO-AV07", "title": "Cartões (107-TEL-PRO-AV07) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV07", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV07.jpg"},
+
+{"id": "107-TEL-PRO-AV05", "title": "Cartões (107-TEL-PRO-AV05) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV05", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV05.jpg"},
+
+{"id": "107-TEL-PRO-AV04", "title": "Cartões (107-TEL-PRO-AV04) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV04", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV04.jpg"},
+
+{"id": "107-TEL-PRO-AV03", "title": "Cartões (107-TEL-PRO-AV03) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV03", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV03.jpg"},
+
+{"id": "107-TEL-PRO-AV02", "title": "Cartões (107-TEL-PRO-AV02) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV02", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV02.jpg"},
+
+{"id": "107-TEL-PRO-AV01", "title": "Cartões (107-TEL-PRO-AV01) Telefónica-Série Crianças Projeto Carmim (10 cards): INCOMPL.: 1 card", "ref": "107-TEL-PRO-AV01", "operator": "Telefónica", "price": 1, "image": "107-TEL-PRO-AV01.jpg"},
+
+{"id": "108-TEL-FIL-AV-01-FxJ", "title": "Cartões (108-TEL-FIL-AV-01-FxJ) Telefónica-Série Capa- Freddy x Jason (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV-01-FxJ", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV-01-FxJ.jpg"},
+
+{"id": "108-TEL-FIL-AV02-Aleg", "title": "Cartões (108-TEL-FIL-AV02-Aleg) Telefónica-Série Capa- As alegres comadres (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV02-Aleg", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV02-Aleg.jpg"},
+
+{"id": "108-TEL-FIL-AV03-Reen", "title": "Cartões (108-TEL-FIL-AV03-Reen) Telefónica-Série Capa- Reencarnação (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV03-Reen", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV03-Reen.jpg"},
+
+{"id": "108-TEL-FIL-AV04-Loon", "title": "Cartões (108-TEL-FIL-AV04-Loon) Telefónica-Série Capa- Looney Tunes (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV04-Loon", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV04-Loon.jpg"},
+
+{"id": "108-TEL-FIL-AV05-Deby", "title": "Cartões (108-TEL-FIL-AV05-Deby) Telefónica-Série Capa- Debi e Loide (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV05-Deby", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV05-Deby.jpg"},
+
+{"id": "108-TEL-FIL-AV06-Prof", "title": "Cartões (108-TEL-FIL-AV06-Prof) Telefónica-Série Capa- Profissão de Risco (I) (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV06-Prof", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV06-Prof.jpg"},
+
+{"id": "108-TEL-FIL-AV06;1-Prof", "title": "Cartões (108-TEL-FIL-AV06;1-Prof) Telefónica-Série Capa- Profissão de Risco (I) (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV06;1-Prof", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV06;1-Prof.jpg"},
+
+{"id": "108-TEL-FIL-AV07-Leis", "title": "Cartões (108-TEL-FIL-AV07-Leis) Telefónica-Série Capa- Leis da Atração (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV07-Leis", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV07-Leis.jpg"},
+
+{"id": "108-TEL-FIL-AV08-Envia", "title": "Cartões (108-TEL-FIL-AV08-Envia) Telefónica-Série Capa- O Enviado (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV08-Envia", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV08-Envia.jpg"},
+
+{"id": "108-TEL-FIL-AV09-Talent", "title": "Cartões (108-TEL-FIL-AV09-Talent) Telefónica-Série Capa- O Retorno do Talentoso Ripley (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV09-Talent", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV09-Talent.jpg"},
+
+{"id": "108-TEL-FIL-AV11-Vingad", "title": "Cartões (108-TEL-FIL-AV11-Vingad) Telefónica-Série Capa- O Vingador (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV11-Vingad", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV11-Vingad.jpg"},
+
+{"id": "108-TEL-FIL-AV12-Ricos", "title": "Cartões (108-TEL-FIL-AV12-Ricos) Telefónica-Série Capa- Ricos, Bonitos e Infiéis (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV12-Ricos", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV12-Ricos.jpg"},
+
+{"id": "108-TEL-FIL-AV13-Duende", "title": "Cartões (108-TEL-FIL-AV13-Duende) Telefónica-Série Capa- Um Duende em NY (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV13-Duende", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV13-Duende.jpg"},
+
+{"id": "108-TEL-FIL-AV05-Legolas", "title": "Cartões (108-TEL-FIL-AV05-Legolas) Telefónica-Série A Sociedade do Anel (12 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV05-Legolas", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV05-Legolas.jpg"},
+
+{"id": "108-TEL-FIL-AV08-Sam", "title": "Cartões (108-TEL-FIL-AV08-Sam) Telefónica-Série A Sociedade do Anel (12 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV08-Sam", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV08-Sam.jpg"},
+
+{"id": "108-TEL-FIL-AV10-Frodo", "title": "Cartões (108-TEL-FIL-AV10-Frodo) Telefónica-Série A Sociedade do Anel (12 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV10-Frodo", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV10-Frodo.jpg"},
+
+{"id": "108-TEL-FIL-AV01-Capa", "title": "Cartões (108-TEL-FIL-AV01-Capa) Telefónica-Série A Sociedade do Anel (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV01-Capa", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV01-Capa.jpg"},
+
+{"id": "108-TEL-FIL-AV02-Pipi", "title": "Cartões (108-TEL-FIL-AV02-Pipi) Telefónica-Série A Sociedade do Anel (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV02-Pipi", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV02-Pipi.jpg"},
+
+{"id": "108-TEL-FIL-AV03-Gadalf", "title": "Cartões (108-TEL-FIL-AV03-Gadalf) Telefónica-Série A Sociedade do Anel (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV03-Gadalf", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV03-Gadalf.jpg"},
+
+{"id": "108-TEL-FIL-AV04-Aragorn", "title": "Cartões (108-TEL-FIL-AV04-Aragorn) Telefónica-Série A Sociedade do Anel (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV04-Aragorn", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV04-Aragorn.jpg"},
+
+{"id": "108-TEL-FIL-AV05 -Arwen", "title": "Cartões (108-TEL-FIL-AV05 -Arwen) Telefónica-Série A Sociedade do Anel (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV05 -Arwen", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV05 -Arwen.jpg"},
+
+{"id": "108-TEL-FIL-AV06-Boromir", "title": "Cartões (108-TEL-FIL-AV06-Boromir) Telefónica-Série A Sociedade do Anel (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV06-Boromir", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV06-Boromir.jpg"},
+
+{"id": "108-TEL-FIL-AV07-Legolas", "title": "Cartões (108-TEL-FIL-AV07-Legolas) Telefónica-Série A Sociedade do Anel (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV07-Legolas", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV07-Legolas.jpg"},
+
+{"id": "108-TEL-FIL-AV07-Capa", "title": "Cartões (108-TEL-FIL-AV07-Capa) Telefónica-Série A Sociedade do Anel (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV07-Capa", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV07-Capa.jpg"},
+
+{"id": "108-TEL-FIL-AV08-Capa", "title": "Cartões (108-TEL-FIL-AV08-Capa) Telefónica-Série Batman (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV08-Capa", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV08-Capa.jpg"},
+
+{"id": "108-TEL-FIL-AV02-Bat", "title": "Cartões (108-TEL-FIL-AV02-Bat) Telefónica-Série Batman (10 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV02-Bat", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV02-Bat.jpg"},
+
+{"id": "108-TEL-FIL-AV03-Bat", "title": "Cartões (108-TEL-FIL-AV03-Bat) Telefónica-Série Batman (10 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV03-Bat", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV03-Bat.jpg"},
+
+{"id": "108-TEL-FIL-AV08-Bat", "title": "Cartões (108-TEL-FIL-AV08-Bat) Telefónica-Série Batman (10 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV08-Bat", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV08-Bat.jpg"},
+
+{"id": "108-TEL-FIL-AV09-Alien", "title": "Cartões (108-TEL-FIL-AV09-Alien) Telefónica-Série Alien x Predador (50 cards): INCOMPL.: 1 card", "ref": "108-TEL-FIL-AV09-Alien", "operator": "Telefónica", "price": 1, "image": "108-TEL-FIL-AV09-Alien.jpg"},
+
+{"id": "109-TEL-CUR-AV02-Curios", "title": "Cartões (109-TEL-CUR-AV02-Curios) Telefónica-Série Curiosidades dos Mundiais (10 cards): INCOMPL.: 1 card", "ref": "109-TEL-CUR-AV02-Curios", "operator": "Telefónica", "price": 1, "image": "109-TEL-CUR-AV02-Curios.jpg"},
+
+{"id": "109-TEL-CUR-AV03-Curios", "title": "Cartões (109-TEL-CUR-AV03-Curios) Telefónica-Série Curiosidades dos Mundiais (10 cards): INCOMPL.: 1 card", "ref": "109-TEL-CUR-AV03-Curios", "operator": "Telefónica", "price": 1, "image": "109-TEL-CUR-AV03-Curios.jpg"},
+
+{"id": "109-TEL-CUR-AV04-Curios", "title": "Cartões (109-TEL-CUR-AV04-Curios) Telefónica-Série Curiosidades dos Mundiais (10 cards): INCOMPL.: 1 card", "ref": "109-TEL-CUR-AV04-Curios", "operator": "Telefónica", "price": 1, "image": "109-TEL-CUR-AV04-Curios.jpg"},
+
+{"id": "100-TEL-OLI-AV04", "title": "Cartões (100-TEL-OLI-AV04) Telefónica-Série História dasOlimpíadas (10 cards): INCOMPL.: 1 card", "ref": "100-TEL-OLI-AV04", "operator": "Telefónica", "price": 1, "image": "100-TEL-OLI-AV04.jpg"},
+
+{"id": "111-TEL-FZE-AV01", "title": "Cartões (111-TEL-FZE-AV01) Telefónica-Série Fome zero (2 cards): INCOMPL.: 1 card", "ref": "111-TEL-FZE-AV01", "operator": "Telefónica", "price": 1, "image": "111-TEL-FZE-AV01.jpg"},
+
+{"id": "111-TEL-FZE-C", "title": "Cartões (111-TEL-FZE-C) Telefónica-Série Fome zero (2 cards): COMPLETA: 2 card", "ref": "111-TEL-FZE-C", "operator": "Telefónica", "price": 3, "image": "111-TEL-FZE-C.jpg"},
+
+{"id": "113-TEL-FIL-AV01", "title": "Cartões (113-TEL-FIL-AV01) Telefónica-Série  (50 cards): INCOMPL.: 1 card", "ref": "113-TEL-FIL-AV01", "operator": "Telefónica", "price": 1, "image": "113-TEL-FIL-AV01.jpg"},
+
+{"id": "114-TEL-VES-AV04", "title": "Cartões (114-TEL-VES-AV04) Telefónica-Série Dia do Vestibulando (6 cards): INCOMPL.: 1 card", "ref": "114-TEL-VES-AV04", "operator": "Telefónica", "price": 1, "image": "114-TEL-VES-AV04.jpg"},
+
+{"id": "115-TEL-POL-AV01", "title": "Cartões (115-TEL-POL-AV01) Telefónica-Série Animais Polares (6 cards): INCOMPL.: 1 card", "ref": "115-TEL-POL-AV01", "operator": "Telefónica", "price": 1, "image": "115-TEL-POL-AV01.jpg"},
+
+{"id": "116-TEL-N2000-AV03", "title": "Cartões (116-TEL-N2000-AV03) Telefónica-Série Natal 2000 (8 cards): INCOMPL.: 1 card", "ref": "116-TEL-N2000-AV03", "operator": "Telefónica", "price": 1, "image": "116-TEL-N2000-AV03.jpg"},
+
+{"id": "117-TEL-SRA-AV07", "title": "Cartões (117-TEL-SRA-AV07) Telefónica-Série Solzinho Radical (10 cards): INCOMPL.: 1 card", "ref": "117-TEL-SRA-AV07", "operator": "Telefónica", "price": 1, "image": "117-TEL-SRA-AV07.jpg"},
+
+{"id": "118-TEL-CIR-AV04", "title": "Cartões (118-TEL-CIR-AV04) Telefónica-Série Dia Internacional do Circo (6 cards): INCOMPL.: 1 card", "ref": "118-TEL-CIR-AV04", "operator": "Telefónica", "price": 1, "image": "118-TEL-CIR-AV04.jpg"},
+
+{"id": "119-TEL-HAL-AV04", "title": "Cartões (119-TEL-HAL-AV04) Telefónica-Série Halloween (6 cards): INCOMPL.: 1 card", "ref": "119-TEL-HAL-AV04", "operator": "Telefónica", "price": 1, "image": "119-TEL-HAL-AV04.jpg"},
+
+{"id": "120-TEL-RAD-AV08", "title": "Cartões (120-TEL-RAD-AV08) Telefónica-Série Radiografias de SP (10 cards): INCOMPL.: 1 card", "ref": "120-TEL-RAD-AV08", "operator": "Telefónica", "price": 1, "image": "120-TEL-RAD-AV08.jpg"},
+
+{"id": "121-TEL-ESP-AV01", "title": "Cartões (121-TEL-ESP-AV01) Telefónica-Série Criança Esperança (4 cards): INCOMPL.: 1 card", "ref": "121-TEL-ESP-AV01", "operator": "Telefónica", "price": 1, "image": "121-TEL-ESP-AV01.jpg"},
+
+{"id": "122-TEL-FUN-AV01", "title": "Cartões (122-TEL-FUN-AV01) Telefónica-Série Fundação Telefónica (12 cards): INCOMPL.: 1 card", "ref": "122-TEL-FUN-AV01", "operator": "Telefónica", "price": 1, "image": "122-TEL-FUN-AV01.jpg"},
+
+{"id": "123-TEL-DET-C", "title": "Cartões (123-TEL-DET-C) Telefónica-Série Detecta (2 cards): COMPLETA: 2 card", "ref": "123-TEL-DET-C", "operator": "Telefónica", "price": 3, "image": "123-TEL-DET-C.jpg"},
+
+{"id": "123-TEL-DET-AV01", "title": "Cartões (123-TEL-DET-AV01) Telefónica-Série Detecta (2 cards): INCOMPL.: 1 card", "ref": "123-TEL-DET-AV01", "operator": "Telefónica", "price": 1, "image": "123-TEL-DET-AV01.jpg"},
+
+{"id": "124-TEL-ENV-C", "title": "Cartões (124-TEL-ENV-C) Telefónica-Série Envelopes (1 cards): COMPLETA: 1 card", "ref": "124-TEL-ENV-C", "operator": "Telefónica", "price": 1, "image": "124-TEL-ENV-C.jpg"},
+
+{"id": "125-TEL-PAI-AV02", "title": "Cartões (125-TEL-PAI-AV02) Telefónica-Série Dia dos Pais (6 cards): INCOMPL.: 1 card", "ref": "125-TEL-PAI-AV02", "operator": "Telefónica", "price": 1, "image": "125-TEL-PAI-AV02.jpg"},
+
+{"id": "125-TEL-PAI-AV04", "title": "Cartões (125-TEL-PAI-AV04) Telefónica-Série Dia dos Pais (6 cards): INCOMPL.: 1 card", "ref": "125-TEL-PAI-AV04", "operator": "Telefónica", "price": 1, "image": "125-TEL-PAI-AV04.jpg"},
+
+{"id": "125-TEL-PAI-AV06", "title": "Cartões (125-TEL-PAI-AV06) Telefónica-Série Dia dos Pais (6 cards): INCOMPL.: 1 card", "ref": "125-TEL-PAI-AV06", "operator": "Telefónica", "price": 1, "image": "125-TEL-PAI-AV06.jpg"},
+
+{"id": "126-TEL-ORE-AV02", "title": "Cartões (126-TEL-ORE-AV02) Telefónica-Série Orelhão Amigo (10 cards): INCOMPL.: 1 card", "ref": "126-TEL-ORE-AV02", "operator": "Telefónica", "price": 1, "image": "126-TEL-ORE-AV02.jpg"},
+
+{"id": "126-TEL-ORE-AV06", "title": "Cartões (126-TEL-ORE-AV06) Telefónica-Série Orelhão Amigo (10 cards): INCOMPL.: 1 card", "ref": "126-TEL-ORE-AV06", "operator": "Telefónica", "price": 1, "image": "126-TEL-ORE-AV06.jpg"},
+
+{"id": "127-TEL-OPE-AV01", "title": "Cartões (127-TEL-OPE-AV01) Telefónica-Série Telefónica Open Air (6 cards): INCOMPL.: 1 card", "ref": "127-TEL-OPE-AV01", "operator": "Telefónica", "price": 1, "image": "127-TEL-OPE-AV01.jpg"},
+
+{"id": "128-TEL-MID-AV01", "title": "Cartões (128-TEL-MID-AV01) Telefónica-Série Mídia em Cartão ( cards): INCOMPL.: 1 card", "ref": "128-TEL-MID-AV01", "operator": "Telefónica", "price": 1, "image": "128-TEL-MID-AV01.jpg"},
+
+{"id": "129-TEL-LEF-AV04", "title": "Cartões (129-TEL-LEF-AV04) Telefónica-Série L.E. Família (4 cards): INCOMPL.: 1 card", "ref": "129-TEL-LEF-AV04", "operator": "Telefónica", "price": 1, "image": "129-TEL-LEF-AV04.jpg"},
+
+{"id": "130-TEL-T15-AV05", "title": "Cartões (130-TEL-T15-AV05) Telefónica-Série Telefónica 15 - DDD (8 cards): INCOMPL.: 1 card", "ref": "130-TEL-T15-AV05", "operator": "Telefónica", "price": 1, "image": "130-TEL-T15-AV05.jpg"},
+
+{"id": "130-TEL-T15-AV06", "title": "Cartões (130-TEL-T15-AV06) Telefónica-Série Telefónica 15 - DDD (8 cards): INCOMPL.: 1 card", "ref": "130-TEL-T15-AV06", "operator": "Telefónica", "price": 1, "image": "130-TEL-T15-AV06.jpg"},
+
+{"id": "130A-TEL-T15-AV02", "title": "Cartões (130A-TEL-T15-AV02) Telefónica-Série Telefónica 15 - DDI (4 cards): INCOMPL.: 1 card", "ref": "130A-TEL-T15-AV02", "operator": "Telefónica", "price": 1, "image": "130A-TEL-T15-AV02.jpg"},
+
+{"id": "131-TEL-GUI-AV02", "title": "Cartões (131-TEL-GUI-AV02) Telefónica-Série Guia Mais (2 cards): INCOMPL.: 1 card", "ref": "131-TEL-GUI-AV02", "operator": "Telefónica", "price": 1, "image": "131-TEL-GUI-AV02.jpg"},
+
+{"id": "132-TEL-S15-AV09", "title": "Cartões (132-TEL-S15-AV09) Telefónica-Série Super 15 (9 cards): INCOMPL.: 1 card", "ref": "132-TEL-S15-AV09", "operator": "Telefónica", "price": 1, "image": "132-TEL-S15-AV09.jpg"},
+
+{"id": "133-TEL-HOS-C", "title": "Cartões (133-TEL-HOS-C) Telefónica-Série Dia do Hospital (2 cards): COMPLETA: 2 card", "ref": "133-TEL-HOS-C", "operator": "Telefónica", "price": 3, "image": "133-TEL-HOS-C.jpg"},
+
+{"id": "134-TEL-PLA-AV01", "title": "Cartões (134-TEL-PLA-AV01) Telefónica-Série Playcenter (2 cards): INCOMPL.: 1 card", "ref": "134-TEL-PLA-AV01", "operator": "Telefónica", "price": 1, "image": "134-TEL-PLA-AV01.jpg"},
+
+{"id": "135-TEL-HOR-AV01", "title": "Cartões (135-TEL-HOR-AV01) Telefónica-Série Hoóscopo - Áries (2 cards): INCOMPL.: 1 card", "ref": "135-TEL-HOR-AV01", "operator": "Telefónica", "price": 1, "image": "135-TEL-HOR-AV01.jpg"},
+
+{"id": "136-TEL-COP-AV01", "title": "Cartões (136-TEL-COP-AV01) Telefónica-Série Copag (12 cards): INCOMPL.: 1 card", "ref": "136-TEL-COP-AV01", "operator": "Telefónica", "price": 1, "image": "136-TEL-COP-AV01.jpg"},
+
+{"id": "136-TEL-COP-AV02", "title": "Cartões (136-TEL-COP-AV02) Telefónica-Série Copag (12 cards): INCOMPL.: 1 card", "ref": "136-TEL-COP-AV02", "operator": "Telefónica", "price": 1, "image": "136-TEL-COP-AV02.jpg"},
+
+{"id": "136-TEL-COP-AV03", "title": "Cartões (136-TEL-COP-AV03) Telefónica-Série Copag (12 cards): INCOMPL.: 1 card", "ref": "136-TEL-COP-AV03", "operator": "Telefónica", "price": 1, "image": "136-TEL-COP-AV03.jpg"},
+
+{"id": "136-TEL-COP-AV04", "title": "Cartões (136-TEL-COP-AV04) Telefónica-Série Copag (12 cards): INCOMPL.: 1 card", "ref": "136-TEL-COP-AV04", "operator": "Telefónica", "price": 1, "image": "136-TEL-COP-AV04.jpg"},
 ];
