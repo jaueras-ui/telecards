@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TeleCards - Acervo e Coleção</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:i<div class="flex justify-end gap-2 pt-3">tal,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
     tailwind.config = {
@@ -506,14 +506,9 @@
         </div>
 
         <div class="flex justify-end gap-2 pt-3">
-  <button type="button" onclick="closeModal()" class="px-4 py-2.5 bg-brand-dark text-slate-300 font-bold rounded-xl hover:bg-brand-border transition-all">Cancelar</button>
-
-  <button type="button" onclick="eraseCardImage()" class="px-4 py-2.5 bg-orange-600 text-white font-bold rounded-xl hover:bg-orange-500 transition-all">
-    🧽 Apagar Imagem
-  </button>
-
-  <button type="submit" class="px-5 py-2.5 bg-brand-accent text-white font-bold rounded-xl hover:bg-rose-600 transition-all">Salvar Cartão</button>
-</div>
+          <button type="button" onclick="closeModal()" class="px-4 py-2.5 bg-brand-dark text-slate-300 font-bold rounded-xl hover:bg-brand-border transition-all">Cancelar</button>
+          <button type="button" onclick="eraseCardImage()" class="px-4 py-2.5 bg-orange-600 text-white font-bold rounded-xl hover:bg-orange-500 transition-all">🧽 Apagar Imagem</button>
+          <button type="submit" class="px-5 py-2.5 bg-brand-accent text-white font-bold rounded-xl hover:bg-rose-600 transition-all">Salvar Cartão</button>
         </div>
       </form>
     </div>
@@ -1409,35 +1404,35 @@
           localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
           cards.unshift(newCard);
         }
-const existingCard = cards.find(c => c.id === id);
-const fallbackImage = existingCard ? existingCard.image : '';
 
-
-processSave(
-    imageInput.trim() !== ''
-        ? imageInput.trim()
-        : fallbackImage
-);
         closeModal();
         renderCatalog();
         renderFilters();
         renderSoldList();
       };
 
-`
-function eraseCardImage() {
+      if (fileInput.files && fileInput.files[0]) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          processSave(e.target.result);
+        };
+        reader.readAsDataURL(fileInput.files[0]);
+      } else {
+        const existingCard = cards.find(c => c.id === id);
+        const fallbackImage = existingCard ? existingCard.image : '';
+        processSave(imageInput.trim() !== '' ? imageInput.trim() : fallbackImage);
+      }
+    }
 
-  if (!confirm('Deseja apagar a imagem deste cartão?')) {
-    return;
-  }
+    function eraseCardImage() {
+      if (!confirm('Deseja apagar a imagem deste cartão?')) {
+        return;
+      }
+      document.getElementById('f-image').value = '';
+      document.getElementById('f-file-upload').value = '';
+      alert('Imagem removida do formulário. Agora clique em "Salvar Cartão" para gravar a alteração.');
+    }
 
-  document.getElementById('f-image').value = '';
-  document.getElementById('f-file-upload').value = '';
-
-  alert(
-    'Imagem removida do formulário. Agora clique em "Salvar Cartão" para gravar a alteração.'
-  );
-}
     function deleteCard(id) {
       if (!confirm('Deseja realmente remover este cartão do catálogo?')) return;
       hiddenCards.push(id);
