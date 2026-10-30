@@ -1409,20 +1409,21 @@
           localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
           cards.unshift(newCard);
         }
-
-        closeModal();
-        renderCatalog();
-        renderFilters();
-        renderSoldList();
-      };
 const existingCard = cards.find(c => c.id === id);
 const fallbackImage = existingCard ? existingCard.image : '';
+
 
 processSave(
     imageInput.trim() !== ''
         ? imageInput.trim()
         : fallbackImage
 );
+        closeModal();
+        renderCatalog();
+        renderFilters();
+        renderSoldList();
+      };
+
 `
 function eraseCardImage() {
 
