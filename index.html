@@ -1415,18 +1415,15 @@
         renderFilters();
         renderSoldList();
       };
+const existingCard = cards.find(c => c.id === id);
+const fallbackImage = existingCard ? existingCard.image : '';
 
-      if (fileInput.files && fileInput.files[0]) {
-        const reader = new FileReader();
-        reader.onload = function(e) {
-          processSave(e.target.result);
-        };
-        reader.readAsDataURL(fileInput.files[0]);
-      } else {
-        const existingCard = cards.find(c => c.id === id);
-        const fallbackImage = existingCard ? existingCard.image : imageInput;
-        processSave(imageInput.trim() !== '' ? imageInput : fallbackImage);
-      }
+processSave(
+    imageInput.trim() !== ''
+        ? imageInput.trim()
+        : fallbackImage
+);
+`
     }
 
 function eraseCardImage() {
