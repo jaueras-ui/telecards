@@ -104,9 +104,9 @@ window.crtData = [
 
 {"id": "021A-CRT-GRE-AV10", "title": "Cartões (021A-CRT-GRE-AV10) CRT-Série Grêmio (12 cards): INCOMPL.: 1 card", "ref": "021A-CRT-GRE-AV10", "operator": "crt", "price": 0.5, "image": "021A-CRT-GRE-AV10.jpg"},
 
-{"id": "022-CRT-SER-AV26", "title": "Cartões (022-CRT-SER-AV26) CRT-Série CRT - "Serviço adicionais" (50 cards): INCOMPL.: 1 card", "ref": "022-CRT-SER-AV26", "operator": "crt", "price": 0.5, "image": "022-CRT-SER-AV26.jpg"},
+{"id": "022-CRT-SER-AV26", "title": "Cartões (022-CRT-SER-AV26) CRT-Série CRT - Serviço adicionais (50 cards): INCOMPL.: 1 card", "ref": "022-CRT-SER-AV26", "operator": "crt", "price": 0.5, "image": "022-CRT-SER-AV26.jpg"},
 
-{"id": "022-CRT-SER-AV27", "title": "Cartões (022-CRT-SER-AV27) CRT-Série CRT - "Serviço adicionais" (50 cards): INCOMPL.: 1 card", "ref": "022-CRT-SER-AV27", "operator": "crt", "price": 0.5, "image": "022-CRT-SER-AV27.jpg"},
+{"id": "022-CRT-SER-AV27", "title": "Cartões (022-CRT-SER-AV27) CRT-Série CRT - Serviço adicionais (50 cards): INCOMPL.: 1 card", "ref": "022-CRT-SER-AV27", "operator": "crt", "price": 0.5, "image": "022-CRT-SER-AV27.jpg"},
 
 {"id": "023-CRT-TPU-AV01", "title": "Cartões (023-CRT-TPU-AV01) CRT-Série CRT - Telefonia Pública (50 cards): INCOMPL.: 1 card", "ref": "023-CRT-TPU-AV01", "operator": "crt", "price": 0.5, "image": "023-CRT-TPU-AV01.jpg"},
 
