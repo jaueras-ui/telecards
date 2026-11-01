@@ -50,6 +50,8 @@ window.telebrasData = [
 
 {"id": "011-TMAR-PROP-AV06", "title": "Cartões (011-TMAR-PROP-AV06) TMAR-Série Propaganda (6 cards): INCOMPL.: 1 card", "ref": "011-TMAR-PROP-AV06", "operator": "telemar", "price": 0.5, "image": "011-TMAR-PROP-AV06.jpg"},
 
+{"id": "011-TMAR-PROP-AV07", "title": "Cartões (011-TMAR-PROP-AV07) TMAR-Série Propaganda (6 cards): INCOMPL.: 1 card", "ref": "011-TMAR-PROP-AV07", "operator": "telemar", "price": 0.5, "image": "011-TMAR-PROP-AV07.jpg"},
+
 {"id": "012-TMAR-OLI-AV01", "title": "Cartões (012-TMAR-OLI-AV01) TMAR-Série Olimpíadas (6 cards): INCOMPL.: 1 card", "ref": "012-TMAR-OLI-AV01", "operator": "telemar", "price": 0.5, "image": "012-TMAR-OLI-AV01.jpg"},
 
 {"id": "012-TMAR-OLI-AV03", "title": "Cartões (012-TMAR-OLI-AV03) TMAR-Série Olimpíadas (6 cards): INCOMPL.: 1 card", "ref": "012-TMAR-OLI-AV03", "operator": "telemar", "price": 0.5, "image": "012-TMAR-OLI-AV03.jpg"},
@@ -71,6 +73,8 @@ window.telebrasData = [
 {"id": "015-TMAR-FES-AV01", "title": "Cartões (015-TMAR-FES-AV01) TMAR-Série Festividades (10 cards): INCOMPL.: 1 card", "ref": "015-TMAR-FES-AV01", "operator": "telemar", "price": 0.5, "image": "015-TMAR-FES-AV01.jpg"},
 
 {"id": "015-TMAR-FES-AV02", "title": "Cartões (015-TMAR-FES-AV02) TMAR-Série Festividades (10 cards): INCOMPL.: 1 card", "ref": "015-TMAR-FES-AV02", "operator": "telemar", "price": 0.5, "image": "015-TMAR-FES-AV02.jpg"},
+
+{"id": "015-TMAR-FES-AV03", "title": "Cartões (015-TMAR-FES-AV03) TMAR-Série Festividades (10 cards): INCOMPL.: 1 card", "ref": "015-TMAR-FES-AV03", "operator": "telemar", "price": 0.5, "image": "015-TMAR-FES-AV03.jpg"},
 
 {"id": "016-TMAR-BH101-AV01", "title": "Cartões (016-TMAR-BH101-AV01) TMAR-Série BH 101 anos (10 cards): INCOMPL.: 1 card", "ref": "016-TMAR-BH101-AV01", "operator": "telemar", "price": 0.5, "image": "016-TMAR-BH101-AV01.jpg"},
 
