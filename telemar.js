@@ -1,3 +1,5 @@
+window.telelbras =Data = [
+
 {"id": "001-TB-MON-C", "title": "Cartões (001-TB-MON-C) Telebrás-Série Obras de Monet (2 cards): COMPLETA: 2 card", "ref": "001-TB-MON-C", "operator": "telemar", "price": 2.0, "image": "001-TB-MON-C.jpg"},
 
 {"id": "001-TB-MON-AV01", "title": "Cartões (001-TB-MON-AV01) Telebrás-Série Obras de Monet (2 cards): INCOMPL.: 1 card", "ref": "001-TB-MON-AV01", "operator": "Telebrás", "price": 0.5, "image": "001-TB-MON-AV01.jpg"},
