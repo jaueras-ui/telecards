@@ -1,4 +1,4 @@
-window.telelmarData = [
+window.telemarData = [
 
 {"id": "001-TMAR-TMAR-AV01", "title": "Cartões (001-TMAR-TMAR-AV01) Telemar-Série Propaganda (6 cards): INCOMPL.: 1 card", "ref": "001-TMAR-TMAR-AV01", "operator": "telemar", "price": 0.5, "image": "001-TMAR-TMAR-AV01.jpg"},
 
