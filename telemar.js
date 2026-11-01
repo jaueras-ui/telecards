@@ -1,4 +1,5 @@
-window.telebrasData = [
+window.telelmarData = [
+
 {"id": "001-TMAR-TMAR-AV01", "title": "Cartões (001-TMAR-TMAR-AV01) Telemar-Série Propaganda (6 cards): INCOMPL.: 1 card", "ref": "001-TMAR-TMAR-AV01", "operator": "telemar", "price": 0.5, "image": "001-TMAR-TMAR-AV01.jpg"},
 
 {"id": "001-TMAR-TMAR-AV02", "title": "Cartões (001-TMAR-TMAR-AV02) TMAR-Série Propaganda (6 cards): INCOMPL.: 1 card", "ref": "001-TMAR-TMAR-AV02", "operator": "telemar", "price": 0.5, "image": "001-TMAR-TMAR-AV02.jpg"},
