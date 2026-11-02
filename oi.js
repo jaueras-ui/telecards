@@ -1,4 +1,5 @@
 window.oiData = [
+
 {"id": "3.5", "title": "06", "ref": "3.5", "operator": "oi", "price": , "image": "3.5.jpg"},
 
 {"id": "0.5", "title": "01", "ref": "0.5", "operator": "oi", "price": - Saldo Único - 20 créditos, "image": "0.5.jpg"},
@@ -44,4 +45,5 @@ window.oiData = [
 {"id": "0.5", "title": "9", "ref": "0.5", "operator": "oi", "price": - Oi, a partir de R$ 1, "image": "0.5.jpg"},
 
 {"id": "0.5", "title": "10", "ref": "0.5", "operator": "oi", "price": - Capa - peça um Oi fuxi, "image": "0.5.jpg"},
+
 ];
