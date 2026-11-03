@@ -11,7 +11,7 @@ window.brasiltelecomData = [
 
 {"id": "001-BT-TEL-AV10", "title": "Cartões (001-BT-TEL-AV10) Brasil Telecom-Série Telefones (10 cards): INCOMPL.: 1 card", "ref": "001-BT-TEL-AV10", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/001-BT-TEL-AV10.JPG"},
 
-{"id": "002-BT-ANV-AV11", "title": "Cartões (002-BT-ANV-AV11) Brasil Telecom-Série Superstições de Ano Novo (11 cards): INCOMPL.: 1 card", "ref": "002-BT-ANV-AV11", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/002-BT-ANV-AV11.JPG"},
+{"id": "002-BT-ANV-C", "title": "Cartões (002-BT-ANV-C) Brasil Telecom-Série Superstições de Ano Novo (11 cards): COMPLETA: 11 card", "ref": "002-BT-ANV-C", "operator": "Brasil Telecom", "price": 6.0, "image": "fotos/brasil_telecom/002-BT-ANV-C.JPG"},
 
 {"id": "002-BT-ANV-AV01", "title": "Cartões (002-BT-ANV-AV01) Brasil Telecom-Série Ano Novo (11 cards): INCOMPL.: 1 card", "ref": "002-BT-ANV-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/002-BT-ANV-AV01.JPG"},
 
@@ -62,6 +62,8 @@ window.brasiltelecomData = [
 {"id": "005-BT-CTI-AV10", "title": "Cartões (005-BT-CTI-AV10) Brasil Telecom-Série Comidas Típicas (11 cards): INCOMPL.: 1 card", "ref": "005-BT-CTI-AV10", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/005-BT-CTI-AV10.JPG"},
 
 {"id": "005-BT-CTI-AV11", "title": "Cartões (005-BT-CTI-AV11) Brasil Telecom-Série Comidas Típicas (11 cards): INCOMPL.: 1 card", "ref": "005-BT-CTI-AV11", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/005-BT-CTI-AV11.JPG"},
+
+{"id": "006-BT-FER-C", "title": "Cartões (006-BT-FER-C) Brasil Telecom-Série Férias 2005 (4 cards): COMPLETA: 4 card", "ref": "006-BT-FER-C", "operator": "Brasil Telecom", "price": 2.5, "image": "fotos/brasil_telecom/006-BT-FER-C.JPG"},
 
 {"id": "006-BT-FER-AV01", "title": "Cartões (006-BT-FER-AV01) Brasil Telecom-Série Férias 2005 (4 cards): INCOMPL.: 1 card", "ref": "006-BT-FER-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/006-BT-FER-AV01.JPG"},
 
@@ -189,6 +191,8 @@ window.brasiltelecomData = [
 
 {"id": "024-BT-SER-AV01", "title": "Cartões (024-BT-SER-AV01) Brasil Telecom-Série Mini-Serviços (4 cards): INCOMPL.: 1 card", "ref": "024-BT-SER-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/024-BT-SER-AV01.JPG"},
 
+{"id": "025-BT-AVI-C", "title": "Cartões (025-BT-AVI-C) Brasil Telecom-Série Mini-Aviões (4 cards): COMPLETA: 4 card", "ref": "025-BT-AVI-C", "operator": "Brasil Telecom", "price": 2.5, "image": "fotos/brasil_telecom/025-BT-AVI-C.JPG"},
+
 {"id": "025-BT-AVI-AV01", "title": "Cartões (025-BT-AVI-AV01) Brasil Telecom-Série Mini-Aviões (4 cards): INCOMPL.: 1 card", "ref": "025-BT-AVI-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/025-BT-AVI-AV01.JPG"},
 
 {"id": "025-BT-AVI-AV02", "title": "Cartões (025-BT-AVI-AV02) Brasil Telecom-Série Mini-Aviões (4 cards): INCOMPL.: 1 card", "ref": "025-BT-AVI-AV02", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/025-BT-AVI-AV02.JPG"},
@@ -269,13 +273,9 @@ window.brasiltelecomData = [
 
 {"id": "049-BT-OCE-C", "title": "Cartões (049-BT-OCE-C) Brasil Telecom-Série Mini-Oceano (4 cards): COMPLETA: 4 card", "ref": "049-BT-OCE-C", "operator": "Brasil Telecom", "price": 2.5, "image": "fotos/brasil_telecom/049-BT-OCE-C.JPG"},
 
-{"id": "062-BT-TIA-AV01", "title": "Cartões (062-BT-TIA-AV01) Brasil Telecom-Série Fund. Tiago M. Gonzaga (3 cards): INCOMPL.: 1 card", "ref": "062-BT-TIA-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/062-BT-TIA-AV01.JPG"},
-
-{"id": "062-BT-TIA-AV02", "title": "Cartões (062-BT-TIA-AV02) Brasil Telecom-Série Fund. Tiago M. Gonzaga (3 cards): INCOMPL.: 1 card", "ref": "062-BT-TIA-AV02", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/062-BT-TIA-AV02.JPG"},
-
 {"id": "050-BT-P&R-AV02", "title": "Cartões (050-BT-P&R-AV02) Brasil Telecom-Série Perguntas e Respostas (2 cards): INCOMPL.: 1 card", "ref": "050-BT-P&R-AV02", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/050-BT-P&R-AV02.JPG"},
 
-{"id": "050-BT-P&R-AV02", "title": "Cartões (051-BT-PHQ-AV10) Brasil Telecom-Série Páscoa em Quadrinhos (11 cards): INCOMPL.: 1 card", "ref": "050-BT-P&R-AV02", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/050-BT-P&R-AV02.JPG"},
+{"id": "051-BT-PHQ-AV10", "title": "Cartões (051-BT-PHQ-AV10) Brasil Telecom-Série Páscoa em Quadrinhos (11 cards): INCOMPL.: 1 card", "ref": "051-BT-PHQ-AV10", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/051-BT-PHQ-AV10.JPG"},
 
 {"id": "052-BT-PAS-AV07", "title": "Cartões (052-BT-PAS-AV07) Brasil Telecom-Série Páscoa no Mundo (11 cards): INCOMPL.: 1 card", "ref": "052-BT-PAS-AV07", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/052-BT-PAS-AV07.JPG"},
 
@@ -297,9 +297,7 @@ window.brasiltelecomData = [
 
 {"id": "056-BT-JUN-AV09", "title": "Cartões (056-BT-JUN-AV09) Brasil Telecom-Série Festa Junina (11 cards): INCOMPL.: 1 card", "ref": "056-BT-JUN-AV09", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/056-BT-JUN-AV09.JPG"},
 
-{"id": "057-BT-COR'-AV01", "title": "Cartões (057-BT-COR'-AV01) Brasil Telecom-Série Envelope (20 cards): INCOMPL.: 1 card", "ref": "057-BT-COR'-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/057-BT-COR'-AV01.JPG"},
-
-{"id": "058-BT-PRO-AV01", "title": "Cartões (058-BT-PRO-AV01) Brasil Telecom-Série Propaganda ( cards): INCOMPL.: 1 card", "ref": "058-BT-PRO-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/058-BT-PRO-AV01.JPG"},
+{"id": "057-BT-COR-AV01", "title": "Cartões (057-BT-COR-AV01) Brasil Telecom-Série Envelope (20 cards): INCOMPL.: 1 card", "ref": "057-BT-COR-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/057-BT-COR-AV01.JPG"},
 
 {"id": "059-BT-SCA-AV05", "title": "Cartões (059-BT-SCA-AV05) Brasil Telecom-Série Praias - SC (5 cards): INCOMPL.: 1 card", "ref": "059-BT-SCA-AV05", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/059-BT-SCA-AV05.JPG"},
 
@@ -310,5 +308,137 @@ window.brasiltelecomData = [
 {"id": "061-BT-PAS-AV02", "title": "Cartões (061-BT-PAS-AV02) Brasil Telecom-Série Passagens Bíblicas (5 cards): INCOMPL.: 1 card", "ref": "061-BT-PAS-AV02", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/061-BT-PAS-AV02.JPG"},
 
 {"id": "061-BT-PAS-AV04", "title": "Cartões (061-BT-PAS-AV04) Brasil Telecom-Série Passagens Bíblicas (5 cards): INCOMPL.: 1 card", "ref": "061-BT-PAS-AV04", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/061-BT-PAS-AV04.JPG"},
+
+{"id": "062-BT-TIA-AV01", "title": "Cartões (062-BT-TIA-AV01) Brasil Telecom-Série Fund. Tiago M. Gonzaga (3 cards): INCOMPL.: 1 card", "ref": "062-BT-TIA-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/062-BT-TIA-AV01.JPG"},
+
+{"id": "062-BT-TIA-AV02", "title": "Cartões (062-BT-TIA-AV02) Brasil Telecom-Série Fund. Tiago M. Gonzaga (3 cards): INCOMPL.: 1 card", "ref": "062-BT-TIA-AV02", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/062-BT-TIA-AV02.JPG"},
+
+{"id": "1000-BT-PRO-AV01", "title": "Cartões (1000-BT-PRO-AV01) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV01", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV01.JPG"},
+
+{"id": "1000-BT-PRO-AV02", "title": "Cartões (1000-BT-PRO-AV02) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV02", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV02.JPG"},
+
+{"id": "1000-BT-PRO-AV03", "title": "Cartões (1000-BT-PRO-AV03) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV03", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV03.JPG"},
+
+{"id": "1000-BT-PRO-AV04", "title": "Cartões (1000-BT-PRO-AV04) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV04", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV04.JPG"},
+
+{"id": "1000-BT-PRO-AV05", "title": "Cartões (1000-BT-PRO-AV05) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV05", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV05.JPG"},
+
+{"id": "1000-BT-PRO-AV06", "title": "Cartões (1000-BT-PRO-AV06) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV06", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV06.JPG"},
+
+{"id": "1000-BT-PRO-AV07", "title": "Cartões (1000-BT-PRO-AV07) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV07", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV07.JPG"},
+
+{"id": "1000-BT-PRO-AV08", "title": "Cartões (1000-BT-PRO-AV08) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV08", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV08.JPG"},
+
+{"id": "1000-BT-PRO-AV09", "title": "Cartões (1000-BT-PRO-AV09) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV09", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV09.JPG"},
+
+{"id": "1000-BT-PRO-AV10", "title": "Cartões (1000-BT-PRO-AV10) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV10", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV10.JPG"},
+
+{"id": "1000-BT-PRO-AV11", "title": "Cartões (1000-BT-PRO-AV11) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV11", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV11.JPG"},
+
+{"id": "1000-BT-PRO-AV12", "title": "Cartões (1000-BT-PRO-AV12) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV12", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV12.JPG"},
+
+{"id": "1000-BT-PRO-AV13", "title": "Cartões (1000-BT-PRO-AV13) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV13", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV13.JPG"},
+
+{"id": "1000-BT-PRO-AV14", "title": "Cartões (1000-BT-PRO-AV14) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV14", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV14.JPG"},
+
+{"id": "1000-BT-PRO-AV15", "title": "Cartões (1000-BT-PRO-AV15) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV15", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV15.JPG"},
+
+{"id": "1000-BT-PRO-AV16", "title": "Cartões (1000-BT-PRO-AV16) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV16", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV16.JPG"},
+
+{"id": "1000-BT-PRO-AV17", "title": "Cartões (1000-BT-PRO-AV17) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV17", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV17.JPG"},
+
+{"id": "1000-BT-PRO-AV18", "title": "Cartões (1000-BT-PRO-AV18) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV18", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV18.JPG"},
+
+{"id": "1000-BT-PRO-AV19", "title": "Cartões (1000-BT-PRO-AV19) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV19", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV19.JPG"},
+
+{"id": "1000-BT-PRO-AV20", "title": "Cartões (1000-BT-PRO-AV20) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV20", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV20.JPG"},
+
+{"id": "1000-BT-PRO-AV21", "title": "Cartões (1000-BT-PRO-AV21) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV21", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV21.JPG"},
+
+{"id": "1000-BT-PRO-AV22", "title": "Cartões (1000-BT-PRO-AV22) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV22", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV22.JPG"},
+
+{"id": "1000-BT-PRO-AV23", "title": "Cartões (1000-BT-PRO-AV23) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV23", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV23.JPG"},
+
+{"id": "1000-BT-PRO-AV24", "title": "Cartões (1000-BT-PRO-AV24) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV24", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV24.JPG"},
+
+{"id": "1000-BT-PRO-AV25", "title": "Cartões (1000-BT-PRO-AV25) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV25", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV25.JPG"},
+
+{"id": "1000-BT-PRO-AV26", "title": "Cartões (1000-BT-PRO-AV26) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV26", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV26.JPG"},
+
+{"id": "1000-BT-PRO-AV27", "title": "Cartões (1000-BT-PRO-AV27) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV27", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV27.JPG"},
+
+{"id": "1000-BT-PRO-AV28", "title": "Cartões (1000-BT-PRO-AV28) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV28", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV28.JPG"},
+
+{"id": "1000-BT-PRO-AV29", "title": "Cartões (1000-BT-PRO-AV29) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV29", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV29.JPG"},
+
+{"id": "1000-BT-PRO-AV30", "title": "Cartões (1000-BT-PRO-AV30) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV30", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV30.JPG"},
+
+{"id": "1000-BT-PRO-AV31", "title": "Cartões (1000-BT-PRO-AV31) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV31", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV31.JPG"},
+
+{"id": "1000-BT-PRO-AV32", "title": "Cartões (1000-BT-PRO-AV32) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV32", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV32.JPG"},
+
+{"id": "1000-BT-PRO-AV33", "title": "Cartões (1000-BT-PRO-AV33) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV33", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV33.JPG"},
+
+{"id": "1000-BT-PRO-AV34", "title": "Cartões (1000-BT-PRO-AV34) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV34", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV34.JPG"},
+
+{"id": "1000-BT-PRO-AV35", "title": "Cartões (1000-BT-PRO-AV35) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV35", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV35.JPG"},
+
+{"id": "1000-BT-PRO-AV36", "title": "Cartões (1000-BT-PRO-AV36) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV36", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV36.JPG"},
+
+{"id": "1000-BT-PRO-AV37", "title": "Cartões (1000-BT-PRO-AV37) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV37", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV37.JPG"},
+
+{"id": "1000-BT-PRO-AV38", "title": "Cartões (1000-BT-PRO-AV38) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV38", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV38.JPG"},
+
+{"id": "1000-BT-PRO-AV39", "title": "Cartões (1000-BT-PRO-AV39) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV39", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV39.JPG"},
+
+{"id": "1000-BT-PRO-AV40", "title": "Cartões (1000-BT-PRO-AV40) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV40", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV40.JPG"},
+
+{"id": "1000-BT-PRO-AV41", "title": "Cartões (1000-BT-PRO-AV41) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV41", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV41.JPG"},
+
+{"id": "1000-BT-PRO-AV42", "title": "Cartões (1000-BT-PRO-AV42) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV42", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV42.JPG"},
+
+{"id": "1000-BT-PRO-AV43", "title": "Cartões (1000-BT-PRO-AV43) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV43", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV43.JPG"},
+
+{"id": "1000-BT-PRO-AV44", "title": "Cartões (1000-BT-PRO-AV44) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV44", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV44.JPG"},
+
+{"id": "1000-BT-PRO-AV45", "title": "Cartões (1000-BT-PRO-AV45) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV45", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV45.JPG"},
+
+{"id": "1000-BT-PRO-AV46", "title": "Cartões (1000-BT-PRO-AV46) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV46", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV46.JPG"},
+
+{"id": "1000-BT-PRO-AV47", "title": "Cartões (1000-BT-PRO-AV47) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV47", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV47.JPG"},
+
+{"id": "1000-BT-PRO-AV48", "title": "Cartões (1000-BT-PRO-AV48) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV48", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV48.JPG"},
+
+{"id": "1000-BT-PRO-AV49", "title": "Cartões (1000-BT-PRO-AV49) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV49", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV49.JPG"},
+
+{"id": "1000-BT-PRO-AV50", "title": "Cartões (1000-BT-PRO-AV50) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV50", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV50.JPG"},
+
+{"id": "1000-BT-PRO-AV51", "title": "Cartões (1000-BT-PRO-AV51) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV51", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV51.JPG"},
+
+{"id": "1000-BT-PRO-AV52", "title": "Cartões (1000-BT-PRO-AV52) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV52", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV52.JPG"},
+
+{"id": "1000-BT-PRO1-INC", "title": "Cartões (1000-BT-PRO1-INC) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 3 card", "ref": "1000-BT-PRO1-INC", "operator": "Brasil Telecom", "price": 1.0, "image": "fotos/brasil_telecom/1000-BT-PRO1-INC.JPG"},
+
+{"id": "1000-BT-PRO-AV54", "title": "Cartões (1000-BT-PRO-AV54) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV54", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV54.JPG"},
+
+{"id": "1000-BT-PRO-AV55", "title": "Cartões (1000-BT-PRO-AV55) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV55", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV55.JPG"},
+
+{"id": "1000-BT-PRO-AV56", "title": "Cartões (1000-BT-PRO-AV56) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV56", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV56.JPG"},
+
+{"id": "1000-BT-PRO-AV57", "title": "Cartões (1000-BT-PRO-AV57) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV57", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV57.JPG"},
+
+{"id": "1000-BT-PRO2-INC", "title": "Cartões (1000-BT-PRO2-INC) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 3 card", "ref": "1000-BT-PRO2-INC", "operator": "Brasil Telecom", "price": 1.0, "image": "fotos/brasil_telecom/1000-BT-PRO2-INC.JPG"},
+
+{"id": "1000-BT-PRO-AV59", "title": "Cartões (1000-BT-PRO-AV59) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV59", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV59.JPG"},
+
+{"id": "1000-BT-PRO-AV60", "title": "Cartões (1000-BT-PRO-AV60) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV60", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV60.JPG"},
+
+{"id": "1000-BT-PRO-AV60A", "title": "Cartões (1000-BT-PRO-AV60A) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV60A", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV60A.JPG"},
+
+{"id": "1000-BT-PRO3-INC", "title": "Cartões (1000-BT-PRO3-INC) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 6 card", "ref": "1000-BT-PRO3-INC", "operator": "Brasil Telecom", "price": 2.5, "image": "fotos/brasil_telecom/1000-BT-PRO3-INC.JPG"},
+
+{"id": "1000-BT-PRO-AV62", "title": "Cartões (1000-BT-PRO-AV62) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card", "ref": "1000-BT-PRO-AV62", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/1000-BT-PRO-AV62.JPG"},
+
+{"id": "1000-BT-PRO4-INC", "title": "Cartões (1000-BT-PRO4-INC) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 9 card", "ref": "1000-BT-PRO4-INC", "operator": "Brasil Telecom", "price": 4.0, "image": "fotos/brasil_telecom/1000-BT-PRO4-INC.JPG"},
 
 ];
