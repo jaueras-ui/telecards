@@ -1,66 +1,18 @@
 window.teleparData = [
-  {
-    "id": "telepar-001-prop-1",
-    "title": "Telepar - Série Propaganda - card nº 1 - Capa",
-    "ref": "001-TPAR-PROP-AV01",
-    "operator": "Telepar",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "telepar-001-prop-2",
-    "title": "Telepar - Série Propaganda - card nº 2 - Use o 14",
-    "ref": "001-TPAR-PROP-AV02",
-    "operator": "Telepar",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "telepar-002-sol-1",
-    "title": "Telepar - Série Sistema Solar - card nº 1 - Lua",
-    "ref": "002-TPAR-SOL-AV01",
-    "operator": "Telepar",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "telepar-002-sol-6",
-    "title": "Telepar - Série Sistema Solar - card nº 6 - Netuno",
-    "ref": "002-TPAR-SOL-AV06",
-    "operator": "Telepar",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "telepar-003-tri-9",
-    "title": "Telepar - Série Trilha do Trânsito - card nº 9",
-    "ref": "003-TPAR-TRI-AV09",
-    "operator": "Telepar",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "telepar-004-tra-1",
-    "title": "Telepar - Série Semana do Trânsito - card nº 1",
-    "ref": "004-TPAR-TRA-AV01",
-    "operator": "Telepar",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "telepar-003-tra-2",
-    "title": "Telepar - Série Semana do Trânsito - card nº 2",
-    "ref": "003-TPAR-TRA-AV02",
-    "operator": "Telepar",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "telepar-003-tra-4",
-    "title": "Telepar - Série Semana do Trânsito - card nº 4",
-    "ref": "003-TPAR-TRA-AV04",
-    "operator": "Telepar",
-    "price": 1.00,
-    "image": ""
-  }
+{"id": "001-TPR-PROP-AV.01", "title": "Cartões (001-TPR-PROP-AV.01) Telepar-Série Propaganda (2 cards): INCOMPL.: card nº 1", "ref": "001-TPR-PROP-AV.01", "operator": "TELEPAR", "price": 0.5, "image": "fotos/telepar/001-TPR-PROP-AV.01.jpg"},
+
+{"id": "001-TPR-PROP-AV.02", "title": "Cartões (001-TPR-PROP-AV.02) Telepar-Série Propaganda (2 cards): INCOMPL.: card nº 2", "ref": "001-TPR-PROP-AV.02", "operator": "TELEPAR", "price": 0.5, "image": "fotos/telepar/001-TPR-PROP-AV.02.jpg"},
+
+{"id": "002-TPR-SOL-AV.01", "title": "Cartões (002-TPR-SOL-AV.01) Telepar-Série Sistema Solar (10 cards): INCOMPL.: card nº 1", "ref": "002-TPR-SOL-AV.01", "operator": "TELEPAR", "price": 0.5, "image": "fotos/telepar/002-TPR-SOL-AV.01.jpg"},
+
+{"id": "002-TPR-SOL-AV.06", "title": "Cartões (002-TPR-SOL-AV.06) Telepar-Série Sistema Solar (10 cards): INCOMPL.: card nº 6", "ref": "002-TPR-SOL-AV.06", "operator": "TELEPAR", "price": 0.5, "image": "fotos/telepar/002-TPR-SOL-AV.06.jpg"},
+
+{"id": "003-TPR-TRI-AV.09", "title": "Cartões (003-TPR-TRI-AV.09) Telepar-Série Trilha do Trânsito (9 cards): INCOMPL.: card nº 9", "ref": "003-TPR-TRI-AV.09", "operator": "TELEPAR", "price": 0.5, "image": "fotos/telepar/003-TPR-TRI-AV.09.jpg"},
+
+{"id": "004-TPR-TRA-AV.01", "title": "Cartões (004-TPR-TRA-AV.01) Telepar-Série Semana do Trânsito (7 cards): INCOMPL.: card nº 1", "ref": "004-TPR-TRA-AV.01", "operator": "TELEPAR", "price": 0.5, "image": "fotos/telepar/004-TPR-TRA-AV.01.jpg"},
+
+{"id": "003-TPR-TRA-AV.02", "title": "Cartões (003-TPR-TRA-AV.02) Telepar-Série Semana do Trânsito (7 cards): INCOMPL.: card nº 2", "ref": "003-TPR-TRA-AV.02", "operator": "TELEPAR", "price": 0.5, "image": "fotos/telepar/003-TPR-TRA-AV.02.jpg"},
+
+{"id": "004-TPR-TRA-AV.04", "title": "Cartões (004-TPR-TRA-AV.04) Telepar-Série Semana do Trânsito (7 cards): INCOMPL.: card nº 4", "ref": "004-TPR-TRA-AV.04", "operator": "TELEPAR", "price": 0.5, "image": "fotos/telepar/004-TPR-TRA-AV.04.jpg"},
+
 ];
