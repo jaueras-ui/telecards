@@ -1,41 +1,33 @@
 window.telemigData = [
 
-{"id": "001-TMG-PRO-AV01", "title": "Cartões (001-TMG-PRO-AV01) Telemig-Série Propaganda (50 cards): INCOMPL.: 1 card", "ref": "001-TMG-PRO-AV01", "operator": "telemig", "price": 0.5, "image": "001-TMG-PRO-AV01.jpg"},
+{"id": "001-TMIG-PRO-AV.01", "title": "Cartões (001-TMIG-PRO-AV.01) Telemig-Série Propaganda (50 cards): INCOMPL.: card nº 1", "ref": "001-TMIG-PRO-AV.01", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/001-TMIG-PRO-AV.01.jpg"},
 
-{"id": "001-TMG-PRO-AV02", "title": "Cartões (001-TMG-PRO-AV02) Telemig-Série Propaganda (50 cards): INCOMPL.: 1 card", "ref": "001-TMG-PRO-AV02", "operator": "telemig", "price": 0.5, "image": "001-TMG-PRO-AV02.jpg"},
+{"id": "001-TMIG-PRO-AV.02", "title": "Cartões (001-TMIG-PRO-AV.02) Telemig-Série Propaganda (50 cards): INCOMPL.: card nº 2", "ref": "001-TMIG-PRO-AV.02", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/001-TMIG-PRO-AV.02.jpg"},
 
-{"id": "001-TMG-PRO-AV03", "title": "Cartões (001-TMG-PRO-AV03) Telemig-Série Propaganda (50 cards): INCOMPL.: 1 card", "ref": "001-TMG-PRO-AV03", "operator": "telemig", "price": 0.5, "image": "001-TMG-PRO-AV03.jpg"},
+{"id": "001-TMIG-PRO-AV.03", "title": "Cartões (001-TMIG-PRO-AV.03) Telemig-Série Propaganda (50 cards): INCOMPL.: card nº 3", "ref": "001-TMIG-PRO-AV.03", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/001-TMIG-PRO-AV.03.jpg"},
 
-{"id": "001-TMG-PRO-AV05", "title": "Cartões (001-TMG-PRO-AV05) Telemig-Série Propaganda (50 cards): INCOMPL.: 1 card", "ref": "001-TMG-PRO-AV05", "operator": "telemig", "price": 0.5, "image": "001-TMG-PRO-AV05.jpg"},
+{"id": "001-TMIG-PRO-AV.05", "title": "Cartões (001-TMIG-PRO-AV.05) Telemig-Série Propaganda (50 cards): INCOMPL.: card nº 5", "ref": "001-TMIG-PRO-AV.05", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/001-TMIG-PRO-AV.05.jpg"},
 
-{"id": "001-TMG-PRO-AV06", "title": "Cartões (001-TMG-PRO-AV06) Telemig-Série Propaganda (50 cards): INCOMPL.: 1 card", "ref": "001-TMG-PRO-AV06", "operator": "telemig", "price": 0.5, "image": "001-TMG-PRO-AV06.jpg"},
+{"id": "001-TMIG-PRO-AV.06", "title": "Cartões (001-TMIG-PRO-AV.06) Telemig-Série Propaganda (50 cards): INCOMPL.: card nº 6", "ref": "001-TMIG-PRO-AV.06", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/001-TMIG-PRO-AV.06.jpg"},
 
-{"id": "001-TMG-PRO-AV07", "title": "Cartões (001-TMG-PRO-AV07) Telemig-Série Propaganda (50 cards): INCOMPL.: 1 card", "ref": "001-TMG-PRO-AV07", "operator": "telemig", "price": 0.5, "image": "001-TMG-PRO-AV07.jpg"},
+{"id": "001-TMIG-PRO-AV.07", "title": "Cartões (001-TMIG-PRO-AV.07) Telemig-Série Propaganda (50 cards): INCOMPL.: card nº 7", "ref": "001-TMIG-PRO-AV.07", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/001-TMIG-PRO-AV.07.jpg"},
 
-{"id": "001-TMG-PRO-AV08", "title": "Cartões (001-TMG-PRO-AV08) Telemig-Série Propaganda (50 cards): INCOMPL.: 1 card", "ref": "001-TMG-PRO-AV08", "operator": "telemig", "price": 0.5, "image": "001-TMG-PRO-AV08.jpg"},
+{"id": "001-TMIG-PRO-AV.08", "title": "Cartões (001-TMIG-PRO-AV.08) Telemig-Série Propaganda (50 cards): INCOMPL.: card nº 8", "ref": "001-TMIG-PRO-AV.08", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/001-TMIG-PRO-AV.08.jpg"},
 
-{"id": "002-TMG-P&S-AV01", "title": "Cartões (002-TMG-P&S-AV01) Telemig-Série Telefonia (50 cards): INCOMPL.: 1 card", "ref": "002-TMG-P&S-AV01", "operator": "telemig", "price": 0.5, "image": "002-TMG-P&S-AV01.jpg"},
+{"id": "002-TMIG-P&S-AV.01", "title": "Cartões (002-TMIG-P&S-AV.01) Telemig-Série Telefonia (50 cards): INCOMPL.: card nº 1", "ref": "002-TMIG-P&S-AV.01", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/002-TMIG-P&S-AV.01.jpg"},
 
-{"id": "002-TMG-P&S-AV02", "title": "Cartões (002-TMG-P&S-AV02) Telemig-Série Telefonia (50 cards): INCOMPL.: 1 card", "ref": "002-TMG-P&S-AV02", "operator": "telemig", "price": 0.5, "image": "002-TMG-P&S-AV02.jpg"},
+{"id": "002-TMIG-P&S-AV.02", "title": "Cartões (002-TMIG-P&S-AV.02) Telemig-Série Telefonia (50 cards): INCOMPL.: card nº 2", "ref": "002-TMIG-P&S-AV.02", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/002-TMIG-P&S-AV.02.jpg"},
 
-{"id": "002-TMG-P&S-AV03", "title": "Cartões (002-TMG-P&S-AV03) Telemig-Série Telefonia (50 cards): INCOMPL.: 1 card", "ref": "002-TMG-P&S-AV03", "operator": "telemig", "price": 0.5, "image": "002-TMG-P&S-AV03.jpg"},
+{"id": "002-TMIG-P&S-AV.03", "title": "Cartões (002-TMIG-P&S-AV.03) Telemig-Série Telefonia (50 cards): INCOMPL.: card nº 3", "ref": "002-TMIG-P&S-AV.03", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/002-TMIG-P&S-AV.03.jpg"},
 
-{"id": "002-TMG-P&S-AV04", "title": "Cartões (002-TMG-P&S-AV04) Telemig-Série Telefonia (50 cards): INCOMPL.: 1 card", "ref": "002-TMG-P&S-AV04", "operator": "telemig", "price": 0.5, "image": "002-TMG-P&S-AV04.jpg"},
+{"id": "002-TMIG-P&S-AV.04", "title": "Cartões (002-TMIG-P&S-AV.04) Telemig-Série Telefonia (50 cards): INCOMPL.: card nº 4", "ref": "002-TMIG-P&S-AV.04", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/002-TMIG-P&S-AV.04.jpg"},
 
-{"id": "002-TMG-P&S-AV05", "title": "Cartões (002-TMG-P&S-AV05) Telemig-Série Telefonia (50 cards): INCOMPL.: 1 card", "ref": "002-TMG-P&S-AV05", "operator": "telemig", "price": 0.5, "image": "002-TMG-P&S-AV05.jpg"},
+{"id": "002-TMIG-P&S-AV.05", "title": "Cartões (002-TMIG-P&S-AV.05) Telemig-Série Telefonia (50 cards): INCOMPL.: card nº 5", "ref": "002-TMIG-P&S-AV.05", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/002-TMIG-P&S-AV.05.jpg"},
 
-{"id": "003-TMG-BH101-AV01", "title": "Cartões (003-TMG-BH101-AV01) TMG-Série BH 101 anos (10 cards): INCOMPL.: 1 card", "ref": "003-TMG-BH101-AV01", "operator": "telemig", "price": 0.5, "image": "003-TMG-BH101-AV01.jpg"},
+{"id": "003-TMIG-BH101-AV.01", "title": "Cartões (003-TMIG-BH101-AV.01) Telemig-Série BH 101 anos (10 cards): INCOMPL.: card nº 1", "ref": "003-TMIG-BH101-AV.01", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/003-TMIG-BH101-AV.01.jpg"},
 
-{"id": "003-TMG-BH101-AV02", "title": "Cartões (003-TMG-BH101-AV02) TMG-Série BH 101 anos (10 cards): INCOMPL.: 1 card", "ref": "003-TMG-BH101-AV02", "operator": "telemig", "price": 0.5, "image": "003-TMG-BH101-AV02.jpg"},
+{"id": "003-TMIG-BH101-AV.02", "title": "Cartões (003-TMIG-BH101-AV.02) Telemig-Série BH 101 anos (10 cards): INCOMPL.: card nº 2", "ref": "003-TMIG-BH101-AV.02", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/003-TMIG-BH101-AV.02.jpg"},
 
-{"id": "003-TMG-BH101-AV03", "title": "Cartões (003-TMG-BH101-AV03) TMG-Série BH 101 anos (10 cards): INCOMPL.: 1 card", "ref": "003-TMG-BH101-AV03", "operator": "telemig", "price": 0.5, "image": "003-TMG-BH101-AV03.jpg"},
+{"id": "003-TMIG-BH101-AV.03", "title": "Cartões (003-TMIG-BH101-AV.03) Telemig-Série BH 101 anos (10 cards): INCOMPL.: card nº 3", "ref": "003-TMIG-BH101-AV.03", "operator": "TELEMIG", "price": 0.5, "image": "fotos/telemig/003-TMIG-BH101-AV.03.jpg"},
 
-{"id": "004-TMG-LEO-AV03", "title": "Cartões (004-TMG-LEO-AV03) TMG-Série Leão (5 cards): INCOMPL.: 1 card", "ref": "004-TMG-LEO-AV03", "operator": "telemig", "price": 0.5, "image": "004-TMG-LEO-AV03.jpg"},
-
-{"id": "005-TMG-IBE-AV01", "title": "Cartões (005-TMG-IBE-AV01) TMG-Série IBEST (10 cards): INCOMPL.: 1 card", "ref": "005-TMG-IBE-AV01", "operator": "telemig", "price": 0.5, "image": "005-TMG-IBE-AV01.jpg"},
-
-{"id": "006-TMG-BRA-AV02", "title": "Cartões (006-TMG-BRA-AV02) TMG-Série Brasões de Famíia - S.1 (10 cards): INCOMPL.: 1 card", "ref": "006-TMG-BRA-AV02", "operator": "telemig", "price": 0.5, "image": "006-TMG-BRA-AV02.jpg"},
-
-{"id": "007-TMG-BH101-AV03", "title": "Cartões (007-TMG-BH101-AV03) TMG-Série BH 101 anos (10 cards): INCOMPL.: 1 card", "ref": "007-TMG-BH101-AV03", "operator": "telemig", "price": 0.5, "image": "007-TMG-BH101-AV03.jpg"},
-
-];
+};
