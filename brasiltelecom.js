@@ -1,4 +1,5 @@
 window.brasiltelecomData = [
+
 {"id": "001-BT-TEL-AV06", "title": "Cartões (001-BT-TEL-AV06) Brasil Telecom-Série Telefones (10 cards): INCOMPL.: 1 card", "ref": "001-BT-TEL-AV06", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/001-BT-TEL-AV06.jpg"},
 
 {"id": "001-BT-TEL-AV06", "title": "Cartões (001-BT-TEL-AV06) Brasil Telecom-Série Telefones (10 cards): INCOMPL.: 1 card", "ref": "001-BT-TEL-AV06", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/001-BT-TEL-AV06.jpg"},
@@ -442,3 +443,5 @@ window.brasiltelecomData = [
 {"id": "1000-BT-PRO4-INC.09", "title": "Cartões (1000-BT-PRO4-INC.09) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 9 card", "ref": "1000-BT-PRO4-INC.09", "operator": "Brasil Telecom", "price": 5.0, "image": "fotos/brasil_telecom/1000-BT-PRO4-INC.09.jpg"},
 
 ];
+
+// teste

@@ -1,10 +1,7 @@
 window.telerjData = [
-  {
-    "id": "trj-001-pro-01",
-    "title": "Telerj - Série Propaganda - card nº 1 - Casa de Casimiro",
-    "ref": "001-TRJ-PRO-AV01",
-    "operator": "Telerj",
-    "price": 1.00,
-    "image": "fotos/telerj/001-TRJ-PRO-AV01.jpg"
-  }
+
+{"id": "001-RJ-PRO-AV.01", "title": "Cartões (001-RJ-PRO-AV.01) Telerj-Série Propaganda (50 cards): INCOMPL.: card nº 1", "ref": "001-RJ-PRO-AV.01", "operator": "Telerj", "price": 0.5, "image": "fotos/telerj/001-RJ-PRO-AV.01.jpg"},
+
 ];
+
+// teste
