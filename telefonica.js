@@ -1,4 +1,4 @@
-window.telefónicaData = [
+window.telefonicaData = [
 
 {"id": "001-TEL-CMG-AV.03", "title": "Cartões (001-TEL-CMG-AV.03) Telefónica-Série Cidades Hist. MG (10 cards): INCOMPL.: card nº 3", "ref": "001-TEL-CMG-AV.03", "operator": "TELEFÓNICA", "price": 0.5, "image": "fotos/telefónica/001-TEL-CMG-AV.03.jpg"},
 
