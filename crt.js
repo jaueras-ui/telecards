@@ -1,4 +1,5 @@
 window.crtData = [
+
 {"id": "001-CRT-CRT-AV01", "title": "Cartões (001-CRT-CRT-AV01) CRT-Série CRT (20 cards): INCOMPL.: 1 card", "ref": "001-CRT-CRT-AV01", "operator": "crt", "price": 0.5, "image": "001-CRT-CRT-AV01.jpg"},
 
 {"id": "001-CRT-CRT-AV02", "title": "Cartões (001-CRT-CRT-AV02) CRT-Série CRT - Telefone comunitário (20 cards): INCOMPL.: 1 card", "ref": "001-CRT-CRT-AV02", "operator": "crt", "price": 0.5, "image": "001-CRT-CRT-AV02.jpg"},
