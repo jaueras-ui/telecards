@@ -993,5 +993,3 @@ window.telefónicaData = [
 {"id": "136-TEL-COP-AV.04", "title": "Cartões (136-TEL-COP-AV.04) Telefónica-Série Copag (12 cards): INCOMPL.: card nº 4", "ref": "136-TEL-COP-AV.04", "operator": "TELEFÓNICA", "price": 0.5, "image": "fotos/telefónica/136-TEL-COP-AV.04.jpg"},
 
 ];
-
-//teste
