@@ -1,4 +1,5 @@
 window.telebrásData = [
+
 {"id": "001-TBR-MON-C.02", "title": "Cartões (001-TBR-MON-C.02) Telebrás-Série Obras de Monet (2 cards): COMPLETA", "ref": "001-TBR-MON-C.02", "operator": "Telebrás", "price": 2.0, "image": "fotos/telebrás/001-TBR-MON-C.02.jpg"},
 
 {"id": "001-TB-MON-AV.01", "title": "Cartões (001-TB-MON-AV.01) Telebrás-Série Obras de Monet (2 cards): INCOMPL.: 1 card", "ref": "001-TB-MON-AV.01", "operator": "Telebrás", "price": 0.5, "image": "fotos/telebrás/001-TB-MON-AV.01.jpg"},
