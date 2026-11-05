@@ -1,4 +1,4 @@
-window.telebrásData = [
+window.telebrasData = [
 
 {"id": "001-TBR-MON-C.02", "title": "Cartões (001-TBR-MON-C.02) Telebrás-Série Obras de Monet (2 cards): COMPLETA", "ref": "001-TBR-MON-C.02", "operator": "Telebrás", "price": 2.0, "image": "fotos/telebrás/001-TBR-MON-C.02.jpg"},
 
@@ -622,4 +622,3 @@ window.telebrásData = [
 
 ];
 
-//test
