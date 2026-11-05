@@ -1,418 +1,109 @@
-window.cbtcData = [
-  {
-    "id": "ctbc-001-cb52",
-    "title": "CTBC - Série CTBC 52 anos - card nº 1",
-    "ref": "001-CTBC-CTBC-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-002-prop",
-    "title": "CTBC - Série Propaganda - card nº 1 - Feliz Natal 99",
-    "ref": "002-CTBC-PROP-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-003-cri",
-    "title": "CTBC - Série Criança 2004 - card nº 3",
-    "ref": "003-CTBC-CRI-AV03",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-004-mul",
-    "title": "CTBC - Série Dia Intern da Mulher - card nº 1",
-    "ref": "004-CTBC-MUL-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-005-ser",
-    "title": "CTBC - Série Serviços Especiais - card nº 1",
-    "ref": "005-CTBC-SER-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-006-res",
-    "title": "CTBC - Série Responsabilidade Social - card nº 27",
-    "ref": "006-CTBC-RES-AV27",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-007-mal",
-    "title": "CTBC - Série Medicina Alternativa - Completa",
-    "ref": "007-CTBC-MAL-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-cal-janeiro",
-    "title": "CTBC - Série Calendário - card nº 1 - Janeiro",
-    "ref": "008-CTBC-CAL-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-cal-marco",
-    "title": "CTBC - Série Calendário - card nº 3 - Março",
-    "ref": "008-CTBC-CAL-AV03",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-cal-julho",
-    "title": "CTBC - Série Calendário - card nº 7 - Julho",
-    "ref": "008-CTBC-CAL-AV07",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-ami-2",
-    "title": "CTBC - Série Amigos - card nº 2",
-    "ref": "008-CTBC-AMI-AV02",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-ami-4",
-    "title": "CTBC - Série Amigos - card nº 4",
-    "ref": "008-CTBC-AMI-AV04",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-ami-5",
-    "title": "CTBC - Série Amigos - card nº 5",
-    "ref": "008-CTBC-AMI-AV05",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-ami-6",
-    "title": "CTBC - Série Amigos - card nº 6",
-    "ref": "008-CTBC-AMI-AV06",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-ami-9",
-    "title": "CTBC - Série Amigos - card nº 9",
-    "ref": "008-CTBC-AMI-AV09",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-ami-10",
-    "title": "CTBC - Série Amigos - card nº 10",
-    "ref": "008-CTBC-AMI-AV10",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-ami-11",
-    "title": "CTBC - Série Amigos - card nº 11",
-    "ref": "008-CTBC-AMI-AV11",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-008-ami-12",
-    "title": "CTBC - Série Amigos - card nº 12",
-    "ref": "008-CTBC-AMI-AV12",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-009-arq-1",
-    "title": "CTBC - Série Arquitetura Brasileira - card nº 1 - Ouro Preto - MG",
-    "ref": "009-CTBC-ARQ-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-009-arq-2",
-    "title": "CTBC - Série Arquitetura Brasileira - card nº 2 - Aparecida - SP",
-    "ref": "009-CTBC-ARQ-AV02",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-009-arq-6",
-    "title": "CTBC - Série Arquitetura Brasileira - card nº 6 - S.Raimundo Nonato - PI",
-    "ref": "009-CTBC-ARQ-AV06",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-009-arq-7",
-    "title": "CTBC - Série Arquitetura Brasileira - card nº 7 - Brasília - DF",
-    "ref": "009-CTBC-ARQ-AV07",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-009-arq-9",
-    "title": "CTBC - Série Arquitetura Brasileira - card nº 9 - Pantanal - MS",
-    "ref": "009-CTBC-ARQ-AV09",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-009-arq-10",
-    "title": "CTBC - Série Arquitetura Brasileira - card nº 10 - Porto de Pedras - AL",
-    "ref": "009-CTBC-ARQ-AV10",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-010-pas",
-    "title": "CTBC - Série Páscoa - card nº 2 - O coelhinho da páscoa",
-    "ref": "010-CTBC-PAS-AV02",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-011-tpu",
-    "title": "CTBC - Série Telefone Público - card nº 1 - Economise muito",
-    "ref": "011-CTBC-TPU-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-012-cam",
-    "title": "CTBC - Série Camisa 12 - card nº 16 - Camisa 12",
-    "ref": "012-CTBC-CAM-AV16",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-013-a2004",
-    "title": "CTBC - Série Ano Novo 2004 - card nº 2 - Feliz 2004",
-    "ref": "013-CTBC-A2004-AV02",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-014-a2003",
-    "title": "CTBC - Série Ano Novo 2003 - card nº 1 - Feliz Ano Novo",
-    "ref": "014-CTBC-A2003-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-015-lte",
-    "title": "CTBC - Série Lista Telefônica - card nº 1 - Lista telefônica 1998 - verde",
-    "ref": "015-CTBC-LTE-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-016-12l",
-    "title": "CTBC - Série 12 é a nossa ligação - card nº 2 - De SP a BH",
-    "ref": "016-CTBC-12L-AV02",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-017-ind",
-    "title": "CTBC - Série Dia do Índio - Completa",
-    "ref": "017-CTBC-IND-C",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-018-pai",
-    "title": "CTBC - Série Pais - card nº 1 - Amizade",
-    "ref": "018-CTBC-PAI-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-019-n2004",
-    "title": "CTBC - Série Natal CTBC 2004 - card nº 1 - Papai Noel",
-    "ref": "019-CTBC-N2004-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-020-n1997",
-    "title": "CTBC - Série Natal 1997 - card nº 1 - Natal - cartão verde",
-    "ref": "020-CTBC-N1997-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-021-n1998",
-    "title": "CTBC - Série Natal 1998 - card nº 1 - Natal - cartão azul",
-    "ref": "021-CTBC-N1998-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-022-his-7",
-    "title": "CTBC - Série História CTBC 50 anos - card nº 7 - Telefones Antigos: Central Ericssom 1900",
-    "ref": "022-CTBC-HIS-AV07",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-022-his-31",
-    "title": "CTBC - Série História CTBC 50 anos - card nº 31 - Resp. Social: Aprender brincando",
-    "ref": "022-CTBC-HIS-AV31",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-022-his-41",
-    "title": "CTBC - Série História CTBC 50 anos - card nº 41 - Mosaicos: Projeto criança",
-    "ref": "022-CTBC-HIS-AV41",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-1",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 1 - Capa",
-    "ref": "023-CTBC-CER-AV01",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-10",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 10 - O céu - Ref. 5FIA",
-    "ref": "023-CTBC-CER-AV10",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-11",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 11 - O céu - Ref. 5CEA",
-    "ref": "023-CTBC-CER-AV11",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-20",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 20 - As flores - Ref: 5PMA",
-    "ref": "023-CTBC-CER-AV20",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-21",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 21 - As flores - Ref: 5PML",
-    "ref": "023-CTBC-CER-AV21",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-22",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 22 - As flores - Ref: 5REP",
-    "ref": "023-CTBC-CER-AV22",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-30",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 30 - As águas - Ref: 5AGC",
-    "ref": "023-CTBC-CER-AV30",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-40",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 40 - As estações - Ref: 5CHF",
-    "ref": "023-CTBC-CER-AV40",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-41",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 41 - As estações - Ref: 5IPP",
-    "ref": "023-CTBC-CER-AV41",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-42",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 42 - As estações - Ref: 5TEC",
-    "ref": "023-CTBC-CER-AV42",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-43",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 43 - As estações - Ref: 5VDL",
-    "ref": "023-CTBC-CER-AV43",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-44",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 44 - As estações - O céu na seca",
-    "ref": "023-CTBC-CER-AV44",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  },
-  {
-    "id": "ctbc-023-cer-45",
-    "title": "CTBC - Série Um olhar sobre o cerrado - card nº 45 - As estações - As árvores na seca",
-    "ref": "023-CTBC-CER-AV45",
-    "operator": "CTBC",
-    "price": 1.00,
-    "image": ""
-  }
+window.ctbcData = [
+
+{"id": "001-CT-CTBC-AV.01", "title": "Cartões (001-CT-CTBC-AV.01) Ctbc-Série CTBC 52 anos (2 cards): INCOMPL.: card nº 1", "ref": "001-CT-CTBC-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/001-CT-CTBC-AV.01.jpg"},
+
+{"id": "002-CT-PROP-AV.01", "title": "Cartões (002-CT-PROP-AV.01) Ctbc-Série Propaganda (50 cards): INCOMPL.: card nº 1", "ref": "002-CT-PROP-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/002-CT-PROP-AV.01.jpg"},
+
+{"id": "003-CT-CRI-AV.03", "title": "Cartões (003-CT-CRI-AV.03) Ctbc-Série Criança 2004 (4 cards): INCOMPL.: card nº 3", "ref": "003-CT-CRI-AV.03", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/003-CT-CRI-AV.03.jpg"},
+
+{"id": "004-CT-MUL-AV.01", "title": "Cartões (004-CT-MUL-AV.01) Ctbc-Série Dia Intern da Mulher (2 cards): INCOMPL.: card nº 1", "ref": "004-CT-MUL-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/004-CT-MUL-AV.01.jpg"},
+
+{"id": "005-CT-SER-AV.01", "title": "Cartões (005-CT-SER-AV.01) Ctbc-Série Serviços Especiais (50 cards): INCOMPL.: card nº 1", "ref": "005-CT-SER-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/005-CT-SER-AV.01.jpg"},
+
+{"id": "006-CT-RES-AV.27", "title": "Cartões (006-CT-RES-AV.27) Ctbc-Série Responsabilidade Social (50 cards): INCOMPL.: card nº 27", "ref": "006-CT-RES-AV.27", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/006-CT-RES-AV.27.jpg"},
+
+{"id": "007-CT-MAL-AV.01", "title": "Cartões (007-CT-MAL-AV.01) Ctbc-Série Medicina Alternativa (1 cards): COMPLETA", "ref": "007-CT-MAL-AV.01", "operator": "CTBC", "price": 1.5, "image": "fotos/ctbc/007-CT-MAL-AV.01.jpg"},
+
+{"id": "008-CT-CAL-AV.01", "title": "Cartões (008-CT-CAL-AV.01) Ctbc-Série Calendário (12 cards): INCOMPL.: card nº 1", "ref": "008-CT-CAL-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/008-CT-CAL-AV.01.jpg"},
+
+{"id": "008-CT-CAL-AV.03", "title": "Cartões (008-CT-CAL-AV.03) Ctbc-Série Calendário (12 cards): INCOMPL.: card nº 3", "ref": "008-CT-CAL-AV.03", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/008-CT-CAL-AV.03.jpg"},
+
+{"id": "008-CT-CAL-AV.07", "title": "Cartões (008-CT-CAL-AV.07) Ctbc-Série Calendário (12 cards): INCOMPL.: card nº 7", "ref": "008-CT-CAL-AV.07", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/008-CT-CAL-AV.07.jpg"},
+
+{"id": "009-CT-ARQ-AV.01", "title": "Cartões (009-CT-ARQ-AV.01) Ctbc-Série Arquitetura Brasileira (12 cards): INCOMPL.: card nº 1", "ref": "009-CT-ARQ-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/009-CT-ARQ-AV.01.jpg"},
+
+{"id": "009-CT-ARQ-AV.02", "title": "Cartões (009-CT-ARQ-AV.02) Ctbc-Série Arquitetura Brasileira (12 cards): INCOMPL.: card nº 2", "ref": "009-CT-ARQ-AV.02", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/009-CT-ARQ-AV.02.jpg"},
+
+{"id": "009-CT-ARQ-AV.06", "title": "Cartões (009-CT-ARQ-AV.06) Ctbc-Série Arquitetura Brasileira (12 cards): INCOMPL.: card nº 6", "ref": "009-CT-ARQ-AV.06", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/009-CT-ARQ-AV.06.jpg"},
+
+{"id": "009-CT-ARQ-AV.07", "title": "Cartões (009-CT-ARQ-AV.07) Ctbc-Série Arquitetura Brasileira (12 cards): INCOMPL.: card nº 7", "ref": "009-CT-ARQ-AV.07", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/009-CT-ARQ-AV.07.jpg"},
+
+{"id": "009-CT-ARQ-AV.09", "title": "Cartões (009-CT-ARQ-AV.09) Ctbc-Série Arquitetura Brasileira (12 cards): INCOMPL.: card nº 9", "ref": "009-CT-ARQ-AV.09", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/009-CT-ARQ-AV.09.jpg"},
+
+{"id": "009-CT-ARQ-AV.10", "title": "Cartões (009-CT-ARQ-AV.10) Ctbc-Série Arquitetura Brasileira (12 cards): INCOMPL.: card nº 10", "ref": "009-CT-ARQ-AV.10", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/009-CT-ARQ-AV.10.jpg"},
+
+{"id": "010-CT-PAS-AV.02", "title": "Cartões (010-CT-PAS-AV.02) Ctbc-Série Páscoa (2 cards): INCOMPL.: card nº 2", "ref": "010-CT-PAS-AV.02", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/010-CT-PAS-AV.02.jpg"},
+
+{"id": "011-CT-TPU-AV.01", "title": "Cartões (011-CT-TPU-AV.01) Ctbc-Série Telefone Público (4 cards): INCOMPL.: card nº 1", "ref": "011-CT-TPU-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/011-CT-TPU-AV.01.jpg"},
+
+{"id": "012-CT-CAM-AV.16", "title": "Cartões (012-CT-CAM-AV.16) Ctbc-Série Camisa 12 (16 cards): INCOMPL.: card nº 16", "ref": "012-CT-CAM-AV.16", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/012-CT-CAM-AV.16.jpg"},
+
+{"id": "013-CT-A2004-AV.02", "title": "Cartões (013-CT-A2004-AV.02) Ctbc-Série Ano Novo 2004 (2 cards): INCOMPL.: card nº 2", "ref": "013-CT-A2004-AV.02", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/013-CT-A2004-AV.02.jpg"},
+
+{"id": "014-CT-A2003-AV.01", "title": "Cartões (014-CT-A2003-AV.01) Ctbc-Série Ano Novo 2003 (6 cards): INCOMPL.: card nº 1", "ref": "014-CT-A2003-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/014-CT-A2003-AV.01.jpg"},
+
+{"id": "015-CT-LTE-AV.01", "title": "Cartões (015-CT-LTE-AV.01) Ctbc-Série Lista Telefônica (12 cards): INCOMPL.: card nº 1", "ref": "015-CT-LTE-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/015-CT-LTE-AV.01.jpg"},
+
+{"id": "016-CT-12L-AV.02", "title": "Cartões (016-CT-12L-AV.02) Ctbc-Série 12 é a nossa ligação (12 cards): INCOMPL.: card nº 2", "ref": "016-CT-12L-AV.02", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/016-CT-12L-AV.02.jpg"},
+
+{"id": "017-CT-IND-AV.01", "title": "Cartões (017-CT-IND-AV.01) Ctbc-Série Dia do ìndio (1 cards): COMPLETA", "ref": "017-CT-IND-AV.01", "operator": "CTBC", "price": 1.5, "image": "fotos/ctbc/017-CT-IND-AV.01.jpg"},
+
+{"id": "018-CT-PAI-AV.01", "title": "Cartões (018-CT-PAI-AV.01) Ctbc-Série Pais (2 cards): INCOMPL.: card nº 1", "ref": "018-CT-PAI-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/018-CT-PAI-AV.01.jpg"},
+
+{"id": "019-CT-N2004-AV.01", "title": "Cartões (019-CT-N2004-AV.01) Ctbc-Série Natal CTBC 2004 (3 cards): INCOMPL.: card nº 1", "ref": "019-CT-N2004-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/019-CT-N2004-AV.01.jpg"},
+
+{"id": "020-CT-N1997-AV.01", "title": "Cartões (020-CT-N1997-AV.01) Ctbc-Série Natal 1997 (12 cards): INCOMPL.: card nº 1", "ref": "020-CT-N1997-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/020-CT-N1997-AV.01.jpg"},
+
+{"id": "021-CT-N1998-AV.01", "title": "Cartões (021-CT-N1998-AV.01) Ctbc-Série Natal 1998 (12 cards): INCOMPL.: card nº 1", "ref": "021-CT-N1998-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/021-CT-N1998-AV.01.jpg"},
+
+{"id": "022-CT-HIS-AV.07", "title": "Cartões (022-CT-HIS-AV.07) Ctbc-Série História CTBC 50 anos (50 cards): INCOMPL.: card nº 7", "ref": "022-CT-HIS-AV.07", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/022-CT-HIS-AV.07.jpg"},
+
+{"id": "022-CT-HIS-AV.31", "title": "Cartões (022-CT-HIS-AV.31) Ctbc-Série História CTBC 50 anos (50 cards): INCOMPL.: card nº 31", "ref": "022-CT-HIS-AV.31", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/022-CT-HIS-AV.31.jpg"},
+
+{"id": "022-CT-HIS-AV.41", "title": "Cartões (022-CT-HIS-AV.41) Ctbc-Série História CTBC 50 anos (50 cards): INCOMPL.: card nº 41", "ref": "022-CT-HIS-AV.41", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/022-CT-HIS-AV.41.jpg"},
+
+{"id": "023-CT-CER-AV.01", "title": "Cartões (023-CT-CER-AV.01) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 1", "ref": "023-CT-CER-AV.01", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.01.jpg"},
+
+{"id": "023-CT-CER-AV.10", "title": "Cartões (023-CT-CER-AV.10) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 10", "ref": "023-CT-CER-AV.10", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.10.jpg"},
+
+{"id": "023-CT-CER-AV.11", "title": "Cartões (023-CT-CER-AV.11) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 11", "ref": "023-CT-CER-AV.11", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.11.jpg"},
+
+{"id": "023-CT-CER-AV.20", "title": "Cartões (023-CT-CER-AV.20) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 20", "ref": "023-CT-CER-AV.20", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.20.jpg"},
+
+{"id": "023-CT-CER-AV.21", "title": "Cartões (023-CT-CER-AV.21) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 21", "ref": "023-CT-CER-AV.21", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.21.jpg"},
+
+{"id": "023-CT-CER-AV.22", "title": "Cartões (023-CT-CER-AV.22) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 22", "ref": "023-CT-CER-AV.22", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.22.jpg"},
+
+{"id": "023-CT-CER-AV.30", "title": "Cartões (023-CT-CER-AV.30) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 30", "ref": "023-CT-CER-AV.30", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.30.jpg"},
+
+{"id": "023-CT-CER-AV.40", "title": "Cartões (023-CT-CER-AV.40) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 40", "ref": "023-CT-CER-AV.40", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.40.jpg"},
+
+{"id": "023-CT-CER-AV.41", "title": "Cartões (023-CT-CER-AV.41) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 41", "ref": "023-CT-CER-AV.41", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.41.jpg"},
+
+{"id": "023-CT-CER-AV.42", "title": "Cartões (023-CT-CER-AV.42) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 42", "ref": "023-CT-CER-AV.42", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.42.jpg"},
+
+{"id": "023-CT-CER-AV.43", "title": "Cartões (023-CT-CER-AV.43) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 43", "ref": "023-CT-CER-AV.43", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.43.jpg"},
+
+{"id": "023-CT-CER-AV.44", "title": "Cartões (023-CT-CER-AV.44) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 44", "ref": "023-CT-CER-AV.44", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.44.jpg"},
+
+{"id": "023-CT-CER-AV.45", "title": "Cartões (023-CT-CER-AV.45) Ctbc-Série Um olhar sobre o cerrado (50 cards): INCOMPL.: card nº 45", "ref": "023-CT-CER-AV.45", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/023-CT-CER-AV.45.jpg"},
+
+{"id": "028-CT-AMI-AV.02", "title": "Cartões (028-CT-AMI-AV.02) Ctbc-Série Amigos (12 cards): INCOMPL.: card nº 2", "ref": "028-CT-AMI-AV.02", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/028-CT-AMI-AV.02.jpg"},
+
+{"id": "028-CT-AMI-AV.04", "title": "Cartões (028-CT-AMI-AV.04) Ctbc-Série Amigos (12 cards): INCOMPL.: card nº 4", "ref": "028-CT-AMI-AV.04", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/028-CT-AMI-AV.04.jpg"},
+
+{"id": "028-CT-AMI-AV.05", "title": "Cartões (028-CT-AMI-AV.05) Ctbc-Série Amigos (12 cards): INCOMPL.: card nº 5", "ref": "028-CT-AMI-AV.05", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/028-CT-AMI-AV.05.jpg"},
+
+{"id": "028-CT-AMI-AV.06", "title": "Cartões (028-CT-AMI-AV.06) Ctbc-Série Amigos (12 cards): INCOMPL.: card nº 6", "ref": "028-CT-AMI-AV.06", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/028-CT-AMI-AV.06.jpg"},
+
+{"id": "028-CT-AMI-AV.09", "title": "Cartões (028-CT-AMI-AV.09) Ctbc-Série Amigos (12 cards): INCOMPL.: card nº 9", "ref": "028-CT-AMI-AV.09", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/028-CT-AMI-AV.09.jpg"},
+
+{"id": "028-CT-AMI-AV.10", "title": "Cartões (028-CT-AMI-AV.10) Ctbc-Série Amigos (12 cards): INCOMPL.: card nº 10", "ref": "028-CT-AMI-AV.10", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/028-CT-AMI-AV.10.jpg"},
+
+{"id": "028-CT-AMI-AV.11", "title": "Cartões (028-CT-AMI-AV.11) Ctbc-Série Amigos (12 cards): INCOMPL.: card nº 11", "ref": "028-CT-AMI-AV.11", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/028-CT-AMI-AV.11.jpg"},
+
+{"id": "028-CT-AMI-AV.12", "title": "Cartões (028-CT-AMI-AV.12) Ctbc-Série Amigos (12 cards): INCOMPL.: card nº 12", "ref": "028-CT-AMI-AV.12", "operator": "CTBC", "price": 0.5, "image": "fotos/ctbc/028-CT-AMI-AV.12.jpg"},
+
 ];
+
+//teste
