@@ -7,3 +7,5 @@ window.ceterpData = [
 {"id":"001-CETERP-RPR-C.03","title":"C.03 - Card nº 3","ref":"001-CETERP-RPR-C.03","operator":"CETERP","price":3.0,"image":"fotos/ceterp/001-CETERP-RPR-C.03.jpg"},
 
 ];
+
+//test
