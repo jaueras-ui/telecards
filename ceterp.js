@@ -1,26 +1,10 @@
-window.ceterpData = [
-  {
-    "id": "ceterp-001-rp-prop-av01",
-    "title": "CETERP - Série Propaganda - card nº 1 - Vista de Ribeirão Preto",
-    "ref": "001-RP-PROP-AV01",
-    "operator": "Ceterp",
-    "price": 1,
-    "image": "fotos/ceterp/001-RP-PROP-AV01.jpg"
-  },
-  {
-    "id": "ceterp-001-rp-prop-av02",
-    "title": "CETERP - Série Propaganda - card nº 1 - Hino de Ribeirão Preto",
-    "ref": "001-RP-PROP-AV02",
-    "operator": "Ceterp",
-    "price": 1,
-    "image": "fotos/ceterp/001-RP-PROP-AV02.jpg"
-  },
-  {
-    "id": "ceterp-001-rp-rpr-c",
-    "title": "CETERP - Série Ribeirão Preto - Completa",
-    "ref": "001-RP-RPR-C",
-    "operator": "Ceterp",
-    "price": 4,
-    "image": "fotos/ceterp/001-RP-RPR-C.jpg"
-  }
+
+  window.ceterpData = [
+
+{"id": "001-CETERP-PROP-AV.01","title": "1 - Card nº 1","serie": "Propaganda","ref": "001-CETERP-PROP-AV.01","operator": "CETERP","price": 0.5,"image": "fotos/ceterp/001-CETERP-PROP-AV.01.jpg"}
+
+{"id": "001-CETERP-PROP-AV.01","title": "1 - Card nº 1","serie": "Propaganda","ref": "001-CETERP-PROP-AV.01","operator": "CETERP","price": 0.5,"image": "fotos/ceterp/001-CETERP-PROP-AV.01.jpg"}
+
+{"id": "001-CETERP-RPR-C.03","title": " - Card nº 3","serie": "Ribeirao Preto","ref": "001-CETERP-RPR-C.03","operator": "CETERP","price": 3.0,"image": "fotos/ceterp/001-CETERP-RPR-C.03.jpg"}
+
 ];
