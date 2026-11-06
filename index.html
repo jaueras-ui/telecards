@@ -20,7 +20,7 @@
     }
   </script>
   
-    <style>
+  <style>
   * { 
     box-sizing: border-box; 
   }
@@ -80,7 +80,7 @@
     z-index: 2;
   }
 
-  /* ESTRUTURA DAS CASINHAS (BASEADAS NO SEU RASCUNHO) */
+  /* ESTRUTURA DAS CASINHAS (BASEADAS NO RASCUNHO) */
   .catalog-card-container {
     background-color: #13131a;
     border: 1px solid #2a2a3c;
@@ -222,7 +222,7 @@
     color: #ff0055;
     letter-spacing: -0.02em;
   }
-</style>
+  </style>
      
   <!-- Sub-arquivos JS protegidos contra erros -->
   <script src="sercomtel.js" onerror="console.log('sercomtel.js não encontrado')"></script>
@@ -746,7 +746,6 @@
           
           const ref = item.ref || item.code || item.serie || '';
 
-          // Inteligência para extrair Série e Título caso venham juntos no formato antigo do JS
           if (!serie && title.includes('-Série')) {
             const parts = title.split('-Série');
             serie = 'Série ' + parts[1].split('(')[0].trim();
@@ -1228,7 +1227,7 @@
       if (select) select.innerHTML = optionsHtml;
       if (linkerSelect) {
         linkerSelect.innerHTML = optionsHtml;
-        linkerSelect.value = "Sercomtel";
+        linkerSelect.value = "Ceterp";
       }
     }
 
@@ -1239,7 +1238,7 @@
       container.innerHTML = activeOps.map(op => {
         const fileKey = normalizeText(op).replace(/\s+/g, '');
         const fileName = fileKey + '.js';
-        const isChecked = matchOperator(op, 'Sercomtel') ? 'checked' : '';
+        const isChecked = matchOperator(op, 'Ceterp') ? 'checked' : '';
 
         return `
           <label class="flex items-center gap-3 p-3 bg-brand-dark rounded-xl border border-brand-border cursor-pointer hover:border-indigo-500/50 transition-all">
@@ -1519,7 +1518,7 @@
       document.getElementById('f-title').value = card.title || '';
       document.getElementById('f-serie').value = card.serie || '';
       document.getElementById('f-ref').value = card.ref || '';
-      document.getElementById('f-operator').value = card.operator || 'Sercomtel';
+      document.getElementById('f-operator').value = card.operator || 'Ceterp';
       document.getElementById('f-price').value = card.price || 2.00;
       document.getElementById('f-image').value = card.image || '';
       document.getElementById('f-file-upload').value = '';
