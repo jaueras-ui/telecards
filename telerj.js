@@ -1,6 +1,6 @@
 window.telerjData = [
 
-="{""id"": """&L2&""",""title"": """&I3&""",""ref"": """&L2&""",""operator"": """&D$1&""",""price"": "&SUBSTITUIR(J2;",";".")&",""image"": ""fotos/"&MINÚSCULA(D$1)&"/"&L2&".jpg""},"
+{"id": "001-RJ-PRO-AV.01","title": "001 - Cartoes-Telerj - Propaganda - card nº 1 - Casa de Casimiro","ref": "001-RJ-PRO-AV.01","operator": "TELERJ","price": 0.5,"image": "fotos/telerj/001-RJ-PRO-AV.01.jpg"},
 
 ];
 
