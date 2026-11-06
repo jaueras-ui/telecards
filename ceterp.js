@@ -7,3 +7,5 @@ window.ceterpData = [
 {"id": "001-CETERP-RPR-C.03","title": " - Card nº 3","serie": "Série Ribeirao Preto","ref": "001-CETERP-RPR-C.03","operator": "CETERP","price": 3.0,"image": "fotos/ceterp/001-CETERP-RPR-C.03.jpg"}
 
 ];
+
+//test

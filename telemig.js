@@ -30,5 +30,4 @@ window.telemigData = [
 
 {"id": "003-TMIG-BH101-AV.03","title": "3 - Card nº 1","serie": "Série BH 101 anos","ref": "003-TMIG-BH101-AV.03","operator": "TELEMIG","price": 0.5,"image": "fotos/telemig/003-TMIG-BH101-AV.03.jpg"}
 
-};
-};
+];
