@@ -989,3 +989,5 @@ window.telefonicaData = [
 {"id": "136-TEL-COP-AV.04", "title": "- Quadra de ases - 2 caixas de baralho - cartao verde escuro", "serie": "Série Copag", "ref": "136-TEL-COP-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/136-TEL-COP-AV.04.jpg"},
 
 ];
+
+//test
