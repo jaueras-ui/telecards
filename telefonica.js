@@ -38,8 +38,6 @@ window.telefonicaData = [
 
 {"id": "006", "title": "FOL", "serie": "C.05", "ref": "006", "operator": "Folclore", "price": 5, "image": "fotos/5/006.jpg"},
 
-{"id": "006", "title": "FOL", "serie": "AV.01", "ref": "006", "operator": "Folclore", "price": 5, "image": "fotos/1/006.jpg"},
-
 {"id": "006", "title": "FOL", "serie": "AV.02", "ref": "006", "operator": "Folclore", "price": 5, "image": "fotos/1/006.jpg"},
 
 {"id": "006", "title": "FOL", "serie": "AV.03", "ref": "006", "operator": "Folclore", "price": 5, "image": "fotos/1/006.jpg"},
@@ -60,7 +58,7 @@ window.telefonicaData = [
 
 {"id": "008", "title": "IGR", "serie": "AV.04", "ref": "008", "operator": "Igrejas", "price": 10, "image": "fotos/1/008.jpg"},
 
-{"id": "009", "title": "EVE", "serie": "AV.07", "ref": "009", "operator": "Eventos", "price": 5, "image": "fotos/1/009.jpg"},
+{"id": "009", "title": "EVE", "serie": "AV.07", "ref": "009", "operator": "Igrejas", "price": 5, "image": "fotos/1/009.jpg"},
 
 {"id": "008", "title": "IGR", "serie": "AV.09", "ref": "008", "operator": "Igrejas", "price": 10, "image": "fotos/1/008.jpg"},
 
@@ -654,11 +652,11 @@ window.telefonicaData = [
 
 {"id": "082", "title": "SPA", "serie": "C.05", "ref": "082", "operator": "Homenagem a Sao Paulo", "price": 5, "image": "fotos/5/082.jpg"},
 
-{"id": "082", "title": "SPA", "serie": "AV.01", "ref": "082", "operator": "Homenagem a Sao Paulo", "price": , "image": "fotos/1/082.jpg"},
+{"id": "082", "title": "SPA", "serie": "AV.01", "ref": "082", "operator": "Homenagem a Sao Paulo", "price": 5, "image": "fotos/1/082.jpg"},
 
-{"id": "082", "title": "SPA", "serie": "AV.02", "ref": "082", "operator": "Homenagem a Sao Paulo", "price": , "image": "fotos/1/082.jpg"},
+{"id": "082", "title": "SPA", "serie": "AV.02", "ref": "082", "operator": "Homenagem a Sao Paulo", "price": 5, "image": "fotos/1/082.jpg"},
 
-{"id": "082", "title": "SPA", "serie": "AV.03", "ref": "082", "operator": "Homenagem a Sao Paulo", "price": , "image": "fotos/1/082.jpg"},
+{"id": "082", "title": "SPA", "serie": "AV.03", "ref": "082", "operator": "Homenagem a Sao Paulo", "price": 5, "image": "fotos/1/082.jpg"},
 
 {"id": "083", "title": "PAS", "serie": "AV.01", "ref": "083", "operator": "Pascoa 2003", "price": 6, "image": "fotos/1/083.jpg"},
 
