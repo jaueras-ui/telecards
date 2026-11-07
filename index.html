@@ -80,7 +80,7 @@
     z-index: 2;
   }
 
-  /* ESTRUTURA DAS CASINHAS (BASEADAS NO RASCUNHO) */
+  /* ESTRUTURA DAS CASINHAS */
   .catalog-card-container {
     background-color: #13131a;
     border: 1px solid #2a2a3c;
@@ -173,7 +173,7 @@
     white-space: nowrap;
   }
 
-  /* HIERARQUIA DAS TRÊS LINHAS DE TEXTO */
+  /* HIERARQUIA DAS TRÊS LINHAS */
   .card-ref-text {
     font-family: monospace;
     font-size: 11px;
@@ -192,28 +192,36 @@
     letter-spacing: 0.01em;
     margin-top: 2px;
     line-height: 1.25;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    word-break: break-word;
   }
 
   .card-footer-info {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     margin-top: 6px;
     padding-top: 6px;
     border-top: 1px solid rgba(42, 42, 60, 0.6);
+    gap: 4px;
   }
 
+  .card-title-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    gap: 8px;
+  }
+
+  /* NOME COMPLETO COM QUEBRA AUTOMÁTICA GARANTIDA */
   .card-title-text {
     font-size: 12px;
     font-weight: 600;
     color: #cbd5e1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 65%;
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    line-height: 1.3;
+    flex-grow: 1;
   }
 
   .card-price-text {
@@ -221,6 +229,8 @@
     font-weight: 900;
     color: #ff0055;
     letter-spacing: -0.02em;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   </style>
      
@@ -615,7 +625,7 @@
 
         <div>
           <label class="block text-slate-400 mb-1 font-semibold">Caminho da Imagem JPG (.jpg / .JPG)</label>
-          <input type="text" id="f-image" placeholder="Ex: fotos/sercomtel/001-SERC-PRO-AV.01.jpg" class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none mb-2">
+          <input type="text" id="f-image" placeholder="Ex: fotos/ceterp/001-RP-PROP-AV01.jpg" class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none mb-2">
           
           <label class="w-full py-2 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl flex items-center justify-center gap-2 cursor-pointer transition-all text-slate-300">
             <i class="fa-solid fa-folder-open text-emerald-400"></i>
@@ -649,6 +659,7 @@
       if (n1 === n2) return true;
       if ((n1 === 'cbtc' || n1 === 'ctbc') && (n2 === 'cbtc' || n2 === 'ctbc')) return true;
       if (n1.includes('telefon') && n2.includes('telefon')) return true;
+      if (n1.includes('ceterp') && n2.includes('ceterp')) return true;
       return false;
     }
 
@@ -1078,7 +1089,7 @@
               </div>
             </div>
             
-            <!-- Três Linhas Exatas do Rascunho -->
+            <!-- Três Linhas Exatas do Rascunho com Nome Completo Sem Cortar -->
             <div class="space-y-0.5">
               <div class="card-ref-text">
                 <span>#</span> ${c.ref ? c.ref : 'Sem Referência'}
@@ -1087,11 +1098,13 @@
                 ${c.serie ? c.serie : (c.operator || 'Acervo')}
               </div>
               <div class="card-footer-info">
-                <div class="card-title-text" title="${c.title || ''}">
-                  ${c.title ? c.title : 'Cartão Telefônico'}
-                </div>
-                <div class="card-price-text">
-                  R$ ${parseFloat(c.price || 0).toFixed(2)}
+                <div class="card-title-row">
+                  <div class="card-title-text" title="${c.title || ''}">
+                    ${c.title ? c.title : 'Cartão Telefônico'}
+                  </div>
+                  <div class="card-price-text">
+                    R$ ${parseFloat(c.price || 0).toFixed(2)}
+                  </div>
                 </div>
               </div>
             </div>
@@ -1428,7 +1441,7 @@
       const op = document.getElementById('linker-operator').value;
       
       const opNorm = normalizeText(op);
-      let opPasta = 'telefonica';
+      let opPasta = 'ceterp';
       if (opNorm.includes('brasil telecom')) opPasta = 'brasil_telecom';
       else if (opNorm.includes('telebras')) opPasta = 'telebras';
       else if (opNorm.includes('telemar')) opPasta = 'telemar';
@@ -1443,6 +1456,7 @@
       else if (opNorm.includes('telegoias')) opPasta = 'telegoias';
       else if (opNorm.includes('telerj')) opPasta = 'telerj';
       else if (opNorm.includes('sercomtel')) opPasta = 'sercomtel';
+      else if (opNorm.includes('telefonica')) opPasta = 'telefonica';
 
       const cleanImagePath = `fotos/${opPasta}/${featuredImg.name}`;
 
@@ -1476,7 +1490,7 @@
       
       const operator = document.getElementById('f-operator').value;
       const opNorm = normalizeText(operator);
-      let opPasta = 'telefonica';
+      let opPasta = 'ceterp';
       if (opNorm.includes('brasil telecom')) opPasta = 'brasil_telecom';
       else if (opNorm.includes('telebras')) opPasta = 'telebras';
       else if (opNorm.includes('telemar')) opPasta = 'telemar';
@@ -1491,6 +1505,7 @@
       else if (opNorm.includes('telegoias')) opPasta = 'telegoias';
       else if (opNorm.includes('telerj')) opPasta = 'telerj';
       else if (opNorm.includes('sercomtel')) opPasta = 'sercomtel';
+      else if (opNorm.includes('telefonica')) opPasta = 'telefonica';
 
       document.getElementById('f-image').value = `fotos/${opPasta}/${file.name}`;
     }
@@ -1502,6 +1517,7 @@
       document.getElementById('f-title').value = '';
       document.getElementById('f-serie').value = '';
       document.getElementById('f-ref').value = '';
+      document.getElementById('f-operator').value = 'Ceterp';
       document.getElementById('f-price').value = '2.00';
       document.getElementById('f-image').value = '';
       document.getElementById('f-file-upload').value = '';
@@ -1518,7 +1534,16 @@
       document.getElementById('f-title').value = card.title || '';
       document.getElementById('f-serie').value = card.serie || '';
       document.getElementById('f-ref').value = card.ref || '';
-      document.getElementById('f-operator').value = card.operator || 'Ceterp';
+
+      const opSelect = document.getElementById('f-operator');
+      const opCardNorm = normalizeText(card.operator);
+      for (let i = 0; i < opSelect.options.length; i++) {
+        if (normalizeText(opSelect.options[i].value) === opCardNorm) {
+          opSelect.selectedIndex = i;
+          break;
+        }
+      }
+
       document.getElementById('f-price').value = card.price || 2.00;
       document.getElementById('f-image').value = card.image || '';
       document.getElementById('f-file-upload').value = '';
