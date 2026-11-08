@@ -4,11 +4,11 @@ window.telebrasData = [
 
 {"id":"001-Telebras-MON-AV.01","title":"Os Agapantos - Card nº 1","ref":"001-Telebras-MON-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/001-Telebras-MON-AV.01.jpg"},
 
-{"id":"002-Telebras-COL-C.03","title":"C.03 - Card nº 3","ref":"002-Telebras-COL-C.03","operator":"Telebras","price":3.0,"image":"fotos/telebras/002-Telebras-COL-C.03.jpg"},
+{"id":"002-Telebras-COL-C.03","title":"Colecionadores - C.03 - Card nº 3","ref":"002-Telebras-COL-C.03","operator":"Telebras","price":3.0,"image":"fotos/telebras/002-Telebras-COL-C.03.jpg"},
 
-{"id":"002-Telebras-COL-AV.01","title":"1º Encontro - Card nº 1","ref":"002-Telebras-COL-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.01.jpg"},
+{"id":"002-Telebras-COL-AV.01","title":"Estampas de SP - Card nº 1","ref":"002-Telebras-COL-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.01.jpg"},
 
-{"id":"002-Telebras-COL-AV.02","title":"Voce usa, voce coleciona - Card nº 2","ref":"002-Telebras-COL-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.02.jpg"},
+{"id":"002-Telebras-COL-AV.02","title":"Estampas do RJ - Card nº 2","ref":"002-Telebras-COL-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.02.jpg"},
 
 {"id":"002-Telebras-COL-AV.03","title":"Pratico de usar - Card nº 3","ref":"002-Telebras-COL-AV.03","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.03.jpg"},
 
