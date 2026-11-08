@@ -6,11 +6,11 @@ window.telebrasData = [
 
 {"id":"002-Telebras-COL-C.03","title":"C.03 - Card nº 3","ref":"002-Telebras-COL-C.03","operator":"Telebras","price":3.0,"image":"fotos/telebras/002-Telebras-COL-C.03.jpg"},
 
-{"id":"002-Telebras-COL-AV.01","title":""1º Encontro" - Card nº 1","ref":"002-Telebras-COL-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.01.jpg"},
+{"id":"002-Telebras-COL-AV.01","title":"1º Encontro - Card nº 1","ref":"002-Telebras-COL-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.01.jpg"},
 
-{"id":"002-Telebras-COL-AV.02","title":""Voce usa, voce coleciona" - Card nº 2","ref":"002-Telebras-COL-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.02.jpg"},
+{"id":"002-Telebras-COL-AV.02","title":"Voce usa, voce coleciona - Card nº 2","ref":"002-Telebras-COL-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.02.jpg"},
 
-{"id":"002-Telebras-COL-AV.03","title":""Pratico de usar" - Card nº 3","ref":"002-Telebras-COL-AV.03","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.03.jpg"},
+{"id":"002-Telebras-COL-AV.03","title":"Pratico de usar - Card nº 3","ref":"002-Telebras-COL-AV.03","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-Telebras-COL-AV.03.jpg"},
 
 {"id":"003-Telebras-CTI-AV.01","title":"Feijao de tropeiro - Card nº 1","ref":"003-Telebras-CTI-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/003-Telebras-CTI-AV.01.jpg"},
 
@@ -60,9 +60,9 @@ window.telebrasData = [
 
 {"id":"008-Telebras-MCM-AV.04","title":"Pca XV de Novembro - Card nº 4","ref":"008-Telebras-MCM-AV.04","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-MCM-AV.04.jpg"},
 
-{"id":"008-Telebras-MCM-AV.01","title":"Quadro "Estranho" - Card nº 1","ref":"008-Telebras-MCM-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-MCM-AV.01.jpg"},
+{"id":"008-Telebras-MCM-AV.01","title":"Quadro Estranho - Card nº 1","ref":"008-Telebras-MCM-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-MCM-AV.01.jpg"},
 
-{"id":"008-Telebras-MCM-AV.02","title":"Quadro "Tarde" - Card nº 2","ref":"008-Telebras-MCM-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-MCM-AV.02.jpg"},
+{"id":"008-Telebras-MCM-AV.02","title":"Quadro Tarde - Card nº 2","ref":"008-Telebras-MCM-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-MCM-AV.02.jpg"},
 
 {"id":"008-Telebras-MCM-AV.01","title":"Marinha - Card nº 1","ref":"008-Telebras-MCM-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-MCM-AV.01.jpg"},
 
@@ -108,9 +108,9 @@ window.telebrasData = [
 
 {"id":"008-Telebras-IPI-C.05","title":"C.05 - Card nº 0","ref":"008-Telebras-IPI-C.05","operator":"Telebras","price":4.0,"image":"fotos/telebras/008-Telebras-IPI-C.05.jpg"},
 
-{"id":"008-Telebras-IPI-AV.01","title":"Quadro "Carga de moncoes" - Card nº 1","ref":"008-Telebras-IPI-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.01.jpg"},
+{"id":"008-Telebras-IPI-AV.01","title":"Quadro Carga de moncoes - Card nº 1","ref":"008-Telebras-IPI-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.01.jpg"},
 
-{"id":"008-Telebras-IPI-AV.02","title":"Quadro "Fundacao de S.Vicente" - Card nº 2","ref":"008-Telebras-IPI-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.02.jpg"},
+{"id":"008-Telebras-IPI-AV.02","title":"Quadro Fundacao de S.Vicente - Card nº 2","ref":"008-Telebras-IPI-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.02.jpg"},
 
 {"id":"008-Telebras-IPI-AV.03","title":"Inundacao da varzea do Carmo -1892 - Card nº 3","ref":"008-Telebras-IPI-AV.03","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.03.jpg"},
 
@@ -118,7 +118,7 @@ window.telebrasData = [
 
 {"id":"008-Telebras-IPI-AV.05","title":"Nau Capitanea de Pedro A Cabral - Card nº 5","ref":"008-Telebras-IPI-AV.05","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.05.jpg"},
 
-{"id":"008-Telebras-IPI-AV.06","title":"Quadro "Partida da moncao" - Card nº 6","ref":"008-Telebras-IPI-AV.06","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.06.jpg"},
+{"id":"008-Telebras-IPI-AV.06","title":"Quadro Partida da moncao - Card nº 6","ref":"008-Telebras-IPI-AV.06","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.06.jpg"},
 
 {"id":"008-Telebras-IPI-AV.07","title":"Quadro: Desembarque de Pedro A Cabral - Card nº 7","ref":"008-Telebras-IPI-AV.07","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-IPI-AV.07.jpg"},
 
@@ -152,7 +152,7 @@ window.telebrasData = [
 
 {"id":"008-Telebras-REP-C.05","title":"C.05 - Card nº 0","ref":"008-Telebras-REP-C.05","operator":"Telebras","price":4.0,"image":"fotos/telebras/008-Telebras-REP-C.05.jpg"},
 
-{"id":"008-Telebras-REP-AV.01","title":"Quadro "Compromisso Constitucional" - Card nº 1","ref":"008-Telebras-REP-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-REP-AV.01.jpg"},
+{"id":"008-Telebras-REP-AV.01","title":"Quadro Compromisso Constitucional - Card nº 1","ref":"008-Telebras-REP-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-REP-AV.01.jpg"},
 
 {"id":"008-Telebras-REP-AV.02","title":"Aposento do Presidente Vargas - Card nº 2","ref":"008-Telebras-REP-AV.02","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-Telebras-REP-AV.02.jpg"},
 
@@ -621,5 +621,3 @@ window.telebrasData = [
 {"id":"049-Telebras-FES-AV.05","title":"Feliz Natal/96 - Card nº 5","ref":"049-Telebras-FES-AV.05","operator":"Telebras","price":0.5,"image":"fotos/telebras/049-Telebras-FES-AV.05.jpg"},
 
 ];
-
-//test
