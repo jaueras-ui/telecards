@@ -35,6 +35,33 @@
     flex-direction: column; 
   }
   
+  /* Botão Flutuante Voltar ao Topo */
+  #btnVoltarTopo {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    background-color: #ff0055;
+    color: white;
+    border: none;
+    outline: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 0, 85, 0.4);
+    transition: background-color 0.3s, transform 0.3s, opacity 0.3s;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btnVoltarTopo:hover {
+    background-color: #e0004c;
+    transform: scale(1.1);
+  }
+
   /* Animações dos cartões do topo (Hero) */
   .card-stack-visitor { 
     transform: rotate(4deg) translate(15px, -10px); 
@@ -447,6 +474,11 @@
     <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
   </main>
 
+  <!-- Botão Flutuante Voltar ao Topo -->
+  <button id="btnVoltarTopo" onclick="voltarAoTopo()" title="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
   <!-- Modal Álbum -->
   <div id="cart-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-lg w-full space-y-4 border border-brand-border shadow-2xl max-h-[85vh] flex flex-col">
@@ -701,6 +733,11 @@
       let limpo = (caminho || '').trim().replace(/\\/g, '/');
       if (limpo.startsWith('http://') || limpo.startsWith('https://')) return limpo;
 
+      // Unificação e correção dos caminhos de fotos (ex: foto/tb, fotos/telebras)
+      limpo = limpo.replace(/^foto\/tb\//i, 'fotos/telebras/')
+                   .replace(/^fotos\/tb\//i, 'fotos/telebras/')
+                   .replace(/^foto\/telebras\//i, 'fotos/telebras/');
+
       const op = normalizeText(operator);
 
       let opPasta = 'telefonica';
@@ -875,6 +912,25 @@
       populateOperatorSelect();
       updateMissingPhotoCount();
     };
+
+    // Função de Controle do Botão Voltar ao Topo
+    window.onscroll = function() {
+      const btn = document.getElementById("btnVoltarTopo");
+      if (btn) {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+          btn.style.display = "flex";
+        } else {
+          btn.style.display = "none";
+        }
+      }
+    };
+
+    function voltarAoTopo() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
 
     function updateMissingPhotoCount() {
       const count = cards.filter(c => !c.image || c.image.trim() === '' || c.imageHasError).length;
@@ -1630,5 +1686,3 @@
   </script>
 </body>
 </html>
-
-//test
