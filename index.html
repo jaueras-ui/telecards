@@ -35,9 +35,9 @@
     flex-direction: column; 
   }
   
-  /* Botão Flutuante Voltar ao Topo */
+  /* Botão Flutuante Voltar ao Topo (Sempre Visível) */
   #btnVoltarTopo {
-    display: none;
+    display: flex; /* Visível permanentemente no canto da tela */
     position: fixed;
     bottom: 25px;
     right: 25px;
@@ -474,7 +474,7 @@
     <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
   </main>
 
-  <!-- Botão Flutuante Voltar ao Topo -->
+  <!-- Botão Flutuante Voltar ao Topo (Sempre Visível) -->
   <button id="btnVoltarTopo" onclick="voltarAoTopo()" title="Voltar ao topo">
     <i class="fa-solid fa-arrow-up"></i>
   </button>
@@ -494,7 +494,7 @@
       <div class="pt-3 border-t border-brand-border flex-shrink-0 space-y-3">
         <div class="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-[11px] text-amber-300 leading-snug flex items-start gap-2">
           <i class="fa-solid fa-circle-info text-amber-400 text-xs mt-0.5 flex-shrink-0"></i>
-          <span><strong>Aviso de Reserva:</strong> Ao enviar o pedido, a disponibilidade dos cartões selecionados será confirmada diretamente com o colecionador pelo WhatsApp.</span>
+          <span><strong>Aviso de Reserva:</strong> Ao enviar o pedido, a disponibilidade dos cartões selecionados será confirmada diretamente com o colecinador pelo WhatsApp.</span>
         </div>
 
         <div class="flex justify-between items-center font-bold">
@@ -733,7 +733,6 @@
       let limpo = (caminho || '').trim().replace(/\\/g, '/');
       if (limpo.startsWith('http://') || limpo.startsWith('https://')) return limpo;
 
-      // Unificação e correção dos caminhos de fotos (ex: foto/tb, fotos/telebras)
       limpo = limpo.replace(/^foto\/tb\//i, 'fotos/telebras/')
                    .replace(/^fotos\/tb\//i, 'fotos/telebras/')
                    .replace(/^foto\/telebras\//i, 'fotos/telebras/');
@@ -913,18 +912,7 @@
       updateMissingPhotoCount();
     };
 
-    // Função de Controle do Botão Voltar ao Topo
-    window.onscroll = function() {
-      const btn = document.getElementById("btnVoltarTopo");
-      if (btn) {
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-          btn.style.display = "flex";
-        } else {
-          btn.style.display = "none";
-        }
-      }
-    };
-
+    // Função de rolagem suave ao topo
     function voltarAoTopo() {
       window.scrollTo({
         top: 0,
@@ -1146,7 +1134,7 @@
               </div>
             </div>
             
-            <!-- Três Linhas Exatas do Rascunho com Nome Completo Sem Cortar -->
+            <!-- Três Linhas -->
             <div class="space-y-0.5">
               <div class="card-ref-text">
                 <span>#</span> ${c.ref ? c.ref : 'Sem Referência'}
@@ -1234,15 +1222,15 @@
       const cartItems = cards.filter(c => cart.includes(c.id));
       if (cartItems.length === 0) return;
       let total = 0;
-      let text = "Olá! Gostaria de verificar a disponibilidade e consultar os seguintes cartões do acervo TeleCards:\n\n";
+      let text = "Olá! Gostaria de verificar a disponibilidade e consultar os seguintes cartões do acervo TeleCards:\\n\\n";
       
       cartItems.forEach(c => {
         total += parseFloat(c.price || 0);
         const refText = c.ref ? ` [Ref: ${c.ref}]` : '';
-        text += `• ${c.title}${refText} (${c.operator}) - R$ ${parseFloat(c.price || 0).toFixed(2)}\n`;
+        text += `• ${c.title}${refText} (${c.operator}) - R$ ${parseFloat(c.price || 0).toFixed(2)}\\n`;
       });
       
-      text += `\n*Total Estimado:* R$ ${total.toFixed(2)}\n\n_Aguardando confirmação de disponibilidade._`;
+      text += `\\n*Total Estimado:* R$ ${total.toFixed(2)}\\n\\n_Aguardando confirmação de disponibilidade._`;
       window.open(`https://api.whatsapp.com/send?phone=5519991203110&text=${encodeURIComponent(text)}`, '_blank');
     }
 
