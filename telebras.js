@@ -1,623 +1,1009 @@
-window.telebrasData = [
+window.telefonicaData = [
 
-{"id":"001-Telebras-MON-C.022","title":"Obras de Monet - Card nº 2","ref":"001-Telebras-MON-C.022","operator":"Telebras","price":2.0,"image":"fotos/telebras/001-TB-MON-C022.jpg"},
+{"id": "001-TEL-CMG-AV.03", "title": "- Mariana", "serie": "Série Cidades Hist. MG", "ref": "001-TEL-CMG-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/001-TEL-CMG-AV.03.jpg"},
 
-{"id":"001-Telebras-MON-AV.011","title":"Os Agapantos - Card nº 1","ref":"001-Telebras-MON-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/001-TB-MON-AV011.jpg"},
+{"id": "001-TEL-CMG-AV.04", "title": "- S.Tome das Letras", "serie": "Série Cidades Hist. MG", "ref": "001-TEL-CMG-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/001-TEL-CMG-AV.04.jpg"},
 
-{"id":"002-Telebras-COL-C.033","title":"Colecionadores - C.03 - Card nº 3","ref":"002-Telebras-COL-C.033","operator":"Telebras","price":3.0,"image":"fotos/telebras/002-TB-COL-C033.jpg"},
+{"id": "001-TEL-CMG-AV.05", "title": "- Tiradentes", "serie": "Série Cidades Hist. MG", "ref": "001-TEL-CMG-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/001-TEL-CMG-AV.05.jpg"},
 
-{"id":"002-Telebras-COL-AV.011","title":"Estampas de SP - Card nº 1","ref":"002-Telebras-COL-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-TB-COL-AV011.jpg"},
+{"id": "001-TEL-CMG-AV.06", "title": "- Congonhas do Campo", "serie": "Série Cidades Hist. MG", "ref": "001-TEL-CMG-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/001-TEL-CMG-AV.06.jpg"},
 
-{"id":"002-Telebras-COL-AV.022","title":"Estampas do RJ - Card nº 2","ref":"002-Telebras-COL-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-TB-COL-AV022.jpg"},
+{"id": "001-TEL-CMG-AV.07", "title": "- Diamantina", "serie": "Série Cidades Hist. MG", "ref": "001-TEL-CMG-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/001-TEL-CMG-AV.07.jpg"},
 
-{"id":"002-Telebras-COL-AV.033","title":"Pratico de usar - Card nº 3","ref":"002-Telebras-COL-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/002-TB-COL-AV033.jpg"},
+{"id": "001-TEL-CMG-AV.09", "title": "- S.Joao Del Rei", "serie": "Série Cidades Hist. MG", "ref": "001-TEL-CMG-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/001-TEL-CMG-AV.09.jpg"},
 
-{"id":"003-Telebras-CTI-AV.011","title":"Feijao de tropeiro - Card nº 1","ref":"003-Telebras-CTI-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/003-TB-CTI-AV011.jpg"},
+{"id": "001-TEL-CMG-AV.10", "title": "- S.Tome das Letras", "serie": "Série Cidades Hist. MG", "ref": "001-TEL-CMG-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/001-TEL-CMG-AV.10.jpg"},
 
-{"id":"003-Telebras-CTI-AV.022","title":"Casquinho de caranguejo - Card nº 2","ref":"003-Telebras-CTI-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/003-TB-CTI-AV022.jpg"},
+{"id": "002-TEL-AVE-C.07", "title": "- C.07", "serie": "Série Aves do Brasil", "ref": "002-TEL-AVE-C.07", "operator": "TELEFONICA", "price": 5.0, "image": "fotos/telefonica/002-TEL-AVE-C.07.jpg"},
 
-{"id":"003-Telebras-CTI-AV.033","title":"Lagosta ao natural - Card nº 3","ref":"003-Telebras-CTI-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/003-TB-CTI-AV033.jpg"},
+{"id": "003-TEL-ANV-AV.01", "title": "- 2001", "serie": "Série Ano Novo 2001", "ref": "003-TEL-ANV-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/003-TEL-ANV-AV.01.jpg"},
 
-{"id":"004-Telebras-MTE-AV.022","title":"Revista Sino Azul - Card nº 2","ref":"004-Telebras-MTE-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/004-TB-MTE-AV022.jpg"},
+{"id": "003-TEL-ANV-AV.02", "title": "- Feliz ano novo", "serie": "Série Ano Novo 2001", "ref": "003-TEL-ANV-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/003-TEL-ANV-AV.02.jpg"},
 
-{"id":"004-Telebras-MTE-AV.044","title":"Estacao Beira-Mar - Card nº 4","ref":"004-Telebras-MTE-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/004-TB-MTE-AV044.jpg"},
+{"id": "003-TEL-ANV-AV.03", "title": "- Feliz passagem de milenio", "serie": "Série Ano Novo 2001", "ref": "003-TEL-ANV-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/003-TEL-ANV-AV.03.jpg"},
 
-{"id":"005-Telebras-DNA-C.033","title":"C.03 - Card nº 3","ref":"005-Telebras-DNA-C.033","operator":"Telebras","price":3.0,"image":"fotos/telebras/005-TB-DNA-C033.jpg"},
+{"id": "004-TEL-FRU-C.05", "title": "- C.05", "serie": "Série Alimentos - Frutas", "ref": "004-TEL-FRU-C.05", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/004-TEL-FRU-C.05.jpg"},
 
-{"id":"005-Telebras-DNA-AV.011","title":"Palhacinho - Card nº 1","ref":"005-Telebras-DNA-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/005-TB-DNA-AV011.jpg"},
+{"id": "004-TEL-FRU-AV.01", "title": "- Laranjas", "serie": "Série Alimentos - Frutas", "ref": "004-TEL-FRU-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/004-TEL-FRU-AV.01.jpg"},
 
-{"id":"005-Telebras-DNA-AV.033","title":"Namoradeira - Card nº 3","ref":"005-Telebras-DNA-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/005-TB-DNA-AV033.jpg"},
+{"id": "005-TEL-TRA-AV.02", "title": "- Cosmos, 2000", "serie": "Série Transportes", "ref": "005-TEL-TRA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/005-TEL-TRA-AV.02.jpg"},
 
-{"id":"006-Telebras-REL-INC.055","title":"C.05 - Card nº 5","ref":"006-Telebras-REL-INC.055","operator":"Telebras","price":3.0,"image":"fotos/telebras/006-TB-REL-INC055.jpg"},
+{"id": "005-TEL-TRA-AV.03", "title": "- Escolar, 1999", "serie": "Série Transportes", "ref": "005-TEL-TRA-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/005-TEL-TRA-AV.03.jpg"},
 
-{"id":"006-Telebras-REL-AV.011","title":"204º Cirio de Nazare - Card nº 1","ref":"006-Telebras-REL-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/006-TB-REL-AV011.jpg"},
+{"id": "005-TEL-TRA-AV.06", "title": "- Conteiner, 2001", "serie": "Série Transportes", "ref": "005-TEL-TRA-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/005-TEL-TRA-AV.06.jpg"},
 
-{"id":"006-Telebras-REL-AV.022","title":"Catedral de Maringa - Card nº 2","ref":"006-Telebras-REL-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/006-TB-REL-AV022.jpg"},
+{"id": "005-TEL-TRA-AV.08", "title": "- Urbano, 1998", "serie": "Série Transportes", "ref": "005-TEL-TRA-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/005-TEL-TRA-AV.08.jpg"},
 
-{"id":"006-Telebras-REL-AV.033","title":"Papa Joao Paulo II - Card nº 3","ref":"006-Telebras-REL-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/006-TB-REL-AV033.jpg"},
+{"id": "005-TEL-TRA-AV.09", "title": "- Abandono, 1979", "serie": "Série Transportes", "ref": "005-TEL-TRA-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/005-TEL-TRA-AV.09.jpg"},
 
-{"id":"006-Telebras-REL-AV.044","title":"Igreja de Sao Sebatiao - Card nº 4","ref":"006-Telebras-REL-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/006-TB-REL-AV044.jpg"},
+{"id": "006-TEL-FOL-C.05", "title": "- C.05", "serie": "Série Folclore", "ref": "006-TEL-FOL-C.05", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/006-TEL-FOL-C.05.jpg"},
 
-{"id":"007-Telebras-FOT-AV.011","title":"Baixa do Sapateiro - BA - Card nº 1","ref":"007-Telebras-FOT-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV011.jpg"},
+{"id": "006-TEL-FOL-AV.02", "title": "- Casinha colorida", "serie": "Série Folclore", "ref": "006-TEL-FOL-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/006-TEL-FOL-AV.02.jpg"},
 
-{"id":"007-Telebras-FOT-AV.022","title":"Pinheiro Brasileiro - ES - Card nº 2","ref":"007-Telebras-FOT-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV022.jpg"},
+{"id": "006-TEL-FOL-AV.03", "title": "- Carnaval em MG", "serie": "Série Folclore", "ref": "006-TEL-FOL-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/006-TEL-FOL-AV.03.jpg"},
 
-{"id":"007-Telebras-FOT-AV.033","title":"Araucaria - PR - Card nº 3","ref":"007-Telebras-FOT-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV033.jpg"},
+{"id": "006-TEL-FOL-AV.04", "title": "- Passeio no campo", "serie": "Série Folclore", "ref": "006-TEL-FOL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/006-TEL-FOL-AV.04.jpg"},
 
-{"id":"007-Telebras-FOT-AV.044","title":"Tunel do Rochedo - PR - Card nº 4","ref":"007-Telebras-FOT-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV044.jpg"},
+{"id": "007-TEL-IDO-AV.01", "title": "- Tarefa em casa", "serie": "Série Respeito aos Idosos", "ref": "007-TEL-IDO-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/007-TEL-IDO-AV.01.jpg"},
 
-{"id":"007-Telebras-FOT-AV.055","title":"Theatro da Paz - PA - Card nº 5","ref":"007-Telebras-FOT-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV055.jpg"},
+{"id": "007-TEL-IDO-AV.02", "title": "- Convicencia com os netos", "serie": "Série Respeito aos Idosos", "ref": "007-TEL-IDO-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/007-TEL-IDO-AV.02.jpg"},
 
-{"id":"007-Telebras-FOT-AV.066","title":"Baixa do Sapateiro (II) - BA - Card nº 6","ref":"007-Telebras-FOT-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV066.jpg"},
+{"id": "007-TEL-IDO-AV.03", "title": "- Descer escada", "serie": "Série Respeito aos Idosos", "ref": "007-TEL-IDO-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/007-TEL-IDO-AV.03.jpg"},
 
-{"id":"007-Telebras-FOT-AV.077","title":"Teatro Sao Pedro - RS - Card nº 7","ref":"007-Telebras-FOT-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV077.jpg"},
+{"id": "007-TEL-IDO-AV.04", "title": "- Boa alimentacao", "serie": "Série Respeito aos Idosos", "ref": "007-TEL-IDO-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/007-TEL-IDO-AV.04.jpg"},
 
-{"id":"007-Telebras-FOT-AV.088","title":"Cidade de Penedo - AL - Card nº 8","ref":"007-Telebras-FOT-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV088.jpg"},
+{"id": "007-TEL-IDO-AV.06", "title": "- Atividade fisica", "serie": "Série Respeito aos Idosos", "ref": "007-TEL-IDO-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/007-TEL-IDO-AV.06.jpg"},
 
-{"id":"007-Telebras-FOT-AV.099","title":"Obras no Porto - CE - Card nº 9","ref":"007-Telebras-FOT-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/007-TB-FOT-AV099.jpg"},
+{"id": "008-TEL-IGR-AV.03", "title": "- Basilica de S.Pedro dos Clerigos", "serie": "Série Igrejas", "ref": "008-TEL-IGR-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/008-TEL-IGR-AV.03.jpg"},
 
-{"id":"008-Telebras-MCM-C.090","title":"C.09 - Card nº 0","ref":"008-Telebras-MCM-C.090","operator":"Telebras","price":6.0,"image":"fotos/telebras/008-TB-MCM-C090.jpg"},
+{"id": "008-TEL-IGR-AV.04", "title": "- Igreja de N.Sra da Conceicao", "serie": "Série Igrejas", "ref": "008-TEL-IGR-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/008-TEL-IGR-AV.04.jpg"},
 
-{"id":"008-Telebras-MCM-AV.044","title":"Pca XV de Novembro - Card nº 4","ref":"008-Telebras-MCM-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV044.jpg"},
+{"id": "009-TEL-EVE-AV.07", "title": "- Igreja de N.Sra do Oh", "serie": "Série Igrejas", "ref": "009-TEL-EVE-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/009-TEL-EVE-AV.07.jpg"},
 
-{"id":"008-Telebras-MCM-AV.011","title":"Quadro Estranho - Card nº 1","ref":"008-Telebras-MCM-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV011.jpg"},
+{"id": "008-TEL-IGR-AV.09", "title": "- Igreja do Bom Jesus de Matosinhos", "serie": "Série Igrejas", "ref": "008-TEL-IGR-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/008-TEL-IGR-AV.09.jpg"},
 
-{"id":"008-Telebras-MCM-AV.022","title":"Quadro Tarde - Card nº 2","ref":"008-Telebras-MCM-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV022.jpg"},
+{"id": "009-TEL-EVE-AV.04", "title": "- Mostra de 50a de Ismenia Coaracy", "serie": "Série Eventos", "ref": "009-TEL-EVE-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/009-TEL-EVE-AV.04.jpg"},
 
-{"id":"008-Telebras-MCM-AV.011","title":"Marinha - Card nº 1","ref":"008-Telebras-MCM-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV011.jpg"},
+{"id": "010-TEL-DIA-AV.01", "title": "- Dia do Pintor", "serie": "Série Dias Comemorativos", "ref": "010-TEL-DIA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/010-TEL-DIA-AV.01.jpg"},
 
-{"id":"008-Telebras-MCM-AV.055","title":"Casa de Mulheres - Card nº 5","ref":"008-Telebras-MCM-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV055.jpg"},
+{"id": "010-TEL-DIA-AV.02", "title": "- Dia do Musico", "serie": "Série Dias Comemorativos", "ref": "010-TEL-DIA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/010-TEL-DIA-AV.02.jpg"},
 
-{"id":"008-Telebras-MCM-AV.066","title":"Vista de Ouro Preto - Card nº 6","ref":"008-Telebras-MCM-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV066.jpg"},
+{"id": "010-TEL-DIA-AV.03", "title": "- Dia dos Namorados", "serie": "Série Dias Comemorativos", "ref": "010-TEL-DIA-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/010-TEL-DIA-AV.03.jpg"},
 
-{"id":"008-Telebras-MCM-AV.077","title":"Paisagem - Card nº 7","ref":"008-Telebras-MCM-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV077.jpg"},
+{"id": "011-TEL-LEN-C.08", "title": "- C.08", "serie": "Série Lendas do Brasil", "ref": "011-TEL-LEN-C.08", "operator": "TELEFONICA", "price": 5.0, "image": "fotos/telefonica/011-TEL-LEN-C.08.jpg"},
 
-{"id":"008-Telebras-MCM-AV.088","title":"S/ Titulo - Card nº 8","ref":"008-Telebras-MCM-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV088.jpg"},
+{"id": "011-TEL-LEN-AV.01", "title": "- Negrinho do Pastoreio", "serie": "Série Lendas do Brasil", "ref": "011-TEL-LEN-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/011-TEL-LEN-AV.01.jpg"},
 
-{"id":"008-Telebras-MCM-AV.099","title":"Natureza Morta - Card nº 9","ref":"008-Telebras-MCM-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV099.jpg"},
+{"id": "011-TEL-LEN-AV.04", "title": "- Boitata", "serie": "Série Lendas do Brasil", "ref": "011-TEL-LEN-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/011-TEL-LEN-AV.04.jpg"},
 
-{"id":"008-Telebras-MCM-AV.1010","title":"A Grande Cidade - Card nº 10","ref":"008-Telebras-MCM-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV1010.jpg"},
+{"id": "012-TEL-GAV-AV.01", "title": "- Volta ao mundo num balao", "serie": "Série Grandes Aventuras", "ref": "012-TEL-GAV-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/012-TEL-GAV-AV.01.jpg"},
 
-{"id":"008-Telebras-MCM-AV.1111","title":"Vista do Museu Chacara do Ceu - Card nº 11","ref":"008-Telebras-MCM-AV.1111","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MCM-AV1111.jpg"},
+{"id": "013-TEL-U15-AV.01", "title": "- Brasil x America do Norte", "serie": "Série Use o 15", "ref": "013-TEL-U15-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/013-TEL-U15-AV.01.jpg"},
 
-{"id":"008-Telebras-MASP-C.030","title":"C.03 - Card nº 0","ref":"008-Telebras-MASP-C.030","operator":"Telebras","price":3.0,"image":"fotos/telebras/008-TB-MASP-C030.jpg"},
+{"id": "013-TEL-U15-AV.04", "title": "- Brasil x Africa", "serie": "Série Use o 15", "ref": "013-TEL-U15-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/013-TEL-U15-AV.04.jpg"},
 
-{"id":"008-Telebras-MASP-AV.011","title":"Venus, Marte e Cupido - Card nº 1","ref":"008-Telebras-MASP-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MASP-AV011.jpg"},
+{"id": "013-TEL-U15-AV.06", "title": "- Brasil x Oceania", "serie": "Série Use o 15", "ref": "013-TEL-U15-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/013-TEL-U15-AV.06.jpg"},
 
-{"id":"008-Telebras-MASP-AV.022","title":"Predio do Masp - Card nº 2","ref":"008-Telebras-MASP-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MASP-AV022.jpg"},
+{"id": "014-TEL-ALI-AV.01", "title": "- Pimenta e pimentao", "serie": "Série Alimentos", "ref": "014-TEL-ALI-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/014-TEL-ALI-AV.01.jpg"},
 
-{"id":"008-Telebras-MASP-AV.033","title":"Ressurreicao de Cristo - Card nº 3","ref":"008-Telebras-MASP-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MASP-AV033.jpg"},
+{"id": "014-TEL-ALI-AV.02", "title": "- Tomate", "serie": "Série Alimentos", "ref": "014-TEL-ALI-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/014-TEL-ALI-AV.02.jpg"},
 
-{"id":"008-Telebras-MASP-AV.044","title":"Ecce Homo - Card nº 4","ref":"008-Telebras-MASP-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MASP-AV044.jpg"},
+{"id": "015-TEL-AMA-AV.01", "title": "- Carta 1", "serie": "Série Amarelinhas", "ref": "015-TEL-AMA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/015-TEL-AMA-AV.01.jpg"},
 
-{"id":"008-Telebras-MIMP-C.070","title":"C.07 - Card nº 0","ref":"008-Telebras-MIMP-C.070","operator":"Telebras","price":5.0,"image":"fotos/telebras/008-TB-MIMP-C070.jpg"},
+{"id": "015-TEL-AMA-AV.04", "title": "- Carta 4", "serie": "Série Amarelinhas", "ref": "015-TEL-AMA-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/015-TEL-AMA-AV.04.jpg"},
 
-{"id":"008-Telebras-MIMP-AV.011","title":"Cetro de D.PedroI e Pedro II - Card nº 1","ref":"008-Telebras-MIMP-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MIMP-AV011.jpg"},
+{"id": "015-TEL-AMA-AV.07", "title": "- Carta 7", "serie": "Série Amarelinhas", "ref": "015-TEL-AMA-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/015-TEL-AMA-AV.07.jpg"},
 
-{"id":"008-Telebras-MIMP-AV.022","title":"D.Pero II na Ass.Geral - Card nº 2","ref":"008-Telebras-MIMP-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MIMP-AV022.jpg"},
+{"id": "015-TEL-AMA-AV.08", "title": "- Carta 8", "serie": "Série Amarelinhas", "ref": "015-TEL-AMA-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/015-TEL-AMA-AV.08.jpg"},
 
-{"id":"008-Telebras-MIMP-AV.033","title":"D.Pedro II com 12 anos - Card nº 3","ref":"008-Telebras-MIMP-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MIMP-AV033.jpg"},
+{"id": "015-TEL-AMA-AV.09", "title": "- Carta 9", "serie": "Série Amarelinhas", "ref": "015-TEL-AMA-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/015-TEL-AMA-AV.09.jpg"},
 
-{"id":"008-Telebras-MIMP-AV.044","title":"D.Pedro II - Imperador do Braisl - Card nº 4","ref":"008-Telebras-MIMP-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MIMP-AV044.jpg"},
+{"id": "016-TEL-VAG-INC.05", "title": "- 1,2,3,4,5", "serie": "Série Velhas Aguias", "ref": "016-TEL-VAG-INC.05", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/016-TEL-VAG-INC.05.jpg"},
 
-{"id":"008-Telebras-MIMP-AV.055","title":"Coroa de D.Pedro II - Card nº 5","ref":"008-Telebras-MIMP-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MIMP-AV055.jpg"},
+{"id": "017-TEL-COL-AV.01", "title": "- Congresso de Cartofilia", "serie": "Série Colecionador", "ref": "017-TEL-COL-AV.01", "operator": "TELEFONICA", "price": 1.5, "image": "fotos/telefonica/017-TEL-COL-AV.01.jpg"},
 
-{"id":"008-Telebras-MIMP-AV.066","title":"Trono do Imperador - Card nº 6","ref":"008-Telebras-MIMP-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MIMP-AV066.jpg"},
+{"id": "018-TEL-DMA-C.02", "title": "- C.02", "serie": "Série Dia das Maes ", "ref": "018-TEL-DMA-C.02", "operator": "TELEFONICA", "price": 2.0, "image": "fotos/telefonica/018-TEL-DMA-C.02.jpg"},
 
-{"id":"008-Telebras-MIMP-AV.077","title":"Cofre do Principe de Joinville - Card nº 7","ref":"008-Telebras-MIMP-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-MIMP-AV077.jpg"},
+{"id": "018-TEL-DMA-AV.02", "title": "- Madonna", "serie": "Série Dia das Maes ", "ref": "018-TEL-DMA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/018-TEL-DMA-AV.02.jpg"},
 
-{"id":"008-Telebras-IPI-C.050","title":"C.05 - Card nº 0","ref":"008-Telebras-IPI-C.050","operator":"Telebras","price":4.0,"image":"fotos/telebras/008-TB-IPI-C050.jpg"},
+{"id": "019-TEL-MAE-AV.01", "title": "- Maternidade", "serie": "Série Dia das Maes 2001", "ref": "019-TEL-MAE-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/019-TEL-MAE-AV.01.jpg"},
 
-{"id":"008-Telebras-IPI-AV.011","title":"Quadro Carga de moncoes - Card nº 1","ref":"008-Telebras-IPI-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV011.jpg"},
+{"id": "019-TEL-MAE-AV.04", "title": "- Mae sempre mae", "serie": "Série Dia das Maes 2001", "ref": "019-TEL-MAE-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/019-TEL-MAE-AV.04.jpg"},
 
-{"id":"008-Telebras-IPI-AV.022","title":"Quadro Fundacao de S.Vicente - Card nº 2","ref":"008-Telebras-IPI-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV022.jpg"},
+{"id": "019-TEL-MAE-AV.05", "title": "- Amor sem palavras", "serie": "Série Dia das Maes 2001", "ref": "019-TEL-MAE-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/019-TEL-MAE-AV.05.jpg"},
 
-{"id":"008-Telebras-IPI-AV.033","title":"Inundacao da varzea do Carmo -1892 - Card nº 3","ref":"008-Telebras-IPI-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV033.jpg"},
+{"id": "019-TEL-MAE-AV.06", "title": "- Mae, licao de vida", "serie": "Série Dia das Maes 2001", "ref": "019-TEL-MAE-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/019-TEL-MAE-AV.06.jpg"},
 
-{"id":"008-Telebras-IPI-AV.044","title":"Exposicao: Sala de D.Olga - Card nº 4","ref":"008-Telebras-IPI-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV044.jpg"},
+{"id": "019-TEL-MAE-AV.07", "title": "- Dia das maes", "serie": "Série Dia das Maes 2001", "ref": "019-TEL-MAE-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/019-TEL-MAE-AV.07.jpg"},
 
-{"id":"008-Telebras-IPI-AV.055","title":"Nau Capitanea de Pedro A Cabral - Card nº 5","ref":"008-Telebras-IPI-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV055.jpg"},
+{"id": "019-TEL-MAE-AV.09", "title": "- Mae, seu significado", "serie": "Série Dia das Maes 2001", "ref": "019-TEL-MAE-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/019-TEL-MAE-AV.09.jpg"},
 
-{"id":"008-Telebras-IPI-AV.066","title":"Quadro Partida da moncao - Card nº 6","ref":"008-Telebras-IPI-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV066.jpg"},
+{"id": "019-TEL-MAE-AV.10", "title": "- A gestacao", "serie": "Série Dia das Maes 2001", "ref": "019-TEL-MAE-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/019-TEL-MAE-AV.10.jpg"},
 
-{"id":"008-Telebras-IPI-AV.077","title":"Quadro: Desembarque de Pedro A Cabral - Card nº 7","ref":"008-Telebras-IPI-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV077.jpg"},
+{"id": "020-TEL-HMU-AV.28", "title": "- 1500DC", "serie": "Série Historia do Mundo", "ref": "020-TEL-HMU-AV.28", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/020-TEL-HMU-AV.28.jpg"},
 
-{"id":"008-Telebras-IPI-AV.088","title":"Quadro: Fundacao de S.Paulo - Card nº 8","ref":"008-Telebras-IPI-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV088.jpg"},
+{"id": "021-TEL-PAZ-C.02", "title": "- C.02", "serie": "Série Paz Mundial", "ref": "021-TEL-PAZ-C.02", "operator": "TELEFONICA", "price": 2.0, "image": "fotos/telefonica/021-TEL-PAZ-C.02.jpg"},
 
-{"id":"008-Telebras-IPI-AV.099","title":"Quadro: Rua do Rosario, em 1858 - Card nº 9","ref":"008-Telebras-IPI-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV099.jpg"},
+{"id": "021-TEL-PAZ-AV.02", "title": "- Paz", "serie": "Série Paz Mundial", "ref": "021-TEL-PAZ-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/021-TEL-PAZ-AV.02.jpg"},
 
-{"id":"008-Telebras-IPI-AV.1010","title":"Predio do Museu Ipiranga - Card nº 10","ref":"008-Telebras-IPI-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-IPI-AV1010.jpg"},
+{"id": "022-TEL-NLI-AV.01", "title": "- Nossa lingua", "serie": "Série Nossa Lingua", "ref": "022-TEL-NLI-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/022-TEL-NLI-AV.01.jpg"},
 
-{"id":"008-Telebras-NAC-C.070","title":"C.07 - Card nº 0","ref":"008-Telebras-NAC-C.070","operator":"Telebras","price":5.0,"image":"fotos/telebras/008-TB-NAC-C070.jpg"},
+{"id": "023-TEL-BAR-AV.02", "title": "- Na vertical rosa", "serie": "Série Barreto", "ref": "023-TEL-BAR-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/023-TEL-BAR-AV.02.jpg"},
 
-{"id":"008-Telebras-NAC-AV.011","title":"Vasos franceses  - Card nº 1","ref":"008-Telebras-NAC-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV011.jpg"},
+{"id": "024-TEL-BRA-C.06", "title": "- C.06", "serie": "Série Brasil 500 anos", "ref": "024-TEL-BRA-C.06", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/024-TEL-BRA-C.06.jpg"},
 
-{"id":"008-Telebras-NAC-AV.022","title":"Vitral com as figuras de Tasso e Eleonora - Card nº 2","ref":"008-Telebras-NAC-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV022.jpg"},
+{"id": "024-TEL-BRA-AV.01", "title": "- O extrativismo mineral", "serie": "Série Brasil 500 anos", "ref": "024-TEL-BRA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/024-TEL-BRA-AV.01.jpg"},
 
-{"id":"008-Telebras-NAC-AV.033","title":"Porcelana francesa  - Card nº 3","ref":"008-Telebras-NAC-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV033.jpg"},
+{"id": "024-TEL-BRA-AV.02", "title": "- Predominancia do cafe", "serie": "Série Brasil 500 anos", "ref": "024-TEL-BRA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/024-TEL-BRA-AV.02.jpg"},
 
-{"id":"008-Telebras-NAC-AV.044","title":"Tucano - Card nº 4","ref":"008-Telebras-NAC-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV044.jpg"},
+{"id": "024-TEL-BRA-AV.03", "title": "- A lavoura canavieira", "serie": "Série Brasil 500 anos", "ref": "024-TEL-BRA-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/024-TEL-BRA-AV.03.jpg"},
 
-{"id":"008-Telebras-NAC-AV.055","title":"Pecas egipcias - Card nº 5","ref":"008-Telebras-NAC-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV055.jpg"},
+{"id": "024-TEL-BRA-AV.04", "title": "- Caravelas", "serie": "Série Brasil 500 anos", "ref": "024-TEL-BRA-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/024-TEL-BRA-AV.04.jpg"},
 
-{"id":"008-Telebras-NAC-AV.066","title":"Mumia chilena - Card nº 6","ref":"008-Telebras-NAC-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV066.jpg"},
+{"id": "024-TEL-BRA-AV.05", "title": "- Pau-brasil", "serie": "Série Brasil 500 anos", "ref": "024-TEL-BRA-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/024-TEL-BRA-AV.05.jpg"},
 
-{"id":"008-Telebras-NAC-AV.077","title":"Carruagem - Cadeirinha de luxo - Card nº 7","ref":"008-Telebras-NAC-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV077.jpg"},
+{"id": "025-TEL-OSA-AV.06", "title": "- Uma lição de vida", "serie": "Série Osmar Santos", "ref": "025-TEL-OSA-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/025-TEL-OSA-AV.06.jpg"},
 
-{"id":"008-Telebras-NAC-AV.088","title":"Carruagem - Serpentina - Card nº 8","ref":"008-Telebras-NAC-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV088.jpg"},
+{"id": "026-TEL-PRU-C.06", "title": "- C.06", "serie": "Série Paisagens Rurais ", "ref": "026-TEL-PRU-C.06", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/026-TEL-PRU-C.06.jpg"},
 
-{"id":"008-Telebras-NAC-AV.099","title":"Automovel - Modelo 17/35 - Card nº 9","ref":"008-Telebras-NAC-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV099.jpg"},
+{"id": "026-TEL-PRU-AV.01", "title": "- Paisagem campestre", "serie": "Série Paisagens Rurais ", "ref": "026-TEL-PRU-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/026-TEL-PRU-AV.01.jpg"},
 
-{"id":"008-Telebras-NAC-AV.1010","title":"Carruagens - Berlinda de aparato - Card nº 10","ref":"008-Telebras-NAC-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-NAC-AV1010.jpg"},
+{"id": "026-TEL-PRU-AV.06", "title": "- Rebanho de ovelhas", "serie": "Série Paisagens Rurais ", "ref": "026-TEL-PRU-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/026-TEL-PRU-AV.06.jpg"},
 
-{"id":"008-Telebras-REP-C.050","title":"C.05 - Card nº 0","ref":"008-Telebras-REP-C.050","operator":"Telebras","price":4.0,"image":"fotos/telebras/008-TB-REP-C050.jpg"},
+{"id": "027-TEL-VID-C.02", "title": "- C.02", "serie": "Série Vida", "ref": "027-TEL-VID-C.02", "operator": "TELEFONICA", "price": 2.0, "image": "fotos/telefonica/027-TEL-VID-C.02.jpg"},
 
-{"id":"008-Telebras-REP-AV.011","title":"Quadro Compromisso Constitucional - Card nº 1","ref":"008-Telebras-REP-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV011.jpg"},
+{"id": "027-TEL-VID-AV.01", "title": "- Programa Vida urgente", "serie": "Série Vida", "ref": "027-TEL-VID-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/027-TEL-VID-AV.01.jpg"},
 
-{"id":"008-Telebras-REP-AV.022","title":"Aposento do Presidente Vargas - Card nº 2","ref":"008-Telebras-REP-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV022.jpg"},
+{"id": "028-TEL-SSO-AV.01", "title": "- Mercurio", "serie": "Série Sistema Solar", "ref": "028-TEL-SSO-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/028-TEL-SSO-AV.01.jpg"},
 
-{"id":"008-Telebras-REP-AV.033","title":"Fachada do Palacio do Catete - Card nº 3","ref":"008-Telebras-REP-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV033.jpg"},
+{"id": "028-TEL-SSO-AV.02", "title": "- Plutao", "serie": "Série Sistema Solar", "ref": "028-TEL-SSO-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/028-TEL-SSO-AV.02.jpg"},
 
-{"id":"008-Telebras-REP-AV.044","title":"Proclamacao da Republica - Card nº 4","ref":"008-Telebras-REP-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV044.jpg"},
+{"id": "028-TEL-SSO-AV.03", "title": "- Sistema Solar", "serie": "Série Sistema Solar", "ref": "028-TEL-SSO-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/028-TEL-SSO-AV.03.jpg"},
 
-{"id":"008-Telebras-REP-AV.055","title":"Salao de banquete - Card nº 5","ref":"008-Telebras-REP-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV055.jpg"},
+{"id": "029-TEL-FUT-AV.05", "title": "- Franca", "serie": "Série Futebol Px Mundial", "ref": "029-TEL-FUT-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/029-TEL-FUT-AV.05.jpg"},
 
-{"id":"008-Telebras-REP-AV.066","title":"A Patria - Card nº 6","ref":"008-Telebras-REP-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV066.jpg"},
+{"id": "029-TEL-FUT-AV.06", "title": "- Coreia do Sul", "serie": "Série Futebol Px Mundial", "ref": "029-TEL-FUT-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/029-TEL-FUT-AV.06.jpg"},
 
-{"id":"008-Telebras-REP-AV.077","title":"Leque - Card nº 7","ref":"008-Telebras-REP-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV077.jpg"},
+{"id": "029-TEL-FUT-AV.07", "title": "- Espanha", "serie": "Série Futebol Px Mundial", "ref": "029-TEL-FUT-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/029-TEL-FUT-AV.07.jpg"},
 
-{"id":"008-Telebras-REP-AV.088","title":"Salao nobre - Card nº 8","ref":"008-Telebras-REP-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV088.jpg"},
+{"id": "029-TEL-FUT-AV.08", "title": "- Mexico", "serie": "Série Futebol Px Mundial", "ref": "029-TEL-FUT-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/029-TEL-FUT-AV.08.jpg"},
 
-{"id":"008-Telebras-REP-AV.099","title":"Fachada interna e jardim - Card nº 9","ref":"008-Telebras-REP-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV099.jpg"},
+{"id": "030-TEL-VAU-AV.01", "title": "- Carteira estudantil", "serie": "Série Volta as Aulas", "ref": "030-TEL-VAU-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/030-TEL-VAU-AV.01.jpg"},
 
-{"id":"008-Telebras-REP-AV.1010","title":"Salao veneziano - Card nº 10","ref":"008-Telebras-REP-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/008-TB-REP-AV1010.jpg"},
+{"id": "030-TEL-VAU-AV.04", "title": "- Alunas", "serie": "Série Volta as Aulas", "ref": "030-TEL-VAU-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/030-TEL-VAU-AV.04.jpg"},
 
-{"id":"009-Telebras-BON-C.140","title":"C.14 - Card nº 0","ref":"009-Telebras-BON-C.140","operator":"Telebras","price":8.0,"image":"fotos/telebras/009-TB-BON-C140.jpg"},
+{"id": "031-TEL-CDR-AV.02", "title": "- Vitor Aguiar - artista", "serie": "Série Concurso Desenhos", "ref": "031-TEL-CDR-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/031-TEL-CDR-AV.02.jpg"},
 
-{"id":"009-Telebras-BON-AV.011","title":"Quartel general do exercito - Card nº 1","ref":"009-Telebras-BON-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/009-TB-BON-AV011.jpg"},
+{"id": "032-TEL-AMI-AV.01", "title": "- Amigas - cartao vermelho", "serie": "Série Dia do Amigo", "ref": "032-TEL-AMI-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/032-TEL-AMI-AV.01.jpg"},
 
-{"id":"009-Telebras-BON-AV.022","title":"Quartel general do exercito - Card nº 2","ref":"009-Telebras-BON-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/009-TB-BON-AV022.jpg"},
+{"id": "032-TEL-AMI-AV.02", "title": "- Amigos - cartao azul e verde", "serie": "Série Dia do Amigo", "ref": "032-TEL-AMI-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/032-TEL-AMI-AV.02.jpg"},
 
-{"id":"009-Telebras-BON-AV.033","title":"Hotel Avenida - Card nº 3","ref":"009-Telebras-BON-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/009-TB-BON-AV033.jpg"},
+{"id": "032-TEL-AMI-AV.03", "title": "- Tres amigos - Cartao verde", "serie": "Série Dia do Amigo", "ref": "032-TEL-AMI-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/032-TEL-AMI-AV.03.jpg"},
 
-{"id":"009-Telebras-BON-AV.044","title":"Arcos da Lapa - Card nº 4","ref":"009-Telebras-BON-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/009-TB-BON-AV044.jpg"},
+{"id": "032-TEL-AMI-AV.04", "title": "- Amiga e cachorro - cartao roxo", "serie": "Série Dia do Amigo", "ref": "032-TEL-AMI-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/032-TEL-AMI-AV.04.jpg"},
 
-{"id":"009-Telebras-BON-AV.055","title":"Praca da Republica - Card nº 5","ref":"009-Telebras-BON-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/009-TB-BON-AV055.jpg"},
+{"id": "032-TEL-AMI-AV.05", "title": "- Dois amigos - Cartao vermelho", "serie": "Série Dia do Amigo", "ref": "032-TEL-AMI-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/032-TEL-AMI-AV.05.jpg"},
 
-{"id":"009-Telebras-BON-AV.066","title":"Corcovado - Card nº 6","ref":"009-Telebras-BON-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/009-TB-BON-AV066.jpg"},
+{"id": "033-TEL-ANO-AV.06", "title": "- Tradicoes de Ano Novo", "serie": "Série Ano Novo 2004", "ref": "033-TEL-ANO-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/033-TEL-ANO-AV.06.jpg"},
 
-{"id":"010-Telebras-PAR-INC.100","title":"01,02,04,06,07,08,09,10,11,12 - Card nº 0","ref":"010-Telebras-PAR-INC.100","operator":"Telebras","price":5.0,"image":"fotos/telebras/010-TB-PAR-INC100.jpg"},
+{"id": "034-TEL-ESP-AV.01", "title": "- Surf", "serie": "Série Esportes Radicais ", "ref": "034-TEL-ESP-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/034-TEL-ESP-AV.01.jpg"},
 
-{"id":"010-Telebras-PAR-AV.011","title":"Parque Nac do Itatiaia - MG - Card nº 1","ref":"010-Telebras-PAR-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/010-TB-PAR-AV011.jpg"},
+{"id": "034-TEL-ESP-AV.04", "title": "- Rapel", "serie": "Série Esportes Radicais ", "ref": "034-TEL-ESP-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/034-TEL-ESP-AV.04.jpg"},
 
-{"id":"010-Telebras-PAR-AV.066","title":"Parque Nacional das Sete Cidades - PI - Card nº 6","ref":"010-Telebras-PAR-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/010-TB-PAR-AV066.jpg"},
+{"id": "035-TEL-FLO-AV.01", "title": "- Macroxiphonia sp", "serie": "Série Flores do Cerrado", "ref": "035-TEL-FLO-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/035-TEL-FLO-AV.01.jpg"},
 
-{"id":"010-Telebras-PAR-AV.088","title":"Parque do Pico da Neblina - AM - Card nº 8","ref":"010-Telebras-PAR-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/010-TB-PAR-AV088.jpg"},
+{"id": "035-TEL-FLO-AV.02", "title": "- Ptrandra pyrrhoidea", "serie": "Série Flores do Cerrado", "ref": "035-TEL-FLO-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/035-TEL-FLO-AV.02.jpg"},
 
-{"id":"010-Telebras-PAR-AV.1010","title":"Parque da Chapada da Diamantina - BA - Card nº 10","ref":"010-Telebras-PAR-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/010-TB-PAR-AV1010.jpg"},
+{"id": "035-TEL-FLO-AV.03", "title": "- Vermonia simplex", "serie": "Série Flores do Cerrado", "ref": "035-TEL-FLO-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/035-TEL-FLO-AV.03.jpg"},
 
-{"id":"010-Telebras-PAR-AV.1111","title":"Parque da Chapada dos Guimaraes - MT - Card nº 11","ref":"010-Telebras-PAR-AV.1111","operator":"Telebras","price":0.5,"image":"fotos/telebras/010-TB-PAR-AV1111.jpg"},
+{"id": "035-TEL-FLO-AV.04", "title": "- Xylopia aromatica", "serie": "Série Flores do Cerrado", "ref": "035-TEL-FLO-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/035-TEL-FLO-AV.04.jpg"},
 
-{"id":"010-Telebras-PAR-AV.1212","title":"Parque dos Abrolhos - BA - Card nº 12","ref":"010-Telebras-PAR-AV.1212","operator":"Telebras","price":0.5,"image":"fotos/telebras/010-TB-PAR-AV1212.jpg"},
+{"id": "036-TEL-PEI-AV.01", "title": "- Scatophagus argus", "serie": "Série Peixes Ornamentais ", "ref": "036-TEL-PEI-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/036-TEL-PEI-AV.01.jpg"},
 
-{"id":"011-Telebras-RES-AV.011","title":"Represa do Jaguari - Card nº 1","ref":"011-Telebras-RES-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/011-TB-RES-AV011.jpg"},
+{"id": "036-TEL-PEI-AV.02", "title": "- Jaraki", "serie": "Série Peixes Ornamentais ", "ref": "036-TEL-PEI-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/036-TEL-PEI-AV.02.jpg"},
 
-{"id":"011-Telebras-RES-AV.022","title":"Parque de marerial aeronautico - Card nº 2","ref":"011-Telebras-RES-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/011-TB-RES-AV022.jpg"},
+{"id": "036-TEL-PEI-AV.03", "title": "- Peixe lista", "serie": "Série Peixes Ornamentais ", "ref": "036-TEL-PEI-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/036-TEL-PEI-AV.03.jpg"},
 
-{"id":"011-Telebras-RES-AV.033","title":"Parque do Itatiaia  - Card nº 3","ref":"011-Telebras-RES-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/011-TB-RES-AV033.jpg"},
+{"id": "036-TEL-PEI-AV.04", "title": "- Balista", "serie": "Série Peixes Ornamentais ", "ref": "036-TEL-PEI-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/036-TEL-PEI-AV.04.jpg"},
 
-{"id":"011-Telebras-RES-AV.044","title":"Barragem do Rio Tiete - Card nº 4","ref":"011-Telebras-RES-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/011-TB-RES-AV044.jpg"},
+{"id": "036-TEL-PEI-AV.05", "title": "- Colisa laila", "serie": "Série Peixes Ornamentais ", "ref": "036-TEL-PEI-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/036-TEL-PEI-AV.05.jpg"},
 
-{"id":"013-Telebras-CEN-AV.011","title":"Tiradentes - MG - Card nº 1","ref":"013-Telebras-CEN-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/013-TB-CEN-AV011.jpg"},
+{"id": "036-TEL-PEI-AV.06", "title": "- Botia hymenophysa", "serie": "Série Peixes Ornamentais ", "ref": "036-TEL-PEI-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/036-TEL-PEI-AV.06.jpg"},
 
-{"id":"013-Telebras-CEN-AV.022","title":"S.Francisco do Sul - SC - Card nº 2","ref":"013-Telebras-CEN-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/013-TB-CEN-AV022.jpg"},
+{"id": "036-TEL-PEI-AV.07", "title": "- Peixe anjo", "serie": "Série Peixes Ornamentais ", "ref": "036-TEL-PEI-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/036-TEL-PEI-AV.07.jpg"},
 
-{"id":"013-Telebras-CEN-AV.033","title":"Alcantara - MA - Card nº 3","ref":"013-Telebras-CEN-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/013-TB-CEN-AV033.jpg"},
+{"id": "036-TEL-PEI-AV.08", "title": "- Peixe ourico", "serie": "Série Peixes Ornamentais ", "ref": "036-TEL-PEI-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/036-TEL-PEI-AV.08.jpg"},
 
-{"id":"013-Telebras-CEN-AV.044","title":"Parati - RJ - Card nº 4","ref":"013-Telebras-CEN-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/013-TB-CEN-AV044.jpg"},
+{"id": "037-TEL-CPA-AV.01", "title": "- Campinas", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.01.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.011","title":"Monte Alegre - PA - Card nº 1","ref":"014-Telebras-PICOS-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV011.jpg"},
+{"id": "037-TEL-CPA-AV.02", "title": "- Sao Carlos", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.02.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.022","title":"Cidade dos Deuses - PA - Card nº 2","ref":"014-Telebras-PICOS-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV022.jpg"},
+{"id": "037-TEL-CPA-AV.03", "title": "- Franca", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.03.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.033","title":"Morro do Pico - PE - Card nº 3","ref":"014-Telebras-PICOS-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV033.jpg"},
+{"id": "037-TEL-CPA-AV.04", "title": "- Guarulhos", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.04.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.022","title":"Cidade dos Deuses - PA - Card nº 2","ref":"014-Telebras-PICOS-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV022.jpg"},
+{"id": "037-TEL-CPA-AV.05", "title": "- Praia Grande", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.05.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.033","title":"Parque Sete Cidades - PI - Card nº 3","ref":"014-Telebras-PICOS-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV033.jpg"},
+{"id": "037-TEL-CPA-AV.06", "title": "- Cubatao", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.06.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.044","title":"Serra da Capivara - PI - Card nº 4","ref":"014-Telebras-PICOS-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV044.jpg"},
+{"id": "037-TEL-CPA-AV.07", "title": "- Sao Jose do Rio Preto", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.07.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.055","title":"Dedo de Deus - RJ - Card nº 5","ref":"014-Telebras-PICOS-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV055.jpg"},
+{"id": "037-TEL-CPA-AV.08", "title": "- Taubate", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.08.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.066","title":"Vila Velha - PR - Card nº 6","ref":"014-Telebras-PICOS-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV066.jpg"},
+{"id": "037-TEL-CPA-AV.09", "title": "- Marilia", "serie": "Série Cidades Paulistas ", "ref": "037-TEL-CPA-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/037-TEL-CPA-AV.09.jpg"},
 
-{"id":"014-Telebras-PICOS-AV.077","title":"Planalto do Itatiaia - RJ - Card nº 7","ref":"014-Telebras-PICOS-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/014-TB-PICOS-AV077.jpg"},
+{"id": "038-TEL-NEG-AV.02", "title": "- Equilibrio e harmonia", "serie": "Série Consciencia  Negra", "ref": "038-TEL-NEG-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/038-TEL-NEG-AV.02.jpg"},
 
-{"id":"015-Telebras-ESP-AV.011","title":"Atletismo - chegada - Card nº 1","ref":"015-Telebras-ESP-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/015-TB-ESP-AV011.jpg"},
+{"id": "038-TEL-NEG-AV.04", "title": "- Lavagem da escada do Bonfim", "serie": "Série Consciencia  Negra", "ref": "038-TEL-NEG-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/038-TEL-NEG-AV.04.jpg"},
 
-{"id":"015-Telebras-ESP-AV.022","title":"Atletismo - corrida - Card nº 2","ref":"015-Telebras-ESP-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/015-TB-ESP-AV022.jpg"},
+{"id": "039-TEL-PRO-AV.01", "title": "- Prometeu emagrecer", "serie": "Série Promessas Ano Novo", "ref": "039-TEL-PRO-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/039-TEL-PRO-AV.01.jpg"},
 
-{"id":"015-Telebras-ESP-AV.033","title":"Atletismo - largada - Card nº 3","ref":"015-Telebras-ESP-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/015-TB-ESP-AV033.jpg"},
+{"id": "040-TEL-CID-C.10", "title": "- C.10", "serie": "Série Cidades Brasileiras ", "ref": "040-TEL-CID-C.10", "operator": "TELEFONICA", "price": 6.0, "image": "fotos/telefonica/040-TEL-CID-C.10.jpg"},
 
-{"id":"015-Telebras-ESP-AV.044","title":"Atletismo - lancamento - Card nº 4","ref":"015-Telebras-ESP-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/015-TB-ESP-AV044.jpg"},
+{"id": "040-TEL-CID-AV.01", "title": "- Curitiba - PR", "serie": "Série Cidades Brasileiras ", "ref": "040-TEL-CID-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/040-TEL-CID-AV.01.jpg"},
 
-{"id":"015-Telebras-ESP-AV.055","title":"Voleibol - Olimpiadas - Card nº 5","ref":"015-Telebras-ESP-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/015-TB-ESP-AV055.jpg"},
+{"id": "040-TEL-CID-AV.04", "title": "- Basilica - DF", "serie": "Série Cidades Brasileiras ", "ref": "040-TEL-CID-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/040-TEL-CID-AV.04.jpg"},
 
-{"id":"015-Telebras-ESP-AV.066","title":"Atletismo - Olimpiadas - Card nº 6","ref":"015-Telebras-ESP-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/015-TB-ESP-AV066.jpg"},
+{"id": "040-TEL-CID-AV.05", "title": "- Ilha do Mel - PR", "serie": "Série Cidades Brasileiras ", "ref": "040-TEL-CID-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/040-TEL-CID-AV.05.jpg"},
 
-{"id":"015-Telebras-ESP-AV.077","title":"Judo - Olimpiadas - Card nº 7","ref":"015-Telebras-ESP-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/015-TB-ESP-AV077.jpg"},
+{"id": "040-TEL-CID-AV.06", "title": "- Lencois - BA", "serie": "Série Cidades Brasileiras ", "ref": "040-TEL-CID-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/040-TEL-CID-AV.06.jpg"},
 
-{"id":"016-Telebras-BH-AV.000","title":"BH 100 anos - Card nº 0","ref":"016-Telebras-BH-AV.000","operator":"Telebras","price":0.5,"image":"fotos/telebras/016-TB-BH-AV000.jpg"},
+{"id": "040-TEL-CID-AV.07", "title": "- Morro de S.Paulo - BA", "serie": "Série Cidades Brasileiras ", "ref": "040-TEL-CID-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/040-TEL-CID-AV.07.jpg"},
 
-{"id":"016-Telebras-BH-AV.011","title":"Rua Dideira, Sta Luzia - MG - Card nº 1","ref":"016-Telebras-BH-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/016-TB-BH-AV011.jpg"},
+{"id": "040-TEL-CID-AV.08", "title": "- Visconde de Maua - RJ", "serie": "Série Cidades Brasileiras ", "ref": "040-TEL-CID-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/040-TEL-CID-AV.08.jpg"},
 
-{"id":"017-Telebras-EST-AV.022","title":"Alagoas - Card nº 2","ref":"017-Telebras-EST-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV022.jpg"},
+{"id": "041-TEL-ESV-AV.01", "title": "- LACRI", "serie": "Série Educar sem Violencia ", "ref": "041-TEL-ESV-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/041-TEL-ESV-AV.01.jpg"},
 
-{"id":"017-Telebras-EST-AV.044","title":"Amapa - Card nº 4","ref":"017-Telebras-EST-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV044.jpg"},
+{"id": "042-TEL-DRI-AV.02", "title": "- Ceu azul", "serie": "Série Drinks de Inverno", "ref": "042-TEL-DRI-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/042-TEL-DRI-AV.02.jpg"},
 
-{"id":"017-Telebras-EST-AV.055","title":"Bahia - Card nº 5","ref":"017-Telebras-EST-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV055.jpg"},
+{"id": "042-TEL-DRI-AV.04", "title": "- Chocolate petropolis", "serie": "Série Drinks de Inverno", "ref": "042-TEL-DRI-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/042-TEL-DRI-AV.04.jpg"},
 
-{"id":"017-Telebras-EST-AV.077","title":"DF - Card nº 7","ref":"017-Telebras-EST-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV077.jpg"},
+{"id": "042-TEL-DRI-AV.08", "title": "- Poeta", "serie": "Série Drinks de Inverno", "ref": "042-TEL-DRI-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/042-TEL-DRI-AV.08.jpg"},
 
-{"id":"017-Telebras-EST-AV.1212","title":"Mato Grosso - Card nº 12","ref":"017-Telebras-EST-AV.1212","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV1212.jpg"},
+{"id": "043-TEL-COL-AV.01", "title": "- Igreja de Santa Rita", "serie": "Série Arte Colonial RJ/MG", "ref": "043-TEL-COL-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/043-TEL-COL-AV.01.jpg"},
 
-{"id":"017-Telebras-EST-AV.1313","title":"Mato Grosso so Sul - Card nº 13","ref":"017-Telebras-EST-AV.1313","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV1313.jpg"},
+{"id": "043-TEL-COL-AV.02", "title": "- Igreja N. Sra da Conceicao", "serie": "Série Arte Colonial RJ/MG", "ref": "043-TEL-COL-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/043-TEL-COL-AV.02.jpg"},
 
-{"id":"017-Telebras-EST-AV.1515","title":"Paraiba - Card nº 15","ref":"017-Telebras-EST-AV.1515","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV1515.jpg"},
+{"id": "043-TEL-COL-AV.03", "title": "- Casa de Sitio em Lassance", "serie": "Série Arte Colonial RJ/MG", "ref": "043-TEL-COL-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/043-TEL-COL-AV.03.jpg"},
 
-{"id":"017-Telebras-EST-AV.1818","title":"Parana - Card nº 18","ref":"017-Telebras-EST-AV.1818","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV1818.jpg"},
+{"id": "043-TEL-COL-AV.04", "title": "- Casario em Tiradentes", "serie": "Série Arte Colonial RJ/MG", "ref": "043-TEL-COL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/043-TEL-COL-AV.04.jpg"},
 
-{"id":"017-Telebras-EST-AV.2323","title":"Rio Grande do  Sul - Card nº 23","ref":"017-Telebras-EST-AV.2323","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV2323.jpg"},
+{"id": "043-TEL-COL-AV.06", "title": "- Rua da Camara - Tiradentes", "serie": "Série Arte Colonial RJ/MG", "ref": "043-TEL-COL-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/043-TEL-COL-AV.06.jpg"},
 
-{"id":"017-Telebras-EST-AV.1919","title":"Rio de Janeiro - Card nº 19","ref":"017-Telebras-EST-AV.1919","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV1919.jpg"},
+{"id": "043-TEL-COL-AV.07", "title": "- Portao Primavera - Lassance", "serie": "Série Arte Colonial RJ/MG", "ref": "043-TEL-COL-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/043-TEL-COL-AV.07.jpg"},
 
-{"id":"017-Telebras-EST-AV.2424","title":"Santa Catarina - Card nº 24","ref":"017-Telebras-EST-AV.2424","operator":"Telebras","price":0.5,"image":"fotos/telebras/017-TB-EST-AV2424.jpg"},
+{"id": "044-TEL-DBA-AV.01", "title": "- Dia da Bandeira", "serie": "Série Dia da Bandeira ", "ref": "044-TEL-DBA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/044-TEL-DBA-AV.01.jpg"},
 
-{"id":"018-Telebras-EBR-AV.011","title":"Estacao de Belo Horizonte - Card nº 1","ref":"018-Telebras-EBR-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/018-TB-EBR-AV011.jpg"},
+{"id": "045-TEL-BAN-AV.02", "title": "- Dia da Bandeira", "serie": "Série Dia da Bandeira ", "ref": "045-TEL-BAN-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/045-TEL-BAN-AV.02.jpg"},
 
-{"id":"018-Telebras-EBR-AV.022","title":"Estacao de Curitiba - Card nº 2","ref":"018-Telebras-EBR-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/018-TB-EBR-AV022.jpg"},
+{"id": "046-TEL-PAS-C.08", "title": "- C.08", "serie": "Série Passaros Exoticos ", "ref": "046-TEL-PAS-C.08", "operator": "TELEFONICA", "price": 5.0, "image": "fotos/telefonica/046-TEL-PAS-C.08.jpg"},
 
-{"id":"018-Telebras-EBR-AV.033","title":"Estacao da Luz (danificado na escrita do verso) - Card nº 3","ref":"018-Telebras-EBR-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/018-TB-EBR-AV033.jpg"},
+{"id": "046-TEL-PAS-AV.01", "title": "- Corrupiao", "serie": "Série Passaros Exoticos ", "ref": "046-TEL-PAS-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/046-TEL-PAS-AV.01.jpg"},
 
-{"id":"018-Telebras-EBR-AV.044","title":"Estacao da S.Joao del Rei - MG - Card nº 4","ref":"018-Telebras-EBR-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/018-TB-EBR-AV044.jpg"},
+{"id": "046-TEL-PAS-AV.02", "title": "- Flamingo Rosa", "serie": "Série Passaros Exoticos ", "ref": "046-TEL-PAS-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/046-TEL-PAS-AV.02.jpg"},
 
-{"id":"019-Telebras-CUR-AV.022","title":"Memorial da cidade - Card nº 2","ref":"019-Telebras-CUR-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/019-TB-CUR-AV022.jpg"},
+{"id": "047-TEL-DIC-INC.09", "title": "1,2,3,4,5,7,8,9,10", "serie": "Série Dicas de Saude ", "ref": "047-TEL-DIC-INC.09", "operator": "TELEFONICA", "price": 5.0, "image": "fotos/telefonica/047-TEL-DIC-INC.09.jpg"},
 
-{"id":"020-Telebras-25A-AV.011","title":"Cartao azul (1972-1993) - Card nº 1","ref":"020-Telebras-25A-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/020-TB-25A-AV011.jpg"},
+{"id": "047-TEL-DIC-AV.02", "title": "- Coma alimentos saudaveis", "serie": "Série Dicas de Saude ", "ref": "047-TEL-DIC-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/047-TEL-DIC-AV.02.jpg"},
 
-{"id":"020-Telebras-25A-AV.022","title":"Cartao roxo  - Card nº 2","ref":"020-Telebras-25A-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/020-TB-25A-AV022.jpg"},
+{"id": "047-TEL-DIC-AV.07", "title": "- Cantar no banho", "serie": "Série Dicas de Saude ", "ref": "047-TEL-DIC-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/047-TEL-DIC-AV.07.jpg"},
 
-{"id":"020-Telebras-25A-AV.033","title":"Nas ondas da internet - Card nº 3","ref":"020-Telebras-25A-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/020-TB-25A-AV033.jpg"},
+{"id": "047-TEL-DIC-AV.09", "title": "- Caminhar", "serie": "Série Dicas de Saude ", "ref": "047-TEL-DIC-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/047-TEL-DIC-AV.09.jpg"},
 
-{"id":"020-Telebras-25A-AV.044","title":"Homem cuidando de bebe - Card nº 4","ref":"020-Telebras-25A-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/020-TB-25A-AV044.jpg"},
+{"id": "048-TEL-REF-AV.03", "title": "- Vitamina de sorvete com melao", "serie": "Série Refrescos de Verao ", "ref": "048-TEL-REF-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/048-TEL-REF-AV.03.jpg"},
 
-{"id":"020-Telebras-25A-AV.055","title":"Casal telefonando - Card nº 5","ref":"020-Telebras-25A-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/020-TB-25A-AV055.jpg"},
+{"id": "048-TEL-REF-AV.04", "title": "- Suco de laranja com acerola", "serie": "Série Refrescos de Verao ", "ref": "048-TEL-REF-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/048-TEL-REF-AV.04.jpg"},
 
-{"id":"020-Telebras-25A-AV.066","title":"Alpinista - Card nº 6","ref":"020-Telebras-25A-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/020-TB-25A-AV066.jpg"},
+{"id": "048-TEL-REF-AV.07", "title": "- Suco de cenoura, laranja e abacaxi", "serie": "Série Refrescos de Verao ", "ref": "048-TEL-REF-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/048-TEL-REF-AV.07.jpg"},
 
-{"id":"020-Telebras-25A-AV.077","title":"Golll! - Card nº 7","ref":"020-Telebras-25A-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/020-TB-25A-AV077.jpg"},
+{"id": "048-TEL-REF-AV.10", "title": "- Suco tropical", "serie": "Série Refrescos de Verao ", "ref": "048-TEL-REF-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/048-TEL-REF-AV.10.jpg"},
 
-{"id":"021-Telebras-ORQ-AV.011","title":"Pabstia jugosa - Card nº 1","ref":"021-Telebras-ORQ-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/021-TB-ORQ-AV011.jpg"},
+{"id": "049-TEL-VOL-AV.01", "title": "- Bem vindo!", "serie": "Série Volta as Aulas 2002", "ref": "049-TEL-VOL-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/049-TEL-VOL-AV.01.jpg"},
 
-{"id":"021-Telebras-ORQ-AV.022","title":"Cattleya guttata - Card nº 2","ref":"021-Telebras-ORQ-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/021-TB-ORQ-AV022.jpg"},
+{"id": "049-TEL-VOL-AV.04", "title": "- ABC", "serie": "Série Volta as Aulas 2002", "ref": "049-TEL-VOL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/049-TEL-VOL-AV.04.jpg"},
 
-{"id":"021-Telebras-ORQ-AV.033","title":"Dendrobium nobile albino - Card nº 3","ref":"021-Telebras-ORQ-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/021-TB-ORQ-AV033.jpg"},
+{"id": "049-TEL-VOL-AV.05", "title": "- Quadro verde - Volta as aulas", "serie": "Série Volta as Aulas 2002", "ref": "049-TEL-VOL-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/049-TEL-VOL-AV.05.jpg"},
 
-{"id":"021-Telebras-ORQ-AV.044","title":"Miltona clowesi - Card nº 4","ref":"021-Telebras-ORQ-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/021-TB-ORQ-AV044.jpg"},
+{"id": "049-TEL-VOL-AV.06", "title": "- Fevereiro volta as aulas", "serie": "Série Volta as Aulas 2002", "ref": "049-TEL-VOL-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/049-TEL-VOL-AV.06.jpg"},
 
-{"id":"021-Telebras-ORQ-AV.055","title":"Sophronitis coccinea pygmea - Card nº 5","ref":"021-Telebras-ORQ-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/021-TB-ORQ-AV055.jpg"},
+{"id": "050-TEL-FOL-C.05", "title": "- C.50", "serie": "Série Folhagens", "ref": "050-TEL-FOL-C.05", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/050-TEL-FOL-C.05.jpg"},
 
-{"id":"021-Telebras-ORQ-AV.066","title":"Houletia juruenensis - Card nº 6","ref":"021-Telebras-ORQ-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/021-TB-ORQ-AV066.jpg"},
+{"id": "050-TEL-FOL-AV.01", "title": "- Fittonia verschaffeltil", "serie": "Série Folhagens", "ref": "050-TEL-FOL-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/050-TEL-FOL-AV.01.jpg"},
 
-{"id":"021-Telebras-ORQ-AV.077","title":"Dendrobium densiflorum - Card nº 7","ref":"021-Telebras-ORQ-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/021-TB-ORQ-AV077.jpg"},
+{"id": "051-TEL-URB-AV.02", "title": "- Cidade Moderna I", "serie": "Série Cidade Urbana", "ref": "051-TEL-URB-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/051-TEL-URB-AV.02.jpg"},
 
-{"id":"022-Telebras-LOC-C.110","title":"C.11 - Card nº 0","ref":"022-Telebras-LOC-C.110","operator":"Telebras","price":7.0,"image":"fotos/telebras/022-TB-LOC-C110.jpg"},
+{"id": "051-TEL-URB-AV.04", "title": "- Cidade Antiga", "serie": "Série Cidade Urbana", "ref": "051-TEL-URB-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/051-TEL-URB-AV.04.jpg"},
 
-{"id":"022-Telebras-LOC-AV.011","title":"Locomotiva nº 30 - Card nº 1","ref":"022-Telebras-LOC-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/022-TB-LOC-AV011.jpg"},
+{"id": "052-TEL-SOL-AV.02", "title": "- Artesanato solidario", "serie": "Série Comunidade Solidaria ", "ref": "052-TEL-SOL-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/052-TEL-SOL-AV.02.jpg"},
 
-{"id":"022-Telebras-LOC-AV.022","title":"Loc Vapor de manobra nº15 - Card nº 2","ref":"022-Telebras-LOC-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/022-TB-LOC-AV022.jpg"},
+{"id": "052-TEL-SOL-AV.03", "title": "- Capacitacao solidaria", "serie": "Série Comunidade Solidaria ", "ref": "052-TEL-SOL-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/052-TEL-SOL-AV.03.jpg"},
 
-{"id":"022-Telebras-LOC-AV.033","title":"Loc Vapor nº04 - Card nº 3","ref":"022-Telebras-LOC-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/022-TB-LOC-AV033.jpg"},
+{"id": "052-TEL-SOL-AV.04", "title": "- Portal do voluntariado", "serie": "Série Comunidade Solidaria ", "ref": "052-TEL-SOL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/052-TEL-SOL-AV.04.jpg"},
 
-{"id":"022-Telebras-LOC-AV.044","title":"Loc Vapor nº301 - Card nº 4","ref":"022-Telebras-LOC-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/022-TB-LOC-AV044.jpg"},
+{"id": "052-TEL-SOL-AV.05", "title": "- Portal do voluntariado", "serie": "Série Comunidade Solidaria ", "ref": "052-TEL-SOL-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/052-TEL-SOL-AV.05.jpg"},
 
-{"id":"022-Telebras-LOC-AV.055","title":"Loc Vapor nº612 - Card nº 5","ref":"022-Telebras-LOC-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/022-TB-LOC-AV055.jpg"},
+{"id": "053-TEL-MIL-AV.02", "title": "- Milagre da Terra", "serie": "Série Dia Maes-Milagre", "ref": "053-TEL-MIL-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/053-TEL-MIL-AV.02.jpg"},
 
-{"id":"022-Telebras-LOC-AV.066","title":"Loc Vapor Baronesa - Card nº 6","ref":"022-Telebras-LOC-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/022-TB-LOC-AV066.jpg"},
+{"id": "053-TEL-MIL-AV.03", "title": "- Milagre da Agua", "serie": "Série Dia Maes-Milagre", "ref": "053-TEL-MIL-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/053-TEL-MIL-AV.03.jpg"},
 
-{"id":"023-Telebras-ANT-AV.011","title":"Peninsula Keller - Card nº 1","ref":"023-Telebras-ANT-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/023-TB-ANT-AV011.jpg"},
+{"id": "053-TEL-MIL-AV.04", "title": "- Milagre do Ar", "serie": "Série Dia Maes-Milagre", "ref": "053-TEL-MIL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/053-TEL-MIL-AV.04.jpg"},
 
-{"id":"023-Telebras-ANT-AV.022","title":"Navio Barao de Teffe - Card nº 2","ref":"023-Telebras-ANT-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/023-TB-ANT-AV022.jpg"},
+{"id": "054-TEL-TER-AV.01", "title": "- Mae da Luz", "serie": "Série Mae Terra ", "ref": "054-TEL-TER-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/054-TEL-TER-AV.01.jpg"},
 
-{"id":"023-Telebras-ANT-AV.033","title":"Navio Barao de Teffe - Card nº 3","ref":"023-Telebras-ANT-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/023-TB-ANT-AV033.jpg"},
+{"id": "054-TEL-TER-AV.04", "title": "- Mae da Agua", "serie": "Série Mae Terra ", "ref": "054-TEL-TER-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/054-TEL-TER-AV.04.jpg"},
 
-{"id":"024-Telebras-SEL-AV.011","title":"28 anos da ETC - Card nº 1","ref":"024-Telebras-SEL-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV011.jpg"},
+{"id": "055-TEL-89F-AV.02", "title": "- HD", "serie": "Série 89 FM", "ref": "055-TEL-89F-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/055-TEL-89F-AV.02.jpg"},
 
-{"id":"024-Telebras-SEL-AV.022","title":"Coloridos ou Olhos de Gato - Card nº 2","ref":"024-Telebras-SEL-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV022.jpg"},
+{"id": "056-TEL-MON-AV.01", "title": "- Cascao", "serie": "Série Turma na Monica ", "ref": "056-TEL-MON-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/056-TEL-MON-AV.01.jpg"},
 
-{"id":"024-Telebras-SEL-AV.033","title":"D.Pedro  ou Cabeca Grande - Card nº 3","ref":"024-Telebras-SEL-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV033.jpg"},
+{"id": "056-TEL-MON-AV.02", "title": "- Anjinho", "serie": "Série Turma na Monica ", "ref": "056-TEL-MON-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/056-TEL-MON-AV.02.jpg"},
 
-{"id":"024-Telebras-SEL-AV.044","title":"Olhos-de-boi - Card nº 4","ref":"024-Telebras-SEL-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV044.jpg"},
+{"id": "056-TEL-MON-AV.03", "title": "- Jotalhao", "serie": "Série Turma na Monica ", "ref": "056-TEL-MON-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/056-TEL-MON-AV.03.jpg"},
 
-{"id":"024-Telebras-SEL-AV.055","title":"D.Pedro II - Denteado - Card nº 5","ref":"024-Telebras-SEL-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV055.jpg"},
+{"id": "057-TEL-JUN-AV.02", "title": "- Fogueira", "serie": "Série Festa Junina 2001", "ref": "057-TEL-JUN-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/057-TEL-JUN-AV.02.jpg"},
 
-{"id":"024-Telebras-SEL-AV.066","title":"D.Pedro II - Card nº 6","ref":"024-Telebras-SEL-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV066.jpg"},
+{"id": "057-TEL-JUN-AV.03", "title": "- Caipirinhas", "serie": "Série Festa Junina 2001", "ref": "057-TEL-JUN-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/057-TEL-JUN-AV.03.jpg"},
 
-{"id":"024-Telebras-SEL-AV.077","title":"Inclinados - Card nº 7","ref":"024-Telebras-SEL-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV077.jpg"},
+{"id": "057-TEL-JUN-AV.04", "title": "- Cachorrinho", "serie": "Série Festa Junina 2001", "ref": "057-TEL-JUN-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/057-TEL-JUN-AV.04.jpg"},
 
-{"id":"024-Telebras-SEL-AV.088","title":"Verticais - Card nº 8","ref":"024-Telebras-SEL-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV088.jpg"},
+{"id": "058-TEL-EOL-AV.23", "title": "- Tenis de mesa", "serie": "Série Esportes Olimpicos ", "ref": "058-TEL-EOL-AV.23", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/058-TEL-EOL-AV.23.jpg"},
 
-{"id":"024-Telebras-SEL-AV.099","title":"D.Pedro II - Barba branca - Card nº 9","ref":"024-Telebras-SEL-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV099.jpg"},
+{"id": "059-TEL-NAT-AV.02", "title": "- Pinheirinho verde", "serie": "Série Natal 2002", "ref": "059-TEL-NAT-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/059-TEL-NAT-AV.02.jpg"},
 
-{"id":"024-Telebras-SEL-AV.1010","title":"Cifra - Card nº 10","ref":"024-Telebras-SEL-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV1010.jpg"},
+{"id": "060-TEL-COM-AV.02", "title": "- Francesa", "serie": "Série Comidas Tipicas ", "ref": "060-TEL-COM-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/060-TEL-COM-AV.02.jpg"},
 
-{"id":"024-Telebras-SEL-AV.1111","title":"O Correio - Card nº 11","ref":"024-Telebras-SEL-AV.1111","operator":"Telebras","price":0.5,"image":"fotos/telebras/024-TB-SEL-AV1111.jpg"},
+{"id": "061-TEL-CRI-AV.01", "title": "- Ser crianca", "serie": "Série Dia das Criancas ", "ref": "061-TEL-CRI-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/061-TEL-CRI-AV.01.jpg"},
 
-{"id":"025-Telebras-EVE-AV.011","title":"Semint 97 - Card nº 1","ref":"025-Telebras-EVE-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV011.jpg"},
+{"id": "061-TEL-CRI-AV.03", "title": "- Felicidade de crianca", "serie": "Série Dia das Criancas ", "ref": "061-TEL-CRI-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/061-TEL-CRI-AV.03.jpg"},
 
-{"id":"025-Telebras-EVE-AV.022","title":"Dia das Telecom - Cartao verde - Card nº 2","ref":"025-Telebras-EVE-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV022.jpg"},
+{"id": "061-TEL-CRI-AV.04", "title": "- Sonhos de crianca", "serie": "Série Dia das Criancas ", "ref": "061-TEL-CRI-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/061-TEL-CRI-AV.04.jpg"},
 
-{"id":"025-Telebras-EVE-AV.033","title":"Simposio em BH - Card nº 3","ref":"025-Telebras-EVE-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV033.jpg"},
+{"id": "062-TEL-VER-AV.02", "title": "- Amizade", "serie": "Série Verao 2001", "ref": "062-TEL-VER-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/062-TEL-VER-AV.02.jpg"},
 
-{"id":"025-Telebras-EVE-AV.044","title":"Americas Telecom - Card nº 4","ref":"025-Telebras-EVE-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV044.jpg"},
+{"id": "062-TEL-VER-AV.03", "title": "- Verao", "serie": "Série Verao 2001", "ref": "062-TEL-VER-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/062-TEL-VER-AV.03.jpg"},
 
-{"id":"025-Telebras-EVE-AV.055","title":"Condex - Card nº 5","ref":"025-Telebras-EVE-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV055.jpg"},
+{"id": "062-TEL-VER-AV.04", "title": "- Familia", "serie": "Série Verao 2001", "ref": "062-TEL-VER-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/062-TEL-VER-AV.04.jpg"},
 
-{"id":"025-Telebras-EVE-AV.066","title":"05 de maio - Card nº 6","ref":"025-Telebras-EVE-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV066.jpg"},
+{"id": "062-TEL-VER-AV.05", "title": "- Inspiracao", "serie": "Série Verao 2001", "ref": "062-TEL-VER-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/062-TEL-VER-AV.05.jpg"},
 
-{"id":"025-Telebras-EVE-AV.077","title":"24 anos da Telebras - cartao verde - Card nº 7","ref":"025-Telebras-EVE-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV077.jpg"},
+{"id": "063-TEL-CAR-AV.01", "title": "- Baile Preto e Branco", "serie": "Série Carnaval 2002", "ref": "063-TEL-CAR-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/063-TEL-CAR-AV.01.jpg"},
 
-{"id":"025-Telebras-EVE-AV.088","title":"Telebras na Bolsa de N York - Card nº 8","ref":"025-Telebras-EVE-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV088.jpg"},
+{"id": "064-TEL-DAT-C.10", "title": "- C.10", "serie": "Série Datas Comemorativas ", "ref": "064-TEL-DAT-C.10", "operator": "TELEFONICA", "price": 6.0, "image": "fotos/telefonica/064-TEL-DAT-C.10.jpg"},
 
-{"id":"025-Telebras-EVE-AV.099","title":"Congresso em B Horizonte - Card nº 9","ref":"025-Telebras-EVE-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV099.jpg"},
+{"id": "064-TEL-DAT-AV.01", "title": "- 1º janeiro - cartao azul", "serie": "Série Datas Comemorativas ", "ref": "064-TEL-DAT-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/064-TEL-DAT-AV.01.jpg"},
 
-{"id":"025-Telebras-EVE-AV.1010","title":"Aplicacoes RDSI - Card nº 10","ref":"025-Telebras-EVE-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV1010.jpg"},
+{"id": "065-TEL-VIT-AV.01", "title": "- Cartao roxo ", "serie": "Série Vitalidade", "ref": "065-TEL-VIT-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/065-TEL-VIT-AV.01.jpg"},
 
-{"id":"025-Telebras-EVE-AV.1111","title":"XIII Seminario de redes - Card nº 11","ref":"025-Telebras-EVE-AV.1111","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV1111.jpg"},
+{"id": "065-TEL-VIT-AV.02", "title": "- Cartao vermelho", "serie": "Série Vitalidade", "ref": "065-TEL-VIT-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/065-TEL-VIT-AV.02.jpg"},
 
-{"id":"025-Telebras-EVE-AV.1212","title":"22a da Telebras - Card nº 12","ref":"025-Telebras-EVE-AV.1212","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV1212.jpg"},
+{"id": "065-TEL-VIT-AV.05", "title": "- Ciclismo", "serie": "Série Vitalidade", "ref": "065-TEL-VIT-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/065-TEL-VIT-AV.05.jpg"},
 
-{"id":"025-Telebras-EVE-AV.1313","title":"III Seminario de N Tecnologias - Card nº 13","ref":"025-Telebras-EVE-AV.1313","operator":"Telebras","price":0.5,"image":"fotos/telebras/025-TB-EVE-AV1313.jpg"},
+{"id": "066-TEL-VOL-AV.01", "title": "- Capa - cartao amarelo", "serie": "Série Voluntarios do Brasil ", "ref": "066-TEL-VOL-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/066-TEL-VOL-AV.01.jpg"},
 
-{"id":"026-Telebras-ORE-AV.011","title":"Tucano - Card nº 1","ref":"026-Telebras-ORE-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/026-TB-ORE-AV011.jpg"},
+{"id": "066-TEL-VOL-AV.02", "title": "- Menininho com aviao - cartao rosa", "serie": "Série Voluntarios do Brasil ", "ref": "066-TEL-VOL-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/066-TEL-VOL-AV.02.jpg"},
 
-{"id":"026-Telebras-ORE-AV.022","title":"Tuiuiu - Card nº 2","ref":"026-Telebras-ORE-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/026-TB-ORE-AV022.jpg"},
+{"id": "066-TEL-VOL-AV.03", "title": "- Pintura pixelada", "serie": "Série Voluntarios do Brasil ", "ref": "066-TEL-VOL-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/066-TEL-VOL-AV.03.jpg"},
 
-{"id":"026-Telebras-ORE-AV.033","title":"Arara vermelha - Card nº 3","ref":"026-Telebras-ORE-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/026-TB-ORE-AV033.jpg"},
+{"id": "066-TEL-VOL-AV.04", "title": "- Raquete de bamington - cartao verde", "serie": "Série Voluntarios do Brasil ", "ref": "066-TEL-VOL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/066-TEL-VOL-AV.04.jpg"},
 
-{"id":"026-Telebras-ORE-AV.044","title":"Garca - Card nº 4","ref":"026-Telebras-ORE-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/026-TB-ORE-AV044.jpg"},
+{"id": "066-TEL-VOL-AV.05", "title": "- Basquete em cadeira de rodas - cartao verde", "serie": "Série Voluntarios do Brasil ", "ref": "066-TEL-VOL-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/066-TEL-VOL-AV.05.jpg"},
 
-{"id":"027-Telebras-CONV-C.050","title":"C.05 - Card nº 0","ref":"027-Telebras-CONV-C.050","operator":"Telebras","price":4.0,"image":"fotos/telebras/027-TB-CONV-C050.jpg"},
+{"id": "067-TEL-PRA-AV.01", "title": "- Praca da Se", "serie": "Série Pracas e Parques", "ref": "067-TEL-PRA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/067-TEL-PRA-AV.01.jpg"},
 
-{"id":"027-Telebras-CONV-AV.011","title":"Hora marcada 134 - Card nº 1","ref":"027-Telebras-CONV-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/027-TB-CONV-AV011.jpg"},
+{"id": "067-TEL-PRA-AV.02", "title": "- Praca Mario Carneiro", "serie": "Série Pracas e Parques", "ref": "067-TEL-PRA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/067-TEL-PRA-AV.02.jpg"},
 
-{"id":"028-Telebras-PINT-AV.011","title":"Santa ceia, de Locatelli - Card nº 1","ref":"028-Telebras-PINT-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/028-TB-PINT-AV011.jpg"},
+{"id": "067-TEL-PRA-AV.03", "title": "- Praca do Relogio ", "serie": "Série Pracas e Parques", "ref": "067-TEL-PRA-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/067-TEL-PRA-AV.03.jpg"},
 
-{"id":"028-Telebras-PINT-AV.022","title":"Santa ceia e entorno, de Locatelli - Card nº 2","ref":"028-Telebras-PINT-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/028-TB-PINT-AV022.jpg"},
+{"id": "067-TEL-PRA-AV.04", "title": "- Praca Sen. Roberto Leite Penteado", "serie": "Série Pracas e Parques", "ref": "067-TEL-PRA-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/067-TEL-PRA-AV.04.jpg"},
 
-{"id":"028-Telebras-PINT-AV.033","title":"Negrinho do Pastoreio, de Locatelli - Card nº 3","ref":"028-Telebras-PINT-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/028-TB-PINT-AV033.jpg"},
+{"id": "067-TEL-PRA-AV.05", "title": "- Praca 14 Bis", "serie": "Série Pracas e Parques", "ref": "067-TEL-PRA-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/067-TEL-PRA-AV.05.jpg"},
 
-{"id":"028-Telebras-PINT-AV.044","title":"Colonizacao do RS, de Locatelli - Card nº 4","ref":"028-Telebras-PINT-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/028-TB-PINT-AV044.jpg"},
+{"id": "068-TEL-EST-AV.02", "title": "- Alagoas", "serie": "Série Estados Brasileiros", "ref": "068-TEL-EST-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/068-TEL-EST-AV.02.jpg"},
 
-{"id":"029-Telebras-MG-AV.011","title":"Fonte Dona Beja - Card nº 1","ref":"029-Telebras-MG-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/029-TB-MG-AV011.jpg"},
+{"id": "068-TEL-EST-AV.03", "title": "- Amapa", "serie": "Série Estados Brasileiros", "ref": "068-TEL-EST-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/068-TEL-EST-AV.03.jpg"},
 
-{"id":"029-Telebras-MG-AV.044","title":"Matriz de Bonsucesso - Card nº 4","ref":"029-Telebras-MG-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/029-TB-MG-AV044.jpg"},
+{"id": "068-TEL-EST-AV.04", "title": "- Amazonas", "serie": "Série Estados Brasileiros", "ref": "068-TEL-EST-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/068-TEL-EST-AV.04.jpg"},
 
-{"id":"030-Telebras-CER-AV.011","title":"Cigana  - Calliandra sp - Card nº 1","ref":"030-Telebras-CER-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/030-TB-CER-AV011.jpg"},
+{"id": "068-TEL-EST-AV.12", "title": "- Mato Grosso do Sul", "serie": "Série Estados Brasileiros", "ref": "068-TEL-EST-AV.12", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/068-TEL-EST-AV.12.jpg"},
 
-{"id":"030-Telebras-CER-AV.022","title":"Canela-de-ema - Vellozia sp - Card nº 2","ref":"030-Telebras-CER-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/030-TB-CER-AV022.jpg"},
+{"id": "068-TEL-EST-AV.20", "title": "- Rio Grande do Norte", "serie": "Série Estados Brasileiros", "ref": "068-TEL-EST-AV.20", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/068-TEL-EST-AV.20.jpg"},
 
-{"id":"031-Telebras-BFL-AV.011","title":"Beija-flor vermelho: colibri-rubi - Card nº 1","ref":"031-Telebras-BFL-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/031-TB-BFL-AV011.jpg"},
+{"id": "068-TEL-EST-AV.25", "title": "- Sao Paulo", "serie": "Série Estados Brasileiros", "ref": "068-TEL-EST-AV.25", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/068-TEL-EST-AV.25.jpg"},
 
-{"id":"032-Telebras-PEI-AV.011","title":"Barbeiro - Acanthurus chirurgus - Card nº 1","ref":"032-Telebras-PEI-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/032-TB-PEI-AV011.jpg"},
+{"id": "068-TEL-EST-AV.27", "title": "- Tocantins", "serie": "Série Estados Brasileiros", "ref": "068-TEL-EST-AV.27", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/068-TEL-EST-AV.27.jpg"},
 
-{"id":"032-Telebras-PEI-AV.022","title":"1998 - Ano dos oceanos - Card nº 2","ref":"032-Telebras-PEI-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/032-TB-PEI-AV022.jpg"},
+{"id": "069-TEL-CAV-AV.01", "title": "- Arabe", "serie": "Série Cavalos", "ref": "069-TEL-CAV-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/069-TEL-CAV-AV.01.jpg"},
 
-{"id":"033-Telebras-CAP-AV.011","title":"Manaus - Card nº 1","ref":"033-Telebras-CAP-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/033-TB-CAP-AV011.jpg"},
+{"id": "069-TEL-CAV-AV.02", "title": "- Mangalarga marchador", "serie": "Série Cavalos", "ref": "069-TEL-CAV-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/069-TEL-CAV-AV.02.jpg"},
 
-{"id":"033-Telebras-CAP-AV.022","title":"Rio de Janeiro - Card nº 2","ref":"033-Telebras-CAP-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/033-TB-CAP-AV022.jpg"},
+{"id": "069-TEL-CAV-AV.03", "title": "- Mangalarga paulista", "serie": "Série Cavalos", "ref": "069-TEL-CAV-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/069-TEL-CAV-AV.03.jpg"},
 
-{"id":"034-Telebras-TEL-AV.011","title":"0800 - Card nº 1","ref":"034-Telebras-TEL-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV011.jpg"},
+{"id": "069-TEL-CAV-AV.04", "title": "- Andaluz", "serie": "Série Cavalos", "ref": "069-TEL-CAV-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/069-TEL-CAV-AV.04.jpg"},
 
-{"id":"034-Telebras-TEL-AV.022","title":"Facilidade CPA - telefone vermelho - Card nº 2","ref":"034-Telebras-TEL-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV022.jpg"},
+{"id": "070-TEL-TER-C.02", "title": "- C.02", "serie": "Série Terra", "ref": "070-TEL-TER-C.02", "operator": "TELEFONICA", "price": 2.0, "image": "fotos/telefonica/070-TEL-TER-C.02.jpg"},
 
-{"id":"034-Telebras-TEL-AV.033","title":"Abraco ao orelhao - Card nº 3","ref":"034-Telebras-TEL-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV033.jpg"},
+{"id": "071-TEL-ANI-INC.08", "title": "- 01,02,03,04,05,06,09,10", "serie": "Série Animais/Animais silvestres - 01 a 10", "ref": "071-TEL-ANI-INC.08", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/071-TEL-ANI-INC.08.jpg"},
 
-{"id":"034-Telebras-TEL-AV.044","title":"Orelhao duplo - Card nº 4","ref":"034-Telebras-TEL-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV044.jpg"},
+{"id": "071-TEL-ANI-INC.09", "title": "- 11,12,13,14,15,16,17,19,20", "serie": "Série Animais/Animais silvestres - 11 a 20", "ref": "071-TEL-ANI-INC.09", "operator": "TELEFONICA", "price": 5.0, "image": "fotos/telefonica/071-TEL-ANI-INC.09.jpg"},
 
-{"id":"034-Telebras-TEL-AV.055","title":"25a de Orelhao - Card nº 5","ref":"034-Telebras-TEL-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV055.jpg"},
+{"id": "071-TEL-ANI-INC.05", "title": "- 21,22,23,24,25", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-INC.05", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/071-TEL-ANI-INC.05.jpg"},
 
-{"id":"034-Telebras-TEL-AV.066","title":"Correio de voz - Card nº 6","ref":"034-Telebras-TEL-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV066.jpg"},
+{"id": "071-TEL-ANI-AV.05", "title": "- Paraguacu", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.05.jpg"},
 
-{"id":"034-Telebras-TEL-AV.077","title":"Cuide do orelhao - Card nº 7","ref":"034-Telebras-TEL-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV077.jpg"},
+{"id": "071-TEL-ANI-AV.08", "title": "- Elefante indiano", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.08.jpg"},
 
-{"id":"034-Telebras-TEL-AV.088","title":"Proteja o orelhao - Card nº 8","ref":"034-Telebras-TEL-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV088.jpg"},
+{"id": "071-TEL-ANI-AV.13", "title": "- Onca pintada", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.13", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.13.jpg"},
 
-{"id":"034-Telebras-TEL-AV.099","title":"Orelhoes no Brasil - Card nº 9","ref":"034-Telebras-TEL-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV099.jpg"},
+{"id": "071-TEL-ANI-AV.16", "title": "- Veado campeiro", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.16", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.16.jpg"},
 
-{"id":"034-Telebras-TEL-AV.1010","title":"Centro de treinamento da Telebras - Card nº 10","ref":"034-Telebras-TEL-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV1010.jpg"},
+{"id": "071-TEL-ANI-AV.19", "title": "- Gato do mato", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.19", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.19.jpg"},
 
-{"id":"034-Telebras-TEL-AV.1111","title":"Orelhao duplo - Card nº 11","ref":"034-Telebras-TEL-AV.1111","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV1111.jpg"},
+{"id": "071-TEL-ANI-AV.21", "title": "- Tamdandua mirim", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.21", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.21.jpg"},
 
-{"id":"034-Telebras-TEL-AV.1212","title":"Debito automatico - Card nº 12","ref":"034-Telebras-TEL-AV.1212","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV1212.jpg"},
+{"id": "071-TEL-ANI-AV.22", "title": "- Lontra", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.22", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.22.jpg"},
 
-{"id":"034-Telebras-TEL-AV.1313","title":"Telefone publico internacional - Card nº 13","ref":"034-Telebras-TEL-AV.1313","operator":"Telebras","price":0.5,"image":"fotos/telebras/034-TB-TEL-AV1313.jpg"},
+{"id": "071-TEL-ANI-AV.23", "title": "- Cachorro-do-mato", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.23", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.23.jpg"},
 
-{"id":"034A-Telebras-TEL-AV.011","title":"Fala Brasil - Card nº 1","ref":"034A-Telebras-TEL-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/034A-TB-TEL-AV011.jpg"},
+{"id": "071-TEL-ANI-AV.25", "title": "- Aguia cinzenta", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.25", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.25.jpg"},
 
-{"id":"034A-Telebras-TEL-AV.022","title":"0800 - ganhar premios - Card nº 2","ref":"034A-Telebras-TEL-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/034A-TB-TEL-AV022.jpg"},
+{"id": "071-TEL-ANI-AV.19", "title": "- Gato do mato", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.19", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.19.jpg"},
 
-{"id":"034A-Telebras-TEL-AV.033","title":"Recorde da Telepar - Card nº 3","ref":"034A-Telebras-TEL-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/034A-TB-TEL-AV033.jpg"},
+{"id": "071-TEL-ANI-AV.21", "title": "- Tamdandua mirim", "serie": "Série Animais/Animais silvestres", "ref": "071-TEL-ANI-AV.21", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/071-TEL-ANI-AV.21.jpg"},
 
-{"id":"034A-Telebras-TEL-AV.044","title":"Predio da CTBC - Card nº 4","ref":"034A-Telebras-TEL-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/034A-TB-TEL-AV044.jpg"},
+{"id": "072-TEL-SER-AV.01", "title": "- Caneta e post it", "serie": "Série Servicos Telefonica ", "ref": "072-TEL-SER-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/072-TEL-SER-AV.01.jpg"},
 
-{"id":"034A-Telebras-TEL-AV.055","title":"Telasa - Card nº 5","ref":"034A-Telebras-TEL-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/034A-TB-TEL-AV055.jpg"},
+{"id": "072-TEL-SER-AV.02", "title": "- Bola de cristal", "serie": "Série Servicos Telefonica ", "ref": "072-TEL-SER-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/072-TEL-SER-AV.02.jpg"},
 
-{"id":"034A-Telebras-TEL-AV.066","title":"Correio de voz - Card nº 6","ref":"034A-Telebras-TEL-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/034A-TB-TEL-AV066.jpg"},
+{"id": "072-TEL-SER-AV.03", "title": "- Fontes telefones", "serie": "Série Servicos Telefonica ", "ref": "072-TEL-SER-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/072-TEL-SER-AV.03.jpg"},
 
-{"id":"040-Telebras-BRAS-AV.033","title":"Brasilsat B1 - Card nº 3","ref":"040-Telebras-BRAS-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/040-TB-BRAS-AV033.jpg"},
+{"id": "072-TEL-SER-AV.04", "title": "- Monofone sendo passado", "serie": "Série Servicos Telefonica ", "ref": "072-TEL-SER-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/072-TEL-SER-AV.04.jpg"},
 
-{"id":"040-Telebras-BRAS-AV.044","title":"Brasilsat B2 - Card nº 4","ref":"040-Telebras-BRAS-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/040-TB-BRAS-AV044.jpg"},
+{"id": "073-TEL-ASE-AV.01", "title": "- Lobo", "serie": "Série Animais Selvagens ", "ref": "073-TEL-ASE-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/073-TEL-ASE-AV.01.jpg"},
 
-{"id":"040-Telebras-BRAS-AV.055","title":"Brasilsat B3 - Card nº 5","ref":"040-Telebras-BRAS-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/040-TB-BRAS-AV055.jpg"},
+{"id": "073-TEL-ASE-AV.01", "title": "- Leao", "serie": "Série Animais Selvagens ", "ref": "073-TEL-ASE-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/073-TEL-ASE-AV.01.jpg"},
 
-{"id":"040-Telebras-BRAS-AV.011","title":"Brasilsat A - Card nº 1","ref":"040-Telebras-BRAS-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/040-TB-BRAS-AV011.jpg"},
+{"id": "074-TEL-VOV-AV.01", "title": "- Doce favorito", "serie": "Série Dia Vovo ", "ref": "074-TEL-VOV-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/074-TEL-VOV-AV.01.jpg"},
 
-{"id":"041-Telebras-ASE-AV.011","title":"Vitoria no GP Brasil - 91 - Card nº 1","ref":"041-Telebras-ASE-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-ASE-AV011.jpg"},
+{"id": "074-TEL-VOV-AV.03", "title": "- Ver TV", "serie": "Série Dia Vovo ", "ref": "074-TEL-VOV-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/074-TEL-VOV-AV.03.jpg"},
 
-{"id":"041-Telebras-ASE-AV.033","title":"1986 - Vitoria em Detroit - Card nº 3","ref":"041-Telebras-ASE-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-ASE-AV033.jpg"},
+{"id": "079-TEL-POR-AV.03", "title": "- Portal VII", "serie": "Série Portais", "ref": "079-TEL-POR-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/079-TEL-POR-AV.03.jpg"},
 
-{"id":"041-Telebras-ASE-AV.077","title":"1994 - Corrida em San Marino - Card nº 7","ref":"041-Telebras-ASE-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-ASE-AV077.jpg"},
+{"id": "079-TEL-POR-AV.04", "title": "- Portal IX", "serie": "Série Portais", "ref": "079-TEL-POR-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/079-TEL-POR-AV.04.jpg"},
 
-{"id":"041-Telebras-ASE-AV.1010","title":"1991 - GP Hungria - Card nº 10","ref":"041-Telebras-ASE-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-ASE-AV1010.jpg"},
+{"id": "079-TEL-POR-AV.06", "title": "- Portal da Luz", "serie": "Série Portais", "ref": "079-TEL-POR-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/079-TEL-POR-AV.06.jpg"},
 
-{"id":"041-Telebras-ASE-AV.1212","title":"1989 - GP Imola - Card nº 12","ref":"041-Telebras-ASE-AV.1212","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-ASE-AV1212.jpg"},
+{"id": "075-TEL-SARP-C.10", "title": "- C.10", "serie": "Série SARP-DEC 90", "ref": "075-TEL-SARP-C.10", "operator": "TELEFONICA", "price": 6.0, "image": "fotos/telefonica/075-TEL-SARP-C.10.jpg"},
 
-{"id":"041-Telebras-ASE-AV.044","title":"1987 - Vitoria nos EUA - Card nº 4","ref":"041-Telebras-ASE-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-ASE-AV044.jpg"},
+{"id": "075-TEL-SARP-INC.09", "title": "- '0,1,2,3,4,5,7,8,9", "serie": "Série SARP-DEC 80", "ref": "075-TEL-SARP-INC.09", "operator": "TELEFONICA", "price": 5.0, "image": "fotos/telefonica/075-TEL-SARP-INC.09.jpg"},
 
-{"id":"041-Telebras-GPR-AV.011","title":"26º GP do Brasil - Card nº 1","ref":"041-Telebras-GPR-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-GPR-AV011.jpg"},
+{"id": "075-TEL-SARP-AV.01", "title": "- Capa", "serie": "Série SARP-CAPA", "ref": "075-TEL-SARP-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/075-TEL-SARP-AV.01.jpg"},
 
-{"id":"041-Telebras-GPR-AV.022","title":"1991 -Franca - Card nº 2","ref":"041-Telebras-GPR-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-GPR-AV022.jpg"},
+{"id": "075-TEL-SARP-AV.1975", "title": "- Multidao", "serie": "Série SARP-1975", "ref": "075-TEL-SARP-AV.1975", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/075-TEL-SARP-AV.1975.jpg"},
 
-{"id":"041-Telebras-GPR-AV.033","title":"2º GP Brasil - Indy 97 - Card nº 3","ref":"041-Telebras-GPR-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-GPR-AV033.jpg"},
+{"id": "075-TEL-SARP-AV.1978", "title": "- Composicap 1005", "serie": "Série SARP-1978", "ref": "075-TEL-SARP-AV.1978", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/075-TEL-SARP-AV.1978.jpg"},
 
-{"id":"041-Telebras-GPR-AV.044","title":"25º GP do Brasil - Card nº 4","ref":"041-Telebras-GPR-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/041-TB-GPR-AV044.jpg"},
+{"id": "075-TEL-SARP-AV.1979", "title": "- Florencia", "serie": "Série SARP-1979", "ref": "075-TEL-SARP-AV.1979", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/075-TEL-SARP-AV.1979.jpg"},
 
-{"id":"042-Telebras-PROP-AV.011","title":"Festa da Uva - Card nº 1","ref":"042-Telebras-PROP-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV011.jpg"},
+{"id": "075-TEL-SARP-AV.1982", "title": "- Buril e agua forte", "serie": "Série SARP-1982", "ref": "075-TEL-SARP-AV.1982", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/075-TEL-SARP-AV.1982.jpg"},
 
-{"id":"042-Telebras-PROP-AV.022","title":"Midia em Cartao - Card nº 2","ref":"042-Telebras-PROP-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV022.jpg"},
+{"id": "075-TEL-SARP-AV.1994", "title": "- Ferro", "serie": "Série SARP-1994", "ref": "075-TEL-SARP-AV.1994", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/075-TEL-SARP-AV.1994.jpg"},
 
-{"id":"042-Telebras-PROP-AV.033","title":"Lei Aurea - Card nº 3","ref":"042-Telebras-PROP-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV033.jpg"},
+{"id": "075-TEL-SARP-AV.1999", "title": "- Parnamoscopio I, II, III", "serie": "Série SARP-1999", "ref": "075-TEL-SARP-AV.1999", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/075-TEL-SARP-AV.1999.jpg"},
 
-{"id":"042-Telebras-PROP-AV.044","title":"Prog Crianca Prioridade - Card nº 4","ref":"042-Telebras-PROP-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV044.jpg"},
+{"id": "075-TEL-SARP-AV.2000", "title": "- Sem titulo", "serie": "Série SARP-2000", "ref": "075-TEL-SARP-AV.2000", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/075-TEL-SARP-AV.2000.jpg"},
 
-{"id":"042-Telebras-PROP-AV.055","title":"Turma da Monica - Card nº 5","ref":"042-Telebras-PROP-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV055.jpg"},
+{"id": "076-TEL-TEL-AV.01", "title": "- Telefone Publico Magneto", "serie": "Série Dia do Telefone", "ref": "076-TEL-TEL-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/076-TEL-TEL-AV.01.jpg"},
 
-{"id":"042-Telebras-PROP-AV.066","title":"Rio 2004 - Candidata  - Card nº 6","ref":"042-Telebras-PROP-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV066.jpg"},
+{"id": "076-TEL-TEL-AV.03", "title": "- Telefone de Grahan Bell", "serie": "Série Dia do Telefone", "ref": "076-TEL-TEL-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/076-TEL-TEL-AV.03.jpg"},
 
-{"id":"042-Telebras-PROP-AV.077","title":"100 anos do Cinema - Card nº 7","ref":"042-Telebras-PROP-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV077.jpg"},
+{"id": "076-TEL-TEL-AV.04", "title": "- Telefone 1888", "serie": "Série Dia do Telefone", "ref": "076-TEL-TEL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/076-TEL-TEL-AV.04.jpg"},
 
-{"id":"042-Telebras-PROP-AV.088","title":"Abolicao no CE - Card nº 8","ref":"042-Telebras-PROP-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV088.jpg"},
+{"id": "076-TEL-TEL-AV.05", "title": "- Telefone Pe de Ferro", "serie": "Série Dia do Telefone", "ref": "076-TEL-TEL-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/076-TEL-TEL-AV.05.jpg"},
 
-{"id":"042-Telebras-PROP-AV.099","title":"150 anos de Castro Alves - Card nº 9","ref":"042-Telebras-PROP-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV099.jpg"},
+{"id": "076-TEL-TEL-AV.06", "title": "- Telefone Berliner", "serie": "Série Dia do Telefone", "ref": "076-TEL-TEL-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/076-TEL-TEL-AV.06.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1010","title":"100 anos do Tratado Brasil e Japao - Card nº 10","ref":"042-Telebras-PROP-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1010.jpg"},
+{"id": "076-TEL-TEL-AV.08", "title": "- Telefone Castical Automatico", "serie": "Série Dia do Telefone", "ref": "076-TEL-TEL-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/076-TEL-TEL-AV.08.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1111","title":"Chapeus do Bumba-meu-boi - Card nº 11","ref":"042-Telebras-PROP-AV.1111","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1111.jpg"},
+{"id": "076-TEL-TEL-AV.09", "title": "- Telefone Capelinha", "serie": "Série Dia do Telefone", "ref": "076-TEL-TEL-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/076-TEL-TEL-AV.09.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1212","title":"Festa em Caruaru - Card nº 12","ref":"042-Telebras-PROP-AV.1212","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1212.jpg"},
+{"id": "076-TEL-TEL-AV.10", "title": "- Telefone de Campanha Militar", "serie": "Série Dia do Telefone", "ref": "076-TEL-TEL-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/076-TEL-TEL-AV.10.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1313","title":"Vista de BH - Card nº 13","ref":"042-Telebras-PROP-AV.1313","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1313.jpg"},
+{"id": "077-TEL-COM-C.12", "title": "- C.12", "serie": "Série Comemoracoes ", "ref": "077-TEL-COM-C.12", "operator": "TELEFONICA", "price": 7.0, "image": "fotos/telefonica/077-TEL-COM-C.12.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1414","title":"Inverno em Campos do Jordao - Card nº 14","ref":"042-Telebras-PROP-AV.1414","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1414.jpg"},
+{"id": "077-TEL-COM-AV.01", "title": "- Saudacao ao Brasil 500 anos", "serie": "Série Comemoracoes ", "ref": "077-TEL-COM-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/077-TEL-COM-AV.01.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1515","title":"Natal em Gramado - Card nº 15","ref":"042-Telebras-PROP-AV.1515","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1515.jpg"},
+{"id": "077-TEL-COM-AV.02", "title": "- Dias dos namorados", "serie": "Série Comemoracoes ", "ref": "077-TEL-COM-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/077-TEL-COM-AV.02.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1616","title":"100 anos de Petrolina - Card nº 16","ref":"042-Telebras-PROP-AV.1616","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1616.jpg"},
+{"id": "078-TEL-ART-AV.01-MARL", "title": "- A licao", "serie": "Série ART-MARLES", "ref": "078-TEL-ART-AV.01-MARL", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.01-MARL.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1717","title":"Cine Teatro + brinde - Card nº 17","ref":"042-Telebras-PROP-AV.1717","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1717.jpg"},
+{"id": "078-TEL-ART-AV.02-PARR", "title": "- Cubismo", "serie": "Série ART-M.PARRA", "ref": "078-TEL-ART-AV.02-PARR", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.02-PARR.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1818","title":"Fontex - vermelho - Card nº 18","ref":"042-Telebras-PROP-AV.1818","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1818.jpg"},
+{"id": "078-TEL-ART-AV.03-IRAC", "title": "- Destaque", "serie": "Série ART-IRACI", "ref": "078-TEL-ART-AV.03-IRAC", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.03-IRAC.jpg"},
 
-{"id":"042-Telebras-PROP-AV.1919","title":"Festas Juninas 1998 - Card nº 19","ref":"042-Telebras-PROP-AV.1919","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV1919.jpg"},
+{"id": "078-TEL-ART-AV.04-LUCA", "title": "- Furia", "serie": "Série ART-LUCAS", "ref": "078-TEL-ART-AV.04-LUCA", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.04-LUCA.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2020","title":"Carnaval Olinda 1996 - Card nº 20","ref":"042-Telebras-PROP-AV.2020","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2020.jpg"},
+{"id": "078-TEL-ART-INC.12", "title": "- 12 obras", "serie": "Série ART-SARRO", "ref": "078-TEL-ART-INC.12", "operator": "TELEFONICA", "price": 6.0, "image": "fotos/telefonica/078-TEL-ART-INC.12.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2121","title":"Centenario da morte de Antonio C Gomes - Card nº 21","ref":"042-Telebras-PROP-AV.2121","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2121.jpg"},
+{"id": "078-TEL-ART-AV.5.1 - SARR", "title": "- Cacau", "serie": "Série ART-SARRO", "ref": "078-TEL-ART-AV.5.1 - SARR", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.5.1 - SARR.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2222","title":"Criancas desaparecidas - Card nº 22","ref":"042-Telebras-PROP-AV.2222","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2222.jpg"},
+{"id": "078-TEL-ART-AV.5.2-SARR", "title": "- Cores da melodia", "serie": "Série ART-SARRO", "ref": "078-TEL-ART-AV.5.2-SARR", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.5.2-SARR.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2323","title":"Praia de Icarai - Card nº 23","ref":"042-Telebras-PROP-AV.2323","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2323.jpg"},
+{"id": "078-TEL-ART-AV.6.1-BLAN", "title": "- Arte mistica", "serie": "Série ART-B.Y COUTO", "ref": "078-TEL-ART-AV.6.1-BLAN", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.6.1-BLAN.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2424","title":"VI Festa do Carneiro no Buraco - Card nº 24","ref":"042-Telebras-PROP-AV.2424","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2424.jpg"},
+{"id": "078-TEL-ART-AV.6.2-BLAN", "title": "- Anturios contemporaneos", "serie": "Série ART-B.Y COUTO", "ref": "078-TEL-ART-AV.6.2-BLAN", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.6.2-BLAN.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2525","title":"30a da Telebrasilia - Card nº 25","ref":"042-Telebras-PROP-AV.2525","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2525.jpg"},
+{"id": "078-TEL-ART-AV.6.3-BLAN", "title": "- Viagem", "serie": "Série ART-B.Y COUTO", "ref": "078-TEL-ART-AV.6.3-BLAN", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.6.3-BLAN.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2626","title":"100a do Balao do Brasil - Card nº 26","ref":"042-Telebras-PROP-AV.2626","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2626.jpg"},
+{"id": "078-TEL-ART-AV.6.4-BLAN", "title": "- Brasil", "serie": "Série ART-B.Y COUTO", "ref": "078-TEL-ART-AV.6.4-BLAN", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.6.4-BLAN.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2727","title":"100a de Canudos - Card nº 27","ref":"042-Telebras-PROP-AV.2727","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2727.jpg"},
+{"id": "078-TEL-ART-INC.06", "title": "- No ton", "serie": "Série ART-ACHILLES", "ref": "078-TEL-ART-INC.06", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/078-TEL-ART-INC.06.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2828","title":"Invista em midia - Card nº 28","ref":"042-Telebras-PROP-AV.2828","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2828.jpg"},
+{"id": "078-TEL-ART-AV.7.1-ACHIL", "title": "- Sub", "serie": "Série ART-ACHILLES", "ref": "078-TEL-ART-AV.7.1-ACHIL", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.7.1-ACHIL.jpg"},
 
-{"id":"042-Telebras-PROP-AV.2929","title":"50a da Policia Rodoviaria - Card nº 29","ref":"042-Telebras-PROP-AV.2929","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV2929.jpg"},
+{"id": "078-TEL-ART-AV.7.2-ACHIL", "title": "- Sax duo", "serie": "Série ART-ACHILLES", "ref": "078-TEL-ART-AV.7.2-ACHIL", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.7.2-ACHIL.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3030","title":"Copa da Franca - Card nº 30","ref":"042-Telebras-PROP-AV.3030","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3030.jpg"},
+{"id": "078-TEL-ART-INC.05", "title": "- C.05", "serie": "Série ART-FERRACIOLI", "ref": "078-TEL-ART-INC.05", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/078-TEL-ART-INC.05.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3131","title":"Telebrasilia - 24h - Card nº 31","ref":"042-Telebras-PROP-AV.3131","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3131.jpg"},
+{"id": "078-TEL-ART-AV.8.1-FERR", "title": "- Sambistas", "serie": "Série ART-FERRACIOLI", "ref": "078-TEL-ART-AV.8.1-FERR", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.8.1-FERR.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3232","title":"Reducao de acidente de transito - Card nº 32","ref":"042-Telebras-PROP-AV.3232","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3232.jpg"},
+{"id": "078-TEL-ART-AV.8.2-FERR", "title": "- Retrato quixotesco", "serie": "Série ART-FERRACIOLI", "ref": "078-TEL-ART-AV.8.2-FERR", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.8.2-FERR.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3333","title":"Close up - Card nº 33","ref":"042-Telebras-PROP-AV.3333","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3333.jpg"},
+{"id": "078-TEL-ART-AV.9.1-VERG", "title": "c", "serie": "Série ART-VERGAMINI", "ref": "078-TEL-ART-AV.9.1-VERG", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.9.1-VERG.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3434","title":"Rumo ao penta - Card nº 34","ref":"042-Telebras-PROP-AV.3434","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3434.jpg"},
+{"id": "078-TEL-ART-AV.9.2-VERG", "title": "- Familias em Pereira", "serie": "Série ART-VERGAMINI", "ref": "078-TEL-ART-AV.9.2-VERG", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.9.2-VERG.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3535","title":"42a da Festa do Boiadeiro de Barretos - Card nº 35","ref":"042-Telebras-PROP-AV.3535","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3535.jpg"},
+{"id": "078-TEL-ART-AV.10.1-ROSA", "title": "- Pantanal", "serie": "Série ART-ROSA", "ref": "078-TEL-ART-AV.10.1-ROSA", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.10.1-ROSA.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3636","title":"Volkswagen - Card nº 36","ref":"042-Telebras-PROP-AV.3636","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3636.jpg"},
+{"id": "078-TEL-ART-AV.10.2-ROSA", "title": "- Colheita de algodao", "serie": "Série ART-ROSA", "ref": "078-TEL-ART-AV.10.2-ROSA", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.10.2-ROSA.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3737","title":"Antartica - paixao nacional - Card nº 37","ref":"042-Telebras-PROP-AV.3737","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3737.jpg"},
+{"id": "078-TEL-ART-INC.05", "title": "", "serie": "Série ART-D.ESTEVES", "ref": "078-TEL-ART-INC.05", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/078-TEL-ART-INC.05.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3838","title":"Sou da Paz - Card nº 38","ref":"042-Telebras-PROP-AV.3838","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3838.jpg"},
+{"id": "078-TEL-ART-AV.12.1-SCHIAZ", "title": "- O profeta Joel vai a Ouro Preto", "serie": "Série ART-CHIAZ", "ref": "078-TEL-ART-AV.12.1-SCHIAZ", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.12.1-SCHIAZ.jpg"},
 
-{"id":"042-Telebras-PROP-AV.3939","title":"Voto eletronico - Card nº 39","ref":"042-Telebras-PROP-AV.3939","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV3939.jpg"},
+{"id": "078-TEL-ART-AV.12.2-SCHIAZ", "title": "- A linha do horizonte me destrai", "serie": "Série ART-CHIAZ", "ref": "078-TEL-ART-AV.12.2-SCHIAZ", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.12.2-SCHIAZ.jpg"},
 
-{"id":"042-Telebras-PROP-AV.4040","title":"Teledetran - Card nº 40","ref":"042-Telebras-PROP-AV.4040","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV4040.jpg"},
+{"id": "078-TEL-ART-AV.13.1-PASSOS", "title": "- Peixe bicudo", "serie": "Série ART-T.PASSO", "ref": "078-TEL-ART-AV.13.1-PASSOS", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.13.1-PASSOS.jpg"},
 
-{"id":"042-Telebras-PROP-AV.4141","title":"Geracao saude - Card nº 41","ref":"042-Telebras-PROP-AV.4141","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV4141.jpg"},
+{"id": "078-TEL-ART-AV.13.2-PASSOS", "title": "- Cavalo marinho", "serie": "Série ART-T.PASSO", "ref": "078-TEL-ART-AV.13.2-PASSOS", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.13.2-PASSOS.jpg"},
 
-{"id":"042-Telebras-PROP-AV.4242","title":"Familia Down - Card nº 42","ref":"042-Telebras-PROP-AV.4242","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV4242.jpg"},
+{"id": "078-TEL-ART-AV.14-A.STE", "title": "- Tocando nuvens", "serie": "Série ART-A.STEIN", "ref": "078-TEL-ART-AV.14-A.STE", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.14-A.STE.jpg"},
 
-{"id":"042-Telebras-PROP-AV.4343","title":"CVV - Card nº 43","ref":"042-Telebras-PROP-AV.4343","operator":"Telebras","price":0.5,"image":"fotos/telebras/042-TB-PROP-AV4343.jpg"},
+{"id": "078-TEL-ART-AV.15-T.BENATI", "title": "- Por do sol", "serie": "Série ART-T.BENATI", "ref": "078-TEL-ART-AV.15-T.BENATI", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.15-T.BENATI.jpg"},
 
-{"id":"043-Telebras-SIMP-AV.011","title":"Cartao preto - Card nº 1","ref":"043-Telebras-SIMP-AV.011","operator":"Telebras","price":46.143,"image":"fotos/telebras/043-TB-SIMP-AV011.jpg"},
+{"id": "078-TEL-ART-INC.05", "title": "", "serie": "Série ART-V.WEINGRILL", "ref": "078-TEL-ART-INC.05", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/078-TEL-ART-INC.05.jpg"},
 
-{"id":"044-Telebras-RIO-AV.022","title":"Marina da Gloria - Card nº 2","ref":"044-Telebras-RIO-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/044-TB-RIO-AV022.jpg"},
+{"id": "078-TEL-ART-AV.16.1-WEIN", "title": "- Saxofone", "serie": "Série ART-V.WEINGRILL", "ref": "078-TEL-ART-AV.16.1-WEIN", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.16.1-WEIN.jpg"},
 
-{"id":"044-Telebras-RIO-AV.033","title":"Pao de Acucar - Card nº 3","ref":"044-Telebras-RIO-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/044-TB-RIO-AV033.jpg"},
+{"id": "078-TEL-ART-AV.16.2-WEIN", "title": "- Flores", "serie": "Série ART-V.WEINGRILL", "ref": "078-TEL-ART-AV.16.2-WEIN", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.16.2-WEIN.jpg"},
 
-{"id":"044-Telebras-RIO-AV.055","title":"Praia de Copacabana - Card nº 5","ref":"044-Telebras-RIO-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/044-TB-RIO-AV055.jpg"},
+{"id": "078-TEL-ART-AV.16.3-WEIN", "title": "- Campo de lavandas", "serie": "Série ART-V.WEINGRILL", "ref": "078-TEL-ART-AV.16.3-WEIN", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.16.3-WEIN.jpg"},
 
-{"id":"044A-Telebras-RIO-AV.011","title":"Pao de Acucar - Card nº 1","ref":"044A-Telebras-RIO-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/044A-TB-RIO-AV011.jpg"},
+{"id": "078-TEL-ART-INC.05", "title": "- C.05", "serie": "Série ART-B.DIAS", "ref": "078-TEL-ART-INC.05", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/078-TEL-ART-INC.05.jpg"},
 
-{"id":"044A-Telebras-RIO-AV.022","title":"190º a do Jardim Botanico - Card nº 2","ref":"044A-Telebras-RIO-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/044A-TB-RIO-AV022.jpg"},
+{"id": "078-TEL-ART-AV.17.1-BDIAS", "title": "- Arvore magica", "serie": "Série ART-B.DIAS", "ref": "078-TEL-ART-AV.17.1-BDIAS", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.17.1-BDIAS.jpg"},
 
-{"id":"045-Telebras-FIL-AV.011","title":"007 - O amanha nunca morre - Card nº 1","ref":"045-Telebras-FIL-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/045-TB-FIL-AV011.jpg"},
+{"id": "078-TEL-ART-AV.17.2-BDIAS", "title": "- Explorador do espaco", "serie": "Série ART-B.DIAS", "ref": "078-TEL-ART-AV.17.2-BDIAS", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.17.2-BDIAS.jpg"},
 
-{"id":"046-Telebras-LUG-AV.011","title":"Alcantara - MA - Card nº 1","ref":"046-Telebras-LUG-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV011.jpg"},
+{"id": "078-TEL-ART-AV.18-MARIO", "title": "- O carrossel", "serie": "Série ART-MARIO M", "ref": "078-TEL-ART-AV.18-MARIO", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.18-MARIO.jpg"},
 
-{"id":"046-Telebras-LUG-AV.022","title":"Lago Negro - RS - Card nº 2","ref":"046-Telebras-LUG-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV022.jpg"},
+{"id": "078-TEL-ART-INC.05", "title": "- C05", "serie": "Série ART-AUREA", "ref": "078-TEL-ART-INC.05", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/078-TEL-ART-INC.05.jpg"},
 
-{"id":"046-Telebras-LUG-AV.033","title":"Palacete do Barao do Ribeiro - RJ - Card nº 3","ref":"046-Telebras-LUG-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV033.jpg"},
+{"id": "078-TEL-ART-AV.19.1-AUREA", "title": "- Veleiros", "serie": "Série ART-AUREA", "ref": "078-TEL-ART-AV.19.1-AUREA", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.19.1-AUREA.jpg"},
 
-{"id":"046-Telebras-LUG-AV.044","title":"Pantanal Sul matogrossense - Card nº 4","ref":"046-Telebras-LUG-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV044.jpg"},
+{"id": "078-TEL-ART-AV.20.1-STELLA", "title": "-  Floresta tropical II", "serie": "Série ART-STELLA", "ref": "078-TEL-ART-AV.20.1-STELLA", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.20.1-STELLA.jpg"},
 
-{"id":"046-Telebras-LUG-AV.055","title":"Belho Horizonte - MG - Card nº 5","ref":"046-Telebras-LUG-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV055.jpg"},
+{"id": "078-TEL-ART-AV.20.2-STELLA", "title": "- Floresta tropical III", "serie": "Série ART-STELLA", "ref": "078-TEL-ART-AV.20.2-STELLA", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.20.2-STELLA.jpg"},
 
-{"id":"046-Telebras-LUG-AV.066","title":"Teatro Municipal - RJ - Card nº 6","ref":"046-Telebras-LUG-AV.066","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV066.jpg"},
+{"id": "078-TEL-ART-AV.21.1-T.ELSAS", "title": "- Feira na praia", "serie": "Série ART-T.ELSAS", "ref": "078-TEL-ART-AV.21.1-T.ELSAS", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.21.1-T.ELSAS.jpg"},
 
-{"id":"046-Telebras-LUG-AV.077","title":"AIRJ - RJ - Card nº 7","ref":"046-Telebras-LUG-AV.077","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV077.jpg"},
+{"id": "078-TEL-ART-AV.21.2-T.ELSAS", "title": "- Capoeira", "serie": "Série ART-T.ELSAS", "ref": "078-TEL-ART-AV.21.2-T.ELSAS", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.21.2-T.ELSAS.jpg"},
 
-{"id":"046-Telebras-LUG-AV.088","title":"Palacio Conde dos Arcos - GO - Card nº 8","ref":"046-Telebras-LUG-AV.088","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV088.jpg"},
+{"id": "078-TEL-ART-AV.22.1-YUJI", "title": "- Tradicao baiana I", "serie": "Série ART-YUJI A.", "ref": "078-TEL-ART-AV.22.1-YUJI", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.22.1-YUJI.jpg"},
 
-{"id":"046-Telebras-LUG-AV.099","title":"Praia do Pesqueiro - PA - Card nº 9","ref":"046-Telebras-LUG-AV.099","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV099.jpg"},
+{"id": "078-TEL-ART-AV.22.2-YUJI", "title": "- Tradicao baiana II", "serie": "Série ART-YUJI A.", "ref": "078-TEL-ART-AV.22.2-YUJI", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.22.2-YUJI.jpg"},
 
-{"id":"046-Telebras-LUG-AV.1010","title":"Parque do Ibirapuera - SP - Card nº 10","ref":"046-Telebras-LUG-AV.1010","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV1010.jpg"},
+{"id": "078-TEL-ART-AV.23-RAOUL", "title": "- MASP", "serie": "Série ART-RAOUL", "ref": "078-TEL-ART-AV.23-RAOUL", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.23-RAOUL.jpg"},
 
-{"id":"046-Telebras-LUG-AV.1111","title":"Capela do Sr dos Passos - PA - Card nº 11","ref":"046-Telebras-LUG-AV.1111","operator":"Telebras","price":0.5,"image":"fotos/telebras/046-TB-LUG-AV1111.jpg"},
+{"id": "078-TEL-ART-AV.24.1-M.BRI", "title": "- Vida flor", "serie": "Série ART-M.BRITO", "ref": "078-TEL-ART-AV.24.1-M.BRI", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.24.1-M.BRI.jpg"},
 
-{"id":"047-Telebras-CEA-AV.011","title":"Jericoacara - CE - Card nº 1","ref":"047-Telebras-CEA-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/047-TB-CEA-AV011.jpg"},
+{"id": "078-TEL-ART-AV.24.2-M.BRI", "title": "- Carrosel", "serie": "Série ART-M.BRITO", "ref": "078-TEL-ART-AV.24.2-M.BRI", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.24.2-M.BRI.jpg"},
 
-{"id":"048-Telebras-VER-AV.011","title":"Praia do Meio - RN - Card nº 1","ref":"048-Telebras-VER-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/048-TB-VER-AV011.jpg"},
+{"id": "078-TEL-ART-AV.25-NERIV", "title": "- Festa junina", "serie": "Série ART-NERIVAL", "ref": "078-TEL-ART-AV.25-NERIV", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.25-NERIV.jpg"},
 
-{"id":"049-Telebras-FES-AV.011","title":"VI Festival de Inverno de Garanhuns - PE - Card nº 1","ref":"049-Telebras-FES-AV.011","operator":"Telebras","price":0.5,"image":"fotos/telebras/049-TB-FES-AV011.jpg"},
+{"id": "078-TEL-ART-AV.26-D.VITOR", "title": "- Girassois", "serie": "Série ART-D.VITOR", "ref": "078-TEL-ART-AV.26-D.VITOR", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.26-D.VITOR.jpg"},
 
-{"id":"049-Telebras-FES-AV.022","title":"IX Exposicao Filatelica Brasileira - BRAPEX - PE - Card nº 2","ref":"049-Telebras-FES-AV.022","operator":"Telebras","price":0.5,"image":"fotos/telebras/049-TB-FES-AV022.jpg"},
+{"id": "078-TEL-ART-INC.03", "title": "", "serie": "Série ART-J.NEGREIROS", "ref": "078-TEL-ART-INC.03", "operator": "TELEFONICA", "price": 2.0, "image": "fotos/telefonica/078-TEL-ART-INC.03.jpg"},
 
-{"id":"049-Telebras-FES-AV.033","title":"10 milhoes - Card nº 3","ref":"049-Telebras-FES-AV.033","operator":"Telebras","price":0.5,"image":"fotos/telebras/049-TB-FES-AV033.jpg"},
+{"id": "078-TEL-ART-INC.02", "title": "- C.02", "serie": "Série ART-M.RICARDO", "ref": "078-TEL-ART-INC.02", "operator": "TELEFONICA", "price": 1.0, "image": "fotos/telefonica/078-TEL-ART-INC.02.jpg"},
 
-{"id":"049-Telebras-FES-AV.044","title":"100a do nascimento do Mal do ar - Eduardo Gomes - Card nº 4","ref":"049-Telebras-FES-AV.044","operator":"Telebras","price":0.5,"image":"fotos/telebras/049-TB-FES-AV044.jpg"},
+{"id": "078-TEL-ART-INC.02", "title": "- C.02", "serie": "Série ART-BELINHA", "ref": "078-TEL-ART-INC.02", "operator": "TELEFONICA", "price": 1.0, "image": "fotos/telefonica/078-TEL-ART-INC.02.jpg"},
 
-{"id":"049-Telebras-FES-AV.055","title":"Feliz Natal/96 - Card nº 5","ref":"049-Telebras-FES-AV.055","operator":"Telebras","price":0.5,"image":"fotos/telebras/049-TB-FES-AV055.jpg"},
+{"id": "078-TEL-ART-INC.02", "title": "- Cavalo", "serie": "Série ART-BELINHA", "ref": "078-TEL-ART-INC.02", "operator": "TELEFONICA", "price": 1.0, "image": "fotos/telefonica/078-TEL-ART-INC.02.jpg"},
+
+{"id": "078-TEL-ART-AV.29.2-BELIN", "title": "- Paisagem Taipe", "serie": "Série ART-BELINHA", "ref": "078-TEL-ART-AV.29.2-BELIN", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.29.2-BELIN.jpg"},
+
+{"id": "078-TEL-ART-AV.30-HIDEA", "title": "- Palhaco", "serie": "Série ART-HIDEAKI", "ref": "078-TEL-ART-AV.30-HIDEA", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.30-HIDEA.jpg"},
+
+{"id": "078-TEL-ART-AV.31-D.OLLI", "title": "- O que e que a Bahia tem...", "serie": "Série ART-D.OLLINDA", "ref": "078-TEL-ART-AV.31-D.OLLI", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/078-TEL-ART-AV.31-D.OLLI.jpg"},
+
+{"id": "079-TEL-POR-AV.03", "title": "- Portal VII", "serie": "Série Portais", "ref": "079-TEL-POR-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/079-TEL-POR-AV.03.jpg"},
+
+{"id": "079-TEL-POR-AV.04", "title": "- Portal IX", "serie": "Série Portais", "ref": "079-TEL-POR-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/079-TEL-POR-AV.04.jpg"},
+
+{"id": "079-TEL-POR-AV.06", "title": "- Portal da Luz", "serie": "Série Portais", "ref": "079-TEL-POR-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/079-TEL-POR-AV.06.jpg"},
+
+{"id": "080-TEL-TPU-C.10", "title": "", "serie": "Série Telefone Publico", "ref": "080-TEL-TPU-C.10", "operator": "TELEFONICA", "price": 6.0, "image": "fotos/telefonica/080-TEL-TPU-C.10.jpg"},
+
+{"id": "080-TEL-TPU-AV.01", "title": "- Dia dos Namorados", "serie": "Série Telefone Publico", "ref": "080-TEL-TPU-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/080-TEL-TPU-AV.01.jpg"},
+
+{"id": "080-TEL-TPU-AV.02", "title": "- Amigos do Peito", "serie": "Série Telefone Publico", "ref": "080-TEL-TPU-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/080-TEL-TPU-AV.02.jpg"},
+
+{"id": "080-TEL-TPU-AV.03", "title": "- Dia das Maes", "serie": "Série Telefone Publico", "ref": "080-TEL-TPU-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/080-TEL-TPU-AV.03.jpg"},
+
+{"id": "081-TEL-ENA-AV.10", "title": "- Ski aquatico", "serie": "Série Esportes Nauticos", "ref": "081-TEL-ENA-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/081-TEL-ENA-AV.10.jpg"},
+
+{"id": "081-TEL-ENA-AV.09", "title": "- Mergulho", "serie": "Série Esportes Nauticos", "ref": "081-TEL-ENA-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/081-TEL-ENA-AV.09.jpg"},
+
+{"id": "081-TEL-ENA-AV.08", "title": "- Calmaria", "serie": "Série Esportes Nauticos", "ref": "081-TEL-ENA-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/081-TEL-ENA-AV.08.jpg"},
+
+{"id": "081-TEL-ENA-AV.06", "title": "- Equipe", "serie": "Série Esportes Nauticos", "ref": "081-TEL-ENA-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/081-TEL-ENA-AV.06.jpg"},
+
+{"id": "081-TEL-ENA-AV.05", "title": "- Sem limites", "serie": "Série Esportes Nauticos", "ref": "081-TEL-ENA-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/081-TEL-ENA-AV.05.jpg"},
+
+{"id": "081-TEL-ENA-AV.02", "title": "- Adrenalina", "serie": "Série Esportes Nauticos", "ref": "081-TEL-ENA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/081-TEL-ENA-AV.02.jpg"},
+
+{"id": "082-TEL-SPA-C.05", "title": "", "serie": "Série Homenagem a Sao Paulo", "ref": "082-TEL-SPA-C.05", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/082-TEL-SPA-C.05.jpg"},
+
+{"id": "082-TEL-SPA-AV.01", "title": "- Padre Ancheita", "serie": "Série Homenagem a Sao Paulo", "ref": "082-TEL-SPA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/082-TEL-SPA-AV.01.jpg"},
+
+{"id": "082-TEL-SPA-AV.02", "title": "- Parque do Ibirapuera", "serie": "Série Homenagem a Sao Paulo", "ref": "082-TEL-SPA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/082-TEL-SPA-AV.02.jpg"},
+
+{"id": "082-TEL-SPA-AV.03", "title": "- Avenida Paulista", "serie": "Série Homenagem a Sao Paulo", "ref": "082-TEL-SPA-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/082-TEL-SPA-AV.03.jpg"},
+
+{"id": "083-TEL-PAS-AV.01", "title": "- Coelho no orelhao", "serie": "Série Pascoa 2003", "ref": "083-TEL-PAS-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/083-TEL-PAS-AV.01.jpg"},
+
+{"id": "083-TEL-PAS-AV.02", "title": "- Coelho com ovo de Pascoa", "serie": "Série Pascoa 2003", "ref": "083-TEL-PAS-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/083-TEL-PAS-AV.02.jpg"},
+
+{"id": "083-TEL-PAS-AV.03", "title": "- Coelho com blusa listrada", "serie": "Série Pascoa 2003", "ref": "083-TEL-PAS-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/083-TEL-PAS-AV.03.jpg"},
+
+{"id": "083-TEL-PAS-AV.06", "title": "- Familia de coelhos", "serie": "Série Pascoa 2003", "ref": "083-TEL-PAS-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/083-TEL-PAS-AV.06.jpg"},
+
+{"id": "084-TEL-CAC-C.13", "title": "", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-C.13", "operator": "TELEFONICA", "price": 8.0, "image": "fotos/telefonica/084-TEL-CAC-C.13.jpg"},
+
+{"id": "084-TEL-CAC-AV.01", "title": "- Cachoeira Anjos e Arcanjos", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.01.jpg"},
+
+{"id": "084-TEL-CAC-AV.02", "title": "- Cachoeira das Pedras", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.02.jpg"},
+
+{"id": "084-TEL-CAC-AV.03", "title": "- Cachoeira do Rio do Peixe", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.03.jpg"},
+
+{"id": "084-TEL-CAC-AV.04", "title": "- Cachoeira do Bananal", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.04.jpg"},
+
+{"id": "084-TEL-CAC-AV.05", "title": "- Cachoeira do Batuque", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.05.jpg"},
+
+{"id": "084-TEL-CAC-AV.06", "title": "- Cachoeira do Rio Mimoso II", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.06.jpg"},
+
+{"id": "084-TEL-CAC-AV.07", "title": "- Cachoeira Assombrada", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.07.jpg"},
+
+{"id": "084-TEL-CAC-AV.08", "title": "- Cachoeira dos Garcia I", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.08.jpg"},
+
+{"id": "084-TEL-CAC-AV.09", "title": "- Cachoeira dos Garcia II", "serie": "Série Cachoeiras", "ref": "084-TEL-CAC-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/084-TEL-CAC-AV.09.jpg"},
+
+{"id": "085-TEL-1SO-C.04", "title": "", "serie": "Série 1º Socorros", "ref": "085-TEL-1SO-C.04", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/085-TEL-1SO-C.04.jpg"},
+
+{"id": "085-TEL-1SO-INC.02", "title": "", "serie": "Série 1º Socorros", "ref": "085-TEL-1SO-INC.02", "operator": "TELEFONICA", "price": 1.0, "image": "fotos/telefonica/085-TEL-1SO-INC.02.jpg"},
+
+{"id": "085-TEL-1SO-AV.03", "title": "", "serie": "Série 1º Socorros", "ref": "085-TEL-1SO-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/085-TEL-1SO-AV.03.jpg"},
+
+{"id": "086-TEL-NES-AV.01", "title": "", "serie": "Série Nestle 1-10", "ref": "086-TEL-NES-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.01.jpg"},
+
+{"id": "086-TEL-NES-AV.02", "title": "", "serie": "Série Nestle 1-10", "ref": "086-TEL-NES-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.02.jpg"},
+
+{"id": "086-TEL-NES-AV.05", "title": "", "serie": "Série Nestle 1-10", "ref": "086-TEL-NES-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.05.jpg"},
+
+{"id": "086-TEL-NES-AV.07", "title": "", "serie": "Série Nestle 1-10", "ref": "086-TEL-NES-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.07.jpg"},
+
+{"id": "086-TEL-NES-AV.09", "title": "", "serie": "Série Nestle 1-10", "ref": "086-TEL-NES-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.09.jpg"},
+
+{"id": "086-TEL-NES-AV.13", "title": "", "serie": "Série Nestle 11-20", "ref": "086-TEL-NES-AV.13", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.13.jpg"},
+
+{"id": "086-TEL-NES-AV.14", "title": "", "serie": "Série Nestle 11-20", "ref": "086-TEL-NES-AV.14", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.14.jpg"},
+
+{"id": "086-TEL-NES-AV.15", "title": "", "serie": "Série Nestle 11-20", "ref": "086-TEL-NES-AV.15", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.15.jpg"},
+
+{"id": "086-TEL-NES-AV.16", "title": "", "serie": "Série Nestle 11-20", "ref": "086-TEL-NES-AV.16", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.16.jpg"},
+
+{"id": "086-TEL-NES-AV.17", "title": "", "serie": "Série Nestle 11-20", "ref": "086-TEL-NES-AV.17", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.17.jpg"},
+
+{"id": "086-TEL-NES-AV.18", "title": "", "serie": "Série Nestle 11-20", "ref": "086-TEL-NES-AV.18", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.18.jpg"},
+
+{"id": "086-TEL-NES-AV.20", "title": "", "serie": "Série Nestle 11-20", "ref": "086-TEL-NES-AV.20", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/086-TEL-NES-AV.20.jpg"},
+
+{"id": "087-TEL-RIB-INC.07", "title": "2,3,4,5,6,7,8", "serie": "Série Ribeirinhos em Naif", "ref": "087-TEL-RIB-INC.07", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/087-TEL-RIB-INC.07.jpg"},
+
+{"id": "088-TEL-PRI-C.10", "title": "", "serie": "Série Primavera", "ref": "088-TEL-PRI-C.10", "operator": "TELEFONICA", "price": 6.0, "image": "fotos/telefonica/088-TEL-PRI-C.10.jpg"},
+
+{"id": "088-TEL-PRI-AV.01", "title": "- Orquideas", "serie": "Série Primavera", "ref": "088-TEL-PRI-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/088-TEL-PRI-AV.01.jpg"},
+
+{"id": "088-TEL-PRI-AV.03", "title": "- Botoes de rosa", "serie": "Série Primavera", "ref": "088-TEL-PRI-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/088-TEL-PRI-AV.03.jpg"},
+
+{"id": "088-TEL-PRI-AV.05", "title": "- Lirios", "serie": "Série Primavera", "ref": "088-TEL-PRI-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/088-TEL-PRI-AV.05.jpg"},
+
+{"id": "088-TEL-PRI-AV.06", "title": "- Falena I", "serie": "Série Primavera", "ref": "088-TEL-PRI-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/088-TEL-PRI-AV.06.jpg"},
+
+{"id": "088-TEL-PRI-AV.07", "title": "- Maragaridas ao sol I", "serie": "Série Primavera", "ref": "088-TEL-PRI-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/088-TEL-PRI-AV.07.jpg"},
+
+{"id": "088-TEL-PRI-AV.10", "title": "- Botao de rosa em close", "serie": "Série Primavera", "ref": "088-TEL-PRI-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/088-TEL-PRI-AV.10.jpg"},
+
+{"id": "089-TEL-ECO-C.05", "title": "", "serie": "Série EcoKids", "ref": "089-TEL-ECO-C.05", "operator": "TELEFONICA", "price": 4.0, "image": "fotos/telefonica/089-TEL-ECO-C.05.jpg"},
+
+{"id": "089-TEL-ECO-AV.03", "title": "- Aleitamento materno", "serie": "Série EcoKids", "ref": "089-TEL-ECO-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/089-TEL-ECO-AV.03.jpg"},
+
+{"id": "089-TEL-ECO-AV.04", "title": "- Esporte, Cultura e Lazer", "serie": "Série EcoKids", "ref": "089-TEL-ECO-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/089-TEL-ECO-AV.04.jpg"},
+
+{"id": "090-TEL-MAE-INC.05", "title": "1,2,3,4,5", "serie": "Série Dia das Maes", "ref": "090-TEL-MAE-INC.05", "operator": "TELEFONICA", "price": 3.0, "image": "fotos/telefonica/090-TEL-MAE-INC.05.jpg"},
+
+{"id": "091-TEL-1MA-AV.03", "title": "- Posto de sevico", "serie": "Série 1º Maio", "ref": "091-TEL-1MA-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/091-TEL-1MA-AV.03.jpg"},
+
+{"id": "091-TEL-1MA-AV.05", "title": "- Instalacao de cabos", "serie": "Série 1º Maio", "ref": "091-TEL-1MA-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/091-TEL-1MA-AV.05.jpg"},
+
+{"id": "091-TEL-1MA-AV.04", "title": "- Linha interubana", "serie": "Série 1º Maio", "ref": "091-TEL-1MA-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/091-TEL-1MA-AV.04.jpg"},
+
+{"id": "091-TEL-1MA-AV.07", "title": "- CEOS", "serie": "Série 1º Maio", "ref": "091-TEL-1MA-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/091-TEL-1MA-AV.07.jpg"},
+
+{"id": "092-TEL-PRA-AV.01", "title": "- Pauba", "serie": "Série Praias Paulista", "ref": "092-TEL-PRA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/092-TEL-PRA-AV.01.jpg"},
+
+{"id": "092-TEL-PRA-AV.02", "title": "- Praia Castelhanos", "serie": "Série Praias Paulista", "ref": "092-TEL-PRA-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/092-TEL-PRA-AV.02.jpg"},
+
+{"id": "093-TEL-SIN-AV.01", "title": "- Silencio", "serie": "Série Dia do Sindico", "ref": "093-TEL-SIN-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/093-TEL-SIN-AV.01.jpg"},
+
+{"id": "093-TEL-SIN-AV.02", "title": "- Criancas", "serie": "Série Dia do Sindico", "ref": "093-TEL-SIN-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/093-TEL-SIN-AV.02.jpg"},
+
+{"id": "093-TEL-SIN-AV.03", "title": "- Animais de estimacao", "serie": "Série Dia do Sindico", "ref": "093-TEL-SIN-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/093-TEL-SIN-AV.03.jpg"},
+
+{"id": "093-TEL-SIN-AV.04", "title": "- Reformas", "serie": "Série Dia do Sindico", "ref": "093-TEL-SIN-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/093-TEL-SIN-AV.04.jpg"},
+
+{"id": "094-TEL-NAM-AV.01", "title": "- Ser feliz", "serie": "Série Dia dos Namorados", "ref": "094-TEL-NAM-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/094-TEL-NAM-AV.01.jpg"},
+
+{"id": "094-TEL-NAM-AV.09", "title": "- O amor", "serie": "Série Dia dos Namorados", "ref": "094-TEL-NAM-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/094-TEL-NAM-AV.09.jpg"},
+
+{"id": "094-TEL-NAM-AV.10", "title": "- Relacionamentos", "serie": "Série Dia dos Namorados", "ref": "094-TEL-NAM-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/094-TEL-NAM-AV.10.jpg"},
+
+{"id": "095-TEL-VES-AV.02", "title": "- Atividades fisicas", "serie": "Série Vestibular", "ref": "095-TEL-VES-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/095-TEL-VES-AV.02.jpg"},
+
+{"id": "095-TEL-VES-AV.03", "title": "- Hora certa", "serie": "Série Vestibular", "ref": "095-TEL-VES-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/095-TEL-VES-AV.03.jpg"},
+
+{"id": "095-TEL-VES-AV.04", "title": "- Alimentacao saudavel", "serie": "Série Vestibular", "ref": "095-TEL-VES-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/095-TEL-VES-AV.04.jpg"},
+
+{"id": "095-TEL-VES-AV.05", "title": "- Rascunho de redacao", "serie": "Série Vestibular", "ref": "095-TEL-VES-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/095-TEL-VES-AV.05.jpg"},
+
+{"id": "096-TEL-ALC-INC.02", "title": "", "serie": "Série Alcool", "ref": "096-TEL-ALC-INC.02", "operator": "TELEFONICA", "price": 1.0, "image": "fotos/telefonica/096-TEL-ALC-INC.02.jpg"},
+
+{"id": "096-TEL-ALC-AV.03", "title": "", "serie": "Série Alcool", "ref": "096-TEL-ALC-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/096-TEL-ALC-AV.03.jpg"},
+
+{"id": "097-TEL-P04-AV.01", "title": "- Para os judeus", "serie": "Série Pascoa 2004", "ref": "097-TEL-P04-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/097-TEL-P04-AV.01.jpg"},
+
+{"id": "097-TEL-P04-AV.02", "title": "- Para os cristao", "serie": "Série Pascoa 2004", "ref": "097-TEL-P04-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/097-TEL-P04-AV.02.jpg"},
+
+{"id": "097-TEL-P04-AV.05", "title": "- Na Suecia", "serie": "Série Pascoa 2004", "ref": "097-TEL-P04-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/097-TEL-P04-AV.05.jpg"},
+
+{"id": "097-TEL-P04-AV.06", "title": "- Na India", "serie": "Série Pascoa 2004", "ref": "097-TEL-P04-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/097-TEL-P04-AV.06.jpg"},
+
+{"id": "098-TEL-RAP-AV.01", "title": "- Harpia", "serie": "Série Aves de Rapina", "ref": "098-TEL-RAP-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/098-TEL-RAP-AV.01.jpg"},
+
+{"id": "098-TEL-RAP-AV.02", "title": "- Coruja", "serie": "Série Aves de Rapina", "ref": "098-TEL-RAP-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/098-TEL-RAP-AV.02.jpg"},
+
+{"id": "098-TEL-RAP-AV.03", "title": "- Aguia", "serie": "Série Aves de Rapina", "ref": "098-TEL-RAP-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/098-TEL-RAP-AV.03.jpg"},
+
+{"id": "098-TEL-RAP-AV.04", "title": "- Coruja da neve", "serie": "Série Aves de Rapina", "ref": "098-TEL-RAP-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/098-TEL-RAP-AV.04.jpg"},
+
+{"id": "099-TEL-REP-C.02", "title": "", "serie": "Série Dia do Reporter 2002", "ref": "099-TEL-REP-C.02", "operator": "TELEFONICA", "price": 2.0, "image": "fotos/telefonica/099-TEL-REP-C.02.jpg"},
+
+{"id": "100-TEL-F1-AV.02", "title": "- Circuito da Gavea", "serie": "Série Formula 1 2001", "ref": "100-TEL-F1-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/100-TEL-F1-AV.02.jpg"},
+
+{"id": "101-TEL-APL-AV.03", "title": "- Paz dos arvoredos", "serie": "Série Artes Plasticas", "ref": "101-TEL-APL-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/101-TEL-APL-AV.03.jpg"},
+
+{"id": "101-TEL-APL-AV.04", "title": "- Vinhedos toscanos", "serie": "Série Artes Plasticas", "ref": "101-TEL-APL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/101-TEL-APL-AV.04.jpg"},
+
+{"id": "101-TEL-APL-AV.10", "title": "- O encontro nos jardins dos sonhos", "serie": "Série Artes Plasticas", "ref": "101-TEL-APL-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/101-TEL-APL-AV.10.jpg"},
+
+{"id": "102-TEL-SAC-AV.01", "title": "- Apoio", "serie": "Série Rede Saci", "ref": "102-TEL-SAC-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/102-TEL-SAC-AV.01.jpg"},
+
+{"id": "102-TEL-SAC-AV.02", "title": "- Solidariedade", "serie": "Série Rede Saci", "ref": "102-TEL-SAC-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/102-TEL-SAC-AV.02.jpg"},
+
+{"id": "102-TEL-SAC-AV.03", "title": "- Informacao", "serie": "Série Rede Saci", "ref": "102-TEL-SAC-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/102-TEL-SAC-AV.03.jpg"},
+
+{"id": "103-TEL-EMP-AV.01", "title": "- Ferias", "serie": "Série Empreendimentos", "ref": "103-TEL-EMP-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/103-TEL-EMP-AV.01.jpg"},
+
+{"id": "103-TEL-EMP-AV.02", "title": "- Viagem", "serie": "Série Empreendimentos", "ref": "103-TEL-EMP-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/103-TEL-EMP-AV.02.jpg"},
+
+{"id": "103-TEL-EMP-AV.03", "title": "- Saudade", "serie": "Série Empreendimentos", "ref": "103-TEL-EMP-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/103-TEL-EMP-AV.03.jpg"},
+
+{"id": "103-TEL-EMP-AV.04", "title": "", "serie": "Série Empreendimentos", "ref": "103-TEL-EMP-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/103-TEL-EMP-AV.04.jpg"},
+
+{"id": "104-TEL-PAI-AV.39", "title": "- America Central", "serie": "Série Paises das Americas", "ref": "104-TEL-PAI-AV.39", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/104-TEL-PAI-AV.39.jpg"},
+
+{"id": "104-TEL-PAI-AV.06", "title": "- Paraguai", "serie": "Série Paises das Americas", "ref": "104-TEL-PAI-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/104-TEL-PAI-AV.06.jpg"},
+
+{"id": "104-TEL-PAI-AV.14", "title": "- Panama", "serie": "Série Paises das Americas", "ref": "104-TEL-PAI-AV.14", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/104-TEL-PAI-AV.14.jpg"},
+
+{"id": "104-TEL-PAI-AV.16", "title": "- Nicaragua", "serie": "Série Paises das Americas", "ref": "104-TEL-PAI-AV.16", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/104-TEL-PAI-AV.16.jpg"},
+
+{"id": "104-TEL-PAI-AV.05", "title": "- Bolivia", "serie": "Série Paises das Americas", "ref": "104-TEL-PAI-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/104-TEL-PAI-AV.05.jpg"},
+
+{"id": "104-TEL-PAI-AV.02", "title": "- Chile", "serie": "Série Paises das Americas", "ref": "104-TEL-PAI-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/104-TEL-PAI-AV.02.jpg"},
+
+{"id": "105-TEL-REM-AV.02/03", "title": "- Motorista profissional", "serie": "Série Remedios", "ref": "105-TEL-REM-AV.02/03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/105-TEL-REM-AV.02/03.jpg"},
+
+{"id": "105-TEL-REM-AV.02/04", "title": "- DiabeTes e direção veicular", "serie": "Série Remedios", "ref": "105-TEL-REM-AV.02/04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/105-TEL-REM-AV.02/04.jpg"},
+
+{"id": "106-TEL-VER-AV.04", "title": "", "serie": "Série Verticais", "ref": "106-TEL-VER-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/106-TEL-VER-AV.04.jpg"},
+
+{"id": "107-TEL-PRO-AV.10", "title": "- Rodrigo", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.10", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.10.jpg"},
+
+{"id": "107-TEL-PRO-AV.09", "title": "- Joaquim", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.09.jpg"},
+
+{"id": "107-TEL-PRO-AV.08", "title": "- Silvia", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.08.jpg"},
+
+{"id": "107-TEL-PRO-AV.07", "title": "- Ana Rita", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.07.jpg"},
+
+{"id": "107-TEL-PRO-AV.05", "title": "- Maria Luiza", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.05.jpg"},
+
+{"id": "107-TEL-PRO-AV.04", "title": "- Lilia", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.04.jpg"},
+
+{"id": "107-TEL-PRO-AV.03", "title": "- Bruno", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.03.jpg"},
+
+{"id": "107-TEL-PRO-AV.02", "title": "- Cassia", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.02.jpg"},
+
+{"id": "107-TEL-PRO-AV.01", "title": "- Viviane ", "serie": "Série Criancas Projeto Carmim", "ref": "107-TEL-PRO-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/107-TEL-PRO-AV.01.jpg"},
+
+{"id": "108-TEL-FIL-AV.01-FxJ", "title": "", "serie": "Série Capa- Freddy x Jason", "ref": "108-TEL-FIL-AV.01-FxJ", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.01-FxJ.jpg"},
+
+{"id": "108-TEL-FIL-AV.02-Aleg", "title": "", "serie": "Série Capa- As alegres comadres", "ref": "108-TEL-FIL-AV.02-Aleg", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.02-Aleg.jpg"},
+
+{"id": "108-TEL-FIL-AV.03-Reen", "title": "", "serie": "Série Capa- Reencarnacao", "ref": "108-TEL-FIL-AV.03-Reen", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.03-Reen.jpg"},
+
+{"id": "108-TEL-FIL-AV.04-Loon", "title": "", "serie": "Série Capa- Looney Tunes", "ref": "108-TEL-FIL-AV.04-Loon", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.04-Loon.jpg"},
+
+{"id": "108-TEL-FIL-AV.05-Deby", "title": "", "serie": "Série Capa- Debi e Loide", "ref": "108-TEL-FIL-AV.05-Deby", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.05-Deby.jpg"},
+
+{"id": "108-TEL-FIL-AV.06-Prof", "title": "", "serie": "Série Capa- Profissao de Risco (I)", "ref": "108-TEL-FIL-AV.06-Prof", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.06-Prof.jpg"},
+
+{"id": "108-TEL-FIL-AV.06;1-Prof", "title": "", "serie": "Série Capa- Profissao de Risco (I)", "ref": "108-TEL-FIL-AV.06;1-Prof", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.06;1-Prof.jpg"},
+
+{"id": "108-TEL-FIL-AV.07-Leis", "title": "", "serie": "Série Capa- Leis da Atracao", "ref": "108-TEL-FIL-AV.07-Leis", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.07-Leis.jpg"},
+
+{"id": "108-TEL-FIL-AV.08-Envia", "title": "", "serie": "Série Capa- O Enviado", "ref": "108-TEL-FIL-AV.08-Envia", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.08-Envia.jpg"},
+
+{"id": "108-TEL-FIL-AV.09-Talent", "title": "", "serie": "Série Capa- O Retorno do Talentoso Ripley", "ref": "108-TEL-FIL-AV.09-Talent", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.09-Talent.jpg"},
+
+{"id": "108-TEL-FIL-AV.11-Vingad", "title": "", "serie": "Série Capa- O Vingador", "ref": "108-TEL-FIL-AV.11-Vingad", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.11-Vingad.jpg"},
+
+{"id": "108-TEL-FIL-AV.12-Ricos", "title": "", "serie": "Série Capa- Ricos, Bonitos e Infieis", "ref": "108-TEL-FIL-AV.12-Ricos", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.12-Ricos.jpg"},
+
+{"id": "108-TEL-FIL-AV.13-Duende", "title": "", "serie": "Série Capa- Um Duende em NY", "ref": "108-TEL-FIL-AV.13-Duende", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.13-Duende.jpg"},
+
+{"id": "108-TEL-FIL-AV.05-Legolas", "title": "05", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.05-Legolas", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.05-Legolas.jpg"},
+
+{"id": "108-TEL-FIL-AV.08-Sam", "title": "08", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.08-Sam", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.08-Sam.jpg"},
+
+{"id": "108-TEL-FIL-AV.10-Frodo", "title": "", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.10-Frodo", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.10-Frodo.jpg"},
+
+{"id": "108-TEL-FIL-AV.01-Capa", "title": "", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.01-Capa", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.01-Capa.jpg"},
+
+{"id": "108-TEL-FIL-AV.02-Pipi", "title": "", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.02-Pipi", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.02-Pipi.jpg"},
+
+{"id": "108-TEL-FIL-AV.03-Gadalf", "title": "", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.03-Gadalf", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.03-Gadalf.jpg"},
+
+{"id": "108-TEL-FIL-AV.04-Aragorn", "title": "", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.04-Aragorn", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.04-Aragorn.jpg"},
+
+{"id": "108-TEL-FIL-AV.05 -Arwen", "title": "", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.05 -Arwen", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.05 -Arwen.jpg"},
+
+{"id": "108-TEL-FIL-AV.06-Boromir", "title": "", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.06-Boromir", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.06-Boromir.jpg"},
+
+{"id": "108-TEL-FIL-AV.07-Capa", "title": "- A trilogia dos filmes", "serie": "Série A Sociedade do Anel", "ref": "108-TEL-FIL-AV.07-Capa", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.07-Capa.jpg"},
+
+{"id": "108-TEL-FIL-AV.08-Capa", "title": "", "serie": "Série Batman", "ref": "108-TEL-FIL-AV.08-Capa", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.08-Capa.jpg"},
+
+{"id": "108-TEL-FIL-AV.02-Bat", "title": "Batman Begins", "serie": "Série Batman", "ref": "108-TEL-FIL-AV.02-Bat", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.02-Bat.jpg"},
+
+{"id": "108-TEL-FIL-AV.03-Bat", "title": "Batman Begins", "serie": "Série Batman", "ref": "108-TEL-FIL-AV.03-Bat", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.03-Bat.jpg"},
+
+{"id": "108-TEL-FIL-AV.08-Bat", "title": "Batman Begins", "serie": "Série Batman", "ref": "108-TEL-FIL-AV.08-Bat", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.08-Bat.jpg"},
+
+{"id": "108-TEL-FIL-AV.09-Alien", "title": "- Alien x Predadpr", "serie": "Série Alien x Predador", "ref": "108-TEL-FIL-AV.09-Alien", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.09-Alien.jpg"},
+
+{"id": "108-TEL-FIL-AV.10- Amor ", "title": "Capa- Amor a toda prova", "serie": "Série Filme - Amor a toda prova", "ref": "108-TEL-FIL-AV.10- Amor ", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.10- Amor .jpg"},
+
+{"id": "108-TEL-FIL-AV.11-A flor", "title": "Capa - Filme - A flor da pele", "serie": "Série Filme - A flor da pele", "ref": "108-TEL-FIL-AV.11-A flor", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.11-A flor.jpg"},
+
+{"id": "108-TEL-FIL-AV.12- Benjamin", "title": "Capa - Filme - Benjamin", "serie": "Série Filme - Benjamin", "ref": "108-TEL-FIL-AV.12- Benjamin", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.12- Benjamin.jpg"},
+
+{"id": "108-TEL-FIL-AV.13 - Willard", "title": "Capa - Filme - A vingança de Willard", "serie": "Série Filme - A vingança de Willard", "ref": "108-TEL-FIL-AV.13 - Willard", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.13 - Willard.jpg"},
+
+{"id": "108-TEL-FIL-AV.14-Celular", "title": "Capa - Filme - Celular", "serie": "Série Filme - Celular", "ref": "108-TEL-FIL-AV.14-Celular", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.14-Celular.jpg"},
+
+{"id": "108-TEL-FIL-AV.15-Encantadora ", "title": "Capa - Filme - Encantadora de baleias", "serie": "Série Filme - Encantadora de baleias", "ref": "108-TEL-FIL-AV.15-Encantadora ", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.15-Encantadora .jpg"},
+
+{"id": "108-TEL-FIL-AV.16-Dogtown", "title": "Capa - Filme - Dogtown", "serie": "Série Filme - Dogtown", "ref": "108-TEL-FIL-AV.16-Dogtown", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.16-Dogtown.jpg"},
+
+{"id": "108-TEL-FIL-AV.17-Pânico", "title": "Capa - Filme - Pânico na floresta", "serie": "Série Filme - Pânico na floresta", "ref": "108-TEL-FIL-AV.17-Pânico", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/108-TEL-FIL-AV.17-Pânico.jpg"},
+
+{"id": "109-TEL-CUR-AV.02-Curios", "title": "- O maior artilheiro", "serie": "Série Curiosidades dos Mundiais", "ref": "109-TEL-CUR-AV.02-Curios", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/109-TEL-CUR-AV.02-Curios.jpg"},
+
+{"id": "109-TEL-CUR-AV.03-Curios", "title": "- Numero de expulsoes", "serie": "Série Curiosidades dos Mundiais", "ref": "109-TEL-CUR-AV.03-Curios", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/109-TEL-CUR-AV.03-Curios.jpg"},
+
+{"id": "109-TEL-CUR-AV.04-Curios", "title": "- Jogador mais jovem", "serie": "Série Curiosidades dos Mundiais", "ref": "109-TEL-CUR-AV.04-Curios", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/109-TEL-CUR-AV.04-Curios.jpg"},
+
+{"id": "100-TEL-OLI-AV.04", "title": "- Maratona", "serie": "Série Historia dasOlimpiadas", "ref": "100-TEL-OLI-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/100-TEL-OLI-AV.04.jpg"},
+
+{"id": "111-TEL-FZE-AV.01", "title": "- R$3,8", "serie": "Série Fome zero", "ref": "111-TEL-FZE-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/111-TEL-FZE-AV.01.jpg"},
+
+{"id": "111-TEL-FZE-AV.02", "title": "-40C", "serie": "Série Fome zero", "ref": "111-TEL-FZE-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/111-TEL-FZE-AV.02.jpg"},
+
+{"id": "113-TEL-JUS-AV.14", "title": "- Mulher Maravilha", "serie": "Série Liga da Justica", "ref": "113-TEL-JUS-AV.14", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/113-TEL-JUS-AV.14.jpg"},
+
+{"id": "114-TEL-VES-AV.04", "title": "- Para ter sucesso", "serie": "Série Dia do Vestibulando", "ref": "114-TEL-VES-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/114-TEL-VES-AV.04.jpg"},
+
+{"id": "115-TEL-POL-AV.01", "title": "- Leao marinho", "serie": "Série Animais Polares", "ref": "115-TEL-POL-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/115-TEL-POL-AV.01.jpg"},
+
+{"id": "116-TEL-N2000-AV.03", "title": "- Prenuncio", "serie": "Série Natal 2000", "ref": "116-TEL-N2000-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/116-TEL-N2000-AV.03.jpg"},
+
+{"id": "117-TEL-SRA-AV.07", "title": "- Skate", "serie": "Série Solzinho Radical", "ref": "117-TEL-SRA-AV.07", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/117-TEL-SRA-AV.07.jpg"},
+
+{"id": "118-TEL-CIR-AV.04", "title": "", "serie": "Série Dia Internacional do Circo", "ref": "118-TEL-CIR-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/118-TEL-CIR-AV.04.jpg"},
+
+{"id": "119-TEL-HAL-AV.04", "title": "- Dia das Bruxas", "serie": "Série Halloween", "ref": "119-TEL-HAL-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/119-TEL-HAL-AV.04.jpg"},
+
+{"id": "120-TEL-RAD-AV.08", "title": "- Praca da Se", "serie": "Série Radiografias de SP", "ref": "120-TEL-RAD-AV.08", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/120-TEL-RAD-AV.08.jpg"},
+
+{"id": "121-TEL-ESP-AV.01", "title": "", "serie": "Série Crianca Esperanca", "ref": "121-TEL-ESP-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/121-TEL-ESP-AV.01.jpg"},
+
+{"id": "122-TEL-FUN-AV.01", "title": "- 10º ano do ECA", "serie": "Série Fundacao Telefonica", "ref": "122-TEL-FUN-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/122-TEL-FUN-AV.01.jpg"},
+
+{"id": "123-TEL-DET-C.02", "title": "", "serie": "Série Detecta", "ref": "123-TEL-DET-C.02", "operator": "TELEFONICA", "price": 2.0, "image": "fotos/telefonica/123-TEL-DET-C.02.jpg"},
+
+{"id": "123-TEL-DET-AV.01", "title": "- Detecta", "serie": "Série Detecta", "ref": "123-TEL-DET-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/123-TEL-DET-AV.01.jpg"},
+
+{"id": "124-TEL-ENV-AV.01", "title": "- Telefonica nos Correios", "serie": "Série Envelopes", "ref": "124-TEL-ENV-AV.01", "operator": "TELEFONICA", "price": 1.5, "image": "fotos/telefonica/124-TEL-ENV-AV.01.jpg"},
+
+{"id": "125-TEL-PAI-AV.02", "title": "- Cartao verde", "serie": "Série Dia dos Pais", "ref": "125-TEL-PAI-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/125-TEL-PAI-AV.02.jpg"},
+
+{"id": "125-TEL-PAI-AV.04", "title": "- Cartao amarelo", "serie": "Série Dia dos Pais", "ref": "125-TEL-PAI-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/125-TEL-PAI-AV.04.jpg"},
+
+{"id": "125-TEL-PAI-AV.06", "title": "- Cartao rosa", "serie": "Série Dia dos Pais", "ref": "125-TEL-PAI-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/125-TEL-PAI-AV.06.jpg"},
+
+{"id": "126-TEL-ORE-AV.02", "title": "- Cadeirante", "serie": "Série Orelhao Amigo", "ref": "126-TEL-ORE-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/126-TEL-ORE-AV.02.jpg"},
+
+{"id": "126-TEL-ORE-AV.06", "title": "- Garotinha", "serie": "Série Orelhao Amigo", "ref": "126-TEL-ORE-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/126-TEL-ORE-AV.06.jpg"},
+
+{"id": "127-TEL-OPE-AV.01", "title": "- Jockey Club de SP", "serie": "Série Telefonica Open Air", "ref": "127-TEL-OPE-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/127-TEL-OPE-AV.01.jpg"},
+
+{"id": "128-TEL-MID-AV.01", "title": "- Benefícios ao anunciar", "serie": "Série Midia em Cartao", "ref": "128-TEL-MID-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/128-TEL-MID-AV.01.jpg"},
+
+{"id": "129-TEL-LEF-AV.04", "title": "- L.E. Familia", "serie": "Série L.E. Familia", "ref": "129-TEL-LEF-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/129-TEL-LEF-AV.04.jpg"},
+
+{"id": "130-TEL-T15-AV.05", "title": "- Salvador x Paris", "serie": "Série Telefonica 15 - DDD", "ref": "130-TEL-T15-AV.05", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/130-TEL-T15-AV.05.jpg"},
+
+{"id": "130-TEL-T15-AV.06", "title": "- Brasilia x Londres", "serie": "Série Telefonica 15 - DDD", "ref": "130-TEL-T15-AV.06", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/130-TEL-T15-AV.06.jpg"},
+
+{"id": "130A-TEL-T15-AV.02", "title": "- Sao Paulo x Londres", "serie": "Série Telefonica 15 - DDI", "ref": "130A-TEL-T15-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/130A-TEL-T15-AV.02.jpg"},
+
+{"id": "131-TEL-GUI-AV.02", "title": "- Telefone - Guia Mais", "serie": "Série Guia Mais", "ref": "131-TEL-GUI-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/131-TEL-GUI-AV.02.jpg"},
+
+{"id": "132-TEL-S15-AV.09", "title": "- Foz do Iguacu x Barcelona", "serie": "Série Super 15", "ref": "132-TEL-S15-AV.09", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/132-TEL-S15-AV.09.jpg"},
+
+{"id": "133-TEL-HOS-C.02", "title": "- C.02", "serie": "Série Dia do Hospital", "ref": "133-TEL-HOS-C.02", "operator": "TELEFONICA", "price": 2.0, "image": "fotos/telefonica/133-TEL-HOS-C.02.jpg"},
+
+{"id": "134-TEL-PLA-AV.01", "title": "- Cartao amarelo", "serie": "Série Playcenter", "ref": "134-TEL-PLA-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/134-TEL-PLA-AV.01.jpg"},
+
+{"id": "135-TEL-HOR-AV.01", "title": "- Aries 1", "serie": "Série Hooscopo - Aries", "ref": "135-TEL-HOR-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/135-TEL-HOR-AV.01.jpg"},
+
+{"id": "136-TEL-COP-AV.01", "title": "- Caixa de baralhos - cartao branco", "serie": "Série Copag", "ref": "136-TEL-COP-AV.01", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/136-TEL-COP-AV.01.jpg"},
+
+{"id": "136-TEL-COP-AV.02", "title": "- Quadra de ases - cartao verde claro", "serie": "Série Copag", "ref": "136-TEL-COP-AV.02", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/136-TEL-COP-AV.02.jpg"},
+
+{"id": "136-TEL-COP-AV.03", "title": "- 2 caixas de baralho - cartao verde escuro", "serie": "Série Copag", "ref": "136-TEL-COP-AV.03", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/136-TEL-COP-AV.03.jpg"},
+
+{"id": "136-TEL-COP-AV.04", "title": "- Quadra de ases - 2 caixas de baralho - cartao verde escuro", "serie": "Série Copag", "ref": "136-TEL-COP-AV.04", "operator": "TELEFONICA", "price": 0.5, "image": "fotos/telefonica/136-TEL-COP-AV.04.jpg"},
 
 ];
