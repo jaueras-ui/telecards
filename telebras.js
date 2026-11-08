@@ -248,7 +248,7 @@ window.telebrasData = [
 
 {"id":"015-Telebras-ESP-AV.07","title":"Judo - Olimpiadas - Card nº 7","ref":"015-Telebras-ESP-AV.07","operator":"Telebras","price":0.5,"image":"fotos/telebras/015-Telebras-ESP-AV.07.jpg"},
 
-#VALUE!
+{"id":"016-Telebras-BH-AV.00","title":"BH 100 anos - Card nº 0","ref":"016-Telebras-BH-AV.00","operator":"Telebras","price":0.5,"image":"fotos/telebras/016-Telebras-BH-AV.00.jpg"},
 
 {"id":"016-Telebras-BH-AV.01","title":"Rua Dideira, Sta Luzia - MG - Card nº 1","ref":"016-Telebras-BH-AV.01","operator":"Telebras","price":0.5,"image":"fotos/telebras/016-Telebras-BH-AV.01.jpg"},
 
