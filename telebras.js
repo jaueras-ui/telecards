@@ -1,5 +1,4 @@
 window.telebrasData = [
-
 {"id":"001-TB-MON2","title":"Obras de Monet - Card nº 2","serie":"Obras de Monet","ref":"001-TB-MON2","operator":"Telebrás","price":2.0,"image":"fotos/telebras/001-TB-MON2.jpg"},
 
 {"id":"001-TB-MON1","title":"Os Agapantos - Card nº 1","ref":"001-TB-MON1","operator":"Telebrás","price":0.5,"image":"fotos/telebras/001-TB-MON1.jpg"},
@@ -619,5 +618,4 @@ window.telebrasData = [
 {"id":"049-TB-FES4","title":"100a do nascimento do Mal do ar - Eduardo Gomes - Card nº 4","ref":"049-TB-FES4","operator":"Telebrás","price":0.5,"image":"fotos/telebras/049-TB-FES4.jpg"},
 
 {"id":"049-TB-FES5","title":"Feliz Natal/96 - Card nº 5","ref":"049-TB-FES5","operator":"Telebrás","price":0.5,"image":"fotos/telebras/049-TB-FES5.jpg"},
-
 ];
