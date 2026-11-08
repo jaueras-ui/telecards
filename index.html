@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeleCards - Coleção de Cartões Telefônicos</title>
+    <link rel="stylesheet" href="style.css">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        /* Estilos Base e Tema Escuro */
         :root {
             --bg-color: #0f111a;
             --card-bg: #1a1d2e;
@@ -70,6 +72,12 @@
         }
 
         /* Botão Adicionar ao Álbum */
+        .action-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
         .btn-add {
             width: 100%;
             background-color: var(--accent-pink);
@@ -92,16 +100,16 @@
             transform: translateY(-2px);
         }
 
-        /* Botão Flutuante de Voltar ao Topo com Avatar */
+        /* Botão Flutuante Customizado com a Foto (Ajustado sem cortes) */
         .btn-avatar-top {
             position: fixed;
-            bottom: 25px;
-            right: 25px;
-            width: 60px;
-            height: 60px;
+            bottom: 30px;
+            right: 30px;
+            width: 65px;
+            height: 65px;
             border-radius: 50%;
             border: 3px solid var(--accent-pink);
-            box-shadow: 0 0 15px rgba(255, 0, 85, 0.5);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 0, 85, 0.6);
             cursor: pointer;
             overflow: hidden;
             display: flex;
@@ -109,12 +117,13 @@
             justify-content: center;
             background-color: var(--card-bg);
             transition: transform 0.3s, box-shadow 0.3s;
-            z-index: 1000;
+            z-index: 9999;
+            padding: 0;
         }
 
         .btn-avatar-top:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 25px rgba(255, 0, 85, 0.8);
+            transform: scale(1.12);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 0, 85, 0.9);
         }
 
         .btn-avatar-top img {
@@ -123,42 +132,31 @@
             object-fit: cover;
         }
 
+        /* Seta indicativa sobreposta no avatar */
         .btn-avatar-top .arrow-overlay {
             position: absolute;
-            bottom: 2px;
-            right: 2px;
+            bottom: 0px;
+            right: 0px;
             background: var(--accent-pink);
             color: white;
             border-radius: 50%;
-            width: 20px;
-            height: 20px;
+            width: 22px;
+            height: 22px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 10px;
+            font-size: 11px;
+            border: 2px solid var(--bg-color);
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <!-- Card de Exemplo -->
-        <div class="card-item">
-            <div class="code-header"># 108-TEL-FIL-AV.12 - Benjamin</div>
-            <div class="series-title">Série Filmes</div>
-            
-            <div class="card-info">
-                <span class="card-name">Capa - Benjamin</span>
-                <span class="card-price">R$ 0.50</span>
-            </div>
-
-            <button class="btn-add">
-                <i class="fa-solid fa-plus"></i> Adicionar ao Álbum
-            </button>
-        </div>
+    <div class="container" id="catalogo-container">
+        <!-- O conteúdo dos cartões da sua base de dados será injetado aqui pelo script original -->
     </div>
 
-    <!-- Botão Flutuante Voltar ao Topo -->
+    <!-- Botão de Voltar ao Topo com Avatar Personalizado -->
     <button class="btn-avatar-top" onclick="scrollToTop()" title="Voltar ao topo">
         <img src="avatar.png" alt="Voltar ao topo">
         <div class="arrow-overlay">
@@ -174,5 +172,8 @@
             });
         }
     </script>
+    
+    <!-- Seu script de carregamento de dados (ajuste o nome do arquivo js se necessário, ex: app.js ou script.js) -->
+    <script src="script.js"></script>
 </body>
 </html>
