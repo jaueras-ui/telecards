@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeleCards - Coleção de Cartões Telefônicos</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* Estilos Base e Tema Escuro */
         :root {
             --bg-color: #0f111a;
             --card-bg: #1a1d2e;
             --accent-pink: #ff0055;
+            --accent-green: #25d366;
             --text-color: #ffffff;
             --text-muted: #a0a5b5;
             --border-radius: 16px;
@@ -24,6 +23,7 @@
             color: var(--text-color);
             margin: 0;
             padding: 20px;
+            padding-bottom: 100px;
         }
 
         .container {
@@ -31,147 +31,69 @@
             margin: 0 auto;
         }
 
-        /* Estilo do Card do Item */
-        .card-item {
-            background-color: var(--card-bg);
-            border-radius: var(--border-radius);
-            padding: 20px;
-            margin-bottom: 25px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-        }
-
-        .code-header {
-            color: #00e5ff;
-            font-family: monospace;
-            font-size: 0.95rem;
-            margin-bottom: 5px;
-        }
-
-        .series-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin-bottom: 12px;
-        }
-
-        .card-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .card-name {
-            color: var(--text-muted);
-            font-size: 1.1rem;
-        }
-
-        .card-price {
-            color: var(--accent-pink);
-            font-size: 1.4rem;
-            font-weight: bold;
-        }
-
-        /* Botão Adicionar ao Álbum */
-        .action-container {
-            position: relative;
-            display: flex;
-            align-items: center;
-        }
-
-        .btn-add {
-            width: 100%;
-            background-color: var(--accent-pink);
-            color: white;
-            border: none;
-            padding: 16px;
-            border-radius: 30px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            transition: transform 0.2s, background-color 0.2s;
-        }
-
-        .btn-add:hover {
-            background-color: #e0004c;
-            transform: translateY(-2px);
-        }
-
-        /* Botão Flutuante Customizado com a Foto */
+        /* Botão Flutuante Customizado com a sua foto e Fundo Verde na Seta */
         .btn-avatar-top {
             position: fixed;
-            bottom: 25px;
-            right: 25px;
-            width: 60px;
-            height: 60px;
+            bottom: 30px;
+            right: 30px;
+            width: 65px;
+            height: 65px;
             border-radius: 50%;
             border: 3px solid var(--accent-pink);
-            box-shadow: 0 0 15px rgba(255, 0, 85, 0.5);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 15px rgba(255, 0, 85, 0.6);
             cursor: pointer;
-            overflow: hidden;
+            overflow: visible;
             display: flex;
             align-items: center;
             justify-content: center;
             background-color: var(--card-bg);
             transition: transform 0.3s, box-shadow 0.3s;
-            z-index: 1000;
+            z-index: 99999;
+            padding: 0;
+            outline: none;
         }
 
         .btn-avatar-top:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 25px rgba(255, 0, 85, 0.8);
+            transform: scale(1.12);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.8), 0 0 25px rgba(255, 0, 85, 0.9);
         }
 
         .btn-avatar-top img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            border-radius: 50%;
+            display: block;
         }
 
-        /* Seta indicativa sobreposta no avatar */
+        /* Seta indicativa sobreposta no avatar com fundo verde */
         .btn-avatar-top .arrow-overlay {
             position: absolute;
-            bottom: 2px;
-            right: 2px;
-            background: var(--accent-pink);
-            color: white;
+            bottom: 0px;
+            right: 0px;
+            background: var(--accent-green);
+            color: #ffffff;
             border-radius: 50%;
-            width: 20px;
-            height: 20px;
+            width: 22px;
+            height: 22px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 10px;
+            font-size: 11px;
+            border: 2px solid var(--bg-color);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.4);
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <!-- Exemplo de Card do Cartão -->
-        <div class="card-item">
-            <div class="code-header"># 108-TEL-FIL-AV.12 - Benjamin</div>
-            <div class="series-title">Série Filmes</div>
-            
-            <div class="card-info">
-                <span class="card-name">Capa - Benjamin</span>
-                <span class="card-price">R$ 0.50</span>
-            </div>
-
-            <div class="action-container">
-                <button class="btn-add">
-                    <i class="fa-solid fa-plus"></i> Adicionar ao Álbum
-                </button>
-            </div>
-        </div>
+    <!-- Container do seu catálogo original -->
+    <div class="container" id="catalogo-container">
     </div>
 
-    <!-- Botão de Voltar ao Topo com Avatar Personalizado -->
+    <!-- Botão de Voltar ao Topo com a sua foto exata -->
     <button class="btn-avatar-top" onclick="scrollToTop()" title="Voltar ao topo">
-        <img src="avatar.png" alt="Voltar ao topo">
+        <img src="minha_foto.jpg" alt="Voltar ao topo">
         <div class="arrow-overlay">
             <i class="fa-solid fa-arrow-up"></i>
         </div>
@@ -185,5 +107,6 @@
             });
         }
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
