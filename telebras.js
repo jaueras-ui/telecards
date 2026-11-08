@@ -1007,3 +1007,5 @@ window.telefonicaData = [
 {"id":"136-TB-COP4","title":"Quadra de ases - 2 caixas de baralho - cartao verde escuro - Card nº 4","serie":"Copag","ref":"136-TB-COP4","operator":"Telebrás","price":0.5,"image":"fotos/telebras/136-TB-COP4.jpg"},
 
 ];
+
+//test
