@@ -1,6 +1,6 @@
 window.ctbcData = [
 
-{"id":"001-CTBC-CTBC-AV.0101","title":"Baloes coloridos / card nº 1","serie":"Série CTBC 52 anos","ref":"001-CTBC-CTBC-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/001-CTBC-CTBC-AV.01.jpg"},
+{"id":"001-CT-CTBC-AV.0101","title":"Baloes coloridos / card nº 1","serie":"CTBC 52 anos","ref":"001-CT-CTBC-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/001-CT-CTBC-AV.01.jpg"},
 
 {"id":"002-CTBC-PROP-AV.0101","title":"Feliz Natal 99 / card nº 1","serie":"Série Propaganda","ref":"002-CTBC-PROP-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/002-CTBC-PROP-AV.01.jpg"},
 
