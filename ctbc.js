@@ -105,3 +105,5 @@ window.ctbcData = [
 {"id":"028-CT-AMI-AV.1212","title":"Regra nº um: ligue / card nº 12","serie":"Amigos","ref":"028-CT-AMI-AV.12","operator":"CTBC","price":0.5,"image":"fotos/ctbc/028-CT-AMI-AV.12.jpg"},
 
 ];
+
+//test
