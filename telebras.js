@@ -1,3 +1,5 @@
+// Atualizacao Telebras - Paz e Bem
+
 window.telebrasData = [
 
 {"id":"001-TB-MON-C.02-02","title":"Obras de Monet / card nº 2","serie":"Obras de Monet","ref":"001-TB-MON-C.02","operator":"Telebras","price":2.0,"image":"fotos/telebras/001-TB-MON-C.02.jpg"},
