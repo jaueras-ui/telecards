@@ -1,48 +1,209 @@
 window.oiData = [
-{"id": "001-OI-AZUL-C", "title": "Cartões (001-OI-AZUL-C) OI-Série Conj. Azul (6 cards): COMPLETA: 6 card", "ref": "001-OI-AZUL-C", "operator": "Oi", "price": 3.5, "image": "001-OI-AZUL-C.jpg"},
-
-{"id": "001-OI-AZUL-AV01", "title": "Cartões (001-OI-AZUL-AV01) OI-Série Conj. Azul (6 cards): INCOMPL.: 1 card", "ref": "001-OI-AZUL-AV01", "operator": "Oi", "price": 0.5, "image": "001-OI-AZUL-AV01.jpg"},
-
-{"id": "001-OI-AZUL-AV02", "title": "Cartões (001-OI-AZUL-AV02) OI-Série Conj. Azul (6 cards): INCOMPL.: 1 card", "ref": "001-OI-AZUL-AV02", "operator": "Oi", "price": 0.5, "image": "001-OI-AZUL-AV02.jpg"},
-
-{"id": "001-OI-AZUL-AV03", "title": "Cartões (001-OI-AZUL-AV03) OI-Série Conj. Azul (6 cards): INCOMPL.: 1 card", "ref": "001-OI-AZUL-AV03", "operator": "Oi", "price": 0.5, "image": "001-OI-AZUL-AV03.jpg"},
-
-{"id": "001-OI-AZUL-AV04", "title": "Cartões (001-OI-AZUL-AV04) OI-Série Conj. Azul (6 cards): INCOMPL.: 1 card", "ref": "001-OI-AZUL-AV04", "operator": "Oi", "price": 0.5, "image": "001-OI-AZUL-AV04.jpg"},
-
-{"id": "001-OI-AZUL-AV05", "title": "Cartões (001-OI-AZUL-AV05) OI-Série Conj. Azul (6 cards): INCOMPL.: 1 card", "ref": "001-OI-AZUL-AV05", "operator": "Oi", "price": 0.5, "image": "001-OI-AZUL-AV05.jpg"},
-
-{"id": "001-OI-AZUL-AV06", "title": "Cartões (001-OI-AZUL-AV06) OI-Série Conj. Azul (6 cards): INCOMPL.: 1 card", "ref": "001-OI-AZUL-AV06", "operator": "Oi", "price": 0.5, "image": "001-OI-AZUL-AV06.jpg"},
-
-{"id": "002-OI-VERDE-C", "title": "Cartões (002-OI-VERDE-C) OI-Série Conj. Verde (10 cards): COMPLETA: 10 card", "ref": "002-OI-VERDE-C", "operator": "Oi", "price": 5.5, "image": "002-OI-VERDE-C.jpg"},
-
-{"id": "002-OI-VERDE-AV01", "title": "Cartões (002-OI-VERDE-AV01) OI-Série Conj. Verde (10 cards): INCOMPL.: 1 card", "ref": "002-OI-VERDE-AV01", "operator": "Oi", "price": 0.5, "image": "002-OI-VERDE-AV01.jpg"},
-
-{"id": "002-OI-VERDE-AV02", "title": "Cartões (002-OI-VERDE-AV02) OI-Série Conj. Verde (10 cards): INCOMPL.: 1 card", "ref": "002-OI-VERDE-AV02", "operator": "Oi", "price": 0.5, "image": "002-OI-VERDE-AV02.jpg"},
-
-{"id": "002-OI-VERDE-AV03", "title": "Cartões (002-OI-VERDE-AV03) OI-Série Conj. Verde (10 cards): INCOMPL.: 1 card", "ref": "002-OI-VERDE-AV03", "operator": "Oi", "price": 0.5, "image": "002-OI-VERDE-AV03.jpg"},
-
-{"id": "002-OI-VERDE-AV04", "title": "Cartões (002-OI-VERDE-AV04) OI-Série Conj. Verde (10 cards): INCOMPL.: 1 card", "ref": "002-OI-VERDE-AV04", "operator": "Oi", "price": 0.5, "image": "002-OI-VERDE-AV04.jpg"},
-
-{"id": "003-OI-LAR-C", "title": "Cartões (003-OI-LAR-C) OI-Série Conj. Laranja (13 cards): COMPLETA: 13 card", "ref": "003-OI-LAR-C", "operator": "Oi", "price": 7.0, "image": "003-OI-LAR-C.jpg"},
-
-{"id": "003-OI-LAR-AV01", "title": "Cartões (003-OI-LAR-AV01) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV01", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV01.jpg"},
-
-{"id": "003-OI-LAR-AV02", "title": "Cartões (003-OI-LAR-AV02) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV02", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV02.jpg"},
-
-{"id": "003-OI-LAR-AV03", "title": "Cartões (003-OI-LAR-AV03) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV03", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV03.jpg"},
-
-{"id": "003-OI-LAR-AV04", "title": "Cartões (003-OI-LAR-AV04) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV04", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV04.jpg"},
-
-{"id": "003-OI-LAR-AV05", "title": "Cartões (003-OI-LAR-AV05) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV05", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV05.jpg"},
-
-{"id": "003-OI-LAR-AV06", "title": "Cartões (003-OI-LAR-AV06) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV06", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV06.jpg"},
-
-{"id": "003-OI-LAR-AV07", "title": "Cartões (003-OI-LAR-AV07) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV07", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV07.jpg"},
-
-{"id": "003-OI-LAR-AV08", "title": "Cartões (003-OI-LAR-AV08) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV08", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV08.jpg"},
-
-{"id": "003-OI-LAR-AV09", "title": "Cartões (003-OI-LAR-AV09) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV09", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV09.jpg"},
-
-{"id": "003-OI-LAR-AV10", "title": "Cartões (003-OI-LAR-AV10) OI-Série Conj. Laranja (13 cards): INCOMPL.: 1 card", "ref": "003-OI-LAR-AV10", "operator": "Oi", "price": 0.5, "image": "003-OI-LAR-AV10.jpg"},
-
+  {
+    "id": "001-OI-AZUL-C",
+    "title": "OI - Série Conj. Azul - C.05 - COMPLETA",
+    "serie": "Série Conj. Azul",
+    "ref": "001-OI-AZUL-C",
+    "operator": "Oi",
+    "price": 3.5,
+    "image": "fotos/oi/001-OI-AZUL-C.jpg"
+  },
+  {
+    "id": "001-OI-AZUL-AV01",
+    "title": "OI - CONJ AZUL - CRED. 20",
+    "serie": "Série Conj. Azul",
+    "ref": "001-OI-AZUL-AV01",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/001-OI-AZUL-AV01.jpg"
+  },
+  {
+    "id": "001-OI-AZUL-AV02",
+    "title": "OI - 001-OI-AZUL-CRED.40",
+    "serie": "Série Conj. Azul",
+    "ref": "001-OI-AZUL-AV02",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/001-OI-AZUL-AV02.jpg"
+  },
+  {
+    "id": "001-OI-AZUL-AV03",
+    "title": "OI - SERROTE - Conj. Azul",
+    "serie": "Série Conj. Azul",
+    "ref": "001-OI-AZUL-AV03",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/001-OI-AZUL-AV03.jpg"
+  },
+  {
+    "id": "001-OI-AZUL-AV04",
+    "title": "OI - ALICATE - Conj. Azul",
+    "serie": "Série Conj. Azul",
+    "ref": "001-OI-AZUL-AV04",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/001-OI-AZUL-AV04.jpg"
+  },
+  {
+    "id": "001-OI-AZUL-AV05",
+    "title": "OI - ALGEMA - Conj. Azul",
+    "serie": "Série Conj. Azul",
+    "ref": "001-OI-AZUL-AV05",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/001-OI-AZUL-AV05.jpg"
+  },
+  {
+    "id": "001-OI-AZUL-AV06",
+    "title": "OI - ALGEMAS MAIORES -Conj. Azul",
+    "serie": "Série Conj. Azul",
+    "ref": "001-OI-AZUL-AV06",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/001-OI-AZUL-AV06.jpg"
+  },
+  {
+    "id": "002-OI-VERDE-C",
+    "title": "OI - Série Conj. - Verde -C. 10 - COMPLETA",
+    "serie": "Série Conj. Verde",
+    "ref": "002-OI-VERDE-C",
+    "operator": "Oi",
+    "price": 5.5,
+    "image": "fotos/oi/002-OI-VERDE-C.jpg"
+  },
+  {
+    "id": "002-OI-VERDE-AV01",
+    "title": "- Capa - Oi, RS",
+    "serie": "Série Conj. Verde",
+    "ref": "002-OI-VERDE-AV01",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/002-OI-VERDE-AV01.jpg"
+  },
+  {
+    "id": "002-OI-VERDE-AV02",
+    "title": "OI - Mulher com algemas",
+    "serie": "Série Conj. Verde",
+    "ref": "002-OI-VERDE-AV02",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/002-OI-VERDE-AV02.jpg"
+  },
+  {
+    "id": "002-OI-VERDE-AV03",
+    "title": "OI - Mulher sorrindo",
+    "serie": "Série Conj. Verde",
+    "ref": "002-OI-VERDE-AV03",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/002-OI-VERDE-AV03.jpg"
+  },
+  {
+    "id": "002-OI-VERDE-AV04",
+    "title": "OI - Casal de namorados",
+    "serie": "Série Conj. Verde",
+    "ref": "002-OI-VERDE-AV04",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/002-OI-VERDE-AV04.jpg"
+  },
+  {
+    "id": "003-OI-LAR-C",
+    "title": "OI - Série Conj. Laranja - C.13 - COMPLETA",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-C",
+    "operator": "Oi",
+    "price": 7,
+    "image": "fotos/oi/003-OI-LAR-C.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV01",
+    "title": "OI - Conj. Laranja",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV01",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV01.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV02",
+    "title": "OI - Conj. Laranja - C.4.86",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV02",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV02.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV03",
+    "title": "OI - OI - Conj. Laranja - Família",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV03",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV03.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV04",
+    "title": "OI OI - Conj. Laranja - C.2.37",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV04",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV04.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV05",
+    "title": "OI - Conj. Laranja - CAPA",
+    "serie": "iSérie Conj. Laranja",
+    "ref": "003-OI-LAR-AV05",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV05.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV06",
+    "title": "OI - Conj. Laranja - Como utilizar os creditos",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV06",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV06.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV07",
+    "title": "OI - Conj. Laranja - OI, MS",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV07",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV07.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV08",
+    "title": "OI - Conj. Laranja - Chip grande em destaque",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV08",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV08.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV09",
+    "title": "OI - Série Conj. Laranja - Oi, a partir de R$ 1",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV09",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV09.jpg"
+  },
+  {
+    "id": "003-OI-LAR-AV10",
+    "title": "OI - Conj. Laranja - Capa",
+    "serie": "Série Conj. Laranja",
+    "ref": "003-OI-LAR-AV10",
+    "operator": "Oi",
+    "price": 0.5,
+    "image": "fotos/oi/003-OI-LAR-AV10.jpg"
+  }
 ];

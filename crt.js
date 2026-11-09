@@ -1,121 +1,542 @@
 window.crtData = [
-
-{"id": "001-CRT-CRT-AV01", "title": "Cartões (001-CRT-CRT-AV01) CRT-Série CRT (20 cards): INCOMPL.: 1 card", "ref": "001-CRT-CRT-AV01", "operator": "crt", "price": 0.5, "image": "001-CRT-CRT-AV01.jpg"},
-
-{"id": "001-CRT-CRT-AV02", "title": "Cartões (001-CRT-CRT-AV02) CRT-Série CRT - Telefone comunitário (20 cards): INCOMPL.: 1 card", "ref": "001-CRT-CRT-AV02", "operator": "crt", "price": 0.5, "image": "001-CRT-CRT-AV02.jpg"},
-
-{"id": "002-CRT-BEL-AV01", "title": "Cartões (002-CRT-BEL-AV01) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV01", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV01.jpg"},
-
-{"id": "002-CRT-BEL-AV02", "title": "Cartões (002-CRT-BEL-AV02) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV02", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV02.jpg"},
-
-{"id": "002-CRT-BEL-AV03", "title": "Cartões (002-CRT-BEL-AV03) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV03", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV03.jpg"},
-
-{"id": "002-CRT-BEL-AV04", "title": "Cartões (002-CRT-BEL-AV04) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV04", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV04.jpg"},
-
-{"id": "002-CRT-BEL-AV05", "title": "Cartões (002-CRT-BEL-AV05) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV05", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV05.jpg"},
-
-{"id": "002-CRT-BEL-AV06", "title": "Cartões (002-CRT-BEL-AV06) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV06", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV06.jpg"},
-
-{"id": "002-CRT-BEL-AV07", "title": "Cartões (002-CRT-BEL-AV07) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV07", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV07.jpg"},
-
-{"id": "002-CRT-BEL-AV08", "title": "Cartões (002-CRT-BEL-AV08) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV08", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV08.jpg"},
-
-{"id": "002-CRT-BEL-AV09", "title": "Cartões (002-CRT-BEL-AV09) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV09", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV09.jpg"},
-
-{"id": "002-CRT-BEL-AV10", "title": "Cartões (002-CRT-BEL-AV10) CRT-Série Belezas do Mar (10 cards): INCOMPL.: 1 card", "ref": "002-CRT-BEL-AV10", "operator": "crt", "price": 0.5, "image": "002-CRT-BEL-AV10.jpg"},
-
-{"id": "003-CRT-PROP-AV01", "title": "Cartões (003-CRT-PROP-AV01) CRT-Série Propaganda - Casa (50 cards): INCOMPL.: 1 card", "ref": "003-CRT-PROP-AV01", "operator": "crt", "price": 0.5, "image": "003-CRT-PROP-AV01.jpg"},
-
-{"id": "003-CRT-PROP-AV02", "title": "Cartões (003-CRT-PROP-AV02) CRT-Série Propaganda -Bombeiro (50 cards): INCOMPL.: 1 card", "ref": "003-CRT-PROP-AV02", "operator": "crt", "price": 0.5, "image": "003-CRT-PROP-AV02.jpg"},
-
-{"id": "004-CRT-DES-C", "title": "Cartões (004-CRT-DES-C) CRT-Série Desenho (6 cards): COMPLETA: 6 card", "ref": "004-CRT-DES-C", "operator": "crt", "price": 3.5, "image": "004-CRT-DES-C.jpg"},
-
-{"id": "004-CRT-DES-AV03", "title": "Cartões (004-CRT-DES-AV03) CRT-Série Desenho (6 cards): INCOMPL.: 1 card", "ref": "004-CRT-DES-AV03", "operator": "crt", "price": 0.5, "image": "004-CRT-DES-AV03.jpg"},
-
-{"id": "004-CRT-DES-AV06", "title": "Cartões (004-CRT-DES-AV06) CRT-Série Desenho (6 cards): INCOMPL.: 1 card", "ref": "004-CRT-DES-AV06", "operator": "crt", "price": 0.5, "image": "004-CRT-DES-AV06.jpg"},
-
-{"id": "005-CRT-CID-AV01", "title": "Cartões (005-CRT-CID-AV01) CRT-Série Cidades Gaúchas (5 cards): INCOMPL.: 1 card", "ref": "005-CRT-CID-AV01", "operator": "crt", "price": 0.5, "image": "005-CRT-CID-AV01.jpg"},
-
-{"id": "006-CRT-PRE-AV10", "title": "Cartões (006-CRT-PRE-AV10) CRT-Série Prédios Históricos (10 cards): INCOMPL.: 1 card", "ref": "006-CRT-PRE-AV10", "operator": "crt", "price": 0.5, "image": "006-CRT-PRE-AV10.jpg"},
-
-{"id": "006-CRT-PRE-AV07", "title": "Cartões (006-CRT-PRE-AV07) CRT-Série Prédios Históricos (10 cards): INCOMPL.: 1 card", "ref": "006-CRT-PRE-AV07", "operator": "crt", "price": 0.5, "image": "006-CRT-PRE-AV07.jpg"},
-
-{"id": "007-CRT-TOR-AV05", "title": "Cartões (007-CRT-TOR-AV05) CRT-Série Torres (10 cards): INCOMPL.: 1 card", "ref": "007-CRT-TOR-AV05", "operator": "crt", "price": 0.5, "image": "007-CRT-TOR-AV05.jpg"},
-
-{"id": "008-CRT-TEC-AV04", "title": "Cartões (008-CRT-TEC-AV04) CRT-Série Tecnologia (10 cards): INCOMPL.: 1 card", "ref": "008-CRT-TEC-AV04", "operator": "crt", "price": 0.5, "image": "008-CRT-TEC-AV04.jpg"},
-
-{"id": "008-CRT-TEC-AV05", "title": "Cartões (008-CRT-TEC-AV05) CRT-Série Tecnologia (10 cards): INCOMPL.: 1 card", "ref": "008-CRT-TEC-AV05", "operator": "crt", "price": 0.5, "image": "008-CRT-TEC-AV05.jpg"},
-
-{"id": "009-CRT-CAES-AV02", "title": "Cartões (009-CRT-CAES-AV02) CRT-Série Cães de Luxo (5 cards): INCOMPL.: 1 card", "ref": "009-CRT-CAES-AV02", "operator": "crt", "price": 0.5, "image": "009-CRT-CAES-AV02.jpg"},
-
-{"id": "010-CRT-SLE-AV01", "title": "Cartões (010-CRT-SLE-AV01) CRT-Série São Leopoldo (4 cards): INCOMPL.: 1 card", "ref": "010-CRT-SLE-AV01", "operator": "crt", "price": 0.5, "image": "010-CRT-SLE-AV01.jpg"},
-
-{"id": "011-CRT-AVI-AV01", "title": "Cartões (011-CRT-AVI-AV01) CRT-Série Aviões  (5 cards): INCOMPL.: 1 card", "ref": "011-CRT-AVI-AV01", "operator": "crt", "price": 0.5, "image": "011-CRT-AVI-AV01.jpg"},
-
-{"id": "012-CRT-INT-AV01", "title": "Cartões (012-CRT-INT-AV01) CRT-Série Internacional (50 cards): INCOMPL.: 1 card", "ref": "012-CRT-INT-AV01", "operator": "crt", "price": 0.5, "image": "012-CRT-INT-AV01.jpg"},
-
-{"id": "012-CRT-INT-AV02", "title": "Cartões (012-CRT-INT-AV02) CRT-Série Internacional (50 cards): INCOMPL.: 1 card", "ref": "012-CRT-INT-AV02", "operator": "crt", "price": 0.5, "image": "012-CRT-INT-AV02.jpg"},
-
-{"id": "012-CRT-INT-AV03", "title": "Cartões (012-CRT-INT-AV03) CRT-Série Internacional (50 cards): INCOMPL.: 1 card", "ref": "012-CRT-INT-AV03", "operator": "crt", "price": 0.5, "image": "012-CRT-INT-AV03.jpg"},
-
-{"id": "012-CRT-INT-AV04", "title": "Cartões (012-CRT-INT-AV04) CRT-Série Internacional (50 cards): INCOMPL.: 1 card", "ref": "012-CRT-INT-AV04", "operator": "crt", "price": 0.5, "image": "012-CRT-INT-AV04.jpg"},
-
-{"id": "012A-CRT-INT-AV04", "title": "Cartões (012A-CRT-INT-AV04) CRT-Série Internacional (12 cards): INCOMPL.: 1 card", "ref": "012A-CRT-INT-AV04", "operator": "crt", "price": 0.5, "image": "012A-CRT-INT-AV04.jpg"},
-
-{"id": "012A-CRT-INT-AV05", "title": "Cartões (012A-CRT-INT-AV05) CRT-Série Internacional (12 cards): INCOMPL.: 1 card", "ref": "012A-CRT-INT-AV05", "operator": "crt", "price": 0.5, "image": "012A-CRT-INT-AV05.jpg"},
-
-{"id": "012A-CRT-INT-AV07", "title": "Cartões (012A-CRT-INT-AV07) CRT-Série Internacional (12 cards): INCOMPL.: 1 card", "ref": "012A-CRT-INT-AV07", "operator": "crt", "price": 0.5, "image": "012A-CRT-INT-AV07.jpg"},
-
-{"id": "013-CRT-EST-AV03", "title": "Cartões (013-CRT-EST-AV03) CRT-Série Estâncias Históricas (5 cards): INCOMPL.: 1 card", "ref": "013-CRT-EST-AV03", "operator": "crt", "price": 0.5, "image": "013-CRT-EST-AV03.jpg"},
-
-{"id": "014-CRT-CID-AV04", "title": "Cartões (014-CRT-CID-AV04) CRT-Série Cidades (10 cards): INCOMPL.: 1 card", "ref": "014-CRT-CID-AV04", "operator": "crt", "price": 0.5, "image": "014-CRT-CID-AV04.jpg"},
-
-{"id": "015-CRT-PRA-AV05", "title": "Cartões (015-CRT-PRA-AV05) CRT-Série Praias e Lagoas (5 cards): INCOMPL.: 1 card", "ref": "015-CRT-PRA-AV05", "operator": "crt", "price": 0.5, "image": "015-CRT-PRA-AV05.jpg"},
-
-{"id": "016-CRT-CAR-AV01", "title": "Cartões (016-CRT-CAR-AV01) CRT-Série Carnaval - GAPA (3 cards): INCOMPL.: 1 card", "ref": "016-CRT-CAR-AV01", "operator": "crt", "price": 0.5, "image": "016-CRT-CAR-AV01.jpg"},
-
-{"id": "016-CRT-CAR-AV02", "title": "Cartões (016-CRT-CAR-AV02) CRT-Série Carnaval - GAPA (50 cards): INCOMPL.: 1 card", "ref": "016-CRT-CAR-AV02", "operator": "crt", "price": 0.5, "image": "016-CRT-CAR-AV02.jpg"},
-
-{"id": "017-CRT-500-AV01", "title": "Cartões (017-CRT-500-AV01) CRT-Série Brasil 500 (6 cards): INCOMPL.: 1 card", "ref": "017-CRT-500-AV01", "operator": "crt", "price": 0.5, "image": "017-CRT-500-AV01.jpg"},
-
-{"id": "017-CRT-500-AV03", "title": "Cartões (017-CRT-500-AV03) CRT-Série Brasil 500 (6 cards): INCOMPL.: 1 card", "ref": "017-CRT-500-AV03", "operator": "crt", "price": 0.5, "image": "017-CRT-500-AV03.jpg"},
-
-{"id": "017-CRT-500-AV05", "title": "Cartões (017-CRT-500-AV05) CRT-Série Brasil 500 (6 cards): INCOMPL.: 1 card", "ref": "017-CRT-500-AV05", "operator": "crt", "price": 0.5, "image": "017-CRT-500-AV05.jpg"},
-
-{"id": "017-CRT-500-AV06", "title": "Cartões (017-CRT-500-AV06) CRT-Série Brasil 500 (6 cards): INCOMPL.: 1 card", "ref": "017-CRT-500-AV06", "operator": "crt", "price": 0.5, "image": "017-CRT-500-AV06.jpg"},
-
-{"id": "017-CRT-500-AV07", "title": "Cartões (017-CRT-500-AV07) CRT-Série Brasil 500 (6 cards): INCOMPL.: 1 card", "ref": "017-CRT-500-AV07", "operator": "crt", "price": 0.5, "image": "017-CRT-500-AV07.jpg"},
-
-{"id": "017-CRT-500-AV08", "title": "Cartões (017-CRT-500-AV08) CRT-Série Brasil 500 (6 cards): INCOMPL.: 1 card", "ref": "017-CRT-500-AV08", "operator": "crt", "price": 0.5, "image": "017-CRT-500-AV08.jpg"},
-
-{"id": "018-CRT-NAM-AV01", "title": "Cartões (018-CRT-NAM-AV01) CRT-Série Eu Te Amo (3 cards): INCOMPL.: 1 card", "ref": "018-CRT-NAM-AV01", "operator": "crt", "price": 0.5, "image": "018-CRT-NAM-AV01.jpg"},
-
-{"id": "019-CRT-FAC-AV01", "title": "Cartões (019-CRT-FAC-AV01) CRT-Série Tele Facilidades (50 cards): INCOMPL.: 1 card", "ref": "019-CRT-FAC-AV01", "operator": "crt", "price": 0.5, "image": "019-CRT-FAC-AV01.jpg"},
-
-{"id": "019-CRT-FAC-AV02", "title": "Cartões (019-CRT-FAC-AV02) CRT-Série Tele Facilidades (50 cards): INCOMPL.: 1 card", "ref": "019-CRT-FAC-AV02", "operator": "crt", "price": 0.5, "image": "019-CRT-FAC-AV02.jpg"},
-
-{"id": "020-CRT-USE-AV01", "title": "Cartões (020-CRT-USE-AV01) CRT-Série Use Telefone (50 cards): INCOMPL.: 1 card", "ref": "020-CRT-USE-AV01", "operator": "crt", "price": 0.5, "image": "020-CRT-USE-AV01.jpg"},
-
-{"id": "020-CRT-USE-AV02", "title": "Cartões (020-CRT-USE-AV02) CRT-Série Use Telefone (50 cards): INCOMPL.: 1 card", "ref": "020-CRT-USE-AV02", "operator": "crt", "price": 0.5, "image": "020-CRT-USE-AV02.jpg"},
-
-{"id": "021-CRT-GRE-AV01", "title": "Cartões (021-CRT-GRE-AV01) CRT-Série Grêmio (50 cards): INCOMPL.: 1 card", "ref": "021-CRT-GRE-AV01", "operator": "crt", "price": 0.5, "image": "021-CRT-GRE-AV01.jpg"},
-
-{"id": "021-CRT-GRE-AV02", "title": "Cartões (021-CRT-GRE-AV02) CRT-Série Grêmio (50 cards): INCOMPL.: 1 card", "ref": "021-CRT-GRE-AV02", "operator": "crt", "price": 0.5, "image": "021-CRT-GRE-AV02.jpg"},
-
-{"id": "021A-CRT-GRE-AV10", "title": "Cartões (021A-CRT-GRE-AV10) CRT-Série Grêmio (12 cards): INCOMPL.: 1 card", "ref": "021A-CRT-GRE-AV10", "operator": "crt", "price": 0.5, "image": "021A-CRT-GRE-AV10.jpg"},
-
-{"id": "022-CRT-SER-AV26", "title": "Cartões (022-CRT-SER-AV26) CRT-Série CRT - Serviço adicionais (50 cards): INCOMPL.: 1 card", "ref": "022-CRT-SER-AV26", "operator": "crt", "price": 0.5, "image": "022-CRT-SER-AV26.jpg"},
-
-{"id": "022-CRT-SER-AV27", "title": "Cartões (022-CRT-SER-AV27) CRT-Série CRT - Serviço adicionais (50 cards): INCOMPL.: 1 card", "ref": "022-CRT-SER-AV27", "operator": "crt", "price": 0.5, "image": "022-CRT-SER-AV27.jpg"},
-
-{"id": "023-CRT-TPU-AV01", "title": "Cartões (023-CRT-TPU-AV01) CRT-Série CRT - Telefonia Pública (50 cards): INCOMPL.: 1 card", "ref": "023-CRT-TPU-AV01", "operator": "crt", "price": 0.5, "image": "023-CRT-TPU-AV01.jpg"},
-
-{"id": "023-CRT-TPU-AV02", "title": "Cartões (023-CRT-TPU-AV02) CRT-Série CRT - Telefonia Pública (50 cards): INCOMPL.: 1 card", "ref": "023-CRT-TPU-AV02", "operator": "crt", "price": 0.5, "image": "023-CRT-TPU-AV02.jpg"},
-
-{"id": "023-CRT-TPU-AV03", "title": "Cartões (023-CRT-TPU-AV03) CRT-Série CRT - Telefonia Pública (50 cards): INCOMPL.: 1 card", "ref": "023-CRT-TPU-AV03", "operator": "crt", "price": 0.5, "image": "023-CRT-TPU-AV03.jpg"},
-
-{"id": "024-CRT-PRO-AV01", "title": "Cartões (024-CRT-PRO-AV01) CRT-Série CRT - Probleminha (50 cards): INCOMPL.: 1 card", "ref": "024-CRT-PRO-AV01", "operator": "crt", "price": 0.5, "image": "024-CRT-PRO-AV01.jpg"},
-
-{"id": "024-CRT-PRO-AV02", "title": "Cartões (024-CRT-PRO-AV02) CRT-Série CRT - Probleminha (50 cards): INCOMPL.: 1 card", "ref": "024-CRT-PRO-AV02", "operator": "crt", "price": 0.5, "image": "024-CRT-PRO-AV02.jpg"},
-
+  {
+    "id": "custom-1794241366132",
+    "title": "Telefone - C.03 - COMPLETA",
+    "serie": "CRT - Telefone comunitario",
+    "ref": "001-CRT-CRT-C.03",
+    "operator": "CRT",
+    "price": 2,
+    "image": "fotos/crt/001-CRT-CRT-C.03.jpg"
+  },
+  {
+    "id": "001-CRT-CRT-AV01",
+    "title": "CRT - Capa",
+    "serie": "Série CRT",
+    "ref": "001-CRT-CRT-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/001-CRT-CRT-AV.01.jpg"
+  },
+  {
+    "id": "001-CRT-CRT-AV02",
+    "title": "CRT - Telefone vermelho",
+    "serie": "Série CRT",
+    "ref": "001-CRT-CRT-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/001-CRT-CRT-AV.02.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV01",
+    "title": "- Peixe Donzela",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.01.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV02",
+    "title": "- Peixe borboleta",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.02.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV03",
+    "title": "- Hermodice caranculata",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.03",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.03.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV04",
+    "title": "- Cavalo-marinho",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.04",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.04.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV05",
+    "title": "- Gorgonias",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV05",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV05.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV06",
+    "title": "- Polvos",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.06",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.06.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV07",
+    "title": "- Estrela-do-mar",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.07",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.07.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV08",
+    "title": "- Ourico satelite",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.08",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.08.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV09",
+    "title": "- Camaroes",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.09",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.09.jpg"
+  },
+  {
+    "id": "002-CRT-BEL-AV10",
+    "title": "- Ourico branco",
+    "serie": "Série Belezas do Mar",
+    "ref": "002-CRT-BEL-AV.10",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/002-CRT-BEL-AV.10.jpg"
+  },
+  {
+    "id": "003-CRT-PROP-AV01",
+    "title": "- Casa de Cultura V. Aires",
+    "serie": "Série Propaganda ",
+    "ref": "003-CRT-PROP-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/003-CRT-PROP-AV.01.jpg"
+  },
+  {
+    "id": "003-CRT-PROP-AV02",
+    "title": "- Dia do Bombeiro",
+    "serie": "Série Propaganda",
+    "ref": "003-CRT-PROP-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/003-CRT-PROP-AV.02.jpg"
+  },
+  {
+    "id": "004-CRT-DES-C",
+    "title": "Desenho -C.06 - COMPLETA",
+    "serie": "Série Desenho",
+    "ref": "004-CRT-DES-C.06",
+    "operator": "CRT",
+    "price": 3.5,
+    "image": "fotos/crt/004-CRT-DES-C.06.jpg"
+  },
+  {
+    "id": "004-CRT-DES-AV03",
+    "title": "- Gasometro 1926",
+    "serie": "Série Desenho",
+    "ref": "004-CRT-DES-AV.03",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/004-CRT-DES-AV.03.jpg"
+  },
+  {
+    "id": "004-CRT-DES-AV06",
+    "title": "- Igreja das Dores",
+    "serie": "Série Desenho",
+    "ref": "004-CRT-DES-AV.06",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/004-CRT-DES-AV.06.jpg"
+  },
+  {
+    "id": "005-CRT-CID-AV01",
+    "title": "- Cachoeira do Sul",
+    "serie": "Série Cidades Gaúchas",
+    "ref": "005-CRT-CID-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/005-CRT-CID-AV.01.jpg"
+  },
+  {
+    "id": "006-CRT-PRE-AV10",
+    "title": "- Instituto de Quimica",
+    "serie": "Série Prédios Históricos",
+    "ref": "006-CRT-PRE-AV.10",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/006-CRT-PRE-AV.10.jpg"
+  },
+  {
+    "id": "006-CRT-PRE-AV07",
+    "title": "- Observatorio astronomico",
+    "serie": "Série Prédios Históricos",
+    "ref": "006-CRT-PRE-AV.07",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/006-CRT-PRE-AV.07.jpg"
+  },
+  {
+    "id": "007-CRT-TOR-AV05",
+    "title": "- Igreja matriz de Sao Domingos",
+    "serie": "Série Torres",
+    "ref": "007-CRT-TOR-AV.05",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/007-CRT-TOR-AV.05.jpg"
+  },
+  {
+    "id": "008-CRT-TEC-AV04",
+    "title": "- Cartao vermelho",
+    "serie": "Série Tecnologia",
+    "ref": "008-CRT-TEC-AV.04",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/008-CRT-TEC-AV.04.jpg"
+  },
+  {
+    "id": "008-CRT-TEC-AV05",
+    "title": "- Torres de transmissao",
+    "serie": "Série Tecnologia",
+    "ref": "008-CRT-TEC-AV.05",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/008-CRT-TEC-AV.05.jpg"
+  },
+  {
+    "id": "009-CRT-CAES-AV02",
+    "title": "- Maltes",
+    "serie": "Série Cães de Luxo",
+    "ref": "009-CRT-CAES-AV02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/009-CRT-CAES-AV02.jpg"
+  },
+  {
+    "id": "010-CRT-SLE-AV01",
+    "title": "- Ferroviaria",
+    "serie": "Série São Leopoldo",
+    "ref": "010-CRT-SLE-AV01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/010-CRT-SLE-AV01.jpg"
+  },
+  {
+    "id": "011-CRT-AVI-AV01",
+    "title": "- Esquadrao pampa",
+    "serie": "Série Aviões",
+    "ref": "011-CRT-AVI-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/011-CRT-AVI-AV.01.jpg"
+  },
+  {
+    "id": "012-CRT-INT-AV01",
+    "title": "- FICO",
+    "serie": "Série Internacional",
+    "ref": "012-CRT-INT-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/012-CRT-INT-AV.01.jpg"
+  },
+  {
+    "id": "012-CRT-INT-AV02",
+    "title": "- O Inter de todos os tempos",
+    "serie": "Série Internacional",
+    "ref": "012-CRT-INT-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/012-CRT-INT-AV.02.jpg"
+  },
+  {
+    "id": "012-CRT-INT-AV03",
+    "title": "- Taca 12 de abril",
+    "serie": "Série Internacional",
+    "ref": "012-CRT-INT-AV.03",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/012-CRT-INT-AV.03.jpg"
+  },
+  {
+    "id": "012-CRT-INT-AV04",
+    "title": "- Torcida Camisa 12",
+    "serie": "Série Internacional",
+    "ref": "012-CRT-INT-AV.04",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/012-CRT-INT-AV.04.jpg"
+  },
+  {
+    "id": "012A-CRT-INT-AV04",
+    "title": "- Estadio Beira-rio",
+    "serie": "Série Internacional",
+    "ref": "012A-CRT-INT-AV.04",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/012A-CRT-INT-AV.04.jpg"
+  },
+  {
+    "id": "012A-CRT-INT-AV05",
+    "title": "- Estadio dos Eucaliptos",
+    "serie": "Série Internacional",
+    "ref": "012A-CRT-INT-AV.05",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/012A-CRT-INT-AV.05.jpg"
+  },
+  {
+    "id": "012A-CRT-INT-AV07",
+    "title": "- Vista aerea do Beira-rio",
+    "serie": "Série Internacional",
+    "ref": "012A-CRT-INT-AV.07",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/012A-CRT-INT-AV.07.jpg"
+  },
+  {
+    "id": "013-CRT-EST-AV03",
+    "title": "- Estancia Harval",
+    "serie": "Série Estâncias Históricas",
+    "ref": "013-CRT-EST-AV.03",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/013-CRT-EST-AV.03.jpg"
+  },
+  {
+    "id": "014-CRT-CID-AV04",
+    "title": "- Guaiba",
+    "serie": "Série Cidades",
+    "ref": "014-CRT-CID-AV.04",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/014-CRT-CID-AV.04.jpg"
+  },
+  {
+    "id": "015-CRT-PRA-AV05",
+    "title": "- Porto do Barquinho - Lagoa dos Patos",
+    "serie": "Série Praias e Lagoas",
+    "ref": "015-CRT-PRA-AV.05",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/015-CRT-PRA-AV.05.jpg"
+  },
+  {
+    "id": "016-CRT-CAR-AV01",
+    "title": "- Cartao do violao",
+    "serie": "Série Carnaval - GAPA",
+    "ref": "016-CRT-CAR-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/016-CRT-CAR-AV.01.jpg"
+  },
+  {
+    "id": "016-CRT-CAR-AV02",
+    "title": "Cartao Rosa",
+    "serie": "Série Carnaval - GAPA",
+    "ref": "016-CRT-CAR-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/016-CRT-CAR-AV.02.jpg"
+  },
+  {
+    "id": "017-CRT-500-AV01",
+    "title": "- Sobrevivendo ",
+    "serie": "Série Brasil 500",
+    "ref": "017-CRT-500-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/017-CRT-500-AV.01.jpg"
+  },
+  {
+    "id": "017-CRT-500-AV03",
+    "title": "- Menina Flor",
+    "serie": "Série Brasil 500",
+    "ref": "017-CRT-500-AV.03",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/017-CRT-500-AV.03.jpg"
+  },
+  {
+    "id": "017-CRT-500-AV05",
+    "title": "- Capulana",
+    "serie": "Série Brasil 500",
+    "ref": "017-CRT-500-AV.05",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/017-CRT-500-AV.05.jpg"
+  },
+  {
+    "id": "017-CRT-500-AV06",
+    "title": "- Urihi",
+    "serie": "Série Brasil 500",
+    "ref": "017-CRT-500-AV.06",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/017-CRT-500-AV.06.jpg"
+  },
+  {
+    "id": "017-CRT-500-AV07",
+    "title": "- Na aldeia",
+    "serie": "Série Brasil 500",
+    "ref": "017-CRT-500-AV.07",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/017-CRT-500-AV.07.jpg"
+  },
+  {
+    "id": "017-CRT-500-AV08",
+    "title": "Indiazinha",
+    "serie": "Série Brasil 500",
+    "ref": "017-CRT-500-AV.08",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/017-CRT-500-AV.08.jpg"
+  },
+  {
+    "id": "018-CRT-NAM-AV01",
+    "title": "- cartao \"Eu\"",
+    "serie": "Série Eu Te Amo",
+    "ref": "018-CRT-NAM-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/018-CRT-NAM-AV.01.jpg"
+  },
+  {
+    "id": "019-CRT-FAC-AV01",
+    "title": "- Siga-me - cartao verde",
+    "serie": "Série Tele Facilidades",
+    "ref": "019-CRT-FAC-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/019-CRT-FAC-AV.01.jpg"
+  },
+  {
+    "id": "019-CRT-FAC-AV02",
+    "title": "- Teleconferencia - cartao azul",
+    "serie": "Série Tele Facilidades",
+    "ref": "019-CRT-FAC-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/019-CRT-FAC-AV.02.jpg"
+  },
+  {
+    "id": "020-CRT-USE-AV01",
+    "title": "- Card bege - Ref.00299798",
+    "serie": "Série Use Telefone",
+    "ref": "020-CRT-USE-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/020-CRT-USE-AV.01.jpg"
+  },
+  {
+    "id": "020-CRT-USE-AV02",
+    "title": "- Card laranja - Ref.00633517",
+    "serie": "Série Use Telefone",
+    "ref": "020-CRT-USE-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/020-CRT-USE-AV.02.jpg"
+  },
+  {
+    "id": "021-CRT-GRE-AV01",
+    "title": "- Escudo do Gremio no mundo",
+    "serie": "Série Grêmio",
+    "ref": "021-CRT-GRE-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/021-CRT-GRE-AV.01.jpg"
+  },
+  {
+    "id": "021-CRT-GRE-AV02",
+    "title": "- Torcedor gremista - gorro do papai noel",
+    "serie": "Série Grêmio",
+    "ref": "021-CRT-GRE-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/021-CRT-GRE-AV.02.jpg"
+  },
+  {
+    "id": "021A-CRT-GRE-AV10",
+    "title": "- Combata a pirataria",
+    "serie": "Série Grêmio",
+    "ref": "021A-CRT-GRE-AV.10",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/021A-CRT-GRE-AV.10.jpg"
+  },
+  {
+    "id": "022-CRT-SER-AV26",
+    "title": "- Servico adicionais - Consulta-conferencia",
+    "serie": "Série CRT - Serviço adicionais",
+    "ref": "022-CRT-SER-AV26",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/022-CRT-SER-AV.26.jpg"
+  },
+  {
+    "id": "022-CRT-SER-AV27",
+    "title": "- Servico adicionais Transferencia temporaria",
+    "serie": "Série CRT - Serviço adicionais",
+    "ref": "022-CRT-SER-AV.27",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/022-CRT-SER-AV.27.jpg"
+  },
+  {
+    "id": "023-CRT-TPU-AV01",
+    "title": "- Galo e coruja Ref.15",
+    "serie": "Série CRT - Telefonia Pública",
+    "ref": "023-CRT-TPU-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/023-CRT-TPU-AV.01.jpg"
+  },
+  {
+    "id": "023-CRT-TPU-AV02",
+    "title": "- Policia e leiteiro Ref.16",
+    "serie": "Série CRT - Telefonia Pública",
+    "ref": "023-CRT-TPU-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/023-CRT-TPU-AV.02.jpg"
+  },
+  {
+    "id": "023-CRT-TPU-AV03",
+    "title": "- Sol e lua - Ref.38",
+    "serie": "Série CRT - Telefonia Pública",
+    "ref": "023-CRT-TPU-AV.03",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/023-CRT-TPU-AV.03.jpg"
+  },
+  {
+    "id": "024-CRT-PRO-AV01",
+    "title": "- Pescaria",
+    "serie": "Série CRT - Probleminha",
+    "ref": "024-CRT-PRO-AV.01",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/024-CRT-PRO-AV.01.jpg"
+  },
+  {
+    "id": "024-CRT-PRO-AV02",
+    "title": "- Colisao",
+    "serie": "Série CRT - Probleminha",
+    "ref": "024-CRT-PRO-AV.02",
+    "operator": "CRT",
+    "price": 0.5,
+    "image": "fotos/crt/024-CRT-PRO-AV.02.jpg"
+  }
 ];
