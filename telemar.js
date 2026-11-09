@@ -163,3 +163,5 @@ window.telemarData = [
 {"id": "024-TMAR-ECO-AV01", "title": "Cartões (024-TMAR-ECO-AV01) TMAR-Série Economize (50 cards): INCOMPL.: 1 card", "ref": "024-TMAR-ECO-AV01", "operator": "telemar", "price": 0.5, "image": "024-TMAR-ECO-AV01.jpg"},
 
 ];
+
+//test
