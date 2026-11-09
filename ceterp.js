@@ -1,9 +1,9 @@
-window.ceterpData = [
+wwindow.ceterpData = [
 
+{"id":"001-TB-PROP-AV.0101","title":"Vista de Ribeirao Preto - Card nº 1","serie":"Propaganda","ref":"001-TB-PROP-AV.0101","operator":"Telebrás","price":0.5,"image":"fotos/telebras/001-TB-PROP-AV.0101.jpg"},
 
-  {"id": "001-CETERP-PROP-AV.01", "title": "Vista de Ribeirao Preto", "serie": "Série Propaganda", "ref": "001-CETERP-PROP-AV.01", "operator": "Ceterp", "price": 0.5, "image": "fotos/ceterp/001-RP-PROP-AV01.jpg"},
-  {"id": "001-CETERP-PROP-AV.02", "title": "Hino de Ribeirao Preto", "serie": "Série Propaganda", "ref": "001-CETERP-PROP-AV.02", "operator": "Ceterp", "price": 0.5, "image": "fotos/ceterp/001-RP-PROP-AV02.jpg"},
-  {"id": "001-CETERP-RPR-C.03", "title": "C.03", "serie": "Série Ribeirao Preto", "ref": "001-CETERP-RPR-C.03", "operator": "Ceterp", "price": 3.0, "image": "fotos/ceterp/001-RP-PROP-R-C.jpg"},
+{"id":"001-TB-PROP-AV.0101","title":"Hino de Ribeirao Preto - Card nº 1","serie":"Propaganda","ref":"001-TB-PROP-AV.0101","operator":"Telebrás","price":0.5,"image":"fotos/telebras/001-TB-PROP-AV.0101.jpg"},
+
+{"id":"001-TB-RPR-C.0300","title":"C.03 - Card nº 0","serie":"Ribeirao Preto","ref":"001-TB-RPR-C.0300","operator":"Telebrás","price":3.0,"image":"fotos/telebras/001-TB-RPR-C.0300.jpg"},
+
 ];
-
-//test
