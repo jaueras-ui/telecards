@@ -7,3 +7,5 @@ wwindow.ceterpData = [
 {"id":"001-TB-RPR-C.0300","title":"C.03 - Card nº 0","serie":"Ribeirao Preto","ref":"001-TB-RPR-C.0300","operator":"Telebrás","price":3.0,"image":"fotos/telebras/001-TB-RPR-C.0300.jpg"},
 
 ];
+
+// test
