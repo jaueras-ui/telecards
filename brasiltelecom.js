@@ -1,3 +1,4 @@
+//atualização da brasil telecom - 20261110
 window.brasiltelecomData = [
   {"id": "001-BT-TEL-AV06", "title": "Cartões (001-BT-TEL-AV06) Brasil Telecom - Série Telefones (10 cards)", "serie": "Série Telefones", "ref": "001-BT-TEL-AV06", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/001-BT-TEL-AV06.jpg"},
   {"id": "001-BT-TEL-AV08", "title": "Cartões (001-BT-TEL-AV08) Brasil Telecom - Série Telefones (10 cards)", "serie": "Série Telefones", "ref": "001-BT-TEL-AV08", "operator": "Brasil Telecom", "price": 0.5, "image": "fotos/brasil_telecom/001-BT-TEL-AV08.jpg"},
