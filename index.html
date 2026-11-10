@@ -79,7 +79,7 @@ body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-ser
   </div>  
 </header>  
 
-<!-- HERO SECTION -->
+<!-- HERO SECTION COM OS CARTÕES DE APRESENTAÇÃO ORIGINAIS -->
 <section class="relative py-12 pt-12 border-b border-brand-border overflow-hidden">  
   <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">  
     <div class="space-y-6">  
@@ -102,6 +102,7 @@ body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-ser
       </div>  
     </div>  
     
+    <!-- Cartões de Apresentação Visuais Detalhados -->
     <div class="relative flex justify-center items-center py-8">  
       <div class="relative w-80 h-52 sm:w-96 sm:h-60">  
         <div class="absolute inset-0 bg-gradient-to-br from-teal-500 to-cyan-700 rounded-2xl p-5 shadow-2xl card-stack-1 border border-white/20 flex flex-col justify-between">  
@@ -311,8 +312,18 @@ function readImage(file) {
 function setViewMode(mode) {  
   const isAdmin = mode === 'admin';  
   document.getElementById('admin-panel').classList.toggle('hidden', !isAdmin);  
-  document.getElementById('btn-visitor').className = isAdmin ? "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white" : "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";  
-  document.getElementById('btn-admin').className = isAdmin ? "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow" : "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";  
+  
+  // Alternância correta dos botões de modo Visitante e Bastidores
+  const btnVisitor = document.getElementById('btn-visitor');
+  const btnAdmin = document.getElementById('btn-admin');
+  
+  if (isAdmin) {
+    btnVisitor.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";
+    btnAdmin.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";
+  } else {
+    btnVisitor.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";
+    btnAdmin.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";
+  }
 }  
 
 function renderFilters() {  
