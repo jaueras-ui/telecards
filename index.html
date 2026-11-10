@@ -1217,14 +1217,7 @@
 
     function renderCatalog() {
       const grid = document.getElementById('catalog-grid');
-<<<<<<< HEAD
-      const searchInput = document.getElementById('global-search-input');
-      const sortSelect = document.getElementById('sort-order-select');
-      const query = searchInput ? normalizeText(searchInput.value) : '';
-      const sortOrder = sortSelect ? sortSelect.value : 'asc';
 
-=======
->>>>>>> 27a9b0fc7b170db4ff5940b4b3ae7b29539d390d
       let items = cards.filter(c => {
         const matchOp = (selectedOp === 'Todos' || matchOperator(c.operator, selectedOp));
         let matchType = (selectedType === 'Todos' || c.type === selectedType);
