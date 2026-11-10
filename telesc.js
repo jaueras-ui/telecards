@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 27a9b0fc7b170db4ff5940b4b3ae7b29539d390d
 window.telescData = [
   {
     "id": "001-TSC-MAR-AV.04",
@@ -61,5 +65,10 @@ window.telescData = [
     "operator": "Telesc",
     "price": 0.5,
     "image": "fotos/telesc/003-TSC-PRO-AV.05.jpg"
+<<<<<<< HEAD
   }
+=======
+  },
+ 
+>>>>>>> 27a9b0fc7b170db4ff5940b4b3ae7b29539d390d
 ];

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 27a9b0fc7b170db4ff5940b4b3ae7b29539d390d
 window.telegoiasData = [
   {
     "id": "001-TGO-PRO-AV.01",
@@ -34,5 +38,9 @@ window.telegoiasData = [
     "operator": "Telegoias",
     "price": 0.5,
     "image": "fotos/telegoias/002-TGO-LIT-AV.06.jpg"
+<<<<<<< HEAD
   }
+=======
+  },
+>>>>>>> 27a9b0fc7b170db4ff5940b4b3ae7b29539d390d
 ];
