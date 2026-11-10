@@ -24,8 +24,30 @@ tailwind.config = {
   
 <style>  
 body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-serif; scroll-behavior: smooth; }  
-.card-stack-1 { transform: rotate(-6deg) translateY(10px); }  
-.card-stack-2 { transform: rotate(4deg) translate(15px, -10px); }  
+
+/* Efeito refinado de empilhamento e rotação das placas hero */
+.card-stack-1 { 
+  transform: rotate(-6deg) translateY(10px); 
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}  
+.card-stack-2 { 
+  transform: rotate(4deg) translate(15px, -10px); 
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}  
+
+/* Destaque ativo do modo selecionado */
+.card-active {
+  z-index: 20 !important;
+  transform: rotate(0deg) translate(0px, 0px) scale(1.05) !important;
+  opacity: 1 !important;
+  box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.7), 0 0 20px rgba(255, 0, 85, 0.3) !important;
+}
+
+.card-inactive {
+  z-index: 10 !important;
+  opacity: 0.65 !important;
+  filter: grayscale(20%);
+}
 </style>  
 
 <!-- Sub-arquivos JS das Operadoras -->
@@ -79,7 +101,7 @@ body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-ser
   </div>  
 </header>  
 
-<!-- HERO SECTION COM OS CARTÕES DE APRESENTAÇÃO ORIGINAIS -->
+<!-- HERO SECTION COM OS CARTÕES EMPILHADOS E ALTERNÂNCIA RESTAURADA -->
 <section class="relative py-12 pt-12 border-b border-brand-border overflow-hidden">  
   <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">  
     <div class="space-y-6">  
@@ -102,19 +124,28 @@ body { background-color: #0a0a0f; color: #f1f5f9; font-family: 'Inter', sans-ser
       </div>  
     </div>  
     
-    <!-- Cartões de Apresentação Visuais Detalhados -->
+    <!-- PLACAS EMPILHADAS INTERATIVAS DA APRESENTAÇÃO -->
     <div class="relative flex justify-center items-center py-8">  
-      <div class="relative w-80 h-52 sm:w-96 sm:h-60">  
-        <div class="absolute inset-0 bg-gradient-to-br from-teal-500 to-cyan-700 rounded-2xl p-5 shadow-2xl card-stack-1 border border-white/20 flex flex-col justify-between">  
+      <div class="relative w-80 h-52 sm:w-96 sm:h-60 cursor-pointer">  
+        <!-- Placa 1: Modo Bastidores (Verde/Teal) -->
+        <div id="card-hero-admin" onclick="setViewMode('admin')" class="absolute inset-0 bg-gradient-to-br from-teal-500 to-cyan-700 rounded-2xl p-5 shadow-2xl card-stack-1 card-inactive border border-white/20 flex flex-col justify-between transition-all duration-300">  
           <div class="flex justify-between items-start">  
-            <span class="font-black text-white text-lg tracking-wider">TELECARTOFILIA</span>  
-            <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded text-white font-mono">ACERVO ATIVO</span>  
+            <span class="font-black text-white text-lg tracking-wider uppercase">BASTIDORES</span>  
+            <span class="text-[10px] bg-white/20 px-2 py-0.5 rounded text-white font-mono">GERENCIAMENTO</span>  
           </div>  
-          <div class="text-white/80 font-mono text-xs">◇ Paz.e.Bem ◇</div>  
+          <div class="text-white/90 font-mono text-xs flex items-center gap-1.5">
+            <i class="fa-solid fa-sliders"></i> Modo Edição do Acervo
+          </div>
+          <div class="flex justify-between items-end border-t border-white/10 pt-2">  
+            <span class="text-xs font-semibold text-white/80">◇ Paz.e.Bem ◇</span>  
+            <span class="text-xs font-bold text-cyan-200">Clique p/ Ativar</span>  
+          </div>  
         </div>  
-        <div class="absolute inset-0 bg-gradient-to-br from-pink-600 via-purple-600 to-indigo-700 rounded-2xl p-5 shadow-2xl card-stack-2 border border-white/20 flex flex-col justify-between">  
+
+        <!-- Placa 2: Modo Visitante (Rosa/Roxo) -->
+        <div id="card-hero-visitor" onclick="setViewMode('visitor')" class="absolute inset-0 bg-gradient-to-br from-pink-600 via-purple-600 to-indigo-700 rounded-2xl p-5 shadow-2xl card-stack-2 card-active border border-white/20 flex flex-col justify-between transition-all duration-300">  
           <div class="flex justify-between items-start">  
-            <span class="font-black text-white text-xl tracking-wider">COLEÇÃO</span>  
+            <span class="font-black text-white text-xl tracking-wider uppercase">COLEÇÃO</span>  
             <span class="text-xs bg-black/30 px-2 py-1 rounded text-white font-bold">Completa</span>  
           </div>  
           <div class="flex justify-between items-end">  
@@ -279,6 +310,7 @@ window.onload = function() {
   renderFilters();  
   renderCatalog();  
   updateItemCount();  
+  setViewMode('visitor');
   
   window.addEventListener('paste', function(e) {  
     const items = (e.clipboardData || e.originalEvent.clipboardData).items;  
@@ -309,11 +341,12 @@ function readImage(file) {
   r.readAsDataURL(file);  
 }  
 
+/* FUNÇÃO CORRIGIDA DE ALTERNÂNCIA DOS MODOS COM DESTAQUE NAS PLACAS HERO */
 function setViewMode(mode) {  
   const isAdmin = mode === 'admin';  
   document.getElementById('admin-panel').classList.toggle('hidden', !isAdmin);  
   
-  // Alternância correta dos botões de modo Visitante e Bastidores
+  // Alternância dos botões do topo
   const btnVisitor = document.getElementById('btn-visitor');
   const btnAdmin = document.getElementById('btn-admin');
   
@@ -323,6 +356,26 @@ function setViewMode(mode) {
   } else {
     btnVisitor.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow";
     btnAdmin.className = "px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white";
+  }
+
+  // Alternância dinâmica das Placas de Destaque no Topo
+  const heroVisitor = document.getElementById('card-hero-visitor');
+  const heroAdmin = document.getElementById('card-hero-admin');
+
+  if (heroVisitor && heroAdmin) {
+    if (isAdmin) {
+      heroAdmin.classList.remove('card-inactive', 'card-stack-1');
+      heroAdmin.classList.add('card-active');
+
+      heroVisitor.classList.remove('card-active');
+      heroVisitor.classList.add('card-inactive', 'card-stack-2');
+    } else {
+      heroVisitor.classList.remove('card-inactive', 'card-stack-2');
+      heroVisitor.classList.add('card-active');
+
+      heroAdmin.classList.remove('card-active');
+      heroAdmin.classList.add('card-inactive', 'card-stack-1');
+    }
   }
 }  
 
