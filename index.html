@@ -464,6 +464,45 @@
 
   <!-- Main Catálogo -->
   <main id="catalogo" class="max-w-7xl mx-auto px-4 py-10 flex-grow w-full">
+    
+    <!-- SEÇÃO COMPACTA DO "EU-BAIXINHO" COM A BUSCA E ORDENAÇÃO -->
+    <div class="mb-8 p-5 bg-brand-card rounded-2xl border border-brand-border flex flex-col md:flex-row items-center gap-5 shadow-xl max-w-3xl mx-auto">
+      <div class="relative flex-shrink-0">
+        <div id="avatar-container" class="w-16 h-16 rounded-full overflow-hidden border-3 border-brand-cyan shadow-lg shadow-brand-cyan/20 bg-brand-dark flex items-center justify-center">
+          <img src="eu_baixinho.jpg" alt="Prof. Fred Baixinho" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='eu_baixinho.png';">
+        </div>
+      </div>
+
+      <div class="flex-grow space-y-2.5 w-full">
+        <div class="bg-brand-dark/80 px-3.5 py-1.5 rounded-xl border border-brand-border inline-block">
+          <p id="speech-bubble" class="text-xs font-bold text-brand-cyan transition-all">
+            <i class="fa-solid fa-comment-dots mr-1.5"></i> Oi! Como você quer procurar cartões no acervo hoje?
+          </p>
+        </div>
+
+        <!-- Input de Pesquisa -->
+        <div class="relative">
+          <input type="text" id="search-input" oninput="handleSearch()" placeholder="Digite o nome, número ou referência do cartão..." 
+                 class="w-full pl-9 pr-4 py-2.5 bg-brand-dark border border-brand-border rounded-xl text-xs text-white placeholder-slate-500 focus:border-brand-cyan outline-none transition-all">
+          <i class="fa-solid fa-magnifying-glass absolute left-3 top-3 text-slate-500 text-xs"></i>
+        </div>
+
+        <!-- Botões de Ordenação -->
+        <div class="flex flex-wrap items-center gap-2 pt-0.5">
+          <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mr-1">Ordenar:</span>
+          <button onclick="sortCatalog('asc')" id="btn-sort-asc" class="px-2.5 py-1 bg-brand-dark hover:bg-brand-border text-slate-300 text-[11px] font-bold rounded-lg border border-brand-border transition-all flex items-center gap-1">
+            <i class="fa-solid fa-arrow-down-a-z"></i> A ➔ Z
+          </button>
+          <button onclick="sortCatalog('desc')" id="btn-sort-desc" class="px-2.5 py-1 bg-brand-dark hover:bg-brand-border text-slate-300 text-[11px] font-bold rounded-lg border border-brand-border transition-all flex items-center gap-1">
+            <i class="fa-solid fa-arrow-down-z-a"></i> Z ➔ A
+          </button>
+          <button onclick="sortCatalog('reset')" id="btn-sort-reset" class="px-2.5 py-1 bg-white text-black text-[11px] font-bold rounded-lg border border-white transition-all flex items-center gap-1">
+            <i class="fa-solid fa-rotate-left"></i> Padrão
+          </button>
+        </div>
+      </div>
+    </div>
+
     <div id="admin-panel" class="hidden mb-8 space-y-6">
       <div class="p-6 bg-brand-card rounded-2xl border border-brand-cyan/40 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 shadow-xl">
         <div class="flex items-center gap-3">
@@ -721,6 +760,8 @@
     let externalCards = [];
     let queueFiles = []; 
     let currentImageIndex = 0; 
+    let currentSort = 'reset';
+    let searchQuery = '';
 
     function normalizeText(text) {
       return (text || '').toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
@@ -1064,6 +1105,43 @@
       renderCatalog();
     }
 
+    function handleSearch() {
+      searchQuery = document.getElementById('search-input').value.toLowerCase().trim();
+      const speechBubble = document.getElementById('speech-bubble');
+      const avatarBox = document.getElementById('avatar-container');
+
+      if (searchQuery.length > 0) {
+        speechBubble.innerHTML = `<i class="fa-solid fa-magnifying-glass text-brand-cyan mr-1.5 animate-pulse"></i> Procurando por <strong>"${searchQuery}"</strong>... Deixa comigo!`;
+        avatarBox.className = "w-16 h-16 rounded-full overflow-hidden border-3 border-emerald-400 shadow-lg shadow-emerald-400/30 transition-all duration-300 bg-brand-dark flex items-center justify-center";
+      } else {
+        speechBubble.innerHTML = `<i class="fa-solid fa-comment-dots mr-1.5"></i> Oi! Como você quer procurar cartões no acervo hoje?`;
+        avatarBox.className = "w-16 h-16 rounded-full overflow-hidden border-3 border-brand-cyan shadow-lg shadow-brand-cyan/20 transition-all duration-300 bg-brand-dark flex items-center justify-center";
+      }
+      renderCatalog();
+    }
+
+    function sortCatalog(mode) {
+      currentSort = mode;
+      const speechBubble = document.getElementById('speech-bubble');
+      const avatarBox = document.getElementById('avatar-container');
+
+      document.getElementById('btn-sort-asc').className = mode === 'asc' ? "px-2.5 py-1 bg-brand-cyan text-black text-[11px] font-bold rounded-lg border border-brand-cyan shadow transition-all flex items-center gap-1" : "px-2.5 py-1 bg-brand-dark hover:bg-brand-border text-slate-300 text-[11px] font-bold rounded-lg border border-brand-border transition-all flex items-center gap-1";
+      document.getElementById('btn-sort-desc').className = mode === 'desc' ? "px-2.5 py-1 bg-brand-accent text-white text-[11px] font-bold rounded-lg border border-brand-accent shadow transition-all flex items-center gap-1" : "px-2.5 py-1 bg-brand-dark hover:bg-brand-border text-slate-300 text-[11px] font-bold rounded-lg border border-brand-border transition-all flex items-center gap-1";
+      document.getElementById('btn-sort-reset').className = mode === 'reset' ? "px-2.5 py-1 bg-white text-black text-[11px] font-bold rounded-lg border border-white shadow transition-all flex items-center gap-1" : "px-2.5 py-1 bg-brand-dark hover:bg-brand-border text-slate-400 text-[11px] font-bold rounded-lg border border-brand-border transition-all flex items-center gap-1";
+
+      if (mode === 'asc') {
+        speechBubble.innerHTML = `<i class="fa-solid fa-arrow-down-a-z text-brand-cyan mr-1.5"></i> Organizando tudo em ordem alfabética (A ➔ Z) para você!`;
+        avatarBox.className = "w-16 h-16 rounded-full overflow-hidden border-3 border-brand-cyan shadow-lg shadow-brand-cyan/40 transition-all duration-300 bg-brand-dark flex items-center justify-center";
+      } else if (mode === 'desc') {
+        speechBubble.innerHTML = `<i class="fa-solid fa-arrow-down-z-a text-brand-accent mr-1.5"></i> Invertendo a ordem! Agora vamos do Z até o A.`;
+        avatarBox.className = "w-16 h-16 rounded-full overflow-hidden border-3 border-brand-accent shadow-lg shadow-brand-accent/40 transition-all duration-300 bg-brand-dark flex items-center justify-center";
+      } else {
+        speechBubble.innerHTML = `<i class="fa-solid fa-rotate-left text-white mr-1.5"></i> Voltamos para a ordem padrão de cadastro.`;
+        avatarBox.className = "w-16 h-16 rounded-full overflow-hidden border-3 border-brand-cyan shadow-lg shadow-brand-cyan/20 transition-all duration-300 bg-brand-dark flex items-center justify-center";
+      }
+      renderCatalog();
+    }
+
     function openZoomModal(imageSrc, title) {
       if (!imageSrc) return;
       document.getElementById('zoom-modal-img').src = imageSrc;
@@ -1098,7 +1176,7 @@
 
     function renderCatalog() {
       const grid = document.getElementById('catalog-grid');
-      const items = cards.filter(c => {
+      let items = cards.filter(c => {
         const matchOp = (selectedOp === 'Todos' || matchOperator(c.operator, selectedOp));
         let matchType = (selectedType === 'Todos' || c.type === selectedType);
         if (selectedType === 'SemFoto') {
@@ -1106,6 +1184,21 @@
         }
         return matchOp && matchType;
       });
+
+      if (searchQuery) {
+        items = items.filter(c => 
+          (c.title && c.title.toLowerCase().includes(searchQuery)) ||
+          (c.ref && c.ref.toLowerCase().includes(searchQuery)) ||
+          (c.id && c.id.toLowerCase().includes(searchQuery)) ||
+          (c.serie && c.serie.toLowerCase().includes(searchQuery))
+        );
+      }
+
+      if (currentSort === 'asc') {
+        items = [...items].sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+      } else if (currentSort === 'desc') {
+        items = [...items].sort((a, b) => (b.title || '').localeCompare(a.title || ''));
+      }
       
       document.getElementById('total-counter-badge').innerText = `${cards.length} itens`;
       updateMissingPhotoCount();
