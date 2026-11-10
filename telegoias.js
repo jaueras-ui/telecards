@@ -35,5 +35,5 @@ window.telegoiasData = [
     "operator": "Telegoias",
     "price": 0.5,
     "image": "fotos/telegoias/002-TGO-LIT-AV.06.jpg"
-  }
+  },
 ];

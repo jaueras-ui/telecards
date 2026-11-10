@@ -62,6 +62,6 @@ window.telescData = [
     "operator": "Telesc",
     "price": 0.5,
     "image": "fotos/telesc/003-TSC-PRO-AV.05.jpg"
-  }
+  },
  
 ];
