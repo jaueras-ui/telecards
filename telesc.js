@@ -1,3 +1,4 @@
+
 window.telescData = [
   {
     "id": "001-TSC-MAR-AV.04",
@@ -62,4 +63,5 @@ window.telescData = [
     "price": 0.5,
     "image": "fotos/telesc/003-TSC-PRO-AV.05.jpg"
   }
+ 
 ];
