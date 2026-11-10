@@ -37,7 +37,7 @@
     padding-bottom: 60px;
   }
   
-  /* Botão Flutuante Voltar ao Topo (Com respiro, sem cortar na barra de tarefas) */
+  /* Botão Flutuante Voltar ao Topo */
   #btnVoltarTopo {
     display: flex !important;
     position: fixed !important;
@@ -315,10 +315,10 @@
 </head>
 <body class="min-h-screen flex flex-col">
 
-  <!-- Botão Flutuante Voltar ao Topo (Com Foto de Perfil + Seta Verde) -->
+  <!-- Botão Flutuante Voltar ao Topo -->
   <button id="btnVoltarTopo" onclick="voltarAoTopo()" title="Voltar ao topo">
     <div class="btn-avatar-wrapper">
-      <img src="minha_foto.jpg" alt="Voltar ao Topo" class="btn-avatar-img" onerror="handleAvatarError(this)">
+      <img src="eu_baixinho.jpg" alt="Voltar ao Topo" class="btn-avatar-img" onerror="handleBaixinhoError(this)">
     </div>
     <div class="btn-arrow-badge">
       <i class="fa-solid fa-arrow-up"></i>
@@ -331,7 +331,7 @@
       <div class="flex items-center gap-3.5">
         <div class="relative flex-shrink-0">
           <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-accent shadow-lg shadow-brand-accent/30 bg-brand-card flex items-center justify-center">
-            <img id="user-header-avatar" src="minha_foto.jpg" alt="Minha Foto" class="w-full h-full object-cover" onerror="handleAvatarError(this)">
+            <img id="user-header-avatar" src="eu_baixinho.jpg" alt="Minha Foto" class="w-full h-full object-cover" onerror="handleBaixinhoError(this)">
           </div>
           <span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-emerald-500 border-2 border-brand-dark rounded-full"></span>
         </div>
@@ -398,7 +398,7 @@
             
             <div class="my-auto flex items-center justify-between px-2">
               <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-400/80 shadow-md flex-shrink-0 bg-black/50">
-                <img src="minha_foto.jpg" alt="Foto" class="w-full h-full object-cover" onerror="handleAvatarError(this)">
+                <img src="eu_baixinho.jpg" alt="Foto" class="w-full h-full object-cover" onerror="handleBaixinhoError(this)">
               </div>
 
               <div class="flex flex-col items-center justify-center gap-1 text-center">
@@ -447,7 +447,7 @@
               </div>
 
               <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-300 shadow-md flex-shrink-0 bg-black/50">
-                <img src="minha_foto.jpg" alt="Foto" class="w-full h-full object-cover" onerror="handleAvatarError(this)">
+                <img src="eu_baixinho.jpg" alt="Foto" class="w-full h-full object-cover" onerror="handleBaixinhoError(this)">
               </div>
             </div>
             
@@ -462,8 +462,45 @@
     </div>
   </section>
 
+  <!-- BUSCADOR RESTRINGIDO A MAX-W-4XL COM FOTO EU_BAIXINHO E ORDENAÇÃO -->
+  <section class="max-w-4xl mx-auto px-4 -mt-6 relative z-30 mb-6 w-full">
+    <div class="bg-brand-card p-4 sm:p-5 rounded-3xl border border-brand-border shadow-2xl flex flex-col sm:flex-row items-center gap-4">
+      
+      <!-- Avatar eu_baixinho com identificador -->
+      <div class="flex items-center gap-3 flex-shrink-0 w-full sm:w-auto justify-start">
+        <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-accent shadow-md flex-shrink-0 bg-brand-dark">
+          <img src="eu_baixinho.jpg" alt="Buscador" class="w-full h-full object-cover" onerror="handleBaixinhoError(this)">
+        </div>
+        <div class="flex flex-col">
+          <span class="text-[10px] font-bold text-brand-accent uppercase tracking-wider">ACERVO &bull; JAUERAS</span>
+          <span class="text-xs sm:text-sm font-extrabold text-white whitespace-nowrap">Oi! Como você quer procurar cartões no acervo hoje?</span>
+        </div>
+      </div>
+      
+      <!-- Campo de Digitação do Visitante + Seletor Ordenar -->
+      <div class="flex flex-col sm:flex-row items-center gap-2 flex-grow w-full">
+        <div class="relative flex-grow w-full">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-400">
+            <i class="fa-solid fa-magnifying-glass text-brand-cyan text-xs sm:text-sm"></i>
+          </span>
+          <input type="text" id="global-search-input" oninput="renderCatalog()" placeholder="Digite o nome, número ou ref..." class="w-full pl-9 pr-3 py-2.5 bg-brand-dark border border-brand-border rounded-xl text-white placeholder-slate-500 text-xs sm:text-sm outline-none focus:border-brand-cyan transition-all shadow-inner">
+        </div>
+
+        <div class="flex items-center gap-1.5 w-full sm:w-auto flex-shrink-0">
+          <select id="sort-order-select" onchange="renderCatalog()" class="w-full sm:w-auto px-3 py-2.5 bg-brand-dark border border-brand-border rounded-xl text-xs font-bold text-white outline-none focus:border-brand-cyan cursor-pointer transition-all">
+            <option value="asc">A-Z (Crescente)</option>
+            <option value="desc">Z-A (Decrescente)</option>
+            <option value="price-asc">Preço: Menor primeiro</option>
+            <option value="price-desc">Preço: Maior primeiro</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- Main Catálogo -->
-  <main id="catalogo" class="max-w-7xl mx-auto px-4 py-10 flex-grow w-full">
+  <main id="catalogo" class="max-w-7xl mx-auto px-4 py-2 flex-grow w-full">
     <div id="admin-panel" class="hidden mb-8 space-y-6">
       <div class="p-6 bg-brand-card rounded-2xl border border-brand-cyan/40 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 shadow-xl">
         <div class="flex items-center gap-3">
@@ -736,16 +773,16 @@
       return false;
     }
 
-    function handleAvatarError(img) {
+    function handleBaixinhoError(img) {
       if (!img.dataset.step) {
         img.dataset.step = "1";
-        img.src = "minha_foto.jpeg";
+        img.src = "eu_baixinho.jpeg";
       } else if (img.dataset.step === "1") {
         img.dataset.step = "2";
-        img.src = "minha_foto.png";
+        img.src = "eu_baixinho.png";
       } else if (img.dataset.step === "2") {
         img.dataset.step = "3";
-        img.src = "logo.jpg";
+        img.src = "minha_foto.jpg";
       } else {
         img.onerror = null;
       }
@@ -1098,13 +1135,42 @@
 
     function renderCatalog() {
       const grid = document.getElementById('catalog-grid');
-      const items = cards.filter(c => {
+      const searchInput = document.getElementById('global-search-input');
+      const sortSelect = document.getElementById('sort-order-select');
+      const query = searchInput ? normalizeText(searchInput.value) : '';
+      const sortOrder = sortSelect ? sortSelect.value : 'asc';
+
+      let items = cards.filter(c => {
         const matchOp = (selectedOp === 'Todos' || matchOperator(c.operator, selectedOp));
         let matchType = (selectedType === 'Todos' || c.type === selectedType);
         if (selectedType === 'SemFoto') {
           matchType = (!c.image || c.image.trim() === '' || c.imageHasError);
         }
-        return matchOp && matchType;
+
+        let matchQuery = true;
+        if (query) {
+          matchQuery = 
+            (c.title && normalizeText(c.title).includes(query)) ||
+            (c.serie && normalizeText(c.serie).includes(query)) ||
+            (c.ref && normalizeText(c.ref).includes(query)) ||
+            (c.operator && normalizeText(c.operator).includes(query));
+        }
+
+        return matchOp && matchType && matchQuery;
+      });
+
+      // Ordenação conforme a escolha do visitante
+      items.sort((a, b) => {
+        if (sortOrder === 'asc') {
+          return (a.title || '').localeCompare(b.title || '');
+        } else if (sortOrder === 'desc') {
+          return (b.title || '').localeCompare(a.title || '');
+        } else if (sortOrder === 'price-asc') {
+          return (parseFloat(a.price) || 0) - (parseFloat(b.price) || 0);
+        } else if (sortOrder === 'price-desc') {
+          return (parseFloat(b.price) || 0) - (parseFloat(a.price) || 0);
+        }
+        return 0;
       });
       
       document.getElementById('total-counter-badge').innerText = `${cards.length} itens`;
