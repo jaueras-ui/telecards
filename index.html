@@ -378,11 +378,10 @@
     </div>
   </div>
 
-  <!-- MODAL VINCULADOR RÁPIDO (DESIGN PROFISSIONAL DE DUAS COLUNAS) -->
+  <!-- MODAL VINCULADOR RÁPIDO (DUAS COLUNAS) -->
   <div id="linker-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-5xl w-full space-y-6 border border-emerald-500/40 shadow-2xl text-xs flex flex-col max-h-[90vh]">
       
-      <!-- Cabeçalho -->
       <div class="flex justify-between items-center border-b border-brand-border pb-4">
         <h3 class="text-base font-bold text-white flex items-center gap-2">
           <i class="fa-solid fa-list-check text-emerald-400"></i> Vinculador Rápido de Fotos (Alocação Visual Direta)
@@ -390,15 +389,13 @@
         <button onclick="closeLinkerModal()" class="text-slate-400 hover:text-white text-lg"><i class="fa-solid fa-xmark"></i></button>
       </div>
 
-      <!-- Corpo em Duas Colunas -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 flex-grow overflow-hidden">
         
-        <!-- Coluna Esquerda: Controles e Prévia de Imagens -->
+        <!-- Coluna Esquerda -->
         <div class="lg:col-span-5 flex flex-col gap-4 bg-brand-dark p-4 rounded-2xl border border-brand-border">
           <div>
             <label class="block text-slate-400 font-semibold mb-1.5 uppercase text-[10px]">1. Operadora</label>
             <select id="linker-op-select" onchange="updateLinkerCardsList()" class="w-full p-2.5 bg-brand-card border border-brand-border rounded-xl text-white font-bold outline-none focus:border-emerald-500">
-              <!-- Preenchido dinamicamente -->
             </select>
           </div>
 
@@ -410,7 +407,6 @@
             </label>
           </div>
 
-          <!-- Caixa de Prévia da Foto Atual -->
           <div class="flex-grow bg-brand-card rounded-xl border border-brand-border p-3 flex flex-col items-center justify-center relative min-h-[180px]">
             <div id="linker-preview-container" class="w-full h-36 flex items-center justify-center overflow-hidden rounded-lg bg-black/40">
               <span class="text-slate-500 italic text-[11px]">Nenhuma foto carregada ainda.</span>
@@ -424,26 +420,23 @@
           </div>
         </div>
 
-        <!-- Coluna Direita: Seleção de Casinhas e Filtro -->
+        <!-- Coluna Direita -->
         <div class="lg:col-span-7 flex flex-col gap-3 bg-brand-dark p-4 rounded-2xl border border-brand-border overflow-hidden">
           <div class="flex justify-between items-center">
             <span class="text-slate-400 uppercase text-[10px] font-semibold">Escolha a "casinha" (cartão) para alocar a foto atual:</span>
             <span id="linker-cards-count-badge" class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2.5 py-0.5 rounded-full border border-emerald-500/30 font-bold">0 cartões encontrados</span>
           </div>
 
-          <!-- Filtro de busca interno -->
           <div class="relative">
             <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-500"><i class="fa-solid fa-magnifying-glass text-xs"></i></span>
             <input type="text" id="linker-search-input" oninput="renderLinkerCardsItems()" placeholder="Digite parte do nome da série ou código para filtrar..." class="w-full pl-8 pr-3 py-2 bg-brand-card border border-brand-border rounded-xl text-white placeholder-slate-500 text-xs outline-none focus:border-emerald-500">
           </div>
 
-          <!-- Lista de Cartões da Operadora -->
           <div class="flex-grow overflow-y-auto space-y-2 pr-1" id="linker-cards-scroll-container" style="max-height: 380px;"></div>
         </div>
 
       </div>
 
-      <!-- Rodapé do Modal -->
       <div class="flex justify-between items-center pt-3 border-t border-brand-border">
         <span class="text-[11px] text-slate-400">Dica: A foto vinculada usará o nome do arquivo JPG para organizar seu acervo perfeitamente.</span>
         <button onclick="closeLinkerModal()" class="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs shadow-lg transition-all">Concluir e Salvar Vínculos</button>
@@ -508,7 +501,6 @@
     let selectedType = 'Todos';
     let isAdminMode = false;
 
-    // Estado do Vinculador Rápido
     let linkerFiles = [];
     let linkerCurrentIndex = 0;
 
@@ -530,13 +522,20 @@
     function parseExternal(rawData, defaultOp) {
       if (!rawData) return;
       let items = Array.isArray(rawData) ? rawData : (rawData[Object.keys(rawData).find(k => Array.isArray(rawData[k]))] || []);
+      
       items.forEach(item => {
         let title = item.title || item.name || 'Cartão';
         let op = item.operator || defaultOp;
-        let cardId = item.id || ('ext-' + normalizeText(op) + '-' + (item.ref || item.code || Math.random()));
         let ref = item.ref || item.code || '';
-        let price = parseFloat(item.price) || 2.00;
         
+        // Garante ID estrito baseado na operadora e na referência exata para evitar qualquer duplicidade
+        let cardId = item.id || ('ext-' + normalizeText(op) + '-' + (ref || Math.random()));
+        
+        if (externalCards.some(existing => existing.id === cardId)) {
+          return; 
+        }
+
+        let price = parseFloat(item.price) || 2.00;
         let opFolder = normalizeText(op).replace(/\s+/g, '_');
         if (opFolder.includes('brasil')) opFolder = 'brasil_telecom';
         
@@ -984,7 +983,6 @@
       closeExportModal();
     }
 
-    // --- LOGICA DO VINCULADOR RÁPIDO PROFISSIONAL ---
     function openLinkerModal() {
       populateOperatorSelect();
       linkerFiles = [];
