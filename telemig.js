@@ -6,7 +6,8 @@ window.telemigData = [
     "ref": "001-TMIG-PRO-AV.01",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/001-TMIG-PRO-AV.01.jpg"
+    "image": "fotos/telemig/001-TMIG-PRO-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-TMIG-PRO-AV.02",
@@ -15,7 +16,8 @@ window.telemigData = [
     "ref": "001-TMIG-PRO-AV.02",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/001-TMIG-PRO-AV.02.jpg"
+    "image": "fotos/telemig/001-TMIG-PRO-AV.02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-TMIG-PRO-AV.03",
@@ -24,7 +26,8 @@ window.telemigData = [
     "ref": "001-TMIG-PRO-AV.03",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/001-TMIG-PRO-AV.03.jpg"
+    "image": "fotos/telemig/001-TMIG-PRO-AV.03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-TMIG-PRO-AV.05",
@@ -33,7 +36,8 @@ window.telemigData = [
     "ref": "001-TMIG-PRO-AV.05",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/001-TMIG-PRO-AV.05.jpg"
+    "image": "fotos/telemig/001-TMIG-PRO-AV.05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-TMIG-PRO-AV.06",
@@ -42,7 +46,8 @@ window.telemigData = [
     "ref": "001-TMIG-PRO-AV.06",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/001-TMIG-PRO-AV.06.jpg"
+    "image": "fotos/telemig/001-TMIG-PRO-AV.06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-TMIG-PRO-AV.07",
@@ -51,7 +56,8 @@ window.telemigData = [
     "ref": "001-TMIG-PRO-AV.07",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/001-TMIG-PRO-AV.07.jpg"
+    "image": "fotos/telemig/001-TMIG-PRO-AV.07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-TMIG-PRO-AV.08",
@@ -60,7 +66,8 @@ window.telemigData = [
     "ref": "001-TMIG-PRO-AV.08",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/001-TMIG-PRO-AV.08.jpg"
+    "image": "fotos/telemig/001-TMIG-PRO-AV.08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-TMIG-P&S-AV.01",
@@ -69,7 +76,8 @@ window.telemigData = [
     "ref": "002-TMIG-P&S-AV.01",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/002-TMIG-P&S-AV.01.jpg"
+    "image": "fotos/telemig/002-TMIG-P&S-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-TMIG-P&S-AV.02",
@@ -78,7 +86,8 @@ window.telemigData = [
     "ref": "002-TMIG-P&S-AV.02",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/002-TMIG-P&S-AV.02.jpg"
+    "image": "fotos/telemig/002-TMIG-P&S-AV.02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-TMIG-P&S-AV.03",
@@ -87,7 +96,8 @@ window.telemigData = [
     "ref": "002-TMIG-P&S-AV.03",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/002-TMIG-P&S-AV.03.jpg"
+    "image": "fotos/telemig/002-TMIG-P&S-AV.03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-TMIG-P&S-AV.04",
@@ -96,7 +106,8 @@ window.telemigData = [
     "ref": "002-TMIG-P&S-AV.04",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/002-TMIG-P&S-AV.04.jpg"
+    "image": "fotos/telemig/002-TMIG-P&S-AV.04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-TMIG-P&S-AV.05",
@@ -105,7 +116,8 @@ window.telemigData = [
     "ref": "002-TMIG-P&S-AV.05",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/002-TMIG-P&S-AV.05.jpg"
+    "image": "fotos/telemig/002-TMIG-P&S-AV.05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-TMIG-BH101-AV.01",
@@ -114,7 +126,8 @@ window.telemigData = [
     "ref": "003-TMIG-BH101-AV.01",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/003-TMIG-BH101-AV.01.jpg"
+    "image": "fotos/telemig/003-TMIG-BH101-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-TMIG-BH101-AV.02",
@@ -123,7 +136,8 @@ window.telemigData = [
     "ref": "003-TMIG-BH101-AV.02",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/003-TMIG-BH101-AV.02.jpg"
+    "image": "fotos/telemig/003-TMIG-BH101-AV.02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-TMIG-BH101-AV.03",
@@ -132,6 +146,7 @@ window.telemigData = [
     "ref": "003-TMIG-BH101-AV.03",
     "operator": "Telemig",
     "price": 0.5,
-    "image": "fotos/telemig/003-TMIG-BH101-AV.03.jpg"
+    "image": "fotos/telemig/003-TMIG-BH101-AV.03.jpg",
+    "type": "Avulso"
   }
 ];

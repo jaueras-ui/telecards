@@ -6,7 +6,8 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-INC.05",
     "operator": "Telefonica",
     "price": 3,
-    "image": "fotos/telefonica/078-TEL-ART-AV-17-BDIAS.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-17-BDIAS.jpg",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794064102244",
@@ -15,7 +16,8 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV-19-AUREA",
     "operator": "Telefonica",
     "price": 3,
-    "image": "fotos/telefonica/078-TEL-ART-AV-19-AUREA.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-19-AUREA.jpg",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794066465014",
@@ -24,7 +26,8 @@ window.telefonicaData = [
     "ref": "079-TEL-POR-AV.04",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/079-TEL-POR-AV.06.jpg"
+    "image": "fotos/telefonica/079-TEL-POR-AV.06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794066536652",
@@ -33,7 +36,8 @@ window.telefonicaData = [
     "ref": "079-TEL-POR-AV.06",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/079-TEL-POR-AV.04.jpg"
+    "image": "fotos/telefonica/079-TEL-POR-AV.04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794072239284",
@@ -42,7 +46,8 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-BEL.C",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/078-TEL-ART-BEL.C.JPG",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794078009920",
@@ -51,7 +56,8 @@ window.telefonicaData = [
     "ref": "105-TEL-REM-AV.02/04",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/105-TEL-REM-AV0-203.jpg"
+    "image": "fotos/telefonica/105-TEL-REM-AV0-203.jpg",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794080853250",
@@ -60,7 +66,8 @@ window.telefonicaData = [
     "ref": "113-TEL-JUS-AV.14",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/113-TEL-JUS-AV.14.JPG",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794081683454",
@@ -69,7 +76,9 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.10- Amor ",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/108-TEL-FIL-AV.10-Amor.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "custom-1794081990305",
@@ -78,7 +87,8 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.11-A flor",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/108-TEL-FIL-AV.11-A flor.JPG",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794082224648",
@@ -87,7 +97,9 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.12- Benjamin",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/108-TEL-FIL-AV.12-Benjamin.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "custom-1794082393787",
@@ -96,7 +108,9 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.13 - Willard",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/108-TEL-FIL-AV.13-Willard.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "custom-1794082618423",
@@ -105,7 +119,8 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.14-Celular",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/108-TEL-FIL-AV.14-Celular.JPG",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794082772955",
@@ -114,7 +129,9 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.15-Encantadora ",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/108-TEL-FIL-AV.15-Encantadora.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "custom-1794082993457",
@@ -123,7 +140,8 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.16-Dogtown",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/108-TEL-FIL-AV.16-Dogtown.JPG",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794083124799",
@@ -132,268 +150,300 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.17-Pânico",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": ""
+    "image": "fotos/telefonica/108-TEL-FIL-AV.17-Panico.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "001-TEL-CMG-AV.03",
     "title": "- Mariana",
     "serie": "Série Cidades Hist. MG",
     "ref": "001-TEL-CMG-AV.03",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/001-TEL-CMG-AV.03.jpg"
+    "image": "fotos/telefonica/001-TEL-CMG-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-TEL-CMG-AV.04",
-    "title": "- S.Tome das Letras",
+    "title": "Telefónica",
     "serie": "Série Cidades Hist. MG",
     "ref": "001-TEL-CMG-AV.04",
     "operator": "Telefônica",
     "price": 0.5,
-    "image": "fotos/telefonica/001-TEL-CMG-AV.04.jpg"
+    "image": "fotos/telefonica/001-TEL-CMG-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-TEL-CMG-AV.05",
     "title": "- Tiradentes",
     "serie": "Série Cidades Hist. MG",
     "ref": "001-TEL-CMG-AV.05",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/001-TEL-CMG-AV.05.jpg"
+    "image": "fotos/telefonica/001-TEL-CMG-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-TEL-CMG-AV.06",
     "title": "- Congonhas do Campo",
     "serie": "Série Cidades Hist. MG",
     "ref": "001-TEL-CMG-AV.06",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/001-TEL-CMG-AV.06.jpg"
+    "image": "fotos/telefonica/001-TEL-CMG-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-TEL-CMG-AV.07",
     "title": "- Diamantina",
     "serie": "Série Cidades Hist. MG",
     "ref": "001-TEL-CMG-AV.07",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/001-TEL-CMG-AV.07.jpg"
+    "image": "fotos/telefonica/001-TEL-CMG-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-TEL-CMG-AV.09",
     "title": "- S.Joao Del Rei",
     "serie": "Série Cidades Hist. MG",
     "ref": "001-TEL-CMG-AV.09",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/001-TEL-CMG-AV.09.jpg"
+    "image": "fotos/telefonica/001-TEL-CMG-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-TEL-CMG-AV.10",
     "title": "- S.Tome das Letras",
     "serie": "Série Cidades Hist. MG",
     "ref": "001-TEL-CMG-AV.10",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/001-TEL-CMG-AV.10.jpg"
+    "image": "fotos/telefonica/001-TEL-CMG-AV.10.JPG",
+    "type": "Avulso"
   },
   {
     "id": "002-TEL-AVE-C.07",
-    "title": "- C.07",
-    "serie": "Série Aves do Brasil",
+    "title": "Cartões (002-TEL-AVE-C.07) Telefónica-Série Aves do Brasil (7 cards): COMPLETA",
+    "serie": "",
     "ref": "002-TEL-AVE-C.07",
     "operator": "Telefônica",
     "price": 5,
-    "image": "fotos/telefonica/002-TEL-AVE-C.jpg"
+    "image": "fotos/telefonica/002-TEL-AVE-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "003-TEL-ANV-AV.01",
     "title": "- 2001",
     "serie": "Série Ano Novo 2001",
     "ref": "003-TEL-ANV-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/003-TEL-ANV-AV.01.jpg"
+    "image": "fotos/telefonica/003-TEL-ANV-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-TEL-ANV-AV.02",
     "title": "- Feliz ano novo",
     "serie": "Série Ano Novo 2001",
     "ref": "003-TEL-ANV-AV.02",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/003-TEL-ANV-AV.02.jpg"
+    "image": "fotos/telefonica/003-TEL-ANV-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-TEL-ANV-AV.03",
     "title": "- Feliz passagem de milenio",
     "serie": "Série Ano Novo 2001",
     "ref": "003-TEL-ANV-AV.03",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/003-TEL-ANV-AV.03.jpg"
+    "image": "fotos/telefonica/003-TEL-ANV-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "004-TEL-FRU-C.05",
-    "title": "- C.05",
-    "serie": "Série Alimentos - Frutas",
+    "title": "Cartões (004-TEL-FRU-C.05) Telefónica-Série Alimentos - Frutas (5 cards): COMPLETA",
+    "serie": "",
     "ref": "004-TEL-FRU-C.05",
     "operator": "Telefônica",
     "price": 4,
-    "image": "fotos/telefonica/004-TEL-FRU-C.jpg"
+    "image": "fotos/telefonica/004-TEL-FRU-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "004-TEL-FRU-AV.01",
     "title": "- Laranjas",
     "serie": "Série Alimentos - Frutas",
     "ref": "004-TEL-FRU-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/004-TEL-FRU-AV.01.jpg"
+    "image": "fotos/telefonica/004-TEL-FRU-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "005-TEL-TRA-AV.02",
     "title": "- Cosmos, 2000",
     "serie": "Série Transportes",
     "ref": "005-TEL-TRA-AV.02",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/005-TEL-TRA-AV.02.jpg"
+    "image": "fotos/telefonica/005-TEL-TRA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "005-TEL-TRA-AV.03",
     "title": "- Escolar, 1999",
     "serie": "Série Transportes",
     "ref": "005-TEL-TRA-AV.03",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/005-TEL-TRA-AV.03.jpg"
+    "image": "fotos/telefonica/005-TEL-TRA-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "005-TEL-TRA-AV.06",
     "title": "- Conteiner, 2001",
     "serie": "Série Transportes",
     "ref": "005-TEL-TRA-AV.06",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/005-TEL-TRA-AV.06.jpg"
+    "image": "fotos/telefonica/005-TEL-TRA-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "005-TEL-TRA-AV.08",
     "title": "- Urbano, 1998",
     "serie": "Série Transportes",
     "ref": "005-TEL-TRA-AV.08",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/005-TEL-TRA-AV.08.jpg"
+    "image": "fotos/telefonica/005-TEL-TRA-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "005-TEL-TRA-AV.09",
     "title": "- Abandono, 1979",
     "serie": "Série Transportes",
     "ref": "005-TEL-TRA-AV.09",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/005-TEL-TRA-AV.09.jpg"
+    "image": "fotos/telefonica/005-TEL-TRA-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "006-TEL-FOL-C.05",
-    "title": "- C.05",
+    "title": "Folclore - C.05 - COMPLETA",
     "serie": "Série Folclore",
     "ref": "006-TEL-FOL-C.05",
-    "operator": "Telefônica",
+    "operator": "Telefonica",
     "price": 4,
-    "image": "fotos/telefonica/006-TEL-FOL-C.jpg"
+    "image": "fotos/telefonica/006-TEL-FOL-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "006-TEL-FOL-AV.02",
     "title": "- Casinha colorida",
     "serie": "Série Folclore",
     "ref": "006-TEL-FOL-AV.02",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/006-TEL-FOL-AV.02.jpg"
+    "image": "fotos/telefonica/006-TEL-FOL-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "006-TEL-FOL-AV.03",
     "title": "- Carnaval em MG",
     "serie": "Série Folclore",
     "ref": "006-TEL-FOL-AV.03",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/006-TEL-FOL-AV.03.jpg"
+    "image": "fotos/telefonica/006-TEL-FOL-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "006-TEL-FOL-AV.04",
     "title": "- Passeio no campo",
     "serie": "Série Folclore",
     "ref": "006-TEL-FOL-AV.04",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/006-TEL-FOL-AV.04.jpg"
+    "image": "fotos/telefonica/006-TEL-FOL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "007-TEL-IDO-AV.01",
     "title": "- Tarefa em casa",
     "serie": "Série Respeito aos Idosos",
     "ref": "007-TEL-IDO-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/007-TEL-IDO-AV.01.jpg"
+    "image": "fotos/telefonica/007-TEL-IDO-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "007-TEL-IDO-AV.02",
     "title": "- Convicencia com os netos",
     "serie": "Série Respeito aos Idosos",
     "ref": "007-TEL-IDO-AV.02",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/007-TEL-IDO-AV.02.jpg"
+    "image": "fotos/telefonica/007-TEL-IDO-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "007-TEL-IDO-AV.03",
     "title": "- Descer escada",
     "serie": "Série Respeito aos Idosos",
     "ref": "007-TEL-IDO-AV.03",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/007-TEL-IDO-AV.03.jpg"
+    "image": "fotos/telefonica/007-TEL-IDO-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "007-TEL-IDO-AV.04",
     "title": "- Boa alimentacao",
     "serie": "Série Respeito aos Idosos",
     "ref": "007-TEL-IDO-AV.04",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/007-TEL-IDO-AV.04.jpg"
+    "image": "fotos/telefonica/007-TEL-IDO-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "007-TEL-IDO-AV.06",
     "title": "- Atividade fisica",
     "serie": "Série Respeito aos Idosos",
     "ref": "007-TEL-IDO-AV.06",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/007-TEL-IDO-AV.06.jpg"
+    "image": "fotos/telefonica/007-TEL-IDO-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "008-TEL-IGR-AV.03",
     "title": "- Basilica de S.Pedro dos Clerigos",
     "serie": "Série Igrejas",
     "ref": "008-TEL-IGR-AV.03",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/008-TEL-IGR-AV.03.jpg"
+    "image": "fotos/telefonica/008-TEL-IGR-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "008-TEL-IGR-AV.04",
     "title": "- Igreja de N.Sra da Conceicao",
     "serie": "Série Igrejas",
     "ref": "008-TEL-IGR-AV.04",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/008-TEL-IGR-AV.04.jpg"
+    "image": "fotos/telefonica/008-TEL-IGR-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "009-TEL-EVE-AV.07",
@@ -402,196 +452,223 @@ window.telefonicaData = [
     "ref": "009-TEL-IGR-AV.07",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/008-TEL-IGR-AV.07.jpg"
+    "image": "fotos/telefonica/008-TEL-IGR-AV.07.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "008-TEL-IGR-AV.09",
     "title": "- Igreja do Bom Jesus de Matosinhos",
     "serie": "Série Igrejas",
     "ref": "008-TEL-IGR-AV.09",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/008-TEL-IGR-AV.09.jpg"
+    "image": "fotos/telefonica/008-TEL-IGR-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "009-TEL-EVE-AV.04",
     "title": "- Mostra de 50a de Ismenia Coaracy",
     "serie": "Série Eventos",
     "ref": "009-TEL-EVE-AV.04",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/009-TEL-EVE-AV.04.jpg"
+    "image": "fotos/telefonica/009-TEL-EVE-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "010-TEL-DIA-AV.01",
     "title": "- Dia do Pintor",
     "serie": "Série Dias Comemorativos",
     "ref": "010-TEL-DIA-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/010-TEL-DIA-AV.01.jpg"
+    "image": "fotos/telefonica/010-TEL-DIA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "010-TEL-DIA-AV.02",
     "title": "- Dia do Musico",
     "serie": "Série Dias Comemorativos",
     "ref": "010-TEL-DIA-AV.02",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/010-TEL-DIA-AV.02.jpg"
+    "image": "fotos/telefonica/010-TEL-DIA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "010-TEL-DIA-AV.03",
     "title": "- Dia dos Namorados",
     "serie": "Série Dias Comemorativos",
     "ref": "010-TEL-DIA-AV.03",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/010-TEL-DIA-AV.03.jpg"
+    "image": "fotos/telefonica/010-TEL-DIA-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "011-TEL-LEN-C.08",
-    "title": "- Lendas - C.08",
+    "title": "- Lendas - C.08 - COMPLETA",
     "serie": "Série Lendas do Brasil",
     "ref": "011-TEL-LEN-C.08",
     "operator": "Telefonica",
     "price": 5,
-    "image": "fotos/telefonica/011-TEL-LEN-C.jpg"
+    "image": "fotos/telefonica/011-TEL-LEN-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "011-TEL-LEN-AV.01",
     "title": "- Negrinho do Pastoreio",
     "serie": "Série Lendas do Brasil",
     "ref": "011-TEL-LEN-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/011-TEL-LEN-AV.01.jpg"
+    "image": "fotos/telefonica/011-TEL-LEN-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "011-TEL-LEN-AV.04",
     "title": "- Boitata",
     "serie": "Série Lendas do Brasil",
     "ref": "011-TEL-LEN-AV.04",
-    "operator": "Telefônica",
+    "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/011-TEL-LEN-AV.02.jpg"
+    "image": "fotos/telefonica/011-TEL-LEN-AV.02.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "012-TEL-GAV-AV.01",
     "title": "- Volta ao mundo num balao",
     "serie": "Série Grandes Aventuras",
     "ref": "012-TEL-GAV-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/012-TEL-GAV-AV.01.jpg"
+    "image": "fotos/telefonica/012-TEL-GAV-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "013-TEL-U15-AV.01",
     "title": "- Brasil x America do Norte",
     "serie": "Série Use o 15",
     "ref": "013-TEL-U15-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/013-TEL-U15-AV.01.jpg"
+    "image": "fotos/telefonica/013-TEL-U15-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "013-TEL-U15-AV.04",
     "title": "- Brasil x Africa",
     "serie": "Série Use o 15",
     "ref": "013-TEL-U15-AV.04",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/013-TEL-U15-AV.04.jpg"
+    "image": "fotos/telefonica/013-TEL-U15-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "013-TEL-U15-AV.06",
     "title": "- Brasil x Oceania",
     "serie": "Série Use o 15",
     "ref": "013-TEL-U15-AV.06",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/013-TEL-U15-AV.06.jpg"
+    "image": "fotos/telefonica/013-TEL-U15-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "014-TEL-ALI-AV.01",
     "title": "- Pimenta e pimentao",
     "serie": "Série Alimentos",
     "ref": "014-TEL-ALI-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/014-TEL-ALI-AV.01.jpg"
+    "image": "fotos/telefonica/014-TEL-ALI-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "014-TEL-ALI-AV.02",
     "title": "- Tomate",
     "serie": "Série Alimentos",
     "ref": "014-TEL-ALI-AV.02",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/014-TEL-ALI-AV.02.jpg"
+    "image": "fotos/telefonica/014-TEL-ALI-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "015-TEL-AMA-AV.01",
     "title": "- Carta 1",
     "serie": "Série Amarelinhas",
     "ref": "015-TEL-AMA-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/015-TEL-AMA-AV.01.jpg"
+    "image": "fotos/telefonica/015-TEL-AMA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "015-TEL-AMA-AV.04",
     "title": "- Carta 4",
     "serie": "Série Amarelinhas",
     "ref": "015-TEL-AMA-AV.04",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/015-TEL-AMA-AV.04.jpg"
+    "image": "fotos/telefonica/015-TEL-AMA-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "015-TEL-AMA-AV.07",
     "title": "- Carta 7",
     "serie": "Série Amarelinhas",
     "ref": "015-TEL-AMA-AV.07",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/015-TEL-AMA-AV.07.jpg"
+    "image": "fotos/telefonica/015-TEL-AMA-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "015-TEL-AMA-AV.08",
     "title": "- Carta 8",
     "serie": "Série Amarelinhas",
     "ref": "015-TEL-AMA-AV.08",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/015-TEL-AMA-AV.08.jpg"
+    "image": "fotos/telefonica/015-TEL-AMA-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "015-TEL-AMA-AV.09",
     "title": "- Carta 9",
     "serie": "Série Amarelinhas",
     "ref": "015-TEL-AMA-AV.09",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/015-TEL-AMA-AV.09.jpg"
+    "image": "fotos/telefonica/015-TEL-AMA-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "016-TEL-VAG-INC.05",
-    "title": "- 1,2,3,4,5",
+    "title": "Velhas Águias - 1,2,3,4,5 - LOTE",
     "serie": "Série Velhas Águias",
     "ref": "016-TEL-VAG-INC.05",
-    "operator": "Telefônica",
+    "operator": "Telefonica",
     "price": 3,
-    "image": "fotos/telefonica/016-TEL-VAG-INC.jpg"
+    "image": "fotos/telefonica/016-TEL-VAG-INC.jpg",
+    "type": "Lote",
+    "imageHasError": false
   },
   {
     "id": "017-TEL-COL-AV.01",
     "title": "- Congresso de Cartofilia",
     "serie": "Série Colecionador",
     "ref": "017-TEL-COL-AV.01",
-    "operator": "Telefônica",
-    "price": 1.5,
-    "image": "fotos/telefonica/017-TEL-COL-C.jpg"
+    "operator": "Telefonica",
+    "price": 0.5,
+    "image": "fotos/telefonica/017-TEL-COL-C.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "018-TEL-DMA-C.02",
@@ -600,124 +677,140 @@ window.telefonicaData = [
     "ref": "018-TEL-DMA-C.02",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/018-TEL-DMA-C.jpg"
+    "image": "fotos/telefonica/018-TEL-DMA-C.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "018-TEL-DMA-AV.02",
     "title": "- Madonna",
     "serie": "Série Dia das Mães",
     "ref": "018-TEL-DMA-AV.02",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/018-TEL-DMA-AV.02.jpg"
+    "image": "fotos/telefonica/018-TEL-DMA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "019-TEL-MAE-AV.01",
     "title": "- Maternidade",
     "serie": "Série Dia das Mães 2001",
     "ref": "019-TEL-MAE-AV.01",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/019-TEL-MAE-AV.01.jpg"
+    "image": "fotos/telefonica/019-TEL-MAE-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "019-TEL-MAE-AV.04",
     "title": "- Mae sempre mae",
     "serie": "Série Dia das Mães 2001",
     "ref": "019-TEL-MAE-AV.04",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/019-TEL-MAE-AV.04.jpg"
+    "image": "fotos/telefonica/019-TEL-MAE-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "019-TEL-MAE-AV.05",
     "title": "- Amor sem palavras",
     "serie": "Série Dia das Mães 2001",
     "ref": "019-TEL-MAE-AV.05",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/019-TEL-MAE-AV.05.jpg"
+    "image": "fotos/telefonica/019-TEL-MAE-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "019-TEL-MAE-AV.06",
     "title": "- Mae, licao de vida",
     "serie": "Série Dia das Mães 2001",
     "ref": "019-TEL-MAE-AV.06",
-    "operator": "Telefônica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/019-TEL-MAE-AV.06.jpg"
+    "image": "fotos/telefonica/019-TEL-MAE-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "019-TEL-MAE-AV.07",
     "title": "- Dia das maes",
     "serie": "Série Dia das Maes 2001",
     "ref": "019-TEL-MAE-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/019-TEL-MAE-AV.07.jpg"
+    "image": "fotos/telefonica/019-TEL-MAE-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "019-TEL-MAE-AV.09",
     "title": "- Mae, seu significado",
     "serie": "Série Dia das Maes 2001",
     "ref": "019-TEL-MAE-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/019-TEL-MAE-AV.09.jpg"
+    "image": "fotos/telefonica/019-TEL-MAE-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "019-TEL-MAE-AV.10",
     "title": "- A gestacao",
     "serie": "Série Dia das Maes 2001",
     "ref": "019-TEL-MAE-AV.10",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/019-TEL-MAE-AV.10.jpg"
+    "image": "fotos/telefonica/019-TEL-MAE-AV.10.JPG",
+    "type": "Avulso"
   },
   {
     "id": "020-TEL-HMU-AV.28",
     "title": "- 1500DC",
     "serie": "Série Historia do Mundo",
     "ref": "020-TEL-HMU-AV.28",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/020-TEL-HMU-AV.28.jpg"
+    "image": "fotos/telefonica/020-TEL-HMU-AV.28.JPG",
+    "type": "Avulso"
   },
   {
     "id": "021-TEL-PAZ-C.02",
-    "title": "-Paz Mundial - C.02",
+    "title": "-Paz Mundial - C.02 - COMPLETA",
     "serie": "Série Paz Mundial",
     "ref": "021-TEL-PAZ-C.02",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/021-TEL-PAZ-C.jpg"
+    "image": "fotos/telefonica/021-TEL-PAZ-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "021-TEL-PAZ-AV.02",
     "title": "- Paz",
     "serie": "Série Paz Mundial",
     "ref": "021-TEL-PAZ-AV.02",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/021-TEL-PAZ-AV.02.jpg"
+    "image": "fotos/telefonica/021-TEL-PAZ-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "022-TEL-NLI-AV.01",
     "title": "- Nossa lingua",
     "serie": "Série Nossa Lingua",
     "ref": "022-TEL-NLI-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/022-TEL-NLI-AV.01.jpg"
+    "image": "fotos/telefonica/022-TEL-NLI-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "023-TEL-BAR-AV.02",
     "title": "- Na vertical rosa",
     "serie": "Série Barreto",
     "ref": "023-TEL-BAR-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/023-TEL-BAR-AV.02.jpg"
+    "image": "fotos/telefonica/023-TEL-BAR-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "024-TEL-BRA-C.06",
@@ -726,97 +819,111 @@ window.telefonicaData = [
     "ref": "024-TEL-BRA-C.06",
     "operator": "Telefonica",
     "price": 4,
-    "image": "fotos/telefonica/024-TEL-BRA-C.jpg"
+    "image": "fotos/telefonica/024-TEL-BRA-C.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "024-TEL-BRA-AV.01",
     "title": "- O extrativismo mineral",
     "serie": "Série Brasil 500 anos",
     "ref": "024-TEL-BRA-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/024-TEL-BRA-AV.01.jpg"
+    "image": "fotos/telefonica/024-TEL-BRA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "024-TEL-BRA-AV.02",
     "title": "- Predominancia do cafe",
     "serie": "Série Brasil 500 anos",
     "ref": "024-TEL-BRA-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/024-TEL-BRA-AV.02.jpg"
+    "image": "fotos/telefonica/024-TEL-BRA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "024-TEL-BRA-AV.03",
     "title": "- A lavoura canavieira",
     "serie": "Série Brasil 500 anos",
     "ref": "024-TEL-BRA-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/024-TEL-BRA-AV.03.jpg"
+    "image": "fotos/telefonica/024-TEL-BRA-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "024-TEL-BRA-AV.04",
     "title": "- Caravelas",
     "serie": "Série Brasil 500 anos",
     "ref": "024-TEL-BRA-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/024-TEL-BRA-AV.04.jpg"
+    "image": "fotos/telefonica/024-TEL-BRA-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "024-TEL-BRA-AV.05",
     "title": "- Pau-brasil",
     "serie": "Série Brasil 500 anos",
     "ref": "024-TEL-BRA-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/024-TEL-BRA-AV.05.jpg"
+    "image": "fotos/telefonica/024-TEL-BRA-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "025-TEL-OSA-AV.06",
     "title": "- Uma lição de vida",
     "serie": "Série Osmar Santos",
     "ref": "025-TEL-OSA-AV.06",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/025-TEL-OSA-AV.06.jpg"
+    "image": "fotos/telefonica/025-TEL-OSA-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "026-TEL-PRU-C.06",
-    "title": "- Paisagens Rurais  - C.06",
+    "title": "- Paisagens Rurais  - C.06 - COMPLETA",
     "serie": "Série Paisagens Rurais ",
     "ref": "026-TEL-PRU-C.06",
     "operator": "Telefonica",
     "price": 4,
-    "image": "fotos/telefonica/026-TEL-PRU-C.jpg"
+    "image": "fotos/telefonica/026-TEL-PRU-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "026-TEL-PRU-AV.01",
     "title": "- Paisagem campestre",
     "serie": "Série Paisagens Rurais ",
     "ref": "026-TEL-PRU-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/026-TEL-PRU-AV.01.jpg"
+    "image": "fotos/telefonica/026-TEL-PRU-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "026-TEL-PRU-AV.06",
     "title": "- Rebanho de ovelhas",
     "serie": "Série Paisagens Rurais ",
     "ref": "026-TEL-PRU-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/026-TEL-PRU-AV.06.jpg"
+    "image": "fotos/telefonica/026-TEL-PRU-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "027-TEL-VID-C.02",
-    "title": "- Vida - C.02",
+    "title": "- Vida - C.02 - COMPLETA",
     "serie": "Série Vida",
     "ref": "027-TEL-VID-C.02",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/027-TEL-VID-C.jpg"
+    "image": "fotos/telefonica/027-TEL-VID-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "027-TEL-VID-AV.01",
@@ -825,1213 +932,1355 @@ window.telefonicaData = [
     "ref": "027-TEL-VID-AV.01",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/027-TEL-VID-AV.02.jpg"
+    "image": "fotos/telefonica/027-TEL-VID-AV.02.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "028-TEL-SSO-AV.01",
     "title": "- Mercurio",
     "serie": "Série Sistema Solar",
     "ref": "028-TEL-SSO-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/028-TEL-SSO-AV.01.jpg"
+    "image": "fotos/telefonica/028-TEL-SSO-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "028-TEL-SSO-AV.02",
     "title": "- Plutao",
     "serie": "Série Sistema Solar",
     "ref": "028-TEL-SSO-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/028-TEL-SSO-AV.02.jpg"
+    "image": "fotos/telefonica/028-TEL-SSO-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "028-TEL-SSO-AV.03",
     "title": "- Sistema Solar",
     "serie": "Série Sistema Solar",
     "ref": "028-TEL-SSO-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/028-TEL-SSO-AV.03.jpg"
+    "image": "fotos/telefonica/028-TEL-SSO-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "029-TEL-FUT-AV.05",
     "title": "- Franca",
     "serie": "Série Futebol Px Mundial",
     "ref": "029-TEL-FUT-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/029-TEL-FUT-AV.05.jpg"
+    "image": "fotos/telefonica/029-TEL-FUT-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "029-TEL-FUT-AV.06",
     "title": "- Coreia do Sul",
     "serie": "Série Futebol Px Mundial",
     "ref": "029-TEL-FUT-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/029-TEL-FUT-AV.06.jpg"
+    "image": "fotos/telefonica/029-TEL-FUT-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "029-TEL-FUT-AV.07",
     "title": "- Espanha",
     "serie": "Série Futebol Px Mundial",
     "ref": "029-TEL-FUT-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/029-TEL-FUT-AV.07.jpg"
+    "image": "fotos/telefonica/029-TEL-FUT-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "029-TEL-FUT-AV.08",
     "title": "- Mexico",
     "serie": "Série Futebol Px Mundial",
     "ref": "029-TEL-FUT-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/029-TEL-FUT-AV.08.jpg"
+    "image": "fotos/telefonica/029-TEL-FUT-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "030-TEL-VAU-AV.01",
     "title": "- Carteira estudantil",
     "serie": "Série Volta as Aulas",
     "ref": "030-TEL-VAU-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/030-TEL-VAU-AV.01.jpg"
+    "image": "fotos/telefonica/030-TEL-VAU-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "030-TEL-VAU-AV.04",
     "title": "- Alunas",
     "serie": "Série Volta as Aulas",
     "ref": "030-TEL-VAU-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/030-TEL-VAU-AV.04.jpg"
+    "image": "fotos/telefonica/030-TEL-VAU-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "031-TEL-CDR-AV.02",
     "title": "- Vitor Aguiar - artista",
     "serie": "Série Concurso Desenhos",
     "ref": "031-TEL-CDR-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/031-TEL-CDR-AV.02.jpg"
+    "image": "fotos/telefonica/031-TEL-CDR-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "032-TEL-AMI-AV.01",
     "title": "- Amigas - cartao vermelho",
     "serie": "Série Dia do Amigo",
     "ref": "032-TEL-AMI-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/032-TEL-AMI-AV.01.jpg"
+    "image": "fotos/telefonica/032-TEL-AMI-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "032-TEL-AMI-AV.02",
     "title": "- Amigos - cartao azul e verde",
     "serie": "Série Dia do Amigo",
     "ref": "032-TEL-AMI-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/032-TEL-AMI-AV.02.jpg"
+    "image": "fotos/telefonica/032-TEL-AMI-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "032-TEL-AMI-AV.03",
     "title": "- Tres amigos - Cartao verde",
     "serie": "Série Dia do Amigo",
     "ref": "032-TEL-AMI-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/032-TEL-AMI-AV.03.jpg"
+    "image": "fotos/telefonica/032-TEL-AMI-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "032-TEL-AMI-AV.04",
     "title": "- Amiga e cachorro - cartao roxo",
     "serie": "Série Dia do Amigo",
     "ref": "032-TEL-AMI-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/032-TEL-AMI-AV.04.jpg"
+    "image": "fotos/telefonica/032-TEL-AMI-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "032-TEL-AMI-AV.05",
     "title": "- Dois amigos - Cartao vermelho",
     "serie": "Série Dia do Amigo",
     "ref": "032-TEL-AMI-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/032-TEL-AMI-AV.05.jpg"
+    "image": "fotos/telefonica/032-TEL-AMI-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "033-TEL-ANO-AV.06",
     "title": "- Tradicoes de Ano Novo",
     "serie": "Série Ano Novo 2004",
     "ref": "033-TEL-ANO-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/033-TEL-ANO-AV.06.jpg"
+    "image": "fotos/telefonica/033-TEL-ANO-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "034-TEL-ESP-AV.01",
     "title": "- Surf",
     "serie": "Série Esportes Radicais ",
     "ref": "034-TEL-ESP-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/034-TEL-ESP-AV.01.jpg"
+    "image": "fotos/telefonica/034-TEL-ESP-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "034-TEL-ESP-AV.04",
     "title": "- Rapel",
     "serie": "Série Esportes Radicais ",
     "ref": "034-TEL-ESP-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/034-TEL-ESP-AV.04.jpg"
+    "image": "fotos/telefonica/034-TEL-ESP-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "035-TEL-FLO-AV.01",
     "title": "- Macroxiphonia sp",
     "serie": "Série Flores do Cerrado",
     "ref": "035-TEL-FLO-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/035-TEL-FLO-AV.01.jpg"
+    "image": "fotos/telefonica/035-TEL-FLO-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "035-TEL-FLO-AV.02",
     "title": "- Ptrandra pyrrhoidea",
     "serie": "Série Flores do Cerrado",
     "ref": "035-TEL-FLO-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/035-TEL-FLO-AV.02.jpg"
+    "image": "fotos/telefonica/035-TEL-FLO-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "035-TEL-FLO-AV.03",
     "title": "- Vermonia simplex",
     "serie": "Série Flores do Cerrado",
     "ref": "035-TEL-FLO-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/035-TEL-FLO-AV.03.jpg"
+    "image": "fotos/telefonica/035-TEL-FLO-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "035-TEL-FLO-AV.04",
     "title": "- Xylopia aromatica",
     "serie": "Série Flores do Cerrado",
     "ref": "035-TEL-FLO-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/035-TEL-FLO-AV.04.jpg"
+    "image": "fotos/telefonica/035-TEL-FLO-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "036-TEL-PEI-AV.01",
     "title": "- Scatophagus argus",
     "serie": "Série Peixes Ornamentais ",
     "ref": "036-TEL-PEI-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/036-TEL-PEI-AV.01.jpg"
+    "image": "fotos/telefonica/036-TEL-PEI-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "036-TEL-PEI-AV.02",
     "title": "- Jaraki",
     "serie": "Série Peixes Ornamentais ",
     "ref": "036-TEL-PEI-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/036-TEL-PEI-AV.02.jpg"
+    "image": "fotos/telefonica/036-TEL-PEI-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "036-TEL-PEI-AV.03",
     "title": "- Peixe lista",
     "serie": "Série Peixes Ornamentais ",
     "ref": "036-TEL-PEI-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/036-TEL-PEI-AV.03.jpg"
+    "image": "fotos/telefonica/036-TEL-PEI-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "036-TEL-PEI-AV.04",
     "title": "- Balista",
     "serie": "Série Peixes Ornamentais ",
     "ref": "036-TEL-PEI-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/036-TEL-PEI-AV.04.jpg"
+    "image": "fotos/telefonica/036-TEL-PEI-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "036-TEL-PEI-AV.05",
     "title": "- Colisa laila",
     "serie": "Série Peixes Ornamentais ",
     "ref": "036-TEL-PEI-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/036-TEL-PEI-AV.05.jpg"
+    "image": "fotos/telefonica/036-TEL-PEI-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "036-TEL-PEI-AV.06",
     "title": "- Botia hymenophysa",
     "serie": "Série Peixes Ornamentais ",
     "ref": "036-TEL-PEI-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/036-TEL-PEI-AV.06.jpg"
+    "image": "fotos/telefonica/036-TEL-PEI-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "036-TEL-PEI-AV.07",
     "title": "- Peixe anjo",
     "serie": "Série Peixes Ornamentais ",
     "ref": "036-TEL-PEI-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/036-TEL-PEI-AV.07.jpg"
+    "image": "fotos/telefonica/036-TEL-PEI-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "036-TEL-PEI-AV.08",
     "title": "- Peixe ourico",
     "serie": "Série Peixes Ornamentais ",
     "ref": "036-TEL-PEI-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/036-TEL-PEI-AV.08.jpg"
+    "image": "fotos/telefonica/036-TEL-PEI-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.01",
     "title": "- Campinas",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.01.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.02",
     "title": "- Sao Carlos",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.02.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.03",
     "title": "- Franca",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.03.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.04",
     "title": "- Guarulhos",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.04.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.05",
     "title": "- Praia Grande",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.05.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.06",
     "title": "- Cubatao",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.06.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.07",
     "title": "- Sao Jose do Rio Preto",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.07.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.08",
     "title": "- Taubate",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.08.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "037-TEL-CPA-AV.09",
     "title": "- Marilia",
     "serie": "Série Cidades Paulistas ",
     "ref": "037-TEL-CPA-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/037-TEL-CPA-AV.09.jpg"
+    "image": "fotos/telefonica/037-TEL-CPA-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "038-TEL-NEG-AV.02",
     "title": "- Equilibrio e harmonia",
     "serie": "Série Consciencia  Negra",
     "ref": "038-TEL-NEG-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/038-TEL-NEG-AV.02.jpg"
+    "image": "fotos/telefonica/038-TEL-NEG-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "038-TEL-NEG-AV.04",
     "title": "- Lavagem da escada do Bonfim",
     "serie": "Série Consciencia  Negra",
     "ref": "038-TEL-NEG-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/038-TEL-NEG-AV.04.jpg"
+    "image": "fotos/telefonica/038-TEL-NEG-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "039-TEL-PRO-AV.01",
     "title": "- Prometeu emagrecer",
     "serie": "Série Promessas Ano Novo",
     "ref": "039-TEL-PRO-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/039-TEL-PRO-AV.01.jpg"
+    "image": "fotos/telefonica/039-TEL-PRO-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "040-TEL-CID-C.10",
-    "title": "- Cidades Brasileiras  - C.10",
+    "title": "- Cidades Brasileiras  - C.10 - COMPLETA",
     "serie": "Série Cidades Brasileiras ",
     "ref": "040-TEL-CID-C.10",
     "operator": "Telefonica",
     "price": 6,
-    "image": "fotos/telefonica/040-TEL-CID-C.jpg"
+    "image": "fotos/telefonica/040-TEL-CID-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "040-TEL-CID-AV.01",
     "title": "- Curitiba - PR",
     "serie": "Série Cidades Brasileiras ",
     "ref": "040-TEL-CID-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/040-TEL-CID-AV.01.jpg"
+    "image": "fotos/telefonica/040-TEL-CID-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "040-TEL-CID-AV.04",
     "title": "- Basilica - DF",
     "serie": "Série Cidades Brasileiras ",
     "ref": "040-TEL-CID-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/040-TEL-CID-AV.04.jpg"
+    "image": "fotos/telefonica/040-TEL-CID-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "040-TEL-CID-AV.05",
     "title": "- Ilha do Mel - PR",
     "serie": "Série Cidades Brasileiras ",
     "ref": "040-TEL-CID-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/040-TEL-CID-AV.05.jpg"
+    "image": "fotos/telefonica/040-TEL-CID-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "040-TEL-CID-AV.06",
     "title": "- Lencois - BA",
     "serie": "Série Cidades Brasileiras ",
     "ref": "040-TEL-CID-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/040-TEL-CID-AV.06.jpg"
+    "image": "fotos/telefonica/040-TEL-CID-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "040-TEL-CID-AV.07",
     "title": "- Morro de S.Paulo - BA",
     "serie": "Série Cidades Brasileiras ",
     "ref": "040-TEL-CID-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/040-TEL-CID-AV.07.jpg"
+    "image": "fotos/telefonica/040-TEL-CID-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "040-TEL-CID-AV.08",
     "title": "- Visconde de Maua - RJ",
     "serie": "Série Cidades Brasileiras ",
     "ref": "040-TEL-CID-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/040-TEL-CID-AV.08.jpg"
+    "image": "fotos/telefonica/040-TEL-CID-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "041-TEL-ESV-AV.01",
     "title": "- LACRI",
     "serie": "Série Educar sem Violencia ",
     "ref": "041-TEL-ESV-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/041-TEL-ESV-AV.01.jpg"
+    "image": "fotos/telefonica/041-TEL-ESV-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "042-TEL-DRI-AV.02",
     "title": "- Ceu azul",
     "serie": "Série Drinks de Inverno",
     "ref": "042-TEL-DRI-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/042-TEL-DRI-AV.02.jpg"
+    "image": "fotos/telefonica/042-TEL-DRI-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "042-TEL-DRI-AV.04",
     "title": "- Chocolate petropolis",
     "serie": "Série Drinks de Inverno",
     "ref": "042-TEL-DRI-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/042-TEL-DRI-AV.04.jpg"
+    "image": "fotos/telefonica/042-TEL-DRI-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "042-TEL-DRI-AV.08",
     "title": "- Poeta",
     "serie": "Série Drinks de Inverno",
     "ref": "042-TEL-DRI-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/042-TEL-DRI-AV.08.jpg"
+    "image": "fotos/telefonica/042-TEL-DRI-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "043-TEL-COL-AV.01",
     "title": "- Igreja de Santa Rita",
     "serie": "Série Arte Colonial RJ/MG",
     "ref": "043-TEL-COL-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/043-TEL-COL-AV.01.jpg"
+    "image": "fotos/telefonica/043-TEL-COL-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "043-TEL-COL-AV.02",
     "title": "- Igreja N. Sra da Conceicao",
     "serie": "Série Arte Colonial RJ/MG",
     "ref": "043-TEL-COL-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/043-TEL-COL-AV.02.jpg"
+    "image": "fotos/telefonica/043-TEL-COL-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "043-TEL-COL-AV.03",
     "title": "- Casa de Sitio em Lassance",
     "serie": "Série Arte Colonial RJ/MG",
     "ref": "043-TEL-COL-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/043-TEL-COL-AV.03.jpg"
+    "image": "fotos/telefonica/043-TEL-COL-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "043-TEL-COL-AV.04",
     "title": "- Casario em Tiradentes",
     "serie": "Série Arte Colonial RJ/MG",
     "ref": "043-TEL-COL-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/043-TEL-COL-AV.04.jpg"
+    "image": "fotos/telefonica/043-TEL-COL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "043-TEL-COL-AV.06",
     "title": "- Rua da Camara - Tiradentes",
     "serie": "Série Arte Colonial RJ/MG",
     "ref": "043-TEL-COL-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/043-TEL-COL-AV.06.jpg"
+    "image": "fotos/telefonica/043-TEL-COL-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "043-TEL-COL-AV.07",
     "title": "- Portao Primavera - Lassance",
     "serie": "Série Arte Colonial RJ/MG",
     "ref": "043-TEL-COL-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/043-TEL-COL-AV.07.jpg"
+    "image": "fotos/telefonica/043-TEL-COL-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "044-TEL-DBA-AV.01",
     "title": "- Dia da Bandeira",
     "serie": "Série Dia da Bandeira ",
     "ref": "044-TEL-DBA-AV.01",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/044-TEL-DBA-AV.01.jpg"
+    "image": "fotos/telefonica/044-TEL-DBA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "045-TEL-BAN-AV.02",
     "title": "- Dia da Bandeira",
     "serie": "Série Dia da Bandeira ",
     "ref": "045-TEL-BAN-AV.02",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/045-TEL-BAN-AV.02.jpg"
+    "image": "fotos/telefonica/045-TEL-BAN-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "046-TEL-PAS-C.08",
-    "title": "- Passaros Exoticos  - C.08",
+    "title": "- Passaros Exoticos  - C.08 - COMPLETA",
     "serie": "Série Passaros Exoticos ",
     "ref": "046-TEL-PAS-C.08",
     "operator": "Telefonica",
     "price": 5,
-    "image": "fotos/telefonica/046-TEL-PAS-C.jpg"
+    "image": "fotos/telefonica/046-TEL-PAS-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "046-TEL-PAS-AV.01",
     "title": "- Corrupiao",
     "serie": "Série Passaros Exoticos ",
     "ref": "046-TEL-PAS-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/046-TEL-PAS-AV.01.jpg"
+    "image": "fotos/telefonica/046-TEL-PAS-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "046-TEL-PAS-AV.02",
     "title": "- Flamingo Rosa",
     "serie": "Série Passaros Exoticos ",
     "ref": "046-TEL-PAS-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/046-TEL-PAS-AV.02.jpg"
+    "image": "fotos/telefonica/046-TEL-PAS-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "047-TEL-DIC-INC.09",
-    "title": "- Dicas de Saude  - 1,2,3,4,5,7,8,9,10",
+    "title": "- Dicas de Saude  - 1,2,3,4,5,7,8,9,10 - LOTE",
     "serie": "Série Dicas de Saude ",
     "ref": "047-TEL-DIC-INC.09",
     "operator": "Telefonica",
     "price": 5,
-    "image": "fotos/telefonica/047-TEL-DIC-INC.jpg"
+    "image": "fotos/telefonica/047-TEL-DIC-INC.jpg",
+    "type": "Lote",
+    "imageHasError": false
   },
   {
     "id": "047-TEL-DIC-AV.02",
     "title": "- Coma alimentos saudaveis",
     "serie": "Série Dicas de Saude ",
     "ref": "047-TEL-DIC-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/047-TEL-DIC-AV.02.jpg"
+    "image": "fotos/telefonica/047-TEL-DIC-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "047-TEL-DIC-AV.07",
     "title": "- Cantar no banho",
     "serie": "Série Dicas de Saude ",
     "ref": "047-TEL-DIC-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/047-TEL-DIC-AV.07.jpg"
+    "image": "fotos/telefonica/047-TEL-DIC-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "047-TEL-DIC-AV.09",
     "title": "- Caminhar",
     "serie": "Série Dicas de Saude ",
     "ref": "047-TEL-DIC-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/047-TEL-DIC-AV.09.jpg"
+    "image": "fotos/telefonica/047-TEL-DIC-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "048-TEL-REF-AV.03",
     "title": "- Vitamina de sorvete com melao",
     "serie": "Série Refrescos de Verao ",
     "ref": "048-TEL-REF-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/048-TEL-REF-AV.03.jpg"
+    "image": "fotos/telefonica/048-TEL-REF-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "048-TEL-REF-AV.04",
     "title": "- Suco de laranja com acerola",
     "serie": "Série Refrescos de Verao ",
     "ref": "048-TEL-REF-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/048-TEL-REF-AV.04.jpg"
+    "image": "fotos/telefonica/048-TEL-REF-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "048-TEL-REF-AV.07",
     "title": "- Suco de cenoura, laranja e abacaxi",
     "serie": "Série Refrescos de Verao ",
     "ref": "048-TEL-REF-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/048-TEL-REF-AV.07.jpg"
+    "image": "fotos/telefonica/048-TEL-REF-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "048-TEL-REF-AV.10",
     "title": "- Suco tropical",
     "serie": "Série Refrescos de Verao ",
     "ref": "048-TEL-REF-AV.10",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/048-TEL-REF-AV.10.jpg"
+    "image": "fotos/telefonica/048-TEL-REF-AV.10.JPG",
+    "type": "Avulso"
   },
   {
     "id": "049-TEL-VOL-AV.01",
     "title": "- Bem vindo!",
     "serie": "Série Volta as Aulas 2002",
     "ref": "049-TEL-VOL-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/049-TEL-VOL-AV.01.jpg"
+    "image": "fotos/telefonica/049-TEL-VOL-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "049-TEL-VOL-AV.04",
     "title": "- ABC",
     "serie": "Série Volta as Aulas 2002",
     "ref": "049-TEL-VOL-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/049-TEL-VOL-AV.04.jpg"
+    "image": "fotos/telefonica/049-TEL-VOL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "049-TEL-VOL-AV.05",
     "title": "- Quadro verde - Volta as aulas",
     "serie": "Série Volta as Aulas 2002",
     "ref": "049-TEL-VOL-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/049-TEL-VOL-AV.05.jpg"
+    "image": "fotos/telefonica/049-TEL-VOL-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "049-TEL-VOL-AV.06",
     "title": "- Fevereiro volta as aulas",
     "serie": "Série Volta as Aulas 2002",
     "ref": "049-TEL-VOL-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/049-TEL-VOL-AV.06.jpg"
+    "image": "fotos/telefonica/049-TEL-VOL-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "050-TEL-FOL-C.05",
-    "title": "- Folhagens - C.50",
+    "title": "- Folhagens - C.50 - COMPLETA",
     "serie": "Série Folhagens",
     "ref": "050-TEL-FOL-C.05",
     "operator": "Telefonica",
     "price": 4,
-    "image": "fotos/telefonica/050-TEL-FOL-C.jpg"
+    "image": "fotos/telefonica/050-TEL-FOL-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "050-TEL-FOL-AV.01",
     "title": "- Fittonia verschaffeltil",
     "serie": "Série Folhagens",
     "ref": "050-TEL-FOL-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/050-TEL-FOL-AV.01.jpg"
+    "image": "fotos/telefonica/050-TEL-FOL-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "051-TEL-URB-AV.02",
     "title": "- Cidade Moderna I",
     "serie": "Série Cidade Urbana",
     "ref": "051-TEL-URB-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/051-TEL-URB-AV.02.jpg"
+    "image": "fotos/telefonica/051-TEL-URB-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "051-TEL-URB-AV.04",
     "title": "- Cidade Antiga",
     "serie": "Série Cidade Urbana",
     "ref": "051-TEL-URB-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/051-TEL-URB-AV.04.jpg"
+    "image": "fotos/telefonica/051-TEL-URB-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "052-TEL-SOL-AV.02",
     "title": "- Artesanato solidario",
     "serie": "Série Comunidade Solidaria ",
     "ref": "052-TEL-SOL-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/052-TEL-SOL-AV.02.jpg"
+    "image": "fotos/telefonica/052-TEL-SOL-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "052-TEL-SOL-AV.03",
     "title": "- Capacitacao solidaria",
     "serie": "Série Comunidade Solidaria ",
     "ref": "052-TEL-SOL-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/052-TEL-SOL-AV.03.jpg"
+    "image": "fotos/telefonica/052-TEL-SOL-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "052-TEL-SOL-AV.04",
     "title": "- Portal do voluntariado",
     "serie": "Série Comunidade Solidaria ",
     "ref": "052-TEL-SOL-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/052-TEL-SOL-AV.04.jpg"
+    "image": "fotos/telefonica/052-TEL-SOL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "052-TEL-SOL-AV.05",
     "title": "- Portal do voluntariado",
     "serie": "Série Comunidade Solidaria ",
     "ref": "052-TEL-SOL-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/052-TEL-SOL-AV.05.jpg"
+    "image": "fotos/telefonica/052-TEL-SOL-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "053-TEL-MIL-AV.02",
     "title": "- Milagre da Terra",
     "serie": "Série Dia Maes-Milagre",
     "ref": "053-TEL-MIL-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/053-TEL-MIL-AV.02.jpg"
+    "image": "fotos/telefonica/053-TEL-MIL-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "053-TEL-MIL-AV.03",
     "title": "- Milagre da Agua",
     "serie": "Série Dia Maes-Milagre",
     "ref": "053-TEL-MIL-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/053-TEL-MIL-AV.03.jpg"
+    "image": "fotos/telefonica/053-TEL-MIL-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "053-TEL-MIL-AV.04",
     "title": "- Milagre do Ar",
     "serie": "Série Dia Maes-Milagre",
     "ref": "053-TEL-MIL-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/053-TEL-MIL-AV.04.jpg"
+    "image": "fotos/telefonica/053-TEL-MIL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "054-TEL-TER-AV.01",
     "title": "- Mae da Luz",
     "serie": "Série Mae Terra ",
     "ref": "054-TEL-TER-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/054-TEL-TER-AV.01.jpg"
+    "image": "fotos/telefonica/054-TEL-TER-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "054-TEL-TER-AV.04",
     "title": "- Mae da Agua",
     "serie": "Série Mae Terra ",
     "ref": "054-TEL-TER-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/054-TEL-TER-AV.04.jpg"
+    "image": "fotos/telefonica/054-TEL-TER-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "055-TEL-89F-AV.02",
     "title": "- HD",
     "serie": "Série 89 FM",
     "ref": "055-TEL-89F-AV.02",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/055-TEL-89F-AV.02.jpg"
+    "image": "fotos/telefonica/055-TEL-89F-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "056-TEL-MON-AV.01",
     "title": "- Cascao",
     "serie": "Série Turma na Monica ",
     "ref": "056-TEL-MON-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/056-TEL-MON-AV.01.jpg"
+    "image": "fotos/telefonica/056-TEL-MON-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "056-TEL-MON-AV.02",
     "title": "- Anjinho",
     "serie": "Série Turma na Monica ",
     "ref": "056-TEL-MON-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/056-TEL-MON-AV.02.jpg"
+    "image": "fotos/telefonica/056-TEL-MON-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "056-TEL-MON-AV.03",
     "title": "- Jotalhao",
     "serie": "Série Turma na Monica ",
     "ref": "056-TEL-MON-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/056-TEL-MON-AV.03.jpg"
+    "image": "fotos/telefonica/056-TEL-MON-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "057-TEL-JUN-AV.02",
     "title": "- Fogueira",
     "serie": "Série Festa Junina 2001",
     "ref": "057-TEL-JUN-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/057-TEL-JUN-AV.02.jpg"
+    "image": "fotos/telefonica/057-TEL-JUN-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "057-TEL-JUN-AV.03",
     "title": "- Caipirinhas",
     "serie": "Série Festa Junina 2001",
     "ref": "057-TEL-JUN-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/057-TEL-JUN-AV.03.jpg"
+    "image": "fotos/telefonica/057-TEL-JUN-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "057-TEL-JUN-AV.04",
     "title": "- Cachorrinho",
     "serie": "Série Festa Junina 2001",
     "ref": "057-TEL-JUN-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/057-TEL-JUN-AV.04.jpg"
+    "image": "fotos/telefonica/057-TEL-JUN-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "058-TEL-EOL-AV.23",
     "title": "- Tenis de mesa",
     "serie": "Série Esportes Olimpicos ",
     "ref": "058-TEL-EOL-AV.23",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/058-TEL-EOL-AV.23.jpg"
+    "image": "fotos/telefonica/058-TEL-EOL-AV.23.JPG",
+    "type": "Avulso"
   },
   {
     "id": "059-TEL-NAT-AV.02",
     "title": "- Pinheirinho verde",
     "serie": "Série Natal 2002",
     "ref": "059-TEL-NAT-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/059-TEL-NAT-AV.02.jpg"
+    "image": "fotos/telefonica/059-TEL-NAT-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "060-TEL-COM-AV.02",
     "title": "- Francesa",
     "serie": "Série Comidas Tipicas ",
     "ref": "060-TEL-COM-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/060-TEL-COM-AV.02.jpg"
+    "image": "fotos/telefonica/060-TEL-COM-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "061-TEL-CRI-AV.01",
     "title": "- Ser crianca",
     "serie": "Série Dia das Criancas ",
     "ref": "061-TEL-CRI-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/061-TEL-CRI-AV.01.jpg"
+    "image": "fotos/telefonica/061-TEL-CRI-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "061-TEL-CRI-AV.03",
     "title": "- Felicidade de crianca",
     "serie": "Série Dia das Criancas ",
     "ref": "061-TEL-CRI-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/061-TEL-CRI-AV.03.jpg"
+    "image": "fotos/telefonica/061-TEL-CRI-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "061-TEL-CRI-AV.04",
     "title": "- Sonhos de crianca",
     "serie": "Série Dia das Criancas ",
     "ref": "061-TEL-CRI-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/061-TEL-CRI-AV.04.jpg"
+    "image": "fotos/telefonica/061-TEL-CRI-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "062-TEL-VER-AV.02",
     "title": "- Amizade",
     "serie": "Série Verao 2001",
     "ref": "062-TEL-VER-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/062-TEL-VER-AV.02.jpg"
+    "image": "fotos/telefonica/062-TEL-VER-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "062-TEL-VER-AV.03",
     "title": "- Verao",
     "serie": "Série Verao 2001",
     "ref": "062-TEL-VER-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/062-TEL-VER-AV.03.jpg"
+    "image": "fotos/telefonica/062-TEL-VER-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "062-TEL-VER-AV.04",
     "title": "- Familia",
     "serie": "Série Verao 2001",
     "ref": "062-TEL-VER-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/062-TEL-VER-AV.04.jpg"
+    "image": "fotos/telefonica/062-TEL-VER-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "062-TEL-VER-AV.05",
     "title": "- Inspiracao",
     "serie": "Série Verao 2001",
     "ref": "062-TEL-VER-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/062-TEL-VER-AV.05.jpg"
+    "image": "fotos/telefonica/062-TEL-VER-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "063-TEL-CAR-AV.01",
     "title": "- Baile Preto e Branco",
     "serie": "Série Carnaval 2002",
     "ref": "063-TEL-CAR-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/063-TEL-CAR-AV.01.jpg"
+    "image": "fotos/telefonica/063-TEL-CAR-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "064-TEL-DAT-C.10",
-    "title": "- Datas Comemorativas  - C.10",
+    "title": "- Datas Comemorativas  - C.10 - COMPLETA",
     "serie": "Série Datas Comemorativas ",
     "ref": "064-TEL-DAT-C.10",
     "operator": "Telefonica",
     "price": 6,
-    "image": "fotos/telefonica/064-TEL-DAT-C.jpg"
+    "image": "fotos/telefonica/064-TEL-DAT-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "064-TEL-DAT-AV.01",
     "title": "- 1º janeiro - cartao azul",
     "serie": "Série Datas Comemorativas ",
     "ref": "064-TEL-DAT-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/064-TEL-DAT-AV.01.jpg"
+    "image": "fotos/telefonica/064-TEL-DAT-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "065-TEL-VIT-AV.01",
     "title": "- Cartao roxo ",
     "serie": "Série Vitalidade",
     "ref": "065-TEL-VIT-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/065-TEL-VIT-AV.01.jpg"
+    "image": "fotos/telefonica/065-TEL-VIT-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "065-TEL-VIT-AV.02",
     "title": "- Cartao vermelho",
     "serie": "Série Vitalidade",
     "ref": "065-TEL-VIT-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/065-TEL-VIT-AV.02.jpg"
+    "image": "fotos/telefonica/065-TEL-VIT-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "065-TEL-VIT-AV.05",
     "title": "- Ciclismo",
     "serie": "Série Vitalidade",
     "ref": "065-TEL-VIT-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/065-TEL-VIT-AV.05.jpg"
+    "image": "fotos/telefonica/065-TEL-VIT-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "066-TEL-VOL-AV.01",
     "title": "- Capa - cartao amarelo",
     "serie": "Série Voluntarios do Brasil ",
     "ref": "066-TEL-VOL-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/066-TEL-VOL-AV.01.jpg"
+    "image": "fotos/telefonica/066-TEL-VOL-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "066-TEL-VOL-AV.02",
     "title": "- Menininho com aviao - cartao rosa",
     "serie": "Série Voluntarios do Brasil ",
     "ref": "066-TEL-VOL-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/066-TEL-VOL-AV.02.jpg"
+    "image": "fotos/telefonica/066-TEL-VOL-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "066-TEL-VOL-AV.03",
     "title": "- Pintura pixelada",
     "serie": "Série Voluntarios do Brasil ",
     "ref": "066-TEL-VOL-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/066-TEL-VOL-AV.03.jpg"
+    "image": "fotos/telefonica/066-TEL-VOL-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "066-TEL-VOL-AV.04",
     "title": "- Raquete de bamington - cartao verde",
     "serie": "Série Voluntarios do Brasil ",
     "ref": "066-TEL-VOL-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/066-TEL-VOL-AV.04.jpg"
+    "image": "fotos/telefonica/066-TEL-VOL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "066-TEL-VOL-AV.05",
     "title": "- Basquete em cadeira de rodas - cartao verde",
     "serie": "Série Voluntarios do Brasil ",
     "ref": "066-TEL-VOL-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/066-TEL-VOL-AV.05.jpg"
+    "image": "fotos/telefonica/066-TEL-VOL-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "067-TEL-PRA-AV.01",
     "title": "- Praca da Se",
     "serie": "Série Pracas e Parques",
     "ref": "067-TEL-PRA-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/067-TEL-PRA-AV.01.jpg"
+    "image": "fotos/telefonica/067-TEL-PRA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "067-TEL-PRA-AV.02",
     "title": "- Praca Mario Carneiro",
     "serie": "Série Pracas e Parques",
     "ref": "067-TEL-PRA-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/067-TEL-PRA-AV.02.jpg"
+    "image": "fotos/telefonica/067-TEL-PRA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "067-TEL-PRA-AV.03",
     "title": "- Praca do Relogio ",
     "serie": "Série Pracas e Parques",
     "ref": "067-TEL-PRA-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/067-TEL-PRA-AV.03.jpg"
+    "image": "fotos/telefonica/067-TEL-PRA-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "067-TEL-PRA-AV.04",
     "title": "- Praca Sen. Roberto Leite Penteado",
     "serie": "Série Pracas e Parques",
     "ref": "067-TEL-PRA-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/067-TEL-PRA-AV.04.jpg"
+    "image": "fotos/telefonica/067-TEL-PRA-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "067-TEL-PRA-AV.05",
     "title": "- Praca 14 Bis",
     "serie": "Série Pracas e Parques",
     "ref": "067-TEL-PRA-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/067-TEL-PRA-AV.05.jpg"
+    "image": "fotos/telefonica/067-TEL-PRA-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "068-TEL-EST-AV.02",
     "title": "- Alagoas",
     "serie": "Série Estados Brasileiros",
     "ref": "068-TEL-EST-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/068-TEL-EST-AV.02.jpg"
+    "image": "fotos/telefonica/068-TEL-EST-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "068-TEL-EST-AV.03",
     "title": "- Amapa",
     "serie": "Série Estados Brasileiros",
     "ref": "068-TEL-EST-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/068-TEL-EST-AV.03.jpg"
+    "image": "fotos/telefonica/068-TEL-EST-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "068-TEL-EST-AV.04",
     "title": "- Amazonas",
     "serie": "Série Estados Brasileiros",
     "ref": "068-TEL-EST-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/068-TEL-EST-AV.04.jpg"
+    "image": "fotos/telefonica/068-TEL-EST-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "068-TEL-EST-AV.12",
     "title": "- Mato Grosso do Sul",
     "serie": "Série Estados Brasileiros",
     "ref": "068-TEL-EST-AV.12",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/068-TEL-EST-AV.12.jpg"
+    "image": "fotos/telefonica/068-TEL-EST-AV.12.JPG",
+    "type": "Avulso"
   },
   {
     "id": "068-TEL-EST-AV.20",
     "title": "- Rio Grande do Norte",
     "serie": "Série Estados Brasileiros",
     "ref": "068-TEL-EST-AV.20",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/068-TEL-EST-AV.20.jpg"
+    "image": "fotos/telefonica/068-TEL-EST-AV.20.JPG",
+    "type": "Avulso"
   },
   {
     "id": "068-TEL-EST-AV.25",
     "title": "- Sao Paulo",
     "serie": "Série Estados Brasileiros",
     "ref": "068-TEL-EST-AV.25",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/068-TEL-EST-AV.25.jpg"
+    "image": "fotos/telefonica/068-TEL-EST-AV.25.JPG",
+    "type": "Avulso"
   },
   {
     "id": "068-TEL-EST-AV.27",
     "title": "- Tocantins",
     "serie": "Série Estados Brasileiros",
     "ref": "068-TEL-EST-AV.27",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/068-TEL-EST-AV.27.jpg"
+    "image": "fotos/telefonica/068-TEL-EST-AV.27.JPG",
+    "type": "Avulso"
   },
   {
     "id": "069-TEL-CAV-AV.01",
     "title": "- Arabe",
     "serie": "Série Cavalos",
     "ref": "069-TEL-CAV-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/069-TEL-CAV-AV.01.jpg"
+    "image": "fotos/telefonica/069-TEL-CAV-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "069-TEL-CAV-AV.02",
     "title": "- Mangalarga marchador",
     "serie": "Série Cavalos",
     "ref": "069-TEL-CAV-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/069-TEL-CAV-AV.02.jpg"
+    "image": "fotos/telefonica/069-TEL-CAV-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "069-TEL-CAV-AV.03",
     "title": "- Mangalarga paulista",
     "serie": "Série Cavalos",
     "ref": "069-TEL-CAV-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/069-TEL-CAV-AV.03.jpg"
+    "image": "fotos/telefonica/069-TEL-CAV-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "069-TEL-CAV-AV.04",
     "title": "- Andaluz",
     "serie": "Série Cavalos",
     "ref": "069-TEL-CAV-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/069-TEL-CAV-AV.04.jpg"
+    "image": "fotos/telefonica/069-TEL-CAV-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "070-TEL-TER-C.02",
-    "title": "- Terra - C.02",
+    "title": "- Terra - C.02 - COMPLETA",
     "serie": "Série Terra",
     "ref": "070-TEL-TER-C.02",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/070-TEL-TER-C.jpg"
+    "image": "fotos/telefonica/070-TEL-TER-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "071-TEL-ANI-INC.08",
@@ -2040,7 +2289,9 @@ window.telefonicaData = [
     "ref": "071-TEL-ANI-INC.08",
     "operator": "Telefonica",
     "price": 4,
-    "image": "fotos/telefonica/071-TEL-ANI-01a10-INC.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-01a10-INC.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "071-TEL-ANI-INC.09",
@@ -2049,7 +2300,9 @@ window.telefonicaData = [
     "ref": "071-TEL-ANI-INC.09",
     "operator": "Telefonica",
     "price": 5,
-    "image": "fotos/telefonica/071-TEL-ANI-11a20-INC.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-11a20-INC.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "071-TEL-ANI-INC.05",
@@ -2058,151 +2311,169 @@ window.telefonicaData = [
     "ref": "071-TEL-ANI-INC.05",
     "operator": "Telefonica",
     "price": 3,
-    "image": "fotos/telefonica/071-TEL-ANI-21a25-INC.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-21a25-INC.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "071-TEL-ANI-AV.05",
     "title": "- Paraguacu",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.05.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.08",
     "title": "- Elefante indiano",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.08.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.13",
     "title": "- Onca pintada",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.13",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.13.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.13.JPG",
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.16",
     "title": "- Veado campeiro",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.16",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.16.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.16.JPG",
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.19",
     "title": "- Gato do mato",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.19",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.19.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.19.JPG",
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.21",
     "title": "- Tamdandua mirim",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.21",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.21.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.21.JPG",
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.22",
     "title": "- Lontra",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.22",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.22.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.22.JPG",
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.23",
     "title": "- Cachorro-do-mato",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.23",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.23.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.23.JPG",
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.25",
     "title": "- Aguia cinzenta",
     "serie": "Série Animais/Animais silvestres",
     "ref": "071-TEL-ANI-AV.25",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/071-TEL-ANI-AV.25.jpg"
+    "image": "fotos/telefonica/071-TEL-ANI-AV.25.JPG",
+    "type": "Avulso"
   },
   {
     "id": "072-TEL-SER-AV.01",
     "title": "- Caneta e post it",
     "serie": "Série Servicos Telefonica ",
     "ref": "072-TEL-SER-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/072-TEL-SER-AV.01.jpg"
+    "image": "fotos/telefonica/072-TEL-SER-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "072-TEL-SER-AV.02",
     "title": "- Bola de cristal",
     "serie": "Série Servicos Telefonica ",
     "ref": "072-TEL-SER-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/072-TEL-SER-AV.02.jpg"
+    "image": "fotos/telefonica/072-TEL-SER-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "072-TEL-SER-AV.03",
     "title": "- Fontes telefones",
     "serie": "Série Servicos Telefonica ",
     "ref": "072-TEL-SER-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/072-TEL-SER-AV.03.jpg"
+    "image": "fotos/telefonica/072-TEL-SER-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "072-TEL-SER-AV.04",
     "title": "- Monofone sendo passado",
     "serie": "Série Servicos Telefonica ",
     "ref": "072-TEL-SER-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/072-TEL-SER-AV.04.jpg"
+    "image": "fotos/telefonica/072-TEL-SER-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "073-TEL-ASE-AV.01",
     "title": "- Lobo",
     "serie": "Série Animais Selvagens ",
     "ref": "073-TEL-ASE-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/073-TEL-ASE-AV.01.jpg"
+    "image": "fotos/telefonica/073-TEL-ASE-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "074-TEL-VOV-AV.01",
     "title": "- Doce favorito",
     "serie": "Série Dia Vovo ",
     "ref": "074-TEL-VOV-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/074-TEL-VOV-AV.01.jpg"
+    "image": "fotos/telefonica/074-TEL-VOV-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "074-TEL-VOV-AV.03",
     "title": "- Ver TV",
     "serie": "Série Dia Vovo ",
     "ref": "074-TEL-VOV-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/074-TEL-VOV-AV.03.jpg"
+    "image": "fotos/telefonica/074-TEL-VOV-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "079-TEL-POR-INC.03",
@@ -2211,142 +2482,161 @@ window.telefonicaData = [
     "ref": "079-TEL-POR-INC.03",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/079-TEL-POR-AV.03.jpg"
+    "image": "fotos/telefonica/079-TEL-POR-AV.03.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "075-TEL-SARP-C.10",
-    "title": "- SARP - C.10",
+    "title": "- SARP - C.10 - COMPLETA",
     "serie": "Série SARP-DEC 90",
     "ref": "075-TEL-SARP-C.10",
     "operator": "Telefonica",
     "price": 6,
-    "image": "fotos/telefonica/075-TEL-SARP-C.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "075-TEL-SARP-INC.09",
-    "title": "- SARP - 0,1,2,3,4,5,7,8,9",
+    "title": "- SARP - 0,1,2,3,4,5,7,8,9 - LOTE",
     "serie": "Série SARP-DEC 80",
     "ref": "075-TEL-SARP-INC.09",
     "operator": "Telefonica",
     "price": 5,
-    "image": "fotos/telefonica/075-TEL-SARP-INC.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-INC.jpg",
+    "type": "Lote",
+    "imageHasError": false
   },
   {
     "id": "075-TEL-SARP-AV.01",
     "title": "- SARP - Capa",
     "serie": "Série SARP-CAPA",
     "ref": "075-TEL-SARP-AV.01",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/075-TEL-SARP-AV.01.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "075-TEL-SARP-AV.1975",
     "title": "- Multidao",
     "serie": "Série SARP-1975",
     "ref": "075-TEL-SARP-AV.1975",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/075-TEL-SARP-AV.1975.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-AV.1975.JPG",
+    "type": "Avulso"
   },
   {
     "id": "075-TEL-SARP-AV.1978",
     "title": "- Composicao 1005",
     "serie": "Série SARP-1978",
     "ref": "075-TEL-SARP-AV.1978",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/075-TEL-SARP-AV.1978.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-AV.1978.JPG",
+    "type": "Avulso"
   },
   {
     "id": "075-TEL-SARP-AV.1979",
     "title": "- Florencia",
     "serie": "Série SARP-1979",
     "ref": "075-TEL-SARP-AV.1979",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/075-TEL-SARP-AV.1979.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-AV.1979.JPG",
+    "type": "Avulso"
   },
   {
     "id": "075-TEL-SARP-AV.1982",
     "title": "- Buril e agua forte",
     "serie": "Série SARP-1982",
     "ref": "075-TEL-SARP-AV.1982",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/075-TEL-SARP-AV.1982.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-AV.1982.JPG",
+    "type": "Avulso"
   },
   {
     "id": "075-TEL-SARP-AV.1994",
     "title": "- Ferro",
     "serie": "Série SARP-1994",
     "ref": "075-TEL-SARP-AV.1994",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/075-TEL-SARP-AV.1994.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-AV.1994.JPG",
+    "type": "Avulso"
   },
   {
     "id": "075-TEL-SARP-AV.1999",
     "title": "- Parnamoscopio I, II, III",
     "serie": "Série SARP-1999",
     "ref": "075-TEL-SARP-AV.1999",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/075-TEL-SARP-AV.1999.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-AV.1999.JPG",
+    "type": "Avulso"
   },
   {
     "id": "075-TEL-SARP-AV.2000",
     "title": "- Sem titulo",
     "serie": "Série SARP-2000",
     "ref": "075-TEL-SARP-AV.2000",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/075-TEL-SARP-AV.2000.jpg"
+    "image": "fotos/telefonica/075-TEL-SARP-AV.2000.JPG",
+    "type": "Avulso"
   },
   {
     "id": "076-TEL-TEL-AV.01",
     "title": "- Telefone Publico Magneto",
     "serie": "Série Dia do Telefone",
     "ref": "076-TEL-TEL-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/076-TEL-TEL-AV.01.jpg"
+    "image": "fotos/telefonica/076-TEL-TEL-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "076-TEL-TEL-AV.03",
     "title": "- Telefone de Grahan Bell",
     "serie": "Série Dia do Telefone",
     "ref": "076-TEL-TEL-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/076-TEL-TEL-AV.03.jpg"
+    "image": "fotos/telefonica/076-TEL-TEL-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "076-TEL-TEL-AV.04",
     "title": "- Telefone 1888",
     "serie": "Série Dia do Telefone",
     "ref": "076-TEL-TEL-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/076-TEL-TEL-AV.04.jpg"
+    "image": "fotos/telefonica/076-TEL-TEL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "076-TEL-TEL-AV.05",
     "title": "- Telefone Pe de Ferro",
     "serie": "Série Dia do Telefone",
     "ref": "076-TEL-TEL-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/076-TEL-TEL-AV.05.jpg"
+    "image": "fotos/telefonica/076-TEL-TEL-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "076-TEL-TEL-AV.06",
     "title": "- Telefone Berliner",
     "serie": "Série Dia do Telefone",
     "ref": "076-TEL-TEL-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/076-TEL-TEL-AV.06.jpg"
+    "image": "fotos/telefonica/076-TEL-TEL-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "076-TEL-TEL-AV.08",
@@ -2355,16 +2645,19 @@ window.telefonicaData = [
     "ref": "076-TEL-TEL-AV.08",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/076-TEL-TEL-AV.08.jpg.jpg"
+    "image": "fotos/telefonica/076-TEL-TEL-AV.08.jpg.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "076-TEL-TEL-AV.09",
     "title": "- Telefone Capelinha",
     "serie": "Série Dia do Telefone",
     "ref": "076-TEL-TEL-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/076-TEL-TEL-AV.09.jpg"
+    "image": "fotos/telefonica/076-TEL-TEL-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "076-TEL-TEL-AV.10",
@@ -2373,34 +2666,40 @@ window.telefonicaData = [
     "ref": "076-TEL-TEL-AV.10",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/076-TEL-TEL-AV.01.jpg"
+    "image": "fotos/telefonica/076-TEL-TEL-AV.01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "077-TEL-COM-C.12",
-    "title": "- Comemoracoes  - C.12",
+    "title": "- Comemoracoes  - C.12 - COMPLETA",
     "serie": "Série Comemoracoes ",
     "ref": "077-TEL-COM-C.12",
     "operator": "Telefonica",
     "price": 7,
-    "image": "fotos/telefonica/077-TEL-COM-AV0.jpg"
+    "image": "fotos/telefonica/077-TEL-COM-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "077-TEL-COM-AV.01",
     "title": "- Saudacao ao Brasil 500 anos",
     "serie": "Série Comemoracoes ",
     "ref": "077-TEL-COM-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/077-TEL-COM-AV.01.jpg"
+    "image": "fotos/telefonica/077-TEL-COM-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "077-TEL-COM-AV.02",
     "title": "- Dias dos namorados",
     "serie": "Série Comemoracoes ",
     "ref": "077-TEL-COM-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/077-TEL-COM-AV.02.jpg"
+    "image": "fotos/telefonica/077-TEL-COM-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.01-MARL",
@@ -2409,7 +2708,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.01-MARL",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.01-MARL-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.01-MARL-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.02-PARR",
@@ -2418,7 +2719,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.02-PARR",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.02-PARR-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.02-PARR-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.03-IRAC",
@@ -2427,7 +2730,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.03-IRAC",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.03-IRAC-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.03-IRAC-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.04-LUCA",
@@ -2436,16 +2741,20 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.04-LUCA",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.04-LUCA-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.04-LUCA-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-INC.12",
-    "title": "- SARRO - 12 obras",
+    "title": "- SARRO - 12 obras - COMPLETA",
     "serie": "Série ART-SARRO",
     "ref": "078-TEL-ART-INC.12",
     "operator": "Telefonica",
     "price": 6,
-    "image": "fotos/telefonica/078-TEL-ART-AV-05-SARR-12.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-05-SARR-12.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.5.1 - SARR",
@@ -2454,7 +2763,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.5.1 - SARR",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-5.1-SARR-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-5.1-SARR-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.5.2-SARR",
@@ -2463,7 +2774,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.5.2-SARR",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-5.2-SARR-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-5.2-SARR-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.6.1-BLAN",
@@ -2472,7 +2785,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.6.1-BLAN",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV6.1-BLAN.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV6.1-BLAN.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.6.2-BLAN",
@@ -2481,7 +2796,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.6.2-BLAN",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV6.2-BLAN.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV6.2-BLAN.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.6.3-BLAN",
@@ -2490,7 +2807,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.6.3-BLAN",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV6.3-BLAN.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV6.3-BLAN.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.6.4-BLAN",
@@ -2499,16 +2818,20 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.6.4-BLAN",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV6.4-BLAN.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV6.4-BLAN.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-INC.06",
-    "title": "- No ton",
+    "title": "- No ton - LOTE",
     "serie": "Série ART-ACHILLES",
     "ref": "078-TEL-ART-INC.06",
     "operator": "Telefonica",
     "price": 3,
-    "image": "fotos/telefonica/078-TEL-ART-AV-7-ACHIL-06.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-7-ACHIL-06.jpg",
+    "type": "Lote",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.7.1-ACHIL",
@@ -2517,7 +2840,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.7.1-ACHIL",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-7.1-ACHIL-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-7.1-ACHIL-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.7.2-ACHIL",
@@ -2526,16 +2851,20 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.7.2-ACHIL",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-7.2-ACHIL-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-7.2-ACHIL-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-INC.05",
-    "title": "- FERRACIOLI - C.05",
+    "title": "- FERRACIOLI - C.05 - COMPLETA",
     "serie": "Série ART-FERRACIOLI",
     "ref": "078-TEL-ART-INC.05",
     "operator": "Telefonica",
     "price": 3,
-    "image": "fotos/telefonica/078-TEL-ART-AV-08-FERR-05.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-08-FERR-05.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.8.1-FERR",
@@ -2544,7 +2873,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.8.1-FERR",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-8.1-FERR-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-8.1-FERR-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.8.2-FERR",
@@ -2553,7 +2884,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.8.2-FERR",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-8.2-FERR-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-8.2-FERR-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.9.1-VERG",
@@ -2562,7 +2895,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.9.1-VERG",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-9.1-VERG-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-9.1-VERG-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.9.2-VERG",
@@ -2571,7 +2906,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.9.2-VERG",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-9.2-VERG-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-9.2-VERG-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.10.1-ROSA",
@@ -2580,7 +2917,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.10.1-ROSA",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-10.1-ROSA-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-10.1-ROSA-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.10.2-ROSA",
@@ -2589,7 +2928,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.10.2-ROSA",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-10.2-ROSA-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-10.2-ROSA-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.12.1-SCHIAZ",
@@ -2598,7 +2939,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.12.1-SCHIAZ",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.12.1-SCHIAZ-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.12.1-SCHIAZ-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.12.2-SCHIAZ",
@@ -2607,7 +2950,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.12.2-SCHIAZ",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.12.1-SCHIAZ-02.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.12.1-SCHIAZ-02.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.13.1-PASSOS",
@@ -2616,7 +2961,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.13.1-PASSOS",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.13.1-PASSOS-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.13.1-PASSOS-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.13.2-PASSOS",
@@ -2625,7 +2972,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.13.2-PASSOS",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.13.1-PASSOS-02.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.13.1-PASSOS-02.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.14-A.STE",
@@ -2634,7 +2983,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.14-A.STE",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.14-A.STE-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.14-A.STE-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.15-T.BENATI",
@@ -2643,7 +2994,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.15-T.BENATI",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.15-T.BENATI-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.15-T.BENATI-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.16.1-WEIN",
@@ -2652,7 +3005,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.16.1-WEIN",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-16.1-WEIN-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-16.1-WEIN-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.16.2-WEIN",
@@ -2661,7 +3016,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.16.2-WEIN",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-16.2-WEIN-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-16.2-WEIN-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.16.3-WEIN",
@@ -2670,7 +3027,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.16.3-WEIN",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-16.3-WEIN-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-16.3-WEIN-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.17.1-BDIAS",
@@ -2679,7 +3038,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.17.1-BDIAS",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-17.1-BDIAS.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-17.1-BDIAS.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.17.2-BDIAS",
@@ -2688,7 +3049,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.17.2-BDIAS",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-17.2-BDIAS.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-17.2-BDIAS.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.18-MARIO",
@@ -2697,7 +3060,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.18-MARIO",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-18-MARIO.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-18-MARIO.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.19.1-AUREA",
@@ -2706,7 +3071,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.19.1-AUREA",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-19.1-AUREA.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-19.1-AUREA.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.20.1-STELLA",
@@ -2715,7 +3082,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.20.1-STELLA",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-20.1-STELLA.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-20.1-STELLA.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.20.2-STELLA",
@@ -2724,7 +3093,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.20.2-STELLA",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-20.2-STELLA.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-20.2-STELLA.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.21.1-T.ELSAS",
@@ -2733,7 +3104,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.21.1-T.ELSAS",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-21.1-T.ELSAS.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-21.1-T.ELSAS.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.21.2-T.ELSAS",
@@ -2742,7 +3115,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.21.2-T.ELSAS",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-21.2-T.ELSAS.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-21.2-T.ELSAS.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.22.1-YUJI",
@@ -2751,7 +3126,8 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.22.1-YUJI",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-22.1-YUJI'.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-22.1-YUJI'.jpg",
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.22.2-YUJI",
@@ -2760,7 +3136,8 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.22.2-YUJI",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-22.2-YUJI'.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-22.2-YUJI'.jpg",
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.23-RAOUL",
@@ -2769,7 +3146,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.23-RAOUL",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-23-RAOUL.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-23-RAOUL.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.24.1-M.BRI",
@@ -2778,7 +3157,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.24.1-M.BRI",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-24.1-M.BRI.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-24.1-M.BRI.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.24.2-M.BRI",
@@ -2787,7 +3168,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.24.2-M.BRI",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-24.2-M.BRI.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-24.2-M.BRI.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.25-NERIV",
@@ -2796,7 +3179,9 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.25-NERIV",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-25-NERIV.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-25-NERIV.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.26-D.VITOR",
@@ -2805,43 +3190,51 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.26-D.VITOR",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV-26-D.VITOR.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-26-D.VITOR.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-INC.03",
-    "title": "Cartão Telefônico",
+    "title": "Cartão Telefônico - COMPLETA",
     "serie": "Série ART-J.NEGREIROS",
     "ref": "078-TEL-ART-INC.03",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/078-TEL-ART-AV-27-J.NEGR.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-27-J.NEGR.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-INC.02",
-    "title": "- M.RICARDO - C.02",
+    "title": "- M.RICARDO - C.02 - COMPLETA",
     "serie": "Série ART-M.RICARDO",
     "ref": "078-TEL-ART-INC.02",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/078-TEL-ART-AV-28-M.RIC.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV-28-M.RIC.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "078-TEL-ART-AV.29.2-BELIN",
     "title": "- Paisagem Taipe",
     "serie": "Série ART-BELINHA",
     "ref": "078-TEL-ART-AV.29.2-BELIN",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.29.2-BELIN.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.29.2-BELIN.JPG",
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.30-HIDEA",
     "title": "- Palhaco",
     "serie": "Série ART-HIDEAKI",
     "ref": "078-TEL-ART-AV.30-HIDEA",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.30-HIDEA.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.30-HIDEA.JPG",
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.31-D.OLLI",
@@ -2850,295 +3243,333 @@ window.telefonicaData = [
     "ref": "078-TEL-ART-AV.31-D.OLLI",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/078-TEL-ART-AV.31-D.OLLI-01.jpg"
+    "image": "fotos/telefonica/078-TEL-ART-AV.31-D.OLLI-01.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "079-TEL-POR-AV.03",
     "title": "- Portal VII",
     "serie": "Série Portais",
     "ref": "079-TEL-POR-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/079-TEL-POR-AV.03.jpg"
+    "image": "fotos/telefonica/079-TEL-POR-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "079-TEL-POR-AV.04",
     "title": "- Portal IX",
     "serie": "Série Portais",
     "ref": "079-TEL-POR-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/079-TEL-POR-AV.04.jpg"
+    "image": "fotos/telefonica/079-TEL-POR-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "079-TEL-POR-AV.06",
     "title": "- Portal da Luz",
     "serie": "Série Portais",
     "ref": "079-TEL-POR-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/079-TEL-POR-AV.06.jpg"
+    "image": "fotos/telefonica/079-TEL-POR-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "080-TEL-TPU-C.10",
-    "title": "Cartão Telefônico",
+    "title": "Cartão Telefônico - LOTE",
     "serie": "Série Telefone Publico",
     "ref": "080-TEL-TPU-C.10",
     "operator": "Telefonica",
     "price": 6,
-    "image": "fotos/telefonica/080-TEL-TPU-C.jpg"
+    "image": "fotos/telefonica/080-TEL-TPU-C.jpg",
+    "type": "Lote",
+    "imageHasError": false
   },
   {
     "id": "080-TEL-TPU-AV.01",
     "title": "- Dia dos Namorados",
     "serie": "Série Telefone Publico",
     "ref": "080-TEL-TPU-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/080-TEL-TPU-AV.01.jpg"
+    "image": "fotos/telefonica/080-TEL-TPU-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "080-TEL-TPU-AV.02",
     "title": "- Amigos do Peito",
     "serie": "Série Telefone Publico",
     "ref": "080-TEL-TPU-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/080-TEL-TPU-AV.02.jpg"
+    "image": "fotos/telefonica/080-TEL-TPU-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "080-TEL-TPU-AV.03",
     "title": "- Dia das Maes",
     "serie": "Série Telefone Publico",
     "ref": "080-TEL-TPU-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/080-TEL-TPU-AV.03.jpg"
+    "image": "fotos/telefonica/080-TEL-TPU-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "081-TEL-ENA-AV.10",
     "title": "- Ski aquatico",
     "serie": "Série Esportes Nauticos",
     "ref": "081-TEL-ENA-AV.10",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/081-TEL-ENA-AV.10.jpg"
+    "image": "fotos/telefonica/081-TEL-ENA-AV.10.JPG",
+    "type": "Avulso"
   },
   {
     "id": "081-TEL-ENA-AV.09",
     "title": "- Mergulho",
     "serie": "Série Esportes Nauticos",
     "ref": "081-TEL-ENA-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/081-TEL-ENA-AV.09.jpg"
+    "image": "fotos/telefonica/081-TEL-ENA-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "081-TEL-ENA-AV.08",
     "title": "- Calmaria",
     "serie": "Série Esportes Nauticos",
     "ref": "081-TEL-ENA-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/081-TEL-ENA-AV.08.jpg"
+    "image": "fotos/telefonica/081-TEL-ENA-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "081-TEL-ENA-AV.06",
     "title": "- Equipe",
     "serie": "Série Esportes Nauticos",
     "ref": "081-TEL-ENA-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/081-TEL-ENA-AV.06.jpg"
+    "image": "fotos/telefonica/081-TEL-ENA-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "081-TEL-ENA-AV.05",
     "title": "- Sem limites",
     "serie": "Série Esportes Nauticos",
     "ref": "081-TEL-ENA-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/081-TEL-ENA-AV.05.jpg"
+    "image": "fotos/telefonica/081-TEL-ENA-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "081-TEL-ENA-AV.02",
     "title": "- Adrenalina",
     "serie": "Série Esportes Nauticos",
     "ref": "081-TEL-ENA-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/081-TEL-ENA-AV.02.jpg"
+    "image": "fotos/telefonica/081-TEL-ENA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "082-TEL-SPA-C.05",
-    "title": "Espaços Paulistas",
+    "title": "Espaços Paulistas - COMPLETA",
     "serie": "Série Homenagem a Sao Paulo",
     "ref": "082-TEL-SPA-C.05",
     "operator": "Telefonica",
     "price": 4,
-    "image": "fotos/telefonica/082-TEL-SPA-C.jpg"
+    "image": "fotos/telefonica/082-TEL-SPA-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "082-TEL-SPA-AV.01",
     "title": "- Padre Ancheita",
     "serie": "Série Homenagem a Sao Paulo",
     "ref": "082-TEL-SPA-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/082-TEL-SPA-AV.01.jpg"
+    "image": "fotos/telefonica/082-TEL-SPA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "082-TEL-SPA-AV.02",
     "title": "- Parque do Ibirapuera",
     "serie": "Série Homenagem a Sao Paulo",
     "ref": "082-TEL-SPA-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/082-TEL-SPA-AV.02.jpg"
+    "image": "fotos/telefonica/082-TEL-SPA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "082-TEL-SPA-AV.03",
     "title": "- Avenida Paulista",
     "serie": "Série Homenagem a Sao Paulo",
     "ref": "082-TEL-SPA-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/082-TEL-SPA-AV.03.jpg"
+    "image": "fotos/telefonica/082-TEL-SPA-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "083-TEL-PAS-AV.01",
     "title": "- Coelho no orelhao",
     "serie": "Série Pascoa 2003",
     "ref": "083-TEL-PAS-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/083-TEL-PAS-AV.01.jpg"
+    "image": "fotos/telefonica/083-TEL-PAS-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "083-TEL-PAS-AV.02",
     "title": "- Coelho com ovo de Pascoa",
     "serie": "Série Pascoa 2003",
     "ref": "083-TEL-PAS-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/083-TEL-PAS-AV.02.jpg"
+    "image": "fotos/telefonica/083-TEL-PAS-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "083-TEL-PAS-AV.03",
     "title": "- Coelho com blusa listrada",
     "serie": "Série Pascoa 2003",
     "ref": "083-TEL-PAS-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/083-TEL-PAS-AV.03.jpg"
+    "image": "fotos/telefonica/083-TEL-PAS-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "083-TEL-PAS-AV.06",
     "title": "- Familia de coelhos",
     "serie": "Série Pascoa 2003",
     "ref": "083-TEL-PAS-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/083-TEL-PAS-AV.06.jpg"
+    "image": "fotos/telefonica/083-TEL-PAS-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-C.13",
-    "title": "Cachoeiras",
+    "title": "Cachoeiras - COMPLETA",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-C.13",
     "operator": "Telefonica",
     "price": 8,
-    "image": "fotos/telefonica/084-TEL-CAC-C.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "084-TEL-CAC-AV.01",
     "title": "- Cachoeira Anjos e Arcanjos",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.01.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-AV.02",
     "title": "- Cachoeira das Pedras",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.02.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-AV.03",
     "title": "- Cachoeira do Rio do Peixe",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.03.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-AV.04",
     "title": "- Cachoeira do Bananal",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.04.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-AV.05",
     "title": "- Cachoeira do Batuque",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.05.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-AV.06",
     "title": "- Cachoeira do Rio Mimoso II",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.06.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-AV.07",
     "title": "- Cachoeira Assombrada",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.07.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-AV.08",
     "title": "- Cachoeira dos Garcia I",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.08.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "084-TEL-CAC-AV.09",
     "title": "- Cachoeira dos Garcia II",
     "serie": "Série Cachoeiras",
     "ref": "084-TEL-CAC-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/084-TEL-CAC-AV.09.jpg"
+    "image": "fotos/telefonica/084-TEL-CAC-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "085-TEL-1SO-C.04",
-    "title": "- 1º Socorros - C.04",
+    "title": "- 1º Socorros - C.04 - COMPLETA",
     "serie": "Série 1º Socorros",
     "ref": "085-TEL-1SO-C.04",
     "operator": "Telefonica",
     "price": 3,
-    "image": "fotos/telefonica/085-TEL-1SO-C.jpg"
+    "image": "fotos/telefonica/085-TEL-1SO-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "085-TEL-1SO-INC.02",
@@ -3147,385 +3578,432 @@ window.telefonicaData = [
     "ref": "085-TEL-1SO-INC.01",
     "operator": "Telefonica",
     "price": 1,
-    "image": "fotos/telefonica/085-TEL-1SO-AV.01.jpg"
+    "image": "fotos/telefonica/085-TEL-1SO-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "085-TEL-1SO-AV.03",
     "title": "- Sobre retirar a vítima",
     "serie": "Série 1º Socorros",
     "ref": "085-TEL-1SO-AV.03",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/085-TEL-1SO-AV.03.jpg"
+    "image": "fotos/telefonica/085-TEL-1SO-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.01",
     "title": "Produto Nestlé - Nescau",
     "serie": "Série Nestle 1-10",
     "ref": "086-TEL-NES-AV.01",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.01.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.02",
     "title": "Produto Nestlé - Ninho",
     "serie": "Série Nestle 1-10",
     "ref": "086-TEL-NES-AV.02",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.02.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.05",
     "title": "Produto Nestlé - Charge",
     "serie": "Série Nestle 1-10",
     "ref": "086-TEL-NES-AV.05",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.05.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.07",
     "title": "Produto Nestlé - Molico",
     "serie": "Série Nestle 1-10",
     "ref": "086-TEL-NES-AV.07",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.07.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.09",
     "title": "Produto Nestlé - Chandele",
     "serie": "Série Nestle 1-10",
     "ref": "086-TEL-NES-AV.09",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.09.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.13",
     "title": "Produto Nestlé - Choquito",
     "serie": "Série Nestle 11-20",
     "ref": "086-TEL-NES-AV.13",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.13.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.13.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.14",
     "title": "Produto Nestlé - Toppo",
     "serie": "Série Nestle 11-20",
     "ref": "086-TEL-NES-AV.14",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.14.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.14.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.15",
     "title": "Produto Nestlé - Charge",
     "serie": "Série Nestle 11-20",
     "ref": "086-TEL-NES-AV.15",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.15.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.15.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.16",
     "title": "Produto Nestlé - Mucilon",
     "serie": "Série Nestle 11-20",
     "ref": "086-TEL-NES-AV.16",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.16.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.16.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.17",
     "title": "Produto Nestlé - Molico",
     "serie": "Série Nestle 11-20",
     "ref": "086-TEL-NES-AV.17",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.17.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.17.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.18",
     "title": "Produto Nestlé - Neston",
     "serie": "Série Nestle 11-20",
     "ref": "086-TEL-NES-AV.18",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.18.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.18.JPG",
+    "type": "Avulso"
   },
   {
     "id": "086-TEL-NES-AV.20",
     "title": "Produto Nestlé - Farinha láctea Nestlé",
     "serie": "Série Nestle 11-20",
     "ref": "086-TEL-NES-AV.20",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/086-TEL-NES-AV.20.jpg"
+    "image": "fotos/telefonica/086-TEL-NES-AV.20.JPG",
+    "type": "Avulso"
   },
   {
     "id": "087-TEL-RIB-INC.07",
-    "title": "2,3,4,5,6,7,8",
+    "title": "Ribeirinhos em Naif - 2,3,4,5,6,7,8 - LOTE",
     "serie": "Série Ribeirinhos em Naif",
     "ref": "087-TEL-RIB-INC.07",
     "operator": "Telefonica",
     "price": 4,
-    "image": "fotos/telefonica/087-TEL-RIB-INC.jpg"
+    "image": "fotos/telefonica/087-TEL-RIB-INC.jpg",
+    "type": "Lote",
+    "imageHasError": false
   },
   {
     "id": "088-TEL-PRI-C.10",
-    "title": "- Primavera - C.10",
+    "title": "- Primavera - C.10 - COMPLETA",
     "serie": "Série Primavera",
     "ref": "088-TEL-PRI-C.10",
     "operator": "Telefonica",
     "price": 6,
-    "image": "fotos/telefonica/088-TEL-PRI-C.jpg"
+    "image": "fotos/telefonica/088-TEL-PRI-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "088-TEL-PRI-AV.01",
     "title": "- Orquideas",
     "serie": "Série Primavera",
     "ref": "088-TEL-PRI-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/088-TEL-PRI-AV.01.jpg"
+    "image": "fotos/telefonica/088-TEL-PRI-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "088-TEL-PRI-AV.03",
     "title": "- Botoes de rosa",
     "serie": "Série Primavera",
     "ref": "088-TEL-PRI-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/088-TEL-PRI-AV.03.jpg"
+    "image": "fotos/telefonica/088-TEL-PRI-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "088-TEL-PRI-AV.05",
     "title": "- Lirios",
     "serie": "Série Primavera",
     "ref": "088-TEL-PRI-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/088-TEL-PRI-AV.05.jpg"
+    "image": "fotos/telefonica/088-TEL-PRI-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "088-TEL-PRI-AV.06",
     "title": "- Falena I",
     "serie": "Série Primavera",
     "ref": "088-TEL-PRI-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/088-TEL-PRI-AV.06.jpg"
+    "image": "fotos/telefonica/088-TEL-PRI-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "088-TEL-PRI-AV.07",
     "title": "- Maragaridas ao sol I",
     "serie": "Série Primavera",
     "ref": "088-TEL-PRI-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/088-TEL-PRI-AV.07.jpg"
+    "image": "fotos/telefonica/088-TEL-PRI-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "088-TEL-PRI-AV.10",
     "title": "- Botao de rosa em close",
     "serie": "Série Primavera",
     "ref": "088-TEL-PRI-AV.10",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/088-TEL-PRI-AV.10.jpg"
+    "image": "fotos/telefonica/088-TEL-PRI-AV.10.JPG",
+    "type": "Avulso"
   },
   {
     "id": "089-TEL-ECO-C.05",
-    "title": "- EcoKids - C.05",
+    "title": "- EcoKids - C.05 - COMPLETA",
     "serie": "Série EcoKids",
     "ref": "089-TEL-ECO-C.05",
     "operator": "Telefonica",
     "price": 4,
-    "image": "fotos/telefonica/089-TEL-ECO-C.jpg"
+    "image": "fotos/telefonica/089-TEL-ECO-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "089-TEL-ECO-AV.03",
     "title": "- Aleitamento materno",
     "serie": "Série EcoKids",
     "ref": "089-TEL-ECO-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/089-TEL-ECO-AV.03.jpg"
+    "image": "fotos/telefonica/089-TEL-ECO-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "089-TEL-ECO-AV.04",
     "title": "- Esporte, Cultura e Lazer",
     "serie": "Série EcoKids",
     "ref": "089-TEL-ECO-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/089-TEL-ECO-AV.04.jpg"
+    "image": "fotos/telefonica/089-TEL-ECO-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "090-TEL-MAE-INC.05",
-    "title": "- Dia das Maes - 1,2,3,4,5",
+    "title": "- Dia das Maes - 1,2,3,4,5 - LOTE",
     "serie": "Série Dia das Maes",
     "ref": "090-TEL-MAE-INC.05",
     "operator": "Telefonica",
     "price": 3,
-    "image": "fotos/telefonica/090-TEL-MAE-INC.jpg"
+    "image": "fotos/telefonica/090-TEL-MAE-INC.jpg",
+    "type": "Lote",
+    "imageHasError": false
   },
   {
     "id": "091-TEL-1MA-AV.03",
     "title": "- Posto de sevico",
     "serie": "Série 1º Maio",
     "ref": "091-TEL-1MA-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/091-TEL-1MA-AV.03.jpg"
+    "image": "fotos/telefonica/091-TEL-1MA-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "091-TEL-1MA-AV.05",
     "title": "- Instalacao de cabos",
     "serie": "Série 1º Maio",
     "ref": "091-TEL-1MA-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/091-TEL-1MA-AV.05.jpg"
+    "image": "fotos/telefonica/091-TEL-1MA-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "091-TEL-1MA-AV.04",
     "title": "- Linha interubana",
     "serie": "Série 1º Maio",
     "ref": "091-TEL-1MA-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/091-TEL-1MA-AV.04.jpg"
+    "image": "fotos/telefonica/091-TEL-1MA-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "091-TEL-1MA-AV.07",
     "title": "- CEOS",
     "serie": "Série 1º Maio",
     "ref": "091-TEL-1MA-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/091-TEL-1MA-AV.07.jpg"
+    "image": "fotos/telefonica/091-TEL-1MA-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "092-TEL-PRA-AV.01",
     "title": "- Pauba",
     "serie": "Série Praias Paulista",
     "ref": "092-TEL-PRA-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/092-TEL-PRA-AV.01.jpg"
+    "image": "fotos/telefonica/092-TEL-PRA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "092-TEL-PRA-AV.02",
     "title": "- Praia Castelhanos",
     "serie": "Série Praias Paulista",
     "ref": "092-TEL-PRA-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/092-TEL-PRA-AV.02.jpg"
+    "image": "fotos/telefonica/092-TEL-PRA-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "093-TEL-SIN-AV.01",
     "title": "- Silencio",
     "serie": "Série Dia do Sindico",
     "ref": "093-TEL-SIN-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/093-TEL-SIN-AV.01.jpg"
+    "image": "fotos/telefonica/093-TEL-SIN-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "093-TEL-SIN-AV.02",
     "title": "- Criancas",
     "serie": "Série Dia do Sindico",
     "ref": "093-TEL-SIN-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/093-TEL-SIN-AV.02.jpg"
+    "image": "fotos/telefonica/093-TEL-SIN-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "093-TEL-SIN-AV.03",
     "title": "- Animais de estimacao",
     "serie": "Série Dia do Sindico",
     "ref": "093-TEL-SIN-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/093-TEL-SIN-AV.03.jpg"
+    "image": "fotos/telefonica/093-TEL-SIN-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "093-TEL-SIN-AV.04",
     "title": "- Reformas",
     "serie": "Série Dia do Sindico",
     "ref": "093-TEL-SIN-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/093-TEL-SIN-AV.04.jpg"
+    "image": "fotos/telefonica/093-TEL-SIN-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "094-TEL-NAM-AV.01",
     "title": "- Ser feliz",
     "serie": "Série Dia dos Namorados",
     "ref": "094-TEL-NAM-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/094-TEL-NAM-AV.01.jpg"
+    "image": "fotos/telefonica/094-TEL-NAM-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "094-TEL-NAM-AV.09",
     "title": "- O amor",
     "serie": "Série Dia dos Namorados",
     "ref": "094-TEL-NAM-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/094-TEL-NAM-AV.09.jpg"
+    "image": "fotos/telefonica/094-TEL-NAM-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "094-TEL-NAM-AV.10",
     "title": "- Relacionamentos",
     "serie": "Série Dia dos Namorados",
     "ref": "094-TEL-NAM-AV.10",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/094-TEL-NAM-AV.10.jpg"
+    "image": "fotos/telefonica/094-TEL-NAM-AV.10.JPG",
+    "type": "Avulso"
   },
   {
     "id": "095-TEL-VES-AV.02",
     "title": "- Atividades fisicas",
     "serie": "Série Vestibular",
     "ref": "095-TEL-VES-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/095-TEL-VES-AV.02.jpg"
+    "image": "fotos/telefonica/095-TEL-VES-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "095-TEL-VES-AV.03",
     "title": "- Hora certa",
     "serie": "Série Vestibular",
     "ref": "095-TEL-VES-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/095-TEL-VES-AV.03.jpg"
+    "image": "fotos/telefonica/095-TEL-VES-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "095-TEL-VES-AV.04",
     "title": "- Alimentacao saudavel",
     "serie": "Série Vestibular",
     "ref": "095-TEL-VES-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/095-TEL-VES-AV.04.jpg"
+    "image": "fotos/telefonica/095-TEL-VES-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "095-TEL-VES-AV.05",
     "title": "- Rascunho de redacao",
     "serie": "Série Vestibular",
     "ref": "095-TEL-VES-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/095-TEL-VES-AV.05.jpg"
+    "image": "fotos/telefonica/095-TEL-VES-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "096-TEL-ALC-INC.02",
@@ -3534,250 +4012,279 @@ window.telefonicaData = [
     "ref": "096-TEL-ALC-INC.02",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/096-TEL-ALC-AV.01.jpg"
+    "image": "fotos/telefonica/096-TEL-ALC-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "096-TEL-ALC-AV.03",
     "title": "Vinho e Volante",
     "serie": "Série Alcool",
     "ref": "096-TEL-ALC-AV.03",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/096-TEL-ALC-AV.03.jpg"
+    "image": "fotos/telefonica/096-TEL-ALC-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "097-TEL-P04-AV.01",
     "title": "- Para os judeus",
     "serie": "Série Pascoa 2004",
     "ref": "097-TEL-P04-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/097-TEL-P04-AV.01.jpg"
+    "image": "fotos/telefonica/097-TEL-P04-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "097-TEL-P04-AV.02",
     "title": "- Para os cristao",
     "serie": "Série Pascoa 2004",
     "ref": "097-TEL-P04-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/097-TEL-P04-AV.02.jpg"
+    "image": "fotos/telefonica/097-TEL-P04-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "097-TEL-P04-AV.05",
     "title": "- Na Suecia",
     "serie": "Série Pascoa 2004",
     "ref": "097-TEL-P04-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/097-TEL-P04-AV.05.jpg"
+    "image": "fotos/telefonica/097-TEL-P04-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "097-TEL-P04-AV.06",
     "title": "- Na India",
     "serie": "Série Pascoa 2004",
     "ref": "097-TEL-P04-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/097-TEL-P04-AV.06.jpg"
+    "image": "fotos/telefonica/097-TEL-P04-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "098-TEL-RAP-AV.01",
     "title": "- Harpia",
     "serie": "Série Aves de Rapina",
     "ref": "098-TEL-RAP-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/098-TEL-RAP-AV.01.jpg"
+    "image": "fotos/telefonica/098-TEL-RAP-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "098-TEL-RAP-AV.02",
     "title": "- Coruja",
     "serie": "Série Aves de Rapina",
     "ref": "098-TEL-RAP-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/098-TEL-RAP-AV.02.jpg"
+    "image": "fotos/telefonica/098-TEL-RAP-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "098-TEL-RAP-AV.03",
     "title": "- Aguia",
     "serie": "Série Aves de Rapina",
     "ref": "098-TEL-RAP-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/098-TEL-RAP-AV.03.jpg"
+    "image": "fotos/telefonica/098-TEL-RAP-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "098-TEL-RAP-AV.04",
     "title": "- Coruja da neve",
     "serie": "Série Aves de Rapina",
     "ref": "098-TEL-RAP-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/098-TEL-RAP-AV.04.jpg"
+    "image": "fotos/telefonica/098-TEL-RAP-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "099-TEL-REP-C.02",
-    "title": "- C.02",
+    "title": "Dia do Reporter 2002 - C.02 - COMPLETA",
     "serie": "Série Dia do Reporter 2002",
     "ref": "099-TEL-REP-C.02",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/099-TEL-REP-C.jpg"
+    "image": "fotos/telefonica/099-TEL-REP-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "100-TEL-F1-AV.02",
     "title": "- Circuito da Gavea",
     "serie": "Série Formula 1 2001",
     "ref": "100-TEL-F1-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/100-TEL-F1-AV.02.jpg"
+    "image": "fotos/telefonica/100-TEL-F1-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "101-TEL-APL-AV.03",
     "title": "- Paz dos arvoredos",
     "serie": "Série Artes Plasticas",
     "ref": "101-TEL-APL-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/101-TEL-APL-AV.03.jpg"
+    "image": "fotos/telefonica/101-TEL-APL-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "101-TEL-APL-AV.04",
     "title": "- Vinhedos toscanos",
     "serie": "Série Artes Plasticas",
     "ref": "101-TEL-APL-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/101-TEL-APL-AV.04.jpg"
+    "image": "fotos/telefonica/101-TEL-APL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "101-TEL-APL-AV.10",
     "title": "- O encontro nos jardins dos sonhos",
     "serie": "Série Artes Plasticas",
     "ref": "101-TEL-APL-AV.10",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/101-TEL-APL-AV.10.jpg"
+    "image": "fotos/telefonica/101-TEL-APL-AV.10.JPG",
+    "type": "Avulso"
   },
   {
     "id": "102-TEL-SAC-AV.01",
     "title": "- Apoio",
     "serie": "Série Rede Saci",
     "ref": "102-TEL-SAC-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/102-TEL-SAC-AV.01.jpg"
+    "image": "fotos/telefonica/102-TEL-SAC-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "102-TEL-SAC-AV.02",
     "title": "- Solidariedade",
     "serie": "Série Rede Saci",
     "ref": "102-TEL-SAC-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/102-TEL-SAC-AV.02.jpg"
+    "image": "fotos/telefonica/102-TEL-SAC-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "102-TEL-SAC-AV.03",
     "title": "- Informacao",
     "serie": "Série Rede Saci",
     "ref": "102-TEL-SAC-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/102-TEL-SAC-AV.03.jpg"
+    "image": "fotos/telefonica/102-TEL-SAC-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "103-TEL-EMP-AV.01",
     "title": "- Ferias",
     "serie": "Série Empreendimentos",
     "ref": "103-TEL-EMP-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/103-TEL-EMP-AV.01.jpg"
+    "image": "fotos/telefonica/103-TEL-EMP-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "103-TEL-EMP-AV.02",
     "title": "- Viagem",
     "serie": "Série Empreendimentos",
     "ref": "103-TEL-EMP-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/103-TEL-EMP-AV.02.jpg"
+    "image": "fotos/telefonica/103-TEL-EMP-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "103-TEL-EMP-AV.03",
     "title": "- Saudade",
     "serie": "Série Empreendimentos",
     "ref": "103-TEL-EMP-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/103-TEL-EMP-AV.03.jpg"
+    "image": "fotos/telefonica/103-TEL-EMP-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "103-TEL-EMP-AV.04",
     "title": "Cartão Telefônico",
     "serie": "Série Empreendimentos",
     "ref": "103-TEL-EMP-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/103-TEL-EMP-AV.04.jpg"
+    "image": "fotos/telefonica/103-TEL-EMP-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "104-TEL-PAI-AV.39",
     "title": "- America Central",
     "serie": "Série Paises das Americas",
     "ref": "104-TEL-PAI-AV.39",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/104-TEL-PAI-AV.39.jpg"
+    "image": "fotos/telefonica/104-TEL-PAI-AV.39.JPG",
+    "type": "Avulso"
   },
   {
     "id": "104-TEL-PAI-AV.06",
     "title": "- Paraguai",
     "serie": "Série Paises das Americas",
     "ref": "104-TEL-PAI-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/104-TEL-PAI-AV.06.jpg"
+    "image": "fotos/telefonica/104-TEL-PAI-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "104-TEL-PAI-AV.14",
     "title": "- Panama",
     "serie": "Série Paises das Americas",
     "ref": "104-TEL-PAI-AV.14",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/104-TEL-PAI-AV.14.jpg"
+    "image": "fotos/telefonica/104-TEL-PAI-AV.14.JPG",
+    "type": "Avulso"
   },
   {
     "id": "104-TEL-PAI-AV.16",
     "title": "- Nicaragua",
     "serie": "Série Paises das Americas",
     "ref": "104-TEL-PAI-AV.16",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/104-TEL-PAI-AV.16.jpg"
+    "image": "fotos/telefonica/104-TEL-PAI-AV.16.JPG",
+    "type": "Avulso"
   },
   {
     "id": "104-TEL-PAI-AV.05",
     "title": "- Bolivia",
     "serie": "Série Paises das Americas",
     "ref": "104-TEL-PAI-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/104-TEL-PAI-AV.05.jpg"
+    "image": "fotos/telefonica/104-TEL-PAI-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "104-TEL-PAI-AV.02",
     "title": "- Chile",
     "serie": "Série Paises das Americas",
     "ref": "104-TEL-PAI-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/104-TEL-PAI-AV.02.jpg"
+    "image": "fotos/telefonica/104-TEL-PAI-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "105-TEL-REM-INC.02",
@@ -3786,97 +4293,108 @@ window.telefonicaData = [
     "ref": "105-TEL-REM-INC.02",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/105-TEL-REM-AV.02-04.jpg"
+    "image": "fotos/telefonica/105-TEL-REM-AV.02-04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "106-TEL-VER-AV.04",
     "title": "Cartão Telefônico",
     "serie": "Série Verticais",
     "ref": "106-TEL-VER-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/106-TEL-VER-AV.04.jpg"
+    "image": "fotos/telefonica/106-TEL-VER-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.10",
     "title": "- Rodrigo",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.10",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.10.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.10.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.09",
     "title": "- Joaquim",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.09.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.08",
     "title": "- Silvia",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.08.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.07",
     "title": "- Ana Rita",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.07.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.05",
     "title": "- Maria Luiza",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.05.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.04",
     "title": "- Lilia",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.04.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.03",
     "title": "- Bruno",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.03.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.02",
     "title": "- Cassia",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.02.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "107-TEL-PRO-AV.01",
     "title": "- Viviane ",
     "serie": "Série Criancas Projeto Carmim",
     "ref": "107-TEL-PRO-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/107-TEL-PRO-AV.01.jpg"
+    "image": "fotos/telefonica/107-TEL-PRO-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.01-FxJ",
@@ -3885,115 +4403,129 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.01-FxJ",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV-01-FxJ.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV-01-FxJ.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "108-TEL-FIL-AV.02-Aleg",
     "title": "- Capa - As alegres comadres",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.02-Aleg",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.02-Aleg.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.02-Aleg.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.03-Reen",
     "title": "- Capa - Reencarnacao",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.03-Reen",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.03-Reen.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.03-Reen.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.04-Loon",
     "title": "- Capa - Looney Tunes",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.04-Loon",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.04-Loon.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.04-Loon.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.05-Deby",
     "title": "- Capa - Debi e Loide",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.05-Deby",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.05-Deby.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.05-Deby.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.06-Prof",
     "title": "- Capa - Profissao de Risco (I)",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.06-Prof",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.06-Prof.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.06-Prof.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.06;1-Prof",
     "title": "- Capa - Profissao de Risco (I)",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.06;1-Prof",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.06;1-Prof.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.06;1-Prof.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.07-Leis",
     "title": "- Capa - Leis da Atracao",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.07-Leis",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.07-Leis.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.07-Leis.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.08-Envia",
     "title": "- Capa - O Enviado",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.08-Envia",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.08-Envia.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.08-Envia.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.09-Talent",
     "title": "- Capa - O Retorno do Talentoso Ripley",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.09-Talent",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.09-Talent.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.09-Talent.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.11-Vingad",
     "title": "- Capa - O Vingador",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.11-Vingad",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.11-Vingad.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.11-Vingad.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.12-Ricos",
     "title": "Capa - Ricos, Bonitos e Infieis",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.12-Ricos",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.12-Ricos.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.12-Ricos.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.13-Duende",
     "title": "- Capa - Um Duende em NY",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.13-Duende",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.13-Duende.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.13-Duende.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.05-Legolas",
@@ -4002,277 +4534,310 @@ window.telefonicaData = [
     "ref": "108-TEL-FIL-AV.05-Legolas",
     "operator": "Telefonica",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.07-Legolas.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.07-Legolas.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "108-TEL-FIL-AV.08-Sam",
     "title": "A Sociedade do Anel: Sam",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.08-Sam",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.08-Sam.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.08-Sam.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.10-Frodo",
     "title": "A Sociedade do Anel: Frodo",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.10-Frodo",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.10-Frodo.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.10-Frodo.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.01-Capa",
     "title": "- Capa - A Sociedade do Anel",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.01-Capa",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.01-Capa.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.01-Capa.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.02-Pipi",
     "title": "- A Sociedade do Anel: Pipi",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.02-Pipi",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.02-Pipi.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.02-Pipi.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.03-Gadalf",
     "title": "- A Sociedade do Anel: Gadalf",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.03-Gadalf",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.03-Gadalf.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.03-Gadalf.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.04-Aragorn",
     "title": "- A Sociedade do Anel: Aragorn",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.04-Aragorn",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.04-Aragorn.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.04-Aragorn.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.05 -Arwen",
     "title": "- A Sociedade do Anel: Arwen",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.05 -Arwen",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.05 -Arwen.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.05 -Arwen.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.06-Boromir",
     "title": "- A Sociedade do Anel: Boromir",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.06-Boromir",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.06-Boromir.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.06-Boromir.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.07-Capa",
     "title": "- Capa - A trilogia dos filmes",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.07-Capa",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.07-Capa.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.07-Capa.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.08-Capa",
     "title": "- Capa - Batman",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.08-Capa",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.08-Capa.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.08-Capa.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.02-Bat",
     "title": "- Batman Begins",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.02-Bat",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.02-Bat.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.02-Bat.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.03-Bat",
     "title": "- Batman Begins",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.03-Bat",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.03-Bat.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.03-Bat.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.08-Bat",
     "title": "-Capa - Batman Begins",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.08-Bat",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.08-Bat.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.08-Bat.JPG",
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.09-Alien",
     "title": "- Capa - Alien x Predadpr",
     "serie": "Série Filmes",
     "ref": "108-TEL-FIL-AV.09-Alien",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/108-TEL-FIL-AV.09-Alien.jpg"
+    "image": "fotos/telefonica/108-TEL-FIL-AV.09-Alien.JPG",
+    "type": "Avulso"
   },
   {
     "id": "109-TEL-CUR-AV.02-Curios",
     "title": "- O maior artilheiro",
     "serie": "Série Curiosidades dos Mundiais",
     "ref": "109-TEL-CUR-AV.02-Curios",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/109-TEL-CUR-AV.02-Curios.jpg"
+    "image": "fotos/telefonica/109-TEL-CUR-AV.02-Curios.JPG",
+    "type": "Avulso"
   },
   {
     "id": "109-TEL-CUR-AV.03-Curios",
     "title": "- Numero de expulsoes",
     "serie": "Série Curiosidades dos Mundiais",
     "ref": "109-TEL-CUR-AV.03-Curios",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/109-TEL-CUR-AV.03-Curios.jpg"
+    "image": "fotos/telefonica/109-TEL-CUR-AV.03-Curios.JPG",
+    "type": "Avulso"
   },
   {
     "id": "109-TEL-CUR-AV.04-Curios",
     "title": "- Jogador mais jovem",
     "serie": "Série Curiosidades dos Mundiais",
     "ref": "109-TEL-CUR-AV.04-Curios",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/109-TEL-CUR-AV.04-Curios.jpg"
+    "image": "fotos/telefonica/109-TEL-CUR-AV.04-Curios.JPG",
+    "type": "Avulso"
   },
   {
     "id": "100-TEL-OLI-AV.04",
     "title": "- Maratona",
     "serie": "Série Historia dasOlimpiadas",
     "ref": "100-TEL-OLI-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/100-TEL-OLI-AV.04.jpg"
+    "image": "fotos/telefonica/100-TEL-OLI-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "111-TEL-FZE-AV.02",
     "title": "-  Fome zero - 40C",
     "serie": "Série Fome zero",
     "ref": "111-TEL-FZE-AV.02",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/111-TEL-FZE-AV.02.jpg"
+    "image": "fotos/telefonica/111-TEL-FZE-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "114-TEL-VES-AV.04",
     "title": "- Para ter sucesso",
     "serie": "Série Dia do Vestibulando",
     "ref": "114-TEL-VES-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/114-TEL-VES-AV.04.jpg"
+    "image": "fotos/telefonica/114-TEL-VES-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "115-TEL-POL-AV.01",
     "title": "- Leao marinho",
     "serie": "Série Animais Polares",
     "ref": "115-TEL-POL-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/115-TEL-POL-AV.01.jpg"
+    "image": "fotos/telefonica/115-TEL-POL-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "116-TEL-N2000-AV.03",
     "title": "- Prenuncio",
     "serie": "Série Natal 2000",
     "ref": "116-TEL-N2000-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/116-TEL-N2000-AV.03.jpg"
+    "image": "fotos/telefonica/116-TEL-N2000-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "117-TEL-SRA-AV.07",
     "title": "- Skate",
     "serie": "Série Solzinho Radical",
     "ref": "117-TEL-SRA-AV.07",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/117-TEL-SRA-AV.07.jpg"
+    "image": "fotos/telefonica/117-TEL-SRA-AV.07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "118-TEL-CIR-AV.04",
     "title": "Cartão Telefônico",
     "serie": "Série Dia Internacional do Circo",
     "ref": "118-TEL-CIR-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/118-TEL-CIR-AV.04.jpg"
+    "image": "fotos/telefonica/118-TEL-CIR-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "119-TEL-HAL-AV.04",
     "title": "- Dia das Bruxas",
     "serie": "Série Halloween",
     "ref": "119-TEL-HAL-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/119-TEL-HAL-AV.04.jpg"
+    "image": "fotos/telefonica/119-TEL-HAL-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "120-TEL-RAD-AV.08",
     "title": "- Praca da Se",
     "serie": "Série Radiografias de SP",
     "ref": "120-TEL-RAD-AV.08",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/120-TEL-RAD-AV.08.jpg"
+    "image": "fotos/telefonica/120-TEL-RAD-AV.08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "121-TEL-ESP-AV.01",
     "title": "Cartão Telefônico",
     "serie": "Série Crianca Esperanca",
     "ref": "121-TEL-ESP-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/121-TEL-ESP-AV.01.jpg"
+    "image": "fotos/telefonica/121-TEL-ESP-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "122-TEL-FUN-AV.01",
     "title": "- 10º ano do ECA",
     "serie": "Série Fundacao Telefonica",
     "ref": "122-TEL-FUN-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/122-TEL-FUN-AV.01.jpg"
+    "image": "fotos/telefonica/122-TEL-FUN-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "123-TEL-DET-C.02",
-    "title": "- Detecta - C.02",
+    "title": "- Detecta - C.02 - COMPLETA",
     "serie": "Série Detecta",
     "ref": "123-TEL-DET-C.02",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/123-TEL-DET-C.jpg"
+    "image": "fotos/telefonica/123-TEL-DET-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "123-TEL-DET-AV.01",
     "title": "- Detecta",
     "serie": "Série Detecta",
     "ref": "123-TEL-DET-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/123-TEL-DET-AV.01.jpg"
+    "image": "fotos/telefonica/123-TEL-DET-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "124-TEL-ENV-AV.01",
@@ -4280,187 +4845,210 @@ window.telefonicaData = [
     "serie": "Série Envelopes",
     "ref": "124-TEL-ENV-AV.01",
     "operator": "Telefonica",
-    "price": 1.5,
-    "image": "fotos/telefonica/124-TEL-ENV-C.jpg"
+    "price": 0.5,
+    "image": "fotos/telefonica/124-TEL-ENV-C.jpg",
+    "type": "Avulso",
+    "imageHasError": false
   },
   {
     "id": "125-TEL-PAI-AV.02",
     "title": "- Cartao verde",
     "serie": "Série Dia dos Pais",
     "ref": "125-TEL-PAI-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/125-TEL-PAI-AV.02.jpg"
+    "image": "fotos/telefonica/125-TEL-PAI-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "125-TEL-PAI-AV.04",
     "title": "- Cartao amarelo",
     "serie": "Série Dia dos Pais",
     "ref": "125-TEL-PAI-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/125-TEL-PAI-AV.04.jpg"
+    "image": "fotos/telefonica/125-TEL-PAI-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "125-TEL-PAI-AV.06",
     "title": "- Cartao rosa",
     "serie": "Série Dia dos Pais",
     "ref": "125-TEL-PAI-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/125-TEL-PAI-AV.06.jpg"
+    "image": "fotos/telefonica/125-TEL-PAI-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "126-TEL-ORE-AV.02",
     "title": "- Cadeirante",
     "serie": "Série Orelhao Amigo",
     "ref": "126-TEL-ORE-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/126-TEL-ORE-AV.02.jpg"
+    "image": "fotos/telefonica/126-TEL-ORE-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "126-TEL-ORE-AV.06",
     "title": "- Garotinha",
     "serie": "Série Orelhao Amigo",
     "ref": "126-TEL-ORE-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/126-TEL-ORE-AV.06.jpg"
+    "image": "fotos/telefonica/126-TEL-ORE-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "127-TEL-OPE-AV.01",
     "title": "- Jockey Club de SP",
     "serie": "Série Telefonica Open Air",
     "ref": "127-TEL-OPE-AV.01",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/127-TEL-OPE-AV.01.jpg"
+    "image": "fotos/telefonica/127-TEL-OPE-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "128-TEL-MID-AV.01",
     "title": "- Benefícios ao anunciar",
     "serie": "Série Midia em Cartao",
     "ref": "128-TEL-MID-AV.01",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/128-TEL-MID-AV.01.jpg"
+    "image": "fotos/telefonica/128-TEL-MID-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "129-TEL-LEF-AV.04",
     "title": "- L.E. Familia",
     "serie": "Série L.E. Familia",
     "ref": "129-TEL-LEF-AV.04",
-    "operator": "Telefonica",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/129-TEL-LEF-AV.04.jpg"
+    "image": "fotos/telefonica/129-TEL-LEF-AV.04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "130-TEL-T15-AV.05",
     "title": "- Salvador x Paris",
     "serie": "Série Telefonica 15 - DDD",
     "ref": "130-TEL-T15-AV.05",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/130-TEL-T15-AV.05.jpg"
+    "image": "fotos/telefonica/130-TEL-T15-AV.05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "130-TEL-T15-AV.06",
     "title": "- Brasilia x Londres",
     "serie": "Série Telefonica 15 - DDD",
     "ref": "130-TEL-T15-AV.06",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/130-TEL-T15-AV.06.jpg"
+    "image": "fotos/telefonica/130-TEL-T15-AV.06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "130A-TEL-T15-AV.02",
     "title": "- Sao Paulo x Londres",
     "serie": "Série Telefonica 15 - DDI",
     "ref": "130A-TEL-T15-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/130A-TEL-T15-AV.02.jpg"
+    "image": "fotos/telefonica/130A-TEL-T15-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "131-TEL-GUI-AV.02",
     "title": "- Telefone - Guia Mais",
     "serie": "Série Guia Mais",
     "ref": "131-TEL-GUI-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/131-TEL-GUI-AV.02.jpg"
+    "image": "fotos/telefonica/131-TEL-GUI-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "132-TEL-S15-AV.09",
     "title": "- Foz do Iguacu x Barcelona",
     "serie": "Série Super 15",
     "ref": "132-TEL-S15-AV.09",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/132-TEL-S15-AV.09.jpg"
+    "image": "fotos/telefonica/132-TEL-S15-AV.09.JPG",
+    "type": "Avulso"
   },
   {
     "id": "133-TEL-HOS-C.02",
-    "title": "- Dia do Hospital - C.02",
+    "title": "- Dia do Hospital - C.02 - COMPLETA",
     "serie": "Série Dia do Hospital",
     "ref": "133-TEL-HOS-C.02",
     "operator": "Telefonica",
     "price": 2,
-    "image": "fotos/telefonica/133-TEL-HOS-C.jpg"
+    "image": "fotos/telefonica/133-TEL-HOS-C.jpg",
+    "type": "Completa",
+    "imageHasError": false
   },
   {
     "id": "134-TEL-PLA-AV.01",
     "title": "- Cartao amarelo",
     "serie": "Série Playcenter",
     "ref": "134-TEL-PLA-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/134-TEL-PLA-AV.01.jpg"
+    "image": "fotos/telefonica/134-TEL-PLA-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "135-TEL-HOR-AV.01",
     "title": "- Aries 1",
     "serie": "Série Hooscopo - Aries",
     "ref": "135-TEL-HOR-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/135-TEL-HOR-AV.01.jpg"
+    "image": "fotos/telefonica/135-TEL-HOR-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "136-TEL-COP-AV.01",
     "title": "- Caixa de baralhos - cartao branco",
     "serie": "Série Copag",
     "ref": "136-TEL-COP-AV.01",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/136-TEL-COP-AV.01.jpg"
+    "image": "fotos/telefonica/136-TEL-COP-AV.01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "136-TEL-COP-AV.02",
     "title": "- Quadra de ases - cartao verde claro",
     "serie": "Série Copag",
     "ref": "136-TEL-COP-AV.02",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/136-TEL-COP-AV.02.jpg"
+    "image": "fotos/telefonica/136-TEL-COP-AV.02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "136-TEL-COP-AV.03",
     "title": "- 2 caixas de baralho - cartao verde escuro",
     "serie": "Série Copag",
     "ref": "136-TEL-COP-AV.03",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/136-TEL-COP-AV.03.jpg"
+    "image": "fotos/telefonica/136-TEL-COP-AV.03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "136-TEL-COP-AV.04",
     "title": "- Quadra de ases - 2 caixas de baralho - cartao verde escuro",
     "serie": "Série Copag",
     "ref": "136-TEL-COP-AV.04",
-    "operator": "TELEFONICA",
+    "operator": "TELEFÓNICA",
     "price": 0.5,
-    "image": "fotos/telefonica/136-TEL-COP-AV.04.jpg"
+    "image": "fotos/telefonica/136-TEL-COP-AV.04.JPG",
+    "type": "Avulso"
   }
 ];

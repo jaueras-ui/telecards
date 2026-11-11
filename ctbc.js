@@ -6,7 +6,8 @@ window.ctbcData = [
     "ref": "001-CT-CTBC-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/001-CT-CTBC-AV.01.jpg"
+    "image": "fotos/ctbc/001-CT-CTBC-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-CT-PROP-AV.0101",
@@ -15,7 +16,8 @@ window.ctbcData = [
     "ref": "002-CT-PROP-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/002-CT-PROP-AV.01.jpg"
+    "image": "fotos/ctbc/002-CT-PROP-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-CT-CRI-AV.0303",
@@ -24,7 +26,8 @@ window.ctbcData = [
     "ref": "003-CT-CRI-AV.03",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/003-CT-CRI-AV.03.jpg"
+    "image": "fotos/ctbc/003-CT-CRI-AV.03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "004-CT-MUL-AV.0101",
@@ -33,7 +36,8 @@ window.ctbcData = [
     "ref": "004-CT-MUL-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/004-CT-MUL-AV.01.jpg"
+    "image": "fotos/ctbc/004-CT-MUL-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "005-CT-SER-AV.0101",
@@ -42,7 +46,8 @@ window.ctbcData = [
     "ref": "005-CT-SER-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/005-CT-SER-AV.01.jpg"
+    "image": "fotos/ctbc/005-CT-SER-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "006-CT-RES-AV.2727",
@@ -51,7 +56,8 @@ window.ctbcData = [
     "ref": "006-CT-RES-AV.27",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/006-CT-RES-AV.27.jpg"
+    "image": "fotos/ctbc/006-CT-RES-AV.27.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-CT-MAL-AV.0101",
@@ -60,7 +66,8 @@ window.ctbcData = [
     "ref": "007-CT-MAL-AV.01",
     "operator": "CTBC",
     "price": 46.143,
-    "image": "fotos/ctbc/007-CT-MAL-AV.01.jpg"
+    "image": "fotos/ctbc/007-CT-MAL-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-CT-CAL-AV.0101",
@@ -69,7 +76,8 @@ window.ctbcData = [
     "ref": "008-CT-CAL-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/008-CT-CAL-AV.01.jpg"
+    "image": "fotos/ctbc/008-CT-CAL-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-CT-CAL-AV.0303",
@@ -78,7 +86,8 @@ window.ctbcData = [
     "ref": "008-CT-CAL-AV.03",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/008-CT-CAL-AV.03.jpg"
+    "image": "fotos/ctbc/008-CT-CAL-AV.03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-CT-CAL-AV.0707",
@@ -87,7 +96,8 @@ window.ctbcData = [
     "ref": "008-CT-CAL-AV.07",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/008-CT-CAL-AV.07.jpg"
+    "image": "fotos/ctbc/008-CT-CAL-AV.07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-CT-ARQ-AV.0101",
@@ -96,7 +106,8 @@ window.ctbcData = [
     "ref": "009-CT-ARQ-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/009-CT-ARQ-AV.01.jpg"
+    "image": "fotos/ctbc/009-CT-ARQ-AV.01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-CT-ARQ-AV.0202",
@@ -105,7 +116,8 @@ window.ctbcData = [
     "ref": "009-CT-ARQ-AV.02",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/009-CTBC-ARQ-AV02.jpg"
+    "image": "fotos/ctbc/009-CTBC-ARQ-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-CT-ARQ-AV.0606",
@@ -114,7 +126,8 @@ window.ctbcData = [
     "ref": "009-CT-ARQ-AV.06",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/009-CTBC-ARQ-AV06.jpg"
+    "image": "fotos/ctbc/009-CTBC-ARQ-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-CT-ARQ-AV.0707",
@@ -123,7 +136,8 @@ window.ctbcData = [
     "ref": "009-CT-ARQ-AV.07",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/009-CTBC-ARQ-AV07.jpg"
+    "image": "fotos/ctbc/009-CTBC-ARQ-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-CT-ARQ-AV.0909",
@@ -132,7 +146,8 @@ window.ctbcData = [
     "ref": "009-CT-ARQ-AV.09",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/009-CTBC-ARQ-AV09.jpg"
+    "image": "fotos/ctbc/009-CTBC-ARQ-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-CT-ARQ-AV.1010",
@@ -141,7 +156,8 @@ window.ctbcData = [
     "ref": "009-CT-ARQ-AV.10",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/009-CTBC-ARQ-AV10.jpg"
+    "image": "fotos/ctbc/009-CTBC-ARQ-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "010-CT-PAS-AV.0202",
@@ -150,7 +166,8 @@ window.ctbcData = [
     "ref": "010-CT-PAS-AV.02",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/010-CTBC-PAS-AV02.jpg"
+    "image": "fotos/ctbc/010-CTBC-PAS-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "011-CT-TPU-AV.0101",
@@ -159,7 +176,8 @@ window.ctbcData = [
     "ref": "011-CT-TPU-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/011-CTBC-TPU-AV01.jpg"
+    "image": "fotos/ctbc/011-CTBC-TPU-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "012-CT-CAM-AV.1616",
@@ -168,7 +186,8 @@ window.ctbcData = [
     "ref": "012-CT-CAM-AV.16",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/012-CTBC-CAM-AV16.jpg"
+    "image": "fotos/ctbc/012-CTBC-CAM-AV16.jpg",
+    "type": "Avulso"
   },
   {
     "id": "013-CT-A2004-AV.0202",
@@ -177,7 +196,8 @@ window.ctbcData = [
     "ref": "013-CT-A2004-AV.02",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/013-CTBC-A2004-AV02.jpg"
+    "image": "fotos/ctbc/013-CTBC-A2004-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-CT-A2003-AV.0101",
@@ -186,7 +206,8 @@ window.ctbcData = [
     "ref": "014-CT-A2003-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/014-CTBC-A2003-AV01.jpg"
+    "image": "fotos/ctbc/014-CTBC-A2003-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-CT-LTE-AV.0101",
@@ -195,7 +216,8 @@ window.ctbcData = [
     "ref": "015-CT-LTE-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/015-CTBC-LTE-AV01.jpg"
+    "image": "fotos/ctbc/015-CTBC-LTE-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "016-CT-12L-AV.0202",
@@ -204,7 +226,8 @@ window.ctbcData = [
     "ref": "016-CT-12L-AV.02",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/016-CTBC-12L-AV02.jpg"
+    "image": "fotos/ctbc/016-CTBC-12L-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-CT-IND-AV.0101",
@@ -213,7 +236,8 @@ window.ctbcData = [
     "ref": "017-CT-IND-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/017-CTBC-IND-C.jpg"
+    "image": "fotos/ctbc/017-CTBC-IND-C.jpg",
+    "type": "Avulso"
   },
   {
     "id": "018-CT-PAI-AV.0101",
@@ -222,7 +246,8 @@ window.ctbcData = [
     "ref": "018-CT-PAI-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/018-CTBC-PAI-AV01.jpg"
+    "image": "fotos/ctbc/018-CTBC-PAI-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "019-CT-N2004-AV.0101",
@@ -231,7 +256,8 @@ window.ctbcData = [
     "ref": "019-CT-N2004-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/019-CTBC-N2004-AV01.jpg"
+    "image": "fotos/ctbc/019-CTBC-N2004-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-CT-N1997-AV.0101",
@@ -240,7 +266,8 @@ window.ctbcData = [
     "ref": "020-CT-N1997-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/020-CTBC-N1997-AV01.jpg"
+    "image": "fotos/ctbc/020-CTBC-N1997-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-CT-HIS-AV.0707",
@@ -249,7 +276,8 @@ window.ctbcData = [
     "ref": "022-CT-HIS-AV.07",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/022-CTBC-HIS-AV07.jpg"
+    "image": "fotos/ctbc/022-CTBC-HIS-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-CT-HIS-AV.3131",
@@ -258,7 +286,8 @@ window.ctbcData = [
     "ref": "022-CT-HIS-AV.31",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/022-CTBC-HIS-AV31.jpg"
+    "image": "fotos/ctbc/022-CTBC-HIS-AV31.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-CT-HIS-AV.4141",
@@ -267,7 +296,8 @@ window.ctbcData = [
     "ref": "022-CT-HIS-AV.41",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/022-CTBC-HIS-AV41.jpg"
+    "image": "fotos/ctbc/022-CTBC-HIS-AV41.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.0101",
@@ -276,7 +306,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.01",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV01.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.1010",
@@ -285,7 +316,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.10",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV10.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.1111",
@@ -294,7 +326,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.11",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV11.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.2020",
@@ -303,7 +336,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.20",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV20.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV20.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.2121",
@@ -312,7 +346,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.21",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV21.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV21.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.2222",
@@ -321,7 +356,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.22",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV22.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV22.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.3030",
@@ -330,7 +366,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.30",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV30.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV30.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.4040",
@@ -339,7 +376,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.40",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV40.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV40.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.4141",
@@ -348,7 +386,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.41",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV41.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV41.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.4242",
@@ -357,7 +396,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.42",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV42.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV42.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.4343",
@@ -366,7 +406,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.43",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV43.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV43.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.4444",
@@ -375,7 +416,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.44",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV44.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV44.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-CT-CER-AV.4545",
@@ -384,7 +426,8 @@ window.ctbcData = [
     "ref": "023-CT-CER-AV.45",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/023-CTBC-CER-AV45.jpg"
+    "image": "fotos/ctbc/023-CTBC-CER-AV45.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-CT-AMI-AV.0202",
@@ -393,7 +436,8 @@ window.ctbcData = [
     "ref": "028-CT-AMI-AV.02",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/028-CTBC-AMI-AV02.jpg"
+    "image": "fotos/ctbc/028-CTBC-AMI-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-CT-AMI-AV.0404",
@@ -402,7 +446,8 @@ window.ctbcData = [
     "ref": "028-CT-AMI-AV.04",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/028-CTBC-AMI-AV04.jpg"
+    "image": "fotos/ctbc/028-CTBC-AMI-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-CT-AMI-AV.0505",
@@ -411,7 +456,8 @@ window.ctbcData = [
     "ref": "028-CT-AMI-AV.05",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/028-CTBC-AMI-AV05.jpg"
+    "image": "fotos/ctbc/028-CTBC-AMI-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-CT-AMI-AV.0606",
@@ -420,7 +466,8 @@ window.ctbcData = [
     "ref": "028-CT-AMI-AV.06",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/028-CTBC-AMI-AV06.jpg"
+    "image": "fotos/ctbc/028-CTBC-AMI-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-CT-AMI-AV.0909",
@@ -429,7 +476,8 @@ window.ctbcData = [
     "ref": "028-CT-AMI-AV.09",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/028-CTBC-AMI-AV09.jpg"
+    "image": "fotos/ctbc/028-CTBC-AMI-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-CT-AMI-AV.1010",
@@ -438,7 +486,8 @@ window.ctbcData = [
     "ref": "028-CT-AMI-AV.10",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/028-CTBC-AMI-AV10.jpg"
+    "image": "fotos/ctbc/028-CTBC-AMI-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-CT-AMI-AV.1111",
@@ -447,7 +496,8 @@ window.ctbcData = [
     "ref": "028-CT-AMI-AV.11",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/028-CTBC-AMI-AV11.jpg"
+    "image": "fotos/ctbc/028-CTBC-AMI-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-CT-AMI-AV.1212",
@@ -456,6 +506,7 @@ window.ctbcData = [
     "ref": "028-CT-AMI-AV.12",
     "operator": "CTBC",
     "price": 0.5,
-    "image": "fotos/ctbc/028-CTBC-AMI-AV12.jpg"
+    "image": "fotos/ctbc/028-CTBC-AMI-AV12.jpg",
+    "type": "Avulso"
   }
 ];

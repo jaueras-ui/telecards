@@ -6,6 +6,7 @@ window.sercomtelData = [
     "ref": "001-SERC-PRO-AV.01",
     "operator": "SERCOMTEL",
     "price": 0.5,
-    "image": "fotos/sercomtel/001-SERC-PRO-AV.01.jpg"
+    "image": "fotos/sercomtel/001-SERC-PRO-AV.01.jpg",
+    "type": "Avulso"
   }
 ];

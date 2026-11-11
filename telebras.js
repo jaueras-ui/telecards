@@ -1,12 +1,23 @@
 window.telebrasData = [
   {
+    "id": "custom-1793411459824",
+    "title": "010 - Cartões-Telebrás - Parques Nacionais - card nº 6 - Parque Nacional das Sete Cidades - PI",
+    "ref": "010-TB-PAR-AV06",
+    "operator": "Telebrás",
+    "price": 1,
+    "image": "fotos/telebras/010-TB-PAR-AV06.jpg",
+    "imageHasError": false,
+    "type": "Avulso"
+  },
+  {
     "id": "custom-1794148275922",
     "title": "- Namoradeira ",
     "serie": "Série Dia dos Namorados",
     "ref": "005-TB-DNA-AV03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/005-TB-DNA-AV03.jpg"
+    "image": "fotos/telebras/005-TB-DNA-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "custom-1794260106994",
@@ -15,7 +26,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV.03.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV.03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-TB-MON-C.02-02",
@@ -24,7 +36,8 @@ window.telebrasData = [
     "ref": "001-TB-MON-C.02",
     "operator": "Telebrás",
     "price": 2,
-    "image": "fotos/telebras/001-TB-MON-C.02.jpg"
+    "image": "fotos/telebras/001-TB-MON-C.02.jpg",
+    "type": "Completa"
   },
   {
     "id": "001-TB-MON-AV.01-01",
@@ -33,7 +46,8 @@ window.telebrasData = [
     "ref": "001-TB-MON-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/001-TB-MON-AV01.jpg"
+    "image": "fotos/telebras/001-TB-MON-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-TB-COL-C.03-03",
@@ -42,7 +56,8 @@ window.telebrasData = [
     "ref": "002-TB-COL-C.03",
     "operator": "Telebrás",
     "price": 3,
-    "image": "fotos/telebras/002-TB-COL-C.jpg"
+    "image": "fotos/telebras/002-TB-COL-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "002-TB-COL-AV.01-01",
@@ -51,7 +66,8 @@ window.telebrasData = [
     "ref": "002-TB-COL-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/002-TB-COL-AV03.jpg"
+    "image": "fotos/telebras/002-TB-COL-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-TB-COL-AV.02-02",
@@ -60,7 +76,8 @@ window.telebrasData = [
     "ref": "002-TB-COL-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/002-TB-COL-AV02.jpg"
+    "image": "fotos/telebras/002-TB-COL-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-TB-COL-AV.03-03",
@@ -69,7 +86,8 @@ window.telebrasData = [
     "ref": "002-TB-COL-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/002-TB-COL-AV01.jpg"
+    "image": "fotos/telebras/002-TB-COL-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-TB-CTI-AV.01-01",
@@ -78,7 +96,8 @@ window.telebrasData = [
     "ref": "003-TB-CTI-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/003-TB-CTI-AV01.jpg"
+    "image": "fotos/telebras/003-TB-CTI-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-TB-CTI-AV.02-02",
@@ -87,7 +106,8 @@ window.telebrasData = [
     "ref": "003-TB-CTI-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/003-TB-CTI-AV02.jpg"
+    "image": "fotos/telebras/003-TB-CTI-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-TB-CTI-AV.03-03",
@@ -96,7 +116,8 @@ window.telebrasData = [
     "ref": "003-TB-CTI-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/003-TB-CTI-AV03.jpg"
+    "image": "fotos/telebras/003-TB-CTI-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "004-TB-MTE-AV.02-02",
@@ -105,7 +126,8 @@ window.telebrasData = [
     "ref": "004-TB-MTE-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/004-TB-MTE-AV02.jpg"
+    "image": "fotos/telebras/004-TB-MTE-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "004-TB-MTE-AV.04-04",
@@ -114,7 +136,8 @@ window.telebrasData = [
     "ref": "004-TB-MTE-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/004-TB-MTE-AV04.jpg"
+    "image": "fotos/telebras/004-TB-MTE-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "005-TB-DNA-C.03-03",
@@ -123,7 +146,8 @@ window.telebrasData = [
     "ref": "005-TB-DNA-C.03",
     "operator": "Telebrás",
     "price": 3,
-    "image": "fotos/telebras/005-TB-DNA-C.jpg"
+    "image": "fotos/telebras/005-TB-DNA-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "005-TB-DNA-AV.01-01",
@@ -132,7 +156,8 @@ window.telebrasData = [
     "ref": "005-TB-DNA-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/005-TB-DNA-AV01.jpg"
+    "image": "fotos/telebras/005-TB-DNA-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "005-TB-DNA-AV.03-03",
@@ -141,7 +166,8 @@ window.telebrasData = [
     "ref": "005-TB-DNA-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/005-TB-DNA-AV03.jpg"
+    "image": "fotos/telebras/005-TB-DNA-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "006-TB-REL-INC.05-05",
@@ -150,7 +176,8 @@ window.telebrasData = [
     "ref": "006-TB-REL-INC.05",
     "operator": "Telebrás",
     "price": 3,
-    "image": "fotos/telebras/006-TB-REL-INC.jpg"
+    "image": "fotos/telebras/006-TB-REL-INC.jpg",
+    "type": "Completa"
   },
   {
     "id": "006-TB-REL-AV.01-01",
@@ -159,7 +186,8 @@ window.telebrasData = [
     "ref": "006-TB-REL-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/006-TB-REL-AV01.jpg"
+    "image": "fotos/telebras/006-TB-REL-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "006-TB-REL-AV.02-02",
@@ -168,7 +196,8 @@ window.telebrasData = [
     "ref": "006-TB-REL-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/006-TB-REL-AV02.jpg"
+    "image": "fotos/telebras/006-TB-REL-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "006-TB-REL-AV.03-03",
@@ -177,7 +206,8 @@ window.telebrasData = [
     "ref": "006-TB-REL-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/006-TB-REL-AV03.jpg"
+    "image": "fotos/telebras/006-TB-REL-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "006-TB-REL-AV.04-04",
@@ -186,7 +216,8 @@ window.telebrasData = [
     "ref": "006-TB-REL-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/006-TB-REL-AV04.jpg"
+    "image": "fotos/telebras/006-TB-REL-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.01-01",
@@ -195,7 +226,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV01.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.02-02",
@@ -204,7 +236,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV02.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.03-03",
@@ -213,7 +246,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV03.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.04-04",
@@ -222,7 +256,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV04.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.05-05",
@@ -231,7 +266,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV05.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.06-06",
@@ -240,7 +276,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV06.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.07-07",
@@ -249,7 +286,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV07.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.08-08",
@@ -258,7 +296,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV08.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-TB-FOT-AV.09-09",
@@ -267,7 +306,8 @@ window.telebrasData = [
     "ref": "007-TB-FOT-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/007-TB-FOT-AV09.jpg"
+    "image": "fotos/telebras/007-TB-FOT-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-C.09-00",
@@ -276,7 +316,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-C.09",
     "operator": "Telebrás",
     "price": 6,
-    "image": "fotos/telebras/008-TB-MCM-C.jpg"
+    "image": "fotos/telebras/008-TB-MCM-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "008-TB-MCM-AV.04-04",
@@ -285,7 +326,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV04.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.01-01",
@@ -294,7 +336,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV01.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.02-02",
@@ -303,7 +346,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV02.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.03-03",
@@ -312,7 +356,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.03",
     "operator": "Telebras",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV.03.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV.03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.05-05",
@@ -321,7 +366,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV05.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.06-06",
@@ -330,7 +376,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV06.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.07-07",
@@ -339,7 +386,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV07.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.08-08",
@@ -348,7 +396,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV08.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.09-09",
@@ -357,7 +406,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV09.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.10-10",
@@ -366,7 +416,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV10.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MCM-AV.11-11",
@@ -375,7 +426,8 @@ window.telebrasData = [
     "ref": "008-TB-MCM-AV.11",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MCM-AV11.jpg"
+    "image": "fotos/telebras/008-TB-MCM-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MASP-C.03-00",
@@ -384,7 +436,8 @@ window.telebrasData = [
     "ref": "008-TB-MASP-C.03",
     "operator": "Telebrás",
     "price": 3,
-    "image": "fotos/telebras/008-TB-MASP-C.jpg"
+    "image": "fotos/telebras/008-TB-MASP-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "008-TB-MASP-AV.01-01",
@@ -393,7 +446,8 @@ window.telebrasData = [
     "ref": "008-TB-MASP-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MASP-AV01.jpg"
+    "image": "fotos/telebras/008-TB-MASP-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MASP-AV.02-02",
@@ -402,7 +456,8 @@ window.telebrasData = [
     "ref": "008-TB-MASP-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MASP-AV02.jpg"
+    "image": "fotos/telebras/008-TB-MASP-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MASP-AV.03-03",
@@ -411,7 +466,8 @@ window.telebrasData = [
     "ref": "008-TB-MASP-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MASP-AV03.jpg"
+    "image": "fotos/telebras/008-TB-MASP-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MASP-AV.04-04",
@@ -420,7 +476,8 @@ window.telebrasData = [
     "ref": "008-TB-MASP-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MASP-AV04.jpg"
+    "image": "fotos/telebras/008-TB-MASP-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MIMP-C.07-00",
@@ -429,7 +486,8 @@ window.telebrasData = [
     "ref": "008-TB-MIMP-C.07",
     "operator": "Telebrás",
     "price": 5,
-    "image": "fotos/telebras/008-TB-MIMP-C.jpg"
+    "image": "fotos/telebras/008-TB-MIMP-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "008-TB-MIMP-AV.01-01",
@@ -438,7 +496,8 @@ window.telebrasData = [
     "ref": "008-TB-MIMP-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MIMP-AV01.jpg"
+    "image": "fotos/telebras/008-TB-MIMP-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MIMP-AV.02-02",
@@ -447,7 +506,8 @@ window.telebrasData = [
     "ref": "008-TB-MIMP-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MIMP-AV02.jpg"
+    "image": "fotos/telebras/008-TB-MIMP-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MIMP-AV.03-03",
@@ -456,7 +516,8 @@ window.telebrasData = [
     "ref": "008-TB-MIMP-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MIMP-AV03.jpg"
+    "image": "fotos/telebras/008-TB-MIMP-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MIMP-AV.04-04",
@@ -465,7 +526,8 @@ window.telebrasData = [
     "ref": "008-TB-MIMP-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MIMP-AV04.jpg"
+    "image": "fotos/telebras/008-TB-MIMP-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MIMP-AV.05-05",
@@ -474,7 +536,8 @@ window.telebrasData = [
     "ref": "008-TB-MIMP-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MIMP-AV05.jpg"
+    "image": "fotos/telebras/008-TB-MIMP-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MIMP-AV.06-06",
@@ -483,7 +546,8 @@ window.telebrasData = [
     "ref": "008-TB-MIMP-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MIMP-AV06.jpg"
+    "image": "fotos/telebras/008-TB-MIMP-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-MIMP-AV.07-07",
@@ -492,7 +556,8 @@ window.telebrasData = [
     "ref": "008-TB-MIMP-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-MIMP-AV07.jpg"
+    "image": "fotos/telebras/008-TB-MIMP-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-C.05-00",
@@ -501,7 +566,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-C.05",
     "operator": "Telebrás",
     "price": 4,
-    "image": "fotos/telebras/008-TB-IPI-C.jpg"
+    "image": "fotos/telebras/008-TB-IPI-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "008-TB-IPI-AV.01-01",
@@ -510,7 +576,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV01.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.02-02",
@@ -519,7 +586,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV02.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.03-03",
@@ -528,7 +596,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV03.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.04-04",
@@ -537,7 +606,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV04.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.05-05",
@@ -546,7 +616,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV05.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.06-06",
@@ -555,7 +626,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV06.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.07-07",
@@ -564,7 +636,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV07.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.08-08",
@@ -573,7 +646,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV08.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.09-09",
@@ -582,7 +656,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV09.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-IPI-AV.10-10",
@@ -591,7 +666,8 @@ window.telebrasData = [
     "ref": "008-TB-IPI-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-IPI-AV10.jpg"
+    "image": "fotos/telebras/008-TB-IPI-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-C.07-00",
@@ -600,7 +676,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-C.07",
     "operator": "Telebrás",
     "price": 5,
-    "image": "fotos/telebras/008-TB-NAC-C.jpg"
+    "image": "fotos/telebras/008-TB-NAC-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "008-TB-NAC-AV.01-01",
@@ -609,7 +686,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV01.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.02-02",
@@ -618,7 +696,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV02.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.03-03",
@@ -627,7 +706,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV03.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.04-04",
@@ -636,7 +716,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV04.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.05-05",
@@ -645,7 +726,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV05.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.06-06",
@@ -654,7 +736,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV06.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.07-07",
@@ -663,7 +746,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV07.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.08-08",
@@ -672,7 +756,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV08.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.09-09",
@@ -681,7 +766,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV09.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-NAC-AV.10-10",
@@ -690,7 +776,8 @@ window.telebrasData = [
     "ref": "008-TB-NAC-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-NAC-AV10.jpg"
+    "image": "fotos/telebras/008-TB-NAC-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-C.05-00",
@@ -699,7 +786,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-C.05",
     "operator": "Telebrás",
     "price": 4,
-    "image": "fotos/telebras/008-TB-REP-C.jpg"
+    "image": "fotos/telebras/008-TB-REP-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "008-TB-REP-AV.01-01",
@@ -708,7 +796,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV01.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.02-02",
@@ -717,7 +806,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV02.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.03-03",
@@ -726,7 +816,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV03.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.04-04",
@@ -735,7 +826,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV04.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.05-05",
@@ -744,7 +836,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV05.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.06-06",
@@ -753,7 +846,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV06.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.07-07",
@@ -762,7 +856,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV07.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.08-08",
@@ -771,7 +866,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV08.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.09-09",
@@ -780,7 +876,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV09.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-TB-REP-AV.10-10",
@@ -789,7 +886,8 @@ window.telebrasData = [
     "ref": "008-TB-REP-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/008-TB-REP-AV10.jpg"
+    "image": "fotos/telebras/008-TB-REP-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-TB-BON-C.14-00",
@@ -798,7 +896,8 @@ window.telebrasData = [
     "ref": "009-TB-BON-C.14",
     "operator": "Telebrás",
     "price": 8,
-    "image": "fotos/telebras/009-TB-BON-C.jpg"
+    "image": "fotos/telebras/009-TB-BON-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "009-TB-BON-AV.01-01",
@@ -807,7 +906,8 @@ window.telebrasData = [
     "ref": "009-TB-BON-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/009-TB-BON-AV01.jpg"
+    "image": "fotos/telebras/009-TB-BON-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-TB-BON-AV.02-02",
@@ -816,7 +916,8 @@ window.telebrasData = [
     "ref": "009-TB-BON-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/009-TB-BON-AV02.jpg"
+    "image": "fotos/telebras/009-TB-BON-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-TB-BON-AV.03-03",
@@ -825,7 +926,8 @@ window.telebrasData = [
     "ref": "009-TB-BON-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/009-TB-BON-AV03.jpg"
+    "image": "fotos/telebras/009-TB-BON-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-TB-BON-AV.04-04",
@@ -834,7 +936,8 @@ window.telebrasData = [
     "ref": "009-TB-BON-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/009-TB-BON-AV04.jpg"
+    "image": "fotos/telebras/009-TB-BON-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-TB-BON-AV.05-05",
@@ -843,7 +946,8 @@ window.telebrasData = [
     "ref": "009-TB-BON-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/009-TB-BON-AV05.jpg"
+    "image": "fotos/telebras/009-TB-BON-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-TB-BON-AV.06-06",
@@ -852,7 +956,8 @@ window.telebrasData = [
     "ref": "009-TB-BON-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/009-TB-BON-AV06.jpg"
+    "image": "fotos/telebras/009-TB-BON-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "010-TB-PAR-INC.10-00",
@@ -861,7 +966,8 @@ window.telebrasData = [
     "ref": "010-TB-PAR-INC.10",
     "operator": "Telebrás",
     "price": 5,
-    "image": "fotos/telebras/010-TB-PAR-INC.jpg"
+    "image": "fotos/telebras/010-TB-PAR-INC.jpg",
+    "type": "Lote"
   },
   {
     "id": "010-TB-PAR-AV.01-01",
@@ -870,7 +976,8 @@ window.telebrasData = [
     "ref": "010-TB-PAR-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/010-TB-PAR-AV01.jpg"
+    "image": "fotos/telebras/010-TB-PAR-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "010-TB-PAR-AV.06-06",
@@ -879,7 +986,8 @@ window.telebrasData = [
     "ref": "010-TB-PAR-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/010-TB-PAR-AV06.jpg"
+    "image": "fotos/telebras/010-TB-PAR-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "010-TB-PAR-AV.08-08",
@@ -888,7 +996,8 @@ window.telebrasData = [
     "ref": "010-TB-PAR-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/010-TB-PAR-AV08.jpg"
+    "image": "fotos/telebras/010-TB-PAR-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "010-TB-PAR-AV.10-10",
@@ -897,7 +1006,8 @@ window.telebrasData = [
     "ref": "010-TB-PAR-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/010-TB-PAR-AV10.jpg"
+    "image": "fotos/telebras/010-TB-PAR-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "010-TB-PAR-AV.11-11",
@@ -906,7 +1016,8 @@ window.telebrasData = [
     "ref": "010-TB-PAR-AV.11",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/010-TB-PAR-AV11.jpg"
+    "image": "fotos/telebras/010-TB-PAR-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "010-TB-PAR-AV.12-12",
@@ -915,7 +1026,8 @@ window.telebrasData = [
     "ref": "010-TB-PAR-AV.12",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/010-TB-PAR-AV12.jpg"
+    "image": "fotos/telebras/010-TB-PAR-AV12.jpg",
+    "type": "Avulso"
   },
   {
     "id": "011-TB-RES-AV.01-01",
@@ -924,7 +1036,8 @@ window.telebrasData = [
     "ref": "011-TB-RES-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/011-TB-RES-AV01.jpg"
+    "image": "fotos/telebras/011-TB-RES-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "011-TB-RES-AV.02-02",
@@ -933,7 +1046,8 @@ window.telebrasData = [
     "ref": "011-TB-RES-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/012-TB-RES-AV02.jpg"
+    "image": "fotos/telebras/012-TB-RES-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "011-TB-RES-AV.03-03",
@@ -942,7 +1056,8 @@ window.telebrasData = [
     "ref": "011-TB-RES-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/011-TB-RES-AV03.jpg"
+    "image": "fotos/telebras/011-TB-RES-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "011-TB-RES-AV.04-04",
@@ -951,7 +1066,8 @@ window.telebrasData = [
     "ref": "011-TB-RES-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/012-TB-RES-AV04.jpg"
+    "image": "fotos/telebras/012-TB-RES-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "013-TB-CEN-AV.01-01",
@@ -960,7 +1076,8 @@ window.telebrasData = [
     "ref": "013-TB-CEN-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/013-TB-CEN-AV01.jpg"
+    "image": "fotos/telebras/013-TB-CEN-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "013-TB-CEN-AV.02-02",
@@ -969,7 +1086,8 @@ window.telebrasData = [
     "ref": "013-TB-CEN-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/013-TB-CEN-AV02.jpg"
+    "image": "fotos/telebras/013-TB-CEN-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "013-TB-CEN-AV.03-03",
@@ -978,7 +1096,8 @@ window.telebrasData = [
     "ref": "013-TB-CEN-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/013-TB-CEN-AV03.jpg"
+    "image": "fotos/telebras/013-TB-CEN-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "013-TB-CEN-AV.04-04",
@@ -987,7 +1106,8 @@ window.telebrasData = [
     "ref": "013-TB-CEN-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/013-TB-CEN-AV04.jpg"
+    "image": "fotos/telebras/013-TB-CEN-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-TB-PICOS-AV.01-01",
@@ -996,7 +1116,8 @@ window.telebrasData = [
     "ref": "014-TB-PICOS-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/014-TB-PICOS-AV01.jpg"
+    "image": "fotos/telebras/014-TB-PICOS-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-TB-PICOS-AV.02-02",
@@ -1005,7 +1126,8 @@ window.telebrasData = [
     "ref": "014-TB-PICOS-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/014-TB-PICOS-AV02.jpg"
+    "image": "fotos/telebras/014-TB-PICOS-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-TB-PICOS-AV.03-03",
@@ -1014,7 +1136,8 @@ window.telebrasData = [
     "ref": "014-TB-PICOS-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/014-TB-PICOS-AV03.jpg"
+    "image": "fotos/telebras/014-TB-PICOS-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-TB-PICOS-AV.04-04",
@@ -1023,7 +1146,8 @@ window.telebrasData = [
     "ref": "014-TB-PICOS-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/014-TB-PICOS-AV04.jpg"
+    "image": "fotos/telebras/014-TB-PICOS-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-TB-PICOS-AV.05-05",
@@ -1032,7 +1156,8 @@ window.telebrasData = [
     "ref": "014-TB-PICOS-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/014-TB-PICOS-AV05.jpg"
+    "image": "fotos/telebras/014-TB-PICOS-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-TB-PICOS-AV.06-06",
@@ -1041,7 +1166,8 @@ window.telebrasData = [
     "ref": "014-TB-PICOS-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/014-TB-PICOS-AV06.jpg"
+    "image": "fotos/telebras/014-TB-PICOS-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-TB-PICOS-AV.07-07",
@@ -1050,7 +1176,8 @@ window.telebrasData = [
     "ref": "014-TB-PICOS-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/014-TB-PICOS-AV07.jpg"
+    "image": "fotos/telebras/014-TB-PICOS-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-TB-ESP-AV.01-01",
@@ -1059,7 +1186,8 @@ window.telebrasData = [
     "ref": "015-TB-ESP-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/015-TB-ESP-AV01.jpg"
+    "image": "fotos/telebras/015-TB-ESP-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-TB-ESP-AV.02-02",
@@ -1068,7 +1196,8 @@ window.telebrasData = [
     "ref": "015-TB-ESP-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/015-TB-ESP-AV02.jpg"
+    "image": "fotos/telebras/015-TB-ESP-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-TB-ESP-AV.03-03",
@@ -1077,7 +1206,8 @@ window.telebrasData = [
     "ref": "015-TB-ESP-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/015-TB-ESP-AV03.jpg"
+    "image": "fotos/telebras/015-TB-ESP-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-TB-ESP-AV.04-04",
@@ -1086,7 +1216,8 @@ window.telebrasData = [
     "ref": "015-TB-ESP-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/015-TB-ESP-AV04.jpg"
+    "image": "fotos/telebras/015-TB-ESP-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-TB-ESP-AV.05-05",
@@ -1095,7 +1226,8 @@ window.telebrasData = [
     "ref": "015-TB-ESP-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/015-TB-ESP-AV05.jpg"
+    "image": "fotos/telebras/015-TB-ESP-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-TB-ESP-AV.06-06",
@@ -1104,7 +1236,8 @@ window.telebrasData = [
     "ref": "015-TB-ESP-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/015-TB-ESP-AV06.jpg"
+    "image": "fotos/telebras/015-TB-ESP-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-TB-ESP-AV.07-07",
@@ -1113,7 +1246,8 @@ window.telebrasData = [
     "ref": "015-TB-ESP-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/015-TB-ESP-AV07.jpg"
+    "image": "fotos/telebras/015-TB-ESP-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "016-TB-BH-AV.00-00",
@@ -1122,7 +1256,8 @@ window.telebrasData = [
     "ref": "016-TB-BH-AV.00",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/016-TB-BH-AV( I ).jpg"
+    "image": "fotos/telebras/016-TB-BH-AV( I ).jpg",
+    "type": "Avulso"
   },
   {
     "id": "016-TB-BH-AV.01-01",
@@ -1131,7 +1266,8 @@ window.telebrasData = [
     "ref": "016-TB-BH-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/016-TB-BH-AV01.jpg"
+    "image": "fotos/telebras/016-TB-BH-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.02-02",
@@ -1140,7 +1276,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV02.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.04-04",
@@ -1149,7 +1286,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV04.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.05-05",
@@ -1158,7 +1296,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV05.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.07-07",
@@ -1167,7 +1306,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV07.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.12-12",
@@ -1176,7 +1316,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.12",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV12.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV12.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.13-13",
@@ -1185,7 +1326,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.13",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV13.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV13.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.15-15",
@@ -1194,7 +1336,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.15",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV15.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV15.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.18-18",
@@ -1203,7 +1346,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.18",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV18.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV18.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.23-23",
@@ -1212,7 +1356,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.23",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV23.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV23.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.19-19",
@@ -1221,7 +1366,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.19",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV19.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV19.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-TB-EST-AV.24-24",
@@ -1230,7 +1376,8 @@ window.telebrasData = [
     "ref": "017-TB-EST-AV.24",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/017-TB-EST-AV24.jpg"
+    "image": "fotos/telebras/017-TB-EST-AV24.jpg",
+    "type": "Avulso"
   },
   {
     "id": "018-TB-EBR-AV.01-01",
@@ -1239,7 +1386,8 @@ window.telebrasData = [
     "ref": "018-TB-EBR-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/018-TB-EBR-AV01.jpg"
+    "image": "fotos/telebras/018-TB-EBR-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "018-TB-EBR-AV.02-02",
@@ -1248,7 +1396,8 @@ window.telebrasData = [
     "ref": "018-TB-EBR-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/018-TB-EBR-AV02.jpg"
+    "image": "fotos/telebras/018-TB-EBR-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "018-TB-EBR-AV.03-03",
@@ -1257,7 +1406,8 @@ window.telebrasData = [
     "ref": "018-TB-EBR-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/018-TB-EBR-AV03.jpg"
+    "image": "fotos/telebras/018-TB-EBR-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "018-TB-EBR-AV.04-04",
@@ -1266,7 +1416,8 @@ window.telebrasData = [
     "ref": "018-TB-EBR-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/018-TB-EBR-AV04.jpg"
+    "image": "fotos/telebras/018-TB-EBR-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "019-TB-CUR-AV.02-02",
@@ -1275,7 +1426,8 @@ window.telebrasData = [
     "ref": "019-TB-CUR-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/019-TB-CUR-AV02.jpg"
+    "image": "fotos/telebras/019-TB-CUR-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-TB-25A-AV.01-01",
@@ -1284,7 +1436,8 @@ window.telebrasData = [
     "ref": "020-TB-25A-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/020-TB-25A-AV01.jpg"
+    "image": "fotos/telebras/020-TB-25A-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-TB-25A-AV.02-02",
@@ -1293,7 +1446,8 @@ window.telebrasData = [
     "ref": "020-TB-25A-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/020-TB-25A-AV02.jpg"
+    "image": "fotos/telebras/020-TB-25A-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-TB-25A-AV.03-03",
@@ -1302,7 +1456,8 @@ window.telebrasData = [
     "ref": "020-TB-25A-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/020-TB-25A-AV03.jpg"
+    "image": "fotos/telebras/020-TB-25A-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-TB-25A-AV.04-04",
@@ -1311,7 +1466,8 @@ window.telebrasData = [
     "ref": "020-TB-25A-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/020-TB-25A-AV04.jpg"
+    "image": "fotos/telebras/020-TB-25A-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-TB-25A-AV.05-05",
@@ -1320,7 +1476,8 @@ window.telebrasData = [
     "ref": "020-TB-25A-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/020-TB-25A-AV05.jpg"
+    "image": "fotos/telebras/020-TB-25A-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-TB-25A-AV.06-06",
@@ -1329,7 +1486,8 @@ window.telebrasData = [
     "ref": "020-TB-25A-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/020-TB-25A-AV06.jpg"
+    "image": "fotos/telebras/020-TB-25A-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-TB-25A-AV.07-07",
@@ -1338,7 +1496,8 @@ window.telebrasData = [
     "ref": "020-TB-25A-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/020-TB-25A-AV07.jpg"
+    "image": "fotos/telebras/020-TB-25A-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "021-TB-ORQ-AV.01-01",
@@ -1347,7 +1506,8 @@ window.telebrasData = [
     "ref": "021-TB-ORQ-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/021-TB-ORQ-AV01.jpg"
+    "image": "fotos/telebras/021-TB-ORQ-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "021-TB-ORQ-AV.02-02",
@@ -1356,7 +1516,8 @@ window.telebrasData = [
     "ref": "021-TB-ORQ-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/021-TB-ORQ-AV02.jpg"
+    "image": "fotos/telebras/021-TB-ORQ-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "021-TB-ORQ-AV.03-03",
@@ -1365,7 +1526,8 @@ window.telebrasData = [
     "ref": "021-TB-ORQ-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/021-TB-ORQ-AV03.jpg"
+    "image": "fotos/telebras/021-TB-ORQ-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "021-TB-ORQ-AV.04-04",
@@ -1374,7 +1536,8 @@ window.telebrasData = [
     "ref": "021-TB-ORQ-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/021-TB-ORQ-AV04.jpg"
+    "image": "fotos/telebras/021-TB-ORQ-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "021-TB-ORQ-AV.05-05",
@@ -1383,7 +1546,8 @@ window.telebrasData = [
     "ref": "021-TB-ORQ-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/021-TB-ORQ-AV05.jpg"
+    "image": "fotos/telebras/021-TB-ORQ-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "021-TB-ORQ-AV.06-06",
@@ -1392,7 +1556,8 @@ window.telebrasData = [
     "ref": "021-TB-ORQ-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/021-TB-ORQ-AV06.jpg"
+    "image": "fotos/telebras/021-TB-ORQ-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "021-TB-ORQ-AV.07-07",
@@ -1401,7 +1566,8 @@ window.telebrasData = [
     "ref": "021-TB-ORQ-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/021-TB-ORQ-AV07.jpg"
+    "image": "fotos/telebras/021-TB-ORQ-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-TB-LOC-C.11-00",
@@ -1410,7 +1576,8 @@ window.telebrasData = [
     "ref": "022-TB-LOC-C.11",
     "operator": "Telebrás",
     "price": 7,
-    "image": "fotos/telebras/022-TB-LOC-C.jpg"
+    "image": "fotos/telebras/022-TB-LOC-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "022-TB-LOC-AV.01-01",
@@ -1419,7 +1586,8 @@ window.telebrasData = [
     "ref": "022-TB-LOC-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/022-TB-LOC-AV01.jpg"
+    "image": "fotos/telebras/022-TB-LOC-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-TB-LOC-AV.02-02",
@@ -1428,7 +1596,8 @@ window.telebrasData = [
     "ref": "022-TB-LOC-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/022-TB-LOC-AV02.jpg"
+    "image": "fotos/telebras/022-TB-LOC-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-TB-LOC-AV.03-03",
@@ -1437,7 +1606,8 @@ window.telebrasData = [
     "ref": "022-TB-LOC-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/022-TB-LOC-AV03.jpg"
+    "image": "fotos/telebras/022-TB-LOC-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-TB-LOC-AV.04-04",
@@ -1446,7 +1616,8 @@ window.telebrasData = [
     "ref": "022-TB-LOC-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/022-TB-LOC-AV04.jpg"
+    "image": "fotos/telebras/022-TB-LOC-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-TB-LOC-AV.05-05",
@@ -1455,7 +1626,8 @@ window.telebrasData = [
     "ref": "022-TB-LOC-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/022-TB-LOC-AV05.jpg"
+    "image": "fotos/telebras/022-TB-LOC-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-TB-LOC-AV.06-06",
@@ -1464,7 +1636,8 @@ window.telebrasData = [
     "ref": "022-TB-LOC-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/022-TB-LOC-AV06.jpg"
+    "image": "fotos/telebras/022-TB-LOC-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-TB-ANT-AV.01-01",
@@ -1473,7 +1646,8 @@ window.telebrasData = [
     "ref": "023-TB-ANT-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/023-TB-ANT-AV01.jpg"
+    "image": "fotos/telebras/023-TB-ANT-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-TB-ANT-AV.02-02",
@@ -1482,7 +1656,8 @@ window.telebrasData = [
     "ref": "023-TB-ANT-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/023-TB-ANT-AV02.jpg"
+    "image": "fotos/telebras/023-TB-ANT-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "023-TB-ANT-AV.03-03",
@@ -1491,7 +1666,8 @@ window.telebrasData = [
     "ref": "023-TB-ANT-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/023-TB-ANT-AV03.jpg"
+    "image": "fotos/telebras/023-TB-ANT-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.01-01",
@@ -1500,7 +1676,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV01.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.02-02",
@@ -1509,7 +1686,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV02.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.03-03",
@@ -1518,7 +1696,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV03.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.04-04",
@@ -1527,7 +1706,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV04.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.05-05",
@@ -1536,7 +1716,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV05.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.06-06",
@@ -1545,7 +1726,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV06.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.07-07",
@@ -1554,7 +1736,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV07.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.08-08",
@@ -1563,7 +1746,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV08.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.09-09",
@@ -1572,7 +1756,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV09.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.10-10",
@@ -1581,7 +1766,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV10.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-TB-SEL-AV.11-11",
@@ -1590,7 +1776,8 @@ window.telebrasData = [
     "ref": "024-TB-SEL-AV.11",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/024-TB-SEL-AV11.jpg"
+    "image": "fotos/telebras/024-TB-SEL-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.01-01",
@@ -1599,7 +1786,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV01.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.02-02",
@@ -1608,7 +1796,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV02.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.03-03",
@@ -1617,7 +1806,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV03.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.04-04",
@@ -1626,7 +1816,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV04.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.05-05",
@@ -1635,7 +1826,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV05.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.06-06",
@@ -1644,7 +1836,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV06.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.07-07",
@@ -1653,7 +1846,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV07.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.08-08",
@@ -1662,7 +1856,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV08.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.09-09",
@@ -1671,7 +1866,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV09.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.10-10",
@@ -1680,7 +1876,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV10.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.11-11",
@@ -1689,7 +1886,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.11",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV11.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.12-12",
@@ -1698,7 +1896,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.12",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV12.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV12.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-TB-EVE-AV.13-13",
@@ -1707,7 +1906,8 @@ window.telebrasData = [
     "ref": "025-TB-EVE-AV.13",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/025-TB-EVE-AV13.jpg"
+    "image": "fotos/telebras/025-TB-EVE-AV13.jpg",
+    "type": "Avulso"
   },
   {
     "id": "026-TB-ORE-AV.01-01",
@@ -1716,7 +1916,8 @@ window.telebrasData = [
     "ref": "026-TB-ORE-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/026-TB-ORE-AV01.jpg"
+    "image": "fotos/telebras/026-TB-ORE-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "026-TB-ORE-AV.02-02",
@@ -1725,7 +1926,8 @@ window.telebrasData = [
     "ref": "026-TB-ORE-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/026-TB-ORE-AV02.jpg"
+    "image": "fotos/telebras/026-TB-ORE-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "026-TB-ORE-AV.03-03",
@@ -1734,7 +1936,8 @@ window.telebrasData = [
     "ref": "026-TB-ORE-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/026-TB-ORE-AV03.jpg"
+    "image": "fotos/telebras/026-TB-ORE-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "026-TB-ORE-AV.04-04",
@@ -1743,7 +1946,8 @@ window.telebrasData = [
     "ref": "026-TB-ORE-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/026-TB-ORE-AV04.jpg"
+    "image": "fotos/telebras/026-TB-ORE-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "027-TB-CONV-C.05-00",
@@ -1752,7 +1956,8 @@ window.telebrasData = [
     "ref": "027-TB-CONV-C.05",
     "operator": "Telebrás",
     "price": 4,
-    "image": "fotos/telebras/027-TB-CONV-C.jpg"
+    "image": "fotos/telebras/027-TB-CONV-C.jpg",
+    "type": "Completa"
   },
   {
     "id": "027-TB-CONV-AV.01-01",
@@ -1761,7 +1966,8 @@ window.telebrasData = [
     "ref": "027-TB-CONV-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/027-TB-CONV-AV01.jpg"
+    "image": "fotos/telebras/027-TB-CONV-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-TB-PINT-AV.01-01",
@@ -1770,7 +1976,8 @@ window.telebrasData = [
     "ref": "028-TB-PINT-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/028-TB-PINT-AV01.jpg"
+    "image": "fotos/telebras/028-TB-PINT-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-TB-PINT-AV.02-02",
@@ -1779,7 +1986,8 @@ window.telebrasData = [
     "ref": "028-TB-PINT-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/028-TB-PINT-AV02.jpg"
+    "image": "fotos/telebras/028-TB-PINT-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-TB-PINT-AV.03-03",
@@ -1788,7 +1996,8 @@ window.telebrasData = [
     "ref": "028-TB-PINT-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/028-TB-PINT-AV03.jpg"
+    "image": "fotos/telebras/028-TB-PINT-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-TB-PINT-AV.04-04",
@@ -1797,7 +2006,8 @@ window.telebrasData = [
     "ref": "028-TB-PINT-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/028-TB-PINT-AV04.jpg"
+    "image": "fotos/telebras/028-TB-PINT-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "029-TB-MG-AV.01-01",
@@ -1806,7 +2016,8 @@ window.telebrasData = [
     "ref": "029-TB-MG-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/029-TB-MG-AV01.jpg"
+    "image": "fotos/telebras/029-TB-MG-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "029-TB-MG-AV.04-04",
@@ -1815,7 +2026,8 @@ window.telebrasData = [
     "ref": "029-TB-MG-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/029-TB-MG-AV04.jpg"
+    "image": "fotos/telebras/029-TB-MG-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "030-TB-CER-AV.01-01",
@@ -1824,7 +2036,8 @@ window.telebrasData = [
     "ref": "030-TB-CER-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/030-TB-CER-AV01.jpg"
+    "image": "fotos/telebras/030-TB-CER-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "030-TB-CER-AV.02-02",
@@ -1833,7 +2046,8 @@ window.telebrasData = [
     "ref": "030-TB-CER-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/030-TB-CER-AV02.jpg"
+    "image": "fotos/telebras/030-TB-CER-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "031-TB-BFL-AV.01-01",
@@ -1842,7 +2056,8 @@ window.telebrasData = [
     "ref": "031-TB-BFL-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/031-TB-BFL-AV01.jpg"
+    "image": "fotos/telebras/031-TB-BFL-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "032-TB-PEI-AV.01-01",
@@ -1851,7 +2066,8 @@ window.telebrasData = [
     "ref": "032-TB-PEI-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/032-TB-PEI-AV01.jpg"
+    "image": "fotos/telebras/032-TB-PEI-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "032-TB-PEI-AV.02-02",
@@ -1860,7 +2076,8 @@ window.telebrasData = [
     "ref": "032-TB-PEI-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/032-TB-PEI-AV02.jpg"
+    "image": "fotos/telebras/032-TB-PEI-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "033-TB-CAP-AV.01-01",
@@ -1869,7 +2086,8 @@ window.telebrasData = [
     "ref": "033-TB-CAP-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/033-TB-CAP-AV01.jpg"
+    "image": "fotos/telebras/033-TB-CAP-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "033-TB-CAP-AV.02-02",
@@ -1878,7 +2096,8 @@ window.telebrasData = [
     "ref": "033-TB-CAP-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/033-TB-CAP-AV02.jpg"
+    "image": "fotos/telebras/033-TB-CAP-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.01-01",
@@ -1887,7 +2106,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV01.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.02-02",
@@ -1896,7 +2116,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV02.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.03-03",
@@ -1905,7 +2126,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV03.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.04-04",
@@ -1914,7 +2136,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV04.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.05-05",
@@ -1923,7 +2146,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV05.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.06-06",
@@ -1932,7 +2156,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV06.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.07-07",
@@ -1941,7 +2166,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV07.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.08-08",
@@ -1950,7 +2176,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV08.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.09-09",
@@ -1959,7 +2186,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV09.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.10-10",
@@ -1968,7 +2196,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV10.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.11-11",
@@ -1977,7 +2206,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.11",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV11.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.12-12",
@@ -1986,7 +2216,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.12",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV12.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV12.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034-TB-TEL-AV.13-13",
@@ -1995,7 +2226,8 @@ window.telebrasData = [
     "ref": "034-TB-TEL-AV.13",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034-TB-TEL-AV13.jpg"
+    "image": "fotos/telebras/034-TB-TEL-AV13.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034A-TB-TEL-AV.01-01",
@@ -2004,7 +2236,8 @@ window.telebrasData = [
     "ref": "034A-TB-TEL-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034A-TB-TEL-AV01.jpg"
+    "image": "fotos/telebras/034A-TB-TEL-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034A-TB-TEL-AV.02-02",
@@ -2013,7 +2246,8 @@ window.telebrasData = [
     "ref": "034A-TB-TEL-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034A-TB-TEL-AV02.jpg"
+    "image": "fotos/telebras/034A-TB-TEL-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034A-TB-TEL-AV.03-03",
@@ -2022,7 +2256,8 @@ window.telebrasData = [
     "ref": "034A-TB-TEL-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034A-TB-TEL-AV03.jpg"
+    "image": "fotos/telebras/034A-TB-TEL-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034A-TB-TEL-AV.04-04",
@@ -2031,7 +2266,8 @@ window.telebrasData = [
     "ref": "034A-TB-TEL-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034A-TB-TEL-AV04.jpg"
+    "image": "fotos/telebras/034A-TB-TEL-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034A-TB-TEL-AV.05-05",
@@ -2040,7 +2276,8 @@ window.telebrasData = [
     "ref": "034A-TB-TEL-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034A-TB-TEL-AV05.jpg"
+    "image": "fotos/telebras/034A-TB-TEL-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "034A-TB-TEL-AV.06-06",
@@ -2049,7 +2286,8 @@ window.telebrasData = [
     "ref": "034A-TB-TEL-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/034A-TB-TEL-AV06.jpg"
+    "image": "fotos/telebras/034A-TB-TEL-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "040-TB-BRAS-AV.03-03",
@@ -2058,7 +2296,8 @@ window.telebrasData = [
     "ref": "040-TB-BRAS-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/040-TB-BRAS-AV03.jpg"
+    "image": "fotos/telebras/040-TB-BRAS-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "040-TB-BRAS-AV.04-04",
@@ -2067,7 +2306,8 @@ window.telebrasData = [
     "ref": "040-TB-BRAS-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/040-TB-BRAS-AV04.jpg"
+    "image": "fotos/telebras/040-TB-BRAS-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "040-TB-BRAS-AV.05-05",
@@ -2076,7 +2316,8 @@ window.telebrasData = [
     "ref": "040-TB-BRAS-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/040-TB-BRAS-AV05.jpg"
+    "image": "fotos/telebras/040-TB-BRAS-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "040-TB-BRAS-AV.01-01",
@@ -2085,7 +2326,8 @@ window.telebrasData = [
     "ref": "040-TB-BRAS-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/040-TB-BRAS-AV01.jpg"
+    "image": "fotos/telebras/040-TB-BRAS-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-ASE-AV.01-01",
@@ -2094,7 +2336,8 @@ window.telebrasData = [
     "ref": "041-TB-ASE-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-ASE-AV01.jpg"
+    "image": "fotos/telebras/041-TB-ASE-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-ASE-AV.03-03",
@@ -2103,7 +2346,8 @@ window.telebrasData = [
     "ref": "041-TB-ASE-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-ASE-AV03.jpg"
+    "image": "fotos/telebras/041-TB-ASE-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-ASE-AV.07-07",
@@ -2112,7 +2356,8 @@ window.telebrasData = [
     "ref": "041-TB-ASE-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-ASE-AV07.jpg"
+    "image": "fotos/telebras/041-TB-ASE-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-ASE-AV.10-10",
@@ -2121,7 +2366,8 @@ window.telebrasData = [
     "ref": "041-TB-ASE-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-ASE-AV10.jpg"
+    "image": "fotos/telebras/041-TB-ASE-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-ASE-AV.12-12",
@@ -2130,7 +2376,8 @@ window.telebrasData = [
     "ref": "041-TB-ASE-AV.12",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-ASE-AV12.jpg"
+    "image": "fotos/telebras/041-TB-ASE-AV12.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-ASE-AV.04-04",
@@ -2139,7 +2386,8 @@ window.telebrasData = [
     "ref": "041-TB-ASE-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-ASE-AV04.jpg"
+    "image": "fotos/telebras/041-TB-ASE-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-GPR-AV.01-01",
@@ -2148,7 +2396,8 @@ window.telebrasData = [
     "ref": "041-TB-GPR-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-GPR-AV01.jpg"
+    "image": "fotos/telebras/041-TB-GPR-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-GPR-AV.02-02",
@@ -2157,7 +2406,8 @@ window.telebrasData = [
     "ref": "041-TB-GPR-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-GPR-AV02.jpg"
+    "image": "fotos/telebras/041-TB-GPR-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-GPR-AV.03-03",
@@ -2166,7 +2416,8 @@ window.telebrasData = [
     "ref": "041-TB-GPR-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-GPR-AV03.jpg"
+    "image": "fotos/telebras/041-TB-GPR-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "041-TB-GPR-AV.04-04",
@@ -2175,7 +2426,8 @@ window.telebrasData = [
     "ref": "041-TB-GPR-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/041-TB-GPR-AV04.jpg"
+    "image": "fotos/telebras/041-TB-GPR-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.01-01",
@@ -2184,7 +2436,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV01.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.02-02",
@@ -2193,7 +2446,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV02.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.03-03",
@@ -2202,7 +2456,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV03.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.04-04",
@@ -2211,7 +2466,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV04.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.05-05",
@@ -2220,7 +2476,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV05.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.06-06",
@@ -2229,7 +2486,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV06.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.07-07",
@@ -2238,7 +2496,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV07.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.08-08",
@@ -2247,7 +2506,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV08.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.09-09",
@@ -2256,7 +2516,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV09.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.10-10",
@@ -2265,7 +2526,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV10.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.11-11",
@@ -2274,7 +2536,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.11",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV11.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.12-12",
@@ -2283,7 +2546,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.12",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV12.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV12.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.13-13",
@@ -2292,7 +2556,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.13",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV13.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV13.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.14-14",
@@ -2301,7 +2566,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.14",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV14.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV14.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.15-15",
@@ -2310,7 +2576,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.15",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV15.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV15.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.16-16",
@@ -2319,7 +2586,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.16",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV16.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV16.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.17-17",
@@ -2328,7 +2596,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.17",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV17.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV17.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.18-18",
@@ -2337,7 +2606,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.18",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV18.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV18.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.19-19",
@@ -2346,7 +2616,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.19",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV19.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV19.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.20-20",
@@ -2355,7 +2626,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.20",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV20.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV20.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.21-21",
@@ -2364,7 +2636,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.21",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV21.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV21.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.22-22",
@@ -2373,7 +2646,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.22",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV22.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV22.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.23-23",
@@ -2382,7 +2656,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.23",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV23.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV23.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.24-24",
@@ -2391,7 +2666,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.24",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV24.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV24.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.25-25",
@@ -2400,7 +2676,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.25",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV25.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV25.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.26-26",
@@ -2409,7 +2686,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.26",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV26.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV26.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.27-27",
@@ -2418,7 +2696,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.27",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV27.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV27.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.28-28",
@@ -2427,7 +2706,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.28",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV28.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV28.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.29-29",
@@ -2436,7 +2716,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.29",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV29.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV29.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.30-30",
@@ -2445,7 +2726,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.30",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV30.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV30.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.31-31",
@@ -2454,7 +2736,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.31",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV31.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV31.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.32-32",
@@ -2463,7 +2746,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.32",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV32.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV32.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.33-33",
@@ -2472,7 +2756,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.33",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV33.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV33.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.34-34",
@@ -2481,7 +2766,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.34",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV34.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV34.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.35-35",
@@ -2490,7 +2776,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.35",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV35.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV35.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.36-36",
@@ -2499,7 +2786,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.36",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV36.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV36.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.37-37",
@@ -2508,7 +2796,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.37",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV37.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV37.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.38-38",
@@ -2517,7 +2806,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.38",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV38.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV38.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.39-39",
@@ -2526,7 +2816,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.39",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV39.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV39.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.40-40",
@@ -2535,7 +2826,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.40",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV40.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV40.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.41-41",
@@ -2544,7 +2836,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.41",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV41.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV41.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.42-42",
@@ -2553,7 +2846,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.42",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV42.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV42.jpg",
+    "type": "Avulso"
   },
   {
     "id": "042-TB-PROP-AV.43-43",
@@ -2562,7 +2856,8 @@ window.telebrasData = [
     "ref": "042-TB-PROP-AV.43",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/042-TB-PROP-AV43.jpg"
+    "image": "fotos/telebras/042-TB-PROP-AV43.jpg",
+    "type": "Avulso"
   },
   {
     "id": "043-TB-SIMP-AV.01-01",
@@ -2571,7 +2866,8 @@ window.telebrasData = [
     "ref": "043-TB-SIMP-AV.01",
     "operator": "Telebrás",
     "price": 46.143,
-    "image": "fotos/telebras/043-TB-SIMP-AV01.jpg"
+    "image": "fotos/telebras/043-TB-SIMP-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "044-TB-RIO-AV.02-02",
@@ -2580,7 +2876,8 @@ window.telebrasData = [
     "ref": "044-TB-RIO-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/044-TB-RIO-AV02.jpg"
+    "image": "fotos/telebras/044-TB-RIO-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "044-TB-RIO-AV.03-03",
@@ -2589,7 +2886,8 @@ window.telebrasData = [
     "ref": "044-TB-RIO-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/044-TB-RIO-AV03.jpg"
+    "image": "fotos/telebras/044-TB-RIO-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "044-TB-RIO-AV.05-05",
@@ -2598,7 +2896,8 @@ window.telebrasData = [
     "ref": "044-TB-RIO-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/044-TB-RIO-AV05.jpg"
+    "image": "fotos/telebras/044-TB-RIO-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "044A-TB-RIO-AV.01-01",
@@ -2607,7 +2906,8 @@ window.telebrasData = [
     "ref": "044A-TB-RIO-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/044A-TB-RIO-AV01.jpg"
+    "image": "fotos/telebras/044A-TB-RIO-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "044A-TB-RIO-AV.02-02",
@@ -2616,7 +2916,8 @@ window.telebrasData = [
     "ref": "044A-TB-RIO-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/044A-TB-RIO-AV02.jpg"
+    "image": "fotos/telebras/044A-TB-RIO-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "045-TB-FIL-AV.01-01",
@@ -2625,7 +2926,8 @@ window.telebrasData = [
     "ref": "045-TB-FIL-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/045-TB-FIL-AV01.jpg"
+    "image": "fotos/telebras/045-TB-FIL-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.01-01",
@@ -2634,7 +2936,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV01.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.02-02",
@@ -2643,7 +2946,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV02.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.03-03",
@@ -2652,7 +2956,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV03.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.04-04",
@@ -2661,7 +2966,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV04.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.05-05",
@@ -2670,7 +2976,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV05.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.06-06",
@@ -2679,7 +2986,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.06",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV06.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.07-07",
@@ -2688,7 +2996,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.07",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV07.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.08-08",
@@ -2697,7 +3006,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.08",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV08.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.09-09",
@@ -2706,7 +3016,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.09",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV09.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.10-10",
@@ -2715,7 +3026,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.10",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV10.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-TB-LUG-AV.11-11",
@@ -2724,7 +3036,8 @@ window.telebrasData = [
     "ref": "046-TB-LUG-AV.11",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/046-TB-LUG-AV11.jpg"
+    "image": "fotos/telebras/046-TB-LUG-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "047-TB-CEA-AV.01-01",
@@ -2733,7 +3046,8 @@ window.telebrasData = [
     "ref": "047-TB-CEA-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/047-TB-CEA-AV01.jpg"
+    "image": "fotos/telebras/047-TB-CEA-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "048-TB-VER-AV.01-01",
@@ -2742,7 +3056,8 @@ window.telebrasData = [
     "ref": "048-TB-VER-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/048-TB-VER-AV01.jpg"
+    "image": "fotos/telebras/048-TB-VER-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "049-TB-FES-AV.01-01",
@@ -2751,7 +3066,8 @@ window.telebrasData = [
     "ref": "049-TB-FES-AV.01",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/049-TB-FES-AV01.jpg"
+    "image": "fotos/telebras/049-TB-FES-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "049-TB-FES-AV.02-02",
@@ -2760,7 +3076,8 @@ window.telebrasData = [
     "ref": "049-TB-FES-AV.02",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/049-TB-FES-AV02.jpg"
+    "image": "fotos/telebras/049-TB-FES-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "049-TB-FES-AV.03-03",
@@ -2769,7 +3086,8 @@ window.telebrasData = [
     "ref": "049-TB-FES-AV.03",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/049-TB-FES-AV03.jpg"
+    "image": "fotos/telebras/049-TB-FES-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "049-TB-FES-AV.04-04",
@@ -2778,7 +3096,8 @@ window.telebrasData = [
     "ref": "049-TB-FES-AV.04",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/049-TB-FES-AV04.jpg"
+    "image": "fotos/telebras/049-TB-FES-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "049-TB-FES-AV.05-05",
@@ -2787,6 +3106,7 @@ window.telebrasData = [
     "ref": "049-TB-FES-AV.05",
     "operator": "Telebrás",
     "price": 0.5,
-    "image": "fotos/telebras/049-TB-FES-AV05.jpg"
+    "image": "fotos/telebras/049-TB-FES-AV05.jpg",
+    "type": "Avulso"
   }
 ];

@@ -6,7 +6,8 @@ window.oiData = [
     "ref": "001-OI-AZUL-C",
     "operator": "Oi",
     "price": 3.5,
-    "image": "fotos/oi/001-OI-AZUL-C.jpg"
+    "image": "fotos/oi/001-OI-AZUL-C.JPG",
+    "type": "Completa"
   },
   {
     "id": "001-OI-AZUL-AV01",
@@ -15,7 +16,8 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV01",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/001-OI-AZUL-AV01.jpg"
+    "image": "fotos/oi/001-OI-AZUL-AV01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-OI-AZUL-AV02",
@@ -24,7 +26,8 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV02",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/001-OI-AZUL-AV02.jpg"
+    "image": "fotos/oi/001-OI-AZUL-AV02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-OI-AZUL-AV03",
@@ -33,7 +36,8 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV03",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/001-OI-AZUL-AV03.jpg"
+    "image": "fotos/oi/001-OI-AZUL-AV03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-OI-AZUL-AV04",
@@ -42,7 +46,8 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV04",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/001-OI-AZUL-AV04.jpg"
+    "image": "fotos/oi/001-OI-AZUL-AV04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-OI-AZUL-AV05",
@@ -51,7 +56,8 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV05",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/001-OI-AZUL-AV05.jpg"
+    "image": "fotos/oi/001-OI-AZUL-AV05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "001-OI-AZUL-AV06",
@@ -60,7 +66,8 @@ window.oiData = [
     "ref": "001-OI-AZUL-AV06",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/001-OI-AZUL-AV06.jpg"
+    "image": "fotos/oi/001-OI-AZUL-AV06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "002-OI-VERDE-C",
@@ -69,7 +76,8 @@ window.oiData = [
     "ref": "002-OI-VERDE-C",
     "operator": "Oi",
     "price": 5.5,
-    "image": "fotos/oi/002-OI-VERDE-C.jpg"
+    "image": "fotos/oi/002-OI-VERDE-C.JPG",
+    "type": "Completa"
   },
   {
     "id": "002-OI-VERDE-AV01",
@@ -78,7 +86,8 @@ window.oiData = [
     "ref": "002-OI-VERDE-AV01",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/002-OI-VERDE-AV01.jpg"
+    "image": "fotos/oi/002-OI-VERDE-AV01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "002-OI-VERDE-AV02",
@@ -87,7 +96,8 @@ window.oiData = [
     "ref": "002-OI-VERDE-AV02",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/002-OI-VERDE-AV02.jpg"
+    "image": "fotos/oi/002-OI-VERDE-AV02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "002-OI-VERDE-AV03",
@@ -96,7 +106,8 @@ window.oiData = [
     "ref": "002-OI-VERDE-AV03",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/002-OI-VERDE-AV03.jpg"
+    "image": "fotos/oi/002-OI-VERDE-AV03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "002-OI-VERDE-AV04",
@@ -105,7 +116,8 @@ window.oiData = [
     "ref": "002-OI-VERDE-AV04",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/002-OI-VERDE-AV04.jpg"
+    "image": "fotos/oi/002-OI-VERDE-AV04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-C",
@@ -114,7 +126,8 @@ window.oiData = [
     "ref": "003-OI-LAR-C",
     "operator": "Oi",
     "price": 7,
-    "image": "fotos/oi/003-OI-LAR-C.jpg"
+    "image": "fotos/oi/003-OI-LAR-C.JPG",
+    "type": "Completa"
   },
   {
     "id": "003-OI-LAR-AV01",
@@ -123,7 +136,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV01",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV01.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV01.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-AV02",
@@ -132,7 +146,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV02",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV02.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV02.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-AV03",
@@ -141,7 +156,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV03",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV03.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV03.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-AV04",
@@ -150,7 +166,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV04",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV04.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV04.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-AV05",
@@ -159,7 +176,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV05",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV05.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV05.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-AV06",
@@ -168,7 +186,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV06",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV06.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV06.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-AV07",
@@ -177,7 +196,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV07",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV07.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV07.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-AV08",
@@ -186,7 +206,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV08",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV08.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV08.JPG",
+    "type": "Avulso"
   },
   {
     "id": "003-OI-LAR-AV09",
@@ -195,7 +216,8 @@ window.oiData = [
     "ref": "003-OI-LAR-AV09",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV09.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV09.JPG",
+    "type": "Completa"
   },
   {
     "id": "003-OI-LAR-AV10",
@@ -204,6 +226,7 @@ window.oiData = [
     "ref": "003-OI-LAR-AV10",
     "operator": "Oi",
     "price": 0.5,
-    "image": "fotos/oi/003-OI-LAR-AV10.jpg"
+    "image": "fotos/oi/003-OI-LAR-AV10.JPG",
+    "type": "Avulso"
   }
 ];
