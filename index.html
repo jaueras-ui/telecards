@@ -478,7 +478,13 @@
         </div>
         <div>
           <label class="block text-slate-400 mb-1 font-semibold">Caminho da Imagem</label>
-          <input type="text" id="f-image" class="w-full p-2.5 bg-brand-dark border border-brand-border rounded-xl text-white">
+          <div class="flex gap-2">
+            <input type="text" id="f-image" class="w-full p-2.5 bg-brand-dark border border-brand-border rounded-xl text-white font-mono text-[11px]">
+            <label class="px-3 py-2.5 bg-brand-cyan hover:bg-cyan-400 text-black font-bold rounded-xl cursor-pointer whitespace-nowrap flex items-center gap-1 transition-all shadow text-xs">
+              <i class="fa-solid fa-folder-open"></i> Procurar
+              <input type="file" id="f-file-picker" accept="image/*" onchange="handleSingleCardFile(event)" class="hidden">
+            </label>
+          </div>
         </div>
         <div class="flex justify-end gap-2 pt-2">
           <button type="button" onclick="closeModal()" class="px-4 py-2 bg-brand-dark text-slate-300 font-bold rounded-xl">Cancelar</button>
@@ -909,6 +915,17 @@
     function closeModal() {
       document.getElementById('admin-modal').classList.add('hidden');
       document.getElementById('admin-modal').classList.remove('flex');
+    }
+
+    function handleSingleCardFile(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const opSelect = document.getElementById('f-operator');
+      let opFolder = normalizeText(opSelect ? opSelect.value : 'outras').replace(/\s+/g, '_');
+      if (opFolder.includes('brasil')) opFolder = 'brasil_telecom';
+      
+      const suggestedPath = `fotos/${opFolder}/${file.name}`;
+      document.getElementById('f-image').value = suggestedPath;
     }
 
     function saveCard(event) {
