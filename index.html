@@ -1,305 +1,518 @@
-  <div class="flex items-center gap-3">
-    <button id="cart-btn" onclick="toggleCartModal(true)" class="relative px-4 py-2.5 bg-brand-card hover:bg-brand-border text-white border border-brand-border rounded-xl font-bold text-xs transition-all flex items-center gap-2 shadow">
-      <i class="fa-solid fa-book-open text-brand-accent"></i>
-      <span>Meu Álbum</span>
-      <span id="cart-counter" class="absolute -top-2 -right-2 bg-brand-accent text-white font-black text-[10px] w-5 h-5 rounded-full flex items-center justify-center shadow">0</span>
-    </button>
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeleCards - Acervo e Coleção</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: { dark: '#0a0a0f', card: '#13131a', accent: '#ff0055', cyan: '#00f2fe', border: '#2a2a3c' },
+            accent: { green: '#25d366' }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+  * { box-sizing: border-box; }
+  body { 
+    background-color: #0a0a0f; 
+    color: #f1f5f9; 
+    font-family: 'Inter', sans-serif; 
+    margin: 0; 
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    padding-bottom: 60px;
+  }
+  
+  #btnVoltarTopo {
+    display: flex !important;
+    position: fixed !important;
+    bottom: 35px !important;
+    right: 35px !important;
+    z-index: 99999 !important;
+    width: 65px !important;
+    height: 65px !important;
+    background: linear-gradient(135deg, #047857 0%, #064e3b 100%) !important;
+    border: 3px solid #fbbf24 !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.7), 0 0 15px rgba(251, 191, 36, 0.5) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+  }
+  #btnVoltarTopo:hover { transform: scale(1.12) !important; }
 
-    <div class="bg-brand-card p-1 rounded-xl border border-brand-border flex gap-1">
-      <button id="btn-visitor" onclick="setViewMode('visitor')" class="px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow">
-        <i class="fa-regular fa-eye mr-1.5"></i>Modo Visitante
-      </button>
-      <button id="btn-admin" onclick="setViewMode('admin')" class="px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white">
-        <i class="fa-solid fa-user-gear mr-1.5"></i>Modo Bastidores
-      </button>
+  .btn-avatar-wrapper { width: 100%; height: 100%; border-radius: 50%; overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center; }
+  .btn-avatar-img { width: 100%; height: 100%; object-fit: cover; }
+  .btn-arrow-badge {
+    position: absolute !important; top: -2px !important; right: -2px !important; width: 24px !important; height: 24px !important;
+    background-color: #25d366 !important; color: #ffffff !important; border: 2.5px solid #0a0a0f !important; border-radius: 50% !important;
+    display: flex !important; align-items: center !important; justify-content: center !important; font-size: 11px !important; font-weight: 900 !important;
+  }
+
+  .card-stack-visitor { transform: rotate(4deg) translate(15px, -10px); z-index: 5; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+  .card-stack-admin { transform: rotate(-6deg) translateY(10px); z-index: 2; opacity: 0.85; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+  body.admin-mode .card-stack-visitor { transform: rotate(8deg) translate(15px, 10px) scale(0.95); opacity: 0.35; z-index: 1; pointer-events: none; filter: blur(1px); }
+  body.admin-mode .card-stack-admin { transform: rotate(-2deg) translate(5px, -15px) scale(1.03); z-index: 10; opacity: 1; filter: drop-shadow(0 20px 30px rgba(0, 242, 254, 0.25)); pointer-events: auto; }
+
+  .visitor-card-green {
+    background: linear-gradient(135deg, #022c22 0%, #064e3b 40%, #047857 75%, #0f766e 100%) !important;
+    border: 2px solid #fbbf24 !important;
+    box-shadow: 0 20px 35px rgba(4, 120, 87, 0.35) !important;
+  }
+  .visitor-card-inner-frame { position: absolute; inset: 3px; border: 1.5px solid rgba(255, 255, 255, 0.7); border-radius: 0.85rem; pointer-events: none; z-index: 2; }
+
+  .catalog-card-container {
+    background-color: #13131a; border: 1px solid #2a2a3c; border-radius: 1.25rem; padding: 1rem;
+    display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease; position: relative;
+  }
+  .catalog-card-container:hover { border-color: rgba(255, 0, 85, 0.4); box-shadow: 0 12px 30px rgba(255, 0, 85, 0.15); }
+
+  .catalog-card-image {
+    position: relative; background-color: #0a0a0f; overflow: hidden; border-radius: 0.75rem; height: 11rem;
+    border: 1px solid #2a2a3c; display: flex; align-items: center; justify-content: center; margin-top: 0.5rem; margin-bottom: 0.75rem;
+  }
+  .catalog-card-image img.main-card-img { width: 100%; height: 100%; object-fit: contain !important; object-position: center; }
+
+  .card-logo-center {
+    position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%); width: 28px; height: 28px;
+    border-radius: 50%; border: 1.5px solid rgba(255, 255, 255, 0.3); background-color: rgba(10, 10, 15, 0.85);
+    z-index: 5; display: flex; align-items: center; justify-content: center; overflow: hidden;
+  }
+  .card-logo-center img { width: 100%; height: 100%; object-fit: cover !important; }
+
+  .card-brand-vertical {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%) rotate(180deg); writing-mode: vertical-rl;
+    padding: 6px 4px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.12); background: rgba(15, 15, 22, 0.75);
+    z-index: 5; font-size: 9px; font-weight: 800; color: rgba(255, 255, 255, 0.85); letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  .card-ref-text { font-family: monospace; font-size: 11px; font-weight: 800; color: #00f2fe; letter-spacing: 0.05em; }
+  .card-serie-text { font-size: 14px; font-weight: 800; color: #ffffff; margin-top: 2px; }
+  .card-footer-info { display: flex; flex-direction: column; margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(42, 42, 60, 0.6); gap: 4px; }
+  .card-title-row { display: flex; align-items: baseline; justify-content: space-between; width: 100%; gap: 8px; }
+  .card-title-text { font-size: 12px; font-weight: 600; color: #cbd5e1; line-height: 1.3; flex-grow: 1; word-break: break-word; }
+  .card-price-text { font-size: 15px; font-weight: 900; color: #ff0055; white-space: nowrap; flex-shrink: 0; }
+  </style>
+     
+  <!-- SCRIPTS DAS OPERADORAS -->
+  <script src="sercomtel.js" onerror="console.log('sercomtel.js não encontrado')"></script>
+  <script src="brasiltelecom.js" onerror="console.log('brasiltelecom.js não encontrado')"></script>
+  <script src="telefonica.js" onerror="console.log('telefonica.js não encontrado')"></script>
+  <script src="telebras.js" onerror="console.log('telebras.js não encontrado')"></script>
+  <script src="crt.js" onerror="console.log('crt.js não encontrado')"></script>
+  <script src="oi.js" onerror="console.log('oi.js não encontrado')"></script>
+  <script src="telemar.js" onerror="console.log('telemar.js não encontrado')"></script>
+  <script src="ceterp.js" onerror="console.log('ceterp.js não encontrado')"></script>
+  <script src="ctbc.js" onerror="console.log('ctbc.js não encontrado')"></script>
+  <script src="telepar.js" onerror="console.log('telepar.js não encontrado')"></script>
+  <script src="telesc.js" onerror="console.log('telesc.js não encontrado')"></script>
+  <script src="telemig.js" onerror="console.log('telemig.js não encontrado')"></script>
+  <script src="telegoias.js" onerror="console.log('telegoias.js não encontrado')"></script>
+  <script src="telerj.js" onerror="console.log('telerj.js não encontrado')"></script>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- BOTÃO VOLTAR AO TOPO COM MINHA_FOTO (O EU MAGRELO) -->
+  <button id="btnVoltarTopo" onclick="voltarAoTopo()" title="Voltar ao topo">
+    <div class="btn-avatar-wrapper">
+      <img src="minha_foto.jpg" alt="Voltar ao Topo" class="btn-avatar-img" onerror="this.src='minha_foto.png'">
     </div>
-  </div>
-</div>
+    <div class="btn-arrow-badge"><i class="fa-solid fa-arrow-up"></i></div>
+  </button>
 
-
-  <!-- Hero Cards -->
-  <div class="relative flex justify-center items-center py-8">
-    <div class="relative w-80 h-52 sm:w-96 sm:h-60 cursor-pointer" onclick="toggleViewModeToggle()">
+  <header class="sticky top-0 z-40 bg-brand-dark/90 backdrop-blur-md border-b border-brand-border">
+    <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between shadow-sm">
+      <div class="flex items-center gap-3.5">
+        <div class="relative flex-shrink-0">
+          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-accent shadow-lg bg-brand-card flex items-center justify-center">
+            <img src="logo.jpg" alt="Logo Paz.e.Bem" class="w-full h-full object-cover" onerror="this.src='logo.png'">
+          </div>
+          <span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-emerald-500 border-2 border-brand-dark rounded-full"></span>
+        </div>
+        <span class="text-2xl font-black tracking-tight text-white leading-none">Tele<span class="text-brand-accent">Cards</span></span>
+      </div>
       
-      <!-- Cartão Bastidores -->
-      <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-stone-900 to-amber-950 rounded-2xl p-5 shadow-2xl card-stack-admin border border-amber-500/30 flex flex-col justify-between">
-        <div class="flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <span class="w-2.5 h-2.5 bg-brand-cyan rounded-full animate-pulse"></span>
-            <span class="font-extrabold text-white text-sm tracking-wider uppercase">BASTIDORES</span>
-          </div>
-          <span class="text-[10px] bg-amber-500/20 border border-amber-500/40 px-2.5 py-1 rounded-full text-amber-300 font-extrabold tracking-widest uppercase">JAUERAS</span>
-        </div>
-        
-        <div class="my-auto flex items-center justify-between px-2">
-          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-400/80 shadow-md flex-shrink-0 bg-black/50">
-            <img src="eu_baixinho.jpg" alt="Foto" class="w-full h-full object-cover" onerror="handleAvatarError(this)">
-          </div>
+      <div class="flex items-center gap-3">
+        <button id="cart-btn" onclick="toggleCartModal(true)" class="relative px-4 py-2.5 bg-brand-card hover:bg-brand-border text-white border border-brand-border rounded-xl font-bold text-xs transition-all flex items-center gap-2 shadow">
+          <i class="fa-solid fa-book-open text-brand-accent"></i>
+          <span>Meu Álbum</span>
+          <span id="cart-counter" class="absolute -top-2 -right-2 bg-brand-accent text-white font-black text-[10px] w-5 h-5 rounded-full flex items-center justify-center">0</span>
+        </button>
 
-          <div class="flex flex-col items-center justify-center gap-1 text-center">
-            <span class="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-yellow-500 tracking-tight drop-shadow">
-              ◇ Paz.e.Bem ◇
-            </span>
-            <span class="text-[10px] text-amber-200/70 font-semibold tracking-wider uppercase">Painel de Gerenciamento</span>
-          </div>
+        <div class="bg-brand-card p-1 rounded-xl border border-brand-border flex gap-1">
+          <button id="btn-visitor" onclick="setViewMode('visitor')" class="px-4 py-2 rounded-lg text-xs font-bold transition-all bg-white text-black shadow">Modo Visitante</button>
+          <button id="btn-admin" onclick="setViewMode('admin')" class="px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-400 hover:text-white">Modo Bastidores</button>
+        </div>
+      </div>
+    </div>
+  </header>
 
-          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-400/80 shadow-md flex-shrink-0 bg-black/50">
-            <img src="logo.jpg" alt="Logo" class="w-full h-full object-cover" onerror="handleLogoError(this)">
+  <!-- Hero Section -->
+  <section class="relative py-12 border-b border-brand-border overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-accent/10 border border-brand-accent/30 rounded-full text-brand-accent font-bold text-xs uppercase">
+          ⟡ PAZ.E.BEM &bull; TELECARTOFILIA
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-black text-white leading-tight">
+          Cartões que guardam <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent via-pink-500 to-yellow-400">memórias.</span>
+        </h1>
+        <p class="text-slate-400 text-base leading-relaxed max-w-lg">
+          Séries completas de artes, cartões avulsos, orelhões históricos e a magia retrô da telecartofilia em um único acervo.
+        </p>
+      </div>
+
+      <div class="relative flex justify-center items-center py-8">
+        <div class="relative w-80 h-52 sm:w-96 sm:h-60 cursor-pointer" onclick="toggleViewModeToggle()">
+          <!-- Cartão Bastidores (Com minha_foto e logo Paz.e.Bem) -->
+          <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-stone-900 to-amber-950 rounded-2xl p-5 shadow-2xl card-stack-admin border border-amber-500/30 flex flex-col justify-between">
+            <div class="flex justify-between items-center">
+              <span class="font-extrabold text-white text-sm uppercase">BASTIDORES</span>
+              <span class="text-[10px] bg-amber-500/20 px-2.5 py-1 rounded-full text-amber-300 font-extrabold uppercase">JAUERAS</span>
+            </div>
+            <div class="my-auto flex items-center justify-between px-2">
+              <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-400 bg-black/50">
+                <img src="minha_foto.jpg" alt="Foto" class="w-full h-full object-cover" onerror="this.src='minha_foto.png'">
+              </div>
+              <span class="text-xl font-black text-amber-300">◇ Paz.e.Bem ◇</span>
+              <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-400 bg-black/50">
+                <img src="logo.jpg" alt="Logo" class="w-full h-full object-cover" onerror="this.src='logo.png'">
+              </div>
+            </div>
+            <div class="flex justify-between items-end border-t border-amber-500/20 pt-2.5">
+              <span class="text-[10px] font-bold text-slate-400 uppercase">Acesso Restrito</span>
+            </div>
+          </div>
+          
+          <!-- Cartão Visitante (Com logo Paz.e.Bem e minha_foto) -->
+          <div class="absolute inset-0 rounded-2xl p-5 card-stack-visitor visitor-card-green flex flex-col justify-between overflow-hidden">
+            <div class="visitor-card-inner-frame"></div>
+            <div class="flex justify-between items-center relative z-10">
+              <span class="font-black text-white text-base uppercase">TELECARTOFILIA</span>
+              <span class="text-[10px] bg-amber-400/20 px-2.5 py-1 rounded-full text-amber-200 font-extrabold uppercase">Acervo Ativo</span>
+            </div>
+            <div class="my-auto flex items-center justify-between px-2 relative z-10">
+              <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-300 bg-black/50">
+                <img src="logo.jpg" alt="Logo" class="w-full h-full object-cover" onerror="this.src='logo.png'">
+              </div>
+              <span class="text-xl font-black text-amber-200">◇ Paz.e.Bem ◇</span>
+              <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-300 bg-black/50">
+                <img src="minha_foto.jpg" alt="Foto" class="w-full h-full object-cover" onerror="this.src='minha_foto.png'">
+              </div>
+            </div>
+            <div class="flex justify-between items-end border-t border-amber-300/40 pt-2.5 relative z-10">
+              <span class="text-xs font-bold text-emerald-100 uppercase">Coleção Completa</span>
+              <span class="text-lg font-black text-amber-300" id="total-counter-badge">0 itens</span>
+            </div>
           </div>
         </div>
-        
-        <div class="flex justify-between items-end border-t border-amber-500/20 pt-2.5">
-          <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Acesso Restrito</span>
-          <span class="text-xs font-black text-brand-cyan uppercase tracking-wider flex items-center gap-1.5">
-            <i class="fa-solid fa-sliders text-[10px]"></i> Edição do Acervo
+      </div>
+    </div>
+  </section>
+
+  <!-- BUSCADOR CONTIDO COM MINHA_FOTO -->
+  <section class="max-w-4xl mx-auto px-4 -mt-6 relative z-30 mb-6 w-full">
+    <div class="bg-brand-card p-4 sm:p-5 rounded-3xl border border-brand-border shadow-2xl flex flex-col sm:flex-row items-center gap-4">
+      <div class="flex items-center gap-3 flex-shrink-0 w-full sm:w-auto justify-start">
+        <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-accent shadow-md flex-shrink-0 bg-brand-dark">
+          <img src="minha_foto.jpg" alt="Buscador" class="w-full h-full object-cover" onerror="this.src='minha_foto.png'">
+        </div>
+        <div class="flex flex-col">
+          <span class="text-[10px] font-bold text-brand-accent uppercase">ACERVO &bull; JAUERAS</span>
+          <span class="text-xs sm:text-sm font-extrabold text-white whitespace-nowrap">Oi! Como você quer procurar cartões?</span>
+        </div>
+      </div>
+      
+      <div class="flex flex-col sm:flex-row items-center gap-2 flex-grow w-full">
+        <div class="relative flex-grow w-full">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-400">
+            <i class="fa-solid fa-magnifying-glass text-brand-cyan text-xs"></i>
           </span>
+          <input type="text" id="global-search-input" oninput="renderCatalog()" placeholder="Digite nome, número ou referência..." class="w-full pl-9 pr-3 py-2.5 bg-brand-dark border border-brand-border rounded-xl text-white placeholder-slate-500 text-xs sm:text-sm outline-none focus:border-brand-cyan">
         </div>
+
+        <select id="sort-order-select" onchange="renderCatalog()" class="w-full sm:w-auto px-3 py-2.5 bg-brand-dark border border-brand-border rounded-xl text-xs font-bold text-white outline-none focus:border-brand-cyan cursor-pointer">
+          <option value="asc">A-Z (Crescente)</option>
+          <option value="desc">Z-A (Decrescente)</option>
+          <option value="price-asc">Menor Preço</option>
+          <option value="price-desc">Maior Preço</option>
+        </select>
       </div>
-      
-      <!-- Cartão Visitante -->
-      <div class="absolute inset-0 rounded-2xl p-5 card-stack-visitor visitor-card-green flex flex-col justify-between overflow-hidden">
-        <div class="visitor-card-inner-frame"></div>
+    </div>
+  </section>
 
-        <div style="position: absolute; top: -30px; left: -20px; width: 140px; height: 140px; background: rgba(52, 211, 153, 0.25); border-radius: 50%; filter: blur(25px); pointer-events: none;"></div>
-        <div style="position: absolute; bottom: -40px; right: -20px; width: 160px; height: 160px; background: rgba(16, 185, 129, 0.2); border-radius: 50%; filter: blur(30px); pointer-events: none;"></div>
-        <div style="position: absolute; top: 40%; left: 30%; width: 100px; height: 100px; background: rgba(167, 243, 208, 0.15); border-radius: 50%; filter: blur(20px); pointer-events: none;"></div>
+  <!-- Main Catálogo -->
+  <main id="catalogo" class="max-w-7xl mx-auto px-4 py-6 flex-grow w-full">
+    <div id="admin-panel" class="hidden mb-8 space-y-6">
+      <div class="p-6 bg-brand-card rounded-2xl border border-brand-cyan/40 flex justify-between items-center shadow-xl">
+        <span class="text-sm font-bold text-brand-cyan uppercase">Modo Bastidores</span>
+        <button onclick="openModal()" class="px-5 py-2.5 bg-brand-accent hover:bg-rose-600 text-white text-xs font-bold rounded-xl shadow-lg flex items-center gap-2">
+          <i class="fa-solid fa-plus"></i> Novo Cartão
+        </button>
+      </div>
+    </div>
 
-        <div class="flex justify-between items-center relative z-10">
-          <span class="font-black text-white text-base tracking-widest uppercase" style="text-shadow: 0 2px 4px rgba(0,0,0,0.6);">TELECARTOFILIA</span>
-          <span class="text-[10px] bg-amber-400/20 border border-amber-300/60 px-2.5 py-1 rounded-full text-amber-200 font-extrabold tracking-wider uppercase shadow">Acervo Ativo</span>
-        </div>
+    <div class="space-y-4 mb-8">
+      <div id="operator-container" class="border-b border-brand-border pb-4 hidden">
+        <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Filtrar por Operadora</h3>
+        <div class="flex flex-wrap items-center gap-2" id="operator-filters"></div>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2" id="type-filters">
+        <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-2">Filtrar por Tipo:</h3>
+        <button onclick="filterType('Todos')" id="btn-type-Todos" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-accent text-white shadow">Todos</button>
+        <button onclick="filterType('Completa')" id="btn-type-Completa" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-card text-slate-400 border border-brand-border">Séries Completas</button>
+        <button onclick="filterType('Lote')" id="btn-type-Lote" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-card text-slate-400 border border-brand-border">Lotes</button>
+        <button onclick="filterType('Avulso')" id="btn-type-Avulso" class="px-4 py-2 rounded-xl text-xs font-bold bg-brand-card text-slate-400 border border-brand-border">Avulsos</button>
+      </div>
+    </div>
+
+    <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+  </main>
+
+  <div id="cart-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
+    <div class="bg-brand-card p-6 rounded-3xl max-w-lg w-full space-y-4 border border-brand-border shadow-2xl flex flex-col">
+      <div class="flex justify-between items-center border-b border-brand-border pb-3">
+        <h3 class="text-base font-bold text-white">Meu Álbum</h3>
+        <button onclick="toggleCartModal(false)" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+      <div class="flex-grow overflow-y-auto space-y-3" id="cart-items-list" style="max-height: 45vh;"></div>
+      <div class="pt-3 border-t border-brand-border flex justify-between font-bold">
+        <span class="text-slate-400 text-xs uppercase">Total:</span>
+        <span id="cart-total-price" class="text-brand-accent text-lg">R$ 0,00</span>
+      </div>
+      <button onclick="checkoutWhatsApp()" class="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs flex items-center justify-center gap-2">
+        <i class="fa-brands fa-whatsapp"></i> Enviar Pedido
+      </button>
+    </div>
+  </div>
+
+  <div id="zoom-modal" class="fixed inset-0 bg-black/90 backdrop-blur-md hidden items-center justify-center p-4 z-50 cursor-pointer" onclick="closeZoomModal()">
+    <div class="relative max-w-4xl w-full flex flex-col items-center">
+      <img id="zoom-modal-img" src="" class="max-h-[85vh] max-w-full object-contain rounded-2xl shadow-2xl">
+      <p id="zoom-modal-title" class="text-white text-base font-bold mt-4"></p>
+    </div>
+  </div>
+
+  <script>
+    const DEFAULT_OPS = ["Sercomtel", "Telefonica", "Telebrás", "Brasil Telecom", "Embratel", "CRT", "Oi", "Telemar", "Ceterp", "CTBC", "Telepar", "Telesc", "Telemig", "Telegoias", "Telerj", "Claro", "TIM", "Outras"];
+    let externalCards = [];
+    let cart = JSON.parse(localStorage.getItem('tc_cart_items')) || [];
+    let soldCards = JSON.parse(localStorage.getItem('tc_sold_cards')) || [];
+    let selectedOp = 'Todos';
+    let selectedType = 'Todos';
+    let isAdminMode = false;
+
+    function normalizeText(t) {
+      return (t || '').toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+    }
+
+    function matchOperator(op1, op2) {
+      return normalizeText(op1) === normalizeText(op2);
+    }
+
+    function parseExternal(rawData, defaultOp) {
+      if (!rawData) return;
+      let items = Array.isArray(rawData) ? rawData : (rawData[Object.keys(rawData).find(k => Array.isArray(rawData[k]))] || []);
+      items.forEach(item => {
+        let title = item.title || item.name || 'Cartão';
+        let op = item.operator || defaultOp;
+        let cardId = item.id || 'ext-' + Math.random();
+        let ref = item.ref || item.code || '';
+        let price = parseFloat(item.price) || 2.00;
         
-        <div class="my-auto flex items-center justify-between px-2 relative z-10">
-          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-300 shadow-md flex-shrink-0 bg-black/50">
-            <img src="logo.jpg" alt="Logo" class="w-full h-full object-cover" onerror="handleLogoError(this)">
-          </div>
-
-          <div class="flex flex-col items-center justify-center gap-1 text-center">
-            <span class="text-xl font-black text-amber-200 tracking-tight" style="text-shadow: 0 2px 6px rgba(0,0,0,0.7);">
-              ◇ Paz.e.Bem ◇
-            </span>
-            <i class="fa-solid fa-phone text-amber-300 text-xs"></i>
-          </div>
-
-          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-amber-300 shadow-md flex-shrink-0 bg-black/50">
-            <img src="eu_baixinho.jpg" alt="Foto" class="w-full h-full object-cover" onerror="handleAvatarError(this)">
-          </div>
-        </div>
+        let opFolder = normalizeText(op).replace(/\s+/g, '_');
+        if (opFolder.includes('brasil')) opFolder = 'brasil_telecom';
         
-        <div class="flex justify-between items-end border-t border-amber-300/40 pt-2.5 relative z-10">
-          <span class="text-xs font-bold text-emerald-100 uppercase tracking-wider">Coleção Completa</span>
-          <span class="text-lg font-black text-amber-300" style="text-shadow: 0 2px 4px rgba(0,0,0,0.6);" id="total-counter-badge">0 itens</span>
-        </div>
-      </div>
+        let img = item.image || `fotos/${opFolder}/${ref}.JPG`;
 
-    </div>
-  </div>
-</div>
+        externalCards.push({ 
+          id: cardId, 
+          title, 
+          serie: item.serie || '', 
+          ref, 
+          operator: op, 
+          price, 
+          image: img, 
+          type: normalizeText(title).includes('completa') ? 'Completa' : 'Avulso' 
+        });
+      });
+    }
 
+    try { parseExternal(window.sercomtelData, "Sercomtel"); } catch(e){}
+    try { parseExternal(window.telefonicaData, "Telefônica"); } catch(e){}
+    try { parseExternal(window.telebrasData, "Telebrás"); } catch(e){}
+    try { parseExternal(window.embratelData, "Embratel"); } catch(e){}
+    try { parseExternal(window.brasiltelecomData, "Brasil Telecom"); } catch(e){}
+    try { parseExternal(window.crtData, "CRT"); } catch(e){}
+    try { parseExternal(window.oiData, "Oi"); } catch(e){}
+    try { parseExternal(window.telemarData, "Telemar"); } catch(e){}
+    try { parseExternal(window.ceterpData, "Ceterp"); } catch(e){}
+    try { parseExternal(window.ctbcData, "CTBC"); } catch(e){}
+    try { parseExternal(window.teleparData, "Telepar"); } catch(e){}
+    try { parseExternal(window.telescData, "Telesc"); } catch(e){}
+    try { parseExternal(window.telemigData, "Telemig"); } catch(e){}
+    try { parseExternal(window.telegoiasData, "Telegoias"); } catch(e){}
+    try { parseExternal(window.telerjData, "Telerj"); } catch(e){}
 
-  <div class="flex flex-col sm:flex-row items-center gap-2 flex-grow w-full">
-    <div class="relative flex-grow w-full">
-      <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-400">
-        <i class="fa-solid fa-magnifying-glass text-brand-cyan text-xs"></i>
-      </span>
-      <input type="text" id="global-search-input" oninput="renderCatalog()" placeholder="Digite nome, número ou referência..." class="w-full pl-9 pr-3 py-2.5 bg-brand-dark border border-brand-border rounded-xl text-white placeholder-slate-500 text-xs sm:text-sm outline-none focus:border-brand-cyan">
-    </div>
-  </div>
-</div>
+    let cards = [...externalCards];
 
+    window.onload = () => {
+      renderFilters();
+      renderCatalog();
+      updateCartUI();
+    };
 
-    <div class="flex flex-wrap gap-2 w-full sm:w-auto">
-      <button onclick="filterMissingImages()" class="flex-1 sm:flex-none px-4 py-3 bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2" title="Listar cartões que ainda não têm imagem vinculada">
-        <i class="fa-solid fa-triangle-exclamation"></i> Sem Foto (<span id="missing-photo-count">0</span>)
-      </button>
-      <button onclick="openLinkerModal()" class="flex-1 sm:flex-none px-4 py-3 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
-        <i class="fa-solid fa-list-check"></i> Vinculador Rápido
-      </button>
-      <button onclick="openExportModal()" class="flex-1 sm:flex-none px-4 py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
-        <i class="fa-solid fa-download"></i> Baixar JS
-      </button>
-      <button onclick="openModal()" class="flex-1 sm:flex-none px-4 py-3 bg-brand-accent hover:bg-rose-600 text-white text-xs font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
-        <i class="fa-solid fa-plus"></i> Novo Cartão
-      </button>
-    </div>
-  </div>
+    function voltarAoTopo() { window.scrollTo({ top: 0, behavior: "smooth" }); }
 
-  <div class="p-6 bg-brand-card/70 rounded-2xl border border-emerald-500/30 shadow-xl space-y-4">
-    <div class="flex items-center justify-between border-b border-brand-border pb-3">
-      <div class="flex items-center gap-2">
-        <i class="fa-solid fa-handshake text-emerald-400"></i>
-        <h3 class="text-sm font-bold text-white uppercase tracking-wider">Histórico de Cartões Vendidos</h3>
-      </div>
-      <span id="sold-counter-badge" class="text-xs font-bold bg-emerald-500/20 text-emerald-300 px-2.5 py-1 rounded-full border border-emerald-500/30">0 vendidos</span>
-    </div>
-    <div id="sold-list-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
-  </div>
-</div>
+    function setViewMode(mode) {
+      isAdminMode = mode === 'admin';
+      document.body.classList.toggle('admin-mode', isAdminMode);
+      document.getElementById('admin-panel').classList.toggle('hidden', !isAdminMode);
+      document.getElementById('cart-btn').style.display = isAdminMode ? 'none' : 'flex';
+      renderCatalog();
+    }
 
-<!-- Filtros -->
-<div class="space-y-4 mb-8">
-  <div id="operator-container" class="border-b border-brand-border pb-4 hidden">
-    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Filtrar por Operadora</h3>
-    <div class="flex flex-wrap items-center gap-2" id="operator-filters"></div>
-  </div>
+    function toggleViewModeToggle() { setViewMode(isAdminMode ? 'visitor' : 'admin'); }
 
-  <div class="flex flex-wrap items-center gap-2" id="type-filters">
-    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-2">Filtrar por Tipo:</h3>
-    <button onclick="filterType('Todos')" id="btn-type-Todos" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-accent text-white shadow">Todos</button>
-    <button onclick="filterType('Completa')" id="btn-type-Completa" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-card text-slate-400 border border-brand-border hover:text-white">Séries Completas</button>
-    <button onclick="filterType('Lote')" id="btn-type-Lote" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-card text-slate-400 border border-brand-border hover:text-white">Lotes</button>
-    <button onclick="filterType('Avulso')" id="btn-type-Avulso" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-brand-card text-slate-400 border border-brand-border hover:text-white">Avulsos</button>
-    <button onclick="filterType('SemFoto')" id="btn-type-SemFoto" class="px-4 py-2 rounded-xl text-xs font-bold transition-all bg-amber-600/20 text-amber-300 border border-amber-500/40 hover:bg-amber-600 hover:text-white transition-all hidden">Sem Foto</button>
-  </div>
-</div>
-
-<!-- Grid de Cartões -->
-<div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
-
-
-  <div class="flex-grow overflow-y-auto space-y-3 pr-1" id="cart-items-list" style="max-height: 45vh;"></div>
-
-  <div class="pt-3 border-t border-brand-border flex-shrink-0 space-y-3">
-    <div class="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-[11px] text-amber-300 leading-snug flex items-start gap-2">
-      <i class="fa-solid fa-circle-info text-amber-400 text-xs mt-0.5 flex-shrink-0"></i>
-      <span><strong>Aviso de Reserva:</strong> Ao enviar o pedido, a disponibilidade dos cartões selecionados será confirmada diretamente com o colecinador pelo WhatsApp.</span>
-    </div>
-
-    <div class="flex justify-between items-center font-bold">
-      <span class="text-slate-400 text-xs uppercase tracking-wider">Total Estimado:</span>
-      <span id="cart-total-price" class="text-brand-accent text-lg font-black">R$ 0,00</span>
-    </div>
-    <div class="flex gap-2">
-      <button onclick="toggleCartModal(false)" class="flex-1 py-3 bg-brand-dark hover:bg-brand-border text-slate-300 font-bold rounded-xl text-xs transition-all">Fechar</button>
-      <button onclick="checkoutWhatsApp()" class="flex-1 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/30">
-        <i class="fa-brands fa-whatsapp text-sm"></i> Enviar Pedido
-      </button>
-    </div>
-  </div>
-</div>
-
-
-  <p class="text-slate-400 leading-relaxed flex-shrink-0">
-    Escolha abaixo qual(is) operadora(s) ativa(s) você deseja gerar e baixar os arquivos atualizados com suas edições e correções:
-  </p>
-
-  <div class="space-y-2 py-2 overflow-y-auto flex-grow pr-1 max-h-[50vh]" id="export-checkboxes-container"></div>
-
-  <div class="flex justify-end gap-2 pt-3 border-t border-brand-border flex-shrink-0">
-    <button type="button" onclick="closeExportModal()" class="px-4 py-2.5 bg-brand-dark text-slate-300 font-bold rounded-xl hover:bg-brand-border transition-all">Cancelar</button>
-    <button type="button" onclick="downloadSelectedJS()" class="px-5 py-2.5 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-500 transition-all shadow-lg shadow-indigo-600/30">Baixar Selecionados</button>
-  </div>
-</div>
-
-
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-5 flex-grow overflow-hidden text-xs">
-    
-    <!-- Painel Esquerdo -->
-    <div class="md:col-span-4 flex flex-col gap-3 border-r border-brand-border pr-4 overflow-y-auto">
-      <div>
-        <label class="block text-slate-400 mb-1 font-semibold">1. Operadora</label>
-        <select id="linker-operator" onchange="loadOperatorCardsForQueue()" class="w-full p-2.5 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-emerald-500 outline-none font-bold"></select>
-      </div>
-
-      <div>
-        <label class="block text-slate-400 mb-1 font-semibold">2. Arquivos de Imagem da Pasta</label>
-        <label class="w-full py-2.5 bg-brand-dark hover:bg-brand-border border-2 border-dashed border-emerald-500/50 rounded-xl flex items-center justify-center gap-2 cursor-pointer transition-all">
-          <i class="fa-solid fa-folder-open text-emerald-400"></i>
-          <span class="text-white font-bold">Escolher Imagens (JPG/JPEG)</span>
-          <input type="file" id="queue-file-input" multiple accept="image/jpeg,image/jpg" class="hidden" onchange="handleQueueFiles(event)">
-        </label>
-      </div>
-
-      <div class="flex-grow flex flex-col items-center justify-center bg-brand-dark p-3 rounded-2xl border border-brand-border min-h-[220px] relative">
-        <div id="current-image-preview-container" class="w-full h-44 flex items-center justify-center overflow-hidden rounded-xl bg-black/40 border border-brand-border mb-2">
-          <span class="text-slate-500 text-center px-4 italic">Nenhuma foto carregada ainda.</span>
-        </div>
-        
-        <span id="current-image-name" class="text-brand-cyan font-bold truncate w-full text-center px-2"></span>
-        <span id="current-image-counter" class="text-slate-400 text-[10px] mt-0.5">Foto 0 de 0</span>
-
-        <div class="flex items-center gap-2 w-full mt-3">
-          <button onclick="prevQueueImage()" class="flex-1 py-2 bg-brand-card hover:bg-brand-border text-white font-bold rounded-xl border border-brand-border transition-all flex items-center justify-center gap-1">
-            <i class="fa-solid fa-chevron-left"></i> Anterior
-          </button>
-          <button onclick="nextQueueImage()" class="flex-1 py-2 bg-brand-card hover:bg-brand-border text-white font-bold rounded-xl border border-brand-border transition-all flex items-center justify-center gap-1">
-            Próxima <i class="fa-solid fa-chevron-right"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Painel Direito -->
-    <div class="md:col-span-8 flex flex-col gap-3 overflow-hidden">
-      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 border-b border-brand-border pb-2">
-        <span class="font-bold text-slate-300">Escolha a "casinha" (cartão) para alocar a foto atual:</span>
-        <span id="pending-cards-count" class="text-emerald-400 font-bold bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">0 cartões</span>
-      </div>
-
-      <div class="relative">
-        <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </span>
-        <input type="text" id="card-search-input" oninput="loadOperatorCardsForQueue()" placeholder="Digite parte do nome da série ou código para filtrar..." class="w-full pl-9 pr-4 py-2.5 bg-brand-dark border border-brand-border rounded-xl text-white placeholder-slate-500 text-xs outline-none focus:border-brand-cyan transition-all">
-      </div>
+    function renderFilters() {
+      const container = document.getElementById('operator-filters');
+      const wrapper = document.getElementById('operator-container');
+      const ops = ["Todos", ...DEFAULT_OPS.filter(op => cards.some(c => matchOperator(c.operator, op)))];
       
-      <div class="flex-grow overflow-y-auto space-y-2.5 pr-2" id="queue-cards-list" style="max-height: 420px;">
-        <div class="text-center py-16 text-slate-500 italic">Selecione uma operadora e carregue as fotos para começar.</div>
-      </div>
-    </div>
+      wrapper.classList.remove('hidden');
+      container.innerHTML = ops.map(op => `
+        <button onclick="filterOperator('${op}')" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${matchOperator(selectedOp, op) ? 'bg-brand-accent text-white shadow' : 'bg-brand-card text-slate-400 border border-brand-border'}">${op}</button>
+      `).join('');
+    }
 
-  </div>
+    function filterOperator(op) { selectedOp = op; renderFilters(); renderCatalog(); }
+    function filterType(type) { selectedType = type; renderCatalog(); }
 
-  <div class="flex justify-between items-center pt-3 border-t border-brand-border flex-shrink-0">
-    <span class="text-xs text-slate-400">Dica: A foto vinculada usará o nome do arquivo JPG para organizar seu acervo perfeitamente.</span>
-    <button type="button" onclick="closeLinkerModal()" class="px-6 py-2.5 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-500 transition-all shadow-lg shadow-emerald-600/20">Concluir e Salvar Vínculos</button>
-  </div>
-</div>
+    function openZoomModal(src, title) {
+      document.getElementById('zoom-modal-img').src = src;
+      document.getElementById('zoom-modal-title').innerText = title;
+      document.getElementById('zoom-modal').classList.remove('hidden');
+      document.getElementById('zoom-modal').classList.add('flex');
+    }
+    function closeZoomModal() { document.getElementById('zoom-modal').classList.add('hidden'); }
 
+    function renderCatalog() {
+      const grid = document.getElementById('catalog-grid');
+      const query = normalizeText(document.getElementById('global-search-input').value);
+      const sortOrder = document.getElementById('sort-order-select').value;
 
-  <form onsubmit="saveCard(event)" class="space-y-3 text-xs">
-    <input type="hidden" id="f-id">
-    <div>
-      <label class="block text-slate-400 mb-1 font-semibold">Nome do Cartão (ex: Mariana / card nº 1)</label>
-      <input type="text" id="f-title" placeholder="Ex: Mariana" required class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none">
-    </div>
+      let items = cards.filter(c => {
+        let matchOp = (selectedOp === 'Todos' || matchOperator(c.operator, selectedOp));
+        let matchType = (selectedType === 'Todos' || c.type === selectedType);
+        let matchQuery = !query || normalizeText(c.title).includes(query) || normalizeText(c.ref).includes(query) || normalizeText(c.serie).includes(query);
+        return matchOp && matchType && matchQuery;
+      });
 
-    <div>
-      <label class="block text-slate-400 mb-1 font-semibold">Nome da Série (ex: Série Propaganda / Cidades Hist. MG)</label>
-      <input type="text" id="f-serie" placeholder="Ex: Série Propaganda" class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-amber-400 outline-none">
-    </div>
+      items.sort((a, b) => {
+        if (sortOrder === 'asc') return a.title.localeCompare(b.title);
+        if (sortOrder === 'desc') return b.title.localeCompare(a.title);
+        if (sortOrder === 'price-asc') return a.price - b.price;
+        if (sortOrder === 'price-desc') return b.price - a.price;
+        return 0;
+      });
 
-    <div>
-      <label class="block text-slate-400 mb-1 font-semibold">Nº de Referência (ex: 001-SERC-PRO-AV.01)</label>
-      <input type="text" id="f-ref" placeholder="Ex: 001-SERC-PRO-AV.01" class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-cyan outline-none font-bold">
-    </div>
-    
-    <div class="grid grid-cols-2 gap-3">
-      <div>
-        <label class="block text-slate-400 mb-1 font-semibold">Operadora</label>
-        <select id="f-operator" required class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none font-bold"></select>
-      </div>
-      <div>
-        <label class="block text-slate-400 mb-1 font-semibold">Preço (R$)</label>
-        <input type="number" id="f-price" step="0.01" placeholder="2.00" required class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none">
-      </div>
-    </div>
+      document.getElementById('total-counter-badge').innerText = `${cards.length} itens`;
 
-    <div>
-      <label class="block text-slate-400 mb-1 font-semibold">Caminho da Imagem JPG (.jpg / .JPG)</label>
-      <input type="text" id="f-image" placeholder="Ex: fotos/ceterp/001-RP-PROP-AV01.jpg" class="w-full p-3 bg-brand-dark border border-brand-border rounded-xl text-white focus:border-brand-accent outline-none mb-2">
-      
-      <label class="w-full py-2 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl flex items-center justify-center gap-2 cursor-pointer transition-all text-slate-300">
-        <i class="fa-solid fa-folder-open text-emerald-400"></i>
-        <span class="font-bold text-xs">Selecionar Arquivo JPG da Pasta</span>
-        <input type="file" id="f-file-upload" accept="image/jpeg,image/jpg" class="hidden" onchange="handleSingleFileSelect(event)">
-      </label>
-    </div>
+      if (items.length === 0) {
+        grid.innerHTML = `<div class="col-span-full text-center py-16 text-slate-500">Nenhum cartão encontrado.</div>`;
+        return;
+      }
 
-    <div class="flex justify-end gap-2 pt-3">
-      <button type="button" onclick="closeModal()" class="px-4 py-2.5 bg-brand-dark text-slate-300 font-bold rounded-xl hover:bg-brand-border transition-all">Cancelar</button>
-      <button type="button" onclick="eraseCardImage()" class="px-4 py-2.5 bg-orange-600 text-white font-bold rounded-xl hover:bg-orange-500 transition-all">🧽 Apagar Imagem</button>
-      <button type="submit" class="px-5 py-2.5 bg-brand-accent text-white font-bold rounded-xl hover:bg-rose-600 transition-all">Salvar Cartão</button>
-    </div>
-  </form>
-</div>
+      grid.innerHTML = items.map(c => {
+        const inCart = cart.includes(c.id);
+        return `
+          <div class="catalog-card-container">
+            <div class="catalog-card-image cursor-pointer" onclick="openZoomModal('${c.image}', '${c.title}')">
+              <img src="${c.image}" class="main-card-img" onerror="this.onerror=null; this.src='https://via.placeholder.com/300?text=Sem+Foto'">
+              <div class="card-logo-center"><img src="logo.jpg" onerror="this.onerror=null; this.src='logo.png'"></div>
+              <div class="card-brand-vertical">Jaueras</div>
+            </div>
+            <div class="space-y-1">
+              <div class="card-ref-text"># ${c.ref || 'S/Ref'}</div>
+              <div class="card-serie-text">${c.serie || c.operator}</div>
+              <div class="card-footer-info">
+                <div class="card-title-row">
+                  <div class="card-title-text">${c.title}</div>
+                  <div class="card-price-text">R$ ${c.price.toFixed(2)}</div>
+                </div>
+              </div>
+              <button onclick="toggleCart('${c.id}')" class="w-full mt-2 py-2.5 bg-brand-accent hover:bg-rose-600 text-white rounded-xl text-xs font-bold transition-all">
+                ${inCart ? 'No Álbum' : 'Adicionar ao Álbum'}
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function toggleCart(id) {
+      if (!cart.includes(id)) cart.push(id);
+      else cart = cart.filter(i => i !== id);
+      localStorage.setItem('tc_cart_items', JSON.stringify(cart));
+      updateCartUI();
+      renderCatalog();
+    }
+
+    function updateCartUI() {
+      document.getElementById('cart-counter').innerText = cart.length;
+    }
+
+    function toggleCartModal(open) {
+      const m = document.getElementById('cart-modal');
+      m.classList.toggle('hidden', !open);
+      m.classList.toggle('flex', open);
+      if (open) {
+        const listContainer = document.getElementById('cart-items-list');
+        const totalPriceEl = document.getElementById('cart-total-price');
+        const cartItems = cards.filter(c => cart.includes(c.id));
+        let total = 0;
+
+        if (cartItems.length === 0) {
+          listContainer.innerHTML = `<div class="text-center py-12 text-slate-500 text-xs italic">Seu álbum está vazio.</div>`;
+          totalPriceEl.innerText = 'R$ 0,00';
+          return;
+        }
+
+        listContainer.innerHTML = cartItems.map(c => {
+          total += c.price;
+          return `
+            <div class="bg-brand-dark p-3 rounded-xl border border-brand-border flex items-center justify-between gap-3">
+              <div class="flex items-center gap-3 overflow-hidden">
+                <div class="w-12 h-12 rounded-lg bg-brand-card overflow-hidden flex-shrink-0 flex items-center justify-center border border-brand-border" style="height: 3rem;">
+                  <img src="${c.image}" class="w-full h-full object-contain" onerror="this.src='https://via.placeholder.com/100?text=Sem+Foto';">
+                </div>
+                <div class="truncate">
+                  <h5 class="text-white text-xs font-bold truncate">${c.title}</h5>
+                  <p class="text-[10px] text-brand-accent font-semibold">R$ ${c.price.toFixed(2)} &bull; ${c.operator}</p>
+                </div>
+              </div>
+              <button onclick="toggleCart('${c.id}'); toggleCartModal(true);" class="text-slate-500 hover:text-red-400 p-2"><i class="fa-solid fa-trash text-xs"></i></button>
+            </div>
+          `;
+        }).join('');
+        totalPriceEl.innerText = `R$ ${total.toFixed(2)}`;
+      }
+    }
+  </script>
+</body>
+</html>
