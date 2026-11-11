@@ -378,22 +378,77 @@
     </div>
   </div>
 
-  <!-- MODAL VINCULADOR RÁPIDO (NOVO) -->
+  <!-- MODAL VINCULADOR RÁPIDO (DESIGN PROFISSIONAL DE DUAS COLUNAS) -->
   <div id="linker-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 z-50">
-    <div class="bg-brand-card p-6 rounded-3xl max-w-2xl w-full space-y-4 border border-emerald-500/40 shadow-2xl text-xs flex flex-col max-h-[85vh]">
-      <div class="flex justify-between items-center border-b border-brand-border pb-3">
-        <h3 class="text-base font-bold text-white flex items-center gap-2">
-          <i class="fa-solid fa-list-check text-emerald-400"></i> Vinculador Rápido de Imagens
-        </h3>
-        <button onclick="closeLinkerModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
-      </div>
-      <p class="text-slate-400 text-[11px]">Listando abaixo todos os cartões que estão sem foto ou com erro. Digite ou cole o caminho exato da imagem (ex: <code class="text-brand-cyan">fotos/telefonica/123.JPG</code>) e clique em Salvar:</p>
+    <div class="bg-brand-card p-6 rounded-3xl max-w-5xl w-full space-y-6 border border-emerald-500/40 shadow-2xl text-xs flex flex-col max-h-[90vh]">
       
-      <div class="flex-grow overflow-y-auto space-y-3 pr-1" id="linker-list-container"></div>
-
-      <div class="flex justify-end pt-3 border-t border-brand-border">
-        <button onclick="closeLinkerModal()" class="px-5 py-2.5 bg-brand-dark text-slate-300 font-bold rounded-xl">Fechar</button>
+      <!-- Cabeçalho -->
+      <div class="flex justify-between items-center border-b border-brand-border pb-4">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-list-check text-emerald-400"></i> Vinculador Rápido de Fotos (Alocação Visual Direta)
+        </h3>
+        <button onclick="closeLinkerModal()" class="text-slate-400 hover:text-white text-lg"><i class="fa-solid fa-xmark"></i></button>
       </div>
+
+      <!-- Corpo em Duas Colunas -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 flex-grow overflow-hidden">
+        
+        <!-- Coluna Esquerda: Controles e Prévia de Imagens -->
+        <div class="lg:col-span-5 flex flex-col gap-4 bg-brand-dark p-4 rounded-2xl border border-brand-border">
+          <div>
+            <label class="block text-slate-400 font-semibold mb-1.5 uppercase text-[10px]">1. Operadora</label>
+            <select id="linker-op-select" onchange="updateLinkerCardsList()" class="w-full p-2.5 bg-brand-card border border-brand-border rounded-xl text-white font-bold outline-none focus:border-emerald-500">
+              <!-- Preenchido dinamicamente -->
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-slate-400 font-semibold mb-1.5 uppercase text-[10px]">2. Arquivos de Imagem da Pasta</label>
+            <label class="flex items-center justify-center gap-2 p-3 bg-brand-card border border-dashed border-emerald-500/60 rounded-xl cursor-pointer hover:border-emerald-400 text-emerald-400 font-bold transition-all">
+              <i class="fa-solid fa-folder-open"></i> Escolher Imagens (JPG/JPEG)
+              <input type="file" id="linker-file-input" multiple accept="image/*" onchange="handleLinkerFiles(event)" class="hidden">
+            </label>
+          </div>
+
+          <!-- Caixa de Prévia da Foto Atual -->
+          <div class="flex-grow bg-brand-card rounded-xl border border-brand-border p-3 flex flex-col items-center justify-center relative min-h-[180px]">
+            <div id="linker-preview-container" class="w-full h-36 flex items-center justify-center overflow-hidden rounded-lg bg-black/40">
+              <span class="text-slate-500 italic text-[11px]">Nenhuma foto carregada ainda.</span>
+            </div>
+            <div class="text-[10px] text-slate-400 mt-2 font-mono" id="linker-preview-counter">Foto 0 de 0</div>
+            
+            <div class="flex items-center gap-2 w-full mt-3">
+              <button onclick="linkerPrevPhoto()" class="flex-1 py-2 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold transition-all"><i class="fa-solid fa-chevron-left mr-1"></i> Anterior</button>
+              <button onclick="linkerNextPhoto()" class="flex-1 py-2 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold transition-all">Próxima <i class="fa-solid fa-chevron-right ml-1"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna Direita: Seleção de Casinhas e Filtro -->
+        <div class="lg:col-span-7 flex flex-col gap-3 bg-brand-dark p-4 rounded-2xl border border-brand-border overflow-hidden">
+          <div class="flex justify-between items-center">
+            <span class="text-slate-400 uppercase text-[10px] font-semibold">Escolha a "casinha" (cartão) para alocar a foto atual:</span>
+            <span id="linker-cards-count-badge" class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2.5 py-0.5 rounded-full border border-emerald-500/30 font-bold">0 cartões encontrados</span>
+          </div>
+
+          <!-- Filtro de busca interno -->
+          <div class="relative">
+            <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-500"><i class="fa-solid fa-magnifying-glass text-xs"></i></span>
+            <input type="text" id="linker-search-input" oninput="renderLinkerCardsItems()" placeholder="Digite parte do nome da série ou código para filtrar..." class="w-full pl-8 pr-3 py-2 bg-brand-card border border-brand-border rounded-xl text-white placeholder-slate-500 text-xs outline-none focus:border-emerald-500">
+          </div>
+
+          <!-- Lista de Cartões da Operadora -->
+          <div class="flex-grow overflow-y-auto space-y-2 pr-1" id="linker-cards-scroll-container" style="max-height: 380px;"></div>
+        </div>
+
+      </div>
+
+      <!-- Rodapé do Modal -->
+      <div class="flex justify-between items-center pt-3 border-t border-brand-border">
+        <span class="text-[11px] text-slate-400">Dica: A foto vinculada usará o nome do arquivo JPG para organizar seu acervo perfeitamente.</span>
+        <button onclick="closeLinkerModal()" class="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs shadow-lg transition-all">Concluir e Salvar Vínculos</button>
+      </div>
+
     </div>
   </div>
 
@@ -452,6 +507,10 @@
     let selectedOp = 'Todos';
     let selectedType = 'Todos';
     let isAdminMode = false;
+
+    // Estado do Vinculador Rápido
+    let linkerFiles = [];
+    let linkerCurrentIndex = 0;
 
     function normalizeText(t) {
       return (t || '').toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
@@ -512,7 +571,6 @@
     try { parseExternal(window.telegoiasData, "Telegoias"); } catch(e){}
     try { parseExternal(window.telerjData, "Telerj"); } catch(e){}
 
-    // Evitar qualquer duplicação por ID
     let uniqueMap = new Map();
     externalCards.forEach(c => uniqueMap.set(c.id, c));
     externalCards = Array.from(uniqueMap.values());
@@ -813,6 +871,12 @@
     function populateOperatorSelect() {
       const select = document.getElementById('f-operator');
       if (select) select.innerHTML = DEFAULT_OPS.map(op => `<option value="${op}">${op}</option>`).join('');
+
+      const linkerSelect = document.getElementById('linker-op-select');
+      if (linkerSelect) {
+        const ops = DEFAULT_OPS.filter(op => cards.some(c => matchOperator(c.operator, op)));
+        linkerSelect.innerHTML = ops.map(op => `<option value="${op}">${op}</option>`).join('');
+      }
     }
 
     function openModal() {
@@ -882,9 +946,6 @@
       }
       closeModal();
       renderCatalog();
-      if(!document.getElementById('linker-modal').classList.contains('hidden')) {
-        openLinkerModal();
-      }
     }
 
     function openExportModal() {
@@ -923,31 +984,13 @@
       closeExportModal();
     }
 
-    // FUNÇÕES DO VINCULADOR RÁPIDO
+    // --- LOGICA DO VINCULADOR RÁPIDO PROFISSIONAL ---
     function openLinkerModal() {
-      const container = document.getElementById('linker-list-container');
-      const missingCards = cards.filter(c => !c.image || c.image.trim() === '' || c.imageHasError);
-
-      if (missingCards.length === 0) {
-        container.innerHTML = `<div class="text-center py-12 text-emerald-400 font-bold">Maravilha! Não há cartões sem foto no momento.</div>`;
-      } else {
-        container.innerHTML = missingCards.map(c => `
-          <div class="bg-brand-dark p-3 rounded-xl border border-brand-border flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div class="flex items-center gap-3 w-full sm:w-auto overflow-hidden">
-              <div class="w-12 h-12 rounded-lg bg-brand-card flex-shrink-0 flex items-center justify-center border border-brand-border text-[10px] text-amber-500 font-bold">Sem Foto</div>
-              <div class="truncate">
-                <h5 class="text-white text-xs font-bold truncate">${c.title}</h5>
-                <p class="text-[10px] text-brand-cyan font-mono">Ref: ${c.ref || 'S/Ref'} &bull; ${c.operator}</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-2 w-full sm:w-auto">
-              <input type="text" id="linker-input-${c.id}" value="${c.image || ''}" placeholder="ex: fotos/telefonica/123.JPG" class="p-2 bg-brand-card border border-brand-border rounded-xl text-white text-xs w-full sm:w-64 outline-none focus:border-emerald-500 font-mono">
-              <button onclick="saveLinkerImage('${c.id}')" class="px-3 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs whitespace-nowrap">Salvar</button>
-            </div>
-          </div>
-        `).join('');
-      }
-
+      populateOperatorSelect();
+      linkerFiles = [];
+      linkerCurrentIndex = 0;
+      updateLinkerPreview();
+      updateLinkerCardsList();
       document.getElementById('linker-modal').classList.remove('hidden');
       document.getElementById('linker-modal').classList.add('flex');
     }
@@ -955,32 +998,129 @@
     function closeLinkerModal() {
       document.getElementById('linker-modal').classList.add('hidden');
       document.getElementById('linker-modal').classList.remove('flex');
+      renderCatalog();
     }
 
-    function saveLinkerImage(id) {
-      const input = document.getElementById(`linker-input-${id}`);
-      if (!input) return;
-      const newImg = input.value.trim();
+    function handleLinkerFiles(event) {
+      const files = Array.from(event.target.files);
+      if (files.length === 0) return;
+      linkerFiles = files.map(file => ({
+        name: file.name,
+        url: URL.createObjectURL(file)
+      }));
+      linkerCurrentIndex = 0;
+      updateLinkerPreview();
+    }
 
-      const c = cards.find(item => item.id === id);
+    function updateLinkerPreview() {
+      const container = document.getElementById('linker-preview-container');
+      const counter = document.getElementById('linker-preview-counter');
+      if (linkerFiles.length === 0) {
+        container.innerHTML = `<span class="text-slate-500 italic text-[11px]">Nenhuma foto carregada ainda.</span>`;
+        counter.innerText = `Foto 0 de 0`;
+        return;
+      }
+      const current = linkerFiles[linkerCurrentIndex];
+      container.innerHTML = `<img src="${current.url}" class="max-h-full max-w-full object-contain rounded">`;
+      counter.innerText = `Foto ${linkerCurrentIndex + 1} de ${linkerFiles.length} (${current.name})`;
+    }
+
+    function linkerPrevPhoto() {
+      if (linkerFiles.length === 0) return;
+      linkerCurrentIndex = (linkerCurrentIndex - 1 + linkerFiles.length) % linkerFiles.length;
+      updateLinkerPreview();
+    }
+
+    function linkerNextPhoto() {
+      if (linkerFiles.length === 0) return;
+      linkerCurrentIndex = (linkerCurrentIndex + 1) % linkerFiles.length;
+      updateLinkerPreview();
+    }
+
+    function updateLinkerCardsList() {
+      renderLinkerCardsItems();
+    }
+
+    function renderLinkerCardsItems() {
+      const opSelect = document.getElementById('linker-op-select');
+      const searchInput = document.getElementById('linker-search-input');
+      const container = document.getElementById('linker-cards-scroll-container');
+      const countBadge = document.getElementById('linker-cards-count-badge');
+
+      if (!opSelect || !container) return;
+      const opName = opSelect.value;
+      const query = normalizeText(searchInput ? searchInput.value : '');
+
+      let opCards = cards.filter(c => matchOperator(c.operator, opName));
+      if (query) {
+        opCards = opCards.filter(c => normalizeText(c.title).includes(query) || normalizeText(c.ref).includes(query) || normalizeText(c.serie).includes(query));
+      }
+
+      countBadge.innerText = `${opCards.length} cartões encontrados`;
+
+      if (opCards.length === 0) {
+        container.innerHTML = `<div class="text-center py-12 text-slate-500 italic text-xs">Nenhum cartão encontrado para esta operadora.</div>`;
+        return;
+      }
+
+      container.innerHTML = opCards.map(c => {
+        const hasPhoto = c.image && c.image.trim() !== '' && !c.imageHasError;
+        let opFolder = normalizeText(c.operator).replace(/\s+/g, '_');
+        if (opFolder.includes('brasil')) opFolder = 'brasil_telecom';
+        const suggestedPath = `fotos/${opFolder}/${c.ref || 'foto'}.JPG`;
+
+        return `
+          <div class="bg-brand-card p-3 rounded-xl border border-brand-border flex items-center justify-between gap-3">
+            <div class="flex items-center gap-3 overflow-hidden">
+              <div class="w-12 h-12 rounded-lg bg-brand-dark flex-shrink-0 flex items-center justify-center border border-brand-border overflow-hidden">
+                ${hasPhoto ? `<img src="${c.image}" class="w-full h-full object-contain">` : `<span class="text-[9px] text-amber-500 font-bold">Sem Foto</span>`}
+              </div>
+              <div class="truncate">
+                <h5 class="text-white text-xs font-bold truncate">${c.title}</h5>
+                <p class="text-[10px] text-brand-cyan font-mono">${c.ref || 'S/Ref'} &bull; <span class="${hasPhoto ? 'text-emerald-400' : 'text-amber-400'}">${hasPhoto ? 'Com Foto' : 'Sem Foto'}</span></p>
+              </div>
+            </div>
+            <button onclick="bindLinkerPhotoToCard('${c.id}', '${suggestedPath}')" class="px-3 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs whitespace-nowrap shadow flex items-center gap-1.5 flex-shrink-0">
+              <i class="fa-solid fa-link text-[10px]"></i> Vincular JPG
+            </button>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function bindLinkerPhotoToCard(cardId, defaultPath) {
+      let finalPath = defaultPath;
+      if (linkerFiles.length > 0) {
+        const currentFile = linkerFiles[linkerCurrentIndex];
+        const opSelect = document.getElementById('linker-op-select');
+        let opFolder = normalizeText(opSelect.value).replace(/\s+/g, '_');
+        if (opFolder.includes('brasil')) opFolder = 'brasil_telecom';
+        finalPath = `fotos/${opFolder}/${currentFile.name}`;
+      }
+
+      const c = cards.find(item => item.id === cardId);
       if (c) {
-        c.image = newImg;
+        c.image = finalPath;
         c.imageHasError = false;
-        
-        if (externalCards.some(item => item.id === id)) {
-          if (!localEdits[id]) localEdits[id] = { operator: c.operator, price: c.price, title: c.title, serie: c.serie, ref: c.ref };
-          localEdits[id].image = newImg;
+
+        if (externalCards.some(item => item.id === cardId)) {
+          if (!localEdits[cardId]) localEdits[cardId] = { operator: c.operator, price: c.price, title: c.title, serie: c.serie, ref: c.ref };
+          localEdits[cardId].image = finalPath;
           localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
         } else {
-          let idx = customCards.findIndex(item => item.id === id);
+          let idx = customCards.findIndex(item => item.id === cardId);
           if (idx !== -1) {
-            customCards[idx].image = newImg;
+            customCards[idx].image = finalPath;
             localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
           }
         }
       }
-      openLinkerModal();
+
+      renderLinkerCardsItems();
       renderCatalog();
+      if (linkerFiles.length > 0) {
+        linkerNextPhoto();
+      }
     }
   </script>
 </body>
