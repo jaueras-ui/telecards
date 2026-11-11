@@ -528,7 +528,6 @@
         let op = item.operator || defaultOp;
         let ref = item.ref || item.code || '';
         
-        // Garante ID estrito baseado na operadora e na referência exata para evitar qualquer duplicidade
         let cardId = item.id || ('ext-' + normalizeText(op) + '-' + (ref || Math.random()));
         
         if (externalCards.some(existing => existing.id === cardId)) {
@@ -727,7 +726,7 @@
           `;
         } else if (!isSold) {
           actionButtonHtml = `
-            <button onclick="toggleCart('${c.id}')" class="w-full mt-2 py-2.5 bg-brand-accent hover:bg-rose-600 text-white rounded-xl text-xs font-bold transition-all">
+            <button onclick="toggleCart('${c.id}')" class="w-full mt-3 py-2.5 bg-brand-accent hover:bg-rose-600 text-white rounded-xl text-xs font-bold transition-all shadow">
               ${inCart ? 'No Álbum' : 'Adicionar ao Álbum'}
             </button>
           `;
@@ -735,7 +734,7 @@
 
         return `
           <div class="catalog-card-container">
-            ${actionButtonHtml}
+            ${isAdminMode ? actionButtonHtml : ''}
             <div class="catalog-card-image cursor-pointer" onclick="openZoomModal('${c.image}', '${c.title}')">
               ${hasPhoto ? `<img src="${c.image}" class="main-card-img" onerror="window.handleImageError(this, '${c.id}')">` : `<div class="flex flex-col items-center justify-center text-amber-500/60"><i class="fa-solid fa-image text-2xl"></i><span class="text-[10px]">Sem Foto</span></div>`}
               <div class="card-logo-center"><img src="logo.jpg" onerror="this.src='logo.png'"></div>
@@ -750,7 +749,7 @@
                   <div class="card-price-text">R$ ${c.price.toFixed(2)}</div>
                 </div>
               </div>
-              ${actionButtonHtml}
+              ${!isAdminMode ? actionButtonHtml : ''}
             </div>
           </div>
         `;
