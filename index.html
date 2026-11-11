@@ -378,6 +378,25 @@
     </div>
   </div>
 
+  <!-- MODAL VINCULADOR RÁPIDO (NOVO) -->
+  <div id="linker-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 z-50">
+    <div class="bg-brand-card p-6 rounded-3xl max-w-2xl w-full space-y-4 border border-emerald-500/40 shadow-2xl text-xs flex flex-col max-h-[85vh]">
+      <div class="flex justify-between items-center border-b border-brand-border pb-3">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-list-check text-emerald-400"></i> Vinculador Rápido de Imagens
+        </h3>
+        <button onclick="closeLinkerModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+      <p class="text-slate-400 text-[11px]">Listando abaixo todos os cartões que estão sem foto ou com erro. Digite ou cole o caminho exato da imagem (ex: <code class="text-brand-cyan">fotos/telefonica/123.JPG</code>) e clique em Salvar:</p>
+      
+      <div class="flex-grow overflow-y-auto space-y-3 pr-1" id="linker-list-container"></div>
+
+      <div class="flex justify-end pt-3 border-t border-brand-border">
+        <button onclick="closeLinkerModal()" class="px-5 py-2.5 bg-brand-dark text-slate-300 font-bold rounded-xl">Fechar</button>
+      </div>
+    </div>
+  </div>
+
   <!-- MODAL NOVO/EDITAR CARTÃO -->
   <div id="admin-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-md w-full space-y-4 border border-brand-border shadow-2xl text-xs">
@@ -455,7 +474,7 @@
       items.forEach(item => {
         let title = item.title || item.name || 'Cartão';
         let op = item.operator || defaultOp;
-        let cardId = item.id || 'ext-' + Math.random();
+        let cardId = item.id || ('ext-' + normalizeText(op) + '-' + (item.ref || item.code || Math.random()));
         let ref = item.ref || item.code || '';
         let price = parseFloat(item.price) || 2.00;
         
@@ -492,6 +511,11 @@
     try { parseExternal(window.telemigData, "Telemig"); } catch(e){}
     try { parseExternal(window.telegoiasData, "Telegoias"); } catch(e){}
     try { parseExternal(window.telerjData, "Telerj"); } catch(e){}
+
+    // Evitar qualquer duplicação por ID
+    let uniqueMap = new Map();
+    externalCards.forEach(c => uniqueMap.set(c.id, c));
+    externalCards = Array.from(uniqueMap.values());
 
     externalCards = externalCards.filter(c => !hiddenCards.includes(c.id));
     externalCards.forEach(card => {
@@ -848,7 +872,7 @@
           }
         }
         let c = cards.find(item => item.id === id);
-        if (c) { c.title = title; c.serie = serie; c.ref = ref; c.operator = operator; c.price = price; c.image = image; c.type = type; }
+        if (c) { c.title = title; c.serie = serie; c.ref = ref; c.operator = operator; c.price = price; c.image = image; c.type = type; c.imageHasError = false; }
       } else {
         const newId = 'custom-' + Date.now();
         const newC = { id: newId, title, serie, ref, operator, price, image, type };
@@ -858,6 +882,9 @@
       }
       closeModal();
       renderCatalog();
+      if(!document.getElementById('linker-modal').classList.contains('hidden')) {
+        openLinkerModal();
+      }
     }
 
     function openExportModal() {
@@ -896,8 +923,64 @@
       closeExportModal();
     }
 
+    // FUNÇÕES DO VINCULADOR RÁPIDO
     function openLinkerModal() {
-      alert("Vinculador Rápido ativo! Use os arquivos da pasta para vincular as imagens.");
+      const container = document.getElementById('linker-list-container');
+      const missingCards = cards.filter(c => !c.image || c.image.trim() === '' || c.imageHasError);
+
+      if (missingCards.length === 0) {
+        container.innerHTML = `<div class="text-center py-12 text-emerald-400 font-bold">Maravilha! Não há cartões sem foto no momento.</div>`;
+      } else {
+        container.innerHTML = missingCards.map(c => `
+          <div class="bg-brand-dark p-3 rounded-xl border border-brand-border flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div class="flex items-center gap-3 w-full sm:w-auto overflow-hidden">
+              <div class="w-12 h-12 rounded-lg bg-brand-card flex-shrink-0 flex items-center justify-center border border-brand-border text-[10px] text-amber-500 font-bold">Sem Foto</div>
+              <div class="truncate">
+                <h5 class="text-white text-xs font-bold truncate">${c.title}</h5>
+                <p class="text-[10px] text-brand-cyan font-mono">Ref: ${c.ref || 'S/Ref'} &bull; ${c.operator}</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 w-full sm:w-auto">
+              <input type="text" id="linker-input-${c.id}" value="${c.image || ''}" placeholder="ex: fotos/telefonica/123.JPG" class="p-2 bg-brand-card border border-brand-border rounded-xl text-white text-xs w-full sm:w-64 outline-none focus:border-emerald-500 font-mono">
+              <button onclick="saveLinkerImage('${c.id}')" class="px-3 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs whitespace-nowrap">Salvar</button>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      document.getElementById('linker-modal').classList.remove('hidden');
+      document.getElementById('linker-modal').classList.add('flex');
+    }
+
+    function closeLinkerModal() {
+      document.getElementById('linker-modal').classList.add('hidden');
+      document.getElementById('linker-modal').classList.remove('flex');
+    }
+
+    function saveLinkerImage(id) {
+      const input = document.getElementById(`linker-input-${id}`);
+      if (!input) return;
+      const newImg = input.value.trim();
+
+      const c = cards.find(item => item.id === id);
+      if (c) {
+        c.image = newImg;
+        c.imageHasError = false;
+        
+        if (externalCards.some(item => item.id === id)) {
+          if (!localEdits[id]) localEdits[id] = { operator: c.operator, price: c.price, title: c.title, serie: c.serie, ref: c.ref };
+          localEdits[id].image = newImg;
+          localStorage.setItem('tc_card_edits', JSON.stringify(localEdits));
+        } else {
+          let idx = customCards.findIndex(item => item.id === id);
+          if (idx !== -1) {
+            customCards[idx].image = newImg;
+            localStorage.setItem('tc_custom_items', JSON.stringify(customCards));
+          }
+        }
+      }
+      openLinkerModal();
+      renderCatalog();
     }
   </script>
 </body>
