@@ -146,6 +146,8 @@
   <script src="telemig.js" onerror="console.log('telemig.js não encontrado')"></script>
   <script src="telegoias.js" onerror="console.log('telegoias.js não encontrado')"></script>
   <script src="telerj.js" onerror="console.log('telerj.js não encontrado')"></script>
+  <script src="teleamapa.js" onerror="console.log('teleamapa.js não encontrado')"></script>
+  <script src="outras.js" onerror="console.log('outras.js não encontrado')"></script>
 </head>
 <body class="min-h-screen flex flex-col">
 
@@ -495,7 +497,7 @@
   </div>
 
   <script>
-    const DEFAULT_OPS = ["Sercomtel", "Telefonica", "Telebrás", "Brasil Telecom", "Embratel", "CRT", "Oi", "Telemar", "Ceterp", "CTBC", "Telepar", "Telesc", "Telemig", "Telegoias", "Telerj", "Claro", "TIM", "Outras"];
+    const DEFAULT_OPS = ["Sercomtel", "Telefonica", "Telebrás", "Brasil Telecom", "Embratel", "CRT", "Oi", "Telemar", "Ceterp", "CTBC", "Telepar", "Telesc", "Telemig", "Telegoias", "Telerj", "Claro", "TIM", "Teleamapa", "Outras"];
     let externalCards = [];
     let cart = JSON.parse(localStorage.getItem('tc_cart_items')) || [];
     let soldCards = JSON.parse(localStorage.getItem('tc_sold_cards')) || [];
@@ -560,7 +562,7 @@
     }
 
     try { parseExternal(window.sercomtelData, "Sercomtel"); } catch(e){}
-    try { parseExternal(window.telefonicaData, "Telefônica"); } catch(e){}
+    try { parseExternal(window.telefonicaData, "Telefonica"); } catch(e){}
     try { parseExternal(window.telebrasData, "Telebrás"); } catch(e){}
     try { parseExternal(window.embratelData, "Embratel"); } catch(e){}
     try { parseExternal(window.brasiltelecomData, "Brasil Telecom"); } catch(e){}
@@ -574,6 +576,8 @@
     try { parseExternal(window.telemigData, "Telemig"); } catch(e){}
     try { parseExternal(window.telegoiasData, "Telegoias"); } catch(e){}
     try { parseExternal(window.telerjData, "Telerj"); } catch(e){}
+    try { parseExternal(window.teleamapaData, "Teleamapa"); } catch(e){}
+    try { parseExternal(window.outrasData, "Outras"); } catch(e){}
 
     let uniqueMap = new Map();
     externalCards.forEach(c => uniqueMap.set(c.id, c));
@@ -650,7 +654,9 @@
     function renderFilters() {
       const container = document.getElementById('operator-filters');
       const wrapper = document.getElementById('operator-container');
-      const ops = ["Todos", ...DEFAULT_OPS.filter(op => cards.some(c => matchOperator(c.operator, op)))];
+      
+      // Exibe todas as operadoras padrão para garantir que "Outras", "Teleamapa", etc., apareçam sempre
+      const ops = ["Todos", ...DEFAULT_OPS];
       
       wrapper.classList.remove('hidden');
       container.innerHTML = ops.map(op => `
@@ -878,8 +884,7 @@
 
       const linkerSelect = document.getElementById('linker-op-select');
       if (linkerSelect) {
-        const ops = DEFAULT_OPS.filter(op => cards.some(c => matchOperator(c.operator, op)));
-        linkerSelect.innerHTML = ops.map(op => `<option value="${op}">${op}</option>`).join('');
+        linkerSelect.innerHTML = DEFAULT_OPS.map(op => `<option value="${op}">${op}</option>`).join('');
       }
     }
 
