@@ -1,15 +1,5 @@
 window.telebrasData = [
   {
-    "id": "custom-1793411459824",
-    "title": "010 - Cartões-Telebrás - Parques Nacionais - card nº 6 - Parque Nacional das Sete Cidades - PI",
-    "ref": "010-TB-PAR-AV06",
-    "operator": "Telebrás",
-    "price": 1,
-    "image": "fotos/telebras/010-TB-PAR-AV06.jpg",
-    "imageHasError": false,
-    "type": "Avulso"
-  },
-  {
     "id": "custom-1794148275922",
     "title": "- Namoradeira ",
     "serie": "Série Dia dos Namorados",
@@ -17,6 +7,37 @@ window.telebrasData = [
     "operator": "Telebrás",
     "price": 0.5,
     "image": "fotos/telebras/005-TB-DNA-AV03.jpg",
+    "type": "Avulso"
+  },
+  {
+    "id": "custom-1794260106994",
+    "title": "- Marinha",
+    "serie": "Museu Castro Maya",
+    "ref": "008-TB-MCM-AV.03",
+    "operator": "Telebrás",
+    "price": 0.5,
+    "image": "fotos/telebras/008-TB-MCM-AV.03.jpg",
+    "imageHasError": false,
+    "type": "Avulso"
+  },
+  {
+    "id": "custom-1793411459824",
+    "title": "010 - Cartões-Telebrás - Parques Nacionais - card nº 6 - Parque Nacional das Sete Cidades - PI",
+    "serie": "",
+    "ref": "010-TB-PAR-AV06",
+    "operator": "Telebrás",
+    "price": 1,
+    "image": "fotos/telebras/010-TB-PAR-AV06.jpg",
+    "type": "Avulso"
+  },
+  {
+    "id": "custom-1794148275922",
+    "title": "- Namoradeira",
+    "serie": "Série Dia dos Namorados",
+    "ref": "005-TB-DNA-C",
+    "operator": "Telebrás",
+    "price": 0.5,
+    "image": "fotos/telebras/005-TB-DNA-C.jpg",
     "type": "Avulso"
   },
   {

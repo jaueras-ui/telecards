@@ -4,9 +4,9 @@ window.telescData = [
     "title": "- Octopus coral",
     "serie": "Série Marinho",
     "ref": "001-TSC-MAR-AV.04",
-    "operator": "TELESC",
+    "operator": "Telesc",
     "price": 0.5,
-    "image": "fotos/telesc/001-TSC-MAR-AV.04.JPG",
+    "image": "fotos/telesc/001-TSC-MAR-AV.04.jpg",
     "type": "Avulso"
   },
   {
@@ -14,9 +14,9 @@ window.telescData = [
     "title": "- Scottish Terrier",
     "serie": "Série Cães de Raça",
     "ref": "002-TSC-CAES-AV.12",
-    "operator": "TELESC",
+    "operator": "Telesc",
     "price": 0.5,
-    "image": "fotos/telesc/002-TSC-CAES-AV.12.JPG",
+    "image": "fotos/telesc/002-TSC-CAES-AV.12.jpg",
     "type": "Avulso"
   },
   {
@@ -24,9 +24,9 @@ window.telescData = [
     "title": "- Brasil 500",
     "serie": "Série Propaganda",
     "ref": "003-TSC-PRO-AV.01",
-    "operator": "TELESC",
+    "operator": "Telesc",
     "price": 0.5,
-    "image": "fotos/telesc/003-TSC-PRO-AV.01.JPG",
+    "image": "fotos/telesc/003-TSC-PRO-AV.01.jpg",
     "type": "Avulso"
   },
   {
@@ -34,9 +34,9 @@ window.telescData = [
     "title": "- Par. Sto Estanislau",
     "serie": "Série Propaganda",
     "ref": "003-TSC-PRO-AV.02",
-    "operator": "TELESC",
+    "operator": "Telesc",
     "price": 0.5,
-    "image": "fotos/telesc/003-TSC-PRO-AV.02.JPG",
+    "image": "fotos/telesc/003-TSC-PRO-AV.02.jpg",
     "type": "Avulso"
   },
   {
@@ -44,9 +44,9 @@ window.telescData = [
     "title": "- Costa da Lagoa",
     "serie": "Série Propaganda",
     "ref": "003-TSC-PRO-AV.03",
-    "operator": "TELESC",
+    "operator": "Telesc",
     "price": 0.5,
-    "image": "fotos/telesc/003-TSC-PRO-AV.03.JPG",
+    "image": "fotos/telesc/003-TSC-PRO-AV.03.jpg",
     "type": "Avulso"
   },
   {
@@ -54,9 +54,9 @@ window.telescData = [
     "title": "- Praia da Barra",
     "serie": "Série Propaganda",
     "ref": "003-TSC-PRO-AV.04",
-    "operator": "TELESC",
+    "operator": "Telesc",
     "price": 0.5,
-    "image": "fotos/telesc/003-TSC-PRO-AV.04.JPG",
+    "image": "fotos/telesc/003-TSC-PRO-AV.04.jpg",
     "type": "Avulso"
   },
   {
@@ -64,9 +64,9 @@ window.telescData = [
     "title": "- Verao 98",
     "serie": "Série Propaganda",
     "ref": "003-TSC-PRO-AV.05",
-    "operator": "TELESC",
+    "operator": "Telesc",
     "price": 0.5,
-    "image": "fotos/telesc/003-TSC-PRO-AV.05.JPG",
+    "image": "fotos/telesc/003-TSC-PRO-AV.05.jpg",
     "type": "Avulso"
   }
 ];

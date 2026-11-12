@@ -4,9 +4,9 @@ window.teleparData = [
     "title": "Telepar - Capa",
     "serie": "Série Propaganda",
     "ref": "001-TPR-PROP-AV.01",
-    "operator": "TELEPAR",
+    "operator": "Telepar",
     "price": 0.5,
-    "image": "fotos/telepar/001-TPR-PROP-AV.01.JPG",
+    "image": "fotos/telepar/001-TPR-PROP-AV.01.jpg",
     "type": "Avulso"
   },
   {
@@ -14,9 +14,9 @@ window.teleparData = [
     "title": "- Use o 14",
     "serie": "Série Propaganda",
     "ref": "001-TPR-PROP-AV.02",
-    "operator": "TELEPAR",
+    "operator": "Telepar",
     "price": 0.5,
-    "image": "fotos/telepar/001-TPR-PROP-AV.02.JPG",
+    "image": "fotos/telepar/001-TPR-PROP-AV.02.jpg",
     "type": "Avulso"
   },
   {
@@ -24,9 +24,9 @@ window.teleparData = [
     "title": "- Lua",
     "serie": "Série Sistema Solar",
     "ref": "002-TPR-SOL-AV.01",
-    "operator": "TELEPAR",
+    "operator": "Telepar",
     "price": 0.5,
-    "image": "fotos/telepar/002-TPR-SOL-AV.01.JPG",
+    "image": "fotos/telepar/002-TPR-SOL-AV.01.jpg",
     "type": "Avulso"
   },
   {
@@ -34,9 +34,9 @@ window.teleparData = [
     "title": "- Netuno",
     "serie": "Série Sistema Solar",
     "ref": "002-TPR-SOL-AV.06",
-    "operator": "TELEPAR",
+    "operator": "Telepar",
     "price": 0.5,
-    "image": "fotos/telepar/002-TPR-SOL-AV.06.JPG",
+    "image": "fotos/telepar/002-TPR-SOL-AV.06.jpg",
     "type": "Avulso"
   },
   {
@@ -44,9 +44,9 @@ window.teleparData = [
     "title": "- Respeite o pedestre",
     "serie": "Série Semana do Trânsito",
     "ref": "003-TPR-TRA-AV.02",
-    "operator": "TELEPAR",
+    "operator": "Telepar",
     "price": 0.5,
-    "image": "fotos/telepar/003-TPR-TRA-AV.02.JPG",
+    "image": "fotos/telepar/003-TPR-TRA-AV.02.jpg",
     "type": "Avulso"
   },
   {
@@ -54,9 +54,9 @@ window.teleparData = [
     "title": "- Parar no vermelho",
     "serie": "Série Semana do Trânsito",
     "ref": "003-TPR-TRA-AV.04",
-    "operator": "TELEPAR",
+    "operator": "Telepar",
     "price": 0.5,
-    "image": "fotos/telepar/003-TPR-TRA-AV.04.JPG",
+    "image": "fotos/telepar/003-TPR-TRA-AV.04.jpg",
     "type": "Avulso"
   },
   {
@@ -64,9 +64,9 @@ window.teleparData = [
     "title": "- De olho no pedestre",
     "serie": "Série Semana do Trânsito",
     "ref": "004-TPR-TRA-AV.01",
-    "operator": "TELEPAR",
+    "operator": "Telepar",
     "price": 0.5,
-    "image": "fotos/telepar/004-TPR-TRA-AV.01.JPG",
+    "image": "fotos/telepar/004-TPR-TRA-AV.01.jpg",
     "type": "Avulso"
   },
   {
@@ -74,9 +74,9 @@ window.teleparData = [
     "title": "Trilha do Transito",
     "serie": "Série Semana do Trânsito",
     "ref": "004-TPR-TRA-AV.04",
-    "operator": "TELEPAR",
+    "operator": "Telepar",
     "price": 0.5,
-    "image": "fotos/telepar/004-TPR-TRA-AV.04.JPG",
+    "image": "fotos/telepar/004-TPR-TRA-AV.04.jpg",
     "type": "Avulso"
   }
 ];

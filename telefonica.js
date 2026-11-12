@@ -47,7 +47,8 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-BEL.C.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "custom-1794078009920",
@@ -67,7 +68,8 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/113-TEL-JUS-AV.14.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "custom-1794081683454",
@@ -77,8 +79,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.10-Amor.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "custom-1794081990305",
@@ -88,7 +89,8 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.11-A flor.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "custom-1794082224648",
@@ -98,8 +100,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.12-Benjamin.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "custom-1794082393787",
@@ -109,8 +110,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.13-Willard.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "custom-1794082618423",
@@ -120,7 +120,8 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.14-Celular.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "custom-1794082772955",
@@ -130,8 +131,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.15-Encantadora.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "custom-1794082993457",
@@ -141,7 +141,8 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.16-Dogtown.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "custom-1794083124799",
@@ -151,8 +152,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.17-Panico.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "001-TEL-CMG-AV.03",
@@ -162,7 +162,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/001-TEL-CMG-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "001-TEL-CMG-AV.04",
@@ -172,7 +173,8 @@ window.telefonicaData = [
     "operator": "Telefônica",
     "price": 0.5,
     "image": "fotos/telefonica/001-TEL-CMG-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "001-TEL-CMG-AV.05",
@@ -182,7 +184,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/001-TEL-CMG-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "001-TEL-CMG-AV.06",
@@ -192,7 +195,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/001-TEL-CMG-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "001-TEL-CMG-AV.07",
@@ -202,7 +206,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/001-TEL-CMG-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "001-TEL-CMG-AV.09",
@@ -212,7 +217,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/001-TEL-CMG-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "001-TEL-CMG-AV.10",
@@ -222,7 +228,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/001-TEL-CMG-AV.10.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "002-TEL-AVE-C.07",
@@ -242,7 +249,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/003-TEL-ANV-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "003-TEL-ANV-AV.02",
@@ -252,7 +260,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/003-TEL-ANV-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "003-TEL-ANV-AV.03",
@@ -262,7 +271,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/003-TEL-ANV-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "004-TEL-FRU-C.05",
@@ -282,7 +292,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/004-TEL-FRU-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "005-TEL-TRA-AV.02",
@@ -292,7 +303,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/005-TEL-TRA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "005-TEL-TRA-AV.03",
@@ -302,7 +314,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/005-TEL-TRA-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "005-TEL-TRA-AV.06",
@@ -312,7 +325,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/005-TEL-TRA-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "005-TEL-TRA-AV.08",
@@ -322,7 +336,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/005-TEL-TRA-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "005-TEL-TRA-AV.09",
@@ -332,7 +347,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/005-TEL-TRA-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "006-TEL-FOL-C.05",
@@ -342,8 +358,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 4,
     "image": "fotos/telefonica/006-TEL-FOL-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "006-TEL-FOL-AV.02",
@@ -353,7 +368,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/006-TEL-FOL-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "006-TEL-FOL-AV.03",
@@ -363,7 +379,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/006-TEL-FOL-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "006-TEL-FOL-AV.04",
@@ -373,7 +390,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/006-TEL-FOL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "007-TEL-IDO-AV.01",
@@ -383,7 +401,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/007-TEL-IDO-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "007-TEL-IDO-AV.02",
@@ -393,7 +412,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/007-TEL-IDO-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "007-TEL-IDO-AV.03",
@@ -403,7 +423,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/007-TEL-IDO-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "007-TEL-IDO-AV.04",
@@ -413,7 +434,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/007-TEL-IDO-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "007-TEL-IDO-AV.06",
@@ -423,7 +445,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/007-TEL-IDO-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "008-TEL-IGR-AV.03",
@@ -433,7 +456,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/008-TEL-IGR-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "008-TEL-IGR-AV.04",
@@ -443,7 +467,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/008-TEL-IGR-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "009-TEL-EVE-AV.07",
@@ -453,8 +478,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/008-TEL-IGR-AV.07.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "008-TEL-IGR-AV.09",
@@ -464,7 +488,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/008-TEL-IGR-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "009-TEL-EVE-AV.04",
@@ -474,7 +499,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/009-TEL-EVE-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "010-TEL-DIA-AV.01",
@@ -484,7 +510,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/010-TEL-DIA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "010-TEL-DIA-AV.02",
@@ -494,7 +521,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/010-TEL-DIA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "010-TEL-DIA-AV.03",
@@ -504,7 +532,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/010-TEL-DIA-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "011-TEL-LEN-C.08",
@@ -514,8 +543,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 5,
     "image": "fotos/telefonica/011-TEL-LEN-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "011-TEL-LEN-AV.01",
@@ -525,7 +553,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/011-TEL-LEN-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "011-TEL-LEN-AV.04",
@@ -535,8 +564,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/011-TEL-LEN-AV.02.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "012-TEL-GAV-AV.01",
@@ -546,7 +574,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/012-TEL-GAV-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "013-TEL-U15-AV.01",
@@ -556,7 +585,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/013-TEL-U15-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "013-TEL-U15-AV.04",
@@ -566,7 +596,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/013-TEL-U15-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "013-TEL-U15-AV.06",
@@ -576,7 +607,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/013-TEL-U15-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "014-TEL-ALI-AV.01",
@@ -586,7 +618,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/014-TEL-ALI-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "014-TEL-ALI-AV.02",
@@ -596,7 +629,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/014-TEL-ALI-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "015-TEL-AMA-AV.01",
@@ -606,7 +640,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/015-TEL-AMA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "015-TEL-AMA-AV.04",
@@ -616,7 +651,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/015-TEL-AMA-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "015-TEL-AMA-AV.07",
@@ -626,7 +662,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/015-TEL-AMA-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "015-TEL-AMA-AV.08",
@@ -636,7 +673,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/015-TEL-AMA-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "015-TEL-AMA-AV.09",
@@ -646,7 +684,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/015-TEL-AMA-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "016-TEL-VAG-INC.05",
@@ -656,8 +695,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 3,
     "image": "fotos/telefonica/016-TEL-VAG-INC.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "type": "Lote"
   },
   {
     "id": "017-TEL-COL-AV.01",
@@ -667,8 +705,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/017-TEL-COL-C.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "018-TEL-DMA-C.02",
@@ -678,8 +715,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/018-TEL-DMA-C.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "018-TEL-DMA-AV.02",
@@ -689,7 +725,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/018-TEL-DMA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "019-TEL-MAE-AV.01",
@@ -699,7 +736,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/019-TEL-MAE-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "019-TEL-MAE-AV.04",
@@ -709,7 +747,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/019-TEL-MAE-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "019-TEL-MAE-AV.05",
@@ -719,7 +758,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/019-TEL-MAE-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "019-TEL-MAE-AV.06",
@@ -729,7 +769,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/019-TEL-MAE-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "019-TEL-MAE-AV.07",
@@ -739,7 +780,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/019-TEL-MAE-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "019-TEL-MAE-AV.09",
@@ -749,7 +791,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/019-TEL-MAE-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "019-TEL-MAE-AV.10",
@@ -759,7 +802,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/019-TEL-MAE-AV.10.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "020-TEL-HMU-AV.28",
@@ -769,7 +813,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/020-TEL-HMU-AV.28.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "021-TEL-PAZ-C.02",
@@ -779,8 +824,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/021-TEL-PAZ-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "021-TEL-PAZ-AV.02",
@@ -790,7 +834,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/021-TEL-PAZ-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "022-TEL-NLI-AV.01",
@@ -800,7 +845,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/022-TEL-NLI-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "023-TEL-BAR-AV.02",
@@ -810,7 +856,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/023-TEL-BAR-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "024-TEL-BRA-C.06",
@@ -820,8 +867,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 4,
     "image": "fotos/telefonica/024-TEL-BRA-C.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "024-TEL-BRA-AV.01",
@@ -831,7 +877,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/024-TEL-BRA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "024-TEL-BRA-AV.02",
@@ -841,7 +888,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/024-TEL-BRA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "024-TEL-BRA-AV.03",
@@ -851,7 +899,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/024-TEL-BRA-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "024-TEL-BRA-AV.04",
@@ -861,7 +910,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/024-TEL-BRA-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "024-TEL-BRA-AV.05",
@@ -871,7 +921,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/024-TEL-BRA-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "025-TEL-OSA-AV.06",
@@ -881,7 +932,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/025-TEL-OSA-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "026-TEL-PRU-C.06",
@@ -891,8 +943,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 4,
     "image": "fotos/telefonica/026-TEL-PRU-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "026-TEL-PRU-AV.01",
@@ -902,7 +953,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/026-TEL-PRU-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "026-TEL-PRU-AV.06",
@@ -912,7 +964,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/026-TEL-PRU-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "027-TEL-VID-C.02",
@@ -922,8 +975,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/027-TEL-VID-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "027-TEL-VID-AV.01",
@@ -933,8 +985,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/027-TEL-VID-AV.02.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "028-TEL-SSO-AV.01",
@@ -944,7 +995,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/028-TEL-SSO-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "028-TEL-SSO-AV.02",
@@ -954,7 +1006,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/028-TEL-SSO-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "028-TEL-SSO-AV.03",
@@ -964,7 +1017,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/028-TEL-SSO-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "029-TEL-FUT-AV.05",
@@ -974,7 +1028,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/029-TEL-FUT-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "029-TEL-FUT-AV.06",
@@ -984,7 +1039,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/029-TEL-FUT-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "029-TEL-FUT-AV.07",
@@ -994,7 +1050,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/029-TEL-FUT-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "029-TEL-FUT-AV.08",
@@ -1004,7 +1061,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/029-TEL-FUT-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "030-TEL-VAU-AV.01",
@@ -1014,7 +1072,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/030-TEL-VAU-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "030-TEL-VAU-AV.04",
@@ -1024,7 +1083,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/030-TEL-VAU-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "031-TEL-CDR-AV.02",
@@ -1034,7 +1094,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/031-TEL-CDR-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "032-TEL-AMI-AV.01",
@@ -1044,7 +1105,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/032-TEL-AMI-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "032-TEL-AMI-AV.02",
@@ -1054,7 +1116,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/032-TEL-AMI-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "032-TEL-AMI-AV.03",
@@ -1064,7 +1127,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/032-TEL-AMI-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "032-TEL-AMI-AV.04",
@@ -1074,7 +1138,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/032-TEL-AMI-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "032-TEL-AMI-AV.05",
@@ -1084,7 +1149,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/032-TEL-AMI-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "033-TEL-ANO-AV.06",
@@ -1094,7 +1160,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/033-TEL-ANO-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "034-TEL-ESP-AV.01",
@@ -1104,7 +1171,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/034-TEL-ESP-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "034-TEL-ESP-AV.04",
@@ -1114,7 +1182,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/034-TEL-ESP-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "035-TEL-FLO-AV.01",
@@ -1124,7 +1193,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/035-TEL-FLO-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "035-TEL-FLO-AV.02",
@@ -1134,7 +1204,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/035-TEL-FLO-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "035-TEL-FLO-AV.03",
@@ -1144,7 +1215,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/035-TEL-FLO-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "035-TEL-FLO-AV.04",
@@ -1154,7 +1226,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/035-TEL-FLO-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "036-TEL-PEI-AV.01",
@@ -1164,7 +1237,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/036-TEL-PEI-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "036-TEL-PEI-AV.02",
@@ -1174,7 +1248,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/036-TEL-PEI-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "036-TEL-PEI-AV.03",
@@ -1184,7 +1259,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/036-TEL-PEI-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "036-TEL-PEI-AV.04",
@@ -1194,7 +1270,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/036-TEL-PEI-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "036-TEL-PEI-AV.05",
@@ -1204,7 +1281,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/036-TEL-PEI-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "036-TEL-PEI-AV.06",
@@ -1214,7 +1292,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/036-TEL-PEI-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "036-TEL-PEI-AV.07",
@@ -1224,7 +1303,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/036-TEL-PEI-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "036-TEL-PEI-AV.08",
@@ -1234,7 +1314,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/036-TEL-PEI-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.01",
@@ -1244,7 +1325,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.02",
@@ -1254,7 +1336,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.03",
@@ -1264,7 +1347,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.04",
@@ -1274,7 +1358,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.05",
@@ -1284,7 +1369,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.06",
@@ -1294,7 +1380,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.07",
@@ -1304,7 +1391,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.08",
@@ -1314,7 +1402,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "037-TEL-CPA-AV.09",
@@ -1324,7 +1413,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/037-TEL-CPA-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "038-TEL-NEG-AV.02",
@@ -1334,7 +1424,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/038-TEL-NEG-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "038-TEL-NEG-AV.04",
@@ -1344,7 +1435,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/038-TEL-NEG-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "039-TEL-PRO-AV.01",
@@ -1354,7 +1446,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/039-TEL-PRO-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "040-TEL-CID-C.10",
@@ -1364,8 +1457,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 6,
     "image": "fotos/telefonica/040-TEL-CID-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "040-TEL-CID-AV.01",
@@ -1375,7 +1467,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/040-TEL-CID-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "040-TEL-CID-AV.04",
@@ -1385,7 +1478,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/040-TEL-CID-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "040-TEL-CID-AV.05",
@@ -1395,7 +1489,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/040-TEL-CID-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "040-TEL-CID-AV.06",
@@ -1405,7 +1500,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/040-TEL-CID-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "040-TEL-CID-AV.07",
@@ -1415,7 +1511,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/040-TEL-CID-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "040-TEL-CID-AV.08",
@@ -1425,7 +1522,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/040-TEL-CID-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "041-TEL-ESV-AV.01",
@@ -1435,7 +1533,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/041-TEL-ESV-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "042-TEL-DRI-AV.02",
@@ -1445,7 +1544,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/042-TEL-DRI-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "042-TEL-DRI-AV.04",
@@ -1455,7 +1555,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/042-TEL-DRI-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "042-TEL-DRI-AV.08",
@@ -1465,7 +1566,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/042-TEL-DRI-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "043-TEL-COL-AV.01",
@@ -1475,7 +1577,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/043-TEL-COL-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "043-TEL-COL-AV.02",
@@ -1485,7 +1588,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/043-TEL-COL-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "043-TEL-COL-AV.03",
@@ -1495,7 +1599,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/043-TEL-COL-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "043-TEL-COL-AV.04",
@@ -1505,7 +1610,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/043-TEL-COL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "043-TEL-COL-AV.06",
@@ -1515,7 +1621,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/043-TEL-COL-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "043-TEL-COL-AV.07",
@@ -1525,7 +1632,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/043-TEL-COL-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "044-TEL-DBA-AV.01",
@@ -1535,7 +1643,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/044-TEL-DBA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "045-TEL-BAN-AV.02",
@@ -1545,7 +1654,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/045-TEL-BAN-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "046-TEL-PAS-C.08",
@@ -1555,8 +1665,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 5,
     "image": "fotos/telefonica/046-TEL-PAS-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "046-TEL-PAS-AV.01",
@@ -1566,7 +1675,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/046-TEL-PAS-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "046-TEL-PAS-AV.02",
@@ -1576,7 +1686,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/046-TEL-PAS-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "047-TEL-DIC-INC.09",
@@ -1586,8 +1697,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 5,
     "image": "fotos/telefonica/047-TEL-DIC-INC.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "type": "Lote"
   },
   {
     "id": "047-TEL-DIC-AV.02",
@@ -1597,7 +1707,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/047-TEL-DIC-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "047-TEL-DIC-AV.07",
@@ -1607,7 +1718,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/047-TEL-DIC-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "047-TEL-DIC-AV.09",
@@ -1617,7 +1729,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/047-TEL-DIC-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "048-TEL-REF-AV.03",
@@ -1627,7 +1740,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/048-TEL-REF-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "048-TEL-REF-AV.04",
@@ -1637,7 +1751,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/048-TEL-REF-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "048-TEL-REF-AV.07",
@@ -1647,7 +1762,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/048-TEL-REF-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "048-TEL-REF-AV.10",
@@ -1657,7 +1773,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/048-TEL-REF-AV.10.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "049-TEL-VOL-AV.01",
@@ -1667,7 +1784,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/049-TEL-VOL-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "049-TEL-VOL-AV.04",
@@ -1677,7 +1795,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/049-TEL-VOL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "049-TEL-VOL-AV.05",
@@ -1687,7 +1806,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/049-TEL-VOL-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "049-TEL-VOL-AV.06",
@@ -1697,7 +1817,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/049-TEL-VOL-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "050-TEL-FOL-C.05",
@@ -1707,8 +1828,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 4,
     "image": "fotos/telefonica/050-TEL-FOL-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "050-TEL-FOL-AV.01",
@@ -1718,7 +1838,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/050-TEL-FOL-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "051-TEL-URB-AV.02",
@@ -1728,7 +1849,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/051-TEL-URB-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "051-TEL-URB-AV.04",
@@ -1738,7 +1860,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/051-TEL-URB-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "052-TEL-SOL-AV.02",
@@ -1748,7 +1871,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/052-TEL-SOL-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "052-TEL-SOL-AV.03",
@@ -1758,7 +1882,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/052-TEL-SOL-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "052-TEL-SOL-AV.04",
@@ -1768,7 +1893,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/052-TEL-SOL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "052-TEL-SOL-AV.05",
@@ -1778,7 +1904,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/052-TEL-SOL-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "053-TEL-MIL-AV.02",
@@ -1788,7 +1915,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/053-TEL-MIL-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "053-TEL-MIL-AV.03",
@@ -1798,7 +1926,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/053-TEL-MIL-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "053-TEL-MIL-AV.04",
@@ -1808,7 +1937,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/053-TEL-MIL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "054-TEL-TER-AV.01",
@@ -1818,7 +1948,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/054-TEL-TER-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "054-TEL-TER-AV.04",
@@ -1828,7 +1959,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/054-TEL-TER-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "055-TEL-89F-AV.02",
@@ -1838,7 +1970,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/055-TEL-89F-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "056-TEL-MON-AV.01",
@@ -1848,7 +1981,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/056-TEL-MON-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "056-TEL-MON-AV.02",
@@ -1858,7 +1992,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/056-TEL-MON-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "056-TEL-MON-AV.03",
@@ -1868,7 +2003,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/056-TEL-MON-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "057-TEL-JUN-AV.02",
@@ -1878,7 +2014,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/057-TEL-JUN-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "057-TEL-JUN-AV.03",
@@ -1888,7 +2025,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/057-TEL-JUN-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "057-TEL-JUN-AV.04",
@@ -1898,7 +2036,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/057-TEL-JUN-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "058-TEL-EOL-AV.23",
@@ -1908,7 +2047,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/058-TEL-EOL-AV.23.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "059-TEL-NAT-AV.02",
@@ -1918,7 +2058,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/059-TEL-NAT-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "060-TEL-COM-AV.02",
@@ -1928,7 +2069,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/060-TEL-COM-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "061-TEL-CRI-AV.01",
@@ -1938,7 +2080,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/061-TEL-CRI-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "061-TEL-CRI-AV.03",
@@ -1948,7 +2091,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/061-TEL-CRI-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "061-TEL-CRI-AV.04",
@@ -1958,7 +2102,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/061-TEL-CRI-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "062-TEL-VER-AV.02",
@@ -1968,7 +2113,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/062-TEL-VER-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "062-TEL-VER-AV.03",
@@ -1978,7 +2124,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/062-TEL-VER-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "062-TEL-VER-AV.04",
@@ -1988,7 +2135,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/062-TEL-VER-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "062-TEL-VER-AV.05",
@@ -1998,7 +2146,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/062-TEL-VER-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "063-TEL-CAR-AV.01",
@@ -2008,7 +2157,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/063-TEL-CAR-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "064-TEL-DAT-C.10",
@@ -2018,8 +2168,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 6,
     "image": "fotos/telefonica/064-TEL-DAT-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "064-TEL-DAT-AV.01",
@@ -2029,7 +2178,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/064-TEL-DAT-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "065-TEL-VIT-AV.01",
@@ -2039,7 +2189,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/065-TEL-VIT-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "065-TEL-VIT-AV.02",
@@ -2049,7 +2200,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/065-TEL-VIT-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "065-TEL-VIT-AV.05",
@@ -2059,7 +2211,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/065-TEL-VIT-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "066-TEL-VOL-AV.01",
@@ -2069,7 +2222,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/066-TEL-VOL-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "066-TEL-VOL-AV.02",
@@ -2079,7 +2233,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/066-TEL-VOL-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "066-TEL-VOL-AV.03",
@@ -2089,7 +2244,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/066-TEL-VOL-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "066-TEL-VOL-AV.04",
@@ -2099,7 +2255,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/066-TEL-VOL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "066-TEL-VOL-AV.05",
@@ -2109,7 +2266,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/066-TEL-VOL-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "067-TEL-PRA-AV.01",
@@ -2119,7 +2277,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/067-TEL-PRA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "067-TEL-PRA-AV.02",
@@ -2129,7 +2288,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/067-TEL-PRA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "067-TEL-PRA-AV.03",
@@ -2139,7 +2299,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/067-TEL-PRA-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "067-TEL-PRA-AV.04",
@@ -2149,7 +2310,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/067-TEL-PRA-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "067-TEL-PRA-AV.05",
@@ -2159,7 +2321,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/067-TEL-PRA-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "068-TEL-EST-AV.02",
@@ -2169,7 +2332,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/068-TEL-EST-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "068-TEL-EST-AV.03",
@@ -2179,7 +2343,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/068-TEL-EST-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "068-TEL-EST-AV.04",
@@ -2189,7 +2354,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/068-TEL-EST-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "068-TEL-EST-AV.12",
@@ -2199,7 +2365,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/068-TEL-EST-AV.12.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "068-TEL-EST-AV.20",
@@ -2209,7 +2376,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/068-TEL-EST-AV.20.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "068-TEL-EST-AV.25",
@@ -2219,7 +2387,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/068-TEL-EST-AV.25.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "068-TEL-EST-AV.27",
@@ -2229,7 +2398,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/068-TEL-EST-AV.27.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "069-TEL-CAV-AV.01",
@@ -2239,7 +2409,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/069-TEL-CAV-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "069-TEL-CAV-AV.02",
@@ -2249,7 +2420,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/069-TEL-CAV-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "069-TEL-CAV-AV.03",
@@ -2259,7 +2431,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/069-TEL-CAV-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "069-TEL-CAV-AV.04",
@@ -2269,7 +2442,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/069-TEL-CAV-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "070-TEL-TER-C.02",
@@ -2279,8 +2453,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/070-TEL-TER-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "071-TEL-ANI-INC.08",
@@ -2290,8 +2463,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 4,
     "image": "fotos/telefonica/071-TEL-ANI-01a10-INC.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-INC.09",
@@ -2301,8 +2473,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 5,
     "image": "fotos/telefonica/071-TEL-ANI-11a20-INC.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-INC.05",
@@ -2312,8 +2483,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 3,
     "image": "fotos/telefonica/071-TEL-ANI-21a25-INC.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "071-TEL-ANI-AV.05",
@@ -2323,7 +2493,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "071-TEL-ANI-AV.08",
@@ -2333,7 +2504,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "071-TEL-ANI-AV.13",
@@ -2343,7 +2515,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.13.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "071-TEL-ANI-AV.16",
@@ -2353,7 +2526,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.16.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "071-TEL-ANI-AV.19",
@@ -2363,7 +2537,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.19.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "071-TEL-ANI-AV.21",
@@ -2373,7 +2548,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.21.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "071-TEL-ANI-AV.22",
@@ -2383,7 +2559,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.22.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "071-TEL-ANI-AV.23",
@@ -2393,7 +2570,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.23.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "071-TEL-ANI-AV.25",
@@ -2403,7 +2581,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/071-TEL-ANI-AV.25.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "072-TEL-SER-AV.01",
@@ -2413,7 +2592,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/072-TEL-SER-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "072-TEL-SER-AV.02",
@@ -2423,7 +2603,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/072-TEL-SER-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "072-TEL-SER-AV.03",
@@ -2433,7 +2614,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/072-TEL-SER-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "072-TEL-SER-AV.04",
@@ -2443,7 +2625,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/072-TEL-SER-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "073-TEL-ASE-AV.01",
@@ -2453,7 +2636,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/073-TEL-ASE-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "074-TEL-VOV-AV.01",
@@ -2463,7 +2647,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/074-TEL-VOV-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "074-TEL-VOV-AV.03",
@@ -2473,7 +2658,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/074-TEL-VOV-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "079-TEL-POR-INC.03",
@@ -2483,8 +2669,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/079-TEL-POR-AV.03.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "075-TEL-SARP-C.10",
@@ -2494,8 +2679,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 6,
     "image": "fotos/telefonica/075-TEL-SARP-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "075-TEL-SARP-INC.09",
@@ -2505,8 +2689,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 5,
     "image": "fotos/telefonica/075-TEL-SARP-INC.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "type": "Lote"
   },
   {
     "id": "075-TEL-SARP-AV.01",
@@ -2516,7 +2699,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/075-TEL-SARP-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "075-TEL-SARP-AV.1975",
@@ -2526,7 +2710,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/075-TEL-SARP-AV.1975.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "075-TEL-SARP-AV.1978",
@@ -2536,7 +2721,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/075-TEL-SARP-AV.1978.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "075-TEL-SARP-AV.1979",
@@ -2546,7 +2732,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/075-TEL-SARP-AV.1979.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "075-TEL-SARP-AV.1982",
@@ -2556,7 +2743,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/075-TEL-SARP-AV.1982.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "075-TEL-SARP-AV.1994",
@@ -2566,7 +2754,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/075-TEL-SARP-AV.1994.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "075-TEL-SARP-AV.1999",
@@ -2576,7 +2765,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/075-TEL-SARP-AV.1999.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "075-TEL-SARP-AV.2000",
@@ -2586,7 +2776,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/075-TEL-SARP-AV.2000.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "076-TEL-TEL-AV.01",
@@ -2596,7 +2787,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/076-TEL-TEL-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "076-TEL-TEL-AV.03",
@@ -2606,7 +2798,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/076-TEL-TEL-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "076-TEL-TEL-AV.04",
@@ -2616,7 +2809,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/076-TEL-TEL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "076-TEL-TEL-AV.05",
@@ -2626,7 +2820,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/076-TEL-TEL-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "076-TEL-TEL-AV.06",
@@ -2636,7 +2831,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/076-TEL-TEL-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "076-TEL-TEL-AV.08",
@@ -2646,8 +2842,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/076-TEL-TEL-AV.08.jpg.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "076-TEL-TEL-AV.09",
@@ -2657,7 +2852,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/076-TEL-TEL-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "076-TEL-TEL-AV.10",
@@ -2667,8 +2863,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/076-TEL-TEL-AV.01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "077-TEL-COM-C.12",
@@ -2678,8 +2873,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 7,
     "image": "fotos/telefonica/077-TEL-COM-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "077-TEL-COM-AV.01",
@@ -2689,7 +2883,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/077-TEL-COM-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "077-TEL-COM-AV.02",
@@ -2699,7 +2894,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/077-TEL-COM-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "078-TEL-ART-AV.01-MARL",
@@ -2709,8 +2905,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.01-MARL-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.02-PARR",
@@ -2720,8 +2915,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.02-PARR-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.03-IRAC",
@@ -2731,8 +2925,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.03-IRAC-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.04-LUCA",
@@ -2742,8 +2935,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.04-LUCA-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-INC.12",
@@ -2753,8 +2945,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 6,
     "image": "fotos/telefonica/078-TEL-ART-AV-05-SARR-12.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "078-TEL-ART-AV.5.1 - SARR",
@@ -2764,8 +2955,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-5.1-SARR-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.5.2-SARR",
@@ -2775,8 +2965,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-5.2-SARR-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.6.1-BLAN",
@@ -2786,8 +2975,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV6.1-BLAN.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.6.2-BLAN",
@@ -2797,8 +2985,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV6.2-BLAN.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.6.3-BLAN",
@@ -2808,8 +2995,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV6.3-BLAN.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.6.4-BLAN",
@@ -2819,8 +3005,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV6.4-BLAN.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-INC.06",
@@ -2830,8 +3015,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 3,
     "image": "fotos/telefonica/078-TEL-ART-AV-7-ACHIL-06.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "type": "Lote"
   },
   {
     "id": "078-TEL-ART-AV.7.1-ACHIL",
@@ -2841,8 +3025,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-7.1-ACHIL-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.7.2-ACHIL",
@@ -2852,8 +3035,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-7.2-ACHIL-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-INC.05",
@@ -2863,8 +3045,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 3,
     "image": "fotos/telefonica/078-TEL-ART-AV-08-FERR-05.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "078-TEL-ART-AV.8.1-FERR",
@@ -2874,8 +3055,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-8.1-FERR-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.8.2-FERR",
@@ -2885,8 +3065,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-8.2-FERR-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.9.1-VERG",
@@ -2896,8 +3075,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-9.1-VERG-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.9.2-VERG",
@@ -2907,8 +3085,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-9.2-VERG-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.10.1-ROSA",
@@ -2918,8 +3095,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-10.1-ROSA-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.10.2-ROSA",
@@ -2929,8 +3105,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-10.2-ROSA-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.12.1-SCHIAZ",
@@ -2940,8 +3115,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.12.1-SCHIAZ-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.12.2-SCHIAZ",
@@ -2951,8 +3125,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.12.1-SCHIAZ-02.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.13.1-PASSOS",
@@ -2962,8 +3135,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.13.1-PASSOS-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.13.2-PASSOS",
@@ -2973,8 +3145,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.13.1-PASSOS-02.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.14-A.STE",
@@ -2984,8 +3155,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.14-A.STE-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.15-T.BENATI",
@@ -2995,8 +3165,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.15-T.BENATI-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.16.1-WEIN",
@@ -3006,8 +3175,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-16.1-WEIN-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.16.2-WEIN",
@@ -3017,8 +3185,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-16.2-WEIN-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.16.3-WEIN",
@@ -3028,8 +3195,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-16.3-WEIN-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.17.1-BDIAS",
@@ -3039,8 +3205,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-17.1-BDIAS.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.17.2-BDIAS",
@@ -3050,8 +3215,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-17.2-BDIAS.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.18-MARIO",
@@ -3061,8 +3225,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-18-MARIO.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.19.1-AUREA",
@@ -3072,8 +3235,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-19.1-AUREA.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.20.1-STELLA",
@@ -3083,8 +3245,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-20.1-STELLA.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.20.2-STELLA",
@@ -3094,8 +3255,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-20.2-STELLA.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.21.1-T.ELSAS",
@@ -3105,8 +3265,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-21.1-T.ELSAS.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.21.2-T.ELSAS",
@@ -3116,8 +3275,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-21.2-T.ELSAS.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.22.1-YUJI",
@@ -3147,8 +3305,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-23-RAOUL.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.24.1-M.BRI",
@@ -3158,8 +3315,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-24.1-M.BRI.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.24.2-M.BRI",
@@ -3169,8 +3325,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-24.2-M.BRI.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.25-NERIV",
@@ -3180,8 +3335,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-25-NERIV.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-AV.26-D.VITOR",
@@ -3191,8 +3345,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV-26-D.VITOR.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "078-TEL-ART-INC.03",
@@ -3202,8 +3355,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/078-TEL-ART-AV-27-J.NEGR.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "078-TEL-ART-INC.02",
@@ -3213,8 +3365,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/078-TEL-ART-AV-28-M.RIC.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "078-TEL-ART-AV.29.2-BELIN",
@@ -3224,7 +3375,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.29.2-BELIN.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "078-TEL-ART-AV.30-HIDEA",
@@ -3234,7 +3386,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.30-HIDEA.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "078-TEL-ART-AV.31-D.OLLI",
@@ -3244,8 +3397,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/078-TEL-ART-AV.31-D.OLLI-01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "079-TEL-POR-AV.03",
@@ -3255,7 +3407,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/079-TEL-POR-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "079-TEL-POR-AV.04",
@@ -3265,7 +3418,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/079-TEL-POR-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "079-TEL-POR-AV.06",
@@ -3275,7 +3429,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/079-TEL-POR-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "080-TEL-TPU-C.10",
@@ -3285,8 +3440,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 6,
     "image": "fotos/telefonica/080-TEL-TPU-C.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "type": "Lote"
   },
   {
     "id": "080-TEL-TPU-AV.01",
@@ -3296,7 +3450,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/080-TEL-TPU-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "080-TEL-TPU-AV.02",
@@ -3306,7 +3461,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/080-TEL-TPU-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "080-TEL-TPU-AV.03",
@@ -3316,7 +3472,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/080-TEL-TPU-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "081-TEL-ENA-AV.10",
@@ -3326,7 +3483,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/081-TEL-ENA-AV.10.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "081-TEL-ENA-AV.09",
@@ -3336,7 +3494,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/081-TEL-ENA-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "081-TEL-ENA-AV.08",
@@ -3346,7 +3505,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/081-TEL-ENA-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "081-TEL-ENA-AV.06",
@@ -3356,7 +3516,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/081-TEL-ENA-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "081-TEL-ENA-AV.05",
@@ -3366,7 +3527,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/081-TEL-ENA-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "081-TEL-ENA-AV.02",
@@ -3376,7 +3538,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/081-TEL-ENA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "082-TEL-SPA-C.05",
@@ -3386,8 +3549,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 4,
     "image": "fotos/telefonica/082-TEL-SPA-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "082-TEL-SPA-AV.01",
@@ -3397,7 +3559,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/082-TEL-SPA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "082-TEL-SPA-AV.02",
@@ -3407,7 +3570,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/082-TEL-SPA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "082-TEL-SPA-AV.03",
@@ -3417,7 +3581,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/082-TEL-SPA-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "083-TEL-PAS-AV.01",
@@ -3427,7 +3592,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/083-TEL-PAS-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "083-TEL-PAS-AV.02",
@@ -3437,7 +3603,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/083-TEL-PAS-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "083-TEL-PAS-AV.03",
@@ -3447,7 +3614,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/083-TEL-PAS-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "083-TEL-PAS-AV.06",
@@ -3457,7 +3625,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/083-TEL-PAS-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-C.13",
@@ -3467,8 +3636,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 8,
     "image": "fotos/telefonica/084-TEL-CAC-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "084-TEL-CAC-AV.01",
@@ -3478,7 +3646,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-AV.02",
@@ -3488,7 +3657,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-AV.03",
@@ -3498,7 +3668,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-AV.04",
@@ -3508,7 +3679,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-AV.05",
@@ -3518,7 +3690,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-AV.06",
@@ -3528,7 +3701,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-AV.07",
@@ -3538,7 +3712,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-AV.08",
@@ -3548,7 +3723,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "084-TEL-CAC-AV.09",
@@ -3558,7 +3734,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/084-TEL-CAC-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "085-TEL-1SO-C.04",
@@ -3568,8 +3745,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 3,
     "image": "fotos/telefonica/085-TEL-1SO-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "085-TEL-1SO-INC.02",
@@ -3589,7 +3765,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/085-TEL-1SO-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.01",
@@ -3599,7 +3776,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.02",
@@ -3609,7 +3787,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.05",
@@ -3619,7 +3798,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.07",
@@ -3629,7 +3809,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.09",
@@ -3639,7 +3820,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.13",
@@ -3649,7 +3831,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.13.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.14",
@@ -3659,7 +3842,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.14.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.15",
@@ -3669,7 +3853,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.15.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.16",
@@ -3679,7 +3864,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.16.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.17",
@@ -3689,7 +3875,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.17.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.18",
@@ -3699,7 +3886,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.18.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "086-TEL-NES-AV.20",
@@ -3709,7 +3897,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/086-TEL-NES-AV.20.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "087-TEL-RIB-INC.07",
@@ -3719,8 +3908,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 4,
     "image": "fotos/telefonica/087-TEL-RIB-INC.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "type": "Lote"
   },
   {
     "id": "088-TEL-PRI-C.10",
@@ -3730,8 +3918,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 6,
     "image": "fotos/telefonica/088-TEL-PRI-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "088-TEL-PRI-AV.01",
@@ -3741,7 +3928,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/088-TEL-PRI-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "088-TEL-PRI-AV.03",
@@ -3751,7 +3939,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/088-TEL-PRI-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "088-TEL-PRI-AV.05",
@@ -3761,7 +3950,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/088-TEL-PRI-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "088-TEL-PRI-AV.06",
@@ -3771,7 +3961,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/088-TEL-PRI-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "088-TEL-PRI-AV.07",
@@ -3781,7 +3972,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/088-TEL-PRI-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "088-TEL-PRI-AV.10",
@@ -3791,7 +3983,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/088-TEL-PRI-AV.10.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "089-TEL-ECO-C.05",
@@ -3801,8 +3994,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 4,
     "image": "fotos/telefonica/089-TEL-ECO-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "089-TEL-ECO-AV.03",
@@ -3812,7 +4004,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/089-TEL-ECO-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "089-TEL-ECO-AV.04",
@@ -3822,7 +4015,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/089-TEL-ECO-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "090-TEL-MAE-INC.05",
@@ -3832,8 +4026,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 3,
     "image": "fotos/telefonica/090-TEL-MAE-INC.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "type": "Lote"
   },
   {
     "id": "091-TEL-1MA-AV.03",
@@ -3843,7 +4036,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/091-TEL-1MA-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "091-TEL-1MA-AV.05",
@@ -3853,7 +4047,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/091-TEL-1MA-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "091-TEL-1MA-AV.04",
@@ -3863,7 +4058,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/091-TEL-1MA-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "091-TEL-1MA-AV.07",
@@ -3873,7 +4069,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/091-TEL-1MA-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "092-TEL-PRA-AV.01",
@@ -3883,7 +4080,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/092-TEL-PRA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "092-TEL-PRA-AV.02",
@@ -3893,7 +4091,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/092-TEL-PRA-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "093-TEL-SIN-AV.01",
@@ -3903,7 +4102,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/093-TEL-SIN-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "093-TEL-SIN-AV.02",
@@ -3913,7 +4113,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/093-TEL-SIN-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "093-TEL-SIN-AV.03",
@@ -3923,7 +4124,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/093-TEL-SIN-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "093-TEL-SIN-AV.04",
@@ -3933,7 +4135,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/093-TEL-SIN-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "094-TEL-NAM-AV.01",
@@ -3943,7 +4146,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/094-TEL-NAM-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "094-TEL-NAM-AV.09",
@@ -3953,7 +4157,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/094-TEL-NAM-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "094-TEL-NAM-AV.10",
@@ -3963,7 +4168,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/094-TEL-NAM-AV.10.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "095-TEL-VES-AV.02",
@@ -3973,7 +4179,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/095-TEL-VES-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "095-TEL-VES-AV.03",
@@ -3983,7 +4190,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/095-TEL-VES-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "095-TEL-VES-AV.04",
@@ -3993,7 +4201,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/095-TEL-VES-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "095-TEL-VES-AV.05",
@@ -4003,7 +4212,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/095-TEL-VES-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "096-TEL-ALC-INC.02",
@@ -4023,7 +4233,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/096-TEL-ALC-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "097-TEL-P04-AV.01",
@@ -4033,7 +4244,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/097-TEL-P04-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "097-TEL-P04-AV.02",
@@ -4043,7 +4255,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/097-TEL-P04-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "097-TEL-P04-AV.05",
@@ -4053,7 +4266,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/097-TEL-P04-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "097-TEL-P04-AV.06",
@@ -4063,7 +4277,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/097-TEL-P04-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "098-TEL-RAP-AV.01",
@@ -4073,7 +4288,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/098-TEL-RAP-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "098-TEL-RAP-AV.02",
@@ -4083,7 +4299,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/098-TEL-RAP-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "098-TEL-RAP-AV.03",
@@ -4093,7 +4310,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/098-TEL-RAP-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "098-TEL-RAP-AV.04",
@@ -4103,7 +4321,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/098-TEL-RAP-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "099-TEL-REP-C.02",
@@ -4113,8 +4332,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/099-TEL-REP-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "100-TEL-F1-AV.02",
@@ -4124,7 +4342,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/100-TEL-F1-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "101-TEL-APL-AV.03",
@@ -4134,7 +4353,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/101-TEL-APL-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "101-TEL-APL-AV.04",
@@ -4144,7 +4364,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/101-TEL-APL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "101-TEL-APL-AV.10",
@@ -4154,7 +4375,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/101-TEL-APL-AV.10.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "102-TEL-SAC-AV.01",
@@ -4164,7 +4386,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/102-TEL-SAC-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "102-TEL-SAC-AV.02",
@@ -4174,7 +4397,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/102-TEL-SAC-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "102-TEL-SAC-AV.03",
@@ -4184,7 +4408,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/102-TEL-SAC-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "103-TEL-EMP-AV.01",
@@ -4194,7 +4419,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/103-TEL-EMP-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "103-TEL-EMP-AV.02",
@@ -4204,7 +4430,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/103-TEL-EMP-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "103-TEL-EMP-AV.03",
@@ -4214,7 +4441,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/103-TEL-EMP-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "103-TEL-EMP-AV.04",
@@ -4224,7 +4452,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/103-TEL-EMP-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "104-TEL-PAI-AV.39",
@@ -4234,7 +4463,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/104-TEL-PAI-AV.39.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "104-TEL-PAI-AV.06",
@@ -4244,7 +4474,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/104-TEL-PAI-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "104-TEL-PAI-AV.14",
@@ -4254,7 +4485,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/104-TEL-PAI-AV.14.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "104-TEL-PAI-AV.16",
@@ -4264,7 +4496,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/104-TEL-PAI-AV.16.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "104-TEL-PAI-AV.05",
@@ -4274,7 +4507,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/104-TEL-PAI-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "104-TEL-PAI-AV.02",
@@ -4284,7 +4518,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/104-TEL-PAI-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "105-TEL-REM-INC.02",
@@ -4304,7 +4539,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/106-TEL-VER-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.10",
@@ -4314,7 +4550,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.10.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.09",
@@ -4324,7 +4561,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.08",
@@ -4334,7 +4572,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.07",
@@ -4344,7 +4583,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.05",
@@ -4354,7 +4594,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.04",
@@ -4364,7 +4605,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.03",
@@ -4374,7 +4616,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.02",
@@ -4384,7 +4627,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "107-TEL-PRO-AV.01",
@@ -4394,7 +4638,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/107-TEL-PRO-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.01-FxJ",
@@ -4404,8 +4649,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV-01-FxJ.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.02-Aleg",
@@ -4415,7 +4659,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.02-Aleg.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.03-Reen",
@@ -4425,7 +4670,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.03-Reen.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.04-Loon",
@@ -4435,7 +4681,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.04-Loon.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.05-Deby",
@@ -4445,7 +4692,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.05-Deby.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.06-Prof",
@@ -4455,7 +4703,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.06-Prof.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.06;1-Prof",
@@ -4465,7 +4714,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.06;1-Prof.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.07-Leis",
@@ -4475,7 +4725,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.07-Leis.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.08-Envia",
@@ -4485,7 +4736,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.08-Envia.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.09-Talent",
@@ -4495,7 +4747,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.09-Talent.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.11-Vingad",
@@ -4505,7 +4758,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.11-Vingad.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.12-Ricos",
@@ -4515,7 +4769,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.12-Ricos.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.13-Duende",
@@ -4525,7 +4780,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.13-Duende.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.05-Legolas",
@@ -4535,8 +4791,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.07-Legolas.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "108-TEL-FIL-AV.08-Sam",
@@ -4546,7 +4801,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.08-Sam.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.10-Frodo",
@@ -4556,7 +4812,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.10-Frodo.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.01-Capa",
@@ -4566,7 +4823,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.01-Capa.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.02-Pipi",
@@ -4576,7 +4834,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.02-Pipi.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.03-Gadalf",
@@ -4586,7 +4845,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.03-Gadalf.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.04-Aragorn",
@@ -4596,7 +4856,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.04-Aragorn.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.05 -Arwen",
@@ -4606,7 +4867,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.05 -Arwen.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.06-Boromir",
@@ -4616,7 +4878,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.06-Boromir.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.07-Capa",
@@ -4626,7 +4889,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.07-Capa.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.08-Capa",
@@ -4636,7 +4900,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.08-Capa.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.02-Bat",
@@ -4646,7 +4911,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.02-Bat.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.03-Bat",
@@ -4656,7 +4922,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.03-Bat.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.08-Bat",
@@ -4666,7 +4933,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.08-Bat.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "108-TEL-FIL-AV.09-Alien",
@@ -4676,7 +4944,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/108-TEL-FIL-AV.09-Alien.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "109-TEL-CUR-AV.02-Curios",
@@ -4686,7 +4955,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/109-TEL-CUR-AV.02-Curios.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "109-TEL-CUR-AV.03-Curios",
@@ -4696,7 +4966,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/109-TEL-CUR-AV.03-Curios.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "109-TEL-CUR-AV.04-Curios",
@@ -4706,7 +4977,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/109-TEL-CUR-AV.04-Curios.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "100-TEL-OLI-AV.04",
@@ -4716,7 +4988,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/100-TEL-OLI-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "111-TEL-FZE-AV.02",
@@ -4726,7 +4999,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/111-TEL-FZE-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "114-TEL-VES-AV.04",
@@ -4736,7 +5010,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/114-TEL-VES-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "115-TEL-POL-AV.01",
@@ -4746,7 +5021,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/115-TEL-POL-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "116-TEL-N2000-AV.03",
@@ -4756,7 +5032,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/116-TEL-N2000-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "117-TEL-SRA-AV.07",
@@ -4766,7 +5043,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/117-TEL-SRA-AV.07.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "118-TEL-CIR-AV.04",
@@ -4776,7 +5054,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/118-TEL-CIR-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "119-TEL-HAL-AV.04",
@@ -4786,7 +5065,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/119-TEL-HAL-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "120-TEL-RAD-AV.08",
@@ -4796,7 +5076,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/120-TEL-RAD-AV.08.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "121-TEL-ESP-AV.01",
@@ -4806,7 +5087,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/121-TEL-ESP-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "122-TEL-FUN-AV.01",
@@ -4816,7 +5098,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/122-TEL-FUN-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "123-TEL-DET-C.02",
@@ -4826,8 +5109,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/123-TEL-DET-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "123-TEL-DET-AV.01",
@@ -4837,7 +5119,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/123-TEL-DET-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "124-TEL-ENV-AV.01",
@@ -4847,8 +5130,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 0.5,
     "image": "fotos/telefonica/124-TEL-ENV-C.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "125-TEL-PAI-AV.02",
@@ -4858,7 +5140,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/125-TEL-PAI-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "125-TEL-PAI-AV.04",
@@ -4868,7 +5151,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/125-TEL-PAI-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "125-TEL-PAI-AV.06",
@@ -4878,7 +5162,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/125-TEL-PAI-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "126-TEL-ORE-AV.02",
@@ -4888,7 +5173,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/126-TEL-ORE-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "126-TEL-ORE-AV.06",
@@ -4898,7 +5184,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/126-TEL-ORE-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "127-TEL-OPE-AV.01",
@@ -4908,7 +5195,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/127-TEL-OPE-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "128-TEL-MID-AV.01",
@@ -4918,7 +5206,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/128-TEL-MID-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "129-TEL-LEF-AV.04",
@@ -4928,7 +5217,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/129-TEL-LEF-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "130-TEL-T15-AV.05",
@@ -4938,7 +5228,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/130-TEL-T15-AV.05.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "130-TEL-T15-AV.06",
@@ -4948,7 +5239,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/130-TEL-T15-AV.06.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "130A-TEL-T15-AV.02",
@@ -4958,7 +5250,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/130A-TEL-T15-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "131-TEL-GUI-AV.02",
@@ -4968,7 +5261,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/131-TEL-GUI-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "132-TEL-S15-AV.09",
@@ -4978,7 +5272,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/132-TEL-S15-AV.09.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "133-TEL-HOS-C.02",
@@ -4988,8 +5283,7 @@ window.telefonicaData = [
     "operator": "Telefonica",
     "price": 2,
     "image": "fotos/telefonica/133-TEL-HOS-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "134-TEL-PLA-AV.01",
@@ -4999,7 +5293,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/134-TEL-PLA-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "135-TEL-HOR-AV.01",
@@ -5009,7 +5304,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/135-TEL-HOR-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "136-TEL-COP-AV.01",
@@ -5019,7 +5315,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/136-TEL-COP-AV.01.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "136-TEL-COP-AV.02",
@@ -5029,7 +5326,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/136-TEL-COP-AV.02.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "136-TEL-COP-AV.03",
@@ -5039,7 +5337,8 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/136-TEL-COP-AV.03.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   },
   {
     "id": "136-TEL-COP-AV.04",
@@ -5049,6 +5348,7 @@ window.telefonicaData = [
     "operator": "TELEFÓNICA",
     "price": 0.5,
     "image": "fotos/telefonica/136-TEL-COP-AV.04.JPG",
-    "type": "Avulso"
+    "type": "Avulso",
+    "imageHasError": true
   }
 ];

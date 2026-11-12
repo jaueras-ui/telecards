@@ -7,8 +7,7 @@ window.telegoiasData = [
     "operator": "Telegoias",
     "price": 0.5,
     "image": "fotos/telegoias/001-TGO-PRO-AV.01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "001-TGO-PRO-AV.02",
@@ -17,9 +16,9 @@ window.telegoiasData = [
     "ref": "002-TGO-LIT-AV.03",
     "operator": "Telegoias",
     "price": 0.5,
-    "image": "fotos/telegoias/002-TGO-LIT-AV.03.jpg",
+    "image": "fotos/telegoias/002-TGO-LIT-AV.03 .jpg",
     "type": "Avulso",
-    "imageHasError": false
+    "imageHasError": true
   },
   {
     "id": "002-TGO-LIT-AV.03",
@@ -29,8 +28,7 @@ window.telegoiasData = [
     "operator": "Telegoias",
     "price": 0.5,
     "image": "fotos/telegoias/001-TGO-PRO-AV.02.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "002-TGO-LIT-AV.06",
@@ -40,7 +38,6 @@ window.telegoiasData = [
     "operator": "Telegoias",
     "price": 0.5,
     "image": "fotos/telegoias/002-TGO-LIT-AV.06.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   }
 ];

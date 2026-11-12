@@ -4,7 +4,7 @@ window.ceterpData = [
     "title": "Vista de Ribeirao Preto / card nº 1",
     "serie": "Propaganda",
     "ref": "001-CRP-PROP-AV.01",
-    "operator": "CETERP",
+    "operator": "Ceterp",
     "price": 0.5,
     "image": "fotos/ceterp/001-CRP-PROP-AV.01.jpg",
     "type": "Avulso"
@@ -21,13 +21,12 @@ window.ceterpData = [
   },
   {
     "id": "001-CRP-RPR-C.0300",
-    "title": "Ribeirao Preto - C.03 - COMPLETA",
+    "title": "Ribeirao Preto - C.03- COMPLETA",
     "serie": "Ribeirao Preto",
-    "ref": "001-CRP-RPR-C.03",
+    "ref": "01-CRP-RPR-C.3",
     "operator": "Ceterp",
     "price": 3,
     "image": "fotos/ceterp/001-CRP-RPR-C.3.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   }
 ];

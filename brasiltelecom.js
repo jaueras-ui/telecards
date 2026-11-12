@@ -1,1153 +1,1112 @@
 window.brasiltelecomData = [
   {
     "id": "001-BT-TEL-AV06",
-    "title": "Cartões (001-BT-TEL-AV06) Brasil Telecom-Série Telefones (10 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- 1905 - Strowger 11 Digit",
+    "serie": "Série Telefones",
     "ref": "001-BT-TEL-AV06",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/001-BT-TEL-AV06.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/001-BT-TEL-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-BT-TEL-AV08",
-    "title": "Cartões (001-BT-TEL-AV08) Brasil Telecom-Série Telefones (10 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- 1914 Magnavox Anti-ruido",
+    "serie": "Série Telefones",
     "ref": "001-BT-TEL-AV08",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/001-BT-TEL-AV08.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/001-BT-TEL-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "001-BT-TEL-AV10",
-    "title": "Cartões (001-BT-TEL-AV10) Brasil Telecom-Série Telefones (10 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Western Eletric 300 Series",
+    "serie": "Série Telefones",
     "ref": "001-BT-TEL-AV10",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/001-BT-TEL-AV10.JPG",
+    "image": "fotos/brasil_telecom/001-BT-TEL-AV10.jpg",
     "type": "Completa"
   },
   {
     "id": "002-BT-ANV-AV01",
-    "title": "Cartões (002-BT-ANV-AV01) Brasil Telecom-Série Ano Novo (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Galinha na panela",
+    "serie": "Série Ano Novo",
     "ref": "002-BT-ANV-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/002-BT-ANV-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/002-BT-ANV-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-BT-ANV-AV04",
-    "title": "Cartões (002-BT-ANV-AV04) Brasil Telecom-Série Ano Novo (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Dar tres pulinhos",
+    "serie": "Série Ano Novo",
     "ref": "002-BT-ANV-AV04",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/002-BT-ANV-AV04.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/002-BT-ANV-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-BT-ANV-AV07",
-    "title": "Cartões (002-BT-ANV-AV07) Brasil Telecom-Série Ano Novo (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Colocar dinheiro no sapato",
+    "serie": "Série Ano Novo",
     "ref": "002-BT-ANV-AV07",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/002-BT-ANV-AV07.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/002-BT-ANV-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "002-BT-ANV-AV10",
-    "title": "Cartões (002-BT-ANV-AV10) Brasil Telecom-Série Ano Novo (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Fazer barulho",
+    "serie": "Série Ano Novo",
     "ref": "002-BT-ANV-AV10",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/002-BT-ANV-AV10.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/002-BT-ANV-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-BT-MTA-AV02",
-    "title": "Cartões (003-BT-MTA-AV02) Brasil Telecom-Série Mãos Talentosas (6 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Rendeira",
+    "serie": "Série Mãos Talentosas",
     "ref": "003-BT-MTA-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/003-BT-MTA-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/003-BT-MTA-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "003-BT-MTA-AV04",
-    "title": "Cartões (003-BT-MTA-AV04) Brasil Telecom-Série Mãos Talentosas (6 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Fiandeira",
+    "serie": "Série Mãos Talentosas",
     "ref": "003-BT-MTA-AV04",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/003-BT-MTA-AV04.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/003-BT-MTA-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "004-BT-COP-C.08",
-    "title": "- Copa 2002 (8 cards): COMPLETA",
+    "title": "Copa 2002 - C.08 - COMPLETA",
     "serie": "Série Copa 2002",
-    "ref": "004-BT-COP-C.08",
+    "ref": "004-BT-COP-C",
     "operator": "Brasil Telecom",
     "price": 5,
     "image": "fotos/brasil_telecom/004-BT-COP-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "004-BT-COP-AV08",
-    "title": "Cartões (004-BT-COP-AV08) Brasil Telecom-Série Copa 2002 (8 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Grupo H",
+    "serie": "Série Copa 2002",
     "ref": "004-BT-COP-AV08",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/004-BT-COP-AV08.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/004-BT-COP-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "005-BT-CTI-AV02",
-    "title": "Cartões (005-BT-CTI-AV02) Brasil Telecom-Série Comidas Típicas (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Canjica",
+    "serie": "Série Comidas Típicas",
     "ref": "005-BT-CTI-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/005-BT-CTI-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/005-BT-CTI-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "005-BT-CTI-AV05",
-    "title": "Cartões (005-BT-CTI-AV05) Brasil Telecom-Série Comidas Típicas (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Pacoca",
+    "serie": "Série Comidas Típicas",
     "ref": "005-BT-CTI-AV05",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/005-BT-CTI-AV05.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/005-BT-CTI-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "005-BT-CTI-AV07",
-    "title": "Cartões (005-BT-CTI-AV07) Brasil Telecom-Série Comidas Típicas (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Pe-de-moleque",
+    "serie": "Série Comidas Típicas",
     "ref": "005-BT-CTI-AV07",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/005-BT-CTI-AV07.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/005-BT-CTI-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "005-BT-CTI-AV09",
-    "title": "Cartões (005-BT-CTI-AV09) Brasil Telecom-Série Comidas Típicas (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Quentao",
+    "serie": "Série Comidas Típicas",
     "ref": "005-BT-CTI-AV09",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/005-BT-CTI-AV09.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/005-BT-CTI-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "005-BT-CTI-AV11",
-    "title": "Cartões (005-BT-CTI-AV11) Brasil Telecom-Série Comidas Típicas (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Vinho Quente",
+    "serie": "Série Comidas Típicas",
     "ref": "005-BT-CTI-AV11",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/005-BT-CTI-AV11.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/005-BT-CTI-AV11.jpg",
+    "type": "Avulso"
   },
   {
     "id": "006-BT-FER-AV01",
-    "title": "Cartões (006-BT-FER-AV01) Brasil Telecom-Série Férias 2005 (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Ferias na Fazenda",
+    "serie": "Série Férias 2005",
     "ref": "006-BT-FER-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/006-BT-FER-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/006-BT-FER-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "006-BT-FER-AV03",
-    "title": "Cartões (006-BT-FER-AV03) Brasil Telecom-Série Férias 2005 (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Ferias no Clube",
+    "serie": "Série Férias 2005",
     "ref": "006-BT-FER-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/006-BT-FER-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/006-BT-FER-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-BT-TEC-AV01",
-    "title": "Cartões (007-BT-TEC-AV01) Brasil Telecom-Série Tecnologia (10 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Cartao azul",
+    "serie": "Série Tecnologia",
     "ref": "007-BT-TEC-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/007-BT-TEC-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/007-BT-TEC-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "007-BT-TEC-AV09",
-    "title": "Cartões (007-BT-TEC-AV09) Brasil Telecom-Série Tecnologia (10 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Rosto de mulher",
+    "serie": "Série Tecnologia",
     "ref": "007-BT-TEC-AV09",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/007-BT-TEC-AV09.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/007-BT-TEC-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "008-BT-COM-AV02",
-    "title": "Cartões (008-BT-COM-AV02) Brasil Telecom-Série Comida Típica (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Feijoada",
+    "serie": "Série Comida Típica",
     "ref": "008-BT-COM-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/008-BT-COM-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/008-BT-COM-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "009-BT-INV-C.04",
-    "title": "- Inverno (4 cards): COMPLETA",
-    "serie": "Série Inverno ",
-    "ref": "009-BT-INV-C.04",
+    "title": "Série Inverno - C.04 - COMPLETA",
+    "serie": "Série Inverno",
+    "ref": "009-BT-INV-C",
     "operator": "Brasil Telecom",
     "price": 3,
     "image": "fotos/brasil_telecom/009-BT-INV-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "009-BT-INV-AV02",
-    "title": "Cartões (009-BT-INV-AV02) Brasil Telecom-Série Inverno (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Inverno - Brasilia",
+    "serie": "Série Inverno",
     "ref": "009-BT-INV-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/009-BT-INV-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/009-BT-INV-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "010-BT-OUT-C.04",
-    "title": "Outono (4 cards): COMPLETA",
+    "title": "Série Outono - C.04 - COMPLETA",
     "serie": "Série Outono",
-    "ref": "010-BT-OUT-C.04",
+    "ref": "010-BT-OUT-C",
     "operator": "Brasil Telecom",
     "price": 3,
     "image": "fotos/brasil_telecom/010-BT-OUT-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "010-BT-OUT-AV03",
-    "title": "Cartões (010-BT-OUT-AV03) Brasil Telecom-Série Outono (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Outono",
+    "serie": "Série Outono",
     "ref": "010-BT-OUT-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/010-BT-OUT-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/010-BT-OUT-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "011-BT-MAE-C.04",
-    "title": "Dia das Mães (4 cards): COMPLETA ",
+    "title": "Série Dia das Mães - C.04 - COMPLETA",
     "serie": "Série Dia das Mães",
-    "ref": "011-BT-MAE-C.04",
+    "ref": "011-BT-MAE-C",
     "operator": "Brasil Telecom",
     "price": 3,
     "image": "fotos/brasil_telecom/011-BT-MAE-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "012-BT-FNO-AV03",
-    "title": "Cartões (012-BT-FNO-AV03) Brasil Telecom-Série Fábrica de Noel (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Papai Noel recebe cartinhas",
+    "serie": "Série Fábrica de Noel",
     "ref": "012-BT-FNO-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/012-BT-FNO-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/012-BT-FNO-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "012-BT-FNO-AV06",
-    "title": "Cartões (012-BT-FNO-AV06) Brasil Telecom-Série Fábrica de Noel (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- As Renas do Papai Noel",
+    "serie": "Série Fábrica de Noel",
     "ref": "012-BT-FNO-AV06",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/012-BT-FNO-AV06.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/012-BT-FNO-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "013-BT-CRI-AV09",
-    "title": "Cartões (013-BT-CRI-AV09) Brasil Telecom-Série Dia das Crianças (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Garotinha - direito a educacao",
+    "serie": "Série Dia das Crianças",
     "ref": "013-BT-CRI-AV09",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/013-BT-CRI-AV09.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/013-BT-CRI-AV09.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-BT-SIG-C.12",
-    "title": "Signos (12 cards): COMPLETA ",
+    "title": "Série Signos - C.12 - COMPLETA",
     "serie": "Série Signos",
-    "ref": "014-BT-SIG-C.12",
+    "ref": "014-BT-SIG-C",
     "operator": "Brasil Telecom",
     "price": 7,
     "image": "fotos/brasil_telecom/014-BT-SIG-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "014-BT-SIG-AV04",
-    "title": "Cartões (014-BT-SIG-AV04) Brasil Telecom-Série Signos (12 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "-Touro",
+    "serie": "Série Signos",
     "ref": "014-BT-SIG-AV04",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/014-BT-SIG-AV04.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/014-BT-SIG-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "014-BT-SIG-AV10",
-    "title": "Cartões (014-BT-SIG-AV10) Brasil Telecom-Série Signos (12 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Escorpiao",
+    "serie": "Série Signos",
     "ref": "014-BT-SIG-AV10",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/014-BT-SIG-AV10.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/014-BT-SIG-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-BT-INS-AV01",
-    "title": "Cartões (015-BT-INS-AV01) Brasil Telecom-Série Instrumentos Musicais (8 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Guitarra",
+    "serie": "Série Instrumentos Musicais",
     "ref": "015-BT-INS-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/015-BT-INS-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/015-BT-INS-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-BT-INS-AV04",
-    "title": "Cartões (015-BT-INS-AV04) Brasil Telecom-Série Instrumentos Musicais (8 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Trompete",
+    "serie": "Série Instrumentos Musicais",
     "ref": "015-BT-INS-AV04",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/015-BT-INS-AV04.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/015-BT-INS-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "015-BT-INS-AV08",
-    "title": "Cartões (015-BT-INS-AV08) Brasil Telecom-Série Instrumentos Musicais (8 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Contra-baixo",
+    "serie": "Série Instrumentos Musicais",
     "ref": "015-BT-INS-AV08",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/015-BT-INS-AV08.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/015-BT-INS-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "016-BT-SIT-AV05",
-    "title": "Cartões (016-BT-SIT-AV05) Brasil Telecom-Série Sítio do Picapau Amarelo (12 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Pedrinho",
+    "serie": "Série Sítio do Picapau Amarelo",
     "ref": "016-BT-SIT-AV05",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/016-BT-SIT-AV05.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/016-BT-SIT-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-BT-SUP-AV02",
-    "title": "Cartões (017-BT-SUP-AV02) Brasil Telecom-Série Super Bola (24 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Handebol",
+    "serie": "Série Super Bola",
     "ref": "017-BT-SUP-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/017-BT-SUP-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/017-BT-SUP-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "017-BT-SUP-AV06",
-    "title": "Cartões (017-BT-SUP-AV06) Brasil Telecom-Série Super Bola (24 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Bilhar",
+    "serie": "Série Super Bola",
     "ref": "017-BT-SUP-AV06",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/017-BT-SUP-AV06.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/017-BT-SUP-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "018-BT-ATL-AV01",
-    "title": "Cartões (018-BT-ATL-AV01) Brasil Telecom-Série Atletas de Ouro (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Anderson Jorge - Atletismo",
+    "serie": "Série Atletas de Ouro",
     "ref": "018-BT-ATL-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/018-BT-ATL-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/018-BT-ATL-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "018-BT-ATL-AV03",
-    "title": "Cartões (018-BT-ATL-AV03) Brasil Telecom-Série Atletas de Ouro (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Daiane dos Santos - Ginastica Artistica",
+    "serie": "Série Atletas de Ouro",
     "ref": "018-BT-ATL-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/018-BT-ATL-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/018-BT-ATL-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "018-BT-ATL-AV10",
-    "title": "Cartões (018-BT-ATL-AV10) Brasil Telecom-Série Atletas de Ouro (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Sandra Soldan - Triathlon",
+    "serie": "Série Atletas de Ouro",
     "ref": "018-BT-ATL-AV10",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/018-BT-ATL-AV10.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/018-BT-ATL-AV10.jpg",
+    "type": "Avulso"
   },
   {
     "id": "019-BT-IRO-C.04",
-    "title": " IronMan (4 cards): COMPLETA",
+    "title": "Série IronMan - C.04 - COMPLETA",
     "serie": "Série IronMan",
-    "ref": "019-BT-IRO-C.04",
+    "ref": "019-BT-IRO-C",
     "operator": "Brasil Telecom",
     "price": 3,
     "image": "fotos/brasil_telecom/019-BT-IRO-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "019-BT-IRO-AV02",
-    "title": "Cartões (019-BT-IRO-AV02) Brasil Telecom-Série IronMan (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Corrida",
+    "serie": "Série IronMan",
     "ref": "019-BT-IRO-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/019-BT-IRO-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/019-BT-IRO-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-BT-PAI-AV01",
-    "title": "Cartões (020-BT-PAI-AV01) Brasil Telecom-Série Dia dos Pais (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Confianca",
+    "serie": "Série Dia dos Pais",
     "ref": "020-BT-PAI-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/020-BT-PAI-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/020-BT-PAI-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "020-BT-PAI-AV04",
-    "title": "Cartões (020-BT-PAI-AV04) Brasil Telecom-Série Dia dos Pais (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Experiencia",
+    "serie": "Série Dia dos Pais",
     "ref": "020-BT-PAI-AV04",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/020-BT-PAI-AV04.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/020-BT-PAI-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "021-BT-BRO-AV05",
-    "title": "Cartões (021-BT-BRO-AV05) Brasil Telecom-Série Bromélias (8 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": " - Neoregelia capixaba",
+    "serie": "Série Bromélias",
     "ref": "021-BT-BRO-AV05",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/021-BT-BRO-AV05.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/021-BT-BRO-AV05.jpg",
+    "type": "Avulso"
   },
   {
     "id": "022-BT-EST-AV03",
-    "title": "Cartões (022-BT-EST-AV03) Brasil Telecom-Série Estâncias de Uruguaina I (10 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Estancia Itapitocai",
+    "serie": "Série Estâncias de Uruguaina I",
     "ref": "022-BT-EST-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/022-BT-EST-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/022-BT-EST-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "024-BT-SER-AV01",
-    "title": "Cartões (024-BT-SER-AV01) Brasil Telecom-Série Mini-Serviços (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Bombeiros",
+    "serie": "Série Mini-Serviços",
     "ref": "024-BT-SER-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/024-BT-SER-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/024-BT-SER-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-BT-AVI-AV01",
-    "title": "Cartões (025-BT-AVI-AV01) Brasil Telecom-Série Mini-Aviões (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Helicoptero",
+    "serie": "Série Mini-Aviões",
     "ref": "025-BT-AVI-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/025-BT-AVI-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/025-BT-AVI-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "025-BT-AVI-AV03",
-    "title": "Cartões (025-BT-AVI-AV03) Brasil Telecom-Série Mini-Aviões (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Caca Lockhead F-104 Starfighter",
+    "serie": "Série Mini-Aviões",
     "ref": "025-BT-AVI-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/025-BT-AVI-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/025-BT-AVI-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "026-BT-COR-AV03",
-    "title": "Cartões (026-BT-COR-AV03) Brasil Telecom-Série Mini-Corrida (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Carro de corrida III",
+    "serie": "Série Mini-Corrida",
     "ref": "026-BT-COR-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/026-BT-COR-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/026-BT-COR-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "027-BT-LUA-AV04",
-    "title": "Cartões (027-BT-LUA-AV04) Brasil Telecom-Série Fases da Lua (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Lua Nova",
+    "serie": "Série Fases da Lua",
     "ref": "027-BT-LUA-AV04",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/027-BT-LUA-AV04.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/027-BT-LUA-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "028-BT-SER-AV02",
-    "title": "Cartões (028-BT-SER-AV02) Brasil Telecom-Série Serviços Inteligentes III (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Secretaria virtual",
+    "serie": "Série Serviços Inteligentes III",
     "ref": "028-BT-SER-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/028-BT-SER-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/028-BT-SER-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "029-BT-ACRO-AV12",
-    "title": "Cartões (029-BT-ACRO-AV12) Brasil Telecom-Série Acróstico (23 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Letra \"M\"",
+    "serie": "Série Acróstico",
     "ref": "029-BT-ACRO-AV12",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/029-BT-ACRO-AV12.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/029-BT-ACRO-AV12.jpg",
+    "type": "Avulso"
   },
   {
     "id": "030-BT-ACRO-AV02",
-    "title": "Cartões (030-BT-ACRO-AV02) Brasil Telecom-Série Mini-Bichos (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Tucano",
+    "serie": "Série Mini-Bichos",
     "ref": "030-BT-ACRO-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/030-BT-ACRO-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/030-BT-ACRO-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "031-BT-SOR-AV06",
-    "title": "Cartões (031-BT-SOR-AV06) Brasil Telecom-Série Sorte (6 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Trevo",
+    "serie": "Série Sorte",
     "ref": "031-BT-SOR-AV06",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/031-BT-SOR-AV06.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/031-BT-SOR-AV06.jpg",
+    "type": "Avulso"
   },
   {
     "id": "033-BT-BAC-AV02",
-    "title": "Cartões (033-BT-BAC-AV02) Brasil Telecom-Série BACO (2 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Base Area de Canoas",
+    "serie": "Série BACO",
     "ref": "033-BT-BAC-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/033-BT-BAC-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/033-BT-BAC-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "035-BT-IBE-AV02",
-    "title": "Cartões (035-BT-IBE-AV02) Brasil Telecom-Série IBEST (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Conexao",
+    "serie": "Série IBEST",
     "ref": "035-BT-IBE-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/035-BT-IBE-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/035-BT-IBE-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "037-BT-COR-AV03",
-    "title": "Cartões (037-BT-COR-AV03) Brasil Telecom-Série Corredor Arte (10 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Obra: Rosas",
+    "serie": "Série Corredor Arte",
     "ref": "037-BT-COR-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/037-BT-COR-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/037-BT-COR-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "039-BT-AUL-AV02",
-    "title": "Cartões (039-BT-AUL-AV02) Brasil Telecom-Série Volta às aulas (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Os livros",
+    "serie": "Série Volta às aulas",
     "ref": "039-BT-AUL-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/039-BT-AUL-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/039-BT-AUL-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "040-BT-NAM-AV02",
     "title": "- Beijo no olho",
-    "serie": "Série Dia dos Namorados ",
-    "ref": "040-BT-NAM-AV02",
+    "serie": "Série Dia dos Namorados",
+    "ref": "040_namorados_02",
     "operator": "Brasil Telecom",
     "price": 0.5,
     "image": "fotos/brasil_telecom/040_namorados_02.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "041-BT-VER-AV01",
-    "title": "Dicas de Verão - Água",
+    "title": "- Agua",
     "serie": "Série Dicas de Verão",
-    "ref": "041-BT-VER-AV01",
+    "ref": "041_dicas_01",
     "operator": "Brasil Telecom",
     "price": 0.5,
     "image": "fotos/brasil_telecom/041_dicas_01.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "042-BT-CRI-C.02",
-    "title": "Dia das Crianças 2005 (2 cards): COMPLETA",
+    "title": "Série Dia das Crianças 2005 - C.02 - COMPLETA",
     "serie": "Série Dia das Crianças 2005",
-    "ref": "042-BT-CRI-C.02",
+    "ref": "042-BT-CRI-C",
     "operator": "Brasil Telecom",
     "price": 2,
     "image": "fotos/brasil_telecom/042-BT-CRI-C.jpg",
-    "type": "Completa",
-    "imageHasError": false
+    "type": "Completa"
   },
   {
     "id": "043-BT-COM-AV01",
-    "title": "Cartões (043-BT-COM-AV01) Brasil Telecom-Série Combate Celular (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Tagarelar - Orelhao verde",
+    "serie": "Série Combate Celular",
     "ref": "043-BT-COM-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/043-BT-COM-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/043-BT-COM-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "044-BT-INC-AV01",
-    "title": "Cartões (044-BT-INC-AV01) Brasil Telecom-Série Incentivo ao 14 (2 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Brasil roxo e orelhoes",
+    "serie": "Série Incentivo ao 14",
     "ref": "044-BT-INC-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/044-BT-INC-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/044-BT-INC-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "046-BT-SEL-AV02",
-    "title": "Cartões (046-BT-SEL-AV02) Brasil Telecom-Série Selo Social  (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- 2ª Feira Social, em Ponta Grossa",
+    "serie": "Série Selo Social",
     "ref": "046-BT-SEL-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/046-BT-SEL-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/046-BT-SEL-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "048-BT-PAI-AV01",
-    "title": "Cartões (048-BT-PAI-AV01) Brasil Telecom-Série Dia dos Pais (3 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Bebe no colo",
+    "serie": "Série Dia dos Pais",
     "ref": "048-BT-PAI-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/048-BT-PAI-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/048-BT-PAI-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "048-BT-PAI-AV03",
-    "title": "Cartões (048-BT-PAI-AV03) Brasil Telecom-Série Dia dos Pais (3 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Fazer a barba",
+    "serie": "Série Dia dos Pais",
     "ref": "048-BT-PAI-AV03",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/048-BT-PAI-AV03.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/048-BT-PAI-AV03.jpg",
+    "type": "Avulso"
   },
   {
     "id": "050-BT-P&R-AV02",
-    "title": "Cartões (050-BT-P&R-AV02) Brasil Telecom-Série Perguntas e Respostas (2 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Cartao verde de perguntas",
+    "serie": "Série Perguntas e Respostas",
     "ref": "050-BT-P&R-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/050-BT-P&R-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/050-BT-P&R-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "052-BT-PAS-AV07",
-    "title": "Cartões (052-BT-PAS-AV07) Brasil Telecom-Série Páscoa no Mundo (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Pascoa nos EUA",
+    "serie": "Série Páscoa no Mundo",
     "ref": "052-BT-PAS-AV07",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/052-BT-PAS-AV07.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/052-BT-PAS-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "053-BT-CCE-AV02",
-    "title": "Cartões (053-BT-CCE-AV02) Brasil Telecom-Série Controle Celular (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Orelhao verde",
+    "serie": "Série Controle Celular",
     "ref": "053-BT-CCE-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/053-BT-CCE-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/053-BT-CCE-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "055-BT-ARV-AV07",
-    "title": "Cartões (055-BT-ARV-AV07) Brasil Telecom-Série Reserva do Arvoredo (10 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Peixe",
+    "serie": "Série Reserva do Arvoredo",
     "ref": "055-BT-ARV-AV07",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/055-BT-ARV-AV07.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/055-BT-ARV-AV07.jpg",
+    "type": "Avulso"
   },
   {
     "id": "056-BT-JUN-AV04",
-    "title": "Cartões (056-BT-JUN-AV04) Brasil Telecom-Série Festa Junina (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Pau de sebo",
+    "serie": "Série Festa Junina",
     "ref": "056-BT-JUN-AV04",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/056-BT-JUN-AV04.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/056-BT-JUN-AV04.jpg",
+    "type": "Avulso"
   },
   {
     "id": "056-BT-JUN-AV08",
-    "title": "Cartões (056-BT-JUN-AV08) Brasil Telecom-Série Festa Junina (11 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Santo Antonio",
+    "serie": "Série Festa Junina",
     "ref": "056-BT-JUN-AV08",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/056-BT-JUN-AV08.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/056-BT-JUN-AV08.jpg",
+    "type": "Avulso"
   },
   {
     "id": "057-BT-COR-AV01",
-    "title": "Cartões (057-BT-COR-AV01) Brasil Telecom-Série Envelope (20 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Envelope 2",
+    "serie": "Série Envelope",
     "ref": "057-BT-COR-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/057-BT-COR-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/057-BT-COR-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "060-BT-MAE-AV01",
-    "title": "Cartões (060-BT-MAE-AV01) Brasil Telecom-Série Dia das Mães (4 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Mae da Silvinha",
+    "serie": "Série Dia das Mães",
     "ref": "060-BT-MAE-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/060-BT-MAE-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/060-BT-MAE-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "061-BT-PAS-AV02",
-    "title": "Cartões (061-BT-PAS-AV02) Brasil Telecom-Série Passagens Bíblicas (5 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Mt.5:8",
+    "serie": "Série Passagens Bíblicas",
     "ref": "061-BT-PAS-AV02",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/061-BT-PAS-AV02.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/061-BT-PAS-AV02.jpg",
+    "type": "Avulso"
   },
   {
     "id": "062-BT-TIA-AV01",
-    "title": "Cartões (062-BT-TIA-AV01) Brasil Telecom-Série Fund. Tiago M. Gonzaga (3 cards): INCOMPL.: 1 card",
-    "serie": "",
+    "title": "- Tire o pe do acelerador",
+    "serie": "Série Fund. Tiago M. Gonzaga",
     "ref": "062-BT-TIA-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/062-BT-TIA-AV01.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/062-BT-TIA-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV01",
     "title": "- Dia internacional da mulher",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV01",
+    "ref": "1000-BT-001",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV01.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-001.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV03",
     "title": "- 8 de marco - Dia internacional da Mulher",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV03",
+    "ref": "1000-BT-003",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV03.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-003.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV05",
     "title": "- Outono 2",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV05",
+    "ref": "1000-BT-005",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV05.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-005.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV07",
     "title": "- Correios - Selos II",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV07",
+    "ref": "1000-BT-007",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV07.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-007.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV09",
     "title": "- Leoa - Homenagem ao Dia das Maes",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV09",
+    "ref": "058-BT-PRO-AV01",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV09.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/058-BT-PRO-AV01.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV11",
     "title": "- Balneario Pinhal",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV11",
+    "ref": "1000-BT-011",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV11.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-011.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV13",
     "title": "- Expo\\Maringa - 2004",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV13",
+    "ref": "1000-BT-013",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV13.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-013.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV15",
     "title": "- Santa Paulina",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV15",
+    "ref": "1000-BT-015",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV15.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-015.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV17",
     "title": "- Cartao Maranhao",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV17",
+    "ref": "1000-BT-017",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV17.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-017.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV19",
     "title": "- Aniversario - SEAB",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV19",
+    "ref": "1000-BT-019",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV19.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-019.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV21",
     "title": "- Expovest",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV21",
+    "ref": "1000-BT-021",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV21.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-021.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV23",
     "title": "- 25a da Brinque da Rendecao",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV23",
+    "ref": "1000-BT-023",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV23.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-023.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV25",
     "title": "- Disque Amizade",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV25",
+    "ref": "1000-BT-026",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV25.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-026.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV27",
     "title": "- Alo Sorte",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV27",
+    "ref": "1000-BT-027",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV27.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-027.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV29",
     "title": "- Grupo 14",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV29",
+    "ref": "1000-BT-029",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV29.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-029.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV31",
     "title": "- Pula-pula - cartao mais",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV31",
+    "ref": "1000-BT-031",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV31.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-031.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV33",
-    "title": "- Cartao VC 40",
+    "title": "- cartao VC 40",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV33",
+    "ref": "1000-BT-033",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV33.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-033.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV35",
     "title": "- DST AIDS",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV35",
+    "ref": "1000-BT-035",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV35.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-035.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV37",
     "title": "- Cruzada anti drogas",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV37",
+    "ref": "1000-BT-037",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV37.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-037.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV39",
-    "title": "- Teleton - AACD",
+    "title": "- Uso TUP - Capilaridade",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV39",
+    "ref": "1000-BT-039",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV39.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-039.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV41",
     "title": "- Cartao de reembolso",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV41",
+    "ref": "1000-BT-041",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV41.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-041.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV43",
     "title": "- Cidade: Ilopolis",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV43",
+    "ref": "1000-BT-043",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV43.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-043.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV45",
     "title": "- Cartao Alo 2",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV45",
+    "ref": "1000-BT-045",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV45.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-045.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV47",
     "title": "- Cartao: Vale de face 2",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV47",
+    "ref": "1000-BT-047",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV47.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-047.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV49",
     "title": "- Fale mais",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV49",
+    "ref": "1000-BT-049",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV49.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-049.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV51",
     "title": "- LigMix",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV51",
+    "ref": "1000-BT-051",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV51.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-051.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO1-INC.03",
-    "title": " Propaganda - INCOMPL.: 3 card - LOTE",
-    "serie": "Série Propaganda ",
-    "ref": "1000-BT-PRO1-INC.03",
+    "title": "- Cartao de minutos - C.03 - COMPLETA",
+    "serie": "Série Propaganda",
+    "ref": "1000-BT-053",
     "operator": "Brasil Telecom",
     "price": 2,
-    "image": "fotos/brasil_telecom/1000-BT-040.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-053.jpg",
+    "type": "Completa"
   },
   {
     "id": "1000-BT-PRO-AV55",
     "title": "- Cartao de 80m",
-    "serie": "Série Propaganda ",
-    "ref": "1000-BT-PRO-AV55",
+    "serie": "Série Propaganda",
+    "ref": "1000-BT-055",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV55.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-055.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV57",
     "title": "- Valorize o seu tempo",
-    "serie": "Série Propaganda ",
-    "ref": "1000-BT-PRO-AV57",
+    "serie": "Série Propaganda",
+    "ref": "1000-BT-057",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV57.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-057.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV59",
-    "title": "- Orelhao e bone - INCOMPL.: 1 card",
+    "title": "- Orelhao e bone",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO-AV59",
+    "ref": "1000-BT-059",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV59.JPG",
-    "type": "Avulso",
-    "imageHasError": false
+    "image": "fotos/brasil_telecom/1000-BT-059.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV60A",
-    "title": "Cartões (1000-BT-PRO-AV60A) Brasil Telecom-Série Propaganda (100 cards): INCOMPL.: 1 card",
-    "serie": "",
-    "ref": "1000-BT-PRO-AV60A",
+    "title": "- De mais tempo aos seus minutos",
+    "serie": "Série Propaganda",
+    "ref": "1000-BT-060",
     "operator": "Brasil Telecom",
     "price": 0.5,
-    "image": "fotos/brasil_telecom/1000-BT-PRO-AV60A.JPG",
-    "type": "Completa"
+    "image": "fotos/brasil_telecom/1000-BT-060.jpg",
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO-AV62",
-    "title": "- 8 jeitos de mudar o mundo - INCOMPL.: 1 card",
-    "serie": "Série Propaganda ",
-    "ref": "1000-BT-PRO-AV62",
+    "title": "- 8 jeitos de mudar o mundo",
+    "serie": "Série Propaganda",
+    "ref": "1000-BT-062",
     "operator": "Brasil Telecom",
     "price": 0.5,
     "image": "fotos/brasil_telecom/1000-BT-062.jpg",
-    "type": "Avulso",
-    "imageHasError": false
+    "type": "Avulso"
   },
   {
     "id": "1000-BT-PRO4-INC.09",
-    "title": "Propaganda: INCOMPL.: 9 card - LOTE",
+    "title": "- De mais tempo aos seus minutos - C.09 - LOTE",
     "serie": "Série Propaganda",
-    "ref": "1000-BT-PRO4-INC.09",
+    "ref": "1000-BT-063",
     "operator": "Brasil Telecom",
     "price": 5,
     "image": "fotos/brasil_telecom/1000-BT-063.jpg",
-    "type": "Lote",
-    "imageHasError": false
+    "type": "Lote"
   }
 ];
