@@ -16,9 +16,9 @@ window.telegoiasData = [
     "ref": "002-TGO-LIT-AV.03",
     "operator": "Telegoias",
     "price": 0.5,
-    "image": "fotos/telegoias/002-TGO-LIT-AV.03 .jpg",
+    "image": "fotos/telegoias/002-TGO-LIT-AV.03.jpg",
     "type": "Avulso",
-    "imageHasError": true
+    "imageHasError": false
   },
   {
     "id": "002-TGO-LIT-AV.03",
