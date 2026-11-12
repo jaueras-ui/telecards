@@ -20,6 +20,16 @@ window.teleparData = [
     "type": "Avulso"
   },
   {
+    "id": "001-TPR-PROP-AV.03",
+    "title": "- Cert Representativo de acoes",
+    "serie": "Série Propaganda",
+    "ref": "001-TPR-PROP-AV.03",
+    "operator": "Telepar",
+    "price": 0.5,
+    "image": "fotos/telepar/001-TPR-PROP-AV.03.jpg",
+    "type": "Avulso"
+  },
+  {
     "id": "002-TPR-SOL-AV.01",
     "title": "- Lua",
     "serie": "Série Sistema Solar",
