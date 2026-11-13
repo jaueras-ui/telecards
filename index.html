@@ -398,7 +398,7 @@
     </div>
   </div>
 
-  <!-- MODAL VINCULADOR RÁPIDO (COMPACTO E FILTRO DINÂMICO) -->
+  <!-- MODAL VINCULADOR RÁPIDO (FOTO COMPACTA + BOTÕES LADO A LADO + FILA DINÂMICA) -->
   <div id="linker-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-5xl w-full space-y-6 border border-emerald-500/40 shadow-2xl text-xs flex flex-col max-h-[90vh]">
       
@@ -411,33 +411,33 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 flex-grow overflow-hidden">
         
-        <!-- Coluna Esquerda (Preview Compacto + Botões Próximos) -->
-        <div class="lg:col-span-5 flex flex-col gap-4 bg-brand-dark p-4 rounded-2xl border border-brand-border">
+        <!-- Coluna Esquerda (Preview Compacto e Reduzido + Botões Próximos) -->
+        <div class="lg:col-span-5 flex flex-col gap-3 bg-brand-dark p-4 rounded-2xl border border-brand-border">
           <div>
-            <label class="block text-slate-400 font-semibold mb-1.5 uppercase text-[10px]">1. Operadora</label>
-            <select id="linker-op-select" onchange="updateLinkerCardsList()" class="w-full p-2.5 bg-brand-card border border-brand-border rounded-xl text-white font-bold outline-none focus:border-emerald-500">
+            <label class="block text-slate-400 font-semibold mb-1 uppercase text-[10px]">1. Operadora</label>
+            <select id="linker-op-select" onchange="updateLinkerCardsList()" class="w-full p-2 bg-brand-card border border-brand-border rounded-xl text-white font-bold outline-none focus:border-emerald-500">
             </select>
           </div>
 
           <div>
-            <label class="block text-slate-400 font-semibold mb-1.5 uppercase text-[10px]">2. Arquivos de Imagem da Pasta</label>
-            <label class="flex items-center justify-center gap-2 p-3 bg-brand-card border border-dashed border-emerald-500/60 rounded-xl cursor-pointer hover:border-emerald-400 text-emerald-400 font-bold transition-all">
+            <label class="block text-slate-400 font-semibold mb-1 uppercase text-[10px]">2. Arquivos de Imagem da Pasta</label>
+            <label class="flex items-center justify-center gap-2 p-2.5 bg-brand-card border border-dashed border-emerald-500/60 rounded-xl cursor-pointer hover:border-emerald-400 text-emerald-400 font-bold transition-all">
               <i class="fa-solid fa-folder-open"></i> Escolher Imagens (JPG/JPEG)
               <input type="file" id="linker-file-input" multiple accept="image/*" onchange="handleLinkerFiles(event)" class="hidden">
             </label>
           </div>
 
-          <div class="bg-brand-card rounded-xl border border-brand-border p-3 flex flex-col items-center justify-center relative">
-            <!-- Altura reduzida para 288px (h-36) para não ocupar muito espaço -->
-            <div id="linker-preview-container" class="w-full h-36 flex items-center justify-center overflow-hidden rounded-lg bg-black/40">
+          <div class="bg-brand-card rounded-xl border border-brand-border p-2.5 flex flex-col items-center justify-center relative">
+            <!-- Altura reduzida para h-28 (~112px) para a foto não ocupar muito espaço -->
+            <div id="linker-preview-container" class="w-full h-28 flex items-center justify-center overflow-hidden rounded-lg bg-black/40">
               <span class="text-slate-500 italic text-[11px]">Nenhuma foto carregada ainda.</span>
             </div>
-            <div class="text-[10px] text-slate-400 mt-2 font-mono" id="linker-preview-counter">Foto 0 de 0</div>
+            <div class="text-[10px] text-slate-400 mt-1.5 font-mono" id="linker-preview-counter">Foto 0 de 0</div>
             
-            <!-- Botões Anterior e Próxima bem próximos à imagem -->
-            <div class="flex items-center gap-2 w-full mt-3">
-              <button onclick="linkerPrevPhoto()" class="flex-1 py-2 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold transition-all"><i class="fa-solid fa-chevron-left mr-1"></i> Anterior</button>
-              <button onclick="linkerNextPhoto()" class="flex-1 py-2 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold transition-all">Próxima <i class="fa-solid fa-chevron-right ml-1"></i></button>
+            <!-- Botões Anterior e Próxima bem colados e compactos logo abaixo da foto -->
+            <div class="flex items-center gap-2 w-full mt-2">
+              <button onclick="linkerPrevPhoto()" class="flex-1 py-1.5 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold text-[11px] transition-all"><i class="fa-solid fa-chevron-left mr-1"></i> Anterior</button>
+              <button onclick="linkerNextPhoto()" class="flex-1 py-1.5 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold text-[11px] transition-all">Próxima <i class="fa-solid fa-chevron-right ml-1"></i></button>
             </div>
           </div>
         </div>
@@ -1087,7 +1087,6 @@
           url: URL.createObjectURL(file)
         }
       }).filter(fileObj => {
-        // Verifica se já existe algum cartão que usa exatamente esse nome de arquivo na imagem
         const alreadyLinked = cards.some(c => {
           if (!c.image) return false;
           const parts = c.image.split('/');
