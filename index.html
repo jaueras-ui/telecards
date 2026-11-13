@@ -363,7 +363,7 @@
     </div>
   </div>
 
-  <!-- MODAL EXPORTAR JS -->
+  <!-- MODAL EXPORTAR JS (DUAS MANEIRAS: BUSCA DIRETA + CAIXINHAS DESMARCADAS) -->
   <div id="export-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-md w-full space-y-4 border border-brand-border shadow-2xl text-xs flex flex-col">
       <div class="flex justify-between items-center border-b border-brand-border pb-3">
@@ -372,10 +372,30 @@
         </h3>
         <button onclick="closeExportModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
       </div>
-      <div class="space-y-2 py-2 overflow-y-auto max-h-[50vh]" id="export-checkboxes-container"></div>
+
+      <!-- Maneira 1: Campo de Busca para escrever direto -->
+      <div class="space-y-2">
+        <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Buscar Operadora (Digite para filtrar)</label>
+        <div class="relative">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-indigo-400">
+            <i class="fa-solid fa-magnifying-glass text-xs"></i>
+          </span>
+          <input type="text" id="export-search-input" oninput="filterExportList()" placeholder="Ex: Teleamapa, Telepar, Outras..." class="w-full pl-9 pr-3 py-2.5 bg-brand-dark border border-indigo-500/40 rounded-xl text-white placeholder-slate-500 text-xs outline-none focus:border-indigo-400">
+        </div>
+        <div class="flex justify-between items-center pt-1">
+          <span class="text-[10px] text-slate-400">Marque as caixinhas ou clique em baixar direto:</span>
+          <button type="button" onclick="toggleAllExportCheckboxes()" class="text-[11px] font-bold text-indigo-400 hover:text-indigo-300 transition-all">
+            Marcar / Desmarcar Visíveis
+          </button>
+        </div>
+      </div>
+
+      <!-- Maneira 2: Lista com caixinhas desmarcadas + botão de download individual rápido -->
+      <div class="space-y-2 py-1 overflow-y-auto max-h-[45vh] pr-1" id="export-checkboxes-container"></div>
+      
       <div class="flex justify-end gap-2 pt-3 border-t border-brand-border">
-        <button onclick="closeExportModal()" class="px-4 py-2 bg-brand-dark text-slate-300 font-bold rounded-xl">Cancelar</button>
-        <button onclick="downloadSelectedJS()" class="px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl">Baixar Selecionados</button>
+        <button onclick="closeExportModal()" class="px-4 py-2.5 bg-brand-dark hover:bg-brand-border text-slate-300 font-bold rounded-xl">Cancelar</button>
+        <button onclick="downloadSelectedJS()" class="px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg">Baixar Marcados</button>
       </div>
     </div>
   </div>
@@ -655,7 +675,6 @@
       const container = document.getElementById('operator-filters');
       const wrapper = document.getElementById('operator-container');
       
-      // Exibe todas as operadoras padrão para garantir que "Outras", "Teleamapa", etc., apareçam sempre
       const ops = ["Todos", ...DEFAULT_OPS];
       
       wrapper.classList.remove('hidden');
@@ -968,16 +987,43 @@
       renderCatalog();
     }
 
+    // EXPORT MODAL: DESMARCADO POR PADRÃO + BUSCA + DOWNLOAD DIRETO INDIVIDUAL
     function openExportModal() {
       const container = document.getElementById('export-checkboxes-container');
+      const searchInput = document.getElementById('export-search-input');
+      if (searchInput) searchInput.value = '';
+
       container.innerHTML = DEFAULT_OPS.map(op => `
-        <label class="flex items-center gap-3 p-2.5 bg-brand-dark rounded-xl border border-brand-border cursor-pointer">
-          <input type="checkbox" value="${op}" class="w-4 h-4 accent-indigo-500 export-op-chk" checked>
-          <span class="font-bold text-white">${op}</span>
-        </label>
+        <div class="export-op-item flex items-center justify-between p-2.5 bg-brand-dark rounded-xl border border-brand-border hover:border-indigo-500/50 transition-all" data-op-name="${normalizeText(op)}">
+          <label class="flex items-center gap-3 cursor-pointer flex-grow">
+            <input type="checkbox" value="${op}" class="w-4 h-4 accent-indigo-500 export-op-chk">
+            <span class="font-bold text-white">${op}</span>
+          </label>
+          <button type="button" onclick="downloadSingleJS('${op}')" class="px-2.5 py-1 bg-indigo-600/20 hover:bg-indigo-600 text-indigo-300 hover:text-white border border-indigo-500/30 rounded-lg text-[10px] font-bold transition-all flex items-center gap-1" title="Baixar apenas ${op}.js agora">
+            <i class="fa-solid fa-download"></i> Baixar
+          </button>
+        </div>
       `).join('');
+
       document.getElementById('export-modal').classList.remove('hidden');
       document.getElementById('export-modal').classList.add('flex');
+      if (searchInput) setTimeout(() => searchInput.focus(), 50);
+    }
+
+    function filterExportList() {
+      const query = normalizeText(document.getElementById('export-search-input').value);
+      const items = document.querySelectorAll('.export-op-item');
+      items.forEach(item => {
+        const opName = item.getAttribute('data-op-name');
+        item.style.display = opName.includes(query) ? 'flex' : 'none';
+      });
+    }
+
+    function toggleAllExportCheckboxes() {
+      const visibleItems = Array.from(document.querySelectorAll('.export-op-item')).filter(el => el.style.display !== 'none');
+      const checkboxes = visibleItems.map(el => el.querySelector('.export-op-chk'));
+      const anyUnchecked = checkboxes.some(chk => !chk.checked);
+      checkboxes.forEach(chk => chk.checked = anyUnchecked);
     }
 
     function closeExportModal() {
@@ -985,22 +1031,27 @@
       document.getElementById('export-modal').classList.remove('flex');
     }
 
+    function downloadSingleJS(opName) {
+      const fileKey = normalizeText(opName).replace(/\s+/g, '');
+      const filename = fileKey + '.js';
+      const filtered = cards.filter(c => matchOperator(c.operator, opName));
+      const content = `window.${fileKey}Data = ${JSON.stringify(filtered, null, 2)};`;
+      const blob = new Blob([content], { type: 'application/javascript;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
     function downloadSelectedJS() {
       const checkboxes = document.querySelectorAll('.export-op-chk:checked');
-      checkboxes.forEach(chk => {
-        const opName = chk.value;
-        const fileKey = normalizeText(opName).replace(/\s+/g, '');
-        const filename = fileKey + '.js';
-        const filtered = cards.filter(c => matchOperator(c.operator, opName));
-        const content = `window.${fileKey}Data = ${JSON.stringify(filtered, null, 2)};`;
-        const blob = new Blob([content], { type: 'application/javascript;charset=utf-8;' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = filename;
-        a.click();
-        URL.revokeObjectURL(url);
-      });
+      if (checkboxes.length === 0) {
+        alert('Marque pelo menos uma operadora ou clique no botão "Baixar" ao lado do nome dela.');
+        return;
+      }
+      checkboxes.forEach(chk => downloadSingleJS(chk.value));
       closeExportModal();
     }
 
