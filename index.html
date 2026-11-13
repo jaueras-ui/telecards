@@ -363,7 +363,7 @@
     </div>
   </div>
 
-  <!-- MODAL EXPORTAR JS (DUAS MANEIRAS: BUSCA DIRETA + CAIXINHAS DESMARCADAS) -->
+  <!-- MODAL EXPORTAR JS -->
   <div id="export-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-md w-full space-y-4 border border-brand-border shadow-2xl text-xs flex flex-col">
       <div class="flex justify-between items-center border-b border-brand-border pb-3">
@@ -373,7 +373,6 @@
         <button onclick="closeExportModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
       </div>
 
-      <!-- Maneira 1: Campo de Busca para escrever direto -->
       <div class="space-y-2">
         <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Buscar Operadora (Digite para filtrar)</label>
         <div class="relative">
@@ -390,7 +389,6 @@
         </div>
       </div>
 
-      <!-- Maneira 2: Lista com caixinhas desmarcadas + botão de download individual rápido -->
       <div class="space-y-2 py-1 overflow-y-auto max-h-[45vh] pr-1" id="export-checkboxes-container"></div>
       
       <div class="flex justify-end gap-2 pt-3 border-t border-brand-border">
@@ -400,7 +398,7 @@
     </div>
   </div>
 
-  <!-- MODAL VINCULADOR RÁPIDO (DUAS COLUNAS) -->
+  <!-- MODAL VINCULADOR RÁPIDO (COMPACTO E FILTRO DINÂMICO) -->
   <div id="linker-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-5xl w-full space-y-6 border border-emerald-500/40 shadow-2xl text-xs flex flex-col max-h-[90vh]">
       
@@ -413,7 +411,7 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 flex-grow overflow-hidden">
         
-        <!-- Coluna Esquerda -->
+        <!-- Coluna Esquerda (Preview Compacto + Botões Próximos) -->
         <div class="lg:col-span-5 flex flex-col gap-4 bg-brand-dark p-4 rounded-2xl border border-brand-border">
           <div>
             <label class="block text-slate-400 font-semibold mb-1.5 uppercase text-[10px]">1. Operadora</label>
@@ -429,12 +427,14 @@
             </label>
           </div>
 
-          <div class="flex-grow bg-brand-card rounded-xl border border-brand-border p-3 flex flex-col items-center justify-center relative min-h-[180px]">
+          <div class="bg-brand-card rounded-xl border border-brand-border p-3 flex flex-col items-center justify-center relative">
+            <!-- Altura reduzida para 288px (h-36) para não ocupar muito espaço -->
             <div id="linker-preview-container" class="w-full h-36 flex items-center justify-center overflow-hidden rounded-lg bg-black/40">
               <span class="text-slate-500 italic text-[11px]">Nenhuma foto carregada ainda.</span>
             </div>
             <div class="text-[10px] text-slate-400 mt-2 font-mono" id="linker-preview-counter">Foto 0 de 0</div>
             
+            <!-- Botões Anterior e Próxima bem próximos à imagem -->
             <div class="flex items-center gap-2 w-full mt-3">
               <button onclick="linkerPrevPhoto()" class="flex-1 py-2 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold transition-all"><i class="fa-solid fa-chevron-left mr-1"></i> Anterior</button>
               <button onclick="linkerNextPhoto()" class="flex-1 py-2 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold transition-all">Próxima <i class="fa-solid fa-chevron-right ml-1"></i></button>
@@ -460,7 +460,7 @@
       </div>
 
       <div class="flex justify-between items-center pt-3 border-t border-brand-border">
-        <span class="text-[11px] text-slate-400">Dica: A foto vinculada usará o nome do arquivo JPG para organizar seu acervo perfeitamente.</span>
+        <span class="text-[11px] text-slate-400">Dica: Ao vincular, a foto sai automaticamente da lista de pendentes.</span>
         <button onclick="closeLinkerModal()" class="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs shadow-lg transition-all">Concluir e Salvar Vínculos</button>
       </div>
 
@@ -987,7 +987,7 @@
       renderCatalog();
     }
 
-    // EXPORTAR COM CADA CARTÃO EM LINHA ÚNICA (COMPACTO)
+    // EXPORTAR JS EM LINHA ÚNICA POR CARTÃO
     function openExportModal() {
       const container = document.getElementById('export-checkboxes-container');
       const searchInput = document.getElementById('export-search-input');
@@ -1035,8 +1035,6 @@
       const fileKey = normalizeText(opName).replace(/\s+/g, '');
       const filename = fileKey + '.js';
       const filtered = cards.filter(c => matchOperator(c.operator, opName));
-      
-      // Monta o conteúdo gerando cada objeto JSON em uma única linha compacta
       const itemsJson = filtered.map(c => JSON.stringify(c)).join(',\n');
       const content = `window.${fileKey}Data = [\n${itemsJson}\n];`;
 
@@ -1059,14 +1057,15 @@
       closeExportModal();
     }
 
+    // VINCULADOR RÁPIDO COM FILA DINÂMICA (FOTO VINCULADA SOME DA LISTA)
     function openLinkerModal() {
       populateOperatorSelect();
       linkerFiles = [];
       linkerCurrentIndex = 0;
       updateLinkerPreview();
       updateLinkerCardsList();
-      document.getElementById('linker-modal').classList.add('flex');
       document.getElementById('linker-modal').classList.remove('hidden');
+      document.getElementById('linker-modal').classList.add('flex');
     }
 
     function closeLinkerModal() {
@@ -1078,10 +1077,27 @@
     function handleLinkerFiles(event) {
       const files = Array.from(event.target.files);
       if (files.length === 0) return;
-      linkerFiles = files.map(file => ({
-        name: file.name,
-        url: URL.createObjectURL(file)
-      }));
+      
+      // Carrega apenas os arquivos cujos nomes (sem extensão) ainda NÃO estão vinculados a nenhum cartão ativo
+      linkerFiles = files.map(file => {
+        const baseName = file.name.substring(0, file.name.lastIndexOf('.')) || file.name;
+        return {
+          name: file.name,
+          baseName: baseName.toLowerCase(),
+          url: URL.createObjectURL(file)
+        }
+      }).filter(fileObj => {
+        // Verifica se já existe algum cartão que usa exatamente esse nome de arquivo na imagem
+        const alreadyLinked = cards.some(c => {
+          if (!c.image) return false;
+          const parts = c.image.split('/');
+          const imgFileName = parts[parts.length - 1].toLowerCase();
+          const imgBaseName = imgFileName.substring(0, imgFileName.lastIndexOf('.')) || imgFileName;
+          return imgBaseName === fileObj.baseName;
+        });
+        return !alreadyLinked; // Se já está vinculado, some da lista de pendentes!
+      });
+
       linkerCurrentIndex = 0;
       updateLinkerPreview();
     }
@@ -1090,9 +1106,12 @@
       const container = document.getElementById('linker-preview-container');
       const counter = document.getElementById('linker-preview-counter');
       if (linkerFiles.length === 0) {
-        container.innerHTML = `<span class="text-slate-500 italic text-[11px]">Nenhuma foto carregada ainda.</span>`;
-        counter.innerText = `Foto 0 de 0`;
+        container.innerHTML = `<span class="text-slate-500 italic text-[11px]">Todas as fotos foram vinculadas!</span>`;
+        counter.innerText = `0 pendentes`;
         return;
+      }
+      if (linkerCurrentIndex >= linkerFiles.length) {
+        linkerCurrentIndex = linkerFiles.length - 1;
       }
       const current = linkerFiles[linkerCurrentIndex];
       container.innerHTML = `<img src="${current.url}" class="max-h-full max-w-full object-contain rounded">`;
@@ -1107,7 +1126,7 @@
 
     function linkerNextPhoto() {
       if (linkerFiles.length === 0) return;
-      linkerCurrentIndex = (linkerCurrentIndex + 1 + linkerFiles.length) % linkerFiles.length;
+      linkerCurrentIndex = (linkerCurrentIndex + 1) % linkerFiles.length;
       updateLinkerPreview();
     }
 
@@ -1164,12 +1183,15 @@
 
     function bindLinkerPhotoToCard(cardId, defaultPath) {
       let finalPath = defaultPath;
+      let linkedBaseName = '';
+
       if (linkerFiles.length > 0) {
         const currentFile = linkerFiles[linkerCurrentIndex];
         const opSelect = document.getElementById('linker-op-select');
         let opFolder = normalizeText(opSelect.value).replace(/\s+/g, '_');
         if (opFolder.includes('brasil')) opFolder = 'brasil_telecom';
         finalPath = `fotos/${opFolder}/${currentFile.name}`;
+        linkedBaseName = currentFile.baseName;
       }
 
       const c = cards.find(item => item.id === cardId);
@@ -1190,11 +1212,17 @@
         }
       }
 
+      // Remove a foto vinculada da lista de arquivos pendentes para ela sumir na hora!
+      if (linkedBaseName) {
+        linkerFiles = linkerFiles.filter(f => f.baseName !== linkedBaseName);
+        if (linkerCurrentIndex >= linkerFiles.length && linkerFiles.length > 0) {
+          linkerCurrentIndex = linkerFiles.length - 1;
+        }
+      }
+
+      updateLinkerPreview();
       renderLinkerCardsItems();
       renderCatalog();
-      if (linkerFiles.length > 0) {
-        linkerNextPhoto();
-      }
     }
   </script>
 </body>
