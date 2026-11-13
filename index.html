@@ -987,7 +987,7 @@
       renderCatalog();
     }
 
-    // EXPORT MODAL: DESMARCADO POR PADRÃO + BUSCA + DOWNLOAD DIRETO INDIVIDUAL
+    // EXPORTAR COM CADA CARTÃO EM LINHA ÚNICA (COMPACTO)
     function openExportModal() {
       const container = document.getElementById('export-checkboxes-container');
       const searchInput = document.getElementById('export-search-input');
@@ -1035,7 +1035,11 @@
       const fileKey = normalizeText(opName).replace(/\s+/g, '');
       const filename = fileKey + '.js';
       const filtered = cards.filter(c => matchOperator(c.operator, opName));
-      const content = `window.${fileKey}Data = ${JSON.stringify(filtered, null, 2)};`;
+      
+      // Monta o conteúdo gerando cada objeto JSON em uma única linha compacta
+      const itemsJson = filtered.map(c => JSON.stringify(c)).join(',\n');
+      const content = `window.${fileKey}Data = [\n${itemsJson}\n];`;
+
       const blob = new Blob([content], { type: 'application/javascript;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
@@ -1061,8 +1065,8 @@
       linkerCurrentIndex = 0;
       updateLinkerPreview();
       updateLinkerCardsList();
-      document.getElementById('linker-modal').classList.remove('hidden');
       document.getElementById('linker-modal').classList.add('flex');
+      document.getElementById('linker-modal').classList.remove('hidden');
     }
 
     function closeLinkerModal() {
@@ -1103,7 +1107,7 @@
 
     function linkerNextPhoto() {
       if (linkerFiles.length === 0) return;
-      linkerCurrentIndex = (linkerCurrentIndex + 1) % linkerFiles.length;
+      linkerCurrentIndex = (linkerCurrentIndex + 1 + linkerFiles.length) % linkerFiles.length;
       updateLinkerPreview();
     }
 
