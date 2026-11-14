@@ -363,7 +363,7 @@
     </div>
   </div>
 
-  <!-- MODAL EXPORTAR JS -->
+  <!-- MODAL EXPORTAR JS (CORRIGIDO COM AVISO E TECLA ENTER) -->
   <div id="export-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-md w-full space-y-4 border border-brand-border shadow-2xl text-xs flex flex-col">
       <div class="flex justify-between items-center border-b border-brand-border pb-3">
@@ -379,7 +379,7 @@
           <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-indigo-400">
             <i class="fa-solid fa-magnifying-glass text-xs"></i>
           </span>
-          <input type="text" id="export-search-input" oninput="filterExportList()" placeholder="Ex: Teleamapa, Telepar, Outras..." class="w-full pl-9 pr-3 py-2.5 bg-brand-dark border border-indigo-500/40 rounded-xl text-white placeholder-slate-500 text-xs outline-none focus:border-indigo-400">
+          <input type="text" id="export-search-input" oninput="filterExportList()" onkeydown="handleExportSearchKey(event)" placeholder="Ex: CTBC, Telepar, Outras..." class="w-full pl-9 pr-3 py-2.5 bg-brand-dark border border-indigo-500/40 rounded-xl text-white placeholder-slate-500 text-xs outline-none focus:border-indigo-400">
         </div>
         <div class="flex justify-between items-center pt-1">
           <span class="text-[10px] text-slate-400">Marque as caixinhas ou clique em baixar direto:</span>
@@ -398,7 +398,7 @@
     </div>
   </div>
 
-  <!-- MODAL VINCULADOR RÁPIDO (CORRIGIDO E COM FILTRO SEM FOTO) -->
+  <!-- MODAL VINCULADOR RÁPIDO -->
   <div id="linker-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-5xl w-full space-y-6 border border-emerald-500/40 shadow-2xl text-xs flex flex-col max-h-[90vh]">
       
@@ -991,7 +991,7 @@
       renderCatalog();
     }
 
-    // EXPORTAR JS EM LINHA ÚNICA POR CARTÃO
+    // EXPORTAR JS COM BUSCA ROBUSTA E AVISO VISUAL
     function openExportModal() {
       const container = document.getElementById('export-checkboxes-container');
       const searchInput = document.getElementById('export-search-input');
@@ -1007,7 +1007,7 @@
             <i class="fa-solid fa-download"></i> Baixar
           </button>
         </div>
-      `).join('');
+      `).join('') + `<div id="export-empty-msg" class="hidden text-center py-4 text-slate-400 italic">Nenhuma operadora encontrada com esse termo.</div>`;
 
       document.getElementById('export-modal').classList.remove('hidden');
       document.getElementById('export-modal').classList.add('flex');
@@ -1017,10 +1017,30 @@
     function filterExportList() {
       const query = normalizeText(document.getElementById('export-search-input').value);
       const items = document.querySelectorAll('.export-op-item');
+      let visibleCount = 0;
+
       items.forEach(item => {
         const opName = item.getAttribute('data-op-name');
-        item.style.display = opName.includes(query) ? 'flex' : 'none';
+        const match = opName.includes(query);
+        item.style.display = match ? 'flex' : 'none';
+        if (match) visibleCount++;
       });
+
+      const emptyMsg = document.getElementById('export-empty-msg');
+      if (emptyMsg) {
+        emptyMsg.classList.toggle('hidden', visibleCount > 0);
+      }
+    }
+
+    function handleExportSearchKey(event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        const visibleItems = Array.from(document.querySelectorAll('.export-op-item')).filter(el => el.style.display !== 'none');
+        if (visibleItems.length > 0) {
+          const chk = visibleItems[0].querySelector('.export-op-chk');
+          if (chk) chk.checked = !chk.checked;
+        }
+      }
     }
 
     function toggleAllExportCheckboxes() {
@@ -1061,7 +1081,7 @@
       closeExportModal();
     }
 
-    // VINCULADOR RÁPIDO (CORRIGIDO)
+    // VINCULADOR RÁPIDO
     function openLinkerModal() {
       populateOperatorSelect();
       if (selectedOp !== 'Todos') {
