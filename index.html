@@ -398,7 +398,7 @@
     </div>
   </div>
 
-  <!-- MODAL VINCULADOR RÁPIDO (FOTO COMPACTA + BOTÕES LADO A LADO + FILA DINÂMICA) -->
+  <!-- MODAL VINCULADOR RÁPIDO (CORRIGIDO E COM FILTRO SEM FOTO) -->
   <div id="linker-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-5xl w-full space-y-6 border border-emerald-500/40 shadow-2xl text-xs flex flex-col max-h-[90vh]">
       
@@ -411,7 +411,7 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 flex-grow overflow-hidden">
         
-        <!-- Coluna Esquerda (Preview Compacto e Reduzido + Botões Próximos) -->
+        <!-- Coluna Esquerda -->
         <div class="lg:col-span-5 flex flex-col gap-3 bg-brand-dark p-4 rounded-2xl border border-brand-border">
           <div>
             <label class="block text-slate-400 font-semibold mb-1 uppercase text-[10px]">1. Operadora</label>
@@ -423,30 +423,33 @@
             <label class="block text-slate-400 font-semibold mb-1 uppercase text-[10px]">2. Arquivos de Imagem da Pasta</label>
             <label class="flex items-center justify-center gap-2 p-2.5 bg-brand-card border border-dashed border-emerald-500/60 rounded-xl cursor-pointer hover:border-emerald-400 text-emerald-400 font-bold transition-all">
               <i class="fa-solid fa-folder-open"></i> Escolher Imagens (JPG/JPEG)
-              <input type="file" id="linker-file-input" multiple accept="image/*" onchange="handleLinkerFiles(event)" class="hidden">
+              <input type="file" id="linker-file-input" multiple accept="image/*,.jpg,.jpeg,.JPG,.JPEG,.png,.PNG" onchange="handleLinkerFiles(event)" class="hidden">
             </label>
           </div>
 
           <div class="bg-brand-card rounded-xl border border-brand-border p-2.5 flex flex-col items-center justify-center relative">
-            <!-- Altura reduzida para h-28 (~112px) para a foto não ocupar muito espaço -->
-            <div id="linker-preview-container" class="w-full h-28 flex items-center justify-center overflow-hidden rounded-lg bg-black/40">
+            <div id="linker-preview-container" class="w-full h-32 flex items-center justify-center overflow-hidden rounded-lg bg-black/40">
               <span class="text-slate-500 italic text-[11px]">Nenhuma foto carregada ainda.</span>
             </div>
-            <div class="text-[10px] text-slate-400 mt-1.5 font-mono" id="linker-preview-counter">Foto 0 de 0</div>
+            <div class="text-[10px] text-slate-400 mt-1.5 font-mono text-center break-all" id="linker-preview-counter">Foto 0 de 0</div>
             
-            <!-- Botões Anterior e Próxima bem colados e compactos logo abaixo da foto -->
             <div class="flex items-center gap-2 w-full mt-2">
-              <button onclick="linkerPrevPhoto()" class="flex-1 py-1.5 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold text-[11px] transition-all"><i class="fa-solid fa-chevron-left mr-1"></i> Anterior</button>
-              <button onclick="linkerNextPhoto()" class="flex-1 py-1.5 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold text-[11px] transition-all">Próxima <i class="fa-solid fa-chevron-right ml-1"></i></button>
+              <button type="button" onclick="linkerPrevPhoto()" class="flex-1 py-1.5 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold text-[11px] transition-all"><i class="fa-solid fa-chevron-left mr-1"></i> Anterior</button>
+              <button type="button" onclick="linkerNextPhoto()" class="flex-1 py-1.5 bg-brand-dark hover:bg-brand-border border border-brand-border rounded-xl text-slate-300 font-bold text-[11px] transition-all">Próxima <i class="fa-solid fa-chevron-right ml-1"></i></button>
             </div>
           </div>
         </div>
 
         <!-- Coluna Direita -->
         <div class="lg:col-span-7 flex flex-col gap-3 bg-brand-dark p-4 rounded-2xl border border-brand-border overflow-hidden">
-          <div class="flex justify-between items-center">
-            <span class="text-slate-400 uppercase text-[10px] font-semibold">Escolha a "casinha" (cartão) para alocar a foto atual:</span>
-            <span id="linker-cards-count-badge" class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2.5 py-0.5 rounded-full border border-emerald-500/30 font-bold">0 cartões encontrados</span>
+          <div class="flex flex-wrap justify-between items-center gap-2">
+            <span class="text-slate-400 uppercase text-[10px] font-semibold">Escolha a "casinha" (cartão):</span>
+            <div class="flex items-center gap-2">
+              <label class="flex items-center gap-1.5 cursor-pointer text-[10px] text-amber-300 font-bold bg-amber-500/10 px-2.5 py-1 rounded-full border border-amber-500/30">
+                <input type="checkbox" id="linker-only-missing" onchange="renderLinkerCardsItems()" class="accent-amber-500"> Só Sem Foto
+              </label>
+              <span id="linker-cards-count-badge" class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2.5 py-0.5 rounded-full border border-emerald-500/30 font-bold">0 cartões</span>
+            </div>
           </div>
 
           <div class="relative">
@@ -950,6 +953,7 @@
       
       const suggestedPath = `fotos/${opFolder}/${file.name}`;
       document.getElementById('f-image').value = suggestedPath;
+      event.target.value = '';
     }
 
     function saveCard(event) {
@@ -1057,11 +1061,18 @@
       closeExportModal();
     }
 
-    // VINCULADOR RÁPIDO COM FILA DINÂMICA (FOTO VINCULADA SOME DA LISTA)
+    // VINCULADOR RÁPIDO (CORRIGIDO)
     function openLinkerModal() {
       populateOperatorSelect();
+      if (selectedOp !== 'Todos') {
+        const opSelect = document.getElementById('linker-op-select');
+        const matchingOption = Array.from(opSelect.options).find(opt => matchOperator(opt.value, selectedOp));
+        if (matchingOption) opSelect.value = matchingOption.value;
+      }
       linkerFiles = [];
       linkerCurrentIndex = 0;
+      const fileInput = document.getElementById('linker-file-input');
+      if (fileInput) fileInput.value = '';
       updateLinkerPreview();
       updateLinkerCardsList();
       document.getElementById('linker-modal').classList.remove('hidden');
@@ -1075,29 +1086,21 @@
     }
 
     function handleLinkerFiles(event) {
-      const files = Array.from(event.target.files);
+      const files = Array.from(event.target.files || []);
       if (files.length === 0) return;
-      
-      // Carrega apenas os arquivos cujos nomes (sem extensão) ainda NÃO estão vinculados a nenhum cartão ativo
+
       linkerFiles = files.map(file => {
-        const baseName = file.name.substring(0, file.name.lastIndexOf('.')) || file.name;
+        const lastDot = file.name.lastIndexOf('.');
+        const baseName = lastDot > 0 ? file.name.substring(0, lastDot) : file.name;
         return {
           name: file.name,
           baseName: baseName.toLowerCase(),
           url: URL.createObjectURL(file)
-        }
-      }).filter(fileObj => {
-        const alreadyLinked = cards.some(c => {
-          if (!c.image) return false;
-          const parts = c.image.split('/');
-          const imgFileName = parts[parts.length - 1].toLowerCase();
-          const imgBaseName = imgFileName.substring(0, imgFileName.lastIndexOf('.')) || imgFileName;
-          return imgBaseName === fileObj.baseName;
-        });
-        return !alreadyLinked; // Se já está vinculado, some da lista de pendentes!
+        };
       });
 
       linkerCurrentIndex = 0;
+      event.target.value = '';
       updateLinkerPreview();
     }
 
@@ -1105,7 +1108,7 @@
       const container = document.getElementById('linker-preview-container');
       const counter = document.getElementById('linker-preview-counter');
       if (linkerFiles.length === 0) {
-        container.innerHTML = `<span class="text-slate-500 italic text-[11px]">Todas as fotos foram vinculadas!</span>`;
+        container.innerHTML = `<span class="text-slate-500 italic text-[11px]">Nenhuma foto pendente na fila.</span>`;
         counter.innerText = `0 pendentes`;
         return;
       }
@@ -1114,7 +1117,7 @@
       }
       const current = linkerFiles[linkerCurrentIndex];
       container.innerHTML = `<img src="${current.url}" class="max-h-full max-w-full object-contain rounded">`;
-      counter.innerText = `Foto ${linkerCurrentIndex + 1} de ${linkerFiles.length} (${current.name})`;
+      counter.innerText = `Foto ${linkerCurrentIndex + 1} de ${linkerFiles.length}: ${current.name}`;
     }
 
     function linkerPrevPhoto() {
@@ -1136,22 +1139,27 @@
     function renderLinkerCardsItems() {
       const opSelect = document.getElementById('linker-op-select');
       const searchInput = document.getElementById('linker-search-input');
+      const onlyMissingChk = document.getElementById('linker-only-missing');
       const container = document.getElementById('linker-cards-scroll-container');
       const countBadge = document.getElementById('linker-cards-count-badge');
 
       if (!opSelect || !container) return;
       const opName = opSelect.value;
       const query = normalizeText(searchInput ? searchInput.value : '');
+      const onlyMissing = onlyMissingChk ? onlyMissingChk.checked : false;
 
       let opCards = cards.filter(c => matchOperator(c.operator, opName));
+      if (onlyMissing) {
+        opCards = opCards.filter(c => !c.image || c.image.trim() === '' || c.imageHasError);
+      }
       if (query) {
         opCards = opCards.filter(c => normalizeText(c.title).includes(query) || normalizeText(c.ref).includes(query) || normalizeText(c.serie).includes(query));
       }
 
-      countBadge.innerText = `${opCards.length} cartões encontrados`;
+      countBadge.innerText = `${opCards.length} cartões`;
 
       if (opCards.length === 0) {
-        container.innerHTML = `<div class="text-center py-12 text-slate-500 italic text-xs">Nenhum cartão encontrado para esta operadora.</div>`;
+        container.innerHTML = `<div class="text-center py-12 text-slate-500 italic text-xs">Nenhum cartão encontrado com esses filtros.</div>`;
         return;
       }
 
@@ -1172,7 +1180,7 @@
                 <p class="text-[10px] text-brand-cyan font-mono">${c.ref || 'S/Ref'} &bull; <span class="${hasPhoto ? 'text-emerald-400' : 'text-amber-400'}">${hasPhoto ? 'Com Foto' : 'Sem Foto'}</span></p>
               </div>
             </div>
-            <button onclick="bindLinkerPhotoToCard('${c.id}', '${suggestedPath}')" class="px-3 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs whitespace-nowrap shadow flex items-center gap-1.5 flex-shrink-0">
+            <button type="button" onclick="bindLinkerPhotoToCard('${c.id}', '${suggestedPath}')" class="px-3 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs whitespace-nowrap shadow flex items-center gap-1.5 flex-shrink-0">
               <i class="fa-solid fa-link text-[10px]"></i> Vincular JPG
             </button>
           </div>
@@ -1182,7 +1190,7 @@
 
     function bindLinkerPhotoToCard(cardId, defaultPath) {
       let finalPath = defaultPath;
-      let linkedBaseName = '';
+      let linkedUrl = '';
 
       if (linkerFiles.length > 0) {
         const currentFile = linkerFiles[linkerCurrentIndex];
@@ -1190,7 +1198,7 @@
         let opFolder = normalizeText(opSelect.value).replace(/\s+/g, '_');
         if (opFolder.includes('brasil')) opFolder = 'brasil_telecom';
         finalPath = `fotos/${opFolder}/${currentFile.name}`;
-        linkedBaseName = currentFile.baseName;
+        linkedUrl = currentFile.url;
       }
 
       const c = cards.find(item => item.id === cardId);
@@ -1211,9 +1219,8 @@
         }
       }
 
-      // Remove a foto vinculada da lista de arquivos pendentes para ela sumir na hora!
-      if (linkedBaseName) {
-        linkerFiles = linkerFiles.filter(f => f.baseName !== linkedBaseName);
+      if (linkerFiles.length > 0) {
+        linkerFiles.splice(linkerCurrentIndex, 1);
         if (linkerCurrentIndex >= linkerFiles.length && linkerFiles.length > 0) {
           linkerCurrentIndex = linkerFiles.length - 1;
         }
