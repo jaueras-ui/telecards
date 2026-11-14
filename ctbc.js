@@ -1,12 +1,4 @@
 window.ctbcData = [
-{"id":"custom-1794685532537","title":"Pascoa, Chocolate e Diversao - Coelhinho escondido","serie":"Serie Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.02.jpg","type":"Avulso","imageHasError":false},
-{"id":"custom-1794685618625","title":"Pascoa, Chocolate e Diversao - Familia e crianca fantasiada","serie":"Serie Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.06","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.06.jpg","type":"Avulso"},
-{"id":"custom-1794685687627","title":"Pascoa, Chocolate e Diversao - Menina com ovos de pascoa","serie":"Serie Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.08","operator":"CTBC","price":2,"image":"fotos/ctbc/029-CT-PAS-AV.08.jpg","type":"Avulso"},
-{"id":"custom-1794685762711","title":"Pascoa, Chocolate e Diversao - Abraço","serie":"Serie Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.11","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.11.jpg","type":"Avulso"},
-{"id":"custom-1794685762711","title":"Pascoa, Chocolate e Diversao - Abraço","serie":"Serie Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.11","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.11.jpg","type":"Avulso"},
-{"id":"custom-1794685687627","title":"Pascoa, Chocolate e Diversao - Menina com ovos de pascoa","serie":"Serie Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.08","operator":"CTBC","price":2,"image":"fotos/ctbc/029-CT-PAS-AV.08.jpg","type":"Avulso"},
-{"id":"custom-1794685618625","title":"Pascoa, Chocolate e Diversao - Familia e crianca fantasiada","serie":"Serie Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.06","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.06.jpg","type":"Avulso"},
-{"id":"custom-1794685532537","title":"Pascoa, Chocolate e Diversao - Coelhinho escondido","serie":"Serie Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.02.jpg","type":"Avulso"},
 {"id":"001-CT-CTBC-AV.0101","title":"Baloes coloridos / card nº 1","serie":"CTBC 52 anos","ref":"001-CT-CTBC-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/001-CT-CTBC-AV.01.jpg","type":"Avulso"},
 {"id":"002-CT-PROP-AV.0101","title":"Feliz Natal 99 / card nº 1","serie":"Propaganda","ref":"002-CT-PROP-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/002-CT-PROP-AV.01.jpg","type":"Avulso"},
 {"id":"003-CT-CRI-AV.0303","title":"Crianca vestida de Batman / card nº 3","serie":"Crianca 2004","ref":"003-CT-CRI-AV.03","operator":"CTBC","price":0.5,"image":"fotos/ctbc/003-CT-CRI-AV.03.jpg","type":"Avulso"},
@@ -29,7 +21,7 @@ window.ctbcData = [
 {"id":"013-CT-A2004-AV.0202","title":"Feliz 2004 / card nº 2","serie":"Ano Novo 2004","ref":"013-CT-A2004-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/013-CTBC-A2004-AV02.jpg","type":"Avulso"},
 {"id":"014-CT-A2003-AV.0101","title":"Feliz Ano Novo / card nº 1","serie":"Ano Novo 2003","ref":"014-CT-A2003-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/014-CTBC-A2003-AV01.jpg","type":"Avulso"},
 {"id":"015-CT-LTE-AV.0101","title":"Lista telefonica 1998 - verde / card nº 1","serie":"Lista Telefonica","ref":"015-CT-LTE-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/015-CTBC-LTE-AV01.jpg","type":"Avulso"},
-{"id":"016-CT-12L-AV.0202","title":"De SP a BH / card nº 2","serie":"12 e a nossa ligacao","ref":"016-CT-12L-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/016-CTBC-12L-AV02.jpg","type":"Avulso"},
+{"id":"016-CT-12L-AV.0202","title":"De SP a BH / card nº 2","serie":"12 e a nossa ligacao","ref":"016-CT-12L-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/016-CT-12L-AV02.jpg","type":"Avulso"},
 {"id":"017-CT-IND-AV.0101","title":"Dia do Indio / card nº 1","serie":"Dia do ìndio","ref":"017-CT-IND-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/017-CTBC-IND-C.jpg","type":"Avulso"},
 {"id":"018-CT-PAI-AV.0101","title":"Amizade / card nº 1","serie":"Pais","ref":"018-CT-PAI-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/018-CTBC-PAI-AV01.jpg","type":"Avulso"},
 {"id":"019-CT-N2004-AV.0101","title":"Papai Noel / card nº 1","serie":"Natal CTBC 2004","ref":"019-CT-N2004-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/019-CTBC-N2004-AV01.jpg","type":"Avulso"},
@@ -57,5 +49,9 @@ window.ctbcData = [
 {"id":"028-CT-AMI-AV.0909","title":"Lembrancas num disquete / card nº 9","serie":"Amigos","ref":"028-CT-AMI-AV.09","operator":"CTBC","price":0.5,"image":"fotos/ctbc/028-CTBC-AMI-AV09.jpg","type":"Avulso"},
 {"id":"028-CT-AMI-AV.1010","title":"Adoro receber mensagens / card nº 10","serie":"Amigos","ref":"028-CT-AMI-AV.10","operator":"CTBC","price":0.5,"image":"fotos/ctbc/028-CTBC-AMI-AV10.jpg","type":"Avulso"},
 {"id":"028-CT-AMI-AV.1111","title":"É bom ter amigos  / card nº 11","serie":"Amigos","ref":"028-CT-AMI-AV.11","operator":"CTBC","price":0.5,"image":"fotos/ctbc/028-CTBC-AMI-AV11.jpg","type":"Avulso"},
-{"id":"028-CT-AMI-AV.1212","title":"Regra nº um: ligue / card nº 12","serie":"Amigos","ref":"028-CT-AMI-AV.12","operator":"CTBC","price":0.5,"image":"fotos/ctbc/028-CTBC-AMI-AV12.jpg","type":"Avulso"}
+{"id":"028-CT-AMI-AV.1212","title":"Regra nº um: ligue / card nº 12","serie":"Amigos","ref":"028-CT-AMI-AV.12","operator":"CTBC","price":0.5,"image":"fotos/ctbc/028-CTBC-AMI-AV12.jpg","type":"Avulso"},
+{"id":"029-CT-PAS-AV.0202","title":"Coelhinho escondido / card nº 2","serie":"Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.02.jpg","type":"Avulso"},
+{"id":"029-CT-PAS-AV.0606","title":"Familia e crianca fantasiada / card nº 6","serie":"Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.06","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.06.jpg","type":"Avulso"},
+{"id":"029-CT-PAS-AV.0808","title":"Menina com ovos de pascoa / card nº 8","serie":"Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.08","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.08.jpg","type":"Avulso"},
+{"id":"029-CT-PAS-AV.1111","title":"Abraço / card nº 11","serie":"Pascoa, Chocolate e Diversao","ref":"029-CT-PAS-AV.11","operator":"CTBC","price":0.5,"image":"fotos/ctbc/029-CT-PAS-AV.11.jpg","type":"Avulso"}
 ];
