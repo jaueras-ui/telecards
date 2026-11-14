@@ -363,7 +363,7 @@
     </div>
   </div>
 
-  <!-- MODAL EXPORTAR JS (CORRIGIDO COM AVISO E TECLA ENTER) -->
+  <!-- MODAL EXPORTAR JS -->
   <div id="export-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
     <div class="bg-brand-card p-6 rounded-3xl max-w-md w-full space-y-4 border border-brand-border shadow-2xl text-xs flex flex-col">
       <div class="flex justify-between items-center border-b border-brand-border pb-3">
@@ -991,7 +991,7 @@
       renderCatalog();
     }
 
-    // EXPORTAR JS COM BUSCA ROBUSTA E AVISO VISUAL
+    // EXPORTAR JS COM BUSCA ROBUSTA, TECLA ENTER E DOWNLOAD DIRETO DO FILTRO
     function openExportModal() {
       const container = document.getElementById('export-checkboxes-container');
       const searchInput = document.getElementById('export-search-input');
@@ -1073,12 +1073,23 @@
 
     function downloadSelectedJS() {
       const checkboxes = document.querySelectorAll('.export-op-chk:checked');
-      if (checkboxes.length === 0) {
-        alert('Marque pelo menos uma operadora ou clique no botão "Baixar" ao lado do nome dela.');
+      if (checkboxes.length > 0) {
+        checkboxes.forEach(chk => downloadSingleJS(chk.value));
+        closeExportModal();
         return;
       }
-      checkboxes.forEach(chk => downloadSingleJS(chk.value));
-      closeExportModal();
+
+      const visibleItems = Array.from(document.querySelectorAll('.export-op-item')).filter(el => el.style.display !== 'none');
+      if (visibleItems.length === 1) {
+        const chk = visibleItems[0].querySelector('.export-op-chk');
+        if (chk) {
+          downloadSingleJS(chk.value);
+          closeExportModal();
+          return;
+        }
+      }
+
+      alert('Marque pelo menos uma operadora ou digite o nome exato dela (ex: CTBC) para baixar.');
     }
 
     // VINCULADOR RÁPIDO
