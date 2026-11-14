@@ -21,7 +21,7 @@ window.ctbcData = [
 {"id":"013-CT-A2004-AV.0202","title":"Feliz 2004 / card nº 2","serie":"Ano Novo 2004","ref":"013-CT-A2004-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/013-CTBC-A2004-AV02.jpg","type":"Avulso"},
 {"id":"014-CT-A2003-AV.0101","title":"Feliz Ano Novo / card nº 1","serie":"Ano Novo 2003","ref":"014-CT-A2003-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/014-CTBC-A2003-AV01.jpg","type":"Avulso"},
 {"id":"015-CT-LTE-AV.0101","title":"Lista telefonica 1998 - verde / card nº 1","serie":"Lista Telefonica","ref":"015-CT-LTE-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/015-CTBC-LTE-AV01.jpg","type":"Avulso"},
-{"id":"016-CT-12L-AV.0202","title":"De SP a BH / card nº 2","serie":"12 e a nossa ligacao","ref":"016-CT-12L-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/016-CT-12L-AV02.jpg","type":"Avulso"},
+{"id":"016-CT-12L-AV.0202","title":"De SP a BH / card nº 2","serie":"12 e a nossa ligacao","ref":"016-CT-12L-AV.02","operator":"CTBC","price":0.5,"image":"fotos/ctbc/016-CTBC-12L-AV02.jpg","type":"Avulso"},
 {"id":"017-CT-IND-AV.0101","title":"Dia do Indio / card nº 1","serie":"Dia do ìndio","ref":"017-CT-IND-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/017-CTBC-IND-C.jpg","type":"Avulso"},
 {"id":"018-CT-PAI-AV.0101","title":"Amizade / card nº 1","serie":"Pais","ref":"018-CT-PAI-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/018-CTBC-PAI-AV01.jpg","type":"Avulso"},
 {"id":"019-CT-N2004-AV.0101","title":"Papai Noel / card nº 1","serie":"Natal CTBC 2004","ref":"019-CT-N2004-AV.01","operator":"CTBC","price":0.5,"image":"fotos/ctbc/019-CTBC-N2004-AV01.jpg","type":"Avulso"},
