@@ -1,4 +1,5 @@
 window.brasiltelecomData = [
+{"id":"custom-1794969153976","title":"Propaganda - Cartao de 8,73","serie":"Propaganda","ref":"1000-BT-PRO4-AV65","operator":"Brasil Telecom","price":0.5,"image":"fotos/brasil_telecom/1000-BT-PRO4-AV65.jpg","type":"Avulso","imageHasError":false},
 {"id":"custom-1794967664745","title":"Propaganda - TUP Perto de você - 1","serie":"Propaganda","ref":"1000-BT-PRO4-AV64","operator":"Brasil Telecom","price":0.5,"image":"fotos/brasil_telecom/1000-BT-PRO4-AV64.jpg","type":"Avulso"},
 {"id":"001-BT-TEL-INC.06","title":"Telefones - INC.06","serie":"Telefones","ref":"001-BT-TEL-INC.06","operator":"Brasil Telecom","price":3,"image":"fotos/brasil_telecom/001-BT-TEL-INC.jpg","type":"Avulso"},
 {"id":"001-BT-TEL-AV06","title":"Telefones - AV06","serie":"Telefones","ref":"001-BT-TEL-AV06","operator":"Brasil Telecom","price":0.5,"image":"fotos/brasil_telecom/001-BT-TEL-AV06.jpg","type":"Avulso"},
