@@ -14,7 +14,7 @@ window.crtData = [
 {"id":"002-CRT-BEL-AV10","title":"- Ourico branco","serie":"Série Belezas do Mar","ref":"002-CRT-BEL-AV.10","operator":"CRT","price":0.5,"image":"fotos/crt/002-CRT-BEL-AV.10.jpg","type":"Avulso"},
 {"id":"003-CRT-PROP-AV01","title":"- Casa de Cultura V. Aires","serie":"Série Propaganda ","ref":"003-CRT-PROP-AV.01","operator":"CRT","price":0.5,"image":"fotos/crt/003-CRT-PROP-AV.01.jpg","type":"Avulso"},
 {"id":"003-CRT-PROP-AV02","title":"- Dia do Bombeiro","serie":"Série Propaganda","ref":"003-CRT-PROP-AV.02","operator":"CRT","price":0.5,"image":"fotos/crt/003-CRT-PROP-AV.02.jpg","type":"Avulso"},
-{"id":"004-CRT-DES-C","title":"Desenho -C.06 - COMPLETA","serie":"Série Desenho","ref":"004-CRT-DES-C.06","operator":"CRT","price":3.5,"image":"fotos/crt/004-CRT-DES-C.06.jpg","type":"Completa"},
+{"id":"004-CRT-DES-C","title":"Desenho - C.06 - COMPLETA","serie":"Série Desenho","ref":"004-CRT-DES-C.06","operator":"CRT","price":3.5,"image":"fotos/crt/004-CRT-DES-C.06.jpg","type":"Completa","imageHasError":false},
 {"id":"004-CRT-DES-AV03","title":"- Gasometro 1926","serie":"Série Desenho","ref":"004-CRT-DES-AV.03","operator":"CRT","price":0.5,"image":"fotos/crt/004-CRT-DES-AV.03.jpg","type":"Avulso"},
 {"id":"004-CRT-DES-AV06","title":"- Igreja das Dores","serie":"Série Desenho","ref":"004-CRT-DES-AV.06","operator":"CRT","price":0.5,"image":"fotos/crt/004-CRT-DES-AV.06.jpg","type":"Avulso"},
 {"id":"005-CRT-CID-AV01","title":"- Cachoeira do Sul","serie":"Série Cidades Gaúchas","ref":"005-CRT-CID-AV.01","operator":"CRT","price":0.5,"image":"fotos/crt/005-CRT-CID-AV.01.jpg","type":"Avulso"},

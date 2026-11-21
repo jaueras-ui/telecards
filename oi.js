@@ -6,7 +6,7 @@ window.oiData = [
 {"id":"001-OI-AZUL-AV04","title":"OI - ALICATE - Conj. Azul","serie":"Série Conj. Azul","ref":"001-OI-AZUL-AV04","operator":"Oi","price":0.5,"image":"fotos/oi/001-OI-AZUL-AV04.jpg","type":"Avulso"},
 {"id":"001-OI-AZUL-AV05","title":"OI - ALGEMA - Conj. Azul","serie":"Série Conj. Azul","ref":"001-OI-AZUL-AV05","operator":"Oi","price":0.5,"image":"fotos/oi/001-OI-AZUL-AV05.jpg","type":"Avulso"},
 {"id":"001-OI-AZUL-AV06","title":"OI - ALGEMAS MAIORES -Conj. Azul","serie":"Série Conj. Azul","ref":"001-OI-AZUL-AV06","operator":"Oi","price":0.5,"image":"fotos/oi/001-OI-AZUL-AV06.jpg","type":"Avulso"},
-{"id":"002-OI-VERDE-C","title":"OI - Série Conj. - Verde -C. 10 - COMPLETA","serie":"Série Conj. Verde","ref":"002-OI-VERDE-C","operator":"Oi","price":5.5,"image":"fotos/oi/002-OI-VERDE-C.jpg","type":"Completa"},
+{"id":"002-OI-VERDE-C","title":"OI - Série Conj. - Verde - C. 10 - COMPLETA","serie":"Série Conj. Verde","ref":"002-OI-VERDE-C","operator":"Oi","price":5.5,"image":"fotos/oi/002-OI-VERDE-C.jpg","type":"Completa","imageHasError":false},
 {"id":"002-OI-VERDE-AV01","title":"- Capa - Oi, RS","serie":"Série Conj. Verde","ref":"002-OI-VERDE-AV01","operator":"Oi","price":0.5,"image":"fotos/oi/002-OI-VERDE-AV01.jpg","type":"Avulso"},
 {"id":"002-OI-VERDE-AV02","title":"OI - Mulher com algemas","serie":"Série Conj. Verde","ref":"002-OI-VERDE-AV02","operator":"Oi","price":0.5,"image":"fotos/oi/002-OI-VERDE-AV02.jpg","type":"Avulso"},
 {"id":"002-OI-VERDE-AV03","title":"OI - Mulher sorrindo","serie":"Série Conj. Verde","ref":"002-OI-VERDE-AV03","operator":"Oi","price":0.5,"image":"fotos/oi/002-OI-VERDE-AV03.jpg","type":"Avulso"},
@@ -20,6 +20,6 @@ window.oiData = [
 {"id":"003-OI-LAR-AV06","title":"OI - Conj. Laranja - Como utilizar os creditos","serie":"Série Conj. Laranja","ref":"003-OI-LAR-AV06","operator":"Oi","price":0.5,"image":"fotos/oi/003-OI-LAR-AV06.jpg","type":"Avulso"},
 {"id":"003-OI-LAR-AV07","title":"OI - Conj. Laranja - OI, MS","serie":"Série Conj. Laranja","ref":"003-OI-LAR-AV07","operator":"Oi","price":0.5,"image":"fotos/oi/003-OI-LAR-AV07.jpg","type":"Avulso"},
 {"id":"003-OI-LAR-AV08","title":"OI - Conj. Laranja - Chip grande em destaque","serie":"Série Conj. Laranja","ref":"003-OI-LAR-AV08","operator":"Oi","price":0.5,"image":"fotos/oi/003-OI-LAR-AV08.jpg","type":"Avulso"},
-{"id":"003-OI-LAR-AV09","title":"OI - Série Conj. Laranja - Oi, a partir de R$ 1","serie":"Série Conj. Laranja","ref":"003-OI-LAR-AV09","operator":"Oi","price":0.5,"image":"fotos/oi/003-OI-LAR-AV09.jpg","type":"Completa"},
+{"id":"003-OI-LAR-AV09","title":"OI - Série Conj. Laranja - Oi, a partir de R$ 1","serie":"Série Conj. Laranja","ref":"003-OI-LAR-AV09","operator":"Oi","price":0.5,"image":"fotos/oi/003-OI-LAR-AV09.jpg","type":"Completa","imageHasError":false},
 {"id":"003-OI-LAR-AV10","title":"OI - Conj. Laranja - Capa","serie":"Série Conj. Laranja","ref":"003-OI-LAR-AV10","operator":"Oi","price":0.5,"image":"fotos/oi/003-OI-LAR-AV10.jpg","type":"Avulso"}
 ];
